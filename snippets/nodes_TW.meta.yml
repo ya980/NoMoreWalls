@@ -10,13 +10,19 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
-  port: 30813
-  server: v13.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇨🇳 台湾 02'
+  network: ws
+  port: 10443
+  security: tls
+  server: 112.170.171.170
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443fp=chrome
 - alterId: 0
   cipher: auto
   name: '[B] 🇨🇳 台湾 03'
@@ -29,61 +35,9 @@ proxies:
     headers:
       Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 04'
-  network: ws
-  port: 16616
-  server: m.cnmjin.net
-  type: vmess
-  udp: true
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  name: '[B] 🇨🇳 台湾 05'
-  network: ws
-  port: 2087
-  server: 172.67.76.40
-  servername: mybloh.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: mybloh.ccwu.cc
-    path: /proxyip=223.165.4.57,167.253.153.147,114.33.57.170
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 06'
-  network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- name: '[B] 🇨🇳 台湾 07'
-  network: ws
-  port: 17820
-  server: s5.db-link.in
-  servername: 48afa0c5c9.shopify.com
-  skip-cert-verify: true
-  type: vless
-  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
-  ws-opts:
-    headers:
-      Host: 48afa0c5c9.shopify.com
-    path: /db102448afa0c5c9fp=chromefp=chromesecurity=tls
 - alterId: 2
   cipher: auto
-  name: '[G] 🇨🇳 台湾 08'
+  name: '[G] 🇨🇳 台湾 04'
   network: tcp
   port: 30813
   server: v13.zgtfqs.click
