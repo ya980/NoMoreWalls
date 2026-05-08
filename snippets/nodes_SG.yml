@@ -1,52 +1,70 @@
 proxies:
-- alterId: '0'
+- alterId: 0
   cipher: auto
   name: '[B] 🇸🇬 新加坡 01'
   network: ws
-  port: 16618
-  server: planb.mojcn.com
-  skip-cert-verify: false
-  tls: false
+  port: 443
+  server: node33.ourfast.asia
+  servername: node33.ourfast.asia
+  tls: true
   type: vmess
-  udp: true
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  uuid: 8c8fb661-7b16-49ef-aabb-dad053397c8d
   ws-opts:
     headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+      Host: node33.ourfast.asia
     path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 03'
+- name: '[B] 🇸🇬 新加坡 02'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 57606
-  server: 89.34.227.238
+  port: 443
+  server: 27.50.48.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 04'
+- name: '[B] 🇸🇬 新加坡 03'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 22000
-  server: 47.79.237.236
+  port: 443
+  server: 43.134.174.114
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
+- name: '[B] 🇸🇬 新加坡 04'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 188.166.217.179
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
 - name: '[B] 🇸🇬 新加坡 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 47.82.155.79
+  port: 443
+  server: 47.82.178.58
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
+- name: '[B] 🇸🇬 新加坡 07'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 167.172.68.31
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -55,69 +73,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 09'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.234.53
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 11'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.239.9.91
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 16'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 143.198.213.40
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 17'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 178.128.97.53
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 18'
-  network: ws
-  port: 16618
-  server: m.cnmjin.net
-  type: vmess
-  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
-  ws-opts:
-    headers:
-      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
-    path: /
-- name: '[B] 🇸🇬 新加坡 19'
+- name: '[B] 🇸🇬 新加坡 08'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -130,20 +86,106 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 20'
+- name: '[B] 🇸🇬 新加坡 09'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 178.128.60.89
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇸🇬 新加坡 10'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 209.97.171.87
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇸🇬 新加坡 12'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 139.162.61.34
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇸🇬 新加坡 13'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 159.89.205.195
+  server: 164.52.2.98
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 14'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 167.71.222.177
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 16'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 194.233.67.84
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 20'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 194.233.68.198
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 22'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 139.99.124.165
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇸🇬 新加坡 26'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 154.26.128.147
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 26'
+  name: '[B] 🇸🇬 新加坡 27'
   port: 51556
   server: 103.181.164.145
   type: vmess
@@ -172,3 +214,19 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: '0'
+  cipher: auto
+  name: '[G] 🇸🇬 新加坡 32'
+  network: ws
+  port: 16618
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  ws-opts:
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+    path: /
+  xudp: true
