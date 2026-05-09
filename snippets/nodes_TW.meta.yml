@@ -6,13 +6,18 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: '[B] 🇨🇳 台湾 02'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- encryption: none
+  name: '[B] 🇨🇳 台湾 02'
+  network: ws
+  port: 10443
+  server: 112.170.171.170
+  servername: tptpss.pages.dev
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443fp=chromesecurity=tls
 - alterId: 2
   cipher: auto
   name: '[B] 🇨🇳 台湾 03'
@@ -20,23 +25,31 @@ proxies:
   server: v13.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇨🇳 台湾 04'
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 04'
+  port: 30811
+  server: v11.zgtfqs.click
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇨🇳 台湾 05'
   network: ws
   port: 17820
-  security: tls
   server: s5.db-link.in
   servername: 48afa0c5c9.shopify.com
   skip-cert-verify: true
-  tls: true
   type: vless
   uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
   ws-opts:
     headers:
       Host: 48afa0c5c9.shopify.com
-    path: /db102448afa0c5c9fp=chromefp=chrome
+    path: /db102448afa0c5c9fp=chromefp=chromesecurity=tls
 - alterId: '0'
   cipher: auto
-  name: '[G] 🇨🇳 台湾 05'
+  name: '[G] 🇨🇳 台湾 06'
   network: ws
   port: '16616'
   server: m.cnmjin.net
@@ -52,7 +65,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '[G] 🇨🇳 台湾 06'
+  name: '[G] 🇨🇳 台湾 07'
   network: ws
   port: '16616'
   server: planb.mojcn.com
@@ -68,7 +81,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[G] 🇨🇳 台湾 07'
+  name: '[G] 🇨🇳 台湾 08'
   network: ws
   port: 16616
   server: t.cnmjcn.cyou
