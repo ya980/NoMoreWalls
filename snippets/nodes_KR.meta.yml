@@ -1,24 +1,33 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: '[G] 🇰🇷 韩国 03'
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-kr-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-001.fastervpn.world
-  type: hysteria2
-  up: ''
 - client-fingerprint: firefox
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: '[G] 🇰🇷 韩国 04'
+  name: '[G] 🇰🇷 韩国 01'
   network: ws
-  port: 18086
-  server: 211.199.7.162
+  port: 12203
+  server: 61.40.111.252
+  servername: psp09.data.chinav.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: psp09.data.chinav.eu.org
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: '[G] 🇰🇷 韩国 02'
+  network: ws
+  port: 11211
+  server: 211.33.71.215
   servername: psp09.data.chinav.eu.org
   skip-cert-verify: false
   tfo: false
