@@ -1,15 +1,71 @@
 proxies:
 - name: '[B] 🇨🇳 台湾 01'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 114.33.57.170
-  sni: 🔒
+  port: 16443
+  server: 114.32.9.249
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇨🇳 台湾 02'
+  network: ws
+  port: 443
+  security: tls
+  server: 1.161.50.87
+  servername: gogo5.kmj.qzz.io
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: gogo5.kmj.qzz.io
 - alterId: 2
   cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
+  name: '[B] 🇨🇳 台湾 03'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 04'
+  network: ws
+  port: 16616
+  server: m.cnmjin.net
+  type: vmess
+  uuid: f365630d-15b5-4bd4-ad55-aa6284d7be30
+  ws-opts:
+    headers:
+      Host: 8a687da9458cc46e80abc85ec8d8ada7.mobgslb.tbcache.com
+    path: /
+- client-fingerprint: chrome
+  name: '[B] 🇨🇳 台湾 05'
+  network: ws
+  port: 443
+  server: 114.33.57.170
+  servername: 1-aym.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-aym.pages.dev
+    path: /
+- name: '[B] 🇨🇳 台湾 06'
+  network: ws
+  port: 443
+  security: tls
+  server: 188.253.6.139
+  servername: psp09.data.chinav.eu.org
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560fp=firefox
