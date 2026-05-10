@@ -1,19 +1,19 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
+- client-fingerprint: chrome
+  name: '[B] 🇭🇰 香港 01'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 8.223.63.189
+  server: 47.76.218.163
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: '[B] 🇭🇰 香港 04'
+- name: '[B] 🇭🇰 香港 03'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -24,7 +24,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇭🇰 香港 05'
+- name: '[B] 🇭🇰 香港 06'
   password: 8r%3C%5B9%27l6hAO%238ZQi
   port: 443
   server: 154.92.9.253
@@ -33,24 +33,69 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 12'
-  network: ws
-  port: 31000
-  server: lz1.sntran.net
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '[B] 🇭🇰 香港 08'
+  network: http
+  port: 56972
+  server: 154.37.223.19
   type: vmess
-  uuid: f70ee34a-36dc-40f3-8cd4-928df3938002
-  ws-opts:
-    headers:
-      Host: v.qq.com
-    path: /images
-- name: '[B] 🇭🇰 香港 15'
-  password: BxceQaOe
-  port: 11233
-  server: bb.bejkn.cn
+  uuid: ae225455-5e8c-491d-d931-c06ac56f4aee
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  h2-opts: {}
+  http-opts:
+    method: GET
+    path:
+    - /QQqun-737805443
+  name: '[B] 🇭🇰 香港 09'
+  network: http
+  port: 52080
+  server: 154.37.223.19
+  type: vmess
+  uuid: 16deda2c-b18b-4689-b83d-b333d92595b2
+- name: '[B] 🇭🇰 香港 12'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 154.38.116.8
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 13'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 143.20.204.5
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 14'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.235.36.50
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳
 - name: '[B] 🇭🇰 香港 16'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -64,23 +109,28 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - name: '[B] 🇭🇰 香港 17'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16396
+  server: 38.207.160.213
+  sni: 🔒
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 18'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.235.36.50
+  port: 26546
+  server: 38.207.173.72
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳
+    path: /trTelegram🇨🇳 @WangCai2
 - name: '[B] 🇭🇰 香港 19'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 219.76.13.166
+  port: 46639
+  server: 192.131.142.161
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -90,19 +140,6 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - name: '[B] 🇭🇰 香港 21'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 2.56.91.49
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇭🇰 香港 22'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -117,26 +154,21 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 23'
-  network: tcp
-  port: 11966
-  server: board-02.ddnskunlun.com
-  servername: board-02.ddnskunlun.com
-  skip-cert-verify: false
-  tls: false
+  name: '[B] 🇭🇰 香港 24'
+  port: 54022
+  server: 103.181.164.145
   type: vmess
-  udp: true
-  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 26'
+  name: '[E] 🇭🇰 香港 25'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 27'
+- name: '[E] 🇭🇰 香港 26'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 53018
@@ -144,7 +176,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 28'
+- name: '[E] 🇭🇰 香港 27'
   network: tcp
   password: BxceQaOe
   port: 5823
@@ -152,7 +184,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 29'
+- name: '[E] 🇭🇰 香港 28'
   network: tcp
   password: BxceQaOe
   port: 5823
@@ -162,7 +194,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 30'
+  name: '[F] 🇭🇰 香港 29'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -170,7 +202,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇭🇰 香港 31'
+- name: '[G] 🇭🇰 香港 30'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -184,7 +216,7 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: '[G] 🇭🇰 香港 33'
+  name: '[G] 🇭🇰 香港 32'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -200,19 +232,21 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 35'
+  name: '[H] 🇭🇰 香港 34'
   network: tcp
-  port: '11894'
-  server: board-02.ddnskunlun.com
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
   tls: false
   type: vmess
-  uuid: 4d6a19fd-ba4f-36c5-89ad-97224cca5484
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 36'
+  name: '[H] 🇭🇰 香港 35'
   network: tcp
   port: '54022'
   server: 103.181.164.145
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
