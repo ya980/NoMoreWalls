@@ -1,8 +1,21 @@
 proxies:
+- name: '[G] 🇰🇷 韩国 01'
+  network: ws
+  port: 10243
+  server: 211.193.169.223
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+    path: /?ed=2560
 - name: '[G] 🇰🇷 韩国 02'
   network: ws
-  port: 10332
-  server: 119.195.242.65
+  port: 18789
+  server: 210.123.143.214
   servername: sni.111000.v6.army
   tls: true
   type: vless
@@ -14,21 +27,8 @@ proxies:
     path: /?ed=2560
 - name: '[G] 🇰🇷 韩国 03'
   network: ws
-  port: 25010
-  server: 112.172.55.228
-  servername: sni.111000.v6.army
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.v6.army
-    path: /?ed=2560
-- name: '[G] 🇰🇷 韩国 04'
-  network: ws
-  port: 34599
-  server: 222.97.254.167
+  port: 37215
+  server: 222.98.185.243
   servername: sni.111000.v6.army
   tls: true
   type: vless
@@ -39,19 +39,54 @@ proxies:
       Host: sni.111000.v6.army
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: '[G] 🇰🇷 韩国 05'
+  encryption: none
+  name: '[G] 🇰🇷 韩国 04'
   network: ws
-  port: '29999'
-  server: 220.126.33.117
-  servername: igvdi.edge-node-sg.fgfw.indevs.in
+  port: 22085
+  server: 116.44.147.152
+  servername: sni.111000.v6.army
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: igvdi.edge-node-sg.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
+      Host: sni.111000.v6.army
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  name: '[G] 🇰🇷 韩国 05'
+  network: ws
+  port: '18786'
+  server: 222.97.71.115
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: '/?ed=2560 '
+  xudp: true
+- client-fingerprint: chrome
+  name: '[G] 🇰🇷 韩国 06'
+  network: ws
+  port: '10005'
+  server: 118.35.104.76
+  servername: sni.111000.v6.army
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.v6.army
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /?ed=2560
   xudp: true
