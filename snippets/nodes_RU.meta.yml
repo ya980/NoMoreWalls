@@ -2,13 +2,15 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[G] 🇷🇺 俄罗斯 01'
-  port: 52006
+  network: tcp
+  port: '52006'
   server: 82.202.249.3
   servername: cluster-russia-1.firstvideocdn.ru
   tls: true
   type: vless
   udp: true
   uuid: 75807638-6f19-07d0-ae08-38492ee85c88
+  xudp: true
 - cipher: aes-256-gcm
   name: '[H] 🇷🇺 俄罗斯 02'
   password: f34579d0148b2581
