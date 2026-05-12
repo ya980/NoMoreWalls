@@ -1,25 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[G] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: '52006'
-  server: 82.202.249.3
-  servername: cluster-russia-1.firstvideocdn.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75807638-6f19-07d0-ae08-38492ee85c88
-  xudp: true
 - cipher: aes-256-gcm
-  name: '[H] 🇷🇺 俄罗斯 02'
-  password: f34579d0148b2581
-  port: 50129
-  server: 185.22.154.104
-  type: ss
-- cipher: aes-256-gcm
-  name: '[H] 🇷🇺 俄罗斯 03'
+  name: '[H] 🇷🇺 俄罗斯 01'
   password: c5fcdf7829112cb4
   port: 30112
   server: 45.140.169.216
   type: ss
+- cipher: aes-128-gcm
+  name: '[H] 🇷🇺 俄罗斯 02'
+  password: 6784aee2-0dfe-474f-8446-480259ff9918
+  port: 442
+  server: ru.safepass.click
+  type: ss
+- name: '[H] 🇷🇺 俄罗斯 03'
+  network: tcp
+  port: 200
+  server: 85.239.59.203
+  tls: false
+  type: vless
+  uuid: 3be7ec4b-73df-442e-ba8f-ca7d4f18a4f4

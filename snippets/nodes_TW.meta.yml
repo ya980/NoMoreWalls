@@ -2,56 +2,55 @@ proxies:
 - name: '[B] 🇨🇳 台湾 01'
   network: ws
   port: 443
-  security: tls
   server: 1.161.58.221
   servername: gogo.wknm.qzz.io
-  tls: true
   type: vless
   uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
       Host: gogo.wknm.qzz.io
-    path: /fp=chrome
-- encryption: none
-  name: '[B] 🇨🇳 台湾 02'
+    path: /fp=chromesecurity=tls
+- name: '[B] 🇨🇳 台湾 02'
   network: ws
   port: 443
-  security: tls
   server: 114.33.57.170
   servername: sni.111000.v6.army
-  tls: true
   type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.v6.army
-    path: /?ed=2560
+    path: /?ed=2560security=tls
 - client-fingerprint: chrome
-  name: '[G] 🇨🇳 台湾 03'
+  name: '[B] 🇨🇳 台湾 03'
   network: ws
-  port: '43'
-  server: 220.128.110.108
-  servername: pagescm.freen6.cc.cd
+  port: 443
+  server: 114.33.57.170
+  servername: 1-aym.pages.dev
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 1-aym.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇨🇳 台湾 04'
+  network: ws
+  port: 443
+  server: 1.161.58.221
+  servername: gogo.wknm.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: pagescm.freen6.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /tags/detailsfp=chrome
+      Host: gogo.wknm.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇨🇳 台湾 04'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: 111.249.66.186
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇨🇳 台湾 05'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg001269pz2.cybervena.com
-  type: ss
