@@ -1,81 +1,124 @@
 proxies:
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
   name: '[G] 🇩🇪 德国 01'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU
-    short-id: '!!str 0123456789abcdef'
-  server: 144.31.157.163
-  servername: www.deepl.com
+  network: ws
+  port: '2083'
+  server: 162.159.153.152
+  servername: firefly-nodes.pages.dev
   tls: true
   type: vless
   udp: true
-  uuid: ae8ddd8e-00af-48e5-bd57-05074a1bbffb
+  uuid: cd229b44-e061-443e-8845-7412c6438b06
+  ws-opts:
+    headers:
+      Host: firefly-nodes.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /fireflyistrue
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
+- alpn:
+  - h3
+  disable-sni: true
   name: '[G] 🇩🇪 德国 02'
-  network: grpc
-  port: '2053'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str 23'
-  server: 89.106.83.60
-  servername: www.apple.com
-  tls: true
-  type: vless
+  password: c5533e6c-6d4f-4b01-b1c8-4fb952631e73
+  port: 25004
+  server: ed.solistrumo.com
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
   udp: true
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 03'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8
-    short-id: '!!str ad8c7a6ace2f'
-  server: 2.26.123.64
-  servername: download.spectrum.vu
-  tls: true
-  type: vless
-  udp: true
-  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 04'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str 23'
-  server: 89.106.83.40
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 629d2ccc-3a2a-4dd3-83d2-86b25fc8783e
-  xudp: true
-- client-fingerprint: chrome
-  name: '[G] 🇩🇪 德国 05'
+- name: '[G] 🇩🇪 德国 03'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: '8443'
-  server: 72.56.117.8
+  port: 2053
+  server: 185.221.198.253
   sni: Koma-YT.PAGeS.Dev
   type: trojan
-  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[G] 🇩🇪 德国 04'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 23.88.97.94
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[G] 🇩🇪 德国 05'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 37.46.19.79
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[G] 🇩🇪 德国 06'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 141.11.45.133
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[G] 🇩🇪 德国 07'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 95.179.253.213
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[G] 🇩🇪 德国 08'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 147.45.69.68
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[G] 🇩🇪 德国 09'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 94.156.179.217
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[G] 🇩🇪 德国 10'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 91.107.147.214
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇩🇪 德国 11'
+  password: w3JDLilehmBXnpPZp8Mcrj
+  port: 443
+  server: fcisisfckhfcakhfcch.outline.name
+  type: ss
