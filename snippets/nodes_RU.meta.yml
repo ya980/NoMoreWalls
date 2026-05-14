@@ -30,9 +30,20 @@ proxies:
   sni: s516.okgfw.top
   type: hysteria2
   up: ''
-- cipher: aes-256-gcm
+- cipher: aes-128-gcm
   name: '[H] 🇷🇺 俄罗斯 03'
-  password: c5fcdf7829112cb4
-  port: 30112
-  server: 45.140.169.216
+  password: 6784aee2-0dfe-474f-8446-480259ff9918
+  port: 442
+  server: 45.139.25.43
   type: ss
+- name: '[H] 🇷🇺 俄罗斯 04'
+  network: ws
+  port: 443
+  server: s28233.cdn.ngenix.net
+  tls: true
+  type: vless
+  uuid: e387b1c6-c344-Fade-b068-094f5b92aa23
+  ws-opts:
+    headers:
+      Host: s28233.cdn.ngenix.net
+    path: '%2F'
