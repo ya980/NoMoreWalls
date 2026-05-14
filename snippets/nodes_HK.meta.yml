@@ -9,7 +9,7 @@ proxies:
     _spider-x: /
     public-key: IOAu39FSiRk_VX4sfzCVZorWhUY0ikftPdHqcmNoY1c
     short-id: '!!str ebfeeffb94d5bd5d'
-  security: reality
+  security: tls
   server: 64.49.46.225
   servername: www.tesla.com
   skip-cert-verify: false
@@ -22,11 +22,24 @@ proxies:
   password: <password>
   port: 8443
   server: bc50d550-t9zts0-tbeopq-1s0a7.hkt.cdnhuawei.com
-  sni: bc50d550-t9zts0-tbeopq-1s0a7.hkt.cdnhuawei.com
   tls: true
   type: http
   username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-- name: '[B] 🇭🇰 香港 03'
+- client-fingerprint: chrome
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 47.76.218.163
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 04'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -38,29 +51,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇭🇰 香港 04'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 83.229.121.78
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: '[B] 🇭🇰 香港 05'
-  network: ws
-  port: 51102
-  server: 38.47.108.176
-  servername: sni.111000.dns.army
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dns.army
-    path: /?ed=2560
-- name: '[B] 🇭🇰 香港 06'
+- name: '[B] 🇭🇰 香港 05'
   network: ws
   port: 21505
   server: 70.39.206.127
@@ -74,39 +65,7 @@ proxies:
     headers:
       Host: sni.111000.dns.army
     path: /?ed=2560
-- name: '[B] 🇭🇰 香港 07'
-  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-  port: 5228
-  server: 320e0e0a-ta1og0-tbeopq-1s0a7.cm4.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇭🇰 香港 08'
-  port: 30813
-  server: v13.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇭🇰 香港 09'
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  port: 5228
-  server: 2c9ebdd1-t9zts0-tdt3k0-jx5r.cm4.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-- flow: xtls-rprx-vision
-  name: '[B] 🇭🇰 香港 10'
-  port: 16391
-  security: tls
-  server: sgvless.yydzx.xyz
-  servername: sgvless.yydzx.xyz
-  tls: true
-  type: vless
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- name: '[B] 🇭🇰 香港 11'
+- name: '[B] 🇭🇰 香港 06'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 23779
@@ -119,7 +78,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇭🇰 香港 12'
+- name: '[B] 🇭🇰 香港 07'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -131,7 +90,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇭🇰 香港 13'
+- name: '[B] 🇭🇰 香港 08'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -144,6 +103,49 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: chrome
+  name: '[B] 🇭🇰 香港 09'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 21505
+  server: 70.39.206.127
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 10'
+  port: 56698
+  server: 47.239.69.43
+  type: vmess
+  uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 11'
+  port: 51453
+  server: 8.210.121.88
+  type: vmess
+  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 12'
+  port: 56698
+  server: 47.239.69.43
+  type: vmess
+  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 13'
+  port: 56698
+  server: 47.239.69.43
+  type: vmess
+  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
 - alterId: 64
   cipher: auto
   name: '[B] 🇭🇰 香港 14'

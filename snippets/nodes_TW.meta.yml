@@ -2,8 +2,8 @@ proxies:
 - alterId: 2
   cipher: auto
   name: '[B] 🇨🇳 台湾 01'
-  port: 30811
-  server: v11.zgtfqs.click
+  port: 30813
+  server: v13.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
@@ -25,9 +25,9 @@ proxies:
     grpc-service-name: db
   name: '[B] 🇨🇳 台湾 03'
   network: grpc
-  password: 0a9f1f5a397bd427
+  password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.46
+  server: 125.227.86.48
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true
@@ -38,24 +38,35 @@ proxies:
     grpc-service-name: db
   name: '[B] 🇨🇳 台湾 04'
   network: grpc
-  password: 3f5bc61547b1f0d9
+  password: 0a9f1f5a397bd427
   port: 443
-  server: 125.227.86.48
+  server: 125.227.86.47
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true
   type: trojan
-- encryption: none
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
   name: '[B] 🇨🇳 台湾 05'
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.46
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- name: '[B] 🇨🇳 台湾 06'
   network: ws
-  port: 2087
+  port: 443
   security: tls
-  server: 172.67.76.40
-  servername: mybloh.ccwu.cc
+  server: 38.54.107.227
   tls: true
   type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
   ws-opts:
     headers:
-      Host: mybloh.ccwu.cc
+      Host: 3-2h8.pages.dev
     path: /
