@@ -6,3 +6,23 @@ proxies:
   skip-cert-verify: true
   sni: vpn-uk-002.fastervpn.world
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: qq
+  name: '[G] 🇬🇧 英国 02'
+  network: ws
+  port: '443'
+  server: s28233.cdn.ngenix.net
+  servername: s28233.cdn.ngenix.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3f112fc-1041-Fade-b85c-5ed478daeeb9
+  ws-opts:
+    headers:
+      Host: s28233.cdn.ngenix.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: ''
+  xudp: true

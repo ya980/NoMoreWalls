@@ -1,18 +1,31 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[B] 🇭🇰 香港 01'
-  port: 17025
-  server: 38.76.141.6
-  type: vmess
+  network: tcp
+  port: 57502
+  reality-opts:
+    _spider-x: /
+    public-key: IOAu39FSiRk_VX4sfzCVZorWhUY0ikftPdHqcmNoY1c
+    short-id: '!!str ebfeeffb94d5bd5d'
+  security: reality
+  server: 64.49.46.225
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
-  uuid: 8de68ddc-e24e-4224-9c2a-457d4a8176df
+  uuid: a4caef32-090f-4f17-b7fa-2808f205620d
+  xudp: true
 - name: '[B] 🇭🇰 香港 02'
-  password: 7c9fea7c-8def-3dd5-853a-5844f9b04146
-  port: 10777
-  server: ikuai.404.mn
-  sni: windows11.dpdns.org
-  type: trojan
+  password: <password>
+  port: 8443
+  server: bc50d550-t9zts0-tbeopq-1s0a7.hkt.cdnhuawei.com
+  sni: bc50d550-t9zts0-tbeopq-1s0a7.hkt.cdnhuawei.com
+  tls: true
+  type: http
+  username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
 - name: '[B] 🇭🇰 香港 03'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -25,107 +38,129 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 04'
-  port: 18237
-  server: 38.76.141.6
-  type: vmess
-  udp: true
-  uuid: 8de68ddc-e24e-4224-9c2a-457d4a8176df
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇭🇰 香港 05'
-  network: tcp
-  port: 22335
-  reality-opts:
-    public-key: zPM3iLhD0ppwxYWzwiXFhQd1PwXCjFN9u28DbXdy604
-    short-id: '!!str a2346cd0'
-  server: 22335.hk7.anan.cc
-  servername: www.yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a3a8c354-a85c-477b-90f3-dbe08cadf31c
-  xudp: true
-- name: '[B] 🇭🇰 香港 06'
-  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-  port: 5228
-  server: 320e0e0a-ta1og0-tbeopq-1s0a7.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇭🇰 香港 07'
-  port: 30813
-  server: v13.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇭🇰 香港 08'
-  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-  port: 5228
-  server: 2c9ebdd1-t9zts0-tdt3k0-jx5r.cm4.oshuawei.com
-  tls: true
-  type: http
-  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
-- client-fingerprint: chrome
-  name: '[B] 🇭🇰 香港 09'
-  network: tcp
-  port: 443
-  reality-opts:
-    _spider-x: /
-    public-key: udIQmQtfL5_RuM9EowSs7DEnee-IEFVFmxbkeD8jIT0
-    short-id: '!!str 95c7'
-  server: 216.57.108.20
-  servername: yahoo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec75f351-4428-4e57-ae4a-f8e546da2be7
-  xudp: true
-- name: '[B] 🇭🇰 香港 10'
-  network: ws
+- name: '[B] 🇭🇰 香港 04'
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 64.188.58.138
+  server: 83.229.121.78
   sni: Koma-YT.PAGeS.Dev
+  tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- name: '[B] 🇭🇰 香港 11'
+- client-fingerprint: chrome
+  name: '[B] 🇭🇰 香港 05'
   network: ws
-  port: 27015
-  server: 154.64.246.165
+  port: 51102
+  server: 38.47.108.176
   servername: sni.111000.dns.army
+  skip-cert-verify: false
+  tls: true
   type: vless
+  udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
       Host: sni.111000.dns.army
     path: /?ed=2560
-- name: '[B] 🇭🇰 香港 12'
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 2053
-  server: 2.56.91.49
+- name: '[B] 🇭🇰 香港 06'
+  network: ws
+  port: 21505
+  server: 70.39.206.127
+  servername: sni.111000.dns.army
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.dns.army
+    path: /?ed=2560
+- name: '[B] 🇭🇰 香港 07'
+  password: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
+  port: 5228
+  server: 320e0e0a-ta1og0-tbeopq-1s0a7.cm4.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇭🇰 香港 08'
+  port: 30813
+  server: v13.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇭🇰 香港 09'
+  password: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+  port: 5228
+  server: 2c9ebdd1-t9zts0-tdt3k0-jx5r.cm4.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: 73bfcc1c-5814-5f2a-b43a-3ef6af011db8
+- flow: xtls-rprx-vision
+  name: '[B] 🇭🇰 香港 10'
+  port: 16391
+  security: tls
+  server: sgvless.yydzx.xyz
+  servername: sgvless.yydzx.xyz
+  tls: true
+  type: vless
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: '[B] 🇭🇰 香港 11'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 23779
+  server: 149.129.91.58
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 12'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 64.188.58.138
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 13'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 219.76.13.180
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 64
+  cipher: auto
+  name: '[B] 🇭🇰 香港 14'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 13'
+  name: '[E] 🇭🇰 香港 15'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 14'
+- name: '[E] 🇭🇰 香港 16'
   network: tcp
   password: 7ebc402f3383366fe4f554abd8625439
   port: 53018
@@ -133,7 +168,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 15'
+- name: '[E] 🇭🇰 香港 17'
   network: tcp
   password: BxceQaOe
   port: 5823
@@ -143,7 +178,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 16'
+  name: '[F] 🇭🇰 香港 18'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -151,39 +186,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[G] 🇭🇰 香港 17'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.223.63.150
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[G] 🇭🇰 香港 18'
-  network: ws
-  port: 8443
-  server: 23.27.0.170
-  servername: g4y4886.mail-relay.chinam.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: g4y4886.mail-relay.chinam.indevs.in
-    max-early-data: 2560
-    path: /danfeng
