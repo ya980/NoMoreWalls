@@ -1,36 +1,86 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
   name: '[B] 🇨🇳 台湾 01'
-  network: ws
-  port: 18246
-  security: tls
-  server: 118.163.124.120
-  servername: workjoey.freen3.cc.cd
+  network: grpc
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.46
+  skip-cert-verify: true
+  sni: TG.freecodes
   tls: true
-  type: vless
-  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
-  ws-opts:
-    headers:
-      Host: workjoey.freen3.cc.cd
-    path: /?ed=2048
-- encryption: none
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
   name: '[B] 🇨🇳 台湾 02'
-  network: ws
-  port: 2087
-  security: tls
-  server: 172.67.76.40
-  servername: mybloh.ccwu.cc
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.46
+  skip-cert-verify: true
+  sni: TG.freecodes
   tls: true
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: mybloh.ccwu.cc
-    path: /
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇨🇳 台湾 03'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: 50099
-  server: r3mrcg0011499tl.cybervena.com
-  type: ss
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 03'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: '[B] 🇨🇳 台湾 04'
+  network: grpc
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.48
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: '[B] 🇨🇳 台湾 05'
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.45
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: '[B] 🇨🇳 台湾 06'
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.47
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: '[B] 🇨🇳 台湾 07'
+  network: grpc
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.47
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
