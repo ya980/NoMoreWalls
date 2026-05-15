@@ -1,22 +1,31 @@
 proxies:
-- grpc-opts:
-    grpc-service-name: db
-  name: '[B] 🇨🇳 台湾 01'
-  network: grpc
-  password: 3f5bc61547b1f0d9
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- name: '[B] 🇨🇳 台湾 02'
+- name: '[B] 🇨🇳 台湾 01'
   password: 917bb394-8d91-4eee-956d-b81aba3aed70
   port: 8080
   server: tw07.352343.cc
   sni: tw07.352343.cc
   type: hysteria2
+- name: '[B] 🇨🇳 台湾 02'
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: tw3.757866.xyz
+  sni: tw3.757866.xyz
+  type: hysteria2
 - name: '[B] 🇨🇳 台湾 03'
+  password: 917bb394-8d91-4eee-956d-b81aba3aed70
+  port: 8080
+  server: tw4.453521.xyz
+  sni: tw4.453521.xyz
+  tls: true
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 04'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇨🇳 台湾 05'
   password: 917bb394-8d91-4eee-956d-b81aba3aed70
   port: 8080
   server: tw40.453521.xyz
@@ -26,26 +35,20 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: '[B] 🇨🇳 台湾 04'
+  name: '[B] 🇨🇳 台湾 06'
   network: grpc
-  password: 0a9f1f5a397bd427
+  password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.46
+  server: 125.227.86.48
   skip-cert-verify: true
   sni: TG.freecodes
   tls: true
   type: trojan
-- name: '[B] 🇨🇳 台湾 05'
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  port: 8080
-  server: 5gzdx.233235.xyz
-  sni: 5gzdx.233235.xyz
-  type: hysteria2
 - alpn:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: '[B] 🇨🇳 台湾 06'
+  name: '[B] 🇨🇳 台湾 07'
   network: grpc
   password: 0a9f1f5a397bd427
   port: 443
@@ -54,47 +57,3 @@ proxies:
   sni: TG.freecodes
   tls: true
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 07'
-  network: ws
-  port: 16616
-  server: planb.mojcn.com
-  type: vmess
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-  ws-opts:
-    headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 08'
-  network: ws
-  port: 16616
-  server: m.cnmjin.net
-  type: vmess
-  uuid: ccb2a1ea-285f-4dda-b798-6ad925aa784b
-  ws-opts:
-    headers:
-      Host: 4c38377a449c350ad3b4c6858225defb.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 09'
-  port: 8443
-  security: tls
-  server: tw5.453521.xyz
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: 917bb394-8d91-4eee-956d-b81aba3aed70
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 10'
-  port: 8443
-  security: tls
-  server: tw1.344233.cc
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: 917bb394-8d91-4eee-956d-b81aba3aed70
