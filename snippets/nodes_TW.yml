@@ -1,8 +1,7 @@
 proxies:
-- client-fingerprint: safari
-  grpc-opts:
+- grpc-opts:
     grpc-service-name: db
-  name: '[B] 🇨🇳 台湾 02'
+  name: '[B] 🇨🇳 台湾 01'
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
@@ -11,12 +10,13 @@ proxies:
   sni: TG.freecodes
   tls: true
   type: trojan
-- client-fingerprint: qq
+- alpn:
+  - h2
   grpc-opts:
     grpc-service-name: db
   name: '[B] 🇨🇳 台湾 04'
   network: grpc
-  password: 3f5bc61547b1f0d9
+  password: 0a9f1f5a397bd427
   port: 443
   server: 125.227.86.46
   skip-cert-verify: true
@@ -27,20 +27,7 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: db
-  name: '[B] 🇨🇳 台湾 07'
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.freecodes
-  tls: true
-  type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: '[B] 🇨🇳 台湾 08'
+  name: '[B] 🇨🇳 台湾 06'
   network: grpc
   password: 0a9f1f5a397bd427
   port: 443
@@ -51,7 +38,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 09'
+  name: '[B] 🇨🇳 台湾 07'
   network: ws
   port: 16616
   server: planb.mojcn.com
@@ -63,7 +50,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 10'
+  name: '[B] 🇨🇳 台湾 08'
   network: ws
   port: 16616
   server: m.cnmjin.net
