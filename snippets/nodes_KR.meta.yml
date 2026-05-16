@@ -1,1 +1,22 @@
-proxies: []
+proxies:
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: '[G] 🇰🇷 韩国 01'
+  network: ws
+  port: 12300
+  server: 121.140.34.163
+  servername: klng2.stream-cdn.sh21.eu.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: klng2.stream-cdn.sh21.eu.org
+    max-early-data: 2560
+    path: /danfeng

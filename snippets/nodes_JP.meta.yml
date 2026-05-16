@@ -1,12 +1,12 @@
 proxies:
 - name: '[B] 🇯🇵 日本 01'
-  password: 1c74e77e-2a82-4932-8a08-429951c0df7c
+  password: 6b5a9259-c7de-45f0-b4de-e89db7850d0c
   port: 8080
   server: hyfnjp03.352343.cc
   sni: hyfnjp03.352343.cc
   type: hysteria2
 - name: '[B] 🇯🇵 日本 02'
-  password: 68077ffe-3368-4755-98d0-9367aa1ad6f2
+  password: 1c74e77e-2a82-4932-8a08-429951c0df7c
   port: 8080
   server: hyfnjp03.352343.cc
   sni: hyfnjp03.352343.cc
@@ -35,29 +35,25 @@ proxies:
   server: hyfnjp03.352343.cc
   sni: hyfnjp03.352343.cc
   type: hysteria2
-- alpn:
-  - h3
-  name: '[B] 🇯🇵 日本 07'
-  password: 10281e2b244d1b58d61507fe1ebfb217da6b61b3
-  port: 443
-  server: 13.159.23.173
-  sni: 13.159.23.173
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 08'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 68077ffe-3368-4755-98d0-9367aa1ad6f2
-  port: 60000
-  server: hyfnjp01.156786.xyz
-  sni: hyfnjp01.156786.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 09'
+- name: '[B] 🇯🇵 日本 07'
   obfs: salamander
   obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
   password: 60207953-ef79-4f8f-8062-63c281f34c6b
   port: 60000
   server: hyfnjp01.156786.xyz
   sni: hyfnjp01.156786.xyz
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 08'
+  password: 1c74e77e-2a82-4932-8a08-429951c0df7c
+  port: 8081
+  server: 1jp003.156786.xyz
+  sni: 1jp003.156786.xyz
+  type: hysteria2
+- name: '[B] 🇯🇵 日本 09'
+  password: 03e52f08-11c4-421b-930b-2899fd5ead32
+  port: 8081
+  server: 1jp003.156786.xyz
+  sni: 1jp003.156786.xyz
   type: hysteria2
 - name: '[B] 🇯🇵 日本 10'
   obfs: salamander
@@ -67,7 +63,22 @@ proxies:
   server: hyfnjp01.156786.xyz
   sni: hyfnjp01.156786.xyz
   type: hysteria2
-- name: '[B] 🇯🇵 日本 11'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇯🇵 日本 11'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SDAYhVQkHK2Hq64IdfQ1j5aad_va5F_St576GTE-CgI
+    short-id: '!!str 045b57ab144047'
+  security: reality
+  server: 13.159.23.173
+  servername: aws.amazon.com
+  spider-x: /RTAeCT9uaWy6869
+  tls: true
+  type: vless
+  uuid: c0456886-894a-4719-af24-eaffebb1458e
+- name: '[B] 🇯🇵 日本 12'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -78,7 +89,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 12'
+- name: '[B] 🇯🇵 日本 13'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -91,7 +102,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 13'
+- name: '[B] 🇯🇵 日本 14'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 42841
@@ -102,8 +113,21 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇯🇵 日本 15'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16957
+  server: 150.230.214.172
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - encryption: none
-  name: '[B] 🇯🇵 日本 14'
+  name: '[B] 🇯🇵 日本 16'
   network: ws
   port: 74
   security: tls
@@ -117,7 +141,7 @@ proxies:
     headers:
       Host: dcsrzh.ccwu.cc
     path: /?ed=2560
-- name: '[B] 🇯🇵 日本 15'
+- name: '[B] 🇯🇵 日本 17'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -130,7 +154,19 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 16'
+- name: '[B] 🇯🇵 日本 18'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 149.28.21.222
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇯🇵 日本 19'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 44004
@@ -143,38 +179,13 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 17'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 10563
-  server: 88.214.22.165
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇯🇵 日本 18'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.176.36.61
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 19'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 116.206.92.109
-  skip-cert-verify: true
-  sni: 116.206.92.109
-  type: hysteria2
 - name: '[B] 🇯🇵 日本 20'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 167.179.76.8
+  server: 45.32.51.200
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
-  tls: true
   type: trojan
   ws-opts:
     headers:
@@ -214,6 +225,19 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
+  server: 161.248.254.27
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇯🇵 日本 25'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
   server: 142.91.108.54
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
@@ -231,13 +255,13 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: '[B] 🇯🇵 日本 25'
+  name: '[B] 🇯🇵 日本 26'
   network: http
   port: 54291
   server: 103.127.243.66
   type: vmess
   uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
-- name: '[B] 🇯🇵 日本 26'
+- name: '[B] 🇯🇵 日本 27'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -249,7 +273,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[E] 🇯🇵 日本 27'
+- name: '[E] 🇯🇵 日本 28'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -257,7 +281,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 28'
+- name: '[E] 🇯🇵 日本 29'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 3135
@@ -265,7 +289,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 29'
+- name: '[E] 🇯🇵 日本 30'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
@@ -275,7 +299,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[H] 🇯🇵 日本 31'
+  name: '[H] 🇯🇵 日本 32'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -283,7 +307,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-256-gcm
-  name: '[H] 🇯🇵 日本 32'
+  name: '[H] 🇯🇵 日本 33'
   password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
   port: 40003
   server: 47.79.144.115

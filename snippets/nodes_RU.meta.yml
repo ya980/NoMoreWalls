@@ -1,18 +1,21 @@
 proxies:
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[G] 🇷🇺 俄罗斯 01'
-  obfs: ''
-  obfs-password: ''
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  network: tcp
   port: 443
-  server: 195.133.53.33
+  reality-opts:
+    _spider-x: /ad/8611949
+    public-key: 2IAFC23dkBm2ZRPTcxSWZ5YkpVxJufIIZn3-aSPRH10
+  server: 194.87.161.198
+  servername: ads.x5.ru
   skip-cert-verify: false
-  sni: s516.okgfw.top
-  type: hysteria2
-  up: ''
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c81c716-4fd5-11f1-8a2c-525400a7149e
+  xudp: true
 - name: '[H] 🇷🇺 俄罗斯 02'
   network: ws
   port: 443
