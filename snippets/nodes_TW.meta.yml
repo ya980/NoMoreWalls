@@ -1,5 +1,28 @@
 proxies:
-- name: '[B] 🇨🇳 台湾 01'
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: '[B] 🇨🇳 台湾 01'
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.47
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
+- grpc-opts:
+    grpc-service-name: db
+  name: '[B] 🇨🇳 台湾 02'
+  network: grpc
+  password: 3f5bc61547b1f0d9
+  port: 443
+  server: 125.227.86.47
+  skip-cert-verify: true
+  sni: TG.freecodes
+  tls: true
+  type: trojan
+- name: '[B] 🇨🇳 台湾 03'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 16443
@@ -10,25 +33,6 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: '[B] 🇨🇳 台湾 02'
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.47
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 03'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h2
   grpc-opts:
@@ -53,27 +57,16 @@ proxies:
   skip-cert-verify: true
   sni: TG.freecodes
   type: trojan
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: '[B] 🇨🇳 台湾 06'
-  network: grpc
-  password: 0a9f1f5a397bd427
-  port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇨🇳 台湾 07'
+  name: '[B] 🇨🇳 台湾 06'
   network: tcp
   port: 443
   reality-opts:
     public-key: TMwVM6Se3KqnJX6ArrqsFyr5wDIuk9weurW38h8zIjQ
     short-id: '!!str 5a337f9f'
+  security: tls
   server: kbgs.hinet.tw1.yydjc.top
   servername: gopro.com
   tls: true
@@ -81,6 +74,18 @@ proxies:
   udp: true
   uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
   xudp: true
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: db
+  name: '[B] 🇨🇳 台湾 07'
+  network: grpc
+  password: 0a9f1f5a397bd427
+  port: 443
+  server: 125.227.86.45
+  skip-cert-verify: true
+  sni: TG.freecodes
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: '[H] 🇨🇳 台湾 08'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
