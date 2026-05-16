@@ -1,10 +1,11 @@
 proxies:
-- name: '[B] 🇨🇳 台湾 01'
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  port: 8080
-  server: tw3.757866.xyz
-  sni: tw3.757866.xyz
-  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 01'
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - h2
   grpc-opts:
@@ -13,71 +14,45 @@ proxies:
   network: grpc
   password: 3f5bc61547b1f0d9
   port: 443
-  server: 125.227.86.48
+  server: 125.227.86.46
   skip-cert-verify: true
   sni: TG.freecodes
   type: trojan
-- name: '[B] 🇨🇳 台湾 03'
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  port: 8080
-  server: 5gzdx.233235.xyz
-  sni: 5gzdx.233235.xyz
-  type: hysteria2
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: db
-  name: '[B] 🇨🇳 台湾 04'
-  network: grpc
-  password: 0a9f1f5a397bd427
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[B] 🇨🇳 台湾 03'
   port: 443
-  server: 125.227.86.45
-  skip-cert-verify: true
-  sni: TG.freecodes
-  type: trojan
-- name: '[B] 🇨🇳 台湾 05'
-  password: 917bb394-8d91-4eee-956d-b81aba3aed70
-  port: 8080
-  server: tw11.352343.cc
-  sni: tw11.352343.cc
-  type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 06'
-  port: 8443
   security: tls
-  server: tw5.453521.xyz
-  servername: www.python.org
+  server: kbgs.hinet.tw1.yydjc.top
+  servername: gopro.com
   tls: true
   type: vless
-  uuid: 917bb394-8d91-4eee-956d-b81aba3aed70
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 07'
-  port: 8443
-  security: tls
-  server: tw1.344233.cc
-  servername: www.python.org
-  tls: true
-  type: vless
-  uuid: 917bb394-8d91-4eee-956d-b81aba3aed70
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇨🇳 台湾 08'
+  uuid: fadab0a4-861d-4ebf-89ac-c9b34aef631a
+- name: '[B] 🇨🇳 台湾 04'
   network: ws
-  port: 443
-  security: tls
-  server: 8.6.112.0
-  servername: 2026.hhhhh.eu.org
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16443
+  server: 114.32.9.249
   skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 05'
+  network: ws
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: c894656d-c0dc-410a-b5ce-8637e28598c2
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
+      Host: 93832a081b053c3c103a09cc973bde7f.mobgslb.tbcache.com
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇨🇳 台湾 09'
+  name: '[H] 🇨🇳 台湾 06'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg007117fb8.cybervena.com
