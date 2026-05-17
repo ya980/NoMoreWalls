@@ -1,1 +1,24 @@
-proxies: []
+proxies:
+- name: '[H] 🇨🇦 加拿大 01'
+  network: ws
+  port: 8443
+  server: ciallo-egb.pages.dev
+  servername: CiallO-eGb.pAGEs.Dev
+  tls: true
+  type: vless
+  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
+  ws-opts:
+    path: '%2F%2F'
+- name: '[H] 🇨🇦 加拿大 02'
+  network: ws
+  port: 443
+  server: e1-f55.pages.dev
+  servername: e1-f55.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 8b5acf77-2c2e-4eed-9ad1-be81851b99ea
+  ws-opts:
+    headers:
+      Host: e1-f55.pages.dev
+    path: '%2F'
