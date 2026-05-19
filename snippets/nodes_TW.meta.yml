@@ -1,11 +1,15 @@
 proxies:
 - name: '[B] 🇨🇳 台湾 01'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16443
+  server: 114.32.9.249
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
 - name: '[B] 🇨🇳 台湾 02'
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
@@ -14,14 +18,28 @@ proxies:
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: '[B] 🇨🇳 台湾 03'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[B] 🇨🇳 台湾 04'
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
   server: tvhinet.lajichang.xyz
   skip-cert-verify: true
-  sni: bing.com
+  sni: tvhinet.lajichang.xyz
   tls: true
   type: trojan
-- name: '[B] 🇨🇳 台湾 04'
+- name: '[B] 🇨🇳 台湾 05'
+  password: b02b9065-defa-495a-bef1-cd55c67dbdf6
+  port: 20183
+  server: tw.sevenka.top
+  skip-cert-verify: true
+  sni: usahy2.maocf1.top
+  type: hysteria2
+- name: '[B] 🇨🇳 台湾 06'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 160.187.100.109
@@ -29,16 +47,25 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   type: hysteria2
 - client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 05'
+  flow: xtls-rprx-vision-udp443
+  name: '[B] 🇨🇳 台湾 07'
   port: 55309
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: '!!str 4bcbc85d'
+  security: tls
   server: 216.23.108.4
   servername: download.windowsupdate.com
-  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
   uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- name: '[B] 🇨🇳 台湾 08'
+  network: ws
+  port: 16396
+  security: tls
+  server: 38.207.160.213
+  servername: tptpss.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443fp=chrome
