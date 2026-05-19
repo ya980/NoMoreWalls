@@ -7,6 +7,13 @@ proxies:
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: '[B] 🇨🇳 台湾 02'
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[B] 🇨🇳 台湾 03'
   password: e5c22f63-e473-496a-beff-fdc5655008c1
   port: 2096
   server: tvhinet.lajichang.xyz
@@ -14,13 +21,6 @@ proxies:
   sni: bing.com
   tls: true
   type: trojan
-- name: '[B] 🇨🇳 台湾 03'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - name: '[B] 🇨🇳 台湾 04'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
@@ -31,28 +31,14 @@ proxies:
 - client-fingerprint: qq
   flow: xtls-rprx-vision
   name: '[B] 🇨🇳 台湾 05'
-  network: tcp
   port: 55309
   reality-opts:
     public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
     short-id: '!!str 4bcbc85d'
   server: 216.23.108.4
   servername: download.windowsupdate.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 06'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: B6r6wvfBmxpAz4lqw8Q6_riWhbCCtAuXmoNgS-sOelU
-    short-id: '!!str a13b96ad'
-  server: 1.161.50.107
-  servername: www.canon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 54407de7-ef98-4849-b1fb-837a5092d368
