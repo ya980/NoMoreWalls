@@ -1,17 +1,11 @@
 proxies:
 - name: '[B] 🇯🇵 日本 01'
-  network: ws
-  port: 10891
-  security: tls
-  server: 165.246.171.218
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-    path: /@Marisa_kristifp=chrome
+  password: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
+  port: 1443
+  server: jp.mjhy2.com
+  skip-cert-verify: true
+  sni: jp.mjhy2.com
+  type: hysteria2
 - name: '[B] 🇯🇵 日本 02'
   network: ws
   port: 17512
@@ -25,35 +19,53 @@ proxies:
     headers:
       Host: qi4rysu2u-e8j2zzhk.bsld.de5.net
     path: /@Marisa_kristifp=chrome
-- client-fingerprint: ios
-  encryption: none
-  flow: xtls-rprx-vision
+- alterId: 2
+  cipher: auto
   name: '[B] 🇯🇵 日本 03'
-  network: tcp
-  port: 55315
-  reality-opts:
-    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
-    short-id: '!!str 4bcbc85d'
-  security: reality
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  tls: true
-  type: vless
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- name: '[B] 🇯🇵 日本 04'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: '[B] 🇯🇵 日本 04'
+  network: http
+  port: 58051
+  server: 103.127.243.55
+  tls: false
+  type: vmess
+  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  http-opts:
+    headers: {}
+    path:
+    - /ABCDE
+  name: '[B] 🇯🇵 日本 05'
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  tls: false
+  type: vmess
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- name: '[B] 🇯🇵 日本 06'
   network: ws
-  port: 46177
-  security: tls
-  server: 61.111.244.247
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  password: 8r<[9'l6hAO#8ZQi
+  port: 16957
+  server: 150.230.214.172
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
+  type: trojan
   ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-    path: /@Marisa_kristifp=chrome
-- name: '[B] 🇯🇵 日本 05'
+    path: '%2FtrTelegram%F0%9F%87%A8%F0%9F%87%B3%20%40WangCai2'
+- name: '[B] 🇯🇵 日本 07'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -66,18 +78,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 06'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 20770
-  server: 219.103.68.164
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 07'
+- name: '[B] 🇯🇵 日本 08'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -89,11 +90,11 @@ proxies:
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
-  name: '[B] 🇯🇵 日本 08'
+  name: '[B] 🇯🇵 日本 09'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 21044
-  server: 138.2.23.80
+  port: 443
+  server: 154.197.108.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -102,7 +103,18 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 09'
+- name: '[B] 🇯🇵 日本 10'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18122
+  server: 155.248.168.35
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇯🇵 日本 11'
   network: ws
   port: 16090
   server: 210.156.180.102
@@ -114,21 +126,7 @@ proxies:
     headers:
       Host: dcsrzh.ccwu.cc
     path: /?ed=2560security=tls
-- client-fingerprint: chrome
-  name: '[B] 🇯🇵 日本 10'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.238.50.134
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 11'
+- name: '[B] 🇯🇵 日本 12'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -146,15 +144,32 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: '[B] 🇯🇵 日本 12'
+  name: '[B] 🇯🇵 日本 13'
   network: http
   port: 54291
   server: 103.127.243.66
   type: vmess
   uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
 - client-fingerprint: chrome
+  name: '[B] 🇯🇵 日本 14'
+  network: ws
+  port: 4433
+  server: 64.188.106.174
+  servername: r8wez3psbuhgs6lgju.sate.qzz.io
+  skip-cert-verify: true
+  sni: r8wez3psbuhgs6lgju.sate.qzz.io
+  tfo: false
+  tls: true
+  type: vless
+  udp: false
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: r8wez3psbuhgs6lgju.sate.qzz.io
+    path: /@Marisa_kristi
+- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 13'
+  name: '[B] 🇯🇵 日本 15'
   network: tcp
   port: 443
   reality-opts:
@@ -166,7 +181,7 @@ proxies:
   type: vless
   udp: true
   uuid: 2543bbe1-baba-45ab-b56f-5434887c3e61
-- name: '[B] 🇯🇵 日本 14'
+- name: '[B] 🇯🇵 日本 16'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -177,7 +192,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 15'
+- name: '[B] 🇯🇵 日本 17'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -190,7 +205,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 16'
+- name: '[B] 🇯🇵 日本 18'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -202,7 +217,21 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 17'
+- client-fingerprint: chrome
+  name: '[B] 🇯🇵 日本 19'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 155.248.181.189
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇯🇵 日本 20'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
@@ -212,22 +241,40 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇯🇵 日本 18'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 21'
   network: ws
-  port: 443
-  security: tls
-  server: 8.209.231.3
-  servername: et.seaspirit.dpdns.org
-  tls: true
-  type: vless
-  uuid: 1c731995-761b-41b3-96d1-5ef5734ad909
+  port: 16617
+  server: m.cnmjin.net
+  type: vmess
+  uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
   ws-opts:
     headers:
-      Host: et.seaspirit.dpdns.org
+      Host: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
     path: /
-- name: '[E] 🇯🇵 日本 19'
+- flow: xtls-rprx-vision
+  name: '[B] 🇯🇵 日本 22'
+  port: 12784
+  security: tls
+  server: jpvless.yydzx.xyz
+  servername: jpvless.yydzx.xyz
+  tls: true
+  type: vless
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 23'
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  type: vmess
+  uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
+  ws-opts:
+    headers:
+      Host: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+    path: /
+- name: '[E] 🇯🇵 日本 24'
   network: tcp
   password: BxceQaOe
   port: 15109
@@ -235,7 +282,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 20'
+- name: '[E] 🇯🇵 日本 25'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
@@ -243,7 +290,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 21'
+- name: '[E] 🇯🇵 日本 26'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 24184
@@ -251,12 +298,15 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[G] 🇯🇵 日本 22'
-  obfs: salamander
-  obfs-password: cry_me_a_r1ver_2026
-  password: strong-secret-pass-777
-  port: 444
-  server: 45.12.134.57
+- name: '[G] 🇯🇵 日本 27'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 140.83.50.165
   skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2

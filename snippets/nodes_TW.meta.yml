@@ -13,42 +13,39 @@ proxies:
   server: 61.227.251.122
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: qq
-  flow: xtls-rprx-vision-udp443
+- alterId: 0
+  cipher: auto
   name: '[B] 🇨🇳 台湾 03'
-  network: tcp
-  port: 55309
-  security: tls
-  server: 216.23.108.4
-  servername: download.windowsupdate.com
-  tls: true
-  type: vless
-  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
-- client-fingerprint: chrome
-  encryption: none
+  network: ws
+  port: 16616
+  server: planb.mojcn.com
+  type: vmess
+  uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
+  ws-opts:
+    headers:
+      Host: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '[B] 🇨🇳 台湾 04'
   network: ws
-  port: 443
-  security: tls
-  server: 125.228.236.138
-  servername: et.seaspirit.dpdns.org
-  tls: true
-  type: vless
-  uuid: 1c731995-761b-41b3-96d1-5ef5734ad909
+  port: 16616
+  server: m.cnmjin.net
+  type: vmess
+  uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
   ws-opts:
     headers:
-      Host: et.seaspirit.dpdns.org
+      Host: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
     path: /
-- name: '[B] 🇨🇳 台湾 05'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 05'
   network: ws
-  port: 18081
-  security: tls
-  server: 60.248.139.106
-  servername: 2026.hhhhh.eu.org
-  tls: true
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
+  port: 16616
+  server: t.cnmjcn.cyou
+  type: vmess
+  uuid: 3c8246ab-d03a-4f5e-a65c-e80a30d613ee
   ws-opts:
     headers:
-      Host: 2026.hhhhh.eu.org
-    path: /60.248.139.106:18081
+      Host: e140efa862213cbe6fba752512994ae6.mobgslb.tbcache.com
+    path: /

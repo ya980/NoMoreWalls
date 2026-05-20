@@ -1,35 +1,51 @@
 proxies:
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '[G] 🇩🇪 德国 02'
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
+- encryption: none
+  name: '[G] 🇩🇪 德国 01'
+  network: tcp
+  port: 443
+  server: 91.107.188.182
+  tls: false
+  type: vless
   udp: true
-  up: 500
-- name: '[G] 🇩🇪 德国 03'
+  uuid: 57565f1e-d42a-49a0-a909-5fff0f07b146
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇩🇪 德国 02'
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: GzQr6fDhigtRAr0n2Y7Nk3snhdytYyOvaYo9zYe1Xn4
+    short-id: '!!str b3a1cc510a2001c6'
+  server: 194.58.41.60
+  servername: eh.vk.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26e4d8b5-ee98-4a8d-88c9-7f81b7be3379
+  xudp: true
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 03'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 144.31.104.154
+  port: '443'
+  server: 83.147.254.168
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.125 Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
 - name: '[G] 🇩🇪 德国 04'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 51.195.44.182
+  server: 77.239.98.191
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -40,7 +56,7 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 77.221.156.92
+  server: 95.179.160.153
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -50,8 +66,8 @@ proxies:
 - name: '[G] 🇩🇪 德国 06'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 144.31.188.1
+  port: 2053
+  server: 94.156.179.217
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -62,7 +78,7 @@ proxies:
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 147.45.197.233
+  server: 138.124.108.219
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -72,8 +88,8 @@ proxies:
 - name: '[G] 🇩🇪 德国 08'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 2087
-  server: 51.195.47.23
+  port: 8443
+  server: 95.179.253.213
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
@@ -83,18 +99,46 @@ proxies:
 - name: '[G] 🇩🇪 德国 09'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.253.21
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[G] 🇩🇪 德国 10'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 45.43.89.19
+  server: 46.225.121.230
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- name: '[H] 🇩🇪 德国 10'
-  network: tcp
+- name: '[G] 🇩🇪 德国 11'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 2053
+  server: 88.99.254.252
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[G] 🇩🇪 德国 12'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 91.107.188.182
-  tls: false
-  type: vless
-  uuid: 57565f1e-d42a-49a0-a909-5fff0f07b146
+  server: 185.184.122.243
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
