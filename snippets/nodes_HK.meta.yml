@@ -1,64 +1,10 @@
 proxies:
 - name: '[B] 🇭🇰 香港 01'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 156.225.72.25
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇭🇰 香港 02'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 156.225.72.253
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇭🇰 香港 03'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 154.92.9.25
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇭🇰 香港 04'
-  password: 2545ab46-6306-4f2b-badd-5531f384d55f
-  port: 4433
-  server: 212.192.13.242
-  skip-cert-verify: true
-  sni: hk1.xiaoliyu.cyou
-  type: hysteria2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  name: '[B] 🇭🇰 香港 05'
-  password: a0b67bcf-209e-4abc-9e77-839638d35589
-  port: 60123
-  server: 62.216.93.209
-  skip-cert-verify: true
-  sni: www.apple.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: a0b67bcf-209e-4abc-9e77-839638d35589
-- name: '[B] 🇭🇰 香港 06'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 213.176.92.138
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇭🇰 香港 07'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 23779
-  server: 149.129.91.58
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇭🇰 香港 08'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 64.188.58.138
+  port: 16396
+  server: 38.207.160.213
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -66,38 +12,87 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇭🇰 香港 09'
+- name: '[B] 🇭🇰 香港 02'
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 83.229.121.78
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 03'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 156.225.72.25
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 04'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 154.92.9.25
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 05'
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 443
+  server: 8.223.63.150
+  skip-cert-verify: false
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+- name: '[B] 🇭🇰 香港 06'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 156.225.72.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 07'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 213.176.92.138
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 08'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 219.76.13.177
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: '[B] 🇭🇰 香港 09'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 23779
+  server: 149.129.91.58
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 10'
   password: 8r<[9'l6hAO#8ZQi
   port: 46639
   server: 192.131.142.161
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 10'
-  network: ws
-  port: 53213
-  server: bgroup.node4.v.nodelist-airport.com
-  type: vmess
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
   name: '[B] 🇭🇰 香港 11'
-  network: tcp
-  port: 10001
-  reality-opts:
-    public-key: D_kMOsg1KCtT0tudPFVDXGuEcSqZGtUYqBB-BiIxmls
-    short-id: '!!str f7223dab'
-  security: reality
-  server: 156.224.78.8
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   name: '[E] 🇭🇰 香港 12'
@@ -141,9 +136,43 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[G] 🇭🇰 香港 17'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 8.223.63.189
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- alpn:
+  - h2
+  - http/1.1
+  name: '[G] 🇭🇰 香港 18'
+  password: cf1d67c8-3bfe-37e1-bc2e-76aaec9923e4
+  port: 22213
+  server: aisa.bblink88.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  name: '[G] 🇭🇰 香港 19'
+  password: cf1d67c8-3bfe-37e1-bc2e-76aaec9923e4
+  port: 22211
+  server: aisa.bblink88.com
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: anytls
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 17'
+  name: '[H] 🇭🇰 香港 20'
   network: tcp
   port: 51556
   server: 103.181.164.145
@@ -152,7 +181,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 18'
+  name: '[H] 🇭🇰 香港 21'
   network: tcp
   port: '11917'
   server: board-01.ddnskunlun.com
