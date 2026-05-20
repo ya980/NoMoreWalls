@@ -1,15 +1,18 @@
 proxies:
-- name: '[B] 🇨🇳 台湾 01'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 16443
-  server: 114.32.9.249
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[B] 🇨🇳 台湾 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WvFsnr9f6DsQm0j5v1__ZyHiAAegCO5UCp6UM_rIDjM
+    short-id: '!!str b74c6649'
+  server: 1.161.52.121
+  servername: www.sony.com
   tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+  type: vless
+  udp: true
+  uuid: 2543bbe1-baba-45ab-b56f-5434887c3e61
 - name: '[B] 🇨🇳 台湾 02'
   password: mrwdfNTD8M79LCukCieldrqZWqs=
   port: 1443
@@ -17,9 +20,18 @@ proxies:
   tls: true
   type: http
   username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[B] 🇨🇳 台湾 03'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
 - down: ''
   fingerprint: ''
-  name: '[B] 🇨🇳 台湾 03'
+  name: '[B] 🇨🇳 台湾 04'
   obfs: ''
   obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -29,12 +41,80 @@ proxies:
   sni: https://t.me/WangCai2🇨🇳
   type: hysteria2
   up: ''
-- name: '[G] 🇨🇳 台湾 04'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
+- auth: 2543bbe1-baba-45ab-b56f-5434887c3e61
+  down: 500
+  name: '[B] 🇨🇳 台湾 05'
+  password: 2543bbe1-baba-45ab-b56f-5434887c3e61
+  port: 26474
+  ports: 20000-40000
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  type: hysteria2
+  udp: true
+  up: 500
+- auth: 2543bbe1-baba-45ab-b56f-5434887c3e61
+  name: '[B] 🇨🇳 台湾 06'
+  password: 2543bbe1-baba-45ab-b56f-5434887c3e61
+  port: 26789
+  ports: 20000-40000
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  type: hysteria2
+  udp: true
+- name: '[B] 🇨🇳 台湾 07'
+  network: ws
+  port: 16396
+  security: tls
+  server: 38.207.160.213
+  servername: tptpss.pages.dev
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: tptpss.pages.dev
+    path: /https://203.69.23.34:443fp=chrome
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[B] 🇨🇳 台湾 08'
+  network: tcp
+  port: 55309
+  reality-opts:
+    public-key: 7BS-JUFgYVaWrwwyDSiVq_YDoG36w8cRd4U8HvEg-F0
+    short-id: '!!str 4bcbc85d'
+  security: reality
+  server: 216.23.108.4
+  servername: download.windowsupdate.com
+  tls: true
+  type: vless
+  uuid: 9c5d1bf0-d58b-4001-9e7c-0c1fa314068c
+- auth: 2543bbe1-baba-45ab-b56f-5434887c3e61
+  name: '[B] 🇨🇳 台湾 09'
+  password: 2543bbe1-baba-45ab-b56f-5434887c3e61
+  port: 30615
+  ports: 20000-40000
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  type: hysteria2
+  udp: true
+- auth: 2543bbe1-baba-45ab-b56f-5434887c3e61
+  down: 500
+  name: '[B] 🇨🇳 台湾 10'
+  password: 2543bbe1-baba-45ab-b56f-5434887c3e61
+  port: 24881
+  ports: 20000-40000
+  server: 1.161.52.121
+  skip-cert-verify: true
+  sni: mx-cn9t.yuetong.online
+  type: hysteria2
+  udp: true
+  up: 500
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇨🇳 台湾 11'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss
