@@ -1,20 +1,32 @@
 proxies:
 - name: '[E] 🇫🇷 法国 01'
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.124.146
-  skip-cert-verify: true
-  sni: www.microsoft.com
+  password: Stpd-CO_tjcHIzXeMGM46otUpn7Ktk7W
+  port: 41443
+  server: multi.fresedvpn.site
+  skip-cert-verify: false
+  sni: multi.fresedvpn.site
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 02'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 45.77.63.51
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇫🇷 法国 02'
+  network: tcp
+  port: '54604'
+  server: t.tizi001.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7456253f-6d63-46a2-a1ed-9d37cae32811
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 03'
+  port: 31413
+  reality-opts:
+    public-key: nMlxwhP34_5wFPscbso_hOfRDmsj9DonMpDSXUrnJR8
+    short-id: '!!str ead3d6f82a9d'
+  server: 51.44.16.107
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5454343b-541b-4c96-8c2a-52e81079d124
