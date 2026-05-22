@@ -1,7 +1,35 @@
 proxies:
+- name: '[E] 🇨🇳 台湾 01'
+  password: 51fb0449-9fbf-48b9-8c24-3c5a9a7132c3
+  port: 36929
+  server: edge-di.yuetong.online
+  sni: edge-di.yuetong.online
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇳 台湾 02'
+  password: 51fb0449-9fbf-48b9-8c24-3c5a9a7132c3
+  port: 39059
+  server: edge-di.yuetong.online
+  sni: edge-di.yuetong.online
+  tls: false
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇨🇳 台湾 03'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: '50099'
+  server: r3mrcg001287h3p.cybervena.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇨🇳 台湾 04'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: '50099'
+  server: r3mrcg0011499tl.cybervena.com
+  type: ss
+  udp: true
 - down: ''
   fingerprint: ''
-  name: '[B] 🇨🇳 台湾 01'
+  name: '[H] 🇨🇳 台湾 05'
   obfs: ''
   obfs-password: ''
   password: 033634aa-43d9-4fc1-ab30-c2e28bb2e607
@@ -9,45 +37,5 @@ proxies:
   server: cdntw.xhl666.top
   skip-cert-verify: true
   sni: cdntw.xhl666.top
-  tls: false
   type: hysteria2
   up: ''
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 03'
-  port: 30811
-  server: 218.173.203.169
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇨🇳 台湾 04'
-  network: ws
-  port: 18081
-  server: 60.248.139.106
-  servername: 2026.hhhhh.eu.org
-  type: vless
-  uuid: 06ef598c-1555-4887-b3f9-08214a2f6792
-  ws-opts:
-    headers:
-      Host: 2026.hhhhh.eu.org
-    path: /60.248.139.106:18081security=tls
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇨🇳 台湾 05'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg001287h3p.cybervena.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇨🇳 台湾 06'
-  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
-  port: '50099'
-  server: r3mrcg0011499tl.cybervena.com
-  type: ss
-  udp: true
