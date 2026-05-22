@@ -1,59 +1,37 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  name: '[B] 🇯🇵 日本 01'
-  network: ws
-  port: 41493
-  security: tls
-  server: 158.178.225.153
-  servername: 020g5uxcxmqlndg.luyuju.dpdns.org
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
-    path: /@Marisa_kristi
 - alterId: 2
   cipher: auto
-  name: '[B] 🇯🇵 日本 02'
-  port: 30806
-  server: 136.110.100.253
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇯🇵 日本 03'
+  name: '[A] 🇯🇵 日本 01'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇯🇵 日本 04'
+- name: '[A] 🇯🇵 日本 02'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 140.238.50.134
+  server: 154.197.80.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
-- name: '[B] 🇯🇵 日本 05'
-  network: ws
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[A] 🇯🇵 日本 03'
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 161.248.254.27
+  port: 2083
+  server: 64.176.38.23
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 06'
+- name: '[A] 🇯🇵 日本 04'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 41607
+  server: 45.159.48.37
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[A] 🇯🇵 日本 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -65,28 +43,45 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- encryption: none
-  name: '[B] 🇯🇵 日本 07'
+- name: '[A] 🇯🇵 日本 06'
   network: ws
-  port: 16090
-  security: tls
-  server: 210.156.180.102
-  servername: dcsrzh.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  password: 8r%3C%5B9%27l6hAO%238ZQi
+  port: 2053
+  server: 103.31.77.108
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: dcsrzh.ccwu.cc
-    path: /
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: '[B] 🇯🇵 日本 08'
-  port: 30806
-  server: 103.182.97.25
+  name: '[A] 🇯🇵 日本 07'
+  port: 30835
+  server: 136.110.100.253
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇯🇵 日本 09'
+- name: '[A] 🇯🇵 日本 08'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 103.125.216.22
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- flow: xtls-rprx-vision-udp443
+  name: '[A] 🇯🇵 日本 09'
+  port: 12715
+  security: tls
+  server: jpvless.yydzx.xyz
+  servername: jpvless.yydzx.xyz
+  tls: true
+  type: vless
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: '[F] 🇯🇵 日本 10'
   network: tcp
   password: BxceQaOe
   port: 15109
@@ -94,7 +89,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 10'
+- name: '[F] 🇯🇵 日本 11'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 8066
@@ -102,7 +97,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 11'
+- name: '[F] 🇯🇵 日本 12'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
@@ -114,7 +109,7 @@ proxies:
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   insecure: '0'
-  name: '[H] 🇯🇵 日本 12'
+  name: '[H] 🇯🇵 日本 13'
   network: ws
   port: 2087
   security: tls
@@ -130,7 +125,7 @@ proxies:
       Host: fgnix832fx.fx6hsv0.ccwu.cc
     max-early-data: 2560
     path: /
-- name: '[H] 🇯🇵 日本 13'
+- name: '[H] 🇯🇵 日本 14'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -144,7 +139,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 14'
+  name: '[I] 🇯🇵 日本 15'
   network: tcp
   port: '180'
   server: 82.198.246.37
