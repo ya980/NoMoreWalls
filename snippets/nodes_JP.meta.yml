@@ -1,56 +1,47 @@
 proxies:
-- name: '[B] 🇯🇵 日本 01'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-jp-003.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-jp-003.fastervpn.world
+- client-fingerprint: firefox
+  encryption: none
+  name: '[B] 🇯🇵 日本 01'
+  network: ws
+  port: 41493
+  security: tls
+  server: 158.178.225.153
+  servername: 020g5uxcxmqlndg.luyuju.dpdns.org
   tls: true
-  type: hysteria2
-- alterId: 0
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+    path: /@Marisa_kristi
+- alterId: 2
   cipher: auto
   name: '[B] 🇯🇵 日本 02'
-  port: 12376
-  server: 47.245.58.91
+  port: 30806
+  server: 136.110.100.253
   type: vmess
-  uuid: a3de462b-0276-4003-8f34-536b0f9d340c
-- name: '[B] 🇯🇵 日本 03'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇯🇵 日本 03'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇯🇵 日本 04'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 154.197.80.253
+  server: 140.238.50.134
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 04'
-  network: ws
-  password: '!!str 162534'
-  port: 443
-  server: 31.57.172.187
-  skip-cert-verify: true
-  sni: cchh2.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cchh2.pages.dev
-    path: /?ed=2560&https://t.me/WangCai2🇨🇳
-- name: '[B] 🇯🇵 日本 05'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 443
-  server: 185.130.46.81
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 06'
+    path: /trTelegram
+- name: '[B] 🇯🇵 日本 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -62,7 +53,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 07'
+- name: '[B] 🇯🇵 日本 06'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -74,27 +65,8 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 08'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 2053
-  server: 103.31.77.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 09'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 103.125.216.22
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
 - encryption: none
-  name: '[B] 🇯🇵 日本 10'
+  name: '[B] 🇯🇵 日本 07'
   network: ws
   port: 16090
   security: tls
@@ -107,7 +79,14 @@ proxies:
     headers:
       Host: dcsrzh.ccwu.cc
     path: /
-- name: '[F] 🇯🇵 日本 11'
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇯🇵 日本 08'
+  port: 30806
+  server: 103.182.97.25
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[F] 🇯🇵 日本 09'
   network: tcp
   password: BxceQaOe
   port: 15109
@@ -115,7 +94,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 12'
+- name: '[F] 🇯🇵 日本 10'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 8066
@@ -123,7 +102,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 13'
+- name: '[F] 🇯🇵 日本 11'
   network: tcp
   password: a922dfbe65cf53c7bc225fcfeb6cedbc
   port: 11541
@@ -135,7 +114,7 @@ proxies:
   ech: cloudflare-ech.com+https://dns.alidns.com/dns-query
   encryption: none
   insecure: '0'
-  name: '[H] 🇯🇵 日本 14'
+  name: '[H] 🇯🇵 日本 12'
   network: ws
   port: 2087
   security: tls
@@ -151,7 +130,7 @@ proxies:
       Host: fgnix832fx.fx6hsv0.ccwu.cc
     max-early-data: 2560
     path: /
-- name: '[H] 🇯🇵 日本 15'
+- name: '[H] 🇯🇵 日本 13'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -163,3 +142,13 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇯🇵 日本 14'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
