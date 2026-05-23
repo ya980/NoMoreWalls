@@ -1,30 +1,40 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '[A] 🇯🇵 日本 02'
+  client-fingerprint: chrome
+  name: '[B] 🇯🇵 日本 02'
   port: 30806
-  server: 103.182.97.12
+  server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[A] 🇯🇵 日本 05'
+- name: '[B] 🇯🇵 日本 03'
   password: 8r<[9'l6hAO#8ZQi
-  port: 11307
-  server: 47.79.85.210
+  port: 443
+  server: 140.83.50.165
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: '[A] 🇯🇵 日本 07'
+- name: '[B] 🇯🇵 日本 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 154.197.80.253
-  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[A] 🇯🇵 日本 09'
+    path: /trTelegram
+- name: '[B] 🇯🇵 日本 06'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 142.91.108.54
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳
+- name: '[B] 🇯🇵 日本 08'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -34,20 +44,36 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: '[A] 🇯🇵 日本 10'
+- name: '[B] 🇯🇵 日本 10'
   network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 42841
-  server: 43.165.190.11
-  skip-cert-verify: true
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 64.110.104.30
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
+    path: /trTelegram
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇯🇵 日本 12'
+  port: 30806
+  server: 103.182.97.25
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇯🇵 日本 13'
+  network: ws
+  password: GKHWMe2R4qwNcNxu6l3KMkdd
+  port: 20770
+  server: 219.103.68.164
+  sni: vpn1.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[E] 🇯🇵 日本 11'
+      Host: vpn1.rnmcnm.com
+    path: /trj-ws
+- name: '[F] 🇯🇵 日本 14'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -55,7 +81,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 12'
+- name: '[F] 🇯🇵 日本 15'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 3135
@@ -63,7 +89,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 13'
+- name: '[F] 🇯🇵 日本 16'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 8066
@@ -71,8 +97,15 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-256-gcm
+  name: '[H] 🇯🇵 日本 17'
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 12885
+  server: ss.031.node-for-bigairport.win
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇯🇵 日本 16'
+  name: '[I] 🇯🇵 日本 19'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg007147vhp.cybervena.com

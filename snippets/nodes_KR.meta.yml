@@ -1,23 +1,45 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[G] 🇰🇷 韩国 01'
-  network: ws
-  port: '20332'
-  server: 221.167.88.143
-  servername: w9rw8g1k.node-c.danfeng.gv.uy
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇰🇷 韩国 03'
+  obfs: ''
+  obfs-password: ''
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: vpn-kr-001.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-kr-001.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: '[H] 🇰🇷 韩国 04'
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇰🇷 韩国 05'
+  network: tcp
+  port: 21796
+  reality-opts:
+    _spider-x: /
+    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
+    short-id: '!!str 804d6574da9180'
+  server: 43.203.252.196
+  servername: www.sony.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: w9rw8g1k.node-c.danfeng.gv.uy
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
+  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
   xudp: true
 - cipher: aes-256-gcm
-  name: '[H] 🇰🇷 韩国 03'
+  name: '[I] 🇰🇷 韩国 06'
   password: 63d7c17506d1f48b
   port: 20129
   server: 203.32.26.24
