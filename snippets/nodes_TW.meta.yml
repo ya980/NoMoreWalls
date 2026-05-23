@@ -3,20 +3,12 @@ proxies:
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 50000
+  port: 10000
   server: tw.9966690.xyz
   skip-cert-verify: true
   sni: tw.9966690.xyz
   type: hysteria2
 - name: '[B] 🇨🇳 台湾 02'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  udp: true
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: '[B] 🇨🇳 台湾 03'
   password: exaxgqkKkd0TAMrCxeonWg==
   port: 1443
   server: twmoon1-cdn-route.couldflare-cdn.com
@@ -26,17 +18,33 @@ proxies:
   username: mrwdfNTD8M79LCukCieldrqZWqs=
 - alterId: 2
   cipher: auto
+  country: 🇹🇼 TW
+  delay: 467
+  http-opts: {}
+  name: '[B] 🇨🇳 台湾 03'
+  network: tcp
+  port: 30811
+  server: v11.zgtfqs.click
+  skip-cert-verify: true
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-path: /
+- alterId: 2
+  cipher: auto
   name: '[B] 🇨🇳 台湾 04'
   port: 30811
   server: 61.227.198.218
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- fingerprint: ''
-  name: '[E] 🇨🇳 台湾 05'
-  password: 033634aa-43d9-4fc1-ab30-c2e28bb2e607
-  port: 13456
-  server: cdntw.xhl666.top
-  skip-cert-verify: true
-  sni: cdntw.xhl666.top
-  tls: false
-  type: hysteria2
+- name: '[B] 🇨🇳 台湾 05'
+  network: ws
+  port: 443
+  security: tls
+  server: 38.54.107.227
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 3-2h8.pages.dev
+    path: /
