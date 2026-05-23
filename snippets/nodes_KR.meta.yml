@@ -1,29 +1,8 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇰🇷 韩国 03'
-  obfs: ''
-  obfs-password: ''
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-kr-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-kr-001.fastervpn.world
-  type: hysteria2
-  up: ''
-- name: '[H] 🇰🇷 韩国 04'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇰🇷 韩国 05'
+  name: '[H] 🇰🇷 韩国 01'
   network: tcp
   port: 21796
   reality-opts:
@@ -38,6 +17,59 @@ proxies:
   udp: true
   uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
   xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: '[H] 🇰🇷 韩国 02'
+  network: ws
+  port: 34237
+  security: tls
+  server: 146.56.110.135
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: '[H] 🇰🇷 韩国 03'
+  network: ws
+  port: 10001
+  security: tls
+  server: 59.30.189.250
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    max-early-data: 2560
+    path: /danfeng
+- client-fingerprint: chrome
+  name: '[H] 🇰🇷 韩国 05'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: '26214'
+  server: 183.104.5.134
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - cipher: aes-256-gcm
   name: '[I] 🇰🇷 韩国 06'
   password: 63d7c17506d1f48b
