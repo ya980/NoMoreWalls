@@ -1,77 +1,40 @@
 proxies:
 - client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: '[H] 🇰🇷 韩国 01'
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: encryptedsni.com
+  name: '[H] 🇰🇷 韩国 05'
   network: ws
-  port: 10001
-  security: tls
-  server: 59.30.189.250
-  servername: vfa9.cdn-stream.fgfw.indevs.in
+  port: 12312
+  server: 14.52.210.173
+  servername: juzi8186.qea.ccwu.cc
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: chrome
-  name: '[H] 🇰🇷 韩国 03'
-  network: ws
-  port: '10909'
-  server: 58.125.244.137
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: bafacd98-136a-4530-838d-4e5c51838dac
   ws-opts:
     headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
+      Host: juzi8186.qea.ccwu.cc
+    path: /
   xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇰🇷 韩国 04'
-  network: ws
-  port: '10002'
-  server: 211.199.27.72
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /danfeng?ed=2560fp=firefox
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇰🇷 韩国 05'
-  network: ws
-  port: '32770'
-  server: 61.40.190.110
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /danfeng?ed=2560fp=firefox
-  xudp: true
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇰🇷 韩国 06'
+  network: tcp
+  port: '8888'
+  server: 146.56.112.110
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7c302f3-90d6-42dd-9d7d-94a3683a3707
+- alterId: 0
+  cipher: auto
   name: '[I] 🇰🇷 韩国 07'
-  password: 63d7c17506d1f48b
-  port: 20129
-  server: 203.32.26.24
-  type: ss
+  network: tcp
+  port: 443
+  server: 140.238.2.250
+  tls: false
+  type: vmess
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde

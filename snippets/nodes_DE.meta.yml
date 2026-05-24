@@ -1,16 +1,83 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇩🇪 德国 01'
-  network: ws
-  port: 2096
-  security: tls
-  server: 104.26.5.134
-  servername: joey.freen1.de5.net
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: ger04.myxasecure.space
+  servername: ger04.myxasecure.space
   tls: true
   type: vless
-  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
+  udp: true
+  uuid: 5381a1bb-479a-412a-9d99-08ccbc008828
+- name: '[H] 🇩🇪 德国 02'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 77.221.156.92
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
   ws-opts:
     headers:
-      Host: joey.freen1.de5.net
-    path: /?ed=2048
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- name: '[H] 🇩🇪 德国 03'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.253.55
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[H] 🇩🇪 德国 04'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 5.129.219.72
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳+@WangCai2
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇩🇪 德国 05'
+  obfs: ''
+  obfs-password: ''
+  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
+  port: '2056'
+  server: 84.200.33.151
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
+- name: '[I] 🇩🇪 德国 06'
+  port: 51847
+  server: 91.107.166.215
+  tls: false
+  type: vless
+  uuid: 09a601b8-ac43-4934-95e3-21e732ebfaf3
+- name: '[I] 🇩🇪 德国 07'
+  network: tcp
+  port: 51847
+  server: ir20.novalynxhub.online
+  tls: false
+  type: vless
+  uuid: 09a601b8-ac43-4934-95e3-21e732ebfaf3
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇩🇪 德国 08'
+  network: tcp
+  port: 10097
+  server: 45.144.54.183
+  servername: null
+  tls: false
+  type: vmess
+  uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a

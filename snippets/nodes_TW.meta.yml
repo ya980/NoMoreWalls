@@ -1,59 +1,58 @@
 proxies:
-- insecure: '1'
-  mport: 10000-19999
+- alterId: 2
+  cipher: auto
   name: '[B] 🇨🇳 台湾 01'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 10000
-  server: tw.9966690.xyz
-  skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 03'
   port: 30811
   server: 61.227.198.218
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- insecure: '1'
-  mport: 30000-39999
-  name: '[B] 🇨🇳 台湾 04'
+- name: '[B] 🇨🇳 台湾 02'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
   port: 30000
   server: tw.9966690.xyz
   skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[B] 🇨🇳 台湾 05'
+- name: '[B] 🇨🇳 台湾 03'
   password: gcuCpQfaiVeDBdWG
-  port: '19128'
+  port: 19128
   server: jpbgp.netvigor.cc
   sni: yazhou10.dynu.net
   tls: true
   type: trojan
+- client-fingerprint: firefox
+  ech-opts:
+    enable: true
+    query-server-name: encryptedsni.com
+  name: '[B] 🇨🇳 台湾 04'
+  network: ws
+  port: 17009
+  server: 166.0.198.35
+  servername: qznql.node-proxy.chinat.indevs.in
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇨🇳 台湾 06'
+  name: '[I] 🇨🇳 台湾 05'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg007147vhp.cybervena.com
   type: ss
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇨🇳 台湾 06'
+  network: tcp
+  port: 35034
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
