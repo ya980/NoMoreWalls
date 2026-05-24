@@ -1,70 +1,89 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 01'
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: ger04.myxasecure.space
-  servername: ger04.myxasecure.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5381a1bb-479a-412a-9d99-08ccbc008828
+- name: '[E] 🇩🇪 德国 01'
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 152.53.12.152
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '[H] 🇩🇪 德国 02'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 8443
-  server: 77.221.156.92
+  server: 91.220.8.170
   sni: Koma-YT.PAGeS.Dev
   type: trojan
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳+@WangCai2
-- name: '[H] 🇩🇪 德国 03'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 83.147.253.55
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[H] 🇩🇪 德国 04'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 5.129.219.72
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳+@WangCai2
-- down: ''
-  fingerprint: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 03'
+  network: raw
+  port: '9443'
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '!!str 2344766a270a6298'
+  server: 159.195.82.187
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 04'
+  network: tcp
+  port: '8444'
+  reality-opts:
+    public-key: Hp6K5hsiPY4_zATgAtef9YTxNGpSkhAHTTo9MUO7fik
+    short-id: '!!str 77e934f68f02ab4c'
+  server: 85.208.139.98
+  servername: cdnjs.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c931f737-cafe-4e4f-998a-a65517941256
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇩🇪 德国 05'
-  obfs: ''
-  obfs-password: ''
-  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
-  port: '2056'
-  server: 84.200.33.151
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''
-- name: '[I] 🇩🇪 德国 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: RuJ1lpOsGekCBHkDdJ-ZeaeHQ4biiMj3ioU2eqSyfQM
+    short-id: '!!str '
+  server: de-1.shadowhub.cc
+  servername: static.gcore.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3da803c-9c04-4ffb-a0f2-32cda93dd868
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇩🇪 德国 06'
+  network: raw
+  port: '10097'
+  server: 45.144.54.183
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a
+  xudp: true
+- name: '[I] 🇩🇪 德国 07'
   port: 51847
   server: 91.107.166.215
   tls: false
   type: vless
   uuid: 09a601b8-ac43-4934-95e3-21e732ebfaf3
-- name: '[I] 🇩🇪 德国 07'
+- name: '[I] 🇩🇪 德国 08'
   network: tcp
   port: 51847
   server: ir20.novalynxhub.online
@@ -73,7 +92,7 @@ proxies:
   uuid: 09a601b8-ac43-4934-95e3-21e732ebfaf3
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 08'
+  name: '[I] 🇩🇪 德国 09'
   network: tcp
   port: 10097
   server: 45.144.54.183

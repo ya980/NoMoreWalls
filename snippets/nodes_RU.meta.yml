@@ -1,15 +1,24 @@
 proxies:
-- alpn:
-  - h3
-  down: ''
-  fingerprint: ''
-  name: '[H] 🇷🇺 俄罗斯 01'
-  obfs: ''
-  obfs-password: ''
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: '443'
-  server: 193.53.126.108
-  skip-cert-verify: false
-  sni: s463.okgfwbackxyz.xyz
+- name: '[E] 🇷🇺 俄罗斯 01'
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 185.228.139.247
+  skip-cert-verify: true
+  tls: false
   type: hysteria2
-  up: ''
+- client-fingerprint: randomized
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+  server: 185.139.214.151
+  servername: cloudcdn-m9-15.cdn.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ea35c030-5628-11f1-9df5-54db13ea7d40
+  xudp: true
