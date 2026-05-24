@@ -1,5 +1,5 @@
 proxies:
-- flow: xtls-rprx-vision
+- flow: xtls-rprx-vision-udp443
   name: '[B] 🇯🇵 日本 01'
   port: 443
   security: tls
@@ -8,41 +8,26 @@ proxies:
   tls: true
   type: vless
   uuid: 4f85f6b8-7b35-4c1e-bf46-2b68acc99230
-- flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[B] 🇯🇵 日本 02'
-  port: 443
+  port: 10444
   security: tls
-  server: tokyo1.ap221.com
-  servername: tokyo.ap221.com
+  server: 185.18.222.50
+  servername: max.ru
   tls: true
   type: vless
-  uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
-- flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 03'
+  uuid: f4df3096-8568-4c86-83d2-985623035724
+- name: '[B] 🇯🇵 日本 03'
+  password: 8r<[9'l6hAO#8ZQi
   port: 443
-  security: tls
-  server: tokyo1.ap221.com
-  servername: tokyo.ap221.com
+  server: 140.83.50.165
+  sni: Koma-YT.PAGeS.Dev
   tls: true
-  type: vless
-  uuid: e74de85f-61a2-413a-a18b-1be496dd2cf6
+  type: trojan
 - alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 04'
-  port: 22324
-  server: 172.104.80.66
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 05'
-  port: 49803
-  server: 153.121.73.175
-  type: vmess
-  uuid: cd3dacbc-2b7b-4718-83ad-ab870f87e12e
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 06'
   network: ws
   port: 80
   server: 168.138.43.75
@@ -52,55 +37,68 @@ proxies:
     headers:
       Host: jp01.a0a.xyz
     path: /cctv13.m3u8
-- name: '[B] 🇯🇵 日本 07'
+- name: '[B] 🇯🇵 日本 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 154.197.80.253
+  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 08'
+    path: /trTelegram
+- flow: xtls-rprx-vision-udp443
+  name: '[B] 🇯🇵 日本 06'
+  port: 443
+  security: tls
+  server: tokyo1.ap221.com
+  servername: tokyo.ap221.com
+  tls: true
+  type: vless
+  uuid: e74de85f-61a2-413a-a18b-1be496dd2cf6
+- client-fingerprint: chrome
+  name: '[B] 🇯🇵 日本 07'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 140.83.50.165
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  name: '[B] 🇯🇵 日本 09'
-  network: ws
-  port: 17071
-  server: 213.165.48.180
-  servername: uq2ox3bplnlgtr.myto.ip-ddns.com
+  server: 64.110.104.30
   skip-cert-verify: true
-  sni: uq2ox3bplnlgtr.myto.ip-ddns.com
-  tfo: false
-  tls: true
-  type: vless
-  udp: false
-  uuid: 00000000-0000-4000-8000-000000000000
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: uq2ox3bplnlgtr.myto.ip-ddns.com
-    path: /@Marisa_kristi
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /trTelegram🇨🇳 @WangCai2
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 10'
+  name: '[B] 🇯🇵 日本 08'
+  network: tcp
   port: 443
-  security: tls
+  reality-opts:
+    public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+    short-id: '!!str 428ef87fd47a3a32'
+  security: reality
   server: jp.nodes.rocketnetwork.ru
   servername: jp.nodes.rocketnetwork.ru
   tls: true
   type: vless
   uuid: dad97768-187b-40be-b423-2f312f740085
+- flow: xtls-rprx-vision
+  name: '[B] 🇯🇵 日本 09'
+  port: 443
+  security: tls
+  server: tokyo1.ap221.com
+  servername: tokyo.ap221.com
+  tls: true
+  type: vless
+  uuid: 8ded7f1f-6858-4502-b224-0c45df1d52df
 - encryption: none
-  name: '[B] 🇯🇵 日本 11'
+  name: '[B] 🇯🇵 日本 10'
   network: ws
   port: 25242
   server: 47.79.144.103
@@ -108,65 +106,72 @@ proxies:
   uuid: a12b0d31-f599-498e-b76e-8558a14b766b
   ws-opts:
     path: /a12b0d31
+- name: '[B] 🇯🇵 日本 11'
+  password: BxceQaOe
+  port: 443
+  server: 116.80.61.224
+  sni: t.me/ripaojiedian
+  tls: true
+  type: trojan
 - name: '[B] 🇯🇵 日本 12'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 142.91.108.54
-  skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇯🇵 日本 13'
+  network: ws
+  port: 443
+  security: tls
+  server: 134.122.194.186
+  servername: 2-ee1.pages.dev
+  tls: true
+  type: vless
+  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
+  ws-opts:
+    headers:
+      Host: 2-ee1.pages.dev
+    path: /fp=chrome
+- flow: xtls-rprx-vision
+  name: '[B] 🇯🇵 日本 14'
+  port: 443
+  security: tls
+  server: tokyo1.ap221.com
+  servername: tokyo.ap221.com
+  tls: true
+  type: vless
+  uuid: 0599bfbb-64c9-47dd-abf2-9cca1e87109c
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 13'
-  network: tcp
+  name: '[B] 🇯🇵 日本 15'
   port: 23464
   server: 47.91.10.237
-  tls: false
   type: vmess
   uuid: 8bd1fbf2-cef1-4e54-aa5b-ba7bde574dd9
-- encryption: none
-  name: '[B] 🇯🇵 日本 14'
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  skip-cert-verify: false
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇯🇵 日本 16'
+  port: 27724
+  reality-opts:
+    public-key: rYH4wPTVzSwtpXgI3U7YxppIP6oudD-425vT7pyhj1w
+  security: reality
+  server: 116.80.44.144
+  servername: www.yahoo.co.jp
+  tls: true
   type: vless
-  udp: true
-  uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
-  ws-opts:
-    path: /vless/
-  xudp: true
-- name: '[B] 🇯🇵 日本 15'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 103.125.216.22
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: '[B] 🇯🇵 日本 16'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 42841
-  server: 43.165.190.11
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- alterId: 2
+  uuid: ebd8539d-e249-4a39-8f90-e8585e8cc35e
+- alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 17'
-  port: 30806
-  server: 103.182.97.25
+  port: 23464
+  server: 47.91.10.237
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 1f2d0b2b-e214-4fc1-92cc-1c230be78d7c
 - alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 18'
@@ -179,17 +184,9 @@ proxies:
     headers:
       Host: jp01.a0a.xyz
     path: /cctv13.m3u8
-- name: '[B] 🇯🇵 日本 19'
-  network: ws
-  port: 443
-  server: 151.245.104.182
-  type: vless
-  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-  ws-opts:
-    path: /proxysecurity=tls
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 20'
+  name: '[B] 🇯🇵 日本 19'
   network: ws
   port: 80
   server: 172.111.146.64
@@ -197,19 +194,14 @@ proxies:
   uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
   ws-opts:
     path: /vmess/
-- encryption: none
-  name: '[B] 🇯🇵 日本 21'
-  network: ws
-  port: 443
-  security: tls
-  server: dongjing4.zqjsqapi.com
-  servername: dongjing4.zqjsqapi.com
-  tls: true
-  type: vless
-  uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
-  ws-opts:
-    path: /proxy
-- name: '[F] 🇯🇵 日本 22'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 20'
+  port: 23464
+  server: 47.91.10.237
+  type: vmess
+  uuid: 0be3a336-85ad-4c42-930b-05318236e68c
+- name: '[F] 🇯🇵 日本 21'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -217,7 +209,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 23'
+- name: '[F] 🇯🇵 日本 22'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 24184
@@ -225,7 +217,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 24'
+- name: '[F] 🇯🇵 日本 23'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 24184
@@ -234,7 +226,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 25'
+  name: '[H] 🇯🇵 日本 24'
   network: ws
   port: 443
   server: 172.64.53.241
@@ -249,7 +241,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 26'
+  name: '[I] 🇯🇵 日本 25'
   network: tcp
   port: '180'
   server: 82.198.246.9
@@ -257,7 +249,7 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[I] 🇯🇵 日本 27'
+- name: '[I] 🇯🇵 日本 26'
   network: tcp
   port: 10026
   server: 8.216.21.135
@@ -266,7 +258,7 @@ proxies:
   uuid: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 28'
+  name: '[I] 🇯🇵 日本 27'
   network: tcp
   port: '23464'
   server: 47.91.10.237
@@ -276,7 +268,7 @@ proxies:
   uuid: 0be3a336-85ad-4c42-930b-05318236e68c
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 29'
+  name: '[I] 🇯🇵 日本 28'
   network: tcp
   port: '29712'
   server: bgroup.node1.v.nodelist-airport.com

@@ -1,5 +1,5 @@
 proxies:
-- flow: xtls-rprx-vision
+- flow: xtls-rprx-vision-udp443
   name: '[B] 🇨🇳 台湾 01'
   port: 443
   security: tls
@@ -8,8 +8,54 @@ proxies:
   tls: true
   type: vless
   uuid: d0e1f202-3791-4cf5-b689-e5833375d343
-- flow: xtls-rprx-vision
+- insecure: '1'
+  mport: 40000-49999
   name: '[B] 🇨🇳 台湾 02'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- name: '[B] 🇨🇳 台湾 03'
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 04'
+  port: 35034
+  server: 165.154.195.38
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- name: '[B] 🇨🇳 台湾 05'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- flow: xtls-rprx-vision-udp443
+  name: '[B] 🇨🇳 台湾 06'
+  port: 443
+  security: tls
+  server: taipei1.ap221.com
+  servername: taipei.ap221.com
+  tls: true
+  type: vless
+  uuid: 0599bfbb-64c9-47dd-abf2-9cca1e87109c
+- flow: xtls-rprx-vision-udp443
+  name: '[B] 🇨🇳 台湾 07'
   port: 443
   security: tls
   server: taipei1.ap221.com
@@ -18,72 +64,21 @@ proxies:
   type: vless
   uuid: e74de85f-61a2-413a-a18b-1be496dd2cf6
 - flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 03'
+  name: '[B] 🇨🇳 台湾 08'
   port: 443
   security: tls
   server: taipei1.ap221.com
   servername: taipei.ap221.com
   tls: true
   type: vless
-  uuid: 0599bfbb-64c9-47dd-abf2-9cca1e87109c
-- name: '[B] 🇨🇳 台湾 04'
-  password: mrwdfNTD8M79LCukCieldrqZWqs=
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
+  uuid: 5c0aeda1-c9b7-4e3f-9fc9-8067f4867ede
+- name: '[B] 🇨🇳 台湾 09'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
   tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 05'
-  port: 35034
-  server: 165.154.195.38
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- name: '[B] 🇨🇳 台湾 06'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 07'
-  port: 30811
-  server: 61.227.198.218
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 08'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: '!!str c3eda72ab57f'
-  security: reality
-  server: download.riferoser.icu
-  servername: www.hollywoodreporter.com
-  tls: true
-  type: vless
-  uuid: db88683a-b4d2-482c-8925-70c4d4927172
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 09'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: '!!str bff6a88f0127'
-  security: reality
-  server: download.riferoser.icu
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: b6c0c044-7329-4b40-b342-133d047bf1e2
+  type: trojan
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -92,52 +87,22 @@ proxies:
   port: 443
   reality-opts:
     public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: '!!str 37e6f3e4339e'
-  security: reality
-  server: 46.249.109.128
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9f1b677f-aeea-43a9-9927-12188cdc1249
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 11'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: '!!str 37e6f3e4339e'
+    short-id: '!!str 960e1c59701f'
   security: reality
   server: download.riferoser.icu
-  servername: www.microsoft.com
+  servername: www.techradar.com
   tls: true
   type: vless
-  uuid: 9f1b677f-aeea-43a9-9927-12188cdc1249
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 12'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: q42m1wg11kZLyRtjaKus8T-NNl1vriRG3V1eVTL6ICc
-    short-id: '!!str 481808327870'
-  security: reality
-  server: download.riferoser.icu
-  servername: www.hollywoodreporter.com
-  tls: true
-  type: vless
-  uuid: bec0c23e-cb95-41bf-95b4-f8819b86601a
+  uuid: 29621ca8-099f-4109-821e-a8c8aee894b6
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇨🇳 台湾 13'
+  name: '[I] 🇨🇳 台湾 11'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg007147vhp.cybervena.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇳 台湾 14'
+  name: '[I] 🇨🇳 台湾 12'
   network: tcp
   port: 35034
   server: 165.154.195.38
