@@ -1,36 +1,23 @@
 proxies:
-- name: '[B] 🇸🇬 新加坡 01'
+- encryption: none
+  name: '[B] 🇸🇬 新加坡 01'
   network: ws
-  port: 10001
-  server: 59.30.189.250
+  port: 80
+  server: 162.159.14.88
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 55cb8179-ce11-4ec8-a03c-333f797265f9
   ws-opts:
     headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfengsecurity=tls
-- client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 02'
-  network: ws
-  port: 32770
-  security: tls
-  server: 61.40.190.110
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
+      Host: long-forest-ac72.salari1382m.workers.dev
+    path: /
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: '[B] 🇸🇬 新加坡 03'
+  name: '[B] 🇸🇬 新加坡 02'
   network: ws
-  port: 8443
+  port: 10035
   security: tls
-  server: 161.33.131.18
+  server: 119.195.0.158
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   tls: true
@@ -42,48 +29,39 @@ proxies:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     max-early-data: 2560
     path: /danfeng
-- name: '[B] 🇸🇬 新加坡 04'
+- name: '[B] 🇸🇬 新加坡 03'
   network: ws
-  port: 20005
-  server: 119.195.235.198
+  port: 10001
+  server: 59.30.189.250
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfengsecurity=tls
-- client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 05'
+- name: '[B] 🇸🇬 新加坡 04'
   network: ws
-  port: 10333
-  security: tls
-  server: 121.151.210.54
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
+  port: 16030
+  server: 220.94.98.144
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
-- client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 06'
+    path: /danfengsecurity=tls
+- name: '[B] 🇸🇬 新加坡 05'
   network: ws
-  port: 10909
-  security: tls
-  server: 58.125.244.137
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  tls: true
+  port: 8880
+  server: 108.162.196.30
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560fp=firefox
+      Host: vms.lifetime59.workers.dev
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: '[B] 🇸🇬 新加坡 07'
+  name: '[B] 🇸🇬 新加坡 06'
   network: ws
   port: 443
   security: tls
@@ -98,56 +76,51 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
-- name: '[B] 🇸🇬 新加坡 08'
+- name: '[B] 🇸🇬 新加坡 07'
   network: ws
-  port: 449
-  security: tls
-  server: 172.237.30.89
-  tls: true
+  port: 8880
+  server: 160.153.138.30
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: q40ivxuck.danfeng.qzz.io
-    path: /danfeng
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
+      Host: vms.lifetime04.workers.dev
+    path: /
+- name: '[B] 🇸🇬 新加坡 08'
+  network: ws
+  port: 8880
+  server: 114.129.43.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime04.workers.dev
+    path: /
+- client-fingerprint: chrome
   name: '[B] 🇸🇬 新加坡 09'
   network: ws
-  port: 8443
-  security: tls
-  server: cf9.danfeng.eu.org
+  port: 13666
+  server: 59.19.252.218
   servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: vfa9.cdn-stream.fgfw.indevs.in
+  tfo: false
   tls: true
   type: vless
+  udp: false
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfeng?ed=2560
-- name: '[B] 🇸🇬 新加坡 10'
-  network: ws
-  port: 443
-  security: tls
-  server: 137.131.8.2
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed
+    path: /danfeng?ed=2560fp=firefox
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: '[B] 🇸🇬 新加坡 11'
+  name: '[B] 🇸🇬 新加坡 10'
   network: ws
   port: 443
   security: tls
-  server: 207.244.109.45
+  server: 38.83.41.56
   servername: vfa9.cdn-stream.fgfw.indevs.in
   skip-cert-verify: false
   tls: true
@@ -159,43 +132,34 @@ proxies:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     max-early-data: 2560
     path: /danfeng
-- name: '[B] 🇸🇬 新加坡 12'
+- name: '[B] 🇸🇬 新加坡 11'
   network: ws
   port: 443
   security: tls
-  server: 20.120.129.200
-  servername: sni.skylee4.cloudns.ch
+  server: 198.41.223.68
+  servername: joey.freen1.de5.net
   tls: true
   type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
   ws-opts:
     headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip=ProxyIP.CMLiussss.netfp=chrome
-- name: '[B] 🇸🇬 新加坡 13'
+      Host: joey.freen1.de5.net
+    path: /?ed=2048fp=chrome
+- client-fingerprint: chrome
+  name: '[B] 🇸🇬 新加坡 12'
   network: ws
-  port: 443
+  port: 2053
   security: tls
-  server: 8.219.232.55
-  servername: sni.skylee4.cloudns.ch
+  server: 142.248.218.225
+  servername: vfa9.cdn-stream.fgfw.indevs.in
   tls: true
-  type: vless
-  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sni.skylee4.cloudns.ch
-    path: /proxyip
-- name: '[B] 🇸🇬 新加坡 14'
-  network: ws
-  port: 443
-  server: 64.120.94.97
   type: vless
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfengsecurity=tls
-- name: '[B] 🇸🇬 新加坡 15'
+    path: /danfeng?ed=2560fp=firefox
+- name: '[B] 🇸🇬 新加坡 13'
   network: ws
   port: 2087
   security: tls
@@ -208,52 +172,20 @@ proxies:
     headers:
       Host: joey.freen1.de5.net
     path: /?ed=2048fp=chrome
-- name: '[B] 🇸🇬 新加坡 16'
+- name: '[B] 🇸🇬 新加坡 14'
   network: ws
-  port: 8443
-  security: tls
-  server: 83.229.121.78
-  servername: 3-93f.pages.dev
-  tls: true
-  type: vless
-  uuid: ce069292-c8bf-40dd-a6b1-87818a1e64e9
-  ws-opts:
-    headers:
-      Host: 3-93f.pages.dev
-    path: /
-- name: '[B] 🇸🇬 新加坡 17'
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 47.82.155.79
+  port: 443
+  server: 27.50.48.253
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- encryption: none
-  name: '[B] 🇸🇬 新加坡 18'
-  network: ws
-  port: 443
-  security: tls
-  server: 172.104.250.194
-  servername: xfxl35a.node-edge.gfw.hidns.co
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    headers:
-      Host: xfxl35a.node-edge.gfw.hidns.co
-    path: /danfeng?ed
-- name: '[B] 🇸🇬 新加坡 19'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 188.239.9.91
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+    path: /trTelegram
 - client-fingerprint: firefox
   encryption: none
   fp: firefox
-  name: '[B] 🇸🇬 新加坡 20'
+  name: '[B] 🇸🇬 新加坡 15'
   network: ws
   port: 2053
   security: tls
@@ -268,7 +200,34 @@ proxies:
     headers:
       Host: vfa9.cdn-stream.fgfw.indevs.in
     path: /danfeng?ed=2560
-- name: '[B] 🇸🇬 新加坡 21'
+- name: '[B] 🇸🇬 新加坡 16'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 27.50.49.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇸🇬 新加坡 17'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 47.82.155.79
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇸🇬 新加坡 18'
+  network: ws
+  port: 33619
+  security: tls
+  server: 185.126.80.34
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+    path: /@Marisa_kristifp=chrome
+- name: '[B] 🇸🇬 新加坡 19'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -279,58 +238,39 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: '[B] 🇸🇬 新加坡 22'
-  network: ws
-  port: 10443
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision-udp443
+  name: '[B] 🇸🇬 新加坡 20'
+  port: 10000
   security: tls
-  server: 132.226.0.87
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
+  server: sgxi.959555.xyz
+  servername: gateway.icloud.com
   tls: true
   type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: '[B] 🇸🇬 新加坡 23'
+  uuid: af6904c1-4349-4448-8e99-0024824a0c33
+- name: '[B] 🇸🇬 新加坡 21'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 92.243.74.253
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: '[B] 🇸🇬 新加坡 24'
+- name: '[B] 🇸🇬 新加坡 22'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 188.166.230.196
+  server: 43.133.61.219
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: '[B] 🇸🇬 新加坡 25'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
-- name: '[B] 🇸🇬 新加坡 26'
-  network: ws
-  port: 2053
-  server: 91.245.225.79
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    path: /danfengsecurity=tls
-- name: '[B] 🇸🇬 新加坡 27'
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 23'
+  port: 30845
+  server: v45.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇸🇬 新加坡 24'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -341,30 +281,21 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 28'
+- name: '[B] 🇸🇬 新加坡 25'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 188.166.247.45
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: '[B] 🇸🇬 新加坡 29'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 152.42.169.132
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 30'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 57606
-  server: 89.34.227.238
-  tls: true
-  type: trojan
-- name: '[F] 🇸🇬 新加坡 31'
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 26'
+  port: 30845
+  server: 103.182.97.12
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[F] 🇸🇬 新加坡 27'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 4840
@@ -372,7 +303,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 32'
+- name: '[F] 🇸🇬 新加坡 28'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 3842
@@ -380,7 +311,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 33'
+- name: '[F] 🇸🇬 新加坡 29'
   network: tcp
   password: BxceQaOe
   port: 10578
@@ -389,7 +320,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: '[H] 🇸🇬 新加坡 34'
+  name: '[H] 🇸🇬 新加坡 30'
   password: '!!str 666'
   plugin: v2ray-plugin
   plugin-opts:
@@ -402,3 +333,35 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- name: '[H] 🇸🇬 新加坡 31'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 43.160.207.175
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
+  name: '[H] 🇸🇬 新加坡 32'
+  network: ws
+  port: 443
+  security: tls
+  server: 64.120.94.97
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    max-early-data: 2560
+    path: /danfeng

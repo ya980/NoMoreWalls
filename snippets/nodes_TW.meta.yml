@@ -1,30 +1,59 @@
 proxies:
+- insecure: '1'
+  mport: 10000-19999
+  name: '[B] 🇨🇳 台湾 01'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 10000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[B] 🇨🇳 台湾 01'
+  name: '[B] 🇨🇳 台湾 02'
   port: 30811
   server: v11.zgtfqs.click
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
   cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
+  name: '[B] 🇨🇳 台湾 03'
   port: 30811
   server: 61.227.198.218
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- fingerprint: ''
-  name: '[E] 🇨🇳 台湾 03'
-  password: 033634aa-43d9-4fc1-ab30-c2e28bb2e607
-  port: 13456
-  server: cdntw.xhl666.top
+- insecure: '1'
+  mport: 30000-39999
+  name: '[B] 🇨🇳 台湾 04'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 30000
+  server: tw.9966690.xyz
   skip-cert-verify: true
-  sni: cdntw.xhl666.top
-  tls: false
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
   type: hysteria2
+- client-fingerprint: chrome
+  name: '[B] 🇨🇳 台湾 05'
+  password: gcuCpQfaiVeDBdWG
+  port: '19128'
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇨🇳 台湾 04'
+  name: '[H] 🇨🇳 台湾 06'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg007147vhp.cybervena.com
   type: ss
+  udp: true

@@ -12,17 +12,26 @@ proxies:
     path: /trTelegram @WangCai2
 - name: '[B] 🇭🇰 香港 02'
   network: ws
+  port: 12476
+  server: 103.73.220.170
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+    path: /danfengsecurity=tls
+- name: '[B] 🇭🇰 香港 03'
+  network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 149.104.6.78
-  skip-cert-verify: true
+  port: 443
+  server: 8.223.63.189
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    path: /trTelegram
+    path: /trTelegram🇨🇳 @WangCai2
 - insecure: '1'
-  name: '[B] 🇭🇰 香港 03'
+  name: '[B] 🇭🇰 香港 04'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -34,18 +43,17 @@ proxies:
     insecure: true
     server_name: iosapps.itunes.apple.com
   type: hysteria2
-- name: '[B] 🇭🇰 香港 04'
+- name: '[B] 🇭🇰 香港 05'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.223.63.189
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
+  port: 8880
+  server: 45.40.145.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
-    path: /trTelegram🇨🇳 @WangCai2
+    headers:
+      Host: vms.lifetime35.workers.dev
 - insecure: '1'
-  name: '[B] 🇭🇰 香港 05'
+  name: '[B] 🇭🇰 香港 06'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -57,14 +65,23 @@ proxies:
     insecure: true
     server_name: iosapps.itunes.apple.com
   type: hysteria2
-- name: '[B] 🇭🇰 香港 06'
-  password: 8r<[9'l6hAO#8ZQi
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇭🇰 香港 07'
+  network: tcp
   port: 8443
-  server: 83.229.121.78
-  sni: Koma-YT.PAGeS.Dev
+  reality-opts:
+    public-key: YVdWd-VtYIzDviaoWi-aMjNO_I9zDyyHhBs4oUFDBw4
+    short-id: '!!str 757db457'
+  security: reality
+  server: hk2.isif.7li7li.vip
+  servername: itunes.apple.com
+  spider-x: /
   tls: true
-  type: trojan
-- name: '[B] 🇭🇰 香港 07'
+  type: vless
+  uuid: 135a7899-d6d6-40e9-a33e-d0ae87e09a7e
+- name: '[B] 🇭🇰 香港 08'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -76,25 +93,8 @@ proxies:
   tfo: false
   type: hysteria2
   udp: true
-- name: '[B] 🇭🇰 香港 08'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 213.176.92.138
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: '[B] 🇭🇰 香港 09'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.223.63.150
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
 - insecure: '1'
-  name: '[B] 🇭🇰 香港 10'
+  name: '[B] 🇭🇰 香港 09'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -106,6 +106,13 @@ proxies:
     insecure: true
     server_name: iosapps.itunes.apple.com
   type: hysteria2
+- name: '[B] 🇭🇰 香港 10'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 156.225.72.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - insecure: '1'
   name: '[B] 🇭🇰 香港 11'
   obfs: salamander
@@ -138,18 +145,32 @@ proxies:
   name: '[B] 🇭🇰 香港 14'
   port: 51556
   server: 103.181.164.145
+  skip-cert-verify: true
+  tfo: false
   type: vmess
+  udp: false
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- encryption: none
+  name: '[B] 🇭🇰 香港 15'
+  network: ws
+  port: 80
+  server: 104.17.145.59
+  type: vless
+  uuid: 5aa7d17e-7dc2-46dd-9acf-c3c97440259b
+  ws-opts:
+    headers:
+      Host: sss.yaml7.ggff.net
+    path: /
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 15'
+  name: '[F] 🇭🇰 香港 16'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 16'
+- name: '[F] 🇭🇰 香港 17'
   network: tcp
   password: 635340b47bddf8f41c123dc6f2b5f7ce
   port: 2008
@@ -157,7 +178,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 17'
+- name: '[F] 🇭🇰 香港 18'
   network: tcp
   password: BxceQaOe
   port: 3285
@@ -165,7 +186,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 18'
+- name: '[F] 🇭🇰 香港 19'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -175,7 +196,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 19'
+  name: '[G] 🇭🇰 香港 20'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -183,9 +204,32 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[H] 🇭🇰 香港 21'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 28551
+  server: 116.206.178.228
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[H] 🇭🇰 香港 22'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 8.223.63.189
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 20'
+  name: '[I] 🇭🇰 香港 23'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -194,7 +238,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: '[I] 🇭🇰 香港 21'
+  name: '[I] 🇭🇰 香港 24'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 202.85.76.170

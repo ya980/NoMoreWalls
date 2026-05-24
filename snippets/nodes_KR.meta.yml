@@ -1,45 +1,8 @@
 proxies:
 - client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
+  fp: firefox
   name: '[H] 🇰🇷 韩国 01'
-  network: tcp
-  port: 21796
-  reality-opts:
-    _spider-x: /
-    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
-    short-id: '!!str 804d6574da9180'
-  server: 43.203.252.196
-  servername: www.sony.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: '[H] 🇰🇷 韩国 02'
-  network: ws
-  port: 34237
-  security: tls
-  server: 146.56.110.135
-  servername: vfa9.cdn-stream.fgfw.indevs.in
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vfa9.cdn-stream.fgfw.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- client-fingerprint: firefox
-  encryption: none
-  fp: firefox
-  name: '[H] 🇰🇷 韩国 03'
   network: ws
   port: 10001
   security: tls
@@ -56,22 +19,58 @@ proxies:
     max-early-data: 2560
     path: /danfeng
 - client-fingerprint: chrome
-  name: '[H] 🇰🇷 韩国 05'
+  name: '[H] 🇰🇷 韩国 03'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: '26214'
-  server: 183.104.5.134
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
+  port: '10909'
+  server: 58.125.244.137
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
   udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /danfeng?ed=2560fp=firefox
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇰🇷 韩国 04'
+  network: ws
+  port: '10002'
+  server: 211.199.27.72
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /danfeng?ed=2560fp=firefox
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇰🇷 韩国 05'
+  network: ws
+  port: '32770'
+  server: 61.40.190.110
+  servername: vfa9.cdn-stream.fgfw.indevs.in
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: vfa9.cdn-stream.fgfw.indevs.in
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /danfeng?ed=2560fp=firefox
+  xudp: true
 - cipher: aes-256-gcm
-  name: '[I] 🇰🇷 韩国 06'
+  name: '[I] 🇰🇷 韩国 07'
   password: 63d7c17506d1f48b
   port: 20129
   server: 203.32.26.24
