@@ -1,7 +1,31 @@
 proxies:
-- alterId: 2
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇯🇵 日本 01'
+  network: ws
+  port: 16617
+  server: planb.mojcn.com
+  type: vmess
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  ws-opts:
+    headers:
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+- alterId: 0
   cipher: auto
   name: '[A] 🇯🇵 日本 02'
+  network: ws
+  port: 16617
+  server: m.cnmjin.net
+  type: vmess
+  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
+  ws-opts:
+    headers:
+      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: '[A] 🇯🇵 日本 03'
   port: 30806
   server: v6.hdacd.com
   type: vmess
@@ -33,16 +57,6 @@ proxies:
 - name: '[A] 🇯🇵 日本 06'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 142.91.108.54
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trTelegram
-- name: '[A] 🇯🇵 日本 07'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 8443
   server: 103.125.216.22
   skip-cert-verify: true
@@ -51,7 +65,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: '[A] 🇯🇵 日本 08'
+- name: '[A] 🇯🇵 日本 07'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -64,7 +78,19 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[E] 🇯🇵 日本 10'
+- name: '[A] 🇯🇵 日本 08'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 185.130.46.81
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[E] 🇯🇵 日本 09'
   network: tcp
   password: BxceQaOe
   port: 2140
@@ -72,7 +98,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 11'
+- name: '[E] 🇯🇵 日本 10'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3135
@@ -80,7 +106,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 12'
+- name: '[E] 🇯🇵 日本 11'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -90,7 +116,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[H] 🇯🇵 日本 13'
+  name: '[H] 🇯🇵 日本 12'
   network: tcp
   port: '180'
   server: 82.198.246.214
