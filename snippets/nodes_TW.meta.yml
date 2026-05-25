@@ -1,39 +1,18 @@
 proxies:
-- insecure: '1'
-  mport: 40000-49999
-  name: '[B] 🇨🇳 台湾 01'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: tw.9966690.xyz
+- name: '[B] 🇨🇳 台湾 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
+  sni: vpn-tw-002.fastervpn.world
   type: hysteria2
-- alpn:
-  - http%2F1.1%0A
-  client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
+- alterId: 2
+  cipher: auto
   name: '[B] 🇨🇳 台湾 02'
-  network: ws
-  port: 8818
-  server: 60.249.21.50
-  servername: c1mxc.api-gateway.fgfw.qzz.io
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: c1mxc.api-gateway.fgfw.qzz.io
-    path: /danfeng-2cm3?ed=2560
+  port: 30811
+  server: v11.zgtfqs.click
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - fingerprint: ''
   name: '[E] 🇨🇳 台湾 03'
   password: 033634aa-43d9-4fc1-ab30-c2e28bb2e607
