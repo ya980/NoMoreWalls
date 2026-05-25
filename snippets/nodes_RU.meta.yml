@@ -6,9 +6,31 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- cipher: aes-128-gcm
-  name: '[I] 🇷🇺 俄罗斯 02'
-  password: 6784aee2-0dfe-474f-8446-480259ff9918
-  port: 442
-  server: ru.safepass.click
-  type: ss
+- name: '[I] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 4443
+  server: 185.175.47.238
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
+- name: '[I] 🇷🇺 俄罗斯 03'
+  port: 4443
+  server: 5.188.156.138
+  tls: false
+  type: vless
+  uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
+- name: '[I] 🇷🇺 俄罗斯 04'
+  network: tcp
+  port: 4443
+  server: ru2.alexanderoff.ru
+  tls: false
+  type: vless
+  uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
+- name: '[I] 🇷🇺 俄罗斯 05'
+  network: tcp
+  port: 4443
+  server: ru3.alexanderoff.ru
+  tls: false
+  type: vless
+  uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
