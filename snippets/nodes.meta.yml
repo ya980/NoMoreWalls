@@ -2,20 +2,6 @@ proxies:
 - name: '[B] 🇭🇰 香港 01'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 149.104.6.78
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.81 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇭🇰 香港 02'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 8.223.63.189
   skip-cert-verify: true
@@ -28,12 +14,12 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: '[B] 🇭🇰 香港 03'
+  name: '[B] 🇭🇰 香港 02'
   port: 30809
   server: 103.182.97.245
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇭🇰 香港 04'
+- name: '[B] 🇭🇰 香港 03'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -48,7 +34,7 @@ proxies:
     path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 05'
+  name: '[B] 🇭🇰 香港 04'
   network: ws
   port: 443
   server: cdn.31514926.xyz
@@ -60,7 +46,7 @@ proxies:
     headers:
       Host: admit-statute-live-undertaken.trycloudflare.com
     path: /48d5eb0f-fd55-4357-baec-a68fa39a4b1b-vm
-- name: '[B] 🇭🇰 香港 06'
+- name: '[B] 🇭🇰 香港 05'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -69,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: zf.9966690.xyz
   type: hysteria2
-- name: '[B] 🇭🇰 香港 07'
+- name: '[B] 🇭🇰 香港 06'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -78,18 +64,22 @@ proxies:
   skip-cert-verify: true
   sni: zf.9966690.xyz
   type: hysteria2
-- name: '[B] 🇭🇰 香港 08'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60006
-  server: zf.9966690.xyz
+- name: '[B] 🇭🇰 香港 07'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 156.225.72.253
   skip-cert-verify: true
-  sni: zf.9966690.xyz
-  type: hysteria2
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 2
   cipher: auto
-  name: '[B] 🇭🇰 香港 09'
+  name: '[B] 🇭🇰 香港 08'
   port: 30809
   server: 103.182.97.12
   type: vmess
@@ -101,26 +91,13 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: '[B] 🇭🇰 香港 10'
+  name: '[B] 🇭🇰 香港 09'
   network: http
   port: 54291
   server: 103.127.243.66
   type: vmess
   uuid: c5856e0b-5ca6-49bf-8525-d02af9c37cf5
-- name: '[B] 🇭🇰 香港 11'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2053
-  server: 2.56.91.49
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇭🇰 香港 12'
+- name: '[B] 🇭🇰 香港 10'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 219.76.13.166
@@ -129,7 +106,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[B] 🇭🇰 香港 13'
+  name: '[B] 🇭🇰 香港 11'
   port: 30809
   server: v9.hdacd.com
   type: vmess
@@ -201,14 +178,26 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 03'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 03'
+  network: ws
+  port: 80
+  server: 168.138.43.75
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: jp01.a0a.xyz
+    path: /cctv13.m3u8
+- name: '[B] 🇯🇵 日本 04'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 154.197.88.253
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: '[B] 🇯🇵 日本 04'
+- name: '[B] 🇯🇵 日本 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -221,7 +210,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 05'
+- name: '[B] 🇯🇵 日本 06'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -232,7 +221,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 06'
+- name: '[B] 🇯🇵 日本 07'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -245,7 +234,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 07'
+- name: '[B] 🇯🇵 日本 08'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -260,7 +249,20 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
         Safari/537.36
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 08'
+- name: '[B] 🇯🇵 日本 09'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 18122
+  server: 155.248.168.35
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇯🇵 日本 10'
   password: 8r<[9'l6hAO#8ZQi
   port: 2083
   server: 64.176.38.23
@@ -269,26 +271,26 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[B] 🇯🇵 日本 09'
+  name: '[B] 🇯🇵 日本 11'
   port: 30806
   server: 103.182.97.12
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇯🇵 日本 10'
+- name: '[B] 🇯🇵 日本 12'
   password: 8r<[9'l6hAO#8ZQi
   port: 41607
   server: 45.159.48.37
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: '[B] 🇯🇵 日本 11'
+- name: '[B] 🇯🇵 日本 13'
   password: 8r<[9'l6hAO#8ZQi
   port: 443
   server: 168.138.46.67
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-- name: '[B] 🇯🇵 日本 12'
+- name: '[B] 🇯🇵 日本 14'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -301,26 +303,6 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 13'
-  network: ws
-  port: 80
-  server: 172.111.146.64
-  type: vless
-  uuid: 904f8ffa-4652-4076-8f2f-e586807840ec
-  ws-opts:
-    path: /vless/
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 14'
-  network: ws
-  port: 80
-  server: jp01.a0a.xyz
-  type: vmess
-  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
-  ws-opts:
-    headers:
-      Host: jp01.a0a.xyz
-    path: /cctv13.m3u8
 - name: '[B] 🇯🇵 日本 15'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
@@ -365,6 +347,18 @@ proxies:
   uuid: 8d5e7f2a-3c1b-4d9e-a6f8-2b5c0e7d4a19
   ws-opts:
     path: /proxy
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 19'
+  network: ws
+  port: 80
+  server: 172.111.146.64
+  tls: false
+  type: vmess
+  uuid: 05b8c783-7f59-47f9-9923-06a465679f6a
+  ws-opts:
+    headers: {}
+    path: /vmess/
 - name: '[B] 🇸🇬 新加坡 01'
   network: ws
   port: 18852
@@ -378,28 +372,7 @@ proxies:
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560fp=firefox
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[B] 🇸🇬 新加坡 02'
-  network: ws
-  port: 10001
-  server: 112.164.151.157
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: '[B] 🇸🇬 新加坡 03'
+- name: '[B] 🇸🇬 新加坡 02'
   network: ws
   port: 11001
   security: tls
@@ -412,7 +385,7 @@ proxies:
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560fp=firefox
-- name: '[B] 🇸🇬 新加坡 04'
+- name: '[B] 🇸🇬 新加坡 03'
   network: ws
   port: 15000
   server: 125.138.172.119
@@ -423,6 +396,19 @@ proxies:
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560fp=firefoxsecurity=tls
+- name: '[B] 🇸🇬 新加坡 04'
+  network: ws
+  port: 22525
+  security: tls
+  server: 142.248.139.25
+  servername: qznql.node-proxy.chinat.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefox
 - name: '[B] 🇸🇬 新加坡 05'
   network: ws
   port: 443
@@ -436,27 +422,14 @@ proxies:
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
     path: /danfeng?ed=2560fp=firefox
-- name: '[B] 🇸🇬 新加坡 06'
-  network: ws
-  port: 20201
-  security: tls
-  server: 125.135.9.231
-  servername: qznql.node-proxy.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560fp=firefox
 - client-fingerprint: firefox
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: '[B] 🇸🇬 新加坡 07'
+  name: '[B] 🇸🇬 新加坡 06'
   network: ws
-  port: 58717
-  server: 64.176.53.208
+  port: 443
+  server: 94.183.184.187
   servername: qznql.node-proxy.chinat.indevs.in
   skip-cert-verify: false
   tfo: false
@@ -474,7 +447,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: '[B] 🇸🇬 新加坡 08'
+  name: '[B] 🇸🇬 新加坡 07'
   network: ws
   port: 2053
   server: 185.92.180.176
@@ -491,73 +464,34 @@ proxies:
       Host: qznql.node-proxy.chinat.indevs.in
     max-early-data: 2560
     path: /danfeng
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[B] 🇸🇬 新加坡 09'
+- name: '[B] 🇸🇬 新加坡 08'
   network: ws
   port: 443
-  server: 70.34.216.147
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
+  server: www.shopify.com
+  servername: 7xbq35vdydie5sgv.cctg.xx.kg
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: '[B] 🇸🇬 新加坡 10'
-  network: ws
-  port: 2096
-  server: 104.26.5.134
-  servername: joey.freen1.de5.net
-  type: vless
-  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: joey.freen1.de5.net
-    path: /?ed=2048fp=chromesecurity=tls
-- name: '[B] 🇸🇬 新加坡 11'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.160.195.223
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[B] 🇸🇬 新加坡 12'
+      Host: 7xbq35vdydie5sgv.cctg.xx.kg
+    path: /@Marisa_kristifp=chrome
+- name: '[B] 🇸🇬 新加坡 09'
   network: ws
   port: 443
+  security: tls
   server: 209.38.241.6
   servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vless
-  udp: true
   uuid: 26524cce-d514-4014-a426-365fb266a14d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: qznql.node-proxy.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: '[B] 🇸🇬 新加坡 13'
+    path: /danfengfp=firefox
+- name: '[B] 🇸🇬 新加坡 10'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -570,133 +504,11 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[B] 🇸🇬 新加坡 14'
+- name: '[B] 🇸🇬 新加坡 11'
   network: ws
+  password: 8r<[9'l6hAO#8ZQi
   port: 2053
-  server: 164.92.181.46
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: '[B] 🇸🇬 新加坡 15'
-  network: ws
-  port: 8443
-  security: tls
-  server: 103.45.245.208
-  servername: qznql.node-proxy.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560fp=firefox
-- name: '[B] 🇸🇬 新加坡 16'
-  network: ws
-  port: 443
-  security: tls
-  server: 159.89.207.154
-  servername: qznql.node-proxy.chinat.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560fp=firefox
-- name: '[B] 🇸🇬 新加坡 17'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.170.25.96
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇸🇬 新加坡 18'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
   server: 47.82.155.79
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[B] 🇸🇬 新加坡 19'
-  network: ws
-  port: 443
-  server: 76.223.33.155
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    path: /danfeng?ed=2560
-- client-fingerprint: firefox
-  ech-opts:
-    enable: true
-    query-server-name: encryptedsni.com
-  name: '[B] 🇸🇬 新加坡 20'
-  network: ws
-  port: 2053
-  server: 223.165.4.124
-  servername: qznql.node-proxy.chinat.indevs.in
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: qznql.node-proxy.chinat.indevs.in
-    max-early-data: 2560
-    path: /danfeng
-- name: '[B] 🇸🇬 新加坡 21'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 43.134.174.114
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇸🇬 新加坡 22'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 167.71.222.177
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 23'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 139.99.124.165
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -705,101 +517,168 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇸🇬 新加坡 24'
+- name: '[B] 🇸🇬 新加坡 12'
+  network: ws
+  port: 8443
+  server: 103.45.245.208
+  servername: qznql.node-proxy.chinat.indevs.in
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefoxsecurity=tls
+- name: '[B] 🇸🇬 新加坡 13'
+  network: ws
+  port: 443
+  server: 159.89.207.154
+  servername: qznql.node-proxy.chinat.indevs.in
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefoxsecurity=tls
+- name: '[B] 🇸🇬 新加坡 14'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 141.11.43.124
+  server: 92.243.74.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- auth: 9b016db2-a63d-43ab-99d8-e424022a752f
-  name: '[B] 🇸🇬 新加坡 25'
+- name: '[B] 🇸🇬 新加坡 15'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.2.87.237
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 16'
+  port: 30845
+  server: v45.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇸🇬 新加坡 17'
+  network: ws
+  port: 2053
+  security: tls
+  server: 223.165.4.124
+  servername: qznql.node-proxy.chinat.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfengfp=firefox
+- encryption: none
+  name: '[B] 🇸🇬 新加坡 18'
+  network: ws
+  port: 32237
+  security: tls
+  server: 83.229.126.127
+  servername: dcsrzh.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: dcsrzh.ccwu.cc
+    path: /?ed=2560fp=chrome
+- auth: f076b291-b745-4ede-8227-cdf9dde7c744
+  name: '[B] 🇸🇬 新加坡 19'
   obfs: salamander
   obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
-  password: 9b016db2-a63d-43ab-99d8-e424022a752f
+  password: f076b291-b745-4ede-8227-cdf9dde7c744
   port: 443
   server: sg2.yuntong.click
   skip-cert-verify: false
   sni: sg2.yuntong.click
   type: hysteria2
   udp: true
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '[B] 🇺🇸 美国 01'
-  network: tcp
-  port: 22231
-  server: 85.234.114.30
-  servername: r1.mizulina.top
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 02'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇺🇸 美国 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
-    short-id: '122218f4c1f172e4'
-  security: reality
-  server: fr.c2horizon.app
-  servername: fr.c2horizon.app
-  tls: true
-  type: vless
-  uuid: 24e407fb-8d2c-47c7-a589-13fa4edcac38
-- name: '[B] 🇺🇸 美国 04'
+- name: '[B] 🇸🇬 新加坡 20'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 103.21.244.253
+  server: 139.162.61.34
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 05'
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[B] 🇺🇸 美国 06'
+- name: '[B] 🇸🇬 新加坡 21'
+  network: ws
+  port: 443
+  security: tls
+  server: 93.93.205.70
+  servername: qznql.node-proxy.chinat.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: qznql.node-proxy.chinat.indevs.in
+    path: /danfeng?ed=2560fp=firefox
+- name: '[B] 🇸🇬 新加坡 22'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 157.245.215.195
+  port: 443
+  server: 164.52.2.98
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram
-- name: '[B] 🇺🇸 美国 07'
+- name: '[B] 🇸🇬 新加坡 23'
+  obfs: salamander
+  obfs-password: eNM/NfxTsBqQIKcN0ezARS1z0f5mIxRd9GSwhVsyJlo=
+  password: 9b016db2-a63d-43ab-99d8-e424022a752f
+  port: 443
+  server: sg2.yuntong.click
+  sni: sg2.yuntong.click
+  type: hysteria2
+- name: '[B] 🇸🇬 新加坡 24'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 134.185.93.231
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇺🇸 美国 01'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 138.197.209.118
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- encryption: none
+  name: '[B] 🇺🇸 美国 02'
+  network: ws
+  port: 443
+  security: tls
+  server: 154.17.22.207
+  servername: sn1.skylee5.cloudns.ch
+  tls: true
+  type: vless
+  uuid: 06b65903-406d-4a41-8463-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sn1.skylee5.cloudns.ch
+    path: /
+- name: '[B] 🇺🇸 美国 03'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 31.58.50.143
+  port: 443
+  server: 184.174.80.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -811,7 +690,7 @@ proxies:
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: '[B] 🇺🇸 美国 08'
+  name: '[B] 🇺🇸 美国 04'
   network: tcp
   port: '22231'
   security: tls
@@ -822,11 +701,11 @@ proxies:
   udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- name: '[B] 🇺🇸 美国 09'
+- name: '[B] 🇺🇸 美国 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 104.129.166.253
+  port: 8443
+  server: 57.154.33.195
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -834,12 +713,40 @@ proxies:
   ws-opts:
     headers:
       Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇺🇸 美国 10'
+    path: /trTelegram
+- alpn:
+  - h2
+  - http/1.1
+  name: '[B] 🇺🇸 美国 06'
+  network: ws
+  password: :U]2hAN7Y[Ka0Eb_
+  port: 8443
+  server: www.speedtest.net
+  sni: TEst-63W.PaGEs.deV
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: test-63w.pages.dev
+    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==?ed=2560
+- name: '[B] 🇺🇸 美国 07'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 31.57.63.63
+  port: 443
+  server: 198.13.159.199
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram
+- name: '[B] 🇺🇸 美国 08'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 167.68.11.253
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
@@ -849,58 +756,83 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - encryption: none
-  name: '[B] 🇺🇸 美国 11'
+  flow: xtls-rprx-vision
+  name: '[B] 🇺🇸 美国 09'
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: wAYsJ6RJXFy94w_WaTIhp1ZfCePAPoZmP27RarvUqXg
+    short-id: '2344766a270a6298'
+  security: reality
+  server: 72.56.34.155
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 4649d681-7f26-4959-a3f2-02eb8866230f
+- encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇺🇸 美国 10'
   network: tcp
   port: 443
   reality-opts:
-    public-key: rSL9RX3anDN8Un4ImlYVa94n9wDdUmHdubxoMKnaXgE
-    short-id: '5a55'
+    public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+    short-id: '428ef87fd47a3a32'
   security: reality
-  server: 193.233.202.7
-  servername: yahoo.com
-  spider-x: /
+  server: chus.nodes.rocketnetwork.ru
+  servername: chus.nodes.rocketnetwork.ru
   tls: true
   type: vless
-  uuid: 6e76f92f-5005-42d8-8c66-ea7ffde3168a
+  uuid: dad97768-187b-40be-b423-2f312f740085
+- name: '[B] 🇺🇸 美国 11'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.21.61.73
+  tls: true
+  type: vless
+  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
+  ws-opts:
+    headers:
+      Host: vip.yaml7.ggff.net
+    path: /
 - name: '[B] 🇺🇸 美国 12'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 128.14.196.46
+  server: 83.147.253.187
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇺🇸 美国 13'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 162.245.191.118
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇺🇸 美国 14'
+- alpn:
+  - h2
+  - http/1.1
+  name: '[B] 🇺🇸 美国 13'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 192.241.207.118
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
+  password: :U]2hAN7Y[Ka0Eb_
+  port: 8443
+  server: 104.17.148.22
+  sni: TEst-63W.PaGEs.deV
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: test-63w.pages.dev
+    path: /tre6QQRE1ue6YL7k30/NzIuMTMuMTIyLjEzNw==?ed=2560
+- name: '[B] 🇺🇸 美国 14'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 184.169.181.217
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - name: '[B] 🇺🇸 美国 15'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 104.223.50.78
-  skip-cert-verify: true
+  port: 2053
+  server: 72.56.103.129
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
@@ -909,127 +841,106 @@ proxies:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
 - name: '[B] 🇺🇸 美国 16'
-  network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 64.188.89.147
-  skip-cert-verify: true
+  port: 443
+  server: 64.176.219.210
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
 - name: '[B] 🇺🇸 美国 17'
-  network: ws
-  port: 80
-  server: 104.21.61.73
-  type: vless
-  uuid: 388a6c57-87e7-420b-afe2-b3eb670fd7da
-  ws-opts:
-    headers:
-      Host: vip.yaml7.ggff.net
-    path: /
-- name: '[B] 🇺🇸 美国 18'
-  network: ws
-  port: 443
-  server: 172.64.229.83
-  servername: pagescm.freen34.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen34.cc.cd
-    path: /contact/pages
-- encryption: none
-  name: '[B] 🇺🇸 美国 19'
-  network: ws
-  port: 443
-  server: dustyvless-sin-0a46fa.fly.dev
-  servername: dustyvless-sin-0a46fa.fly.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 346a022c-5dc1-5886-b6f0-28e33fb15c0b
-  ws-opts:
-    headers:
-      Host: dustyvless-sin-0a46fa.fly.dev
-    path: /uXYVnYROQd_w
-  xudp: true
-- name: '[B] 🇺🇸 美国 20'
-  network: ws
   password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 72.56.102.34
+  port: 443
+  server: 64.188.89.147
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram
+- name: '[B] 🇺🇸 美国 18'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 83.147.253.21
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇺🇸 美国 19'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 168.235.89.166
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇺🇸 美国 20'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 150.136.254.79
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - name: '[B] 🇺🇸 美国 21'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
-  server: 72.56.106.103
+  server: 34.58.136.79
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: '[B] 🇺🇸 美国 22'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 193.23.211.202
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇺🇸 美国 23'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 142.93.176.217
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇺🇸 美国 24'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 72.56.110.162
   skip-cert-verify: true
   sni: Koma-YT.PAGeS.Dev
   tls: true
   type: trojan
   ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇺🇸 美国 25'
+  network: tcp
+  port: 4443
+  reality-opts:
+    public-key: Y-YdtljDOJbFMqAA7xLO5cTrx6Fy7Ij0Bd6XQTUJQkU
+  security: reality
+  server: at3.alexanderoff.ru
+  servername: at3.frostmotiveseed.net
+  tls: true
+  type: vless
+  uuid: de87620b-6bff-4077-99cc-ce65e06b64ed
 - alterId: 2
   cipher: auto
-  name: '[B] 🇺🇸 美国 22'
-  port: 30804
-  server: 103.182.97.25
+  name: '[B] 🇺🇸 美国 26'
+  port: 30824
+  server: v24.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  name: '[B] 🇺🇸 美国 23'
+- client-fingerprint: randomized
+  name: '[B] 🇺🇸 美国 27'
   network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
   port: 443
-  security: tls
-  server: 172.64.32.83
-  servername: pagescm.freen34.cc.cd
+  server: 104.19.174.68
+  sni: azadnet-5vk.pages.dev
   tls: true
-  type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  type: trojan
   ws-opts:
-    headers:
-      Host: pagescm.freen34.cc.cd
-    path: /contact/pages
-- flow: xtls-rprx-vision
-  name: '[B] 🇺🇸 美国 24'
-  port: 17440
-  security: tls
-  server: usvless.yydzx.xyz
-  servername: usvless.yydzx.xyz
-  tls: true
-  type: vless
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- name: '[B] 🇺🇸 美国 25'
-  network: ws
-  port: 8443
-  server: 188.114.98.0
-  servername: sni.111000.dynv6.net
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: sni.111000.dynv6.net
-    path: /?Telegram🇨🇳 @WangCai2
+    path: /azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan
 - name: '[D] 🌍 其它地区 01'
   obfs: salamander
   obfs-password: xnJ%rKbwakdx
@@ -1400,24 +1311,16 @@ proxies:
   sni: holz10.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 26'
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: 443
-  server: 185.106.96.231
+- name: '[E] 🇨🇦 加拿大 01'
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 202.61.205.86
   skip-cert-verify: true
-  sni: s559.ccgfw.top
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 27'
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: 443
-  server: 195.133.53.33
-  sni: s516.okgfw.top
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 14'
+  name: '[E] 🇭🇰 香港 12'
   network: ws
   port: '443'
   server: n1761296878.4u9ma.icu
@@ -1431,91 +1334,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 15'
-  network: ws
-  port: '443'
-  server: n1753101277.4u9ma.icu
-  servername: n1753101277.4u9ma.icu
-  tls: true
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  ws-opts:
-    headers:
-      Host: n1753101277.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 16'
-  network: ws
-  port: '443'
-  server: n1753101277.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 17'
-  network: ws
-  port: '443'
-  server: n1753348736.lie5d.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f267eac3-dfb4-45be-a480-7e1847ca04ab
-  ws-opts:
-    headers:
-      Host: n1753348736.lie5d.cyou
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 18'
-  network: ws
-  port: '443'
-  server: 47.242.163.203
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 78f61544-3393-4e6b-9c77-5deaa0c7471d
-  ws-opts:
-    headers:
-      Host: n1761296878.4u9ma.icu
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 19'
-  network: ws
-  port: '55185'
-  server: 47.243.135.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
-  ws-opts:
-    headers:
-      Host: ''
-    path: /Notif_Chat
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 20'
-  network: ws
-  port: '443'
-  server: n1753348736.lie5d.cyou
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: f267eac3-dfb4-45be-a480-7e1847ca04ab
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 21'
+  name: '[E] 🇭🇰 香港 13'
   network: ws
   port: '443'
   server: n1761296889.4u9ma.icu
@@ -1529,49 +1348,129 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 31'
+  name: '[E] 🇭🇰 香港 14'
   network: ws
-  port: '50018'
-  server: 47.250.149.51
+  port: '443'
+  server: n1753348736.lie5d.cyou
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 9665280c-a3d1-4aab-ef9f-a3a497337d91
+  uuid: f267eac3-dfb4-45be-a480-7e1847ca04ab
+  ws-opts:
+    headers:
+      Host: n1753348736.lie5d.cyou
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 15'
+  network: ws
+  port: '443'
+  server: n1753348736.lie5d.cyou
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f267eac3-dfb4-45be-a480-7e1847ca04ab
   ws-opts:
     headers:
       Host: ''
-    path: /9665280c
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 16'
+  network: ws
+  port: '443'
+  server: 47.76.254.70
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+  ws-opts:
+    headers:
+      Host: n1753101277.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 17'
+  network: ws
+  port: '443'
+  server: 47.242.163.203
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 78f61544-3393-4e6b-9c77-5deaa0c7471d
+  ws-opts:
+    headers:
+      Host: n1761296878.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 18'
+  network: ws
+  port: '55185'
+  server: 47.243.135.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1375985e-334a-4c25-8f64-52a182bc8037
+  ws-opts:
+    headers:
+      Host: ''
+    path: /Notif_Chat
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 19'
+  network: ws
+  port: '443'
+  server: 8.210.239.58
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5fdc6ab1-8347-411c-9bbf-fbc3ea853d2f
+  ws-opts:
+    headers:
+      Host: n1761296889.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 20'
+  network: ws
+  port: '443'
+  server: n1753101277.4u9ma.icu
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6ea48dfe-7de2-45dc-9267-d4d9effad9fc
+  ws-opts:
+    headers:
+      Host: n1753101277.4u9ma.icu
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 31'
+  network: ws
+  port: '80'
+  server: 38.107.234.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
 - alterId: 0
   cipher: auto
   name: '[E] 🌍 其它地区 32'
-  network: ws
-  port: '80'
-  server: 61.245.11.60
+  network: tcp
+  port: '30830'
+  server: 48.193.40.240
   servername: ''
   tls: false
   type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
-  ws-opts:
-    headers:
-      Host: 61.245.11.60
-    path: /vmess/
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '[E] 🌍 其它地区 33'
-  network: ws
-  port: '80'
-  server: 61.245.11.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 34'
   network: tcp
   port: 30830
   server: v30.hdacd.com
@@ -1582,29 +1481,29 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇩🇪 德国 02'
-  network: ''
+  network: raw
   port: '30830'
-  server: v30.hdacd.com
+  server: 103.182.97.25
   servername: ''
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 35'
+  name: '[F] 🌍 其它地区 34'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 22'
+  name: '[F] 🇭🇰 香港 21'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 23'
+- name: '[F] 🇭🇰 香港 22'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 53018
@@ -1612,7 +1511,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 24'
+- name: '[F] 🇭🇰 香港 23'
   network: tcp
   password: BxceQaOe
   port: 1123
@@ -1620,7 +1519,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 25'
+- name: '[F] 🇭🇰 香港 24'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -1628,7 +1527,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 19'
+- name: '[F] 🇯🇵 日本 20'
   network: tcp
   password: BxceQaOe
   port: 2140
@@ -1636,7 +1535,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 20'
+- name: '[F] 🇯🇵 日本 21'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3135
@@ -1644,7 +1543,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 21'
+- name: '[F] 🇯🇵 日本 22'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -1652,7 +1551,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 26'
+- name: '[F] 🇸🇬 新加坡 25'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 1180
@@ -1660,7 +1559,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 27'
+- name: '[F] 🇸🇬 新加坡 26'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2511
@@ -1668,7 +1567,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 28'
+- name: '[F] 🇸🇬 新加坡 27'
   network: tcp
   password: BxceQaOe
   port: 10478
@@ -1704,6 +1603,15 @@ proxies:
   cipher: auto
   name: '[F] 🇺🇸 美国 31'
   port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 32'
+  port: 180
   server: 82.198.246.233
   skip-cert-verify: false
   tls: false
@@ -1711,7 +1619,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 26'
+  name: '[G] 🇭🇰 香港 25'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -1721,7 +1629,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 32'
+  name: '[G] 🇺🇸 美国 33'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -1731,7 +1639,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: aes-128-gcm
-  name: '[G] 🇺🇸 美国 33'
+  name: '[G] 🇺🇸 美国 34'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -1744,7 +1652,7 @@ proxies:
   xudp: true
 - down: ''
   fingerprint: ''
-  name: '[H] 🇺🇸 美国 34'
+  name: '[H] 🇺🇸 美国 35'
   obfs: ''
   obfs-password: ''
   password: bce6c821-200d-421f-bf3d-7159e5246ea0
@@ -1756,7 +1664,7 @@ proxies:
   up: ''
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 36'
+  name: '[H] 🌍 其它地区 35'
   network: tcp
   port: '443'
   reality-opts:
@@ -1771,7 +1679,7 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 37'
+  name: '[H] 🌍 其它地区 36'
   network: tcp
   port: '8443'
   reality-opts:
@@ -1785,21 +1693,21 @@ proxies:
   uuid: 1e4cbe3e-f5b2-4629-9f41-d6f82ad2fabd
   xudp: true
 - cipher: aes-256-cfb
-  name: '[H] 🌍 其它地区 38'
+  name: '[H] 🌍 其它地区 37'
   password: f8f7aCzcPKbsF8p3
   port: '989'
   server: 45.154.206.192
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: '[H] 🌍 其它地区 39'
+  name: '[H] 🌍 其它地区 38'
   password: f8f7aCzcPKbsF8p3
   port: '989'
   server: 51.15.23.166
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 35'
+  name: '[H] 🇺🇸 美国 36'
   password: amazonskr05
   port: '443'
   server: 100.26.47.172
@@ -1808,7 +1716,7 @@ proxies:
 - encryption: none
   grpc-opts:
     grpc-service-name: xyz
-  name: '[H] 🌍 其它地区 40'
+  name: '[H] 🌍 其它地区 39'
   network: grpc
   port: '8443'
   reality-opts:
@@ -1822,14 +1730,14 @@ proxies:
   uuid: 10e82fcc-94ec-4d09-8855-579bb55b77e4
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🌍 其它地区 41'
+  name: '[H] 🌍 其它地区 40'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.204
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🌍 其它地区 42'
+  name: '[H] 🌍 其它地区 41'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.237.185.89
@@ -1837,7 +1745,7 @@ proxies:
   udp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 43'
+  name: '[H] 🌍 其它地区 42'
   network: tcp
   port: '443'
   reality-opts:
@@ -1852,7 +1760,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '[H] 🌍 其它地区 44'
+  name: '[H] 🌍 其它地区 43'
   network: tcp
   port: '22324'
   server: 45.92.70.236
@@ -1863,14 +1771,14 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
   xudp: true
 - cipher: rc4-md5
-  name: '[H] 🇨🇦 加拿大 01'
+  name: '[H] 🇨🇦 加拿大 02'
   password: 14fFPrbezE3HDZzsMOr6
   port: '8080'
   server: 137.184.174.93
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[H] 🇺🇸 美国 36'
+  name: '[H] 🇺🇸 美国 37'
   password: shadowsocks
   port: 443
   server: 37.19.198.244
@@ -1878,7 +1786,7 @@ proxies:
   udp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 45'
+  name: '[H] 🌍 其它地区 44'
   network: tcp
   port: '443'
   reality-opts:
@@ -1893,7 +1801,7 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 37'
+  name: '[H] 🇺🇸 美国 38'
   network: tcp
   port: '23576'
   reality-opts:
@@ -1908,7 +1816,7 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 46'
+  name: '[H] 🌍 其它地区 45'
   network: tcp
   port: '443'
   reality-opts:
@@ -1923,7 +1831,7 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 47'
+  name: '[H] 🌍 其它地区 46'
   network: tcp
   port: '2223'
   reality-opts:
@@ -1938,7 +1846,7 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 48'
+  name: '[H] 🌍 其它地区 47'
   network: tcp
   port: '23576'
   reality-opts:
@@ -1960,7 +1868,7 @@ proxies:
   udp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 49'
+  name: '[H] 🌍 其它地区 48'
   network: tcp
   port: '8443'
   reality-opts:
@@ -1981,7 +1889,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇨🇦 加拿大 02'
+  name: '[H] 🇨🇦 加拿大 03'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 79.127.200.169
@@ -2020,7 +1928,7 @@ proxies:
   udp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 50'
+  name: '[H] 🌍 其它地区 49'
   network: tcp
   port: '23576'
   reality-opts:
@@ -2034,7 +1942,7 @@ proxies:
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   xudp: true
 - encryption: none
-  name: '[H] 🌍 其它地区 51'
+  name: '[H] 🌍 其它地区 50'
   network: ws
   port: '2083'
   server: ip.bv24.net
@@ -2068,35 +1976,35 @@ proxies:
   uuid: e74089d6-5ab5-4cfb-b53c-df3ead4a8baa
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🌍 其它地区 52'
+  name: '[H] 🌍 其它地区 51'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 37.143.129.98
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🌍 其它地区 53'
+  name: '[H] 🌍 其它地区 52'
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 193.29.139.199
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[H] 🇺🇸 美国 38'
+  name: '[H] 🇺🇸 美国 39'
   password: shadowsocks
   port: 443
   server: 156.146.38.167
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🌍 其它地区 54'
+  name: '[H] 🌍 其它地区 53'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 193.29.139.151
   type: ss
   udp: true
 - encryption: none
-  name: '[H] 🌍 其它地区 55'
+  name: '[H] 🌍 其它地区 54'
   network: ws
   port: '2083'
   server: ip2.bv24.org
@@ -2136,21 +2044,21 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🌍 其它地区 56'
+  name: '[H] 🌍 其它地区 55'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 119.59.127.129
   type: ss
   udp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 39'
+  name: '[H] 🇺🇸 美国 40'
   password: amazonskr05
   port: '443'
   server: 54.234.5.174
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[H] 🇺🇸 美国 40'
+  name: '[H] 🇺🇸 美国 41'
   password: shadowsocks
   port: 443
   server: 156.146.38.170
@@ -2168,7 +2076,7 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 57'
+  name: '[H] 🌍 其它地区 56'
   network: tcp
   port: '8443'
   reality-opts:
@@ -2203,7 +2111,7 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🌍 其它地区 58'
+  name: '[H] 🌍 其它地区 57'
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
   server: 193.29.139.143
@@ -2211,7 +2119,7 @@ proxies:
   udp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 59'
+  name: '[H] 🌍 其它地区 58'
   network: tcp
   port: '23576'
   reality-opts:
@@ -2225,7 +2133,7 @@ proxies:
   uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🌍 其它地区 60'
+  name: '[H] 🌍 其它地区 59'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 169.150.242.77
@@ -2233,7 +2141,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 22'
+  name: '[I] 🇯🇵 日本 23'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -2243,7 +2151,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 27'
+  name: '[I] 🇭🇰 香港 26'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -2253,7 +2161,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 41'
+  name: '[I] 🇺🇸 美国 42'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -2263,7 +2171,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 42'
+  name: '[I] 🇺🇸 美国 43'
   network: tcp
   port: '180'
   server: 82.198.246.97
@@ -2273,7 +2181,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 43'
+  name: '[I] 🇺🇸 美国 44'
   network: tcp
   port: '180'
   server: 82.198.246.9
@@ -2283,7 +2191,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 28'
+  name: '[I] 🇭🇰 香港 27'
   network: tcp
   port: '51556'
   server: 103.181.164.145
@@ -2292,7 +2200,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 44'
+  name: '[I] 🇺🇸 美国 45'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
@@ -2307,7 +2215,7 @@ proxies:
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - cipher: aes-256-gcm
-  name: '[I] 🇺🇸 美国 45'
+  name: '[I] 🇺🇸 美国 46'
   password: uwmRUOVM5ljNAtPj
   port: 443
   server: 154.53.57.143
@@ -2323,7 +2231,7 @@ proxies:
   uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 61'
+  name: '[I] 🌍 其它地区 60'
   network: raw
   port: '22324'
   server: 45.92.70.236
@@ -2331,7 +2239,7 @@ proxies:
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇨🇦 加拿大 03'
+  name: '[I] 🇨🇦 加拿大 04'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 45.154.204.7
@@ -2349,73 +2257,73 @@ proxies:
   server: 38.54.107.101
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 62'
+  name: '[I] 🌍 其它地区 61'
   password: akMKO9KXowxFcx5A
   port: 443
   server: 20.87.107.99
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 46'
+  name: '[I] 🇺🇸 美国 47'
   password: shadowsocks
   port: 443
   server: 156.146.38.169
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 63'
+  name: '[I] 🌍 其它地区 62'
   password: cdBIDV42DCwnfIN
   port: 8119
   server: 38.180.113.194
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 47'
+  name: '[I] 🇺🇸 美国 48'
   password: shadowsocks
   port: 443
   server: 37.19.198.236
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 64'
+  name: '[I] 🌍 其它地区 63'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.179
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 65'
+  name: '[I] 🌍 其它地区 64'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 156.38.168.58
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 66'
+  name: '[I] 🌍 其它地区 65'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 147.78.0.182
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 67'
+  name: '[I] 🌍 其它地区 66'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.113.143.186
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 68'
+  name: '[I] 🌍 其它地区 67'
   password: VpKABcOpNNA0l5G2AVOmw8
   port: 62685
   server: 213.109.147.242
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 69'
+  name: '[I] 🌍 其它地区 68'
   password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 193.29.139.179
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 70'
+  name: '[I] 🌍 其它地区 69'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.47.253.227
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 71'
+  name: '[I] 🌍 其它地区 70'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.93.173.60
@@ -2427,7 +2335,7 @@ proxies:
   server: 38.60.250.107
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 72'
+  name: '[I] 🌍 其它地区 71'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 37.143.130.203
@@ -2444,7 +2352,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 29'
+  name: '[I] 🇭🇰 香港 28'
   network: tcp
   port: '30830'
   server: 103.182.97.25
@@ -2452,7 +2360,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[I] 🌍 其它地区 73'
+- name: '[I] 🌍 其它地区 72'
   network: ws
   port: 443
   server: 213.142.132.75
@@ -2462,24 +2370,24 @@ proxies:
   ws-opts:
     path: '%2F'
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 74'
+  name: '[I] 🌍 其它地区 73'
   password: SL4vzcvhBHhTWivD
   port: 443
   server: 154.26.155.172
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 75'
+  name: '[I] 🌍 其它地区 74'
   password: GTZI5AbjNAeWQG0oVNptvWJogHNKiiKA
   port: 40003
   server: 47.79.144.115
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 76'
+  name: '[I] 🌍 其它地区 75'
   password: 6784aee2-0dfe-474f-8446-480259ff9918
   port: 442
   server: 45.139.25.43
   type: ss
-- name: '[I] 🌍 其它地区 77'
+- name: '[I] 🌍 其它地区 76'
   network: tcp
   port: 26048
   server: 195.133.2.45
@@ -2487,14 +2395,14 @@ proxies:
   type: vless
   uuid: 20afe519-9ef3-4c70-a2cf-5336b1125090
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 78'
+  name: '[I] 🌍 其它地区 77'
   password: jR2ZGELt9dQOKMSSad5QO9NPZjHpIoZHrp52XxM91MpJqIzo
   port: 41348
   server: 78.138.17.187
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 79'
+  name: '[I] 🌍 其它地区 78'
   network: tcp
   port: 22324
   server: 216.106.185.141
@@ -2504,7 +2412,7 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 80'
+  name: '[I] 🌍 其它地区 79'
   network: tcp
   port: 443
   server: 140.238.2.250
@@ -2513,7 +2421,7 @@ proxies:
   uuid: 41a7089a-040b-4538-8b8d-010902405bde
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 81'
+  name: '[I] 🌍 其它地区 80'
   network: ws
   port: '80'
   server: 152.67.8.205
@@ -2526,240 +2434,240 @@ proxies:
       Host: ''
     path: /
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 82'
+  name: '[I] 🌍 其它地区 81'
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 193.29.139.164
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 83'
+  name: '[I] 🌍 其它地区 82'
   password: 48Rz3vdwJcqXTDHpQb22n7RJ72u4F6CZ7dQV1Pys7ce3bSzqjACxAnHVJDkKjYvXeyK8TLGrBJrWWVFoADUWXPrNPsHoz6xN
   port: 55988
   server: 185.5.38.111
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 84'
+  name: '[I] 🌍 其它地区 83'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 111.248.69.4
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 85'
+  name: '[I] 🌍 其它地区 84'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: 111.248.87.48
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 86'
+  name: '[I] 🌍 其它地区 85'
   password: 93069d226f003fab
   port: 11201
   server: 154.205.147.166
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 87'
+  name: '[I] 🌍 其它地区 86'
   password: 1hhrqrokj3ag
   port: 8388
   server: 209.46.102.22
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 88'
+  name: '[I] 🌍 其它地区 87'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 134.255.210.49
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 89'
+  name: '[I] 🌍 其它地区 88'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 171.22.254.129
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 90'
+  name: '[I] 🌍 其它地区 89'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 38.54.59.107
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 91'
+  name: '[I] 🌍 其它地区 90'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 103.75.119.38
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 92'
+  name: '[I] 🌍 其它地区 91'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 91.148.135.31
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 93'
+  name: '[I] 🌍 其它地区 92'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.213.23.63
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 94'
+  name: '[I] 🌍 其它地区 93'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 185.47.255.213
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 95'
+  name: '[I] 🌍 其它地区 94'
   password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
   port: 990
   server: 203.23.128.92
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 96'
+  name: '[I] 🌍 其它地区 95'
   password: G5p6ww4o67HB
   port: 8388
   server: 108.181.0.177
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 97'
+  name: '[I] 🌍 其它地区 96'
   password: QCXDxuDlTTMD7jtgHUjIoj
   port: 8080
   server: 193.29.139.233
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 98'
+  name: '[I] 🌍 其它地区 97'
   password: d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=
   port: 31700
   server: 102.129.229.85
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 99'
+  name: '[I] 🌍 其它地区 98'
   password: elTuo73FsQwO90EbLo96Ve
   port: 49726
   server: 45.55.40.127
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 100'
+  name: '[I] 🌍 其它地区 99'
   password: hk1SdyRWbYi3Igxeow9JdN
   port: 45389
   server: 142.93.73.182
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 101'
+  name: '[I] 🌍 其它地区 100'
   password: 2bc77a3a-1a6a-49bd-987f-5368cca0f930
   port: 8881
   server: 96.9.211.183
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 102'
+  name: '[I] 🌍 其它地区 101'
   password: shadowsocks
   port: 443
   server: 141.98.101.179
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 103'
+  name: '[I] 🌍 其它地区 102'
   password: shadowsocks
   port: 443
   server: 149.22.87.240
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 104'
+  name: '[I] 🌍 其它地区 103'
   password: shadowsocks
   port: 443
   server: 141.98.101.181
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 105'
+  name: '[I] 🌍 其它地区 104'
   password: shadowsocks
   port: 443
   server: 149.22.95.183
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 106'
+  name: '[I] 🌍 其它地区 105'
   password: shadowsocks
   port: 443
   server: 156.146.38.168
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 107'
+  name: '[I] 🌍 其它地区 106'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 202.85.76.170
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 108'
+  name: '[I] 🌍 其它地区 107'
   password: shadowsocks
   port: 443
   server: 37.19.198.160
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🌍 其它地区 109'
+  name: '[I] 🌍 其它地区 108'
   password: shadowsocks
   port: 443
   server: 37.19.198.243
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 110'
+  name: '[I] 🌍 其它地区 109'
   password: 7vZO55fXgXAJXa2F
   port: 80
   server: 154.12.242.150
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 111'
+  name: '[I] 🌍 其它地区 110'
   password: FoOiGlkAA9yPEGP
   port: 7307
   server: 38.180.216.114
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 112'
+  name: '[I] 🌍 其它地区 111'
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 94.156.250.148
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 113'
+  name: '[I] 🌍 其它地区 112'
   password: kDWvXYZoTBcGkC4
   port: 8881
   server: 38.180.152.210
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 114'
+  name: '[I] 🌍 其它地区 113'
   password: jJHq807bQ7TM0yOh
   port: 443
   server: 94.72.127.58
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 115'
+  name: '[I] 🌍 其它地区 114'
   password: jJHq807bQ7TM0yOh
   port: 80
   server: 94.72.127.58
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 116'
+  name: '[I] 🌍 其它地区 115'
   password: ldjmwoNqgQqqc43j
   port: 443
   server: 149.102.132.184
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 117'
+  name: '[I] 🌍 其它地区 116'
   password: mK7eN3z276Tr0vVA
   port: 80
   server: 154.12.240.141
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 118'
+  name: '[I] 🌍 其它地区 117'
   password: mK7eN3z276Tr0vVA
   port: 443
   server: 154.12.240.141
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 119'
+  name: '[I] 🌍 其它地区 118'
   password: wlJSF0fC8uqB5Gm5
   port: 80
   server: 94.72.127.55
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 120'
+  name: '[I] 🌍 其它地区 119'
   password: uwmRUOVM5ljNAtPj
   port: 80
   server: 154.53.57.143
   type: ss
-- name: '[I] 🌍 其它地区 121'
+- name: '[I] 🌍 其它地区 120'
   network: ws
   port: 443
   server: srv131.towersflowerss.com
@@ -2770,7 +2678,7 @@ proxies:
     path: '%2F'
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 122'
+  name: '[I] 🌍 其它地区 121'
   network: tcp
   port: 30830
   server: 103.182.97.12
@@ -2780,7 +2688,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 123'
+  name: '[I] 🌍 其它地区 122'
   network: tcp
   port: 22324
   server: 85.90.217.42
