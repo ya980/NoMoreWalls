@@ -5,7 +5,7 @@ proxies:
   ech-opts:
     enable: true
     query-server-name: encryptedsni.com
-  name: '[B] 🇯🇵 日本 01'
+  name: '[A] 🇯🇵 日本 01'
   network: ws
   port: 443
   server: 13.158.177.96
@@ -20,37 +20,28 @@ proxies:
     headers:
       Host: c1mxc.api-gateway.fgfw.qzz.io
     path: /danfeng-2cm3?ed=2560
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇯🇵 日本 02'
+- alterId: 2
+  cipher: auto
+  name: '[A] 🇯🇵 日本 02'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[A] 🇯🇵 日本 03'
   network: ws
   port: 2096
-  security: tls
   server: 172.64.47.168
   servername: jp.aniua.qzz.io
+  skip-cert-verify: false
   tls: true
   type: vless
+  udp: true
   uuid: e258977b-e413-4718-a3af-02d75492c349
   ws-opts:
     headers:
       Host: jp.aniua.qzz.io
-    path: //?ed=2095
-- name: '[B] 🇯🇵 日本 03'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 64.110.104.30
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
-        Safari/537.36
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 04'
+    path: /?ed=2095
+- name: '[A] 🇯🇵 日本 04'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -63,7 +54,7 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 05'
+- name: '[A] 🇯🇵 日本 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -74,7 +65,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[B] 🇯🇵 日本 06'
+- name: '[A] 🇯🇵 日本 06'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -84,7 +75,18 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
-- name: '[B] 🇯🇵 日本 07'
+- name: '[A] 🇯🇵 日本 07'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 8443
+  server: 103.125.216.22
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram
+- name: '[A] 🇯🇵 日本 08'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -97,7 +99,21 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
-- name: '[F] 🇯🇵 日本 08'
+- encryption: none
+  name: '[A] 🇯🇵 日本 09'
+  network: ws
+  port: 54584
+  security: tls
+  server: 168.138.192.16
+  servername: sni.111000.indevs.in
+  tls: true
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: sni.111000.indevs.in
+    path: /?ed=2560&Telegram🇨🇳 @WangCai2
+- name: '[E] 🇯🇵 日本 10'
   network: tcp
   password: BxceQaOe
   port: 2140
@@ -105,7 +121,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 09'
+- name: '[E] 🇯🇵 日本 11'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3135
@@ -113,7 +129,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 10'
+- name: '[E] 🇯🇵 日本 12'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -123,7 +139,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 11'
+  name: '[H] 🇯🇵 日本 13'
   network: tcp
   port: '180'
   server: 82.198.246.214
