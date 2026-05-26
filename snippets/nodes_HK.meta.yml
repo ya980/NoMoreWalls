@@ -1,5 +1,40 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇭🇰 香港 01'
+  network: tcp
+  port: 29876
+  security: tls
+  server: xsus.xs-us.net
+  servername: sni.eos-suzhou-4.cmecloud.cn
+  tls: true
+  type: vless
+  uuid: b6096ffb-656a-4fec-8840-0d032089a3e0
+- name: '[B] 🇭🇰 香港 02'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- client-fingerprint: chrome
+  name: '[B] 🇭🇰 香港 03'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 47.76.218.163
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: Koma-YT.PAGeS.Dev
+    path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 04'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -12,37 +47,33 @@ proxies:
     headers:
       Host: Koma-YT.PAGeS.Dev
     path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 05'
+  network: ws
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 8.223.63.150
+  skip-cert-verify: true
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trTelegram🇨🇳 @WangCai2
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
   http-opts:
     headers: {}
     path:
     - /ABCDE
-  name: '[B] 🇭🇰 香港 02'
+  name: '[B] 🇭🇰 香港 06'
   network: http
   port: 55386
   server: 103.127.243.60
   tls: false
   type: vmess
   uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: '[B] 🇭🇰 香港 03'
-  network: http
-  port: 58051
-  server: 103.127.243.55
-  tls: false
-  type: vmess
-  uuid: 8e5b521a-4a56-4bd7-baf1-bfcdf55d6cf1
 - client-fingerprint: chrome
   encryption: none
-  name: '[B] 🇭🇰 香港 04'
+  name: '[B] 🇭🇰 香港 07'
   network: tcp
   port: 443
   reality-opts:
@@ -62,32 +93,21 @@ proxies:
     method: GET
     path:
     - /ABCDE
-  name: '[B] 🇭🇰 香港 05'
+  name: '[B] 🇭🇰 香港 08'
   network: http
   port: 53229
   server: 103.127.243.54
   type: vmess
   udp: true
   uuid: 2f50f5ef-1a3a-4585-a3c9-3a860d37b134
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443-udp443
-  name: '[B] 🇭🇰 香港 06'
-  port: 10011
-  security: tls
-  server: 103.123.162.50
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
-- name: '[E] 🇭🇰 香港 07'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  sni: hkt.ccwink.cc
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 08'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 09'
+  port: 54022
+  server: 103.181.164.145
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '[E] 🇭🇰 香港 10'
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 56309
   server: hkt.ccwink.cc
@@ -96,14 +116,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 11'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 10'
+- name: '[F] 🇭🇰 香港 12'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
@@ -111,7 +131,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 11'
+- name: '[F] 🇭🇰 香港 13'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -119,7 +139,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 12'
+- name: '[F] 🇭🇰 香港 14'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -129,7 +149,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 13'
+  name: '[G] 🇭🇰 香港 15'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -139,7 +159,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 14'
+  name: '[I] 🇭🇰 香港 16'
   network: tcp
   port: '51556'
   server: 103.181.164.145

@@ -1,5 +1,19 @@
 proxies:
-- name: '[B] 🇨🇳 台湾 01'
+- insecure: '1'
+  mport: 10000-19999
+  name: '[B] 🇨🇳 台湾 01'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 10000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- name: '[B] 🇨🇳 台湾 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
@@ -7,8 +21,27 @@ proxies:
   sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[B] 🇨🇳 台湾 03'
+  port: 30811
+  server: 61.227.198.218
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇨🇳 台湾 04'
+  network: ws
+  port: 443
+  server: 188.253.6.139
+  servername: psp09.data.chinav.eu.org
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: psp09.data.chinav.eu.org
+    path: /danfeng?ed=2560fp=firefoxsecurity=tls
 - fingerprint: ''
-  name: '[E] 🇨🇳 台湾 02'
+  name: '[E] 🇨🇳 台湾 05'
   password: 033634aa-43d9-4fc1-ab30-c2e28bb2e607
   port: 13456
   server: cdntw.xhl666.top
@@ -17,13 +50,13 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇨🇳 台湾 03'
+  name: '[I] 🇨🇳 台湾 06'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg007134n4g.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇨🇳 台湾 04'
+  name: '[I] 🇨🇳 台湾 07'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
   server: r3mrcg0011499tl.cybervena.com
