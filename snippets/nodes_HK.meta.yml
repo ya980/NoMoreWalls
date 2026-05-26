@@ -1,33 +1,56 @@
 proxies:
-- name: '[B] 🇭🇰 香港 01'
-  network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 8.223.63.189
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 01'
+  network: tcp
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- client-fingerprint: chrome
-  encryption: none
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- client-fingerprint: edge
   flow: xtls-rprx-vision
   name: '[B] 🇭🇰 香港 02'
-  network: tcp
-  port: 30396
+  port: 1000
   reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '!!str 693b25e06841ac7f'
-  security: reality
-  server: cdn.hk6.cocoduck.org
-  servername: www.apple.com
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: '!!str 4b070735'
+  server: hkt-home.xn--9kqp42aims.top
+  servername: buylite.music.apple.com
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- name: '[B] 🇭🇰 香港 03'
+  udp: true
+  uuid: ceeb8370-d87a-40c7-b8b9-566716210763
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[B] 🇭🇰 香港 03'
+  port: 443
+  reality-opts:
+    public-key: fbABzUObM1ehY0C9V83p34p8ah9w2s4lDrdAiXdzGxI
+    short-id: '!!str 4b070735'
+  server: hkt-home.xn--9kqp42aims.top
+  servername: buylite.music.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: ceeb8370-d87a-40c7-b8b9-566716210763
+- insecure: '1'
+  name: '[B] 🇭🇰 香港 04'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 60008
+  server: zfin.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 05'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 443
@@ -38,8 +61,15 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram🇨🇳 @WangCai2
+- name: '[B] 🇭🇰 香港 06'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 154.92.9.253
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - insecure: '1'
-  name: '[B] 🇭🇰 香港 04'
+  name: '[B] 🇭🇰 香港 07'
   obfs: salamander
   obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
@@ -51,17 +81,42 @@ proxies:
     insecure: true
     server_name: iosapps.itunes.apple.com
   type: hysteria2
-- name: '[B] 🇭🇰 香港 05'
+- insecure: '1'
+  name: '[B] 🇭🇰 香港 08'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 60010
+  server: zfde.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- name: '[B] 🇭🇰 香港 09'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NTdiNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 60006
+  server: zf.9966690.xyz
+  skip-cert-verify: true
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '[B] 🇭🇰 香港 10'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 219.76.13.177
-  sni: Koma-YT.PAGeS.Dev
+  port: 17820
+  security: tls
+  server: s5.db-link.in
+  servername: 48afa0c5c9.shopify.com
   tls: true
-  type: trojan
+  type: vless
+  uuid: 75d4d24d-ba8d-3676-a5c6-edd6ea6dbfb6
   ws-opts:
-    path: /trTelegram
-- name: '[B] 🇭🇰 香港 06'
+    headers:
+      Host: 48afa0c5c9.shopify.com
+    path: /db102448afa0c5c9
+- name: '[B] 🇭🇰 香港 11'
   network: ws
   password: 8r<[9'l6hAO#8ZQi
   port: 46639
@@ -71,21 +126,28 @@ proxies:
   type: trojan
   ws-opts:
     path: /trTelegram
+- name: '[B] 🇭🇰 香港 12'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 219.76.13.183
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 13'
+  password: 8r<[9'l6hAO#8ZQi
+  port: 443
+  server: 219.76.13.169
+  sni: Koma-YT.PAGeS.Dev
+  tls: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 07'
+  name: '[B] 🇭🇰 香港 14'
   port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 08'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '[E] 🇭🇰 香港 09'
+- name: '[E] 🇭🇰 香港 15'
   password: 50b8c74a-e18e-4a61-b64c-f4010464c4dd
   port: 443
   server: aws-linkhy1.liangxin1.xyz
@@ -95,14 +157,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 10'
+  name: '[F] 🇭🇰 香港 16'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 11'
+- name: '[F] 🇭🇰 香港 17'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
@@ -110,7 +172,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 12'
+- name: '[F] 🇭🇰 香港 18'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -118,7 +180,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 19'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -128,7 +190,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 14'
+  name: '[G] 🇭🇰 香港 20'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -138,7 +200,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 15'
+  name: '[I] 🇭🇰 香港 21'
   network: tcp
   port: '51556'
   server: 103.181.164.145
