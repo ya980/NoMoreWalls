@@ -1,56 +1,14 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇨🇳 台湾 01'
-  network: ws
-  port: 16616
-  server: m.cnmjin.net
-  type: vmess
-  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
-  ws-opts:
-    headers:
-      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇨🇳 台湾 02'
-  network: ws
-  port: 16616
-  server: planb.mojcn.com
-  type: vmess
-  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
-  ws-opts:
-    headers:
-      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
-    path: /
-- name: '[A] 🇨🇳 台湾 03'
+- name: '[B] 🇨🇳 台湾 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
+  tls: false
   type: hysteria2
-- alterId: 2
-  cipher: auto
-  name: '[A] 🇨🇳 台湾 04'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[A] 🇨🇳 台湾 05'
-  network: ws
-  port: 16616
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: 6bcea42f-4f70-49e5-8ed8-8067338ee7b3
-  ws-opts:
-    headers:
-      Host: 9f212577fc1fa9a13ccf657f03a1a20f.mobgslb.tbcache.com
-    path: /
 - fingerprint: ''
-  name: '[D] 🇨🇳 台湾 06'
+  name: '[E] 🇨🇳 台湾 02'
   password: 033634aa-43d9-4fc1-ab30-c2e28bb2e607
   port: 13456
   server: cdntw.xhl666.top
@@ -58,3 +16,15 @@ proxies:
   sni: cdntw.xhl666.top
   tls: false
   type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇨🇳 台湾 03'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg007134n4g.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇨🇳 台湾 04'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg0011499tl.cybervena.com
+  type: ss
