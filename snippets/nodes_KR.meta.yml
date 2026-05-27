@@ -1,9 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇰🇷 韩国 01'
+  port: 11145
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[B] 🇰🇷 韩国 01'
+  name: '[B] 🇰🇷 韩国 02'
   network: tcp
   port: 11143
   server: dotu-krv1.kunlun03dns.com
@@ -15,9 +23,40 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[B] 🇰🇷 韩国 02'
+  name: '[B] 🇰🇷 韩国 03'
   port: 11144
   server: dotu-krv1.kunlun03dns.com
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇰🇷 韩国 04'
+  port: 11146
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: '[B] 🇰🇷 韩国 05'
+  network: ws
+  port: 2087
+  server: mfa.gov.ua
+  servername: fgnix832fx.fx6hsv0.ccwu.cc
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: fgnix832fx.fx6hsv0.ccwu.cc
+    path: /?ed=2560
+- name: '[B] 🇰🇷 韩国 06'
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: test

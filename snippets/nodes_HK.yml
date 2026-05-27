@@ -2,20 +2,38 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 01'
-  port: 9002
-  server: world.t.51guangtaobao.com
+  port: 11101
+  server: dotu-hkv1.kunlun03dns.com
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
+  port: 11102
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 03'
+  port: 11103
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 04'
-  port: 6012
-  server: world.t.51guangtaobao.com
+  port: 11105
+  server: dotu-hkv1.kunlun03dns.com
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 05'
+  name: '[B] 🇭🇰 香港 08'
   network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -25,21 +43,36 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 09'
-  port: 54022
+  http-opts:
+    method: GET
+    path:
+    - /ABCDE
+  name: '[B] 🇭🇰 香港 10'
+  network: http
+  port: 55386
+  server: 103.127.243.60
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 12'
+  port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 11'
+  name: '[F] 🇭🇰 香港 14'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 12'
+- name: '[F] 🇭🇰 香港 15'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
@@ -47,7 +80,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 16'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -55,7 +88,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 14'
+- name: '[F] 🇭🇰 香港 17'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -65,7 +98,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 15'
+  name: '[G] 🇭🇰 香港 18'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -75,7 +108,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 16'
+  name: '[H] 🇭🇰 香港 19'
   network: raw
   port: '6012'
   server: world.t.51guangtaobao.com
@@ -87,7 +120,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 17'
+  name: '[H] 🇭🇰 香港 20'
   network: raw
   port: '9002'
   server: world.t.51guangtaobao.com
@@ -99,7 +132,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 18'
+  name: '[I] 🇭🇰 香港 21'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -109,7 +142,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 19'
+  name: '[I] 🇭🇰 香港 22'
   network: tcp
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -118,7 +151,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 20'
+  name: '[I] 🇭🇰 香港 23'
   network: tcp
   port: '9002'
   server: world.t.51guangtaobao.com
@@ -128,7 +161,7 @@ proxies:
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 21'
+  name: '[I] 🇭🇰 香港 24'
   network: tcp
   port: '6012'
   server: world.t.51guangtaobao.com
@@ -138,7 +171,7 @@ proxies:
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 22'
+  name: '[I] 🇭🇰 香港 25'
   network: tcp
   port: '2504'
   server: world.t.51guangtaobao.com
@@ -148,7 +181,7 @@ proxies:
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 23'
+  name: '[I] 🇭🇰 香港 26'
   network: tcp
   port: '9020'
   server: world.t.51guangtaobao.com
@@ -158,7 +191,7 @@ proxies:
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 24'
+  name: '[I] 🇭🇰 香港 27'
   network: tcp
   port: '6009'
   server: world.t.51guangtaobao.com

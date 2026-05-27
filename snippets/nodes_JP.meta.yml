@@ -1,22 +1,33 @@
 proxies:
-- name: '[B] 🇯🇵 日本 01'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 60000
-  server: hyfnjp01.769970.xyz
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[B] 🇯🇵 日本 01'
+  network: tcp
+  port: 11122
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[B] 🇯🇵 日本 02'
+  network: tcp
+  port: 13303
+  reality-opts:
+    public-key: _uyR5c5WNA96lhmIc5r6d9bEXvf589IybOhcAWp91Ac
+    short-id: '!!str c3766f2f'
+  server: hkbgpnolixx01.odxxplay.com
+  servername: one-piece.com
   skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 02'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 60000
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alpn:
   - ''
   alterId: '0'
@@ -31,73 +42,9 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[B] 🇯🇵 日本 04'
-  network: tcp
-  port: 11122
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 05'
-  network: tcp
-  port: 13303
-  reality-opts:
-    public-key: _uyR5c5WNA96lhmIc5r6d9bEXvf589IybOhcAWp91Ac
-    short-id: '!!str c3766f2f'
-  server: hkbgpnolixx01.odxxplay.com
-  servername: one-piece.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: '[B] 🇯🇵 日本 06'
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: 10086
-  server: jp02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[B] 🇯🇵 日本 07'
-  network: tcp
-  port: 11119
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[B] 🇯🇵 日本 08'
-  network: tcp
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 09'
   network: tcp
   port: 31626
   reality-opts:
@@ -110,22 +57,55 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- alterId: 0
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: '[B] 🇯🇵 日本 10'
-  port: 2505
-  server: world.t.51guangtaobao.com
+  name: '[B] 🇯🇵 日本 05'
+  network: tcp
+  port: 11119
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: '[B] 🇯🇵 日本 11'
-  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-  port: 443
-  server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
-  sni: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇯🇵 日本 06'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[B] 🇯🇵 日本 07'
+  network: tcp
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇯🇵 日本 08'
+  port: 39975
+  reality-opts:
+    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+  security: reality
+  server: 116.80.58.239
+  servername: cloudcircus.jp
   tls: true
-  type: http
-  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: '[F] 🇯🇵 日本 12'
+  type: vless
+  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
+- name: '[F] 🇯🇵 日本 09'
   network: tcp
   password: BxceQaOe
   port: 4633
@@ -133,7 +113,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 13'
+- name: '[F] 🇯🇵 日本 10'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3135
@@ -141,7 +121,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 14'
+- name: '[F] 🇯🇵 日本 11'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -154,7 +134,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇯🇵 日本 15'
+  name: '[H] 🇯🇵 日本 12'
   network: xhttp
   port: '2083'
   server: 162.159.38.183
@@ -170,7 +150,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 16'
+  name: '[I] 🇯🇵 日本 13'
   network: tcp
   port: '180'
   server: 82.198.246.37
