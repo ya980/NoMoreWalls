@@ -1,98 +1,14 @@
 proxies:
 - alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 01'
-  network: xhttp
-  port: '443'
-  server: 198.41.223.119
-  servername: panel-free.emergency-service.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: e234245f-b66e-4eef-b8cb-6298500221ba
-  xhttp-opts:
-    host: panel-free.emergency-service.org
-    mode: auto
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 02'
-  network: xhttp
-  port: '2053'
-  server: 198.41.223.119
-  servername: nightgemshop.emergency-service.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9aaf56a4-a173-461d-b3d4-8560ba723ade
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 03'
-  network: xhttp
-  port: '8443'
-  server: 104.16.79.73
-  servername: panel.shabrang.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98bed45e-c30a-4e81-ac85-d1249ecf904e
-  xhttp-opts:
-    host: panel.shabrang.online
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 04'
-  network: xhttp
-  port: '8443'
-  server: 104.16.6.70
-  servername: panel.shabrang.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 98bed45e-c30a-4e81-ac85-d1249ecf904e
-  xhttp-opts:
-    host: panel.shabrang.online
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 05'
-  network: tcp
-  port: 8444
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 89.125.20.89
-  servername: yandex.ru
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 386066cb-9257-42da-8f2e-cae2096a6097
-  xudp: true
-- name: '[I] 🇩🇪 德国 06'
+  - h3
+  name: '[E] 🇩🇪 德国 01'
+  password: 6d49fae1-374d-313e-b360-1227b0ea8dea
+  port: 443
+  server: s663.ccgfw.top
+  sni: s663.ccgfw.top
+  tls: false
+  type: hysteria2
+- name: '[I] 🇩🇪 德国 02'
   port: 54985
   server: 45.76.83.35
   tls: false

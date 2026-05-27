@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[A] 🇭🇰 香港 01'
+  name: '[B] 🇭🇰 香港 01'
   port: 9002
   server: world.t.51guangtaobao.com
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[A] 🇭🇰 香港 02'
+  name: '[B] 🇭🇰 香港 02'
   network: tcp
   port: 54503
   reality-opts:
@@ -21,7 +21,7 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: '[A] 🇭🇰 香港 03'
+- name: '[B] 🇭🇰 香港 03'
   password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
   port: 10085
   server: hk02.jgpy.help
@@ -30,19 +30,22 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[A] 🇭🇰 香港 04'
+  name: '[B] 🇭🇰 香港 04'
   port: 6012
   server: world.t.51guangtaobao.com
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: '[A] 🇭🇰 香港 05'
+  name: '[B] 🇭🇰 香港 05'
+  network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '[A] 🇭🇰 香港 06'
+- name: '[B] 🇭🇰 香港 06'
   password: 71e75cc1-d625-4be2-b3e4-ea2b197abf25
   port: 20000
   server: hkt03ddns.poke-mon.xyz
@@ -54,7 +57,7 @@ proxies:
   udp: true
 - client-fingerprint: random
   encryption: none
-  name: '[A] 🇭🇰 香港 07'
+  name: '[B] 🇭🇰 香港 07'
   network: ws
   port: 443
   security: tls
@@ -70,7 +73,7 @@ proxies:
     path: /?ed=2560
 - client-fingerprint: chrome
   encryption: none
-  name: '[A] 🇭🇰 香港 08'
+  name: '[B] 🇭🇰 香港 08'
   network: ws
   port: 25100
   server: 151.242.85.19
@@ -83,29 +86,29 @@ proxies:
     path: /ws-bf6bb2499d21
 - alterId: 0
   cipher: auto
-  name: '[A] 🇭🇰 香港 09'
+  name: '[B] 🇭🇰 香港 09'
   port: 54022
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: '[D] 🇭🇰 香港 10'
-  password: d6774cdf-a0f4-4a23-8069-99bb59d315ac
-  port: 20102
-  server: hk3.sevenka.top
+- name: '[E] 🇭🇰 香港 10'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
   skip-cert-verify: true
-  sni: hk3.sevenka.top
+  sni: hkt.ccwink.cc
   tls: false
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 11'
+  name: '[F] 🇭🇰 香港 11'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 12'
+- name: '[F] 🇭🇰 香港 12'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
@@ -113,7 +116,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 13'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -121,7 +124,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 14'
+- name: '[F] 🇭🇰 香港 14'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -131,7 +134,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 15'
+  name: '[G] 🇭🇰 香港 15'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -139,24 +142,30 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[G] 🇭🇰 香港 16'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 0a34c055-t9t1c0-tb7mup-4550.hkt.east.wctype.com
-  type: anytls
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇭🇰 香港 16'
+  network: raw
+  port: '6012'
+  server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- client-fingerprint: chrome
-  name: '[G] 🇭🇰 香港 17'
-  password: 6286105c-fb6d-11ef-be96-f23c93136cb3
-  port: 8300
-  server: 1dfe1864-t9ylc0-tb7mup-4550.hkt.east.wctype.com
-  skip-cert-verify: true
-  sni: 1dfe1864-t9ylc0-tb7mup-4550.hkt.east.wctype.com
-  type: anytls
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇭🇰 香港 17'
+  network: raw
+  port: '9002'
+  server: world.t.51guangtaobao.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  xudp: true
 - alterId: 0
   cipher: auto
   name: '[I] 🇭🇰 香港 18'
@@ -171,15 +180,6 @@ proxies:
   cipher: auto
   name: '[I] 🇭🇰 香港 19'
   network: tcp
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 20'
-  network: tcp
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   tls: false
@@ -187,7 +187,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 21'
+  name: '[I] 🇭🇰 香港 20'
   network: tcp
   port: '9002'
   server: world.t.51guangtaobao.com
@@ -197,9 +197,19 @@ proxies:
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 22'
+  name: '[I] 🇭🇰 香港 21'
   network: tcp
   port: '6012'
+  server: world.t.51guangtaobao.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 22'
+  network: tcp
+  port: '2504'
   server: world.t.51guangtaobao.com
   servername: ''
   tls: false

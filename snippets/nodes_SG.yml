@@ -1,19 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[A] 🇸🇬 新加坡 03'
+  name: '[B] 🇸🇬 新加坡 03'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
+  udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[A] 🇸🇬 新加坡 04'
+  name: '[B] 🇸🇬 新加坡 04'
   port: 2504
   server: world.t.51guangtaobao.com
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: '[E] 🇸🇬 新加坡 08'
+- name: '[F] 🇸🇬 新加坡 08'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3842
@@ -21,7 +24,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 09'
+- name: '[F] 🇸🇬 新加坡 09'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2511
@@ -29,7 +32,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 10'
+- name: '[F] 🇸🇬 新加坡 10'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -38,7 +41,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: '[G] 🇸🇬 新加坡 11'
+  name: '[H] 🇸🇬 新加坡 11'
   password: '!!str 666'
   plugin: v2ray-plugin
   plugin-opts:
@@ -51,16 +54,3 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
-- alterId: 0
-  cipher: auto
-  name: '[G] 🇸🇬 新加坡 15'
-  network: tcp
-  port: '2504'
-  server: world.t.51guangtaobao.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-  xudp: true

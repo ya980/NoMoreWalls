@@ -1,5 +1,5 @@
 proxies:
-- name: '[A] 🇯🇵 日本 01'
+- name: '[B] 🇯🇵 日本 01'
   obfs: salamander
   obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
   password: aecd8c25-fd16-42a3-aefb-89c89557828f
@@ -8,7 +8,7 @@ proxies:
   skip-cert-verify: true
   sni: hyfnjp01.769970.xyz
   type: hysteria2
-- name: '[A] 🇯🇵 日本 02'
+- name: '[B] 🇯🇵 日本 02'
   obfs: salamander
   obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
   password: aecd8c25-fd16-42a3-aefb-89c89557828f
@@ -21,7 +21,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[A] 🇯🇵 日本 03'
+  name: '[B] 🇯🇵 日本 03'
   network: tcp
   port: 11120
   server: dotu-jpv1.kunlun03dns.com
@@ -35,7 +35,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[A] 🇯🇵 日本 04'
+  name: '[B] 🇯🇵 日本 04'
   network: tcp
   port: 11122
   server: dotu-jpv1.kunlun03dns.com
@@ -47,7 +47,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[A] 🇯🇵 日本 05'
+  name: '[B] 🇯🇵 日本 05'
   network: tcp
   port: 13303
   reality-opts:
@@ -60,7 +60,7 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: '[A] 🇯🇵 日本 06'
+- name: '[B] 🇯🇵 日本 06'
   password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
   port: 10086
   server: jp02.jgpy.help
@@ -71,7 +71,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[A] 🇯🇵 日本 07'
+  name: '[B] 🇯🇵 日本 07'
   network: tcp
   port: 11119
   server: dotu-jpv1.kunlun03dns.com
@@ -85,7 +85,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[A] 🇯🇵 日本 08'
+  name: '[B] 🇯🇵 日本 08'
   network: tcp
   port: 11121
   server: dotu-jpv1.kunlun03dns.com
@@ -97,7 +97,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[A] 🇯🇵 日本 09'
+  name: '[B] 🇯🇵 日本 09'
   network: tcp
   port: 31626
   reality-opts:
@@ -112,12 +112,12 @@ proxies:
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alterId: 0
   cipher: auto
-  name: '[A] 🇯🇵 日本 10'
+  name: '[B] 🇯🇵 日本 10'
   port: 2505
   server: world.t.51guangtaobao.com
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- name: '[A] 🇯🇵 日本 11'
+- name: '[B] 🇯🇵 日本 11'
   password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
   port: 443
   server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
@@ -125,7 +125,7 @@ proxies:
   tls: true
   type: http
   username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
-- name: '[E] 🇯🇵 日本 12'
+- name: '[F] 🇯🇵 日本 12'
   network: tcp
   password: BxceQaOe
   port: 4633
@@ -133,7 +133,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 13'
+- name: '[F] 🇯🇵 日本 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3135
@@ -141,7 +141,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 14'
+- name: '[F] 🇯🇵 日本 14'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -149,3 +149,32 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇯🇵 日本 15'
+  network: xhttp
+  port: '2083'
+  server: 162.159.38.183
+  servername: de.lezzatzone.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 406d8436-0eb9-4eb2-84fb-960e076ffba6
+  xhttp-opts:
+    host: de.lezzatzone.ir
+    mode: stream-one
+    path: /de
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇯🇵 日本 16'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
