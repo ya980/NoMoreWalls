@@ -1,226 +1,82 @@
 proxies:
 - name: '[B] 🇯🇵 日本 01'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 505cb813-5647-4898-918c-cde760d515a8
-  port: 60000
-  server: hyfnjp01.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
-  type: hysteria2
+  network: ws
+  port: 41493
+  server: 158.178.225.153
+  servername: 020g5uxcxmqlndg.luyuju.dpdns.org
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
+    path: /@Marisa_kristifp=firefoxsecurity=tls
 - name: '[B] 🇯🇵 日本 02'
   obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 3f2d3497-6843-46f1-aa34-5469dc953259
-  port: 60000
-  server: hyfnjp01.769970.xyz
+  obfs-password: YzgyOTkwNDk42TU23T365A==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 60017
+  server: zf.9966690.xyz
   skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
   type: hysteria2
-- name: '[B] 🇯🇵 日本 03'
+- insecure: '1'
+  name: '[B] 🇯🇵 日本 03'
   obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
-  port: 60000
-  server: hyfnjp01.769970.xyz
+  obfs-password: YzgyOTkwNDk42TU23T365A==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 60016
+  server: zf.9966690.xyz
   skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
   type: hysteria2
 - name: '[B] 🇯🇵 日本 04'
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 05'
-  password: 94a5dea9-6175-4cd1-8f0b-786bde8eaf9b
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
+  network: ws
+  port: 4399
+  security: tls
+  server: 178.128.19.168
+  servername: adv2m5gy-wrhiahph85c.ovtc.qzz.io
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: adv2m5gy-wrhiahph85c.ovtc.qzz.io
+    path: /@Marisa_kristifp=chrome
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇯🇵 日本 05'
+  network: tcp
+  port: 25642
+  reality-opts:
+    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
+    short-id: '!!str 693b25e06841ac7f'
+  security: reality
+  server: cdn.jp2.cocoduck.org
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
 - name: '[B] 🇯🇵 日本 06'
-  password: 15893455-4d21-4338-a273-01aed1d77fa2
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 07'
   obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 60000
-  server: hyfnjp01.769970.xyz
+  obfs-password: YzgyOTkwNDk42TU23T365A==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 60020
+  server: zfde.9966690.xyz
   skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 08'
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
   type: hysteria2
 - alpn:
   - h3
-  name: '[B] 🇯🇵 日本 09'
+  name: '[E] 🇯🇵 日本 07'
   password: 6nne3n3cuvhyvdyo
   port: 14817
   server: jp.zlr.dpdns.org
   sni: jp.zlr.dpdns.org
   tls: false
   type: hysteria2
-- name: '[B] 🇯🇵 日本 10'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
-  port: 60000
-  server: hyfnjp01.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 11'
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 12'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: c90cedc3-8d7f-4c7d-8bd7-d011d694aef3
-  port: 60000
-  server: hyfnjp01.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 13'
-  password: 64c5b7d0-87aa-45eb-9721-3602325fa106
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 14'
-  password: 3f2d3497-6843-46f1-aa34-5469dc953259
-  port: 8080
-  server: hyfnjp03.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp03.769970.xyz
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 15'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 60000
-  server: hyfnjp01.769970.xyz
-  skip-cert-verify: true
-  sni: hyfnjp01.769970.xyz
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇯🇵 日本 16'
-  network: tcp
-  port: 33622
-  reality-opts:
-    public-key: 93BUtSkrduYjhQ4a55hLRtcS2q3Z68Pe8F-TCvaFvAY
-    short-id: '!!str ad4e153ee69c'
-  security: reality
-  server: jp.zlr.dpdns.org
-  servername: www.oracle.com
-  spider-x: /9IJY14R7Rd5Reib
-  tls: true
-  type: vless
-  uuid: 13c11a12-d260-4b42-87e0-2fe39ce6fc6d
-- name: '[B] 🇯🇵 日本 17'
-  password: 9d0f6021-e1e3-47cd-a18e-722dd7f1c2ee
-  port: 443
-  ports: 55000-56000
-  server: 154.85.18.134
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 18'
-  network: tcp
-  port: 25641
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '!!str 693b25e06841ac7f'
-  security: reality
-  server: cdn.jp1.cocoduck.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- name: '[B] 🇯🇵 日本 19'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 149.28.21.222
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇯🇵 日本 20'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 8443
-  server: 140.83.34.214
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇯🇵 日本 21'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 2083
-  server: 64.176.38.23
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇯🇵 日本 22'
-  port: 30806
-  server: v6.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇯🇵 日本 23'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 140.238.50.134
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇯🇵 日本 24'
-  password: 8r<[9'l6hAO#8ZQi
-  port: 41607
-  server: 45.159.48.37
-  sni: Koma-YT.PAGeS.Dev
-  tls: true
-  type: trojan
-- name: '[B] 🇯🇵 日本 25'
-  network: ws
-  password: 8r%3C%5B9%27l6hAO%238ZQi
-  port: 2053
-  server: 103.31.77.108
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
-- name: '[E] 🇯🇵 日本 26'
-  password: 522c2107-f297-4420-bd56-ec82b175aa2d
-  port: 8080
-  server: tw07.769970.xyz
-  skip-cert-verify: true
-  sni: tw07.769970.xyz
-  tls: false
-  type: hysteria2
-- name: '[F] 🇯🇵 日本 27'
+- name: '[F] 🇯🇵 日本 08'
   network: tcp
   password: BxceQaOe
   port: 4633
@@ -228,7 +84,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 28'
+- name: '[F] 🇯🇵 日本 09'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3135
@@ -236,7 +92,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 29'
+- name: '[F] 🇯🇵 日本 10'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -244,22 +100,76 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[H] 🇯🇵 日本 30'
+- name: '[H] 🇯🇵 日本 11'
   network: ws
-  password: 8r<[9'l6hAO#8ZQi
-  port: 443
-  server: 108.162.198.253
-  skip-cert-verify: true
-  sni: Koma-YT.PAGeS.Dev
-  type: trojan
-  udp: true
+  port: 9586
+  security: tls
+  server: 103.232.213.244
+  servername: oia8or7k8rs5.zrf.xx.kg
+  tls: true
+  type: vless
+  uuid: 00000000-0000-4000-8000-000000000000
   ws-opts:
     headers:
-      Host: Koma-YT.PAGeS.Dev
-    path: /trTelegram🇨🇳 @WangCai2
+      Host: oia8or7k8rs5.zrf.xx.kg
+    path: /@Marisa_kristifp=chrome
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇯🇵 日本 12'
+  network: ws
+  port: 18836
+  server: 172.237.12.208
+  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /@Marisa_kristi
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇯🇵 日本 13'
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: 505cb813-5647-4898-918c-cde760d515a8
+  port: '60000'
+  server: jp03.769970.xyz
+  skip-cert-verify: true
+  sni: jp03.769970.xyz
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇯🇵 日本 14'
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: f6836112-e9f3-4803-a366-5606ac214324
+  port: '60000'
+  server: jp03.769970.xyz
+  skip-cert-verify: true
+  sni: jp03.769970.xyz
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇯🇵 日本 15'
+  obfs: salamander
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
+  port: '60000'
+  server: jp03.769970.xyz
+  skip-cert-verify: true
+  sni: jp03.769970.xyz
+  type: hysteria2
+  up: ''
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 31'
+  name: '[I] 🇯🇵 日本 16'
   network: tcp
   port: '54022'
   server: 103.181.164.145
