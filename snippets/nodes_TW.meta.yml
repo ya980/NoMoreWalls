@@ -1,34 +1,137 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: '[B] 🇨🇳 台湾 01'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[A] 🇨🇳 台湾 01'
+  network: tcp
+  port: 11113
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
   tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[A] 🇨🇳 台湾 02'
+  network: tcp
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- name: '[A] 🇨🇳 台湾 03'
+  password: aecd8c25-fd16-42a3-aefb-89c89557828f
+  port: 8080
+  server: 5gzdx.769970.xyz
+  skip-cert-verify: true
+  sni: 5gzdx.769970.xyz
   type: hysteria2
-  up: ''
-- name: '[B] 🇨🇳 台湾 02'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
-- name: '[B] 🇨🇳 台湾 03'
-  network: ws
-  port: 43
-  security: tls
-  server: 220.128.110.108
-  servername: pagescm.freen6.cc.cd
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[A] 🇨🇳 台湾 04'
+  network: tcp
+  port: 11114
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇨🇳 台湾 05'
+  network: tcp
+  port: 10511
+  reality-opts:
+    public-key: Zptij4sd0uv7SrCLVz-m9q0oxciINMSy3PEPSIUKUGI
+    short-id: '!!str 3439f357'
+  server: gzrefad01.odxxplay.com
+  servername: www.amazon.jobs
+  skip-cert-verify: true
+  tfo: false
   tls: true
   type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen6.cc.cd
-    path: /tags/detailsfp=chrome
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇨🇳 台湾 06'
+  port: 8443
+  security: tls
+  server: tw06.459292.xyz
+  servername: www.python.org
+  tls: true
+  type: vless
+  uuid: aecd8c25-fd16-42a3-aefb-89c89557828f
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[A] 🇨🇳 台湾 07'
+  network: tcp
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇨🇳 台湾 08'
+  network: tcp
+  port: 18799
+  reality-opts:
+    public-key: eA8t9JgbosAUr9hIKM8qUKeyQH80zGfzoBJL-61FmUg
+    short-id: '!!str 2d53b5dc'
+  server: ecin.xfdv.5gw3.a.vvps.xyz
+  servername: www.amazon.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇨🇳 台湾 09'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: qrCEIJSAfZ_tpEwY7gLYmkX_jljyiW9QY41iShTH8XA
+    short-id: '!!str b4ac97c0'
+  server: tw.hsyun.top
+  servername: soncnaura.si
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇨🇳 台湾 10'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: nbmrcg0034686rw.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇨🇳 台湾 11'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 1.161.240.114
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇨🇳 台湾 12'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: 61.231.15.57
+  type: ss

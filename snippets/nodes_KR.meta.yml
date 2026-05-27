@@ -1,23 +1,38 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  name: '[B] 🇰🇷 韩国 01'
-  network: ws
-  port: 16000
-  security: tls
-  server: 1.236.186.119
-  servername: pagescm.freen33.cc.cd
-  tls: true
-  type: vless
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen33.cc.cd
-    path: /videos/register
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[A] 🇰🇷 韩国 01'
+  network: tcp
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[B] 🇰🇷 韩国 02'
-  port: 9020
-  server: world.t.51guangtaobao.com
+  name: '[A] 🇰🇷 韩国 02'
+  port: 11144
+  server: dotu-krv1.kunlun03dns.com
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇰🇷 韩国 03'
+  network: tcp
+  port: '8686'
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 15.164.211.214
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  xudp: true

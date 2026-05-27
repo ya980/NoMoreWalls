@@ -1,82 +1,131 @@
 proxies:
-- name: '[B] 🇯🇵 日本 01'
-  network: ws
-  port: 41493
-  server: 158.178.225.153
-  servername: 020g5uxcxmqlndg.luyuju.dpdns.org
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 020g5uxcxmqlndg.luyuju.dpdns.org
-    path: /@Marisa_kristifp=firefoxsecurity=tls
-- name: '[B] 🇯🇵 日本 02'
+- name: '[A] 🇯🇵 日本 01'
   obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60017
-  server: zf.9966690.xyz
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: aecd8c25-fd16-42a3-aefb-89c89557828f
+  port: 60000
+  server: hyfnjp01.769970.xyz
   skip-cert-verify: true
+  sni: hyfnjp01.769970.xyz
   type: hysteria2
-- insecure: '1'
-  name: '[B] 🇯🇵 日本 03'
+- name: '[A] 🇯🇵 日本 02'
   obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60016
-  server: zf.9966690.xyz
+  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
+  password: aecd8c25-fd16-42a3-aefb-89c89557828f
+  port: 60000
+  server: jp03.769970.xyz
   skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
-  type: hysteria2
-- name: '[B] 🇯🇵 日本 04'
-  network: ws
-  port: 4399
-  security: tls
-  server: 178.128.19.168
-  servername: adv2m5gy-wrhiahph85c.ovtc.qzz.io
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: adv2m5gy-wrhiahph85c.ovtc.qzz.io
-    path: /@Marisa_kristifp=chrome
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 05'
-  network: tcp
-  port: 25642
-  reality-opts:
-    public-key: VoA8WXthSh6CroV4pHK7V6L5gYUw8MHTo2kIVknTXSE
-    short-id: '!!str 693b25e06841ac7f'
-  security: reality
-  server: cdn.jp2.cocoduck.org
-  servername: www.apple.com
-  tls: true
-  type: vless
-  uuid: 4dd69f91-190c-413d-88c7-2f1675a98d85
-- name: '[B] 🇯🇵 日本 06'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk42TU23T365A==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 60020
-  server: zfde.9966690.xyz
-  skip-cert-verify: true
+  sni: jp03.769970.xyz
   type: hysteria2
 - alpn:
-  - h3
-  name: '[E] 🇯🇵 日本 07'
-  password: 6nne3n3cuvhyvdyo
-  port: 14817
-  server: jp.zlr.dpdns.org
-  sni: jp.zlr.dpdns.org
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[A] 🇯🇵 日本 03'
+  network: tcp
+  port: 11120
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
   tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[A] 🇯🇵 日本 04'
+  network: tcp
+  port: 11122
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇯🇵 日本 05'
+  network: tcp
+  port: 13303
+  reality-opts:
+    public-key: _uyR5c5WNA96lhmIc5r6d9bEXvf589IybOhcAWp91Ac
+    short-id: '!!str c3766f2f'
+  server: hkbgpnolixx01.odxxplay.com
+  servername: one-piece.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- name: '[A] 🇯🇵 日本 06'
+  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
+  port: 10086
+  server: jp02.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
   type: hysteria2
-- name: '[F] 🇯🇵 日本 08'
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[A] 🇯🇵 日本 07'
+  network: tcp
+  port: 11119
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[A] 🇯🇵 日本 08'
+  network: tcp
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇯🇵 日本 09'
+  network: tcp
+  port: 31626
+  reality-opts:
+    public-key: _uyR5c5WNA96lhmIc5r6d9bEXvf589IybOhcAWp91Ac
+    short-id: '!!str c3766f2f'
+  server: gzrefad01.odxxplay.com
+  servername: one-piece.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇯🇵 日本 10'
+  port: 2505
+  server: world.t.51guangtaobao.com
+  type: vmess
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- name: '[A] 🇯🇵 日本 11'
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 443
+  server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+  sni: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- name: '[E] 🇯🇵 日本 12'
   network: tcp
   password: BxceQaOe
   port: 4633
@@ -84,7 +133,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 09'
+- name: '[E] 🇯🇵 日本 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3135
@@ -92,7 +141,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 10'
+- name: '[E] 🇯🇵 日本 14'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -100,80 +149,3 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[H] 🇯🇵 日本 11'
-  network: ws
-  port: 9586
-  security: tls
-  server: 103.232.213.244
-  servername: oia8or7k8rs5.zrf.xx.kg
-  tls: true
-  type: vless
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: oia8or7k8rs5.zrf.xx.kg
-    path: /@Marisa_kristifp=chrome
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇯🇵 日本 12'
-  network: ws
-  port: 18836
-  server: 172.237.12.208
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /@Marisa_kristi
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇯🇵 日本 13'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: 505cb813-5647-4898-918c-cde760d515a8
-  port: '60000'
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇯🇵 日本 14'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: f6836112-e9f3-4803-a366-5606ac214324
-  port: '60000'
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇯🇵 日本 15'
-  obfs: salamander
-  obfs-password: ZTBjNDA0YTVhNTFkMzFlOQ==
-  password: df1a0967-5b79-41ec-8d12-915e9056c6e2
-  port: '60000'
-  server: jp03.769970.xyz
-  skip-cert-verify: true
-  sni: jp03.769970.xyz
-  type: hysteria2
-  up: ''
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇯🇵 日本 16'
-  network: tcp
-  port: '54022'
-  server: 103.181.164.145
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

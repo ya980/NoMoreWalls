@@ -1,34 +1,11 @@
 proxies:
-- flow: xtls-rprx-vision
-  name: '[B] 🇫🇷 法国 01'
+- alpn:
+  - h2
+  name: '[I] 🇫🇷 法国 01'
   network: tcp
-  port: 443
-  security: tls
-  server: fr-tx.sbrf-cdn342.ru
-  servername: sub.sbrf-cdn342.ru
+  port: 8443
+  server: cdg-1.fromblancwithlove.com
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f
-- name: '[E] 🇫🇷 法国 02'
-  password: a7923d6f-63e6-4b20-93df-6d47355f0f28
-  port: 23661
-  server: fr.verymad.net
-  skip-cert-verify: false
-  sni: fr.verymad.net
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
-  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
-  port: 2056
-  server: 37.114.49.38
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
-  port: 2056
-  server: 37.114.49.38
-  skip-cert-verify: true
-  sni: flkf.mangshe.xyz
-  tls: false
-  type: hysteria2
+  uuid: 55f7d143-a594-4a91-b030-f227039f85ef

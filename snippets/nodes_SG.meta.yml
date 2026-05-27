@@ -1,126 +1,78 @@
 proxies:
+- name: '[A] 🇸🇬 新加坡 01'
+  password: aecd8c25-fd16-42a3-aefb-89c89557828f
+  port: 8080
+  server: hkt05.769970.xyz
+  skip-cert-verify: true
+  sni: hkt05.769970.xyz
+  type: hysteria2
+- encryption: none
+  name: '[A] 🇸🇬 新加坡 02'
+  network: ws
+  port: 2087
+  security: tls
+  server: 104.26.2.252
+  servername: pagescm.freen11.cc.cd
+  tls: true
+  type: vless
+  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
+  ws-opts:
+    headers:
+      Host: pagescm.freen11.cc.cd
+    path: /acg/torrent/infofp=chrome
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 01'
+  name: '[A] 🇸🇬 新加坡 03'
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇸🇬 新加坡 04'
   port: 2504
   server: world.t.51guangtaobao.com
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 02'
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 03'
-  network: ws
-  port: 443
-  server: 172.67.71.187
-  servername: pagescm.freen35.cc.cd
+- name: '[A] 🇸🇬 新加坡 05'
+  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
+  port: 10026
+  server: sg02.jgpy.help
   skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae0dd58e-e222-40bf-84ae-365a97532737
-  ws-opts:
-    headers:
-      Host: pagescm.freen35.cc.cd
-    path: /setting/torrent/task
-- name: '[B] 🇸🇬 新加坡 04'
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
-  port: 3233
-  server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: '[B] 🇸🇬 新加坡 05'
-  network: ws
-  port: 443
-  security: tls
-  server: dx.mmhh.eu.cc
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /fp=random
-- name: '[B] 🇸🇬 新加坡 06'
-  password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 3233
-  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
-  tls: true
-  type: http
-  username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- encryption: none
-  name: '[B] 🇸🇬 新加坡 07'
-  network: ws
-  port: 443
-  security: tls
-  server: 104.17.150.241
-  servername: juzi.qea.ccwu.cc
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  ws-opts:
-    headers:
-      Host: juzi.qea.ccwu.cc
-    path: /
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[B] 🇸🇬 新加坡 08'
-  port: 443
-  reality-opts:
-    public-key: fS59W37_i8457GqkbB9_kdCfLCtWbl14qmVRnm2ty2I
-    short-id: '!!str 2da4299da566b7'
-  server: 84.32.22.143
-  servername: maps.apple.com
-  tls: true
-  type: vless
-  uuid: 91a3f712-c4e0-42a0-9475-bdd551a06e73
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇸🇬 新加坡 09'
-  network: tcp
-  port: 10001
-  reality-opts:
-    public-key: 7qP6YKWx5CJXia1qjQoIcD7FRjUBbioaioioI729D34
-    short-id: '!!str 2afe4310'
-  security: reality
-  server: 50.114.55.14
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  uuid: 9c79aceb-4649-44ea-9698-b5e9ecf6d6da
-- name: '[B] 🇸🇬 新加坡 10'
-  network: ws
-  port: 443
-  security: tls
-  server: cdn.tzpro.xyz
-  servername: juzi.qea.ccwu.cc
-  tls: true
-  type: vless
-  uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df
-  ws-opts:
-    headers:
-      Host: juzi.qea.ccwu.cc
-    path: /?ed=2048fp=chrome
-- name: '[E] 🇸🇬 新加坡 11'
-  password: e2b63581-849f-405e-9a9c-53c61b5d94b3
-  port: 8262
-  server: 51.79.176.33
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
+  sni: apple.com
   type: hysteria2
-- name: '[F] 🇸🇬 新加坡 12'
+- client-fingerprint: random
+  encryption: none
+  name: '[A] 🇸🇬 新加坡 06'
+  network: ws
+  port: 8443
+  security: tls
+  server: 92.243.74.4
+  servername: ioioioi.pages.dev
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: c2c301e9-a9db-4d91-9c7b-ff8935aeb4e1
+  ws-opts:
+    headers:
+      Host: ioioioi.pages.dev
+    path: /?ed=2560
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇸🇬 新加坡 07'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4RZb56SmePtMZSY0T_PJlaDx0Yh3QT9-qSiMFac0TzI
+    short-id: '!!str a0845462'
+  server: sg.hsyun.top
+  servername: www.propertyguru.com.sg
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- name: '[E] 🇸🇬 新加坡 08'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3842
@@ -128,7 +80,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 13'
+- name: '[E] 🇸🇬 新加坡 09'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2511
@@ -136,7 +88,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 14'
+- name: '[E] 🇸🇬 新加坡 10'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -145,7 +97,7 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-128-gcm
-  name: '[H] 🇸🇬 新加坡 15'
+  name: '[G] 🇸🇬 新加坡 11'
   password: '!!str 666'
   plugin: v2ray-plugin
   plugin-opts:
@@ -160,7 +112,7 @@ proxies:
   udp: false
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇸🇬 新加坡 16'
+  name: '[G] 🇸🇬 新加坡 12'
   network: xhttp
   port: '443'
   server: 198.41.223.119
@@ -173,18 +125,43 @@ proxies:
     mode: stream-one
     path: /de
   xudp: true
-- encryption: none
-  name: '[H] 🇸🇬 新加坡 17'
-  network: ws
-  port: '80'
-  server: 162.159.19.202
-  type: vless
+- name: '[G] 🇸🇬 新加坡 13'
+  password: 16955d72-1794-11f0-a035-f23c95b6f51d
+  port: 3233
+  server: 4b41083b-tea5c0-tequ5b-dnss.fourtwo.cdnbytescm.com
+  tls: true
+  type: http
+  username: 16955d72-1794-11f0-a035-f23c95b6f51d
+- name: '[G] 🇸🇬 新加坡 14'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 3233
+  server: b5eb2edf-te8ao0-tfnl0i-au6.fourtwo.cdnbytescm.com
+  tls: true
+  type: http
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: '[G] 🇸🇬 新加坡 15'
+  network: tcp
+  port: '2504'
+  server: world.t.51guangtaobao.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: e284098e-7ffd-4fce-a9d3-ea6bc98ce629
-  ws-opts:
-    headers:
-      Host: empty-sea-3392.amir-1385-poo.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /?ed=2048
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
   xudp: true
+- name: '[I] 🇸🇬 新加坡 16'
+  port: 26866
+  server: 47.82.151.234
+  tls: false
+  type: vless
+  uuid: 6ad4bf15-3b06-4a01-ef71-cd366de98120
+- name: '[I] 🇸🇬 新加坡 17'
+  network: tcp
+  port: 8080
+  server: 47.82.148.244
+  tls: false
+  type: vless
+  uuid: 9fe5f13e-a1b2-469d-fe5d-e41e0d933b49
