@@ -1,9 +1,23 @@
 proxies:
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 01'
+  name: '[B] 🇨🇳 台湾 02'
+  network: tcp
+  port: 11114
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 04'
   network: tcp
   port: 11113
   server: dotu-twv1.kunlun03dns.com
@@ -15,9 +29,9 @@ proxies:
   xudp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
+  name: '[B] 🇨🇳 台湾 05'
   network: tcp
   port: 11111
   server: dotu-twv1.kunlun03dns.com
@@ -29,9 +43,9 @@ proxies:
   xudp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 04'
+  name: '[B] 🇨🇳 台湾 06'
   network: tcp
   port: 11112
   server: dotu-twv1.kunlun03dns.com
@@ -41,42 +55,28 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 06'
-  network: tcp
-  port: 11114
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alterId: 2
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 07'
-  port: 30811
-  server: v11.zgtfqs.click
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[B] 🇨🇳 台湾 09'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🇨🇳 台湾 11'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: nbmrcg0034686rw.cybervena.com
+  server: r3mrcg007117fb8.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🇨🇳 台湾 12'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: 1.161.240.114
+  server: r3mrcg00129437x.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🇨🇳 台湾 13'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: 61.231.15.57
+  server: 111.248.73.29
   type: ss

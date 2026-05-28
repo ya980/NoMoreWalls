@@ -2,57 +2,73 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 01'
-  port: 11101
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 02'
-  port: 11102
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 03'
-  port: 11103
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 04'
-  port: 11105
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇭🇰 香港 05'
-  network: tcp
-  port: 24933
-  reality-opts:
-    public-key: NpO9NRIfYTch16Z2yUyroHUaQanV1w0OKM_vEV-6p0I
-    short-id: '!!str 5e4a9abd'
-  server: gbp6.tbk2.agdb.a.rros.cc
-  servername: www.amazon.com
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
-  tfo: false
-  tls: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- encryption: none
+  name: '[B] 🇭🇰 香港 02'
+  network: ws
+  port: 80
+  server: cf.877771.xyz
   type: vless
-  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- name: '[B] 🇭🇰 香港 06'
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- name: '[B] 🇭🇰 香港 03'
   password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
   port: 10085
   server: hk02.jgpy.help
   skip-cert-verify: true
   sni: apple.com
+  tls: false
   type: hysteria2
+- encryption: none
+  name: '[B] 🇭🇰 香港 04'
+  network: ws
+  port: 80
+  server: cloudflare-ip.mofashi.ltd
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- client-fingerprint: randomized
+  encryption: none
+  name: '[B] 🇭🇰 香港 05'
+  network: ws
+  port: 443
+  security: tls
+  server: 104.17.138.107
+  servername: zyzzzoao.xn--fiqv8j.eu.org
+  tls: true
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[B] 🇭🇰 香港 06'
+  network: tcp
+  port: 16210
+  reality-opts:
+    public-key: DOGHciMvy3CcShNwgR16D6KpLf4oejTQPFMrD6234DY
+    short-id: '!!str 76de7fea'
+  server: 2zht.cbq4.zcvh.a.rros.cc
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[B] 🇭🇰 香港 07'
@@ -68,49 +84,24 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 08'
-  network: tcp
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[B] 🇭🇰 香港 09'
+  name: '[B] 🇭🇰 香港 08'
   network: tcp
-  port: 16210
+  port: 24933
   reality-opts:
-    public-key: DOGHciMvy3CcShNwgR16D6KpLf4oejTQPFMrD6234DY
-    short-id: '!!str 76de7fea'
-  server: 2zht.cbq4.zcvh.a.rros.cc
-  servername: www.yahoo.com
+    public-key: NpO9NRIfYTch16Z2yUyroHUaQanV1w0OKM_vEV-6p0I
+    short-id: '!!str 5e4a9abd'
+  server: gbp6.tbk2.agdb.a.rros.cc
+  servername: www.amazon.com
   skip-cert-verify: true
   tfo: false
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /ABCDE
-  name: '[B] 🇭🇰 香港 10'
-  network: http
-  port: 55386
-  server: 103.127.243.60
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 22d4ef9c-b269-4f82-9f59-6c2c0d8ce16d
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[B] 🇭🇰 香港 11'
+  name: '[B] 🇭🇰 香港 09'
   network: tcp
   port: 443
   reality-opts:
@@ -123,6 +114,28 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- client-fingerprint: randomized
+  encryption: none
+  name: '[B] 🇭🇰 香港 10'
+  network: ws
+  port: 443
+  security: tls
+  server: cloudflare-ip.mofashi.ltd
+  servername: zyzzzoao.xn--fiqv8j.eu.org
+  tls: true
+  type: vless
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇭🇰 香港 11'
+  port: 30809
+  server: v9.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 12'
@@ -131,11 +144,11 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - name: '[E] 🇭🇰 香港 13'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
+  password: 71e75cc1-d625-4be2-b3e4-ea2b197abf25
+  port: 20000
+  server: hkt03ddns.poke-mon.xyz
   skip-cert-verify: true
-  sni: hkt.ccwink.cc
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - alterId: 2
@@ -151,7 +164,7 @@ proxies:
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
-  server: 3.112.12.209
+  server: 52.69.114.14
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -159,7 +172,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 4327
-  server: 35.77.230.224
+  server: 54.168.196.137
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -219,58 +232,54 @@ proxies:
   cipher: auto
   name: '[I] 🇭🇰 香港 22'
   network: tcp
-  port: 6004
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 23'
+  network: tcp
+  port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 23'
-  network: tcp
-  port: '9002'
-  server: world.t.51guangtaobao.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
   name: '[I] 🇭🇰 香港 24'
   network: tcp
-  port: '6012'
-  server: world.t.51guangtaobao.com
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
   name: '[I] 🇭🇰 香港 25'
   network: tcp
-  port: '2504'
-  server: world.t.51guangtaobao.com
-  servername: ''
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
   tls: false
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
   name: '[I] 🇭🇰 香港 26'
   network: tcp
-  port: '9020'
-  server: world.t.51guangtaobao.com
-  servername: ''
+  port: 11144
+  server: dotu-krv1.kunlun03dns.com
   tls: false
   type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 27'
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: '[I] 🇭🇰 香港 27'
   network: tcp
-  port: '6009'
-  server: world.t.51guangtaobao.com
-  servername: ''
+  port: 47683
+  server: 47.242.43.198
   tls: false
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+  type: vless
+  uuid: 3825a504-7b6c-4f34-bf4d-a5b86f4650dd

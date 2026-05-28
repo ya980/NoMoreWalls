@@ -1,35 +1,7 @@
 proxies:
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 01'
-  network: tcp
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
-  network: tcp
-  port: 11111
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 03'
+  name: '[B] 🇨🇳 台湾 01'
   network: tcp
   port: 18799
   reality-opts:
@@ -44,11 +16,11 @@ proxies:
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 04'
+  name: '[B] 🇨🇳 台湾 02'
   network: tcp
-  port: 11112
+  port: 11114
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -58,7 +30,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 05'
+  name: '[B] 🇨🇳 台湾 03'
   network: tcp
   port: 10511
   reality-opts:
@@ -73,11 +45,11 @@ proxies:
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 06'
+  name: '[B] 🇨🇳 台湾 04'
   network: tcp
-  port: 11114
+  port: 11113
   server: dotu-twv1.kunlun03dns.com
   skip-cert-verify: false
   tls: false
@@ -85,15 +57,35 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 2
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
-  name: '[B] 🇨🇳 台湾 07'
-  port: 30811
-  server: v11.zgtfqs.click
+  name: '[B] 🇨🇳 台湾 05'
+  network: tcp
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- fingerprint: ''
-  name: '[B] 🇨🇳 台湾 08'
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 06'
+  network: tcp
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- name: '[B] 🇨🇳 台湾 07'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
@@ -103,7 +95,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[B] 🇨🇳 台湾 09'
+  name: '[B] 🇨🇳 台湾 08'
   network: tcp
   port: 443
   reality-opts:
@@ -116,29 +108,36 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- name: '[B] 🇨🇳 台湾 09'
+  password: gcuCpQfaiVeDBdWG
+  port: 19128
+  server: jpbgp.netvigor.cc
+  sni: yazhou10.dynu.net
+  tls: true
+  type: trojan
 - name: '[E] 🇨🇳 台湾 10'
-  password: aecd8c25-fd16-42a3-aefb-89c89557828f
-  port: 8080
-  server: 5gzdx.769970.xyz
+  password: 033634aa-43d9-4fc1-ab30-c2e28bb2e607
+  port: 13456
+  server: cdntw.xhl666.top
   skip-cert-verify: true
-  sni: 5gzdx.769970.xyz
+  sni: cdntw.xhl666.top
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🇨🇳 台湾 11'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: nbmrcg0034686rw.cybervena.com
+  server: r3mrcg007117fb8.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🇨🇳 台湾 12'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: 1.161.240.114
+  server: r3mrcg00129437x.cybervena.com
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🇨🇳 台湾 13'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
   port: 50099
-  server: 61.231.15.57
+  server: 111.248.73.29
   type: ss

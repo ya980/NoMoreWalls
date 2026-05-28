@@ -1,17 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 01'
-  port: 11128
-  server: dotu-usv1.kunlun03dns.com
+  name: '[B] 🇺🇸 美国 03'
+  port: 180
+  server: 82.198.246.214
   type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 07'
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 08'
+  network: ws
+  port: 49632
+  server: 45.63.7.19
+  type: vmess
+  uuid: 05f2bbe3-f29a-480f-ebfb-0deebb80741d
+  ws-opts:
+    path: /05f2bbe3-f29a-480f-ebfb-0deebb80741d
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 02'
+  name: '[B] 🇺🇸 美国 11'
   network: tcp
   port: 11129
   server: dotu-usv1.kunlun03dns.com
@@ -23,9 +39,9 @@ proxies:
   xudp: true
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 04'
+  name: '[B] 🇺🇸 美国 12'
   network: tcp
   port: 11130
   server: dotu-usv1.kunlun03dns.com
@@ -35,11 +51,19 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 13'
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 05'
+  name: '[B] 🇺🇸 美国 14'
   network: tcp
   port: 11127
   server: dotu-usv1.kunlun03dns.com
@@ -49,44 +73,11 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 07'
-  port: 180
-  server: 82.198.246.214
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 11'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 15'
-  port: 180
-  server: 82.198.246.250
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - name: '[B] 🇺🇸 美国 16'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 16010
-  server: 121.154.249.1
-  sni: vpn.rnmcnm.com
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trojan
-- name: '[B] 🇺🇸 美国 18'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 12345
-  server: 59.30.42.194
+  port: 30303
+  server: 121.191.33.84
   skip-cert-verify: false
   sni: vpn.rnmcnm.com
   type: trojan
@@ -95,7 +86,7 @@ proxies:
     headers:
       Host: vpn.rnmcnm.com
     path: /trojan
-- name: '[B] 🇺🇸 美国 19'
+- name: '[B] 🇺🇸 美国 20'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
   port: 18000
@@ -120,6 +111,19 @@ proxies:
 - name: '[B] 🇺🇸 美国 22'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 12345
+  server: 59.30.42.194
+  skip-cert-verify: false
+  sni: vpn.rnmcnm.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- name: '[B] 🇺🇸 美国 23'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
   port: 32603
   server: 220.86.228.109
   sni: vpn.rnmcnm.com
@@ -127,7 +131,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /trojan
-- name: '[B] 🇺🇸 美国 23'
+- name: '[B] 🇺🇸 美国 24'
   network: ws
   password: 433e785b-2077-47f7-a43d-985f63dd18d1
   port: 12000
@@ -137,18 +141,19 @@ proxies:
   type: trojan
   ws-opts:
     path: /trojan
-- alterId: 2
+- alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 25'
-  port: 30824
-  server: v24.hdacd.com
+  network: tcp
+  port: 48111
+  server: 129.146.143.80
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: d4603cc2-e0ee-4651-83f5-1db5b7168177
 - alterId: 2
   cipher: auto
   name: '[B] 🇺🇸 美国 26'
-  port: 30829
-  server: v29.hdacd.com
+  port: 30824
+  server: v24.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 2
@@ -158,30 +163,39 @@ proxies:
   server: v4.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[F] 🇺🇸 美国 29'
+  network: tcp
+  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  port: 2663
+  server: 95.40.114.115
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
 - name: '[F] 🇺🇸 美国 30'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 5224
-  server: 95.40.28.136
+  port: 2663
+  server: 52.69.114.14
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 31'
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 6604
-  server: 16.163.157.10
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇺🇸 美国 32'
-  network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.166.178.81
+  port: 2702
+  server: 43.206.155.159
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 32'
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
   name: '[F] 🇺🇸 美国 33'
@@ -217,6 +231,16 @@ proxies:
   network: tcp
   port: '180'
   server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 40'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess

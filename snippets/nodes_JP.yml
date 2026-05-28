@@ -1,9 +1,9 @@
 proxies:
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 01'
+  name: '[B] 🇯🇵 日本 02'
   network: tcp
   port: 11122
   server: dotu-jpv1.kunlun03dns.com
@@ -15,21 +15,7 @@ proxies:
   xudp: true
 - alpn:
   - ''
-  alterId: '0'
-  cipher: auto
-  name: '[B] 🇯🇵 日本 03'
-  network: tcp
-  port: 11120
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 05'
   network: tcp
@@ -41,18 +27,32 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- alterId: 2
+- alpn:
+  - ''
+  alterId: 0
   cipher: auto
   name: '[B] 🇯🇵 日本 06'
+  network: tcp
+  port: 11120
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇯🇵 日本 08'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 07'
+  name: '[B] 🇯🇵 日本 09'
   network: tcp
   port: 11121
   server: dotu-jpv1.kunlun03dns.com
@@ -62,37 +62,27 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- name: '[F] 🇯🇵 日本 09'
+- name: '[F] 🇯🇵 日本 12'
   network: tcp
   password: BxceQaOe
-  port: 4633
-  server: 54.248.176.41
+  port: 4099
+  server: 13.231.225.85
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 10'
+- name: '[F] 🇯🇵 日本 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 95.40.49.62
+  port: 8066
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 11'
+- name: '[F] 🇯🇵 日本 14'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
-  server: 3.112.12.209
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇯🇵 日本 13'
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

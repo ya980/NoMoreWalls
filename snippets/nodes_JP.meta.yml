@@ -1,9 +1,24 @@
 proxies:
+- client-fingerprint: safari
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇯🇵 日本 01'
+  network: tcp
+  port: 28003
+  reality-opts:
+    public-key: PRZbJ2SfQSaWIvIOZPDTvs6Y9Sd9ZKmwyn0_u4REalg
+    short-id: '!!str 1edec095'
+  security: reality
+  server: jpaws.xiaobaivpn.icu
+  servername: www.apple.com.cn
+  tls: true
+  type: vless
+  uuid: 2769bf4b-a544-48e1-aa54-79009b7d7c84
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 01'
+  name: '[B] 🇯🇵 日本 02'
   network: tcp
   port: 11122
   server: dotu-jpv1.kunlun03dns.com
@@ -15,7 +30,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 02'
+  name: '[B] 🇯🇵 日本 03'
   network: tcp
   port: 13303
   reality-opts:
@@ -28,11 +43,40 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇯🇵 日本 04'
+  network: ws
+  port: 18246
+  security: tls
+  server: 118.163.124.120
+  servername: workjoey.freen3.cc.cd
+  tls: true
+  type: vless
+  uuid: 7f50ec42-4673-41e2-94be-ae6253909def
+  ws-opts:
+    headers:
+      Host: workjoey.freen3.cc.cd
+    path: /?ed=2048
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 03'
+  name: '[B] 🇯🇵 日本 05'
+  network: tcp
+  port: 11119
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 06'
   network: tcp
   port: 11120
   server: dotu-jpv1.kunlun03dns.com
@@ -44,7 +88,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 04'
+  name: '[B] 🇯🇵 日本 07'
   network: tcp
   port: 31626
   reality-opts:
@@ -57,32 +101,18 @@ proxies:
   tls: true
   type: vless
   uuid: 231a569a-55f0-4d31-94ac-dbe4bed3efdb
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[B] 🇯🇵 日本 05'
-  network: tcp
-  port: 11119
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
 - alterId: 2
   cipher: auto
-  name: '[B] 🇯🇵 日本 06'
+  name: '[B] 🇯🇵 日本 08'
   port: 30806
   server: v6.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alpn:
   - ''
-  alterId: '0'
+  alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 07'
+  name: '[B] 🇯🇵 日本 09'
   network: tcp
   port: 11121
   server: dotu-jpv1.kunlun03dns.com
@@ -92,40 +122,47 @@ proxies:
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇯🇵 日本 08'
-  port: 39975
-  reality-opts:
-    public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
-  security: reality
-  server: 116.80.58.239
-  servername: cloudcircus.jp
+- name: '[B] 🇯🇵 日本 10'
+  network: ws
+  port: 12306
+  security: tls
+  server: 143.110.173.56
   tls: true
   type: vless
-  uuid: 15b84012-d261-4b4c-807a-061bb4a901fd
-- name: '[F] 🇯🇵 日本 09'
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: r8wez3psbuhgs6lgju.sate.qzz.io
+    path: /@Marisa_kristi
+- name: '[B] 🇯🇵 日本 11'
+  password: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+  port: 443
+  server: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+  sni: cffa61bc-t9zts0-tatrrz-yjq0.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 25b2699a-e18e-11ec-8e69-f23c91cfbbc9
+- name: '[F] 🇯🇵 日本 12'
   network: tcp
   password: BxceQaOe
-  port: 4633
-  server: 54.248.176.41
+  port: 4099
+  server: 13.231.225.85
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 10'
+- name: '[F] 🇯🇵 日本 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 95.40.49.62
+  port: 8066
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 11'
+- name: '[F] 🇯🇵 日本 14'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
-  server: 3.112.12.209
+  server: 16.163.29.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -134,7 +171,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇯🇵 日本 12'
+  name: '[H] 🇯🇵 日本 15'
   network: xhttp
   port: '2083'
   server: 162.159.38.183
@@ -148,13 +185,3 @@ proxies:
     mode: stream-one
     path: /de
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇯🇵 日本 13'
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
