@@ -10,7 +10,7 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 02'
-  port: 11105
+  port: 11101
   server: dotu-hkv1.kunlun03dns.com
   type: vmess
   udp: true
@@ -18,12 +18,48 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 03'
-  port: 11103
+  port: 11102
   server: dotu-hkv1.kunlun03dns.com
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: '[B] 🇭🇰 香港 04'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 04'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[B] 🇭🇰 香港 05'
+  network: tcp
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '[B] 🇭🇰 香港 06'
+  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+  port: 27102
+  reduce-rtt: false
+  server: xbns1y.yydzx.xyz
+  sni: xbns1y.yydzx.xyz
+  type: tuic
+  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
+- name: '[B] 🇭🇰 香港 07'
   password: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
   port: 5228
   server: be27ab36-t9zts0-tg010c-1r7od.cm4.oshuawei.com
@@ -33,7 +69,7 @@ proxies:
   username: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 05'
+  name: '[B] 🇭🇰 香港 08'
   network: ws
   port: 33411
   server: ct2.ainivp.com
@@ -45,92 +81,31 @@ proxies:
     headers:
       Host: ct2.ainivp.com
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 06'
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 07'
-  network: ws
-  port: 33414
-  server: cu7.ainivp.com
-  servername: cu7.ainivp.com
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  udp: false
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: cu7.ainivp.com
-    path: /ray
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 08'
-  network: tcp
-  port: 11112
-  server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[B] 🇭🇰 香港 09'
-  network: tcp
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 10'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 11'
-  network: ws
-  port: '1337'
-  server: 47.243.220.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /rootface-telegram-hunt-server
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 12'
+  name: '[B] 🇭🇰 香港 09'
+  port: 30809
+  server: v9.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[E] 🇭🇰 香港 10'
+  password: 71e75cc1-d625-4be2-b3e4-ea2b197abf25
+  port: 20000
+  server: hkt03ddns.poke-mon.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- alterId: 2
+  cipher: auto
+  name: '[F] 🇭🇰 香港 11'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 12'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
@@ -138,7 +113,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 14'
+- name: '[F] 🇭🇰 香港 13'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -146,7 +121,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 15'
+- name: '[F] 🇭🇰 香港 14'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -156,7 +131,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 16'
+  name: '[G] 🇭🇰 香港 15'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -164,30 +139,39 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- encryption: none
-  name: '[H] 🇭🇰 香港 17'
-  network: tcp
-  port: '47683'
-  server: 47.242.43.198
-  type: vless
-  udp: true
-  uuid: 3825a504-7b6c-4f34-bf4d-a5b86f4650dd
-  xudp: true
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇭🇰 香港 18'
-  obfs: ''
-  obfs-password: ''
-  password: 45a90d32-08bd-4dea-8345-f1f541cc7f90
-  port: '10085'
-  server: hk02.jgpy.help
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria2
-  up: ''
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 19'
+  name: '[H] 🇭🇰 香港 16'
+  network: ws
+  port: 33414
+  server: cu7.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu7.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇭🇰 香港 17'
+  network: ws
+  port: 33407
+  server: yd3.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd3.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 18'
   network: tcp
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -197,7 +181,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 20'
+  name: '[I] 🇭🇰 香港 19'
   network: tcp
   port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -206,7 +190,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 21'
+  name: '[I] 🇭🇰 香港 20'
   network: tcp
   port: 11129
   server: dotu-usv1.kunlun03dns.com
@@ -215,7 +199,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 22'
+  name: '[I] 🇭🇰 香港 21'
   network: tcp
   port: 11113
   server: dotu-twv1.kunlun03dns.com
@@ -224,7 +208,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 23'
+  name: '[I] 🇭🇰 香港 22'
   network: tcp
   port: 11136
   server: dotu-sgv1.kunlun03dns.com
@@ -233,7 +217,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 24'
+  name: '[I] 🇭🇰 香港 23'
   network: tcp
   port: 11120
   server: dotu-jpv1.kunlun03dns.com
@@ -242,7 +226,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 25'
+  name: '[I] 🇭🇰 香港 24'
   network: tcp
   port: 11128
   server: dotu-usv1.kunlun03dns.com
@@ -251,16 +235,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 26'
-  network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 27'
+  name: '[I] 🇭🇰 香港 25'
   network: tcp
   port: 11105
   server: dotu-hkv1.kunlun03dns.com
@@ -269,7 +244,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 28'
+  name: '[I] 🇭🇰 香港 26'
   network: tcp
   port: 11101
   server: dotu-hkv1.kunlun03dns.com
@@ -278,7 +253,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 29'
+  name: '[I] 🇭🇰 香港 27'
   network: tcp
   port: 11102
   server: dotu-hkv1.kunlun03dns.com

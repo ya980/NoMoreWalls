@@ -1,15 +1,32 @@
 proxies:
-- alterId: 0
-  cipher: auto
+- client-fingerprint: firefox
+  encryption: none
+  fp: firefox
   name: '[B] 🇰🇷 韩国 01'
-  port: 11144
-  server: dotu-krv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  network: ws
+  port: 18086
+  security: tls
+  server: 112.160.4.111
+  servername: i8dxb.media-cdn-us.chinav.indevs.in
+  skip-cert-verify: false
+  sni: i8dxb.media-cdn-us.chinav.indevs.in
+  tls: true
+  type: vless
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: i8dxb.media-cdn-us.chinav.indevs.in
+    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvl
 - alterId: 0
   cipher: auto
   name: '[B] 🇰🇷 韩国 02'
+  port: 11144
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇰🇷 韩国 03'
   network: ws
   port: 33204
   server: yd4.ainivp.com
@@ -21,50 +38,3 @@ proxies:
     headers:
       Host: yd4.ainivp.com
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇰🇷 韩国 03'
-  port: 11146
-  server: dotu-krv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇰🇷 韩国 04'
-  network: ws
-  port: 33201
-  server: yd2.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
-- name: '[H] 🇰🇷 韩国 05'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: test
-- client-fingerprint: chrome
-  name: '[H] 🇰🇷 韩国 06'
-  network: ws
-  port: '30006'
-  server: 114.204.40.185
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /@Marisa_kristifp=chrome
-  xudp: true

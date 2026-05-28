@@ -1,7 +1,41 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '[B] 🇯🇵 日本 01'
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
   name: '[B] 🇯🇵 日本 02'
+  network: tcp
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 03'
+  network: ws
+  port: 33203
+  server: cu2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu2.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 04'
   network: ws
   port: '33108'
   server: cu3.ainivp.com
@@ -13,28 +47,7 @@ proxies:
     headers:
       Host: cu3.ainivp.com
     path: /ray
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 03'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 04'
-  network: ws
-  port: '33103'
-  server: cu3.ainivp.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: cu3.ainivp.com
-    path: /ray
-- name: '[F] 🇯🇵 日本 06'
+- name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -42,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 07'
+- name: '[F] 🇯🇵 日本 06'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 8066
@@ -50,7 +63,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 08'
+- name: '[F] 🇯🇵 日本 07'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -58,23 +71,9 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[H] 🇯🇵 日本 09'
-  network: tcp
-  port: 11122
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 10'
+  name: '[I] 🇯🇵 日本 08'
   network: tcp
   port: 11103
   server: dotu-hkv1.kunlun03dns.com
@@ -83,7 +82,7 @@ proxies:
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇯🇵 日本 11'
+  name: '[I] 🇯🇵 日本 09'
   password: hbGrpfvNrJsUmKmPbR3iY2
   port: 443
   server: tinkered-pennies-puppies.freesocks.work

@@ -14,16 +14,39 @@ proxies:
   tls: true
   type: vless
   uuid: d78c12c4-6927-40b8-8550-ed9be00334da
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇫🇷 法国 02'
+  network: tcp
+  port: 23576
+  reality-opts:
+    public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s
+    short-id: '!!str 01'
+  security: reality
+  server: 62.210.91.2
+  servername: fuck.rkn
+  tls: true
+  type: vless
+  uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5
+- name: '[E] 🇫🇷 法国 03'
+  password: fe9b17e8-41e1-4d1b-b588-93a23665724f
+  port: 2056
+  server: 37.114.49.38
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇫🇷 法国 02'
+  name: '[H] 🇫🇷 法国 04'
   network: xhttp
-  port: '2087'
-  server: 130.250.137.171
+  port: 2087
+  server: 165.215.250.14
   servername: ws.kheybar.store
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
