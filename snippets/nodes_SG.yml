@@ -1,7 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 01'
+  name: '[B] 🇸🇬 新加坡 08'
+  network: ws
+  port: 33402
+  server: yd3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd3.ainivp.com
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 10'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -12,7 +25,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 02'
+  name: '[B] 🇸🇬 新加坡 17'
   network: ws
   password: mitivpn
   port: '443'
@@ -27,44 +40,10 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
         Chrome/69.0.3497.100 Safari/537.36
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 04'
-  port: 11138
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 05'
-  port: 11137
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 06'
-  network: ws
-  password: mitivpn
-  port: '443'
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.app-cloud.ir
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 07'
+  name: '[B] 🇸🇬 新加坡 18'
   network: ws
   password: mitivpn
   port: '443'
@@ -80,15 +59,33 @@ proxies:
         AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
         Safari/537.36
     path: /?ed=2048
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[B] 🇸🇬 新加坡 19'
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 45.130.125.76
+  skip-cert-verify: true
+  sni: www.app-cloud.ir
+  tls: true
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 08'
-  port: 11135
+  name: '[B] 🇸🇬 新加坡 27'
+  port: 11137
   server: dotu-sgv1.kunlun03dns.com
   type: vmess
   udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: '[F] 🇸🇬 新加坡 10'
+- name: '[F] 🇸🇬 新加坡 35'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 4840
@@ -96,7 +93,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 11'
+- name: '[F] 🇸🇬 新加坡 36'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3842
@@ -104,7 +101,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 12'
+- name: '[F] 🇸🇬 新加坡 37'
   network: tcp
   password: BxceQaOe
   port: 39756
@@ -113,14 +110,8 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[I] 🇸🇬 新加坡 19'
+  name: '[I] 🇸🇬 新加坡 46'
   password: IYgdNNDTvWPtQ2XtycquZONq2iEz4ZtEIIpHayAPUAMS
   port: 39715
   server: 47.82.148.244
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🇸🇬 新加坡 20'
-  password: UO3w8kv26Rr6pinEBoDuNibee48krgBnDuxE6grlNzwK
-  port: 11400
-  server: 47.82.174.123
   type: ss

@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+- name: '[I] 🇨🇦 加拿大 01'
+  network: tcp
+  port: 666
+  server: mr-x-shop.ir
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+- name: '[I] 🇨🇦 加拿大 02'
+  network: ws
+  port: 2095
+  server: nl-direct.mgsmservice.xyz
+  tls: false
+  type: vless
+  uuid: 37e5e741-8346-46bb-893f-47cfda23179f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: '[I] 🇨🇦 加拿大 03'
+  port: 2083
+  server: a.mobileazadi.site
+  tls: false
+  type: vless
+  uuid: 66cd7b87-2ed1-4c5d-b535-f6c8b5980638
+  ws-opts:
+    path: '%2F'
