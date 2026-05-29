@@ -1,27 +1,51 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: '[B] 🇰🇷 韩国 01'
-  port: 11144
-  server: dotu-krv1.kunlun03dns.com
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  security: reality
+  server: 47.80.13.250
+  servername: api.company-target.com
+  tls: true
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[H] 🇰🇷 韩国 02'
+  network: ws
+  port: 33201
+  server: yd2.ainivp.com
+  skip-cert-verify: false
+  tls: true
   type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd2.ainivp.com
+    path: /ray
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[B] 🇰🇷 韩国 02'
+  name: '[H] 🇰🇷 韩国 03'
   network: ws
   port: 33204
   server: yd4.ainivp.com
   servername: yd4.ainivp.com
+  skip-cert-verify: false
   tls: true
   type: vmess
+  udp: true
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
       Host: yd4.ainivp.com
     path: /ray
-- name: '[B] 🇰🇷 韩国 03'
+- name: '[H] 🇰🇷 韩国 04'
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -29,3 +53,13 @@ proxies:
   tls: true
   type: http
   username: test
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇰🇷 韩国 05'
+  port: 11146
+  server: dotu-krv1.kunlun03dns.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9

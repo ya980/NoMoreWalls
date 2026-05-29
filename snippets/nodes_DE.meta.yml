@@ -1,8 +1,18 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- encryption: none
   name: '[B] 🇩🇪 德国 01'
-  network: tcp
+  network: ws
+  port: 80
+  server: 162.159.19.202
+  type: vless
+  uuid: e284098e-7ffd-4fce-a9d3-ea6bc98ce629
+  ws-opts:
+    headers:
+      Host: empty-sea-3392.amir-1385-poo.workers.dev
+    path: /?ed=2048
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision-udp443
+  name: '[B] 🇩🇪 德国 02'
   port: 443
   security: tls
   server: 87.120.93.242
@@ -10,228 +20,53 @@ proxies:
   tls: true
   type: vless
   uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇩🇪 德国 02'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: rUCPHLqnPkePldNW05cfPZ8FM8VSmnB6e5dkGNHk_0M
-    short-id: '!!str a9ff'
-  security: reality
-  server: 191.44.112.22
-  servername: www.yandex.ru
-  tls: true
-  type: vless
-  uuid: ab7ededa-a2cd-4381-8ea6-d39d2f91dcf6
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '[B] 🇩🇪 德国 03'
-  port: 443
-  security: tls
-  server: 87.120.93.25
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- name: '[B] 🇩🇪 德国 04'
-  port: 443
-  security: tls
-  server: 87.120.93.240
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 05'
-  password: amazonskr05
-  port: '443'
-  server: 63.180.239.185
-  type: ss
-  udp: true
 - alpn:
-  - h2
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: alalamtv.net.jamejamonline.ir.iribnews.ir.alef.ir.eghtesadonline.com.rajanews.com.khabaronline.ir
-  name: '[H] 🇩🇪 德国 06'
-  network: grpc
-  port: '2096'
-  server: 104.17.121.152
-  servername: aRTfuL-eXCHAnGed81Ihi4YWX.carbONblAckBMW.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6992f972-39ab-41e3-9d2e-39efc00ced3d
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 07'
-  network: xhttp
-  port: '443'
-  server: 116.203.138.13
-  servername: dir.antidogm.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03fa2758-626f-47c7-ac66-5c549e4f4ce0
-  xhttp-opts:
-    host: dir.antidogm.xyz
-    mode: stream-one
-    path: /streamio
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 08'
-  network: xhttp
-  port: '443'
-  server: 45.130.125.5
-  servername: cd1.fix98.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: a2067e90-ca33-47ee-b55e-8ff7ce1e51f5
-  xhttp-opts:
-    mode: auto
-    path: /game
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: alalamtv.net.jamejamonline.ir.iribnews.ir.alef.ir.eghtesadonline.com.rajanews.com.khabaronline.ir
-  name: '[H] 🇩🇪 德国 09'
-  network: grpc
-  port: '2096'
-  server: 104.17.121.129
-  servername: aRTfuL-eXCHAnGed81Ihi4YWX.carbONblAckBMW.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6992f972-39ab-41e3-9d2e-39efc00ced3d
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 10'
-  network: xhttp
-  port: '443'
-  server: fsxhh.fastshop1.com
-  servername: default.ssl.fastly.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77e9ba08-5313-415b-955c-5609396eb512
-  xhttp-opts:
-    host: lizzard.global.ssl.fastly.net
-    mode: packet-up
-    path: /lizzard
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 11'
-  network: xhttp
-  port: '2053'
-  server: 45.130.125.76
-  servername: drrfddgbv.turbooserver.net.tr
-  tls: true
-  type: vless
-  udp: true
-  uuid: b37be529-83c9-4851-a3cf-73d7d05bf308
-  xhttp-opts:
-    host: drrfddgbv.turbooserver.net.tr
-    mode: auto
-    path: /
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 12'
-  network: tcp
-  port: '666'
-  server: 194.59.183.234
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 13'
+  name: '[H] 🇩🇪 德国 03'
   network: ws
-  password: jprlmigrrmcmeu1u
-  port: '2053'
-  server: 104.18.32.47
+  password: Mitivpn
+  port: '443'
+  server: www.hitgram.ir
   skip-cert-verify: false
-  sni: ai999.seemed369.xyz
+  sni: www.hitgram.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
+        Chrome/12.0.742.100 Safari/534.30
     path: /?ed=2048
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇩🇪 德国 14'
-  password: 453u6Gcei04NyXbrWLKa0M
+- encryption: none
+  name: '[H] 🇩🇪 德国 04'
+  network: ws
+  port: '2086'
+  server: 104.17.150.76
+  type: vless
+  udp: true
+  uuid: de989f46-ce7c-4d94-9c58-5ccd80e8d7a1
+  ws-opts:
+    headers:
+      Host: war2.unlimiteddev-service2881.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 05'
+  password: amazonskr05
   port: 443
-  server: 5.230.184.16
+  server: 35.159.110.250
   type: ss
-  udp: true
 - alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: mizanonline.com.farsnews.ir.sharghdaily.com.donya-e-eqtesad.com.tehrantimes.com.sharghdaily.com.en.mehrnews.com
-  name: '[H] 🇩🇪 德国 15'
-  network: grpc
-  port: '2096'
-  server: 104.17.121.71
-  servername: DEft-peakABGj64vrj3.CaRbonblACKbmw.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5154b274-cbfa-44f6-8b64-22f169d66cc5
-  xudp: true
-- name: '[H] 🇩🇪 德国 16'
-  network: tcp
-  port: 2052
-  server: azmononline.konkuriran.sbs
-  tls: false
-  type: vless
-  udp: true
-  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-  xudp: true
-- name: '[I] 🇩🇪 德国 17'
-  port: 47518
-  server: de-on-demand.not-a-projects.xyz
-  tls: false
-  type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-- name: '[I] 🇩🇪 德国 18'
-  network: tcp
-  port: 2052
-  server: 91.107.179.170
-  tls: false
-  type: vless
-  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 19'
-  network: tcp
-  port: 8443
-  server: de.connfull.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: e0021a91-e53a-4757-96fc-912c7c830721
+  - h3
+  auth-str: github.com/Alvin9999-newpac/fanqiang
+  down: '55'
+  name: '[H] 🇩🇪 德国 06'
+  port: 10066
+  protocol: udp
+  server: 62.210.29.98
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria
+  up: '11'

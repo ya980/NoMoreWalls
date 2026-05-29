@@ -1,19 +1,42 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 02'
+  name: '[B] 🇯🇵 日本 01'
   port: 6003
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: '[B] 🇯🇵 日本 02'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 32657
+  server: a.twodnwnpoe.xyz
+  servername: water.waittomorrow.top
+  skip-cert-verify: true
+  sni: water.waittomorrow.top
+  tfo: false
+  type: trojan
+  udp: false
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 05'
-  port: 11121
+  name: '[B] 🇯🇵 日本 03'
+  port: 11120
   server: dotu-jpv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- name: '[F] 🇯🇵 日本 12'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 04'
+  network: ws
+  port: 33203
+  server: cu2.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu2.ainivp.com
+    path: /ray
+- name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -21,7 +44,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 13'
+- name: '[F] 🇯🇵 日本 06'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 8066
@@ -29,7 +52,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 14'
+- name: '[F] 🇯🇵 日本 07'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -39,23 +62,18 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[H] 🇯🇵 日本 15'
-  network: tcp
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  name: '[H] 🇯🇵 日本 08'
+  network: ws
+  port: 33108
+  server: cu3.ainivp.com
+  servername: cu3.ainivp.com
   skip-cert-verify: false
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu3.ainivp.com
+    path: /ray
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇯🇵 日本 16'
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552

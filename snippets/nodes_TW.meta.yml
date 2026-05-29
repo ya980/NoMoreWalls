@@ -1,24 +1,29 @@
 proxies:
+- name: '[B] 🇨🇳 台湾 01'
+  password: f58cd113-a3b1-319d-a993-331481731e82
+  port: 32544
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: true
+  sni: water.waittomorrow.top
+  tls: true
+  type: trojan
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '[B] 🇨🇳 台湾 01'
-  port: 11111
-  server: dotu-twv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: '[B] 🇨🇳 台湾 02'
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
+  network: ws
+  port: 33404
+  server: yd3.ainivp.com
+  tls: true
   type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd3.ainivp.com
+    path: /ray
 - alterId: 0
   cipher: auto
   name: '[B] 🇨🇳 台湾 03'
-  port: 11112
+  port: 11113
   server: dotu-twv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -26,42 +31,31 @@ proxies:
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
+  servername: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
+  tfo: false
   tls: false
   type: hysteria2
-- name: '[B] 🇨🇳 台湾 05'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 44380
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: tw.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- client-fingerprint: chrome
-  name: '[B] 🇨🇳 台湾 06'
-  password: gcuCpQfaiVeDBdWG
-  port: 19128
-  server: 211.76.176.98
-  sni: yazhou10.dynu.net
-  tls: true
-  type: trojan
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '[B] 🇨🇳 台湾 07'
-  password: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-  port: 27105
-  reduce-rtt: false
-  server: m61wz8.yydzx.xyz
-  sni: m61wz8.yydzx.xyz
-  type: tuic
-  uuid: 2219a1b1-9290-4ac5-94fd-6cfc1fb25280
-- name: '[E] 🇨🇳 台湾 08'
+  udp: true
+- name: '[E] 🇨🇳 台湾 05'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 台湾 06'
+  network: ws
+  port: '10054'
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
