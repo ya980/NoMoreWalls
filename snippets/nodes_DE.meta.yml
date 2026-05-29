@@ -1,31 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇩🇪 德国 01'
-  port: 42444
-  server: s2.projectv.bond
-  type: vmess
-  uuid: 8521095b-5512-4589-9688-18750f3aa6b4
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '[B] 🇩🇪 德国 02'
-  port: 443
-  security: tls
-  server: 87.120.93.140
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇩🇪 德国 03'
-  port: 443
-  security: tls
-  server: 87.120.93.240
-  servername: sub.sbrf-cdn342.ru
-  tls: true
-  type: vless
-  uuid: 91e120bc-159a-4390-b4e1-197b19602ea0
 - alpn:
   - h2
   - http/1.1
@@ -33,7 +6,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: khabaronline.ir.iranprimer.usip.org.entekhab.ir.alalamtv.net.kayhan.ir.fararu.com.irna.ir
-  name: '[H] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 01'
   network: grpc
   port: '2096'
   server: 104.18.32.47
@@ -50,7 +23,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: presstv.ir.iribnews.ir.tasnimnews.com.irannewsdaily.com.ifpnews.com.kayhan.ir.irdiplomacy.ir
-  name: '[H] 🇩🇪 德国 05'
+  name: '[H] 🇩🇪 德国 02'
   network: grpc
   port: '2096'
   server: 104.18.32.47
@@ -67,7 +40,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: asriran.com.tasnimnews.com.sharghdaily.com.entekhab.ir.farsnews.ir.isna.ir.irdiplomacy.ir
-  name: '[H] 🇩🇪 德国 06'
+  name: '[H] 🇩🇪 德国 03'
   network: grpc
   port: '2096'
   server: 104.18.32.47
@@ -84,7 +57,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: irannewsdaily.com.hamshahrionline.ir.irdiplomacy.ir.irandaily.ir.alef.ir.rajanews.com.irannewsdaily.com
-  name: '[H] 🇩🇪 德国 07'
+  name: '[H] 🇩🇪 德国 04'
   network: grpc
   port: '2096'
   server: 45.130.125.69
@@ -96,7 +69,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 08'
+  name: '[H] 🇩🇪 德国 05'
   network: xhttp
   port: '443'
   reality-opts:
@@ -120,7 +93,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: fararu.com.parstoday.com.ilna.news.financialtribune.com.presstv.ir.jamejamonline.ir.alalamtv.net
-  name: '[H] 🇩🇪 德国 09'
+  name: '[H] 🇩🇪 德国 06'
   network: grpc
   port: '2096'
   server: 104.18.32.47
@@ -130,8 +103,26 @@ proxies:
   udp: true
   uuid: ac0517ac-af76-4436-bfa4-0a8b2b6bb433
   xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 07'
+  network: ws
+  port: '443'
+  server: support.zoom.us.cyylr.eu.cc
+  servername: support.zoom.us.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; BLL-L22 Build/HUAWEIBLL-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /sg-melbi
+  xudp: true
 - encryption: none
-  name: '[H] 🇩🇪 德国 10'
+  name: '[H] 🇩🇪 德国 08'
   network: ws
   port: '2086'
   server: 104.17.150.76
@@ -152,7 +143,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: donya-e-eqtesad.com.tasnimnews.com.alef.ir.en.mehrnews.com.entekhab.ir.tasnimnews.com.tehrantimes.com
-  name: '[H] 🇩🇪 德国 11'
+  name: '[H] 🇩🇪 德国 09'
   network: grpc
   port: '2096'
   server: 104.18.32.47
@@ -163,27 +154,34 @@ proxies:
   uuid: fad00171-5df8-442e-a208-54dea7f474f2
   xudp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 12'
+  name: '[H] 🇩🇪 德国 10'
   password: amazonskr05
   port: '443'
   server: 63.180.239.185
   type: ss
   udp: true
-- name: '[I] 🇩🇪 德国 13'
-  network: tcp
-  port: 666
-  server: 194.59.183.234
-  tls: false
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '[I] 🇩🇪 德国 14'
-  network: tcp
+- name: '[I] 🇩🇪 德国 11'
   port: 2052
   server: azmononline.konkuriran.sbs
   tls: false
   type: vless
   uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+- name: '[I] 🇩🇪 德国 12'
+  network: tcp
+  port: 2052
+  server: 91.107.179.170
+  tls: false
+  type: vless
+  uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 13'
+  network: tcp
+  port: 8443
+  server: de.connfull.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: e0021a91-e53a-4757-96fc-912c7c830721

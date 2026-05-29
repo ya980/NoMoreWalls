@@ -4,42 +4,43 @@ proxies:
   name: '[B] 🇭🇰 香港 01'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇭🇰 香港 02'
-  port: 13413
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: '!!str a1b2c3d4'
-  security: reality
-  server: zzjp1.ainivp.com
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 03'
-  port: 11105
-  server: dotu-hkv1.kunlun03dns.com
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  fp: safari
-  name: '[B] 🇭🇰 香港 04'
-  network: tcp
-  port: 11102
-  server: dotu-hkv1.kunlun03dns.com
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
+  network: ws
+  port: 33414
+  server: cu7.ainivp.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: cu7.ainivp.com
+    path: /ray
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 03'
+  network: tcp
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[B] 🇭🇰 香港 05'
+  flow: xtls-rprx-vision-udp443
+  name: '[B] 🇭🇰 香港 04'
   port: 10011
   security: tls
   server: 103.123.162.50
@@ -47,27 +48,27 @@ proxies:
   tls: true
   type: vless
   uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
-- name: '[B] 🇭🇰 香港 06'
-  network: ws
-  port: 8443
-  security: tls
-  server: 43.247.135.211
-  servername: i8dxb.media-cdn-us.chinav.indevs.in
-  tls: true
-  type: vless
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: i8dxb.media-cdn-us.chinav.indevs.in
-    path: /danfeng-lo9ew8-vfksib-hwrl-84fg5mvlfp=firefox
 - alterId: 0
   cipher: auto
-  fp: edge
+  name: '[B] 🇭🇰 香港 05'
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 06'
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
   name: '[B] 🇭🇰 香港 07'
   network: ws
   port: 33407
   server: yd3.ainivp.com
-  servername: yd3.ainivp.com
   tls: true
   type: vmess
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
@@ -75,75 +76,45 @@ proxies:
     headers:
       Host: yd3.ainivp.com
     path: /ray
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇭🇰 香港 08'
-  port: 13413
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: '!!str a1b2c3d4'
-  security: reality
-  server: zzhk6.ainivp.com
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇭🇰 香港 09'
-  port: 13414
-  reality-opts:
-    public-key: epgveXEcUs0sbs4jV_1KldTkZGnWUHfMKcs0XNyP41Y
-    short-id: '!!str a1b2c3d4'
-  security: reality
-  server: zzhk5.ainivp.com
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '[B] 🇭🇰 香港 10'
+  name: '[B] 🇭🇰 香港 08'
   port: 11136
   server: dotu-sgv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '[B] 🇭🇰 香港 11'
-  port: 30809
-  server: v9.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 12'
+  name: '[B] 🇭🇰 香港 09'
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 10'
   port: 51556
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '[B] 🇭🇰 香港 13'
+  name: '[B] 🇭🇰 香港 11'
   port: 54022
   server: 103.181.164.145
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 14'
+  name: '[F] 🇭🇰 香港 12'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 15'
+- name: '[F] 🇭🇰 香港 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
@@ -151,7 +122,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 16'
+- name: '[F] 🇭🇰 香港 14'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -159,7 +130,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 17'
+- name: '[F] 🇭🇰 香港 15'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -169,7 +140,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 18'
+  name: '[G] 🇭🇰 香港 16'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -179,7 +150,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 19'
+  name: '[H] 🇭🇰 香港 17'
   network: raw
   port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -191,9 +162,29 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
+  name: '[I] 🇭🇰 香港 18'
+  network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 19'
+  network: tcp
+  port: '6001'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
   name: '[I] 🇭🇰 香港 20'
   network: tcp
-  port: 6004
+  port: '6004'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   servername: ''
   tls: false
@@ -203,17 +194,19 @@ proxies:
   cipher: auto
   name: '[I] 🇭🇰 香港 21'
   network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  port: 11101
+  server: dotu-hkv1.kunlun03dns.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
   name: '[I] 🇭🇰 香港 22'
   network: tcp
-  port: 11129
-  server: dotu-usv1.kunlun03dns.com
+  port: 11114
+  server: dotu-twv1.kunlun03dns.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -221,8 +214,9 @@ proxies:
   cipher: auto
   name: '[I] 🇭🇰 香港 23'
   network: tcp
-  port: 11113
-  server: dotu-twv1.kunlun03dns.com
+  port: 11146
+  server: dotu-krv1.kunlun03dns.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -230,8 +224,9 @@ proxies:
   cipher: auto
   name: '[I] 🇭🇰 香港 24'
   network: tcp
-  port: 11136
-  server: dotu-sgv1.kunlun03dns.com
+  port: 11122
+  server: dotu-jpv1.kunlun03dns.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -239,8 +234,9 @@ proxies:
   cipher: auto
   name: '[I] 🇭🇰 香港 25'
   network: tcp
-  port: 11112
-  server: dotu-twv1.kunlun03dns.com
+  port: 11129
+  server: dotu-usv1.kunlun03dns.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -248,8 +244,8 @@ proxies:
   cipher: auto
   name: '[I] 🇭🇰 香港 26'
   network: tcp
-  port: 11120
-  server: dotu-jpv1.kunlun03dns.com
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
@@ -257,14 +253,23 @@ proxies:
   cipher: auto
   name: '[I] 🇭🇰 香港 27'
   network: tcp
-  port: 11128
-  server: dotu-usv1.kunlun03dns.com
+  port: 11143
+  server: dotu-krv1.kunlun03dns.com
   tls: false
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
   name: '[I] 🇭🇰 香港 28'
+  network: tcp
+  port: 11137
+  server: dotu-sgv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 29'
   network: tcp
   port: 11127
   server: dotu-usv1.kunlun03dns.com
@@ -273,7 +278,103 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 29'
+  name: '[I] 🇭🇰 香港 30'
+  network: tcp
+  port: 11128
+  server: dotu-usv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 31'
+  network: tcp
+  port: 11120
+  server: dotu-jpv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 32'
+  network: tcp
+  port: 11113
+  server: dotu-twv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 33'
+  network: tcp
+  port: 11130
+  server: dotu-usv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 34'
+  network: tcp
+  port: 11144
+  server: dotu-krv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 35'
+  network: tcp
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 36'
+  network: tcp
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 37'
+  network: tcp
+  port: 11136
+  server: dotu-sgv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 38'
+  network: tcp
+  port: 11145
+  server: dotu-krv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 39'
+  network: tcp
+  port: '11103'
+  server: dotu-hkv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- cipher: aes-128-gcm
+  name: '[I] 🇭🇰 香港 40'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: 202.85.76.170
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 41'
   network: tcp
   port: 11105
   server: dotu-hkv1.kunlun03dns.com
@@ -282,9 +383,9 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 30'
+  name: '[I] 🇭🇰 香港 42'
   network: tcp
-  port: 11101
+  port: 11102
   server: dotu-hkv1.kunlun03dns.com
   tls: false
   type: vmess
