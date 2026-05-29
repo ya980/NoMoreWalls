@@ -2,6 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 01'
+  port: 11104
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
@@ -9,63 +16,38 @@ proxies:
   type: vmess
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: '[B] 🇭🇰 香港 03'
+  password: c1785de0-212f-11ef-92aa-f23c9164ca5d
+  port: 5228
+  server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
+  sni: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: c1785de0-212f-11ef-92aa-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 02'
+  name: '[B] 🇭🇰 香港 04'
   network: ws
   port: 33414
   server: cu7.ainivp.com
-  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
       Host: cu7.ainivp.com
     path: /ray
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 03'
-  network: tcp
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision-udp443
-  name: '[B] 🇭🇰 香港 04'
-  port: 10011
-  security: tls
-  server: 103.123.162.50
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
   name: '[B] 🇭🇰 香港 05'
-  port: 11143
-  server: dotu-krv1.kunlun03dns.com
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 06'
-  port: 11138
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 07'
   network: ws
   port: 33407
   server: yd3.ainivp.com
@@ -78,43 +60,285 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 08'
-  port: 11136
-  server: dotu-sgv1.kunlun03dns.com
+  name: '[B] 🇭🇰 香港 07'
+  port: 11145
+  server: dotu-krv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 09'
+  client-fingerprint: chrome
+  name: '[B] 🇭🇰 香港 08'
   port: 11137
   server: dotu-sgv1.kunlun03dns.com
   type: vmess
-  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 10'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 11'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- name: '[B] 🇭🇰 香港 09'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46883
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ru.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 10'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48772
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ua.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 11'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41818
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: mm.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 12'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 44945
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: pk.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 13'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 14'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 42141
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: pe.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 15'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 42693
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: za.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 16'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41399
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: tr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 17'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 40567
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: id.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 18'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 43645
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: vn.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 19'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 20'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 21'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41523
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: my.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 22'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 43592
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: il.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 23'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 24'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47377
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ng.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 25'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 42427
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gl.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 26'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 40406
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: nz.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 27'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 44542
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: in.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 28'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 44375
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: br.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 29'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 42209
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ca.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 30'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 31'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47632
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ph.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 32'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 49306
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gb.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 33'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41960
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: au.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 34'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45846
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: eg.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 35'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48566
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ae.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 36'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46298
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: kz.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 37'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46572
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: kr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 38'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41874
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: it.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 39'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 44776
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ar.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 40'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 12'
+  name: '[F] 🇭🇰 香港 41'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 42'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
@@ -122,7 +346,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 14'
+- name: '[F] 🇭🇰 香港 43'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -130,7 +354,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 15'
+- name: '[F] 🇭🇰 香港 44'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -140,7 +364,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 16'
+  name: '[G] 🇭🇰 香港 45'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -150,10 +374,11 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 17'
-  network: raw
+  name: '[H] 🇭🇰 香港 46'
+  network: tcp
   port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -162,7 +387,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 18'
+  name: '[I] 🇭🇰 香港 47'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -172,27 +397,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 19'
-  network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 20'
-  network: tcp
-  port: '6004'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 21'
+  name: '[I] 🇭🇰 香港 48'
   network: tcp
   port: 11101
   server: dotu-hkv1.kunlun03dns.com
@@ -202,7 +407,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 22'
+  name: '[I] 🇭🇰 香港 49'
   network: tcp
   port: 11114
   server: dotu-twv1.kunlun03dns.com
@@ -212,7 +417,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 23'
+  name: '[I] 🇭🇰 香港 50'
   network: tcp
   port: 11146
   server: dotu-krv1.kunlun03dns.com
@@ -222,7 +427,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 24'
+  name: '[I] 🇭🇰 香港 51'
   network: tcp
   port: 11122
   server: dotu-jpv1.kunlun03dns.com
@@ -232,17 +437,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 25'
-  network: tcp
-  port: 11129
-  server: dotu-usv1.kunlun03dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 26'
+  name: '[I] 🇭🇰 香港 52'
   network: tcp
   port: 11111
   server: dotu-twv1.kunlun03dns.com
@@ -251,7 +446,16 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 27'
+  name: '[I] 🇭🇰 香港 53'
+  network: tcp
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 54'
   network: tcp
   port: 11143
   server: dotu-krv1.kunlun03dns.com
@@ -260,7 +464,25 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 28'
+  name: '[I] 🇭🇰 香港 55'
+  network: tcp
+  port: 11119
+  server: dotu-jpv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 56'
+  network: tcp
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 57'
   network: tcp
   port: 11137
   server: dotu-sgv1.kunlun03dns.com
@@ -269,16 +491,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 29'
-  network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 30'
+  name: '[I] 🇭🇰 香港 58'
   network: tcp
   port: 11128
   server: dotu-usv1.kunlun03dns.com
@@ -287,7 +500,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 31'
+  name: '[I] 🇭🇰 香港 59'
   network: tcp
   port: 11120
   server: dotu-jpv1.kunlun03dns.com
@@ -296,7 +509,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 32'
+  name: '[I] 🇭🇰 香港 60'
   network: tcp
   port: 11113
   server: dotu-twv1.kunlun03dns.com
@@ -305,7 +518,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 33'
+  name: '[I] 🇭🇰 香港 61'
   network: tcp
   port: 11130
   server: dotu-usv1.kunlun03dns.com
@@ -314,7 +527,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 34'
+  name: '[I] 🇭🇰 香港 62'
   network: tcp
   port: 11144
   server: dotu-krv1.kunlun03dns.com
@@ -323,7 +536,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 35'
+  name: '[I] 🇭🇰 香港 63'
   network: tcp
   port: 11135
   server: dotu-sgv1.kunlun03dns.com
@@ -332,7 +545,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 36'
+  name: '[I] 🇭🇰 香港 64'
   network: tcp
   port: 11138
   server: dotu-sgv1.kunlun03dns.com
@@ -341,7 +554,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 37'
+  name: '[I] 🇭🇰 香港 65'
   network: tcp
   port: 11136
   server: dotu-sgv1.kunlun03dns.com
@@ -350,7 +563,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 38'
+  name: '[I] 🇭🇰 香港 66'
   network: tcp
   port: 11145
   server: dotu-krv1.kunlun03dns.com
@@ -359,7 +572,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 39'
+  name: '[I] 🇭🇰 香港 67'
   network: tcp
   port: '11103'
   server: dotu-hkv1.kunlun03dns.com
@@ -367,14 +580,14 @@ proxies:
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - cipher: aes-128-gcm
-  name: '[I] 🇭🇰 香港 40'
+  name: '[I] 🇭🇰 香港 68'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 202.85.76.170
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 41'
+  name: '[I] 🇭🇰 香港 69'
   network: tcp
   port: 11105
   server: dotu-hkv1.kunlun03dns.com
@@ -383,7 +596,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 42'
+  name: '[I] 🇭🇰 香港 70'
   network: tcp
   port: 11102
   server: dotu-hkv1.kunlun03dns.com

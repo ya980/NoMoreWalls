@@ -2,6 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 01'
+  port: 11104
+  server: dotu-hkv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇭🇰 香港 02'
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: true
@@ -11,51 +18,27 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 02'
+  name: '[B] 🇭🇰 香港 04'
   network: ws
   port: 33414
   server: cu7.ainivp.com
-  skip-cert-verify: false
   tls: true
   type: vmess
-  udp: true
   uuid: 9204afcd-026e-781f-1abc-c03efabd1344
   ws-opts:
     headers:
       Host: cu7.ainivp.com
     path: /ray
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 03'
-  network: tcp
-  port: 11121
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 05'
-  port: 11143
-  server: dotu-krv1.kunlun03dns.com
+  port: 11138
+  server: dotu-sgv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
   name: '[B] 🇭🇰 香港 06'
-  port: 11138
-  server: dotu-sgv1.kunlun03dns.com
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 07'
   network: ws
   port: 33407
   server: yd3.ainivp.com
@@ -68,177 +51,327 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 08'
-  port: 11136
-  server: dotu-sgv1.kunlun03dns.com
+  name: '[B] 🇭🇰 香港 07'
+  port: 11145
+  server: dotu-krv1.kunlun03dns.com
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[B] 🇭🇰 香港 09'
+  name: '[B] 🇭🇰 香港 08'
   port: 11137
   server: dotu-sgv1.kunlun03dns.com
   type: vmess
-  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: '[B] 🇭🇰 香港 09'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46883
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ru.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 10'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48772
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ua.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 11'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41818
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: mm.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 12'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 44945
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: pk.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 13'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 14'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 42141
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: pe.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 15'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 42693
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: za.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 16'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41399
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: tr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 17'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 40567
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: id.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 18'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 43645
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: vn.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 19'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 20'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41943
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: az.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 21'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41523
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: my.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 22'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 43592
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: il.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 23'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 24'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47377
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ng.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 25'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 42427
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gl.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 26'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 40406
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: nz.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 27'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 44542
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: in.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 28'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 44375
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: br.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 29'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 42209
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ca.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 30'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 31'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47632
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ph.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 32'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 49306
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: gb.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 33'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41960
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: au.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 34'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45846
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: eg.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 35'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48566
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ae.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 36'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46298
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: kz.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 37'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46572
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: kr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 38'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41874
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: it.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 39'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 44776
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ar.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇭🇰 香港 40'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 01'
+  port: 11111
+  server: dotu-twv1.kunlun03dns.com
+  type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 10'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇭🇰 香港 11'
-  port: 54022
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alpn:
-  - ''
-  alterId: 0
   cipher: auto
   name: '[B] 🇨🇳 台湾 02'
-  network: tcp
+  port: 11113
+  server: dotu-twv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇨🇳 台湾 03'
   port: 11112
   server: dotu-twv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
   type: vmess
-  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
-- name: '[B] 🇨🇳 台湾 03'
+- name: '[B] 🇨🇳 台湾 05'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 44380
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: tw.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇨🇳 台湾 06'
   password: gcuCpQfaiVeDBdWG
   port: 19128
   server: 211.76.176.98
   sni: yazhou10.dynu.net
   tls: true
   type: trojan
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 10'
-  network: tcp
-  port: 11119
-  server: dotu-jpv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 11'
-  port: 11120
+  name: '[B] 🇯🇵 日本 02'
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 05'
+  port: 11121
   server: dotu-jpv1.kunlun03dns.com
   type: vmess
-  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 14'
-  network: ws
-  port: 45228
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 17'
-  network: ws
-  port: 36587
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: 254551f6-ec28-4938-ad0e-0aa4aa1965ec
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 18'
-  network: ws
-  port: 33203
-  server: cu2.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: cu2.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 19'
-  network: ws
-  port: 31182
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 20'
-  network: ws
-  port: 33680
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  fp: edge
-  name: '[B] 🇯🇵 日本 21'
-  network: ws
-  port: 57967
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇯🇵 日本 22'
-  network: ws
-  port: 55885
-  server: 109.61.109.204
-  servername: imafake.locker
-  tls: true
-  type: vmess
-  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
-  ws-opts:
-    headers:
-      Host: imafake.locker
-    path: /speedtest
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 13'
+  name: '[B] 🇸🇬 新加坡 02'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
@@ -248,64 +381,175 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alpn:
   - http/1.1
-  name: '[B] 🇸🇬 新加坡 22'
-  network: ws
-  password: Mitivpn
-  port: 2053
-  server: 104.17.121.71
-  skip-cert-verify: true
-  sni: dash.hitgram.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dash.hitgram.ir
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  name: '[B] 🇸🇬 新加坡 24'
-  network: ws
-  password: Mitivpn
-  port: 2053
-  server: 45.130.125.76
-  sni: dash.hitgram.ir
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: dash.hitgram.ir
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  name: '[B] 🇸🇬 新加坡 27'
+  name: '[B] 🇸🇬 新加坡 05'
   network: ws
   password: Mitivpn
   port: 443
-  server: 104.17.121.71
+  server: 216.24.57.7
   skip-cert-verify: true
-  sni: cdn.hitgram.ir
+  sni: www.hitgram.ir
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: cdn.hitgram.ir
+      Host: www.hitgram.ir
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 28'
-  network: ws
-  port: 33402
-  server: yd3.ainivp.com
-  tls: true
+  name: '[B] 🇸🇬 新加坡 06'
+  port: 11135
+  server: dotu-sgv1.kunlun03dns.com
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alpn:
+  - http/1.1
+  name: '[B] 🇸🇬 新加坡 07'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 216.24.57.251
+  skip-cert-verify: true
+  sni: www.hitgram.ir
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: yd3.ainivp.com
-    path: /ray
+      Host: www.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[B] 🇸🇬 新加坡 08'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 208.103.161.33
+  skip-cert-verify: true
+  sni: www.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[B] 🇸🇬 新加坡 09'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: www.hitgram.ir
+  sni: www.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /?ed=2048
+- name: '[B] 🇸🇬 新加坡 10'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 41771
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: sg.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '[B] 🇺🇸 美国 10'
+  port: 180
+  server: 82.198.246.214
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - http/1.1
+  name: '[B] 🇺🇸 美国 12'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[B] 🇺🇸 美国 13'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[B] 🇺🇸 美国 14'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[B] 🇺🇸 美国 15'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.30
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 39'
+  name: '[B] 🇺🇸 美国 16'
+  port: 180
+  server: 82.198.246.37
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - http/1.1
+  name: '[B] 🇺🇸 美国 17'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 104.17.121.171
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 20'
+  port: 11129
+  server: dotu-usv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇺🇸 美国 22'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -314,30 +558,104 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 41'
-  port: 11127
+  name: '[B] 🇺🇸 美国 25'
+  port: 11130
   server: dotu-usv1.kunlun03dns.com
-  skip-cert-verify: false
-  tls: false
   type: vmess
-  udp: true
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- name: '[B] 🇺🇸 美国 27'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18000
+  server: 121.154.96.50
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn.rnmcnm.com
+    path: /trojan
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇺🇸 美国 28'
+  port: 30824
+  server: v24.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇺🇸 美国 30'
+  port: 30829
+  server: v29.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇰🇷 韩国 01'
+  port: 11144
+  server: dotu-krv1.kunlun03dns.com
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  port: 33204
+  server: yd4.ainivp.com
+  servername: yd4.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: yd4.ainivp.com
+    path: /ray
+- alpn:
+  - http/1.1
+  name: '[B] 🌍 其它地区 14'
+  network: ws
+  password: Mitivpn
+  port: 8443
+  server: 45.130.125.237
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[B] 🌍 其它地区 15'
+  network: ws
+  password: Mitivpn
+  port: 2053
+  server: 45.130.125.241
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dash.hitgram.ir
+    path: /?ed=2048
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 05'
+  name: '[F] 🌍 其它地区 21'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 12'
+  name: '[F] 🇭🇰 香港 41'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 42'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
@@ -345,7 +663,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 14'
+- name: '[F] 🇭🇰 香港 43'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -353,7 +671,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 15'
+- name: '[F] 🇭🇰 香港 44'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -361,7 +679,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 23'
+- name: '[F] 🇯🇵 日本 12'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -369,7 +687,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 24'
+- name: '[F] 🇯🇵 日本 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 8066
@@ -377,7 +695,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 25'
+- name: '[F] 🇯🇵 日本 14'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -385,7 +703,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 43'
+- name: '[F] 🇸🇬 新加坡 12'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 4840
@@ -393,7 +711,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 44'
+- name: '[F] 🇸🇬 新加坡 13'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3842
@@ -401,7 +719,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 45'
+- name: '[F] 🇸🇬 新加坡 14'
   network: tcp
   password: BxceQaOe
   port: 39756
@@ -409,7 +727,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇺🇸 美国 52'
+- name: '[F] 🇺🇸 美国 33'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -417,7 +735,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 53'
+- name: '[F] 🇺🇸 美国 34'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -425,7 +743,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 54'
+- name: '[F] 🇺🇸 美国 35'
   network: tcp
   password: BxceQaOe
   port: 2702
@@ -435,7 +753,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 55'
+  name: '[F] 🇺🇸 美国 36'
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -444,7 +762,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 16'
+  name: '[G] 🇭🇰 香港 45'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -454,7 +772,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 56'
+  name: '[G] 🇺🇸 美国 37'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -464,7 +782,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 57'
+  name: '[G] 🇺🇸 美国 38'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -472,76 +790,240 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇰🇷 韩国 01'
-  network: ws
-  port: 33204
-  server: yd4.ainivp.com
-  servername: yd4.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 05'
+  password: amazonskr05
+  port: '443'
+  server: 63.180.239.185
+  type: ss
   udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: yd4.ainivp.com
-    path: /ray
 - alpn:
   - http/1.1
-  name: '[H] 🇸🇬 新加坡 46'
+  name: '[H] 🇺🇸 美国 39'
   network: ws
-  password: mitivpn
-  port: '2096'
-  server: 104.18.32.47
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.7
   skip-cert-verify: true
-  sni: www.app-cloud.ir
+  sni: www.hitgram.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.101 Safari/537.36
     path: /?ed=2048
 - alpn:
   - http/1.1
-  name: '[H] 🇸🇬 新加坡 47'
+  name: '[H] 🇺🇸 美国 40'
   network: ws
-  password: mitivpn
-  port: '8443'
-  server: 104.18.32.47
+  password: Mitivpn
+  port: '2053'
+  server: 45.130.125.91
   skip-cert-verify: true
-  sni: www.app-cloud.ir
+  sni: dash.hitgram.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
-        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 41'
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 43'
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 45.130.125.76
+  skip-cert-verify: false
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /?ed=2048
 - alpn:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[H] 🌍 其它地区 12'
+  name: '[H] 🌍 其它地区 23'
   network: ws
-  port: '80'
-  server: 45.128.72.44
+  port: '2087'
+  server: 45.130.125.76
+  servername: wIn.CcNnx.IR
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 78e64117-fb24-4e32-adaa-788ab7876cd3
+  ws-opts:
+    headers:
+      Host: wIn.CcNnx.IR
+    path: /@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia--@v2raydia
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 45'
+  network: tcp
+  port: 11129
+  server: dotu-usv1.kunlun03dns.com
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: a2170d39-140a-47f9-85b8-084078856c36
-  ws-opts:
-    headers: {}
-    path: /api/v1
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
   xudp: true
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 46'
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 45.130.125.241
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 17'
-  network: raw
-  port: '6001'
+  name: '[H] 🇸🇬 新加坡 15'
+  network: tcp
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  xudp: true
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 47'
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.6
+  skip-cert-verify: false
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 48'
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/45.0.2454.85 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 49'
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 50'
+  network: ws
+  password: Mitivpn
+  port: '8443'
+  server: 45.130.125.237
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 51'
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.7
+  skip-cert-verify: true
+  sni: cdn.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - h2
+  - http/1.1
+  name: '[H] 🇩🇪 德国 13'
+  network: ws
+  password: jprlmigrrmcmeu1u
+  port: '2053'
+  server: 104.18.32.47
+  skip-cert-verify: false
+  sni: ai999.seemed369.xyz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇯🇵 日本 15'
+  network: tcp
+  port: 6003
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
   tls: false
@@ -549,12 +1031,64 @@ proxies:
   udp: true
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇩🇪 德国 14'
+  password: 453u6Gcei04NyXbrWLKa0M
+  port: 443
+  server: 5.230.184.16
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇸🇬 新加坡 48'
-  network: raw
-  port: '6004'
+  name: '[H] 🇺🇸 美国 52'
+  network: tcp
+  port: 11127
+  server: dotu-usv1.kunlun03dns.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+  xudp: true
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 53'
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 216.24.57.6
+  skip-cert-verify: true
+  sni: www.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /?ed=2048
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 54'
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 104.17.121.171
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇭🇰 香港 46'
+  network: tcp
+  port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -562,15 +1096,31 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
   xudp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 10'
+  name: '[H] 🇨🇦 加拿大 01'
   password: amazonskr05
   port: '443'
-  server: 63.180.239.185
+  server: 15.157.68.13
   type: ss
   udp: true
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 55'
+  network: ws
+  password: Mitivpn
+  port: '2053'
+  server: 104.17.121.30
+  skip-cert-verify: true
+  sni: dash.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 28'
+  name: '[I] 🇯🇵 日本 16'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -580,7 +1130,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 60'
+  name: '[I] 🇺🇸 美国 56'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -590,7 +1140,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 18'
+  name: '[I] 🇭🇰 香港 47'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -599,34 +1149,14 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 61'
+  name: '[I] 🇺🇸 美国 57'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 19'
-  network: tcp
-  port: '6001'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 20'
-  network: tcp
-  port: '6004'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 21'
+  name: '[I] 🇭🇰 香港 48'
   network: tcp
   port: 11101
   server: dotu-hkv1.kunlun03dns.com
@@ -636,7 +1166,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 22'
+  name: '[I] 🇭🇰 香港 49'
   network: tcp
   port: 11114
   server: dotu-twv1.kunlun03dns.com
@@ -646,7 +1176,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 23'
+  name: '[I] 🇭🇰 香港 50'
   network: tcp
   port: 11146
   server: dotu-krv1.kunlun03dns.com
@@ -656,7 +1186,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 24'
+  name: '[I] 🇭🇰 香港 51'
   network: tcp
   port: 11122
   server: dotu-jpv1.kunlun03dns.com
@@ -666,17 +1196,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 25'
-  network: tcp
-  port: 11129
-  server: dotu-usv1.kunlun03dns.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 26'
+  name: '[I] 🇭🇰 香港 52'
   network: tcp
   port: 11111
   server: dotu-twv1.kunlun03dns.com
@@ -685,7 +1205,16 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 27'
+  name: '[I] 🇭🇰 香港 53'
+  network: tcp
+  port: 11112
+  server: dotu-twv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 54'
   network: tcp
   port: 11143
   server: dotu-krv1.kunlun03dns.com
@@ -694,7 +1223,25 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 28'
+  name: '[I] 🇭🇰 香港 55'
+  network: tcp
+  port: 11119
+  server: dotu-jpv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 56'
+  network: tcp
+  port: 11121
+  server: dotu-jpv1.kunlun03dns.com
+  tls: false
+  type: vmess
+  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 57'
   network: tcp
   port: 11137
   server: dotu-sgv1.kunlun03dns.com
@@ -703,16 +1250,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 29'
-  network: tcp
-  port: 11127
-  server: dotu-usv1.kunlun03dns.com
-  tls: false
-  type: vmess
-  uuid: 6b989fce-172e-37a6-b324-3922008b17f9
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 30'
+  name: '[I] 🇭🇰 香港 58'
   network: tcp
   port: 11128
   server: dotu-usv1.kunlun03dns.com
@@ -721,7 +1259,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 31'
+  name: '[I] 🇭🇰 香港 59'
   network: tcp
   port: 11120
   server: dotu-jpv1.kunlun03dns.com
@@ -730,7 +1268,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 32'
+  name: '[I] 🇭🇰 香港 60'
   network: tcp
   port: 11113
   server: dotu-twv1.kunlun03dns.com
@@ -739,7 +1277,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 33'
+  name: '[I] 🇭🇰 香港 61'
   network: tcp
   port: 11130
   server: dotu-usv1.kunlun03dns.com
@@ -748,7 +1286,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 34'
+  name: '[I] 🇭🇰 香港 62'
   network: tcp
   port: 11144
   server: dotu-krv1.kunlun03dns.com
@@ -757,7 +1295,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 35'
+  name: '[I] 🇭🇰 香港 63'
   network: tcp
   port: 11135
   server: dotu-sgv1.kunlun03dns.com
@@ -766,7 +1304,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 36'
+  name: '[I] 🇭🇰 香港 64'
   network: tcp
   port: 11138
   server: dotu-sgv1.kunlun03dns.com
@@ -775,7 +1313,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 37'
+  name: '[I] 🇭🇰 香港 65'
   network: tcp
   port: 11136
   server: dotu-sgv1.kunlun03dns.com
@@ -784,7 +1322,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 38'
+  name: '[I] 🇭🇰 香港 66'
   network: tcp
   port: 11145
   server: dotu-krv1.kunlun03dns.com
@@ -793,7 +1331,7 @@ proxies:
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 39'
+  name: '[I] 🇭🇰 香港 67'
   network: tcp
   port: '11103'
   server: dotu-hkv1.kunlun03dns.com
@@ -801,26 +1339,26 @@ proxies:
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 13'
+  name: '[I] 🌍 其它地区 30'
   password: sbJZP5jEcWVgNfVG6sH76z
   port: 34898
   server: 195.133.2.2
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 14'
+  name: '[I] 🌍 其它地区 31'
   password: 34fItyZyz69uIrxkJ+cLR1pdclvG628pv8+fzUNTIC0=
   port: 2083
   server: it5.taskflowhub.org
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🇭🇰 香港 40'
+  name: '[I] 🇭🇰 香港 68'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 202.85.76.170
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 41'
+  name: '[I] 🇭🇰 香港 69'
   network: tcp
   port: 11105
   server: dotu-hkv1.kunlun03dns.com
@@ -828,14 +1366,14 @@ proxies:
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 15'
+  name: '[I] 🌍 其它地区 32'
   password: pMZgtJEakEyHUSpe8a16ec
   port: 51544
   server: 109.107.182.229
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 42'
+  name: '[I] 🇭🇰 香港 70'
   network: tcp
   port: 11102
   server: dotu-hkv1.kunlun03dns.com
@@ -843,26 +1381,20 @@ proxies:
   type: vmess
   uuid: 6b989fce-172e-37a6-b324-3922008b17f9
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 16'
+  name: '[I] 🌍 其它地区 33'
   password: YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr
   port: 443
   server: vip9.myspacex.shop
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 17'
+  name: '[I] 🌍 其它地区 34'
   password: RexnBgU7EV5ADxG
   port: 7001
   server: 185.213.20.110
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 18'
-  password: 453u6Gcei04NyXbrWLKa0M
-  port: 443
-  server: 5.230.184.16
-  type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 21'
+  name: '[I] 🌍 其它地区 37'
   network: tcp
   port: 11104
   server: dotu-hkv1.kunlun03dns.com

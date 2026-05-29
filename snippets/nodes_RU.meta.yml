@@ -1,17 +1,11 @@
 proxies:
-- client-fingerprint: randomized
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
-    short-id: '!!str '
-  server: 185.139.214.254
-  servername: cloudcdn-m9-15.cdn.yandex.net
-  tls: true
+- name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 185.148.105.30
   type: vless
-  udp: true
-  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
-  xudp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
