@@ -1,6 +1,45 @@
 proxies:
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] SE 01'
+  network: tcp
+  port: 9443
+  reality-opts:
+    public-key: 4iRluJhaeflkqdEO8RLeLxTeTVIhzw9r8Y35fppsTFg
+  security: reality
+  server: tlauncher.vles.space
+  servername: sun1-91.userapi.com
+  tls: true
+  type: vless
+  uuid: 8cddd533-9611-4fc4-adda-7d629743b4b2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] SE 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 56RJlIcxwncUs5m9QSfd3waHxm6vJFBKso5IkMSsyCA
+    short-id: '!!str 5d'
+  security: reality
+  server: 194.238.57.104
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  uuid: 8046e3a1-83a7-4155-86e4-374153fe66f3
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[B] SE 03'
+  port: 443
+  security: tls
+  server: swe-8t.freeonline.pro
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: 980231fb-4372-5c81-b696-20aa34d33af0
 - cipher: chacha20-ietf-poly1305
-  name: '[I] SE 01'
+  name: '[I] SE 04'
   password: IeOS3A4HfwVt1Itk0n3K3H
   port: 33292
   server: 78.40.116.149

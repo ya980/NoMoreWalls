@@ -1,6 +1,46 @@
 proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇫🇷 法国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ZnlCl_Jc2dV5-KK_ymmMcEDoe5lPyZ-5z_LGMRoiNTU
+    short-id: '!!str b87063a35aaa942e'
+  security: reality
+  server: 51.255.71.16
+  servername: www.booking.com
+  tls: true
+  type: vless
+  uuid: 43488128-319e-f480-64ea-0acdc712e2a8
+- client-fingerprint: chrome
+  name: '[B] 🇫🇷 法国 02'
+  port: 443
+  security: tls
+  server: 194.226.169.36
+  servername: yahoo.com
+  tls: true
+  type: vless
+  uuid: 4706d9c3-eec0-4666-9d84-e608a200e872
+- client-fingerprint: chrome
+  encryption: none
+  name: '[B] 🇫🇷 法国 03'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: i4Mx_tDND0Xxac3WyA7HgT9rvXdZlXpm5m1EGiQF-Uk
+    short-id: '!!str b8aa'
+  security: tls
+  server: 194.226.169.36
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fae3277c-0541-4ae9-bbbb-8247453ea652
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇫🇷 法国 01'
+  name: '[I] 🇫🇷 法国 04'
   password: Sj2yu7qKPprUmPJoOCgN6q
   port: 443
   server: 163.5.192.18

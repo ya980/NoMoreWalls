@@ -1,11 +1,22 @@
 proxies:
-- client-fingerprint: chrome
+- insecure: '1'
+  mport: 50000-59999
   name: '[B] 🇰🇷 韩国 01'
-  network: tcp
+  obfs: salamander
+  obfs-password: YzgyOTkwNpk4ZTU2NTd65A==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 50000
+  server: kr.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '[B] 🇰🇷 韩国 02'
   port: 443
-  reality-opts:
-    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
-  security: reality
+  security: tls
   server: 47.80.13.250
   servername: api.company-target.com
   tls: true
@@ -15,7 +26,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: '[H] 🇰🇷 韩国 02'
+  name: '[H] 🇰🇷 韩国 03'
   network: ws
   port: 33201
   server: yd2.ainivp.com
@@ -31,7 +42,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇰🇷 韩国 03'
+  name: '[H] 🇰🇷 韩国 04'
   network: ws
   port: 33204
   server: yd4.ainivp.com
@@ -45,7 +56,7 @@ proxies:
     headers:
       Host: yd4.ainivp.com
     path: /ray
-- name: '[H] 🇰🇷 韩国 04'
+- name: '[H] 🇰🇷 韩国 05'
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -55,7 +66,7 @@ proxies:
   username: test
 - alterId: 0
   cipher: auto
-  name: '[H] 🇰🇷 韩国 05'
+  name: '[H] 🇰🇷 韩国 06'
   port: 11146
   server: dotu-krv1.kunlun03dns.com
   skip-cert-verify: true
