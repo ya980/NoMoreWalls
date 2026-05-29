@@ -1,65 +1,55 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 02'
+  name: '[B] 🇸🇬 新加坡 01'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 04'
-  network: ws
-  port: 10034
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇸🇬 新加坡 05'
-  network: ws
-  port: '10123'
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
+  udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alpn:
+  - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[B] 🇸🇬 新加坡 06'
+  name: '[B] 🇸🇬 新加坡 04'
   network: ws
   password: Mitivpn
   port: 443
-  server: 5.10.214.251
+  server: 104.17.121.37
   skip-cert-verify: true
-  sni: cdn.hitgram.ir
+  sni: my.hitgram.ir
   tls: true
   type: trojan
   ws-opts:
     headers:
-      Host: cdn.hitgram.ir
-    path: /?ed=2048
-- alterId: 0
+      Host: my.hitgram.ir
+    path: /?ed=mitivpn
+- alterId: 2
   cipher: auto
+  name: '[B] 🇸🇬 新加坡 05'
+  port: 30845
+  server: v45.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: '[B] 🇸🇬 新加坡 07'
   network: ws
-  port: 10034
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  password: Mitivpn
+  port: 443
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: my.hitgram.ir
+  tls: true
+  type: trojan
   ws-opts:
     headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
+      Host: my.hitgram.ir
+    path: /?ed=mitivpn
 - name: '[F] 🇸🇬 新加坡 08'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -84,20 +74,41 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- alterId: 0
+  cipher: auto
   name: '[H] 🇸🇬 新加坡 11'
-  network: ws
-  password: Mitivpn
-  port: '2053'
-  server: 104.18.32.47
+  network: tcp
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   skip-cert-verify: false
-  sni: dash.hitgram.ir
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+  xudp: true
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 12'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇸🇬 新加坡 13'
+  network: ws
+  port: '10123'
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /?ed=2048
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /

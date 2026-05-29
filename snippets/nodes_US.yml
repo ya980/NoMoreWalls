@@ -3,28 +3,19 @@ proxies:
   cipher: auto
   name: '[B] 🇺🇸 美国 01'
   port: 180
-  server: 82.198.246.37
+  server: 82.198.246.214
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '[B] 🇺🇸 美国 05'
-  port: 2053
-  server: hr.connfull.org
-  tls: true
-  type: vmess
-  uuid: e6509737-0b14-44c4-9a3d-42c010d6d5c1
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇺🇸 美国 06'
+  name: '[B] 🇺🇸 美国 08'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[B] 🇺🇸 美国 08'
+- name: '[B] 🇺🇸 美国 10'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 41943
   server: 90081bb25c.node.tro.cac.cab
@@ -32,28 +23,12 @@ proxies:
   sni: az.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: '[B] 🇺🇸 美国 09'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: '[B] 🇺🇸 美国 10'
+- name: '[B] 🇺🇸 美国 11'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 48697
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: gh.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: '[B] 🇺🇸 美国 11'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
   tls: true
   type: trojan
 - name: '[B] 🇺🇸 美国 12'
@@ -66,44 +41,74 @@ proxies:
   type: trojan
 - name: '[B] 🇺🇸 美国 13'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45553
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇺🇸 美国 14'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: fr.01.naiun.bilibili.com
   tls: true
   type: trojan
+- name: '[B] 🇺🇸 美国 15'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 47909
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: is.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+- name: '[B] 🇺🇸 美国 16'
+  network: ws
+  password: 433e785b-2077-47f7-a43d-985f63dd18d1
+  port: 18080
+  server: 175.192.103.88
+  sni: vpn.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    path: /trojan
 - alterId: 0
   cipher: auto
-  name: '[B] 🇺🇸 美国 15'
+  name: '[B] 🇺🇸 美国 19'
   network: ws
-  port: '10011'
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  servername: ''
-  tls: false
+  port: 443
+  server: cf.scpnb.top
+  servername: vienna-bread-threats-amendment.trycloudflare.com
+  tls: true
   type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  uuid: 7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed
   ws-opts:
     headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /
+      Host: vienna-bread-threats-amendment.trycloudflare.com
+    path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
 - alterId: 2
   cipher: auto
-  name: '[B] 🇺🇸 美国 16'
+  name: '[B] 🇺🇸 美国 24'
+  port: 30824
+  server: v24.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇺🇸 美国 25'
   port: 30829
   server: v29.hdacd.com
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[B] 🇺🇸 美国 17'
-  network: ws
-  password: d0298536-d670-4045-bbb1-ddd5ea68683e
-  port: 443
-  server: 104.19.174.68
-  sni: azadnet-5vk.pages.dev
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /azadnet-5vk.pages.dev/?ed=2560
-- name: '[F] 🇺🇸 美国 19'
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇺🇸 美国 27'
+  port: 30804
+  server: v4.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[F] 🇺🇸 美国 30'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -111,7 +116,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 20'
+- name: '[F] 🇺🇸 美国 31'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2663
@@ -119,7 +124,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 21'
+- name: '[F] 🇺🇸 美国 32'
   network: tcp
   password: BxceQaOe
   port: 2702
@@ -129,7 +134,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 22'
+  name: '[F] 🇺🇸 美国 33'
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -138,7 +143,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 23'
+  name: '[G] 🇺🇸 美国 34'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -148,7 +153,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 24'
+  name: '[G] 🇺🇸 美国 35'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -157,27 +162,44 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
+  - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 25'
+  name: '[H] 🇺🇸 美国 36'
   network: ws
   password: Mitivpn
   port: '443'
-  server: 216.24.57.251
+  server: 165.215.250.160
   skip-cert-verify: true
-  sni: cdn.hitgram.ir
+  sni: my.hitgram.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /?ed=2048
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=mitivpn
 - alpn:
-  - ''
-  alterId: 0
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 38'
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 104.17.121.37
+  skip-cert-verify: true
+  sni: my.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /?ed=mitivpn
+- alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 26'
+  name: '[H] 🇺🇸 美国 39'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -188,39 +210,102 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 30'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: '12000'
-  server: 218.152.227.25
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /trojan
-- alterId: 0
+- alterId: '2'
   cipher: auto
-  name: '[H] 🇺🇸 美国 33'
-  network: ws
-  port: 16648
-  server: planb.mojcn.com
+  name: '[H] 🇺🇸 美国 40'
+  network: tcp
+  port: '30829'
+  server: v29.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 41'
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 104.17.121.9
+  skip-cert-verify: true
+  sni: my.hitgram.ir
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /?ed=mitivpn
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 42'
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 104.17.121.71
+  skip-cert-verify: true
+  sni: panel.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /?ed=mitivpn
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 43'
+  network: raw
+  port: '180'
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
+- name: '[H] 🇺🇸 美国 44'
+  network: tcp
+  password: 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c
+  port: 8443
+  server: link.honghongai.top
+  sni: link.honghongai.top
+  type: trojan
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 46'
+  network: raw
+  password: 8f3a2b1c9d4e5f6a7b8c9d0e1f2a3b4c
+  port: '8443'
+  server: link.honghongai.top
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 47'
+  network: ws
+  password: Mitivpn
+  port: '443'
+  server: 165.215.250.160
+  skip-cert-verify: true
+  sni: panel.hitgram.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /?ed=mitivpn
 - cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 34'
+  name: '[I] 🇺🇸 美国 48'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 216.38.170.155
