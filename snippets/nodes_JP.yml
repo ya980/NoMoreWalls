@@ -1,25 +1,63 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 01'
+  name: '[B] 🇯🇵 日本 02'
   port: 6003
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 2
+  cipher: auto
+  name: '[B] 🇯🇵 日本 03'
+  port: 30806
+  server: v6.hdacd.com
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[B] 🇯🇵 日本 02'
+  name: '[B] 🇯🇵 日本 04'
   network: ws
-  port: 33108
-  server: cu6.ainivp.com
+  port: 45228
+  server: 109.61.109.204
+  servername: imafake.locker
   tls: true
   type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  uuid: d0e97ee2-c6de-48f8-bd4a-8e63a9cd9e89
   ws-opts:
     headers:
-      Host: cu6.ainivp.com
-    path: /ray
-- name: '[F] 🇯🇵 日本 03'
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[B] 🇯🇵 日本 05'
+  network: ws
+  port: 35240
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: 35f332d0-0b05-4cc6-91cb-ec0d4465055f
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[B] 🇯🇵 日本 06'
+  network: ws
+  port: 19241
+  server: 109.61.109.204
+  servername: imafake.locker
+  tls: true
+  type: vmess
+  uuid: fa8f8911-2e9b-494e-9a8d-f80239ee2214
+  ws-opts:
+    headers:
+      Host: imafake.locker
+    path: /speedtest
+- name: '[F] 🇯🇵 日本 08'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -27,7 +65,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 09'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 8066
@@ -35,7 +73,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 05'
+- name: '[F] 🇯🇵 日本 10'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 11541
@@ -45,7 +83,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[H] 🇯🇵 日本 06'
+  name: '[H] 🇯🇵 日本 11'
   network: ws
   port: 33108
   server: cu3.ainivp.com

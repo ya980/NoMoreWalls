@@ -1,11 +1,40 @@
 proxies:
-- insecure: '1'
-  mport: 50000-59999
+- client-fingerprint: chrome
   name: '[B] 🇰🇷 韩国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw
+  security: reality
+  server: 47.80.13.96
+  servername: api.company-target.com
+  tls: true
+  type: vless
+  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
+- name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  password: rYuChHcwQZskq9E0zdoR
+  port: 35342
+  server: 119.195.0.158
+  sni: vpn5.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn5.rnmcnm.com
+    path: /ws-79dffb8106db
+- name: '[B] 🇰🇷 韩国 03'
+  port: 1090
+  server: 121.169.46.116
+  type: socks5
+  username: VDJjbE0wUWxNMFE2Og
+- insecure: '1'
+  mport: 20000-29999
+  name: '[B] 🇰🇷 韩国 04'
   obfs: salamander
   obfs-password: YzgyOTkwNpk4ZTU2NTd65A==
   password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 50000
+  port: 20000
   server: kr.9966690.xyz
   skip-cert-verify: true
   tls:
@@ -13,20 +42,11 @@ proxies:
     insecure: true
     server_name: iosapps.itunes.apple.com
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[B] 🇰🇷 韩国 02'
-  port: 443
-  security: tls
-  server: 47.80.13.250
-  servername: api.company-target.com
-  tls: true
-  type: vless
-  uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: '[H] 🇰🇷 韩国 03'
+  name: '[H] 🇰🇷 韩国 05'
   network: ws
   port: 33201
   server: yd2.ainivp.com
@@ -42,7 +62,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇰🇷 韩国 04'
+  name: '[H] 🇰🇷 韩国 06'
   network: ws
   port: 33204
   server: yd4.ainivp.com
@@ -56,7 +76,7 @@ proxies:
     headers:
       Host: yd4.ainivp.com
     path: /ray
-- name: '[H] 🇰🇷 韩国 05'
+- name: '[H] 🇰🇷 韩国 07'
   password: test.+
   port: 30446
   server: testkr3.ssv.vc
@@ -66,7 +86,7 @@ proxies:
   username: test
 - alterId: 0
   cipher: auto
-  name: '[H] 🇰🇷 韩国 06'
+  name: '[H] 🇰🇷 韩国 08'
   port: 11146
   server: dotu-krv1.kunlun03dns.com
   skip-cert-verify: true

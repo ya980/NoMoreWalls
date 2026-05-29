@@ -1,12 +1,66 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[B] 🇸🇬 新加坡 01'
+  name: '[B] 🇸🇬 新加坡 02'
   port: 6004
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- name: '[F] 🇸🇬 新加坡 04'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 04'
+  network: ws
+  port: 10034
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 05'
+  network: ws
+  port: '10123'
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[B] 🇸🇬 新加坡 06'
+  network: ws
+  password: Mitivpn
+  port: 443
+  server: 5.10.214.251
+  skip-cert-verify: true
+  sni: cdn.hitgram.ir
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: cdn.hitgram.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇸🇬 新加坡 07'
+  network: ws
+  port: 10034
+  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- name: '[F] 🇸🇬 新加坡 08'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 4840
@@ -14,7 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 05'
+- name: '[F] 🇸🇬 新加坡 09'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 3842
@@ -22,7 +76,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 06'
+- name: '[F] 🇸🇬 新加坡 10'
   network: tcp
   password: BxceQaOe
   port: 39756
@@ -33,7 +87,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇸🇬 新加坡 07'
+  name: '[H] 🇸🇬 新加坡 11'
   network: ws
   password: Mitivpn
   port: '2053'
@@ -47,17 +101,3 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/48.0.2564.109 Safari/537.36
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇸🇬 新加坡 08'
-  network: ws
-  port: '10123'
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
-  ws-opts:
-    headers:
-      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
-    path: /

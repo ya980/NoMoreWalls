@@ -1,9 +1,21 @@
 proxies:
+- name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  password: rYuChHcwQZskq9E0zdoR
+  port: 35342
+  server: 119.195.0.158
+  sni: vpn5.rnmcnm.com
+  tls: true
+  type: trojan
+  ws-opts:
+    headers:
+      Host: vpn5.rnmcnm.com
+    path: /ws-79dffb8106db
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: '[H] 🇰🇷 韩国 03'
+  name: '[H] 🇰🇷 韩国 05'
   network: ws
   port: 33201
   server: yd2.ainivp.com
@@ -19,7 +31,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇰🇷 韩国 04'
+  name: '[H] 🇰🇷 韩国 06'
   network: ws
   port: 33204
   server: yd4.ainivp.com
@@ -35,7 +47,7 @@ proxies:
     path: /ray
 - alterId: 0
   cipher: auto
-  name: '[H] 🇰🇷 韩国 06'
+  name: '[H] 🇰🇷 韩国 08'
   port: 11146
   server: dotu-krv1.kunlun03dns.com
   skip-cert-verify: true
