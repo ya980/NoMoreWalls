@@ -1,13 +1,13 @@
 proxies:
 - encryption: none
-  name: '[A] 🇩🇪 德国 01'
+  name: '[B] 🇩🇪 德国 01'
   network: tcp
   port: 10443
   server: 136.244.94.171
   type: vless
   uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
 - encryption: none
-  name: '[A] 🇩🇪 德国 02'
+  name: '[B] 🇩🇪 德国 02'
   network: tcp
   port: 443
   server: 136.244.94.171
@@ -18,7 +18,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: GrpcFuckRKN
-  name: '[A] 🇩🇪 德国 03'
+  name: '[B] 🇩🇪 德国 03'
   network: grpc
   port: 443
   reality-opts:
@@ -34,7 +34,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: GrpcFuckRKN
-  name: '[A] 🇩🇪 德国 04'
+  name: '[B] 🇩🇪 德国 04'
   network: grpc
   port: 443
   reality-opts:
@@ -46,7 +46,7 @@ proxies:
   tls: true
   type: vless
   uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- name: '[A] 🇩🇪 德国 05'
+- name: '[B] 🇩🇪 德国 05'
   network: ws
   port: 8880
   server: 45.80.111.30
@@ -59,7 +59,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[A] 🇩🇪 德国 06'
+  name: '[B] 🇩🇪 德国 06'
   network: tcp
   port: 443
   reality-opts:
@@ -71,108 +71,125 @@ proxies:
   tls: true
   type: vless
   uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 07'
+  password: amazonskr05
+  port: 443
+  server: 18.195.213.130
+  type: ss
+  udp: true
 - encryption: none
-  name: '[G] 🇩🇪 德国 07'
+  name: '[H] 🇩🇪 德国 08'
   network: ws
   port: '80'
-  server: 204.168.234.22
+  server: cdn.irandoc.info
   type: vless
   udp: true
-  uuid: 997b5119-c015-4203-b402-0eb0f60b77c3
+  uuid: fb206250-709c-44d7-b887-08f66dd7a974
   ws-opts:
     headers:
-      Host: nobody.fastspeed.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /ws
+      Host: cdn.irandoc.info
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /16475/mci
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇩🇪 德国 08'
-  network: xhttp
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 09'
+  network: tcp
   port: '443'
-  server: 45.130.125.5
-  servername: cd1.fix98.ir
+  reality-opts:
+    public-key: 04mVXhKLy-N0tzEghrxuMJTQaVdvBxVCtGaJq8qNcCk
+    short-id: '!!str 4f0a'
+  server: 1.lapis-lazuli.tech
+  servername: www.samsung.com
   tls: true
   type: vless
   udp: true
-  uuid: a2067e90-ca33-47ee-b55e-8ff7ce1e51f5
-  xhttp-opts:
-    mode: auto
-    path: /game
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 09'
-  network: ws
-  port: '2083'
-  server: 63.141.128.3
-  servername: chan1.newappdominfastlogin4.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ae065531-7a26-4c3f-82cf-7c2ee9effcde
-  ws-opts:
-    headers:
-      Host: chan1.newappdominfastlogin4.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
+  uuid: 0dd339d3-0b51-4582-94ec-ffd2397be1ab
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇩🇪 德国 10'
-  network: raw
-  port: '8443'
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 10'
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: Crjd0I6hcasRXZcfNf7cs-YtJLpQ8u-t1CbwHIDAciU
-    short-id: '!!str 478dc6'
-  server: 178.215.238.148
-  servername: eh.vk.com
+    public-key: y3ZMu-ium5mBqE_h3xJ66vT0Z6HCIlTDti9emCQjDjw
+    short-id: '!!str bcb6b0217a1206b3'
+  server: ger-nnn.prostosetup.org
+  servername: github.com
   tls: true
   type: vless
   udp: true
-  uuid: 21c1132b-068c-46fb-880e-3268f6a30e7f
+  uuid: 1b43419a-b711-40d4-a0ee-eb5c73e60c92
   xudp: true
-- name: '[I] 🇩🇪 德国 11'
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 11'
+  password: amazonskr05
+  port: 443
+  server: 35.159.110.250
+  type: ss
+- encryption: none
+  name: '[H] 🇩🇪 德国 12'
+  network: ws
+  port: 2096
+  server: 104.17.231.69
+  servername: FiLEMAnageR.thESTaYleR.iR
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: af47392c-2a72-44da-bab4-545a3bce4958
+  ws-opts:
+    headers:
+      Host: filemanager.thestayler.ir
+    path: /e12JtBu9rVXrhCqy
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[H] 🇩🇪 德国 13'
+  network: grpc
+  port: '2053'
+  reality-opts:
+    public-key: sOTlswV3fg3MBJSiQek_a2fMs824tGNRFNRdQVYu1R8
+    short-id: '!!str ef96a8323b38a60e'
+  server: cdn-a9027cc2.glomedia-cdn.com
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dc3fe97-73e3-4cc2-89a7-331e66540365
+  xudp: true
+- name: '[I] 🇩🇪 德国 14'
   network: tcp
   port: 666
   server: 194.59.183.234
   tls: false
   type: vless
   uuid: 88888888-8888-8888-8888-888888888888
-- name: '[I] 🇩🇪 德国 12'
-  port: 47518
-  server: de-on-demand.not-a-projects.xyz
-  tls: false
-  type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-- name: '[I] 🇩🇪 德国 13'
+- name: '[I] 🇩🇪 德国 15'
   password: Q40WHz2g1k-dqYqraBP6Ow
   port: 8443
   server: 178.63.244.9
   type: trojan
-- name: '[I] 🇩🇪 德国 14'
+- name: '[I] 🇩🇪 德国 16'
   network: tcp
-  port: 47518
-  server: 2.27.37.100
+  port: 38704
+  server: 108.61.210.114
   tls: false
   type: vless
-  uuid: 25263c14-6cb5-499b-b462-dd498deecfe7
-  ws-opts:
-    headers:
-      Host: de-on-demand.not-a-projects.xyz
-    path: '%2F'
+  uuid: f8f3a3a8-0a03-4979-9265-daf5b7503b17
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 15'
+  name: '[I] 🇩🇪 德国 17'
   network: tcp
-  port: '2053'
-  server: de5.taskflowhub.org
+  port: '30521'
+  server: 108.61.210.114
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: ca58b165-0f7d-49aa-9fae-a017e8a0f884
+  uuid: f8f3a3a8-0a03-4979-9265-daf5b7503b17

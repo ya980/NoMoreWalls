@@ -1,5 +1,5 @@
 proxies:
-- name: '[A] 🇰🇷 韩国 01'
+- name: '[B] 🇰🇷 韩国 01'
   network: ws
   port: 8880
   server: 108.162.196.30
@@ -8,7 +8,7 @@ proxies:
   ws-opts:
     headers:
       Host: vms.lifetime59.workers.dev
-- name: '[A] 🇰🇷 韩国 02'
+- name: '[B] 🇰🇷 韩国 02'
   network: ws
   port: 8880
   server: 72.167.230.30
@@ -17,11 +17,20 @@ proxies:
   ws-opts:
     headers:
       Host: vms.lifetime51.workers.dev
-- name: '[G] 🇰🇷 韩国 03'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  name: '[H] 🇰🇷 韩国 03'
+  network: ws
+  port: '11019'
+  server: 165.246.171.218
+  servername: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
   tls: true
-  type: http
-  username: test
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 49ax00d7kmg3ijp3vbkua090bws.majusti.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true
