@@ -1,5 +1,13 @@
 proxies:
-- name: '[E] CH 01'
+- name: '[D] CH 01'
+  password: bce6c821-200d-421f-bf3d-7159e5246ea0
+  port: 33333
+  server: hy2.123266.xyz
+  skip-cert-verify: true
+  sni: hy2.123266.xyz
+  tls: false
+  type: hysteria2
+- name: '[E] CH 02'
   password: hy2_lositfbu:39yW9L3JqHpmUU2OZm6nIr4mvs4OBNHD
   port: 443
   server: 144.31.218.74
@@ -7,30 +15,3 @@ proxies:
   sni: cz.washing.help
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] CH 02'
-  network: ws
-  port: '80'
-  server: 45.128.72.44
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a2170d39-140a-47f9-85b8-084078856c36
-  ws-opts:
-    headers:
-      Host: ''
-    path: /api/v1
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: '[H] CH 03'
-  network: http
-  port: '22'
-  server: 172.65.111.43
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xudp: true

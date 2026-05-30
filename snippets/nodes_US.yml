@@ -51,14 +51,16 @@ proxies:
   sni: gh.01.naiun.bilibili.com
   tls: true
   type: trojan
-- name: '[B] 🇺🇸 美国 36'
+- client-fingerprint: chrome
+  name: '[B] 🇺🇸 美国 36'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
+  port: '47909'
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
   tls: true
   type: trojan
+  udp: true
 - name: '[B] 🇺🇸 美国 37'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
@@ -77,23 +79,16 @@ proxies:
   type: trojan
   ws-opts:
     path: /trojan
-- alpn:
-  - ''
-  alterId: '0'
+- alterId: 0
   cipher: auto
   name: '[B] 🇺🇸 美国 45'
   network: ws
-  port: '52620'
+  port: 52620
   server: 38.60.176.80
-  skip-cert-verify: false
-  tls: false
   type: vmess
-  udp: true
   uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
   ws-opts:
-    headers: {}
     path: /8704a4ad
-  xudp: true
 - name: '[F] 🇺🇸 美国 48'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
@@ -156,23 +151,8 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 58'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: '30303'
-  server: 121.191.33.84
-  skip-cert-verify: false
-  sni: vpn.rnmcnm.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /trojan
 - cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 65'
+  name: '[I] 🇺🇸 美国 55'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 216.38.170.155

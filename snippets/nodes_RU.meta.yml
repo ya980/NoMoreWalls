@@ -9,16 +9,14 @@ proxies:
     headers:
       Host: vms.lifetime48.workers.dev
     path: /
-- alpn:
-  - h2
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: /sequre/grpc
   name: '[H] 🇷🇺 俄罗斯 02'
   network: grpc
   port: '443'
-  server: 185.14.46.20.blanesik.space
+  server: 185.14.46.20
   servername: 185.14.46.20.blanesik.space
   tls: true
   type: vless
