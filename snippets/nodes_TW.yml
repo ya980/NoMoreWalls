@@ -1,8 +1,14 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: '[A] 🇨🇳 台湾 01'
-  port: 30811
-  server: v11.zgtfqs.click
+  name: '[A] 🇨🇳 台湾 02'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
   type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray

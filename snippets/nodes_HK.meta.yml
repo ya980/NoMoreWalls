@@ -7,69 +7,64 @@ proxies:
   tls: true
   type: http
   username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-- alterId: 0
-  cipher: auto
+- client-fingerprint: randomized
+  encryption: none
   name: '[A] 🇭🇰 香港 02'
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[A] 🇭🇰 香港 03'
-  port: 13413
+  network: ws
+  port: 443
   security: tls
-  server: zzhk4.ainivp.com
-  servername: www.microsoft.com
+  server: 198.41.219.218
+  servername: zyzzzoao.xn--fiqv8j.eu.org
   tls: true
   type: vless
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-- name: '[A] 🇭🇰 香港 04'
+  uuid: fe273991-0514-4a16-8ec4-b15ae861c000
+  ws-opts:
+    headers:
+      Host: zyzzzoao.xn--fiqv8j.eu.org
+    path: /?ed=2048
+- name: '[A] 🇭🇰 香港 03'
   password: c1785de0-212f-11ef-92aa-f23c9164ca5d
   port: 5228
   server: fc26ffd1-t9zts0-tfpsin-1q3dm.cm4.oshuawei.com
   tls: true
   type: http
   username: c1785de0-212f-11ef-92aa-f23c9164ca5d
-- name: '[A] 🇭🇰 香港 05'
-  password: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
-  port: 8443
-  server: fb473ba2-te7og0-tfmrui-duku.hkt.cdnhuawei.com
-  sni: fb473ba2-te7og0-tfmrui-duku.hkt.cdnhuawei.com
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇭🇰 香港 04'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[A] 🇭🇰 香港 05'
+  port: 10011
+  reality-opts:
+    public-key: 82bbZIdU-0s8fydncIhp9_sNDYQQH9ZY_7RVI5apXnk
+    short-id: '!!str 447f3a05ace2b748'
+  server: 103.123.162.50
+  servername: www.microsoft.com
   tls: true
-  type: http
-  username: 8e0f8ef2-5fe3-11ec-a8bf-f23c91cfbbc9
+  type: vless
+  uuid: 17011a43-97e2-44b0-b0da-a2ea151ad75c
 - alterId: 0
   cipher: auto
   name: '[A] 🇭🇰 香港 06'
-  network: ws
-  port: 443
-  server: cf.scpnb.top
-  servername: graph-keep-beds-catalog.trycloudflare.com
-  tls: true
+  port: 51556
+  server: 103.181.164.145
   type: vmess
-  uuid: 7fd8d1db-96ec-4e46-80a8-74ad9472384e
-  ws-opts:
-    headers:
-      Host: graph-keep-beds-catalog.trycloudflare.com
-    path: /7fd8d1db-96ec-4e46-80a8-74ad9472384e-vm
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: '[A] 🇭🇰 香港 07'
-  port: 30809
-  server: v9.hdacd.com
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '[E] 🇭🇰 香港 08'
+  name: '[E] 🇭🇰 香港 07'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 09'
+- name: '[E] 🇭🇰 香港 08'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 53018
@@ -77,7 +72,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 10'
+- name: '[E] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
   port: 50712
@@ -85,7 +80,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 11'
+- name: '[E] 🇭🇰 香港 10'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -95,7 +90,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 12'
+  name: '[F] 🇭🇰 香港 11'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -105,7 +100,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[G] 🇭🇰 香港 13'
+  name: '[G] 🇭🇰 香港 12'
   network: tcp
   port: 6001
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -117,7 +112,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 14'
+  name: '[I] 🇭🇰 香港 13'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -127,7 +122,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 15'
+  name: '[I] 🇭🇰 香港 14'
   network: tcp
   port: '51556'
   server: 103.181.164.145
@@ -136,7 +131,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: '[I] 🇭🇰 香港 16'
+  name: '[I] 🇭🇰 香港 15'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 202.85.76.170

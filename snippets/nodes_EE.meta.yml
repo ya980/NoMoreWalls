@@ -1,8 +1,18 @@
 proxies:
+- name: '[A] EE 01'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] EE 01'
+  name: '[G] EE 02'
   network: raw
   port: 8443
   reality-opts:

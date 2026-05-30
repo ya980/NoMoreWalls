@@ -1,20 +1,27 @@
 proxies:
-- client-fingerprint: qq
-  encryption: none
+- name: '[A] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- client-fingerprint: randomized
   flow: xtls-rprx-vision
-  name: '[A] 🇷🇺 俄罗斯 01'
-  network: tcp
+  name: '[G] 🇷🇺 俄罗斯 02'
   port: 443
   reality-opts:
-    public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY
-    short-id: '!!str c1a7e9b4711d5f60'
-  security: reality
-  server: 193.168.46.180
-  servername: rruu.persik.host
+    public-key: APwi9yR-ezZtFU6xj2a3SBoXvEoWOoiRuZSit0N9xWI
+  server: 185.139.214.254
+  servername: cloudcdn-m9-15.cdn.yandex.net
   tls: true
   type: vless
-  uuid: c996648f-6064-48a8-9e3f-19dff572e62b
-- name: '[I] 🇷🇺 俄罗斯 02'
+  udp: true
+  uuid: c55a51d9-48bd-11f1-941f-54db13ea7d40
+- name: '[I] 🇷🇺 俄罗斯 03'
   network: tcp
   port: 80
   server: 95.182.82.78
@@ -25,7 +32,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 04'
   network: xhttp
   port: 443
   server: ftatx5g6dt.cdn.twcstorage.ru
@@ -42,7 +49,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 05'
   network: tcp
   port: 7443
   server: ru5.cleanersaz.help

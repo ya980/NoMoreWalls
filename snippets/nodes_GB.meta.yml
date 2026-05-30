@@ -1,6 +1,61 @@
 proxies:
+- name: '[A] 🇬🇧 英国 01'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[A] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: '[A] 🇬🇧 英国 03'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[A] 🇬🇧 英国 04'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '[A] 🇬🇧 英国 05'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[D] 🇬🇧 英国 06'
+  password: hy2_lositfbu:sWBLzjRX9zEvCSBHmJvoefyg9LYx05rv
+  port: 443
+  server: 144.31.213.121
+  skip-cert-verify: true
+  sni: gb.cleanersaz.help
+  tls: false
+  type: hysteria2
 - encryption: none
-  name: '[G] 🇬🇧 英国 01'
+  name: '[G] 🇬🇧 英国 07'
   network: tcp
   port: '2052'
   server: 82.40.62.106
@@ -9,7 +64,7 @@ proxies:
   uuid: b5bd7d6d-5ab9-4965-bccc-32acdbc4f714
   xudp: true
 - encryption: none
-  name: '[G] 🇬🇧 英国 02'
+  name: '[G] 🇬🇧 英国 08'
   network: tcp
   port: '2082'
   server: 82.40.62.106
@@ -21,7 +76,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[G] 🇬🇧 英国 03'
+  name: '[G] 🇬🇧 英国 09'
   network: tcp
   port: '2080'
   server: 82.40.62.106
