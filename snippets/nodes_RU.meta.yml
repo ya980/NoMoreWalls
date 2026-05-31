@@ -39,27 +39,22 @@ proxies:
     mode: stream-up
     path: /bridge-xhttp
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- cipher: aes-256-gcm
   name: '[I] 🇷🇺 俄罗斯 04'
-  network: xhttp
-  port: 443
-  server: ftatx5g6dt.cdn.twcstorage.ru
-  servername: ftatx5g6dt.cdn.twcstorage.ru
-  skip-cert-verify: true
+  password: c5fcdf7829112cb4
+  port: 30129
+  server: 45.140.169.216
+  type: ss
+- name: '[I] 🇷🇺 俄罗斯 05'
+  network: tcp
+  port: 8443
+  server: cdn3-87.vk-cdnvideo.com
   tls: true
   type: vless
-  uuid: 56470441-5d85-4266-89f3-c2b5b000c522
-  ws-opts:
-    headers:
-      Host: ftatx5g6dt.cdn.twcstorage.ru
-    path: '%2F'
-- name: '[I] 🇷🇺 俄罗斯 05'
-  network: ws
-  port: 3443
-  server: 5.188.114.12
-  tls: false
-  type: vless
-  uuid: 2ce70f60-6145-4730-97e1-a38cb5dd2afc
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇷🇺 俄罗斯 06'
+  password: R5XooLPrwK-KvWX2_kCDlQ
+  port: 8388
+  server: 89.23.98.196
+  type: ss

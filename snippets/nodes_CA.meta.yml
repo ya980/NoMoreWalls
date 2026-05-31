@@ -25,3 +25,22 @@ proxies:
   udp: true
   uuid: b6b2c827-4ac1-4e2c-af28-dfa7edbfeb81
   xudp: true
+- name: '[I] 🇨🇦 加拿大 03'
+  port: 3389
+  server: 172.65.158.241
+  tls: false
+  type: vless
+  uuid: 88b0b142-88e1-422d-84fb-ad8a762a9e11
+- client-fingerprint: chrome
+  name: '[I] 🇨🇦 加拿大 04'
+  network: ws
+  port: 443
+  server: nimahavok.pages.dev
+  servername: nimahavok.pages.dev
+  tls: true
+  type: vless
+  uuid: cb0be83e-ff5c-4601-8572-18deac592958
+  ws-opts:
+    headers:
+      Host: nimahavok.pages.dev
+    path: /
