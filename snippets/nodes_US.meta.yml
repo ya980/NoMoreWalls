@@ -185,7 +185,6 @@ proxies:
   network: tcp
   port: 443
   server: 155.117.127.137
-  tls: false
   type: vless
   uuid: 5a20b5d0-3a98-4792-9559-95f4e24277ec
 - client-fingerprint: random
@@ -213,13 +212,16 @@ proxies:
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: '[B] 🇺🇸 美国 19'
-  port: 22231
+  network: tcp
+  port: '22231'
   security: tls
   server: 85.234.114.53
   servername: r1.mizulina.top
   tls: true
   type: vless
+  udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
 - client-fingerprint: chrome
   name: '[B] 🇺🇸 美国 20'
   network: ws
@@ -259,15 +261,19 @@ proxies:
       Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
     path: /@Marisa_kristi
 - client-fingerprint: edge
+  encryption: none
   flow: xtls-rprx-vision
   name: '[B] 🇺🇸 美国 23'
-  port: 443
+  network: tcp
+  port: '443'
   security: tls
   server: 85.234.114.53
   servername: r1.mizulina.top
   tls: true
   type: vless
+  udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
 - client-fingerprint: chrome
   name: '[B] 🇺🇸 美国 24'
   network: ws
@@ -371,13 +377,16 @@ proxies:
 - client-fingerprint: edge
   flow: xtls-rprx-vision
   name: '[B] 🇺🇸 美国 31'
-  port: 22231
+  network: tcp
+  port: '22231'
   security: tls
   server: r1.mizulina.top
   servername: r1.mizulina.top
   tls: true
   type: vless
+  udp: true
   uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
 - name: '[B] 🇺🇸 美国 32'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45553
@@ -410,16 +419,14 @@ proxies:
   sni: gh.01.naiun.bilibili.com
   tls: true
   type: trojan
-- client-fingerprint: chrome
-  name: '[B] 🇺🇸 美国 36'
+- name: '[B] 🇺🇸 美国 36'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: '47909'
+  port: 47909
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
   tls: true
   type: trojan
-  udp: true
 - name: '[B] 🇺🇸 美国 37'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
@@ -541,15 +548,23 @@ proxies:
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 48'
+- name: '[E] 🇺🇸 美国 48'
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  port: 443
+  server: 195.133.53.33
+  skip-cert-verify: false
+  sni: s516.okgfw.top
+  tls: false
+  type: hysteria2
+- name: '[F] 🇺🇸 美国 49'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2663
-  server: 18.163.128.27
+  port: 6604
+  server: 175.41.230.39
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 49'
+- name: '[F] 🇺🇸 美国 50'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -557,17 +572,17 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 50'
+- name: '[F] 🇺🇸 美国 51'
   network: tcp
   password: BxceQaOe
   port: 17801
-  server: 43.199.229.84
+  server: 54.238.206.69
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 51'
+  name: '[F] 🇺🇸 美国 52'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -576,20 +591,10 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 52'
+  name: '[F] 🇺🇸 美国 53'
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[G] 🇺🇸 美国 53'
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -598,14 +603,110 @@ proxies:
   name: '[G] 🇺🇸 美国 54'
   network: tcp
   port: '180'
+  server: 82.198.246.250
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[G] 🇺🇸 美国 55'
+  network: tcp
+  port: '180'
   server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 55'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: 216.38.170.155
-  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '[H] 🇺🇸 美国 56'
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 57'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 58'
+  network: raw
+  port: '19131'
+  reality-opts:
+    public-key: yxRy8t-W5pCOglMeGNTeen8vQPK1SG0sM49vL6GLpjo
+    short-id: '!!str 0a8a84dcb5'
+  server: us.gryaz-vpn.com
+  servername: cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3275a667-4a67-4d43-b0ba-54da2d1145dd
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 59'
+  network: raw
+  port: '180'
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 63'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Y4TRkvxDmVR_iIvCTHiixPYnkHVYxMI4d2P5HsXnaBk
+    short-id: '!!str 06341ef4c0fb6507'
+  server: us01.lumixvpn.org
+  servername: us01.lumixvpn.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 107d9e9e-5634-44ef-a90b-c5118832fae6
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 64'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 65'
+  network: tcp
+  port: '10086'
+  server: 57.151.100.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 550e8400-e29b-41d4-a716-446655440000

@@ -75,16 +75,16 @@ proxies:
 - name: '[F] 🇭🇰 香港 09'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 53018
-  server: 18.166.208.219
-  skip-cert-verify: true
+  port: 2008
+  server: 43.199.204.59
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇭🇰 香港 10'
   network: tcp
   password: BxceQaOe
-  port: 50712
-  server: 13.231.192.34
+  port: 32858
+  server: 16.162.24.151
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -108,22 +108,58 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 13'
-  network: ws
-  port: 33410
-  server: ct3.ainivp.com
-  skip-cert-verify: false
-  tls: true
+  name: '[I] 🇭🇰 香港 13'
+  network: tcp
+  port: '54022'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
   type: vmess
-  udp: true
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
-- name: '[I] 🇭🇰 香港 14'
-  port: 443
-  server: salam.testspeedpro.ir
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 14'
+  network: tcp
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 15'
+  network: tcp
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 16'
+  network: tcp
+  port: 6004
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 17'
+  network: tcp
+  port: '2510'
+  server: world.t.51guangtaobao.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- name: '[I] 🇭🇰 香港 18'
+  network: tcp
+  port: 57078
+  server: 43.99.60.225
   tls: false
   type: vless
-  uuid: 382a6aa9-ff5d-4860-a800-3d5fb6326604
+  uuid: e23e89fb-dcf9-451d-da13-22aa7b33f607
+  ws-opts:
+    headers:
+      Host: varzesh3.com

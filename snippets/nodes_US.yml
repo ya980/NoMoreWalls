@@ -51,16 +51,14 @@ proxies:
   sni: gh.01.naiun.bilibili.com
   tls: true
   type: trojan
-- client-fingerprint: chrome
-  name: '[B] 🇺🇸 美国 36'
+- name: '[B] 🇺🇸 美国 36'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: '47909'
+  port: 47909
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
   sni: is.01.naiun.bilibili.com
   tls: true
   type: trojan
-  udp: true
 - name: '[B] 🇺🇸 美国 37'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
   port: 45619
@@ -89,15 +87,15 @@ proxies:
   uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
   ws-opts:
     path: /8704a4ad
-- name: '[F] 🇺🇸 美国 48'
+- name: '[F] 🇺🇸 美国 49'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 2663
-  server: 18.163.128.27
+  port: 6604
+  server: 175.41.230.39
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 49'
+- name: '[F] 🇺🇸 美国 50'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -105,17 +103,17 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 50'
+- name: '[F] 🇺🇸 美国 51'
   network: tcp
   password: BxceQaOe
   port: 17801
-  server: 43.199.229.84
+  server: 54.238.206.69
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 51'
+  name: '[F] 🇺🇸 美国 52'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -124,20 +122,10 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 52'
+  name: '[F] 🇺🇸 美国 53'
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[G] 🇺🇸 美国 53'
-  network: tcp
-  port: '180'
-  server: 82.198.246.250
-  servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
@@ -146,14 +134,78 @@ proxies:
   name: '[G] 🇺🇸 美国 54'
   network: tcp
   port: '180'
+  server: 82.198.246.250
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[G] 🇺🇸 美国 55'
+  network: tcp
+  port: '180'
   server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 55'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: 216.38.170.155
-  type: ss
+- alterId: 0
+  cipher: aes-128-gcm
+  name: '[H] 🇺🇸 美国 56'
+  port: 180
+  server: 82.198.246.214
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 57'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 59'
+  network: raw
+  port: '180'
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 64'
+  network: tcp
+  port: '180'
+  server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 65'
+  network: tcp
+  port: '10086'
+  server: 57.151.100.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 550e8400-e29b-41d4-a716-446655440000
