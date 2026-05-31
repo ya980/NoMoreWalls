@@ -10,7 +10,6 @@ proxies:
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
-  skip-cert-verify: false
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
@@ -22,7 +21,16 @@ proxies:
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 04'
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 04'
+  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
+  port: 443
+  server: s473.okgfw.top
+  sni: u712927us473.okgfw.top
+  tls: false
+  type: hysteria2
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -30,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -38,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -48,7 +56,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 07'
+  name: '[F] 🇺🇸 美国 08'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -57,7 +65,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 09'
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -66,7 +74,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 09'
+  name: '[G] 🇺🇸 美国 10'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -79,7 +87,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 10'
+  name: '[G] 🇺🇸 美国 11'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -88,7 +96,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 11'
+  name: '[H] 🇺🇸 美国 12'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -97,7 +105,7 @@ proxies:
   username: dongtaiwang.com
 - alterId: 0
   cipher: aes-128-gcm
-  name: '[H] 🇺🇸 美国 12'
+  name: '[H] 🇺🇸 美国 13'
   port: 180
   server: 82.198.246.214
   skip-cert-verify: false
@@ -107,7 +115,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 13'
+  name: '[H] 🇺🇸 美国 14'
   network: tcp
   port: '22231'
   server: r1.mizulina.top
@@ -119,7 +127,7 @@ proxies:
   xudp: true
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 14'
+  name: '[H] 🇺🇸 美国 15'
   network: tcp
   port: '22231'
   server: 85.234.114.53
@@ -132,7 +140,7 @@ proxies:
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 15'
+  name: '[H] 🇺🇸 美国 16'
   network: tcp
   port: '443'
   server: 85.234.114.53
@@ -146,7 +154,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 16'
+  name: '[H] 🇺🇸 美国 17'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -160,7 +168,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 17'
+  name: '[H] 🇺🇸 美国 18'
   network: raw
   port: '19131'
   reality-opts:
@@ -175,7 +183,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 18'
+  name: '[H] 🇺🇸 美国 19'
   network: raw
   port: '180'
   server: 82.198.246.250
@@ -188,7 +196,7 @@ proxies:
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 22'
+  name: '[H] 🇺🇸 美国 23'
   network: tcp
   port: '443'
   reality-opts:
@@ -203,7 +211,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 23'
+  name: '[I] 🇺🇸 美国 24'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -213,7 +221,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 24'
+  name: '[I] 🇺🇸 美国 25'
   network: tcp
   port: '27910'
   server: bgroup.node5.v.nodelist-airport.com

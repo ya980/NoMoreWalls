@@ -65,6 +65,14 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
+- name: '[E] 🌍 其它地区 04'
+  password: RUSS:ep2HJ2FDV4jsCV8ArhyU
+  port: 443
+  server: fiv4.alexanderoff.ru
+  skip-cert-verify: false
+  sni: fiv4.alexanderoff.ru
+  tls: false
+  type: hysteria2
 - name: '[E] 🇷🇺 俄罗斯 01'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
@@ -73,28 +81,12 @@ proxies:
   sni: de2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[E] 🇭🇰 香港 01'
-  password: IG9Sundefinedvx6RJ
-  port: 58771
-  server: 47.76.94.197
-  skip-cert-verify: true
-  sni: go.microsoft.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🌍 其它地区 04'
+- name: '[E] 🌍 其它地区 05'
   password: 239471f8-4608-438e-9d2e-a6a950d98ad4
   port: 8443
   server: 31.59.104.139
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🌍 其它地区 05'
-  password: b95dd8e5-2758-408f-be99-9362eecee609
-  port: 10808
-  server: files.fantoff.online
-  skip-cert-verify: false
-  sni: files.fantoff.online
   tls: false
   type: hysteria2
 - name: '[E] 🌍 其它地区 06'
@@ -122,7 +114,6 @@ proxies:
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
-  skip-cert-verify: false
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
@@ -134,12 +125,13 @@ proxies:
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[E] 🇨🇦 加拿大 01'
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 202.61.205.86
-  skip-cert-verify: false
-  sni: de1.xiaoliyu.cyou
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 04'
+  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
+  port: 443
+  server: s473.okgfw.top
+  sni: u712927us473.okgfw.top
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
@@ -150,14 +142,14 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 01'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 03'
+- name: '[F] 🇭🇰 香港 02'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 2008
@@ -165,7 +157,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 03'
   network: tcp
   password: BxceQaOe
   port: 32858
@@ -173,7 +165,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 05'
+- name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 11233
@@ -229,7 +221,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -237,7 +229,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: f6d3aa07a52dbcedcb4731029e2fb6ae
   port: 6604
@@ -245,7 +237,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -255,7 +247,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 07'
+  name: '[F] 🇺🇸 美国 08'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -264,7 +256,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 09'
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -273,7 +265,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 06'
+  name: '[G] 🇭🇰 香港 05'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -283,7 +275,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 09'
+  name: '[G] 🇺🇸 美国 10'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -296,7 +288,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 10'
+  name: '[G] 🇺🇸 美国 11'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -305,7 +297,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 11'
+  name: '[H] 🇺🇸 美国 12'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -327,7 +319,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: aes-128-gcm
-  name: '[H] 🇺🇸 美国 12'
+  name: '[H] 🇺🇸 美国 13'
   port: 180
   server: 82.198.246.214
   skip-cert-verify: false
@@ -361,7 +353,7 @@ proxies:
   xudp: true
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 13'
+  name: '[H] 🇺🇸 美国 14'
   network: tcp
   port: '22231'
   server: r1.mizulina.top
@@ -399,7 +391,7 @@ proxies:
   xudp: true
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 14'
+  name: '[H] 🇺🇸 美国 15'
   network: tcp
   port: '22231'
   server: 85.234.114.53
@@ -489,7 +481,7 @@ proxies:
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 15'
+  name: '[H] 🇺🇸 美国 16'
   network: tcp
   port: '443'
   server: 85.234.114.53
@@ -503,7 +495,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 16'
+  name: '[H] 🇺🇸 美国 17'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -516,7 +508,7 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 17'
+  name: '[H] 🇺🇸 美国 18'
   network: raw
   port: '19131'
   reality-opts:
@@ -546,7 +538,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 18'
+  name: '[H] 🇺🇸 美国 19'
   network: raw
   port: '180'
   server: 82.198.246.250
@@ -647,7 +639,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇨🇦 加拿大 02'
+  name: '[H] 🇨🇦 加拿大 01'
   network: tcp
   port: 51072
   reality-opts:
@@ -755,7 +747,7 @@ proxies:
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 22'
+  name: '[H] 🇺🇸 美国 23'
   network: tcp
   port: '443'
   reality-opts:
@@ -876,7 +868,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 23'
+  name: '[I] 🇺🇸 美国 24'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -886,7 +878,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 07'
+  name: '[I] 🇭🇰 香港 06'
   network: tcp
   port: '51556'
   server: 103.181.164.145
@@ -896,7 +888,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 08'
+  name: '[I] 🇭🇰 香港 07'
   network: tcp
   port: '54022'
   server: 103.181.164.145
@@ -905,7 +897,7 @@ proxies:
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 09'
+  name: '[I] 🇭🇰 香港 08'
   password: 7e1dd4c55bf85da5
   port: 20129
   server: 212.192.15.225
@@ -924,7 +916,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 10'
+  name: '[I] 🇭🇰 香港 09'
   network: tcp
   port: '6004'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -933,7 +925,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 11'
+  name: '[I] 🇭🇰 香港 10'
   network: tcp
   port: '6003'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -942,7 +934,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 12'
+  name: '[I] 🇭🇰 香港 11'
   network: tcp
   port: '6001'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -951,7 +943,7 @@ proxies:
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 13'
+  name: '[I] 🇭🇰 香港 12'
   network: tcp
   port: '2510'
   server: world.t.51guangtaobao.com
@@ -978,7 +970,7 @@ proxies:
   tls: true
   type: vless
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: '[I] 🇭🇰 香港 14'
+- name: '[I] 🇭🇰 香港 13'
   network: tcp
   port: 57078
   server: 43.99.60.225
@@ -1022,13 +1014,13 @@ proxies:
   uuid: 82196f9b-a5ab-4a86-91a7-da7577b2700b
   ws-opts:
     path: '%2F'
-- name: '[I] 🇨🇦 加拿大 03'
+- name: '[I] 🇨🇦 加拿大 02'
   port: 3389
   server: 172.65.158.241
   tls: false
   type: vless
   uuid: 88b0b142-88e1-422d-84fb-ad8a762a9e11
-- name: '[I] 🇨🇦 加拿大 04'
+- name: '[I] 🇨🇦 加拿大 03'
   network: ws
   port: 443
   server: nimahavok.pages.dev
@@ -1068,7 +1060,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 15'
+  name: '[I] 🇭🇰 香港 14'
   network: ws
   port: 53213
   server: bgroup.node4.v.nodelist-airport.com
@@ -1082,7 +1074,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 24'
+  name: '[I] 🇺🇸 美国 25'
   network: tcp
   port: '27910'
   server: bgroup.node5.v.nodelist-airport.com
