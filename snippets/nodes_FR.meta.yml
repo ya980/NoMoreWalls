@@ -9,35 +9,21 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: '[H] 🇫🇷 法国 02'
-  network: raw
-  port: '44520'
-  reality-opts:
-    public-key: MrLRcU_2S2CpUc7VT3ajIavX5NYUiQdP6J5QTDFNGFU
-    short-id: '!!str 8897c56a495b26cc'
-  server: 51.44.25.250
-  servername: yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: acd726d3-0128-44d8-a575-21013ff7740a
-  xudp: true
-- encryption: none
-  name: '[H] 🇫🇷 法国 03'
   network: ws
-  port: 443
-  server: bab-6.site
-  servername: bab-6.site
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  password: 7p52vhn9vs4naimm
+  port: '443'
+  server: freealireza3.nscl.ir
+  skip-cert-verify: true
+  sni: freealireza3.nscl.ir
+  type: trojan
   udp: true
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   ws-opts:
     headers:
-      Host: bab-6.site
-    path: /vws/
-  xudp: true
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /dashboard

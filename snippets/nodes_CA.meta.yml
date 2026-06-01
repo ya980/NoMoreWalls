@@ -7,40 +7,12 @@ proxies:
   sni: de1.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇨🇦 加拿大 02'
-  network: tcp
-  port: 51072
-  reality-opts:
-    _spider-x: /
-    public-key: 5KJ1tLErCUEfqxc3IsnY_49p_gWe0mPB8eXJ3MLucgU
-    short-id: '!!str 0675732ab101'
-  server: 35.182.252.92
-  servername: www.sony.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: b6b2c827-4ac1-4e2c-af28-dfa7edbfeb81
-  xudp: true
-- name: '[I] 🇨🇦 加拿大 03'
-  port: 3389
-  server: 172.65.158.241
-  tls: false
-  type: vless
-  uuid: 88b0b142-88e1-422d-84fb-ad8a762a9e11
-- client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 04'
-  network: ws
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 02'
+  password: bc7c7c10-8f24-332e-b303-fb3c8943c24f
   port: 443
-  server: nimahavok.pages.dev
-  servername: nimahavok.pages.dev
-  tls: true
-  type: vless
-  uuid: cb0be83e-ff5c-4601-8572-18deac592958
-  ws-opts:
-    headers:
-      Host: nimahavok.pages.dev
-    path: /
+  server: 5.175.183.35
+  sni: u712927us250.ayxj.top
+  tls: false
+  type: hysteria2

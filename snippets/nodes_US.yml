@@ -1,40 +1,41 @@
 proxies:
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 09'
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
-  server: 175.41.230.39
+  server: 16.163.157.108
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
+  password: d84665c37878196ecf983cf6910e3b44
   port: 6604
   server: 54.238.76.39
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 54.238.206.69
+  port: 2520
+  server: 95.40.4.37
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 09'
+  name: '[F] 🇺🇸 美国 12'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 13'
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -43,42 +44,29 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 11'
+  name: '[G] 🇺🇸 美国 14'
   network: tcp
   port: '180'
   server: 82.198.246.250
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 12'
+  name: '[G] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.233
   servername: ''
   tls: false
   type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: aes-128-gcm
-  name: '[H] 🇺🇸 美国 14'
-  port: 180
-  server: 82.198.246.214
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alpn:
   - ''
   alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 18'
+  name: '[H] 🇺🇸 美国 17'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -91,10 +79,10 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 20'
+  name: '[H] 🇺🇸 美国 19'
   network: raw
   port: '180'
-  server: 82.198.246.250
+  server: 82.198.246.37
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -103,7 +91,29 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 25'
+  name: '[H] 🇺🇸 美国 20'
+  port: 180
+  server: 82.198.246.37
+  servername: <nil>
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  flow: ''
+  name: '[H] 🇺🇸 美国 21'
+  network: tcp
+  port: 20001
+  server: vpnicp.xyc.hk.cn
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 23'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -111,12 +121,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇺🇸 美国 26'
-  network: tcp
-  port: '27910'
-  server: bgroup.node5.v.nodelist-airport.com
-  tls: false
-  type: vmess
-  uuid: 504cb0be-b285-4ec5-9561-bc289aea0d46

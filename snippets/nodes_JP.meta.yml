@@ -2,41 +2,46 @@ proxies:
 - name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 3.112.60.98
+  port: 47655
+  server: 43.199.61.178
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 02'
   network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 24184
-  server: 18.163.75.132
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 11541
+  server: 13.115.175.169
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
-  network: tcp
-  password: f6d3aa07a52dbcedcb4731029e2fb6ae
-  port: 3135
-  server: 43.199.160.155
+- alterId: 1
+  cipher: auto
+  name: '[H] 🇯🇵 日本 03'
+  port: 444
+  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
   skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇯🇵 日本 04'
-  network: ws
-  port: 2087
-  server: 172.64.229.253
-  servername: darkness427edge-93h.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  tls: false
+  type: vmess
   udp: true
-  uuid: b1f8283d-36f5-4ff9-8ad8-e6d733a18fa0
-  ws-opts:
-    headers:
-      Host: darkness427edge-93h.pages.dev
-    path: /
-  xudp: true
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- alterId: 1
+  cipher: auto
+  name: '[H] 🇯🇵 日本 04'
+  port: 46482
+  server: vt50k-g01.jp05-6786-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- alterId: 1
+  cipher: auto
+  name: '[H] 🇯🇵 日本 05'
+  port: 21581
+  server: 01eb6-g01.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
