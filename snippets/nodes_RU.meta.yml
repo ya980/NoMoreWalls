@@ -7,20 +7,39 @@ proxies:
   sni: de2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[I] 🇷🇺 俄罗斯 02'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: '23151'
+  reality-opts:
+    public-key: eP0MKUFOcNVSVFbHT8GgBLP4LIHZFq8JuVGlCAlH1HI
+    short-id: '!!str '
+  server: 217.26.24.101
+  servername: cms-res-web.online.sberbank.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3
+  xudp: true
+- name: '[I] 🇷🇺 俄罗斯 03'
+  network: tcp
   port: 8443
-  server: cdn3-87.vk-cdnvideo.com
+  server: cdn7-39.vk-cdnvideo.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇷🇺 俄罗斯 03'
-  password: yErGqJRphjGG2mLNr7gcYA
-  port: 443
-  server: 176.108.255.36
-  type: ss
+- name: '[I] 🇷🇺 俄罗斯 04'
+  network: tcp
+  port: 8443
+  server: cdn3-25.vk-cdnvideo.com
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 05'
   network: ws
   port: 44328
   server: 144.31.61.185
@@ -29,3 +48,19 @@ proxies:
   uuid: e7f91a0c-7337-4ae0-b81a-7d7350719c6c
   ws-opts:
     path: '%2F'
+- name: '[I] 🇷🇺 俄罗斯 06'
+  port: 8443
+  server: cdn7-09.vk-cdnvideo.com
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- client-fingerprint: chrome
+  name: '[I] 🇷🇺 俄罗斯 07'
+  network: tcp
+  port: 8443
+  server: cdn9-33.vk-cdnvideo.com
+  servername: ''
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f

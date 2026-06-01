@@ -1,5 +1,21 @@
 proxies:
-- name: '[F] 🇺🇸 美国 01'
+- name: '[E] 🇺🇸 美国 01'
+  password: 1bf9c88b-1f99-47c3-ac39-cd0e4edac246
+  port: 443
+  server: gr4.nimarko.org
+  skip-cert-verify: false
+  sni: gr4.nimarko.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 02'
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  port: 443
+  server: 195.133.53.33
+  skip-cert-verify: false
+  sni: s516.okgfw.top
+  tls: false
+  type: hysteria2
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -7,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 02'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -15,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 03'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -25,7 +41,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 04'
+  name: '[F] 🇺🇸 美国 06'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -34,7 +50,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 07'
   port: 180
   server: 82.198.246.233
   skip-cert-verify: false
@@ -43,7 +59,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 06'
+  name: '[G] 🇺🇸 美国 08'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -53,7 +69,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 07'
+  name: '[G] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.233
@@ -61,27 +77,129 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 10'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 11'
+  network: tcp
+  port: '22231'
+  server: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 12'
+  network: raw
+  port: '443'
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 13'
+  network: raw
+  port: '180'
+  server: 82.198.246.37
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- name: '[H] 🇺🇸 美国 14'
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  port: 443
+  server: 185.106.96.231
+  skip-cert-verify: false
+  sni: s559.ccgfw.top
+  tfo: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 08'
+  name: '[H] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: '2520'
   server: 95.40.4.37
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: 95.40.4.37
   type: trojan
   udp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 09'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 16'
+  network: ws
+  port: '443'
+  server: 27.50.48.49
+  servername: somersby.pt.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 197f5e5c-fc15-4db6-8444-50248c2c394d
+  ws-opts:
+    headers:
+      Host: somersby.pt.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.111 Safari/537.36
+    path: /sg-amz
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 17'
+  network: ws
+  port: '443'
+  server: 27.50.48.49
+  servername: investors.spotify.com.cyylr.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 228639b0-48de-4162-a818-d5651ee297b3
+  ws-opts:
+    headers:
+      Host: investors.spotify.com.cyylr.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.77 Safari/537.36
+    path: /in-do
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 18'
+  network: ws
+  port: '8443'
+  server: 3h-unitedstates3.09vpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48572af1-d091-457b-a86e-4a457e99927f
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /vless/
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 10'
+  name: '[I] 🇺🇸 美国 19'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -89,25 +207,3 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇺🇸 美国 11'
-  network: tcp
-  port: '180'
-  server: 82.198.246.9
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 12'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 13'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: 216.38.170.155
-  type: ss
