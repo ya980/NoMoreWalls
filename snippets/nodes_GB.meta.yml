@@ -1,17 +1,36 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: '[H] 🇬🇧 英国 01'
   network: tcp
+  password: ASoZeIVwzX4w4wxwig
   port: '443'
-  reality-opts:
-    public-key: QsjSJxjG0T6XmoBhjXUohrMNGDQ97J14LVGnJRgUqVk
-    short-id: '!!str d3'
-  server: 212.74.39.81
-  servername: icloud.com
+  server: uk-1.tr202605.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇬🇧 英国 02'
+  network: tcp
+  password: LSS6HLnp7IeEEJUcox
+  port: '443'
+  server: uk-1.tr202607.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇬🇧 英国 03'
+  network: ws
+  port: '15566'
+  server: 5.181.27.81
+  servername: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
   tls: true
   type: vless
   udp: true
-  uuid: 568bcfb3-965b-4d97-af29-155b7b9d89c4
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: rvbtoc55o588ipfx2qieoygyk0hur.saghv.filegear-sg.me
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /@Marisa_kristifp=chrome
   xudp: true

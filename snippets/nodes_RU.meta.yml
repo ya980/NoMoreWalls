@@ -7,50 +7,26 @@ proxies:
   sni: de2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: /sequre/grpc
   name: '[H] 🇷🇺 俄罗斯 02'
+  network: grpc
+  port: '443'
+  server: 185.14.46.20.blanesik.space
+  servername: 185.14.46.20.blanesik.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: a1b19834-a5e3-4d49-9301-aaa3fb248f49
+  xudp: true
+- name: '[I] 🇷🇺 俄罗斯 03'
   network: tcp
-  port: '12444'
-  reality-opts:
-    public-key: dYmNf0AA5qgV2ct3dPCYtxdS2iD3FEUnEs6J1GWe2wU
-    short-id: '!!str 9a79'
-  server: 157.22.241.46
-  servername: 2gis.ru
+  port: 8443
+  server: cdn3-87.vk-cdnvideo.com
   tls: true
   type: vless
-  udp: true
-  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
-  xudp: true
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 03'
-  network: raw
-  port: '23346'
-  reality-opts:
-    public-key: SSVyNwsSA0BFp8HJWvqc-VQjwOtKrVnl6nDFJxpHU18
-    short-id: '!!str 4294bfc2'
-  server: ru-nl.omuvpn.tech
-  servername: zvuk.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 04'
-  network: tcp
-  port: '23151'
-  reality-opts:
-    public-key: eP0MKUFOcNVSVFbHT8GgBLP4LIHZFq8JuVGlCAlH1HI
-    short-id: '!!str '
-  server: 217.26.24.101
-  servername: cms-res-web.online.sberbank.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9287f532-4150-48ff-a755-64b21e30e9c3
-  xudp: true
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
