@@ -8,6 +8,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
+  password: 7ce9a8d0-2cb2-4b8d-8de9-262c1d6597ac
+  port: 443
+  server: us.gotogle.com
+  skip-cert-verify: false
+  sni: us.gotogle.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 03'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
@@ -15,27 +23,19 @@ proxies:
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 03'
-  network: tcp
-  password: d84665c37878196ecf983cf6910e3b44
-  port: 6604
-  server: 16.163.157.108
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
 - name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 6604
-  server: 54.238.76.39
+  port: 5224
+  server: 18.163.33.60
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
-  port: 2520
-  server: 95.40.4.37
+  port: 17801
+  server: 95.40.68.192
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -50,16 +50,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 07'
-  port: 180
-  server: 82.198.246.233
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[G] 🇺🇸 美国 08'
+  name: '[G] 🇺🇸 美国 07'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -69,17 +60,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 09'
-  network: tcp
-  port: '180'
-  server: 82.198.246.233
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇺🇸 美国 10'
+  name: '[H] 🇺🇸 美国 08'
   network: tcp
   port: '180'
   server: 82.198.246.37
@@ -92,7 +73,7 @@ proxies:
   xudp: true
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 11'
+  name: '[H] 🇺🇸 美国 09'
   network: tcp
   port: '22231'
   server: r1.mizulina.top
@@ -104,7 +85,7 @@ proxies:
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 12'
+  name: '[H] 🇺🇸 美国 10'
   network: raw
   port: '443'
   server: 85.234.114.53
@@ -116,7 +97,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 13'
+  name: '[H] 🇺🇸 美国 11'
   network: raw
   port: '180'
   server: 82.198.246.37
@@ -126,7 +107,7 @@ proxies:
   udp: true
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true
-- name: '[H] 🇺🇸 美国 14'
+- name: '[H] 🇺🇸 美国 12'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
@@ -135,7 +116,7 @@ proxies:
   tfo: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 15'
+  name: '[H] 🇺🇸 美国 13'
   network: tcp
   password: BxceQaOe
   port: '2520'
@@ -146,7 +127,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 16'
+  name: '[H] 🇺🇸 美国 14'
   network: ws
   port: '443'
   server: 27.50.48.49
@@ -164,7 +145,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 17'
+  name: '[H] 🇺🇸 美国 15'
   network: ws
   port: '443'
   server: 27.50.48.49
@@ -182,7 +163,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 18'
+  name: '[H] 🇺🇸 美国 16'
   network: ws
   port: '8443'
   server: 3h-unitedstates3.09vpn.com
@@ -199,7 +180,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 19'
+  name: '[I] 🇺🇸 美国 17'
   network: tcp
   port: '180'
   server: 82.198.246.214
