@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 14'
+  name: '[F] 🌍 其它地区 12'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -86,7 +86,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5224
@@ -94,7 +94,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -104,7 +104,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 06'
+  name: '[F] 🇺🇸 美国 05'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -123,7 +123,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 07'
+  name: '[G] 🇺🇸 美国 06'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -131,57 +131,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇺🇸 美国 08'
-  network: tcp
-  port: '180'
-  server: 82.198.246.37
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇺🇸 美国 11'
-  network: raw
-  port: '180'
-  server: 82.198.246.37
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  xudp: true
-- name: '[H] 🇸🇬 新加坡 04'
-  network: tcp
-  password: BxceQaOe
-  port: 29440
-  server: 52.69.79.73
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[H] 🇸🇬 新加坡 05'
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[H] 🇸🇬 新加坡 06'
-  network: tcp
-  password: BxceQaOe
-  port: 29440
-  server: 52.69.79.73
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
 - cipher: chacha20-ietf-poly1305
   name: '[H] 🇨🇳 台湾 01'
   password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
@@ -189,63 +138,127 @@ proxies:
   server: 36.230.8.15
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇩🇪 德国 09'
-  password: ZSzCXxMc0U8gRNctj6NbfD
-  port: 443
-  server: 62.133.60.6
-  type: ss
+- alpn:
+  - http/1.1
+  name: '[H] 🌍 其它地区 14'
+  network: ws
+  password: mitivpn
+  port: '443'
+  server: 188.114.97.6
+  skip-cert-verify: true
+  sni: dash.linkman1.ir
+  type: trojan
   udp: true
-- cipher: aes-256-gcm
-  name: '[H] 🇸🇬 新加坡 07'
-  password: c770a24nZJYv
-  port: '8388'
-  server: 194.87.10.139
-  type: ss
-  udp: true
-- name: '[H] 🇺🇸 美国 13'
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings
+- name: '[H] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: '2520'
   server: 95.40.4.37
   skip-cert-verify: true
-  sni: 95.40.4.37
+  sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: '[H] 🌍 其它地区 23'
+- name: '[H] 🇺🇸 美国 12'
+  network: tcp
+  password: BxceQaOe
+  port: 2520
+  server: 95.40.4.37
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: '[H] 🇩🇪 德国 04'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 46424
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: de.01.naiun.bilibili.com
+  tls: true
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇫🇷 法国 04'
+  password: 89NQRFg7Pcybkl9FrDxqj5
+  port: 443
+  server: 193.17.57.155
+  type: ss
+  udp: true
+- name: '[H] 🇺🇸 美国 16'
   network: ws
-  password: cf3d48cf-750c-4f18-89a7-f81d2e153fbe
+  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
   port: '443'
-  server: 188.114.97.6
+  server: 108.181.4.83
   skip-cert-verify: false
-  sni: blog.webex.com.cyylr.eu.cc
+  sni: us6lh1fsyabizv5m.lovebaipiao.net
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /in-do
-- name: '[H] 🇩🇪 德国 10'
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /images
+- name: '[H] 🇺🇸 美国 17'
   network: ws
-  password: cf3d48cf-750c-4f18-89a7-f81d2e153fbe
+  password: 5e40c007-9ea9-470f-8824-cdf4eaa6441f
   port: '443'
-  server: cyylr.eu.cc
+  server: us6lh1fsyabizv5m.lovebaipiao.net
   skip-cert-verify: false
-  sni: blog.webex.com.cyylr.eu.cc
+  sni: us6lh1fsyabizv5m.lovebaipiao.net
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /in-do
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/36.0.1985.143 Safari/537.36
+    path: /images
+- name: '[H] 🇭🇰 香港 07'
+  network: tcp
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: '40015'
+  server: 85.211.198.109
+  skip-cert-verify: true
+  sni: 1.lossyesterday.xyz
+  type: trojan
+  udp: true
+- name: '[H] 🇭🇰 香港 08'
+  network: tcp
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: '52225'
+  server: 85.211.198.109
+  skip-cert-verify: true
+  sni: i.comfortableyou.top
+  type: trojan
+  udp: true
+- name: '[H] 🇭🇰 香港 09'
+  network: raw
+  password: da292191-b895-3264-b41c-200512b8f965
+  port: '40017'
+  server: a.twodnwnpoe.xyz
+  skip-cert-verify: false
+  sni: water.waittomorrow.top
+  type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 17'
+  name: '[I] 🇺🇸 美国 19'
   network: tcp
   port: '180'
   server: 82.198.246.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 20'
+  network: tcp
+  port: '180'
+  server: 82.198.246.37
   servername: ''
   tls: false
   type: vmess
@@ -298,16 +311,10 @@ proxies:
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 29'
+  name: '[I] 🌍 其它地区 24'
   password: MZeSTvpl2uoey1R0frhPyJ
   port: 51544
   server: 109.107.182.229
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇫🇷 法国 03'
-  password: 89NQRFg7Pcybkl9FrDxqj5
-  port: 443
-  server: 193.17.57.155
   type: ss
 - alterId: 0
   cipher: auto
@@ -319,22 +326,28 @@ proxies:
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 31'
+  name: '[I] 🌍 其它地区 26'
   password: 2JbwZkocAS4_jLTOqfwMdA
   port: 5000
   server: slx.somayecloud.ir
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇩🇪 德国 13'
+  name: '[I] 🇩🇪 德国 09'
   password: DQHK4mtugy7xMNChJjB9Jm
   port: 443
   server: 185.129.84.12
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇫🇷 法国 04'
+  name: '[I] 🇫🇷 法国 05'
   password: RjG_Pd534ZVJRMdODjCNMA
   port: 1080
   server: 45.92.218.56
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇩🇪 德国 10'
+  password: ZSzCXxMc0U8gRNctj6NbfD
+  port: 443
+  server: 62.133.60.6
   type: ss
 - alterId: 0
   cipher: auto
