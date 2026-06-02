@@ -1,16 +1,10 @@
 proxies:
-- name: '[H] 🇰🇷 韩国 01'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
-  tls: true
-  type: http
+- alpn:
+  - h3
+  name: '[H] 🇰🇷 韩国 01'
+  password: ff488c48-b745-4d65-a6a1-0339be0b7fd7
+  port: 15219
+  server: okrs01.7770123.xyz
+  sni: okrs01.7770123.xyz
+  type: hysteria2
   udp: true
-  username: test
-- cipher: aes-256-gcm
-  name: '[I] 🇰🇷 韩国 02'
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 20002
-  server: bgroup.node2.s2.nodelist-airport.com
-  type: ss

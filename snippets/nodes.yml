@@ -1,20 +1,20 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 66'
+  name: '[F] 🌍 其它地区 67'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 03'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 03'
+- name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11541
@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 05'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 50712
@@ -62,6 +62,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[F] 🇸🇬 新加坡 01'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
@@ -113,7 +114,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 06'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -131,44 +132,9 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[H] 🇺🇸 美国 07'
-  network: ws
-  password: aa710f78-eddb-45b4-bd32-1f8692a754e5
-  port: '443'
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: s.blibli.com.cyylr.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /ae-bo
-- name: '[H] 🌍 其它地区 68'
-  password: tunnel-ljlcf
-  port: '8441'
-  server: tr-1.stunnel.cc
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: '[H] 🌍 其它地区 72'
-  network: ws
-  password: cf3d48cf-750c-4f18-89a7-f81d2e153fbe
-  port: '443'
-  server: 188.114.97.6
-  skip-cert-verify: false
-  sni: blog.webex.com.cyylr.eu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /in-do
 - alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 12'
+  name: '[H] 🇺🇸 美国 05'
   network: ws
   port: 8443
   server: yg7.ygkkk.dpdns.org
@@ -182,47 +148,116 @@ proxies:
     headers:
       Host: marco-visibility-tops-estimate.trycloudflare.com
     path: /c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d-vm
-- name: '[H] 🇭🇰 香港 07'
-  network: tcp
-  password: BxceQaOe
-  port: '50712'
-  server: 18.183.163.141
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
+- alpn:
+  - h2
+  - http/1.1
+  name: '[H] 🌍 其它地区 73'
+  network: ws
+  password: l6ep4yzoadj6v2nf
+  port: '443'
+  server: 31.184.246.134
+  skip-cert-verify: false
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 04'
-  network: tcp
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /
+- name: '[H] 🇯🇵 日本 04'
   password: BxceQaOe
-  port: '10478'
-  server: 43.206.130.64
+  port: '4099'
+  server: 18.183.163.141
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: '[H] 🌍 其它地区 73'
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 172.67.174.196
-  sni: wing2452.nyc.mn
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: wing2452.nyc.mn
-    max-early-data: 2560
-    path: /tr
-- name: '[H] 🇸🇬 新加坡 05'
+- alpn:
+  - ''
+  alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 09'
   network: tcp
-  password: BxceQaOe
-  port: '10478'
-  server: 43.206.130.64
+  port: '180'
+  server: 82.198.246.37
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: '[H] 🌍 其它地区 75'
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - http/1.1
+  name: '[H] 🇫🇷 法国 03'
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.83
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+- alpn:
+  - h2
+  name: '[H] 🇭🇰 香港 09'
+  network: ws
+  password: 8b6fa5e7-2583-4dcf-a589-f3924c685dbb
+  port: '443'
+  server: 104.17.126.186
+  skip-cert-verify: false
+  sni: HKNTT1.nauk.eu.cc
   type: trojan
   udp: true
-- name: '[H] 🇺🇸 美国 14'
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /8b6fa5e7-2583-4dcf-a589-f3924c685dbb-tr
+- alpn:
+  - h2
+  name: '[H] 🇭🇰 香港 10'
+  network: ws
+  password: 8b6fa5e7-2583-4dcf-a589-f3924c685dbb
+  port: '443'
+  server: 198.41.209.228
+  skip-cert-verify: false
+  sni: HKNTT1.nauk.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
+        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
+        Mobile Safari/537.36
+    path: /8b6fa5e7-2583-4dcf-a589-f3924c685dbb-tr
+- alpn:
+  - h2
+  name: '[H] 🇭🇰 香港 11'
+  network: ws
+  password: 8b6fa5e7-2583-4dcf-a589-f3924c685dbb
+  port: '443'
+  server: cf.wdqgn.eu.org
+  skip-cert-verify: false
+  sni: HKNTT1.nauk.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /8b6fa5e7-2583-4dcf-a589-f3924c685dbb-tr
+- name: '[H] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: '2520'
@@ -233,7 +268,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 04'
+  name: '[I] 🇺🇸 美国 11'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -241,15 +276,53 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 12'
+  network: tcp
+  port: '6004'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 13'
+  network: tcp
+  port: '51556'
+  server: 103.181.164.145
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 15'
+  name: '[I] 🇺🇸 美国 12'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 09'
+  name: '[I] 🇭🇰 香港 14'
+  network: tcp
+  port: '2510'
+  server: world.t.51guangtaobao.com
+  tls: false
+  type: vmess
+  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 15'
+  network: tcp
+  port: '6001'
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇭🇰 香港 16'
   network: tcp
   port: '6003'
   server: gtm-sg-cc54q7d1q01.365cloud0285.com
@@ -257,103 +330,74 @@ proxies:
   tls: false
   type: vmess
   uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 10'
-  network: tcp
-  port: '6004'
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 11'
-  network: tcp
-  port: '2510'
-  server: world.t.51guangtaobao.com
-  tls: false
-  type: vmess
-  uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇸🇬 新加坡 06'
-  password: vJ4LrBqkqCYgGMO08YmmsMjQ3ZMtJ7Ey6Sxfpe
-  port: 41348
-  server: 5.34.177.228
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 80'
-  password: MZeSTvpl2uoey1R0frhPyJ
-  port: 51544
-  server: 109.107.182.229
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🇸🇬 新加坡 07'
-  password: c770a24nZJYv
-  port: 8388
-  server: 194.87.10.139
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇫🇷 法国 03'
-  password: 89NQRFg7Pcybkl9FrDxqj5
-  port: 443
-  server: 193.17.57.155
+  name: '[I] 🇨🇳 台湾 02'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 12'
+  name: '[I] 🇭🇰 香港 17'
   network: tcp
   port: 2512
   server: world.t.51guangtaobao.com
   tls: false
   type: vmess
   uuid: 1d3d868e-ae7b-3762-b9d9-a7f267494c7e
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇭🇰 香港 13'
-  network: tcp
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇩🇪 德国 07'
+  name: '[I] 🇩🇪 德国 11'
   password: DQHK4mtugy7xMNChJjB9Jm
   port: 443
   server: 185.129.84.12
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇫🇷 法国 04'
+  name: '[I] 🇫🇷 法国 07'
   password: RjG_Pd534ZVJRMdODjCNMA
   port: 1080
   server: 45.92.218.56
   type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🇺🇸 美国 16'
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 23122
-  server: bgroup.node5.s2.nodelist-airport.com
+- cipher: aes-128-gcm
+  name: '[I] 🇺🇸 美国 13'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: 216.38.170.155
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🇰🇷 韩国 02'
-  password: 504cb0be-b285-4ec5-9561-bc289aea0d46
-  port: 20002
-  server: bgroup.node2.s2.nodelist-airport.com
-  type: ss
-- cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 14'
-  password: 6c4bd474-ac23-47fc-8742-c8f990357836
-  port: 13001
-  server: ss.015.node-for-bigairport.win
+  name: '[I] 🌍 其它地区 82'
+  password: OTkxZmIyYjQ1NDJhZjhiYTRkYmQ1NGJjZjYzYzFi
+  port: 10095
+  server: 37.32.11.12
   type: ss
 - alterId: 0
-  cipher: auto
-  name: '[I] 🇸🇬 新加坡 08'
-  network: ws
-  port: '10123'
-  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  cipher: aes-128-gcm
+  name: '[I] 🌍 其它地区 86'
+  network: tcp
+  port: '1060'
+  server: s1.connect.bloroxy.net
   servername: ''
+  tls: false
+  type: vmess
+  uuid: 30bede76-b576-4ef6-a29e-e28aad51ee32
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇸🇬 新加坡 06'
+  network: ws
+  port: 10021
+  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  tls: false
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇸🇬 新加坡 07'
+  network: ws
+  port: 10011
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
   tls: false
   type: vmess
   uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3

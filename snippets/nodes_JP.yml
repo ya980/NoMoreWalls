@@ -15,7 +15,8 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
+- client-fingerprint: chrome
+  name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 8066
@@ -23,13 +24,13 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇯🇵 日本 04'
-  network: tcp
-  port: '180'
-  server: 82.198.246.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 04'
+  password: BxceQaOe
+  port: '4099'
+  server: 18.183.163.141
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
