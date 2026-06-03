@@ -1,5 +1,5 @@
 proxies:
-- name: '[C] 🇫🇷 法国 01'
+- name: '[D] 🇫🇷 法国 01'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -9,7 +9,7 @@ proxies:
   sni: qs.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '[C] 🇫🇷 法国 02'
+- name: '[D] 🇫🇷 法国 02'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -19,36 +19,46 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[G] 🇫🇷 法国 03'
-  network: tcp
-  password: telegram-id-directvpn
-  port: '22223'
-  server: 13.36.49.197
+- name: '[E] 🇫🇷 法国 03'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.10.107
   skip-cert-verify: true
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- name: '[H] 🇫🇷 法国 04'
-  network: tcp
-  port: 8443
-  server: cdn7-39.vk-cdnvideo.com
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 04'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 64772
+  server: 62.210.26.173
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 05'
+  port: 443
+  reality-opts:
+    public-key: FurqA-2jJHS4vNj92Ya5i2ZTxf0sWSjUTaz5Y_KMBgk
+    short-id: '!!str 57cc65bfd5ef7465'
+  server: 185.212.117.34
+  servername: www.scaleway.com
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-- name: '[H] 🇫🇷 法国 05'
-  network: tcp
-  port: 25223
-  server: 199.247.9.60
-  tls: false
-  type: vless
-  uuid: 2d7c754f-bb22-4ae7-91b9-691a5b7f54ce
+  udp: true
+  uuid: bb2b0112-577f-4862-886a-3c2ee004ca23
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇫🇷 法国 06'
+  name: '[I] 🇫🇷 法国 06'
   password: RjG_Pd534ZVJRMdODjCNMA
   port: 1080
   server: 45.92.218.56
   type: ss
+- name: '[I] 🇫🇷 法国 07'
+  network: tcp
+  port: 8443
+  server: cdn3-25.vk-cdnvideo.com
+  tls: true
+  type: vless
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
