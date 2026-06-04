@@ -1,1 +1,73 @@
-proxies: []
+proxies:
+- name: '[F] 🇺🇸 美国 01'
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 5224
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇺🇸 美国 02'
+  network: tcp
+  password: d84665c37878196ecf983cf6910e3b44
+  port: 6604
+  server: 18.167.173.1
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇺🇸 美国 03'
+  network: tcp
+  password: BxceQaOe
+  port: 22057
+  server: 18.166.154.20
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[F] 🇺🇸 美国 04'
+  port: 180
+  server: 82.198.246.250
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- alterId: 0
+  cipher: auto
+  name: '[G] 🇺🇸 美国 05'
+  network: tcp
+  port: '180'
+  server: 82.198.246.250
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- multiplexing: MULTIPLEXING_LOW
+  name: '[H] 🇺🇸 美国 06'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: randomized
+  name: '[H] 🇺🇸 美国 07'
+  network: ws
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  port: '443'
+  server: 104.19.174.68
+  skip-cert-verify: false
+  sni: azadnet-5vk.pages.dev
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan
+- cipher: aes-128-gcm
+  name: '[I] 🇺🇸 美国 08'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
