@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇺🇸 美国 01'
+- name: '[D] 🇺🇸 美国 01'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
@@ -7,7 +7,7 @@ proxies:
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 02'
+- name: '[E] 🇺🇸 美国 02'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5224
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 03'
+- name: '[E] 🇺🇸 美国 03'
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -25,7 +25,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 04'
+  name: '[E] 🇺🇸 美国 04'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -34,7 +34,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 05'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -42,84 +42,60 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- name: '[H] 🇺🇸 美国 06'
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇺🇸 美国 06'
+  network: xhttp
+  port: '443'
+  server: 104.19.229.21
+  servername: www.middle.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: bdd885ff-1b3b-40fd-93d5-ac2b29b90f8b
+  xhttp-opts:
+    host: www.middle.cc.cd
+    mode: stream-one
+    path: /settings----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
+  xudp: true
+- encryption: none
+  name: '[G] 🇺🇸 美国 07'
   network: ws
-  port: 8880
-  server: 45.153.7.40
+  packet-encoding: xudp
+  port: 80
+  server: 162.159.81.57
+  skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
   ws-opts:
     headers:
-      Host: vms.lifetime11.workers.dev
-    path: /
-- name: '[H] 🇺🇸 美国 07'
-  network: ws
-  port: 8880
-  server: 45.153.7.50
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime11.workers.dev
-    path: /
-- name: '[H] 🇺🇸 美国 08'
-  network: ws
-  port: 8880
-  server: 185.162.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime02.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
+  xudp: true
 - alpn:
   - h2
+  - http/1.1
   client-fingerprint: chrome
-  fp: chrome
-  name: '[H] 🇺🇸 美国 09'
-  packet-encoding: xudp
-  password: 1c61845e-2a5c-45ae-a34e-8968cb85cc0d
-  port: 51112
-  server: 38.99.248.217
-  skip-cert-verify: false
-  sni: nauk.eu.cc
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 11'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: K7no4vVZPV-eW6uFsq2xP3m5bwuau4bSvRU1bnFs80k
-    short-id: '!!str fcfb56dcc1d63834'
-  server: 150.241.72.169
-  servername: cxcczechia1.chickenkiller.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 12'
+  name: '[G] 🇺🇸 美国 08'
   network: ws
-  port: '16353'
-  server: 173.249.203.40
-  servername: r8wez3psbuhgs6lgju.sate.qzz.io
+  port: '443'
+  server: 45.130.125.76
+  servername: meh.dorostify.com
   tls: true
   type: vless
   udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
+  uuid: 48083240-0059-4636-9092-a0dd611ed5b7
   ws-opts:
     headers:
-      Host: r8wez3psbuhgs6lgju.sate.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /@Marisa_kristifp=chrome
+      Host: meh.dorostify.com
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /
   xudp: true
