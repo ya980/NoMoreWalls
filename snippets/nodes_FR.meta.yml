@@ -1,5 +1,5 @@
 proxies:
-- name: '[D] 🇫🇷 法国 01'
+- name: '[C] 🇫🇷 法国 01'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -9,7 +9,7 @@ proxies:
   sni: qs.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
+- name: '[C] 🇫🇷 法国 02'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -19,7 +19,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
+- name: '[D] 🇫🇷 法国 03'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.26.173
@@ -28,7 +28,7 @@ proxies:
   tfo: false
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 04'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.29.98
@@ -37,11 +37,19 @@ proxies:
   tfo: false
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
-  password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
-  port: 11000
-  server: 185.227.108.195
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 05'
+  network: tcp
+  packet-encoding: xudp
+  port: 34754
+  reality-opts:
+    public-key: eMijZKuJlNEciXbhyzdbewk-ot_JLMZVaA42bxKFcBM
+    short-id: '!!str c9eb0359fac0c345'
+  server: transparency.cloud-fr.appcore.org
+  servername: yahoo.com
   skip-cert-verify: false
-  sni: de-node.farnet.top
-  tls: false
-  type: hysteria2
+  tls: true
+  type: vless
+  udp: true
+  uuid: 35762c02-ff2b-4526-b41b-e96e5d99528b

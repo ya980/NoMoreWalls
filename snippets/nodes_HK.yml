@@ -1,30 +1,30 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[E] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 05'
+- name: '[E] 🇭🇰 香港 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
-  port: 53018
-  server: 18.167.173.1
+  port: 2008
+  server: 16.162.93.34
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
-  port: 11031
-  server: 95.40.80.85
+  port: 40748
+  server: 95.40.84.43
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 07'
+- name: '[E] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 50712
@@ -34,7 +34,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 08'
+  name: '[F] 🇭🇰 香港 08'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -42,12 +42,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[H] 🇭🇰 香港 09'
+- client-fingerprint: chrome
+  name: '[G] 🇭🇰 香港 09'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
+  port: '47909'
   server: 90081bb25c.node.tro.cac.cab
   skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tls: true
+  sni: is.01.naiun.bilibili.com
   type: trojan
   udp: true
+- cipher: aes-128-gcm
+  name: '[I] 🇭🇰 香港 11'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: 202.85.76.170
+  type: ss
