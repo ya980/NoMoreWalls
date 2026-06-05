@@ -11,12 +11,18 @@ proxies:
 - name: '[E] 🇺🇸 美国 02'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
+  server: 185.106.96.231
+  sni: s559.ccgfw.top
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 03'
+  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
+  port: 443
   server: 195.133.53.33
-  skip-cert-verify: false
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 03'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 5224
@@ -24,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 2520
@@ -34,7 +40,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 06'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -43,7 +49,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 06'
+  name: '[G] 🇺🇸 美国 07'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -51,60 +57,66 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- multiplexing: MULTIPLEXING_LOW
+  name: '[H] 🇺🇸 美国 08'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 07'
-  network: xhttp
-  port: '443'
-  server: 104.19.229.21
-  servername: www.middle.cc.cd
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 09'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: K7no4vVZPV-eW6uFsq2xP3m5bwuau4bSvRU1bnFs80k
+    short-id: '!!str fcfb56dcc1d63834'
+  server: 150.241.72.169
+  servername: cxcczechia1.chickenkiller.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bdd885ff-1b3b-40fd-93d5-ac2b29b90f8b
-  xhttp-opts:
-    host: www.middle.cc.cd
-    mode: stream-one
-    path: /settings----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
+  uuid: d78c12c4-6927-40b8-8550-ed9be00334da
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 10'
+  network: raw
+  port: '22231'
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
   xudp: true
-- encryption: none
-  name: '[H] 🇺🇸 美国 08'
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 162.159.81.57
+- client-fingerprint: edge
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 11'
+  network: raw
+  port: '22231'
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 12'
+  network: raw
+  port: '180'
+  server: 82.198.246.250
   skip-cert-verify: false
   tls: false
-  type: vless
+  type: vmess
   udp: true
-  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
-  ws-opts:
-    headers:
-      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
-    path: /eyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 09'
-  network: ws
-  port: '443'
-  server: 45.130.125.76
-  servername: meh.dorostify.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48083240-0059-4636-9092-a0dd611ed5b7
-  ws-opts:
-    headers:
-      Host: meh.dorostify.com
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /
+  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
   xudp: true

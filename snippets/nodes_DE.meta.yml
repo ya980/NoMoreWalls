@@ -14,86 +14,120 @@ proxies:
   obfs-password: masir_sefid
   password: masir_sefid
   port: 443
-  server: 18.157.51.145
-  skip-cert-verify: false
-  sni: content.masir-sefid.shop
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
-  obfs: salamander
-  obfs-password: masir_sefid
-  password: masir_sefid
-  port: 443
   server: 18.194.63.255
   skip-cert-verify: false
   sni: content.masir-sefid.shop
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 04'
-  password: amazonskr05
-  port: 443
-  server: 3.79.104.163
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- name: '[H] 🇩🇪 德国 05'
-  network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 155.117.198.83
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  type: trojan
-- encryption: none
-  name: '[H] 🇩🇪 德国 06'
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 03'
   network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 104.25.122.72
-  skip-cert-verify: false
-  tls: false
+  port: '443'
+  server: iranzell.amargir.com
+  servername: sarina.powernad.ir
+  tls: true
   type: vless
   udp: true
-  uuid: 6cd78ec7-b715-471c-92b4-0c3842caea4b
+  uuid: 8671df15-35a0-41ad-a10d-e5692ffb6876
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: billowing-cloud-d339.sospanel.workers.dev
-    max-early-data: 2560
-    path: /eyJqdW5rIjoiVXRIT2UwaDUiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
+      Host: sarina.powernad.ir
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /swerfwerfmklm
   xudp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 07'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 04'
   network: ws
+  port: '2053'
+  server: legend.zdshop.ir
+  servername: 6457e62e4c03bd19.kiWiJuiCe.IR.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 65e15e1f-7bb5-4eb9-8d60-b87a21b5564c
+  ws-opts:
+    headers:
+      Host: 65c712f3febf2273.kiWiJuiCe.IR.
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: ''
+  xudp: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 05'
+  network: tcp
   packet-encoding: xudp
-  port: 8443
-  server: 190.93.247.250
-  servername: mers2.dorebaba.ir
+  port: 2040
+  reality-opts:
+    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
+    short-id: '!!str 53197c66aef53c44'
+  server: 108.165.174.83
+  servername: apple.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: b1766da2-40c0-4a41-817e-e60850f85ab5
-  ws-opts:
-    headers:
-      Host: mers.dorebaba.ir
-    path: /@shopcar?ed
+  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 06'
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  server: 82.202.142.133
+  servername: cdn9-33.vk-cdnvideo.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 07'
+  network: xhttp
+  port: '443'
+  server: 188.114.98.0
+  servername: drive.speegy.club
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dbad6ba-be87-46e1-ab90-30c53ef1878d
+  xhttp-opts:
+    mode: auto
+    path: /sreztjsterw4j
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   name: '[H] 🇩🇪 德国 08'
-  network: ws
-  port: '443'
-  server: 192.200.160.3
-  servername: sync.amordad.xyz
+  network: tcp
+  port: '8443'
+  server: 89.232.177.114
+  servername: cdn3-87.vk-cdnvideo.com
   tls: true
   type: vless
   udp: true
-  uuid: 5b6be23b-dff4-428f-8a60-4f11568abe12
-  ws-opts:
-    headers:
-      Host: sync.amordad.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /api/v1/stream
+  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 09'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: lOCJA77F2V7AfA1aEvq32aYrXXuBoH-TM2q_gAe2b2c
+    short-id: '!!str '
+  server: 64.188.91.26
+  servername: addons.mozilla.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: a06565e7-b96a-41f0-91af-dea4dab20e54
   xudp: true
