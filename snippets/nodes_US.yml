@@ -1,5 +1,5 @@
 proxies:
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -25,7 +25,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 08'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -34,7 +34,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 11'
+  name: '[G] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -42,3 +42,63 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 12'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 8443
+  server: 64.186.240.9
+  sni: dxy1h.twiladaphne.ndjp.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dxy1h.twiladaphne.ndjp.net
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- cipher: aes-128-gcm
+  name: '[H] 🇺🇸 美国 13'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 154.26.181.85
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: '[H] 🇺🇸 美国 14'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 64.186.238.108
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: '[H] 🇺🇸 美国 15'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 154.21.91.144
+  skip-cert-verify: false
+  type: ss
+  udp: false

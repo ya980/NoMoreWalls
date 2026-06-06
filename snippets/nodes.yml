@@ -1,20 +1,20 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 25'
+  name: '[F] 🌍 其它地区 28'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 03'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -78,7 +78,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -86,7 +86,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -94,7 +94,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -104,7 +104,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 08'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -113,7 +113,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 05'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -123,7 +123,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 11'
+  name: '[G] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -131,58 +131,102 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- cipher: aes-256-gcm
-  name: '[H] 🇷🇺 俄罗斯 03'
-  password: fbaf33bcffe53cf9
-  port: '20129'
-  server: 195.58.49.104
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇸🇬 新加坡 04'
-  network: ws
-  port: 16618
-  server: t.cnmjcn.cyou
-  type: vmess
-  uuid: cef172fc-87b0-4db7-9ffc-52b5aca91014
-  ws-opts:
-    headers:
-      Host: 781a7e8778459cb48b666fc3985a2450.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[H] 🌍 其它地区 28'
-  network: ws
-  port: 16626
-  server: planb.mojcn.com
-  type: vmess
-  uuid: cef172fc-87b0-4db7-9ffc-52b5aca91014
-  ws-opts:
-    headers:
-      Host: 781a7e8778459cb48b666fc3985a2450.mobgslb.tbcache.com
-    path: /
-- name: '[H] 🌍 其它地区 29'
-  network: tcp
+- name: '[H] 🌍 其它地区 30'
   password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
+  port: '48697'
   server: 155.117.198.87
   skip-cert-verify: true
   sni: gh.01.naiun.bilibili.com
   type: trojan
-- name: '[H] 🇯🇵 日本 04'
+  udp: true
+- name: '[H] 🇺🇸 美国 12'
   network: ws
   password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  port: '8443'
-  server: 47.245.62.4
+  port: 8443
+  server: 64.186.240.9
+  sni: dxy1h.twiladaphne.ndjp.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dxy1h.twiladaphne.ndjp.net
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- cipher: aes-128-gcm
+  name: '[H] 🇺🇸 美国 13'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 154.26.181.85
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: '[H] 🇺🇸 美国 14'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 64.186.238.108
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: '[H] 🇺🇸 美国 15'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 154.21.91.144
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: '[H] 🇯🇵 日本 04'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: cdn.9889888.xyz
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- name: '[H] 🇸🇬 新加坡 04'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: '443'
+  server: 13.250.131.37
   skip-cert-verify: false
   sni: dxy1h.twiladaphne.ndjp.net
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🇨🇦 加拿大 03'
@@ -191,19 +235,19 @@ proxies:
   server: 81.19.140.118
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 32'
+  name: '[I] 🌍 其它地区 33'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.181
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 33'
+  name: '[I] 🌍 其它地区 34'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.183
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 34'
+  name: '[I] 🌍 其它地区 35'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 82.38.31.182

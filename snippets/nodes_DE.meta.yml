@@ -11,62 +11,24 @@ proxies:
   type: hysteria2
 - alpn:
   - h2
-  - http/1.1
   client-fingerprint: chrome
   encryption: none
   name: '[H] 🇩🇪 德国 02'
   network: xhttp
-  port: '8443'
-  server: 172.64.159.217
-  servername: app5.dr-ping.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 77e69c70-31b4-44ea-af46-4664df9a614c
-  xhttp-opts:
-    host: app5.dr-ping.com
-    mode: auto
-    path: /DrPing_channel
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.WBsloH8ugViNaolcmA3SoSBnYUM-F089rYyGwgi5hHE
-  name: '[H] 🇩🇪 德国 03'
-  network: xhttp
   port: '443'
-  server: 104.25.210.86
-  servername: s3.alivpn.qzz.io
+  server: core-shop.ir
+  servername: core-shop.ir
   tls: true
   type: vless
   udp: true
-  uuid: 93e48552-0034-434b-933b-b6b4909d165b
+  uuid: 4cb67898-2747-45a2-bb65-5b390431977c
   xhttp-opts:
-    host: s3.alivpn.qzz.io
+    host: core-shop.ir
     mode: auto
-    path: /take
+    path: /download
+    x-padding-bytes: 100-1000
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 04'
-  network: xhttp
-  packet-encoding: xudp
-  port: 15530
-  reality-opts:
-    public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
-    short-id: '!!str aa45df0f'
-  server: 178.18.147.163
-  servername: www.microsoft.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac121f97-544b-47b3-bf91-eca9c45db548
-  xhttp-opts:
-    path: /github.com/Alvin9999-newpac/fanqiang
-  xudp: true
-- name: '[I] 🇩🇪 德国 05'
+- name: '[I] 🇩🇪 德国 03'
   network: ws
   port: 80
   server: me.colorbox.space

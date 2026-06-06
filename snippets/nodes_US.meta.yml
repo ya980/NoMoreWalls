@@ -1,30 +1,25 @@
 proxies:
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 01'
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  port: 443
-  server: s869.okgfwbackxyz.xyz
-  skip-cert-verify: true
-  sni: u723829us869.okgfwbackxyz.xyz
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  port: 443
-  server: s869.okgfwbackxyz.xyz
-  skip-cert-verify: false
-  sni: u723829us869.okgfwbackxyz.xyz
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
+- name: '[E] 🇺🇸 美国 01'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 185.106.96.231
   sni: s559.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
+- down: ''
+  fingerprint: ''
+  name: '[E] 🇺🇸 美国 02'
+  obfs: ''
+  obfs-password: ''
+  password: miaoge110
+  port: 21180
+  server: 173.249.208.148
+  skip-cert-verify: true
+  sni: ''
+  tls: false
+  type: hysteria2
+  up: ''
+- name: '[E] 🇺🇸 美国 03'
   password: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
   port: 48653
   server: 192.129.193.206
@@ -32,25 +27,15 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 04'
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 06'
-  password: 1c65bee4-bc54-364c-8988-6a5912fda891
-  port: 443
-  server: 82.47.22.163
-  skip-cert-verify: true
-  sni: u723829us372.okgfw.top
-  tls: false
-  type: hysteria2
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 6604
@@ -58,7 +43,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 17005
@@ -66,7 +51,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -76,7 +61,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 08'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -85,7 +70,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 11'
+  name: '[G] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -93,133 +78,94 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 10'
+  network: ws
+  port: '443'
+  server: 104.18.155.229
+  servername: www.genflix.co.id.r3xxe.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
+  ws-opts:
+    headers:
+      Host: www.genflix.co.id.r3xxe.eu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /au-do
+  xudp: true
 - alpn:
-  - h3
   - h2
-  - http/1.1
   client-fingerprint: chrome
-  encryption: none
+  fp: chrome
+  name: '[H] 🇺🇸 美国 11'
+  packet-encoding: xudp
+  password: 1c61845e-2a5c-45ae-a34e-8968cb85cc0d
+  port: 51112
+  server: 38.99.248.217
+  skip-cert-verify: false
+  sni: nauk.eu.cc
+  type: anytls
+  udp: true
+- client-fingerprint: chrome
   name: '[H] 🇺🇸 美国 12'
-  network: xhttp
-  port: '443'
-  server: 104.18.152.233
-  servername: www.middle.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9f135709-60a1-4a9b-b31c-78d326d8752a
-  xhttp-opts:
-    host: www.middle.cc.cd
-    mode: stream-one
-    path: /settings----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE----VPNCUSTOMIZE
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: 8443
+  server: 64.186.240.9
+  sni: dxy1h.twiladaphne.ndjp.net
+  type: trojan
+  ws-opts:
+    headers:
+      Host: dxy1h.twiladaphne.ndjp.net
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226
+- cipher: aes-128-gcm
   name: '[H] 🇺🇸 美国 13'
-  network: ws
-  port: '443'
-  server: 209.46.30.149
-  servername: resources.office.com.r3xxe.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 933e8995-3b6d-4d42-8b23-e649f0e7205f
-  ws-opts:
-    headers:
-      Host: resources.office.com.r3xxe.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /us-gllc
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 154.26.181.85
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
   name: '[H] 🇺🇸 美国 14'
-  network: ws
-  port: '443'
-  server: 104.16.75.127
-  servername: resources.office.com.r3xxe.eu.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: 933e8995-3b6d-4d42-8b23-e649f0e7205f
-  ws-opts:
-    headers:
-      Host: resources.office.com.r3xxe.eu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /us-gllc
-  xudp: true
-- down: ''
-  fingerprint: ''
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 64.186.238.108
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
   name: '[H] 🇺🇸 美国 15'
-  obfs: ''
-  obfs-password: ''
-  password: miaoge110
-  port: 21180
-  server: 173.249.208.148
-  skip-cert-verify: true
-  sni: ''
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 16'
-  network: ws
-  port: '56305'
-  server: 103.146.90.5
-  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /@Marisa_kristifp=chrome
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 17'
-  network: ws
-  port: '56671'
-  server: 173.249.210.53
-  servername: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 00000000-0000-4000-8000-000000000000
-  ws-opts:
-    headers:
-      Host: 57vanjkxjo3kejbf4o2iul6z4o.gike.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/34.0.1847.131 Safari/537.36
-    path: /@Marisa_kristifp=chrome
-  xudp: true
-- name: '[H] 🇺🇸 美国 18'
-  network: ws
-  port: '8880'
-  server: 104.238.68.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime47.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /
-  xudp: true
-- name: '[H] 🇺🇸 美国 19'
-  network: ws
-  port: '8880'
-  server: 130.250.137.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime05.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /
-  xudp: true
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhyy.nn.kg
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 8443
+  server: 154.21.91.144
+  skip-cert-verify: false
+  type: ss
+  udp: false

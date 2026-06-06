@@ -1,5 +1,20 @@
 proxies:
 - name: '[E] 🇭🇰 香港 01'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 02'
+  password: IG9Sundefinedvx6RJ
+  port: 58771
+  server: 47.76.94.197
+  skip-cert-verify: true
+  sni: go.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 03'
   password: e3a5bb40be52de65
   port: 55555
   server: 89.251.26.111
@@ -9,14 +24,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 03'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
@@ -24,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -34,7 +49,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 05'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -42,3 +57,42 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇭🇰 香港 08'
+  network: xhttp
+  packet-encoding: xudp
+  port: 48864
+  reality-opts:
+    _spider-x: /
+    public-key: ZNjPwvsNl7HSDXA2WEXnWEFjHggKhjVq8-fXcCxa-0I
+    short-id: '!!str aa'
+  server: vps-rcv-hkg.maze-maker.com
+  servername: www.sony.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3927ac5a-c32c-42cb-be1b-f1ece562ad84
+  xhttp-opts:
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇭🇰 香港 09'
+  network: ws
+  port: '443'
+  server: another-cf.dnsyes.kawaii520.icu
+  servername: dfs8545fads4ds5f.another-appleid.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31fc82da-1136-4a84-a596-7fbba8026c1d
+  ws-opts:
+    headers:
+      Host: dfs8545fads4ds5f.another-appleid.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+  xudp: true
