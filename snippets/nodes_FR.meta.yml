@@ -1,5 +1,5 @@
 proxies:
-- name: '[C] 🇫🇷 法国 01'
+- name: '[D] 🇫🇷 法国 01'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -9,7 +9,7 @@ proxies:
   sni: qs.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '[C] 🇫🇷 法国 02'
+- name: '[D] 🇫🇷 法国 02'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -19,7 +19,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
+- name: '[E] 🇫🇷 法国 03'
   password: dongtaiwang.com
   port: 22000
   server: 62.210.124.146
@@ -27,7 +27,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
+- name: '[E] 🇫🇷 法国 04'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.26.173
@@ -35,7 +35,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 05'
+- name: '[E] 🇫🇷 法国 05'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 64772
   server: 62.210.29.98
@@ -43,7 +43,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 06'
+- name: '[E] 🇫🇷 法国 06'
   password: b880e510-8196-44bb-b715-781a9461b4a0
   port: 443
   server: de1.synthori.space
@@ -51,26 +51,26 @@ proxies:
   sni: de1.synthori.space
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
+- name: '[E] 🇫🇷 法国 07'
   password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
   port: 11000
   server: 185.227.108.195
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: de-node.farnet.top
   tls: false
   type: hysteria2
-- name: '[I] 🇫🇷 法国 08'
-  network: tcp
-  port: 52196
-  server: 51.83.22.65
-  tls: false
+- encryption: none
+  name: '[H] 🇫🇷 法国 08'
+  network: ws
+  port: '2095'
+  server: 104.16.75.127
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '[I] 🇫🇷 法国 09'
-  port: 1935
-  server: 51.83.22.65
-  tls: false
-  type: vless
+  udp: true
   uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
-    path: /
+    headers:
+      Host: fr.mamish.ir
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1606 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /ed=2560
+  xudp: true

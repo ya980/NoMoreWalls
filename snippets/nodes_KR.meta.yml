@@ -1,9 +1,18 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '[G] 🇰🇷 韩国 01'
-  password: qwerREWQ@@
-  port: 55104
-  server: 221.150.109.20
-  skip-cert-verify: false
-  type: ss
-  udp: false
+- client-fingerprint: chrome
+  name: '[H] 🇰🇷 韩国 01'
+  network: ws
+  port: '10891'
+  server: 165.246.171.218
+  servername: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00000000-0000-4000-8000-000000000000
+  ws-opts:
+    headers:
+      Host: 9cvs-zyn4r9-6gzdtuo0w.mikuru.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; MYA-L22 Build/HUAWEIMYA-L22) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /@Marisa_kristifp=chrome
+  xudp: true

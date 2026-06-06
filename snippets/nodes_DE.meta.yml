@@ -1,5 +1,5 @@
 proxies:
-- name: '[C] 🇩🇪 德国 01'
+- name: '[D] 🇩🇪 德国 01'
   obfs: salamander
   obfs-password: Masir_Sefid
   password: Masir_Sefid
@@ -9,7 +9,7 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '[C] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: masir_sefid
   password: masir_sefid
@@ -21,119 +21,66 @@ proxies:
   type: hysteria2
 - alpn:
   - h2
+  - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇩🇪 德国 03'
-  network: ws
-  port: '443'
-  server: iranzell.amargir.com
-  servername: sarina.powernad.ir
+  name: '[H] 🇩🇪 德国 03'
+  network: xhttp
+  port: '8443'
+  server: 172.64.159.217
+  servername: app5.dr-ping.com
   tls: true
   type: vless
   udp: true
-  uuid: 8671df15-35a0-41ad-a10d-e5692ffb6876
-  ws-opts:
-    headers:
-      Host: sarina.powernad.ir
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /swerfwerfmklm
+  uuid: 77e69c70-31b4-44ea-af46-4664df9a614c
+  xhttp-opts:
+    host: app5.dr-ping.com
+    mode: auto
+    path: /DrPing_channel
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 04'
-  network: ws
-  port: '2053'
-  server: legend.zdshop.ir
-  servername: 6457e62e4c03bd19.kiWiJuiCe.IR.
-  tls: true
-  type: vless
-  udp: true
-  uuid: 65e15e1f-7bb5-4eb9-8d60-b87a21b5564c
-  ws-opts:
-    headers:
-      Host: 65c712f3febf2273.kiWiJuiCe.IR.
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: ''
-  xudp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 05'
-  network: tcp
-  packet-encoding: xudp
-  port: 2040
-  reality-opts:
-    public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0
-    short-id: '!!str 53197c66aef53c44'
-  server: 108.165.174.83
-  servername: apple.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17451fec-af94-4715-8c2f-7f6839130d0a
-- client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 06'
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  server: 82.202.142.133
-  servername: cdn9-33.vk-cdnvideo.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
 - alpn:
   - h2
+  - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 07'
+  encryption: mlkem768x25519plus.native.0rtt.WBsloH8ugViNaolcmA3SoSBnYUM-F089rYyGwgi5hHE
+  name: '[H] 🇩🇪 德国 04'
   network: xhttp
   port: '443'
-  server: 188.114.98.0
-  servername: drive.speegy.club
+  server: 104.25.210.86
+  servername: s3.alivpn.qzz.io
   tls: true
   type: vless
   udp: true
-  uuid: 0dbad6ba-be87-46e1-ab90-30c53ef1878d
+  uuid: 93e48552-0034-434b-933b-b6b4909d165b
   xhttp-opts:
+    host: s3.alivpn.qzz.io
     mode: auto
-    path: /sreztjsterw4j
+    path: /take
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇩🇪 德国 08'
-  network: tcp
-  port: '8443'
-  server: 89.232.177.114
-  servername: cdn3-87.vk-cdnvideo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 09'
-  network: raw
-  port: '443'
+  name: '[H] 🇩🇪 德国 05'
+  network: xhttp
+  packet-encoding: xudp
+  port: 15530
   reality-opts:
-    public-key: lOCJA77F2V7AfA1aEvq32aYrXXuBoH-TM2q_gAe2b2c
-    short-id: '!!str '
-  server: 64.188.91.26
-  servername: addons.mozilla.org
+    public-key: w8JMWRzOsYUuBeI0i_te745nBRlDocMOTgGMMZLioik
+    short-id: '!!str aa45df0f'
+  server: 178.18.147.163
+  servername: www.microsoft.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: a06565e7-b96a-41f0-91af-dea4dab20e54
+  uuid: ac121f97-544b-47b3-bf91-eca9c45db548
+  xhttp-opts:
+    path: /github.com/Alvin9999-newpac/fanqiang
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇩🇪 德国 10'
-  password: V6_RXT2UlL5ONSD3Fmvd9XqBGNmespBu
-  port: 28893
-  server: 103.244.145.247
-  type: ss
+- name: '[I] 🇩🇪 德国 06'
+  network: ws
+  port: 80
+  server: me.colorbox.space
+  servername: me.colorbox.space
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
