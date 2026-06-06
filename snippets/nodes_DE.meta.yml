@@ -9,22 +9,12 @@ proxies:
   sni: free.masir-sefid.shop
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
-  obfs: salamander
-  obfs-password: masir_sefid
-  password: masir_sefid
-  port: 443
-  server: 18.194.63.255
-  skip-cert-verify: false
-  sni: content.masir-sefid.shop
-  tls: false
-  type: hysteria2
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 03'
+  name: '[H] 🇩🇪 德国 02'
   network: xhttp
   port: '8443'
   server: 172.64.159.217
@@ -43,7 +33,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.WBsloH8ugViNaolcmA3SoSBnYUM-F089rYyGwgi5hHE
-  name: '[H] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 03'
   network: xhttp
   port: '443'
   server: 104.25.210.86
@@ -59,7 +49,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 05'
+  name: '[H] 🇩🇪 德国 04'
   network: xhttp
   packet-encoding: xudp
   port: 15530
@@ -76,7 +66,7 @@ proxies:
   xhttp-opts:
     path: /github.com/Alvin9999-newpac/fanqiang
   xudp: true
-- name: '[I] 🇩🇪 德国 06'
+- name: '[I] 🇩🇪 德国 05'
   network: ws
   port: 80
   server: me.colorbox.space
