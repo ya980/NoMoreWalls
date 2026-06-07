@@ -269,6 +269,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
+- name: '[C] SE 01'
+  password: b880e510-8196-44bb-b715-781a9461b4a0
+  port: 8443
+  server: aestheticperforator.ru
+  skip-cert-verify: false
+  sni: aestheticperforator.ru
+  tls: false
+  type: hysteria2
 - name: '[C] 🌍 其它地区 25'
   password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
   port: 11004
@@ -364,10 +372,18 @@ proxies:
   sni: de2.xiaoliyu.cyou
   tls: false
   type: hysteria2
+- name: '[D] 🇷🇺 俄罗斯 02'
+  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
+  port: 4433
+  server: 185.228.139.247
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '[D] 🇭🇰 香港 01'
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 56309
   server: hkt.ccwink.cc
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[D] 🇭🇰 香港 02'
@@ -378,14 +394,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇭🇰 香港 03'
-  password: IG9Sundefinedvx6RJ
-  port: 58771
-  server: 47.76.94.197
-  skip-cert-verify: true
-  sni: go.microsoft.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇭🇰 香港 04'
   password: e3a5bb40be52de65
   port: 55555
   server: 89.251.26.111
@@ -393,44 +401,12 @@ proxies:
   sni: apps.apple.com
   tls: false
   type: hysteria2
-- name: '[D] CH 01'
-  password: 341bc5bf-a705-433a-a393-ba3894f087c0
-  port: 443
-  server: 14.node.snly.win
-  skip-cert-verify: false
-  sni: flc.ydns.eu
-  tls: false
-  type: hysteria2
 - name: '[D] 🇺🇸 美国 01'
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: 443
-  server: 185.106.96.231
-  sni: s559.ccgfw.top
-  tls: false
-  type: hysteria2
-- fingerprint: ''
-  name: '[D] 🇺🇸 美国 02'
-  password: miaoge110
-  port: 21180
-  server: 173.249.208.148
-  skip-cert-verify: true
-  sni: ''
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 03'
   password: c1a8dee0-bdad-4b6d-9926-5e15c3c8ed7d
   port: 48653
   server: 192.129.193.206
   skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 04'
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: 443
-  server: 195.133.53.33
-  skip-cert-verify: true
-  sni: s516.okgfw.top
   tls: false
   type: hysteria2
 - name: '[D] 🇨🇦 加拿大 01'
@@ -442,38 +418,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇨🇦 加拿大 02'
-  password: 341bc5bf-a705-433a-a393-ba3894f087c0
-  port: 443
-  server: 1.node.snly.win
-  skip-cert-verify: false
-  sni: flc.ydns.eu
-  tls: false
-  type: hysteria2
-- name: '[D] 🇨🇦 加拿大 03'
-  password: 341bc5bf-a705-433a-a393-ba3894f087c0
-  port: 443
-  server: 18.node.snly.win
-  skip-cert-verify: false
-  sni: flc.ydns.eu
-  tls: false
-  type: hysteria2
-- name: '[D] 🇨🇦 加拿大 04'
-  password: 341bc5bf-a705-433a-a393-ba3894f087c0
-  port: 443
-  server: 3.node.snly.win
-  skip-cert-verify: false
-  sni: flc.ydns.eu
-  tls: false
-  type: hysteria2
-- name: '[D] 🇨🇦 加拿大 05'
-  password: 341bc5bf-a705-433a-a393-ba3894f087c0
-  port: 443
-  server: 2.node.snly.win
-  skip-cert-verify: false
-  sni: flc.ydns.eu
-  tls: false
-  type: hysteria2
-- name: '[D] 🇨🇦 加拿大 06'
   password: b880e510-8196-44bb-b715-781a9461b4a0
   port: 8443
   server: 77.221.142.220
@@ -481,14 +425,16 @@ proxies:
   sni: aestheticperforator.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇨🇦 加拿大 07'
-  password: b880e510-8196-44bb-b715-781a9461b4a0
-  port: 8443
-  server: aestheticperforator.ru
-  skip-cert-verify: true
-  sni: aestheticperforator.ru
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇷🇺 俄罗斯 03'
+  network: tcp
+  port: '1020'
+  server: nlt.reata.ir
+  servername: ''
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c
 - cipher: aes-256-cfb
   name: '[E] 🌍 其它地区 30'
   password: amazonskr05
@@ -497,14 +443,14 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 05'
+  name: '[E] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 05'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
@@ -512,7 +458,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 07'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11031
@@ -520,7 +466,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 08'
+- name: '[E] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -560,7 +506,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 02'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 49277
@@ -568,7 +514,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 03'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -578,7 +524,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 07'
+  name: '[E] 🇺🇸 美国 04'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -587,7 +533,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 08'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -597,7 +543,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 05'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -626,7 +572,7 @@ proxies:
 - alpn:
   - h2
   fp: chrome
-  name: '[G] 🇺🇸 美国 09'
+  name: '[G] 🇺🇸 美国 06'
   packet-encoding: xudp
   password: 1c61845e-2a5c-45ae-a34e-8968cb85cc0d
   port: 51112
@@ -776,7 +722,7 @@ proxies:
   uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c
   xudp: true
 - cipher: aes-256-cfb
-  name: '[G] 🇨🇦 加拿大 08'
+  name: '[G] 🇨🇦 加拿大 03'
   password: amazonskr05
   port: '443'
   server: 3.96.152.83
@@ -907,7 +853,7 @@ proxies:
   xudp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 10'
+  name: '[G] 🇺🇸 美国 07'
   network: tcp
   port: '7443'
   reality-opts:
@@ -923,7 +869,7 @@ proxies:
 - client-fingerprint: edge
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 11'
+  name: '[G] 🇺🇸 美国 08'
   network: tcp
   port: '22231'
   server: r1.mizulina.top
@@ -968,7 +914,7 @@ proxies:
   tls: true
   type: http
   username: a18ef18e-293a-11ef-b76e-f23c91cfbbc9
-- name: '[G] 🇭🇰 香港 10'
+- name: '[G] 🇭🇰 香港 09'
   password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
   port: 5228
   server: ff28248a-t9zts0-tb08pe-luwe.cm4.oshuawei.com
@@ -984,7 +930,7 @@ proxies:
   tls: true
   type: http
   username: 526a1128-7487-11ee-9bca-f23c913c8d2b
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 10'
   password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
   port: 5228
   server: 79673ec2-tekn40-ts40sw-14g76.cm4.oshuawei.com
@@ -1003,7 +949,7 @@ proxies:
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-cfb
-  name: '[G] 🇨🇦 加拿大 09'
+  name: '[G] 🇨🇦 加拿大 04'
   password: amazonskr05
   port: 443
   server: 52.60.99.199
@@ -1019,7 +965,7 @@ proxies:
   tfo: false
   type: hysteria2
 - cipher: aes-256-gcm
-  name: '[G] 🇷🇺 俄罗斯 02'
+  name: '[G] 🇷🇺 俄罗斯 04'
   password: 32c0ea6e823341a2
   port: 20129
   server: 46.29.163.200
@@ -1051,7 +997,7 @@ proxies:
   uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[G] SE 01'
+  name: '[G] SE 02'
   network: tcp
   packet-encoding: xudp
   port: 47200
@@ -1081,7 +1027,7 @@ proxies:
   udp: true
   uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
 - client-fingerprint: firefox
-  name: '[G] CH 02'
+  name: '[G] CH 01'
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -1119,7 +1065,7 @@ proxies:
 - client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 12'
+  name: '[G] 🇺🇸 美国 09'
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -1134,7 +1080,7 @@ proxies:
   udp: true
   uuid: 888403d1-621b-481a-b5dc-7aca518a787b
 - cipher: chacha20-ietf-poly1305
-  name: '[G] 🇺🇸 美国 13'
+  name: '[G] 🇺🇸 美国 10'
   password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
   port: 51523
   server: ru.moktana.app
@@ -1152,7 +1098,7 @@ proxies:
   udp: true
 - encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 14'
+  name: '[G] 🇺🇸 美国 11'
   network: tcp
   port: '443'
   reality-opts:
@@ -1181,7 +1127,7 @@ proxies:
     mode: auto
     path: /sreztjsterw4j
   xudp: true
-- name: '[G] CH 03'
+- name: '[G] CH 02'
   network: xhttp
   port: '443'
   server: ch-xh-01.hpdata.click
@@ -1236,7 +1182,7 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 15'
+  name: '[I] 🇺🇸 美国 12'
   network: tcp
   port: '180'
   server: 82.198.246.214
@@ -1245,7 +1191,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 16'
+  name: '[I] 🇺🇸 美国 13'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
@@ -1331,31 +1277,31 @@ proxies:
   server: 40.123.244.72
   type: ss
 - cipher: aes-128-gcm
-  name: '[I] 🇭🇰 香港 12'
+  name: '[I] 🇭🇰 香港 11'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: 202.85.76.170
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 13'
+  name: '[I] 🇭🇰 香港 12'
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 11688
   server: ss.006.node-for-bigairport.win
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 14'
+  name: '[I] 🇭🇰 香港 13'
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 36888
   server: ss.007.node-for-bigairport.win
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 15'
+  name: '[I] 🇭🇰 香港 14'
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 15099
   server: ss.013.node-for-bigairport.win
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 16'
+  name: '[I] 🇭🇰 香港 15'
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 16098
   server: ss.018.node-for-bigairport.win
@@ -1367,7 +1313,7 @@ proxies:
   server: ss.023.node-for-bigairport.win
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 17'
+  name: '[I] 🇭🇰 香港 16'
   password: 6c4bd474-ac23-47fc-8742-c8f990357836
   port: 13006
   server: ss.020.node-for-bigairport.win

@@ -1,14 +1,6 @@
 proxies:
-- name: '[D] CH 01'
-  password: 341bc5bf-a705-433a-a393-ba3894f087c0
-  port: 443
-  server: 14.node.snly.win
-  skip-cert-verify: false
-  sni: flc.ydns.eu
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
-  name: '[G] CH 02'
+  name: '[G] CH 01'
   network: xhttp
   packet-encoding: xudp
   port: 443
@@ -26,7 +18,7 @@ proxies:
     mode: stream-up
     path: /xh
 - client-fingerprint: chrome
-  name: '[G] CH 03'
+  name: '[G] CH 02'
   network: xhttp
   port: '443'
   server: ch-xh-01.hpdata.click
