@@ -1,19 +1,26 @@
 proxies:
-- name: '[E] 🇭🇰 香港 01'
+- name: '[D] 🇭🇰 香港 01'
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 56309
   server: hkt.ccwink.cc
-  skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇭🇰 香港 02'
+- name: '[D] 🇭🇰 香港 02'
   password: 45dae7e6-4573-4e6b-a1f3-57b3bbaf990d
   port: 65534
   server: hk02.xn--9kq85xcu6b.com
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇭🇰 香港 03'
+- name: '[D] 🇭🇰 香港 03'
+  password: IG9Sundefinedvx6RJ
+  port: 58771
+  server: 47.76.94.197
+  skip-cert-verify: true
+  sni: go.microsoft.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇭🇰 香港 04'
   password: e3a5bb40be52de65
   port: 55555
   server: 89.251.26.111
@@ -23,22 +30,30 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[E] 🇭🇰 香港 05'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 05'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: d84665c37878196ecf983cf6910e3b44
   port: 53018
-  server: 43.198.226.205
+  server: 43.199.71.149
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 07'
+  network: tcp
+  password: BxceQaOe
+  port: 11031
+  server: 95.40.84.247
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[E] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 4327
@@ -48,7 +63,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 09'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -56,42 +71,54 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇭🇰 香港 08'
-  network: xhttp
-  packet-encoding: xudp
-  port: 48864
-  reality-opts:
-    _spider-x: /
-    public-key: ZNjPwvsNl7HSDXA2WEXnWEFjHggKhjVq8-fXcCxa-0I
-    short-id: '!!str aa'
-  server: vps-rcv-hkg.maze-maker.com
-  servername: www.sony.com
-  skip-cert-verify: false
+- name: '[G] 🇭🇰 香港 10'
+  password: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+  port: 5228
+  server: ff28248a-t9zts0-tb08pe-luwe.cm4.oshuawei.com
+  sni: ff28248a-t9zts0-tb08pe-luwe.cm4.oshuawei.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 3927ac5a-c32c-42cb-be1b-f1ece562ad84
-  xhttp-opts:
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇭🇰 香港 09'
-  network: ws
-  port: '443'
-  server: another-cf.dnsyes.kawaii520.icu
-  servername: dfs8545fads4ds5f.another-appleid.ccwu.cc
+  type: http
+  username: a2b0fd2b-716f-0df8-d4e2-03a1c00e5f1a
+- name: '[G] 🇭🇰 香港 11'
+  password: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+  port: 5228
+  server: 79673ec2-tekn40-ts40sw-14g76.cm4.oshuawei.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 31fc82da-1136-4a84-a596-7fbba8026c1d
-  ws-opts:
-    headers:
-      Host: dfs8545fads4ds5f.another-appleid.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
+  type: http
+  username: 4729b4c8-1790-11eb-8684-f23c913c8d2b
+- cipher: aes-128-gcm
+  name: '[I] 🇭🇰 香港 12'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: 202.85.76.170
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🇭🇰 香港 13'
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 11688
+  server: ss.006.node-for-bigairport.win
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🇭🇰 香港 14'
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 36888
+  server: ss.007.node-for-bigairport.win
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🇭🇰 香港 15'
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 15099
+  server: ss.013.node-for-bigairport.win
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🇭🇰 香港 16'
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 16098
+  server: ss.018.node-for-bigairport.win
+  type: ss
+- cipher: aes-256-gcm
+  name: '[I] 🇭🇰 香港 17'
+  password: 6c4bd474-ac23-47fc-8742-c8f990357836
+  port: 13006
+  server: ss.020.node-for-bigairport.win
+  type: ss

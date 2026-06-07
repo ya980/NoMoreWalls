@@ -1,40 +1,41 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] CH 01'
-  network: tcp
-  port: '443'
-  server: 195.15.253.119
-  servername: free2.masir-sefid-1.my
+- name: '[D] CH 01'
+  password: 341bc5bf-a705-433a-a393-ba3894f087c0
+  port: 443
+  server: 14.node.snly.win
+  skip-cert-verify: false
+  sni: flc.ydns.eu
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
+  name: '[G] CH 02'
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
+    short-id: '!!str 6ba85179e30d4fc3'
+  server: l10-1.l-itx.info
+  servername: yandex.by
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e72dfecf-7d26-4065-94cc-3fc6ce2d8314
+  uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
+  xhttp-opts:
+    mode: stream-up
+    path: /xh
+- client-fingerprint: chrome
+  name: '[G] CH 03'
+  network: xhttp
+  port: '443'
+  server: ch-xh-01.hpdata.click
+  servername: ch-xh-01.hpdata.click
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
+  xhttp-opts:
+    mode: packet-up
+    path: /vk
   xudp: true
-- down: ''
-  fingerprint: ''
-  name: '[H] CH 02'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: '8880'
-  server: 195.15.253.119
-  skip-cert-verify: false
-  sni: free2.masir-sefid-1.my
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '[H] CH 03'
-  obfs: salamander
-  obfs-password: Masir_Sefid
-  password: Masir_Sefid
-  port: '444'
-  server: 195.15.253.119
-  skip-cert-verify: false
-  sni: free2.masir-sefid-1.my
-  type: hysteria2
-  up: ''

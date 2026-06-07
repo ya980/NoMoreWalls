@@ -1,33 +1,38 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇨🇳 台湾 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: '!!str 473277e2'
-  server: tw3.miyazono-kaori.com
-  servername: dlcdnets.asus.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇨🇳 台湾 02'
-  network: tcp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: JE82iOR_U_H7ffxJ5yfoxXeRkMlE-aVu1wxR7n6jrVM
-    short-id: '!!str 473277e2'
-  server: 43.212.235.169
-  servername: dlcdnets.asus.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇨🇳 台湾 01'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001269pz2.cybervena.com
+  type: ss
   udp: true
-  uuid: bce38beb-a6d0-41d7-9c0a-26eed9a6634d
+- name: '[G] 🇨🇳 台湾 02'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- name: '[G] 🇨🇳 台湾 03'
+  password: mrwdfNTD8M79LCukCieldrqZWqs=
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: true
+  sni: twmoon1-cdn-route.couldflare-cdn.com
+  tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇨🇳 台湾 04'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: nbmrcg0034686rw.cybervena.com
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇨🇳 台湾 05'
+  password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4
+  port: 50099
+  server: r3mrcg001286ek2.cybervena.com
+  type: ss

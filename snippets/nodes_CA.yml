@@ -1,7 +1,16 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇨🇦 加拿大 03'
-  password: EmhxsngfViSXtSR0aEDZF1
-  port: 443
-  server: 81.19.140.118
+- cipher: aes-256-cfb
+  name: '[G] 🇨🇦 加拿大 08'
+  password: amazonskr05
+  port: '443'
+  server: 3.96.152.83
   type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] 🇨🇦 加拿大 09'
+  password: amazonskr05
+  port: 443
+  server: 52.60.99.199
+  skip-cert-verify: false
+  type: ss
+  udp: false
