@@ -1,7 +1,18 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇫🇷 法国 07'
-  password: xs-h9TyN3xE21ntt8osfVg
-  port: 1080
-  server: 45.67.139.93
-  type: ss
+- name: '[H] 🇫🇷 法国 05'
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 155.117.198.86
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- name: '[H] 🇫🇷 法国 06'
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 48697
+  server: 155.117.198.89
+  skip-cert-verify: true
+  sni: gh.01.naiun.bilibili.com
+  type: trojan

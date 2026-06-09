@@ -1,26 +1,17 @@
 proxies:
 - client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] CH 01'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: '45553'
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
-  udp: true
-- encryption: none
-  name: '[H] CH 02'
-  network: ws
-  packet-encoding: xudp
-  port: 8880
-  server: m.exon-software.ir
-  skip-cert-verify: false
-  tls: false
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+    short-id: '!!str '
+  server: de25.whost-solutions.ru
+  servername: nl05.whost-solutions.ru
+  tls: true
   type: vless
   udp: true
-  uuid: 4788ff67-57af-425a-9b47-5a63b20e2f57
-  ws-opts:
-    headers:
-      Host: m.mobile-unix.ir
-    path: /?ed
-    v2ray-http-upgrade: true
+  uuid: e7cb547e-5a74-4695-9019-a2c93e7593ea
+  xudp: true
