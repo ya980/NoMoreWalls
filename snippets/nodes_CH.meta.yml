@@ -1,33 +1,26 @@
 proxies:
-- client-fingerprint: firefox
-  name: '[H] CH 01'
-  network: xhttp
-  packet-encoding: xudp
-  port: 443
-  reality-opts:
-    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
-    short-id: '!!str 6ba85179e30d4fc3'
-  server: l10-1.l-itx.info
-  servername: yandex.by
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4
-  xhttp-opts:
-    mode: stream-up
-    path: /xh
 - client-fingerprint: chrome
+  name: '[H] CH 01'
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: '45553'
+  server: 90081bb25c.node.tro.cac.cab
+  skip-cert-verify: true
+  sni: ch.01.naiun.bilibili.com
+  type: trojan
+  udp: true
+- encryption: none
   name: '[H] CH 02'
-  network: xhttp
-  port: '443'
-  server: ch-xh-01.hpdata.click
-  servername: ch-xh-01.hpdata.click
-  tls: true
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: m.exon-software.ir
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: 1014818b-5c5c-46b1-98fe-eaf8d5eba642
-  xhttp-opts:
-    mode: packet-up
-    path: /vk
-  xudp: true
+  uuid: 4788ff67-57af-425a-9b47-5a63b20e2f57
+  ws-opts:
+    headers:
+      Host: m.mobile-unix.ir
+    path: /?ed
+    v2ray-http-upgrade: true

@@ -1,31 +1,29 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '[H] 🇰🇷 韩国 01'
-  password: qwerREWQ@@
-  port: '55104'
-  server: 221.150.109.20
-  type: ss
+- name: '[H] 🇰🇷 韩国 01'
+  password: test.+
+  port: 30446
+  server: testkr3.ssv.vc
+  skip-cert-verify: true
+  tls: true
+  type: http
   udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇰🇷 韩国 02'
-  password: qwerREWQ@@
-  port: 3417
-  server: 221.150.109.19
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- client-fingerprint: chrome
+  username: test
+- client-fingerprint: firefox
   encryption: none
-  name: '[H] 🇰🇷 韩国 03'
+  flow: xtls-rprx-vision
+  name: '[H] 🇰🇷 韩国 02'
   network: tcp
-  port: '8686'
+  packet-encoding: xudp
+  port: 21796
   reality-opts:
-    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
-    short-id: '!!str 628b3c90c98ead4f'
-  server: 43.201.28.206
-  servername: www.apple.com
+    _spider-x: /
+    public-key: dHK4t7AbVKnDxl6ondRWcwkkt4FDkrK89ugEzZfDuzw
+    short-id: '!!str 804d6574da9180'
+  server: 43.203.252.196
+  servername: www.sony.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  uuid: cd91af31-0c74-4bce-aac3-bdae367c84fa
   xudp: true

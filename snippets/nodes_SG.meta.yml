@@ -2,8 +2,8 @@ proxies:
 - name: '[F] 🇸🇬 新加坡 01'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 29642
-  server: 16.163.146.65
+  port: 6357
+  server: 18.162.124.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -11,24 +11,137 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 48738
-  server: 18.166.208.105
+  server: 18.162.124.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
-  port: 32434
-  server: 18.166.29.119
+  port: 41421
+  server: 18.162.54.223
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 04'
+  network: tcp
+  packet-encoding: xudp
+  port: 59597
+  reality-opts:
+    _spider-x: /
+    public-key: pAg7gxX-dDZ68kwy3mEj9vyDrieu-kTvIAhxSRMJQ1w
+    short-id: '!!str be3e57dff1279a7d'
+  server: 47.131.12.238
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ba6c3fe7-19ba-4346-8ae3-41d6a2065f19
+- name: '[H] 🇸🇬 新加坡 05'
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: C5FC4ED3-25A0-4ACC-9862-0B63EB7EAD54
+  port: 20915
+  server: sg5.dexlos.com
+  skip-cert-verify: false
+  sni: sg5.dexlos.com
+  tfo: false
+  type: hysteria2
+- cipher: aes-128-gcm
+  name: '[H] 🇸🇬 新加坡 06'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhll.qqs.me
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: yx.cloudflare.182682.xyz
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 07'
+  network: tcp
+  packet-encoding: xudp
+  port: 45075
+  reality-opts:
+    _spider-x: /
+    public-key: l6Z-68Q2EJ8nZ5mzWSAB53lp1-_nOHwV2Z18y3DT7xQ
+    short-id: '!!str 7185b14179922a5c'
+  server: 122.248.202.201
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 452da0f8-3034-4e5d-9e7f-9c3f58abb8ff
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 08'
+  network: tcp
+  packet-encoding: xudp
+  port: 32946
+  reality-opts:
+    _spider-x: /
+    public-key: zdEghV1Mt50wCSUBZSd601DSMoX4KBTfcKWZ2_mYTBk
+    short-id: '!!str 984d9ea72b9e81'
+  server: 46.137.225.209
+  servername: www.amd.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0ff7989d-59b3-4cbd-a2e4-960ac02fb2f1
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 09'
+  network: tcp
+  packet-encoding: xudp
+  port: 51182
+  reality-opts:
+    _spider-x: /
+    public-key: 7MC_kyGYEV7nG0zqKnfwUmvXsoA0fGG4g4chkqqSRGI
+    short-id: '!!str 5ac35e1cd8ce6720'
+  server: 13.212.10.113
+  servername: www.tesla.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2a222b39-411e-4d6d-800a-5d067199b6ec
 - alterId: 0
   cipher: auto
-  name: '[I] 🇸🇬 新加坡 04'
+  name: '[I] 🇸🇬 新加坡 10'
   network: ws
-  port: 10056
-  server: 1b267619c4812cc46ee281747884ca50.qos.onl
+  port: '10049'
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
+  ws-opts:
+    headers:
+      Host: v2pr9feoh0z86anj2gz9onnjg9viuev0j.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇸🇬 新加坡 11'
+  network: ws
+  port: '10123'
+  server: 6654c734ccab8f440ff0825eb443dc7f.qos.onl
+  servername: ''
   tls: false
   type: vmess
   uuid: 52f9cbfb-5bb3-3dd3-b947-725e365c59f3
