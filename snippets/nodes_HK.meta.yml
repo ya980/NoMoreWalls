@@ -57,17 +57,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[H] 🇭🇰 香港 08'
-  password: 4f87f425-6fc3-4955-a61a-53877e3d00e3
-  port: 52095
-  server: 1.6rguyesfdhvbz.uk
-  type: anytls
-  udp: true
-- name: '[H] 🇭🇰 香港 09'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[H] 🇭🇰 香港 08'
   network: tcp
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 155.117.198.84
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: '!!str ea6b43'
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
+  xudp: true
