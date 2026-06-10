@@ -1,10 +1,12 @@
 proxies:
-- name: '[E] 🇩🇪 德国 01'
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 152.53.12.152
-  skip-cert-verify: true
-  sni: de3.xiaoliyu.cyou
+- name: '[D] 🇩🇪 德国 01'
+  obfs: salamander
+  obfs-password: ct7igvlhkkvuvyto
+  password: go6a426v10ckcl75
+  port: 37620
+  server: tb.zibayeman.com
+  skip-cert-verify: false
+  sni: tb.zibayeman.com
   tls: false
   type: hysteria2
 - down: ''
@@ -57,15 +59,3 @@ proxies:
     path: /cocjslfnr
     x-padding-bytes: 100-1000
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 05'
-  network: tcp
-  port: 8443
-  server: del.hfgtek.ir
-  servername: del.hfgtek.ir
-  tls: true
-  type: vless
-  uuid: 087ebc31-5965-4ba9-8992-e13343e4cf99

@@ -1,12 +1,4 @@
 proxies:
-- name: '[D] 🇰🇷 韩国 01'
-  password: sI0wl1bvYlSXu2RsMSAtAIMM
-  port: 443
-  server: starlink-kr1.mfa.cat
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
@@ -14,7 +6,7 @@ proxies:
     headers: {}
     path:
     - /
-  name: '[H] 🇰🇷 韩国 02'
+  name: '[H] 🇰🇷 韩国 01'
   network: tcp
   port: 443
   reality-opts:
@@ -29,7 +21,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇰🇷 韩国 03'
+  name: '[H] 🇰🇷 韩国 02'
   network: tcp
   port: '8686'
   reality-opts:
