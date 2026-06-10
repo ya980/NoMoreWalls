@@ -1,19 +1,83 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇬🇧 英国 01'
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: QVkd5uoSbUA7rHVLtIoJB4iRp4l0zuw0H9qzQBh3lHs
-    short-id: '!!str 7a3f9e2b1c8d4f6a'
-  server: 31.76.91.21
-  servername: jp.s3-cloud.org
-  skip-cert-verify: false
+    public-key: gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE
+    short-id: '!!str fcd9787f'
+  server: 195.184.247.137
+  servername: www.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+  uuid: 8bbf020e-653f-4a82-9900-1214e4e37dab
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇬🇧 英国 02'
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: akcAXaW7GNwXT6bTrtD6oZIY9rdEzW4TfZvYqDRzsTc
+    short-id: '!!str a8f3c1d7e9b4c2f6'
+  server: 31.76.119.146
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9bc87bd9-0d37-4ba6-9601-408b22902fff
+  xhttp-opts:
+    mode: auto
+    path: /xhttp-proxy
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 03'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE
+    short-id: '!!str fcd9787f'
+  server: 195.184.247.138
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bbf020e-653f-4a82-9900-1214e4e37dab
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 04'
+  network: tcp
+  port: '753'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-fi.emrata.top
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9ad4f937-6366-474b-9d7e-e2a694deb4e2
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 05'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2X9lSO2-cGXKZJy3S-AFmu2bzR9h7YpXe7WXfyFNBmQ
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.38
+  servername: it.cdn-global.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c04338e-99e4-4d7a-b829-bcbd94bd68c0
   xudp: true

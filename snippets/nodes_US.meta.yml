@@ -3,7 +3,7 @@ proxies:
   password: 10550754-cf62-3d3b-ba6a-50be27a275d7
   port: 443
   server: 195.133.53.33
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: s516.okgfw.top
   tls: false
   type: hysteria2
@@ -24,8 +24,8 @@ proxies:
 - name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
-  port: 17005
-  server: 18.162.124.37
+  port: 49277
+  server: 43.198.203.3
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -33,15 +33,15 @@ proxies:
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
-  server: 43.198.98.40
+  server: 18.166.223.23
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
-  port: 39959
-  server: 43.199.217.233
+  port: 17801
+  server: 18.163.120.29
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -72,111 +72,96 @@ proxies:
     host: ss.hhll.qqs.me
     mode: websocket
     mux: false
-    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226?enc=aes-128-gcm
     tls: true
   port: 443
-  server: 54.65.58.58
-  skip-cert-verify: false
+  server: 69.63.216.10
   type: ss
-  udp: false
-- name: '[H] 🇺🇸 美国 09'
-  password: f4281a5fdfb44e0744d6f683
-  port: 443
-  server: devoracle.clarkpf.top
-  skip-cert-verify: true
-  sni: devoracle.clarkpf.top
-  tfo: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 09'
+  network: tcp
+  port: '22231'
+  server: r1.mizulina.top
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 10'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: C5FC4ED3-25A0-4ACC-9862-0B63EB7EAD54
-  port: '21756'
-  server: us9.dexlos.com
-  skip-cert-verify: false
-  sni: us9.dexlos.com
-  type: hysteria2
-  up: ''
-- cipher: aes-128-gcm
+  network: tcp
+  port: 443
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇺🇸 美国 11'
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhll.qqs.me
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 154.26.181.78
-  skip-cert-verify: false
-  type: ss
-  udp: false
-- cipher: aes-128-gcm
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: akcAXaW7GNwXT6bTrtD6oZIY9rdEzW4TfZvYqDRzsTc
+    short-id: '!!str a8f3c1d7e9b4c2f6'
+  server: 23.158.136.33
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9bc87bd9-0d37-4ba6-9601-408b22902fff
+  xhttp-opts:
+    mode: auto
+    path: /xhttp-proxy
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇺🇸 美国 12'
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ss.hhll.qqs.me
-    mode: websocket
-    mux: false
-    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226?enc=aes-128-gcm
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 64.186.228.41
-  skip-cert-verify: false
-  type: ss
-  udp: false
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: akcAXaW7GNwXT6bTrtD6oZIY9rdEzW4TfZvYqDRzsTc
+    short-id: '!!str a8f3c1d7e9b4c2f6'
+  server: 154.12.38.221
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9bc87bd9-0d37-4ba6-9601-408b22902fff
+  xhttp-opts:
+    mode: auto
+    path: /xhttp-proxy
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 13'
-  network: xhttp
+  network: tcp
   port: '443'
-  server: cfa.sororain.com
-  servername: usrna.osaip.net
+  reality-opts:
+    public-key: UetBYGh2t6FbQNZ53W3Eb3bpH5-p-WJ1wklLbOs5RH0
+    short-id: '!!str af6055545fb955b0'
+  server: ru1.cdn-global.pro
+  servername: ru1.cdn-global.pro
   tls: true
   type: vless
   udp: true
-  uuid: 6ac86325-1867-4024-b90a-f1ae929722c6
-  xhttp-opts:
-    host: usrna.osaip.net
-    mode: auto
-    path: /api/v1/upload
+  uuid: 9c04338e-99e4-4d7a-b829-bcbd94bd68c0
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 14'
-  network: xhttp
-  port: '443'
-  server: cfb.sororain.com
-  servername: usbad.osaip.net
+  port: 22231
+  server: 85.234.114.53
+  servername: r1.mizulina.top
   tls: true
   type: vless
   udp: true
-  uuid: 7f663e0c-4220-4dc6-879e-2064d69b4608
-  xhttp-opts:
-    host: usbad.osaip.net
-    mode: auto
-    path: /api/v1/upload
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 15'
-  network: xhttp
-  port: '443'
-  server: 45.130.125.160
-  servername: www.chinns.us.ci
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8b54a64-3e9a-4455-93c4-452202fbe440
-  xhttp-opts:
-    host: www.chinns.us.ci
-    mode: stream-one
-    path: /index
-  xudp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
