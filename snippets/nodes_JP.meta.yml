@@ -1,10 +1,10 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
-  password: 10550754-cf62-3d3b-ba6a-50be27a275d7
-  port: 443
-  server: 150.251.158.76
+- name: '[D] 🇯🇵 日本 01'
+  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
+  port: 10086
+  server: jp01.jgpy.help
   skip-cert-verify: true
-  sni: s647.okgg.top
+  sni: apple.com
   tls: false
   type: hysteria2
 - name: '[F] 🇯🇵 日本 02'
@@ -63,9 +63,47 @@ proxies:
   skip-cert-verify: false
   type: ss
   udp: false
+- name: '[H] 🇯🇵 日本 07'
+  password: 4f87f425-6fc3-4955-a61a-53877e3d00e3
+  port: 25223
+  server: 2.6rguyesfdhvbz.uk
+  sni: 2.6rguyesfdhvbz.uk
+  type: anytls
+- cipher: aes-128-gcm
+  name: '[H] 🇯🇵 日本 08'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhll.qqs.me
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123\,172.104.53.198\,85.121.50.16\,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 3.112.132.156
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- cipher: aes-128-gcm
+  name: '[H] 🇯🇵 日本 09'
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ss.hhll.qqs.me
+    mode: websocket
+    mux: false
+    path: /proxyip=104.168.132.123,172.104.53.198,85.121.50.16,151.242.125.226?enc=aes-128-gcm
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 18.182.54.28
+  skip-cert-verify: false
+  type: ss
+  udp: false
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 10'
   network: tcp
   port: '180'
   server: 82.198.246.214
