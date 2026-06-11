@@ -1,5 +1,13 @@
 proxies:
 - name: '[E] 🇺🇸 美国 01'
+  password: 573402b7-156e-4141-8c3b-f01b6ebedf05
+  port: 10078
+  server: us01.jgpy.help
+  skip-cert-verify: true
+  sni: apple.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 02'
   password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
   port: 443
   server: 161.104.88.46
@@ -7,7 +15,7 @@ proxies:
   sni: k71530.w-mebel.pro
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 02'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -15,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 03'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 49277
@@ -23,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 54240
@@ -33,7 +41,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 06'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -42,7 +50,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 06'
+  name: '[G] 🇺🇸 美国 07'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -50,14 +58,73 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: firefox
+- encryption: none
+  name: '[H] 🇺🇸 美国 08'
+  network: ws
+  port: '8880'
+  server: 104.254.140.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: vms.lifetime54.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    max-early-data: 2560
+    path: /
+  xudp: true
+- client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 07'
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 09'
   network: tcp
-  port: '1005'
+  port: '443'
   reality-opts:
-    public-key: aEyXUqZ4doy7Qse745h5IKGo31Jc2YEK3QOVaOuPPns
-    short-id: '!!str 4f2087146c1f587a'
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: '!!str 122218f4c1f172e4'
+  server: api.yandex-dev.online
+  servername: api.yandex-dev.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: c3d866fa-e679-4b10-9bb1-e4075ef4a1cd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 10'
+  network: tcp
+  port: '443'
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 11'
+  network: tcp
+  port: '22231'
+  server: 85.234.114.53
+  servername: r1.mizulina.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 12'
+  network: tcp
+  port: '1004'
+  reality-opts:
+    public-key: 437UW8qHz_L4qlOZ_AgufdsA9me_uS5MWM-eptxM3w4
+    short-id: '!!str 998ad2ef2d977802'
   server: newyorkcity.instasup.ir
   servername: yahoo.com
   tls: true
@@ -65,9 +132,38 @@ proxies:
   udp: true
   uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
   xudp: true
+- encryption: none
+  name: '[H] 🇺🇸 美国 13'
+  network: ws
+  port: '443'
+  server: 2.26.134.124
+  type: vless
+  udp: true
+  uuid: c5945c28-ecab-4c5b-8681-f742b7c88cf5
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN/Begoo_VPN
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 14'
+  network: tcp
+  port: '443'
+  server: 104.253.43.225
+  servername: 104.253.43.225
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5f57df48-45c4-4e1d-aa13-dd539ecb257d
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 08'
+  name: '[I] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.214
