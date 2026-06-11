@@ -9,58 +9,86 @@ proxies:
   type: hysteria2
 - encryption: none
   name: '[H] 🇩🇪 德国 02'
-  network: ws
+  network: xhttp
   packet-encoding: xudp
-  port: 80
-  server: 104.29.124.101
+  port: 7000
+  server: 89.106.64.15
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 3d663ca2-98b2-4f2b-8652-c527b12bebfc
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: orange-truth-c6d1.rhyljiti.workers.dev
-    max-early-data: 2560
-    path: /eyJqdW5rIjoiVjBwVjN1TEMwd3JZNVciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
+  xhttp-opts:
+    host: a12.crowsvpn.shop
+    mode: stream-one
+    path: /
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
   encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇩🇪 德国 03'
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.16.174.39
-  servername: Drping.nscl.ir
-  skip-cert-verify: false
+  network: tcp
+  port: '7443'
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    short-id: '!!str d82fb387'
+  server: 167.104.223.68
+  servername: www.microsoft.com
   tls: true
   type: vless
   udp: true
-  uuid: 1c4046d3-333f-4e8d-b9cc-333e7ec3143b
-  ws-opts:
-    headers:
-      Host: Drping.nscl.ir
-    path: /DrPing_channel
+  uuid: 1c0277ad-bb4d-496f-bc0c-40ccee03fca5
+  xudp: true
 - alpn:
   - h2
-  - http/1.1
   client-fingerprint: chrome
   encryption: none
   name: '[H] 🇩🇪 德国 04'
   network: xhttp
-  port: '2087'
-  server: www.speedtest.net
-  servername: r1.firefly-service.com
+  port: '443'
+  server: 89.144.30.104
+  servername: dey.lnmarketplace.net@kurdconfig
   tls: true
   type: vless
   udp: true
-  uuid: 2330f424-ef1f-47ad-a42a-815e5c576820
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
   xhttp-opts:
-    mode: stream-up
-    path: /
+    host: dey.lnmarketplace.net
+    mode: stream-one
+    path: /kavir
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇩🇪 德国 05'
+  network: xhttp
+  port: '443'
+  server: dey.lnmarketplace.net
+  servername: dey.lnmarketplace.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  xhttp-opts:
+    host: dey.lnmarketplace.net
+    mode: stream-one
+    path: /kavir
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Vgpu-ulcEK2GcWK3dohesaAGGFlnrXD1MxPrU6j_KkY
+    short-id: '!!str bad3a25cf8c16109'
+  server: 45.95.96.134
+  servername: mos3078.rtnode.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e71d588-61af-4b58-b467-3eba16b5041b
   xudp: true
 - alpn:
   - h2
@@ -68,7 +96,7 @@ proxies:
   - h3
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 05'
+  name: '[H] 🇩🇪 德国 07'
   network: xhttp
   port: '8443'
   server: xco.xonline.sbs
@@ -76,10 +104,42 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: f1db386e-3c0e-4da3-8eb3-cd738701c523
+  uuid: 62f4392f-61bd-4893-a79c-8e3922e8bacc
   xhttp-opts:
     host: xco.trevor.ir
     mode: auto
     path: /cocjslfnr
     x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 08'
+  network: tcp
+  port: '7500'
+  reality-opts:
+    public-key: 8a3blVdAACDlvRA5zrdNxHLZ9boU5QkwGMkf0WwyZVI
+    short-id: '!!str 77a3a1c829040294'
+  server: 9newde.myatris.org
+  servername: www.varzesh3.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6c76efec-ee0e-4bcc-b9e6-98859ab68484
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: gun
+  name: '[H] 🇩🇪 德国 09'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
+    short-id: '!!str d05e7ab9872797f4'
+  server: 45.153.190.26
+  servername: mageia.ubuntuhosting.host
+  tls: true
+  type: vless
+  udp: true
+  uuid: e70ad57f-5b39-46f5-ba70-44953ad23164
   xudp: true

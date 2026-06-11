@@ -49,49 +49,96 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- multiplexing: MULTIPLEXING_LOW
+- down: ''
+  fingerprint: ''
   name: '[H] 🇺🇸 美国 07'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- encryption: none
-  name: '[H] 🇺🇸 美国 08'
-  network: ws
-  packet-encoding: xudp
-  port: 80
-  server: 45.85.118.1
+  obfs: salamander
+  obfs-password: gxXGwphUe6APbFFsWA
+  password: Nrqyc1GkGr
+  port: '54236'
+  server: panel.cobalttoolsgithub.online
   skip-cert-verify: false
-  tls: false
-  type: vless
-  udp: true
-  uuid: 3d663ca2-98b2-4f2b-8652-c527b12bebfc
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: orange-truth-c6d1.rhyljiti.workers.dev
-    max-early-data: 2560
-    path: /eyJqdW5rIjoiRVF4cEpmc1Y2SFUzIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ==
+  sni: panel.cobalttoolsgithub.online
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
   name: '[H] 🇺🇸 美国 09'
   network: ws
-  port: 2083
-  server: 91.193.58.17
-  servername: edgetunnel-cmliu.lyqnihao.dpdns.org
+  packet-encoding: xudp
+  port: 443
+  server: 104.20.17.98
+  servername: racknerd.henso.wiki
   skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+  uuid: 9fb8b6a8-5094-42e3-a949-26bc63551345
   ws-opts:
     headers:
-      Host: edgetunnel-cmliu.lyqnihao.dpdns.org
+      Host: racknerd.henso.wiki
+    path: /9fb8b6a8-5094-42e3-a949-26bc63551345-vless
+- encryption: none
+  name: '[H] 🇺🇸 美国 10'
+  network: ws
+  packet-encoding: xudp
+  port: 8880
+  server: cdn.exon-software.ir
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  udp: true
+  uuid: 77bde48a-6e7a-4182-ab42-265696bfc591
+  ws-opts:
+    headers:
+      Host: ssw.mobile-unix.ir
     path: /
+    v2ray-http-upgrade: true
+    v2ray-http-upgrade-fast-open: true
+- encryption: none
+  name: '[H] 🇺🇸 美国 11'
+  network: xhttp
+  port: '80'
+  server: 76.13.121.90
+  type: vless
+  udp: true
+  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
+  xhttp-opts:
+    host: play.google.com
+    mode: auto
+    path: /SoonTeam
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  name: '[H] 🇺🇸 美国 12'
+  network: xhttp
+  port: '80'
+  server: wst.imsoon.net
+  type: vless
+  udp: true
+  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
+  xhttp-opts:
+    host: play.google.com
+    mode: auto
+    path: /SoonTeam
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 13'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: YG4byJp2QQKqQmcWVqxQVk99odu8l1wFNHxcTTNThAs
+    short-id: '!!str 6f0693bf8b91cb64'
+  server: 38.180.81.209
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b5692799-0576-4c94-b67b-506994428dee
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 10'
+  name: '[I] 🇺🇸 美国 14'
   network: tcp
   port: '180'
   server: 82.198.246.214
