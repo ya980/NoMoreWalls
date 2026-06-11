@@ -235,13 +235,6 @@ proxies:
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- name: '[E] 🌍 其它地区 22'
-  password: 93d7b794-cca6-4c6d-bae8-dd2df25961b4
-  port: 443
-  server: 2.26.74.63
-  sni: fl01.shifor.live
-  tls: false
-  type: hysteria2
 - name: '[E] 🇩🇪 德国 01'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
@@ -251,6 +244,20 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇭🇰 香港 01'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 02'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  sni: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 03'
   password: e3a5bb40be52de65
   port: 55555
   server: 89.251.26.111
@@ -258,11 +265,19 @@ proxies:
   sni: apps.apple.com
   tls: false
   type: hysteria2
-- name: '[E] 🌍 其它地区 23'
+- name: '[E] 🌍 其它地区 22'
   password: 93d7b794-cca6-4c6d-bae8-dd2df25961b4
   port: 443
   server: 45.43.137.34
+  skip-cert-verify: true
   sni: pl01.shifor.live
+  tls: false
+  type: hysteria2
+- name: '[E] 🌍 其它地区 23'
+  password: efe3901e-b309-43f3-843a-f4f871670cf3
+  port: 8449
+  server: 888275.nl01-cherry.online
+  sni: sni.nl01-cherry.online
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 01'
@@ -270,29 +285,6 @@ proxies:
   port: 443
   server: 161.104.88.46
   sni: k71530.w-mebel.pro
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 01'
-  password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
-  port: 1935
-  server: sg2.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg2.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 02'
-  password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
-  port: 1935
-  server: sg3.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: sg3.xiaoliyu.cyou
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 02'
-  password: 4543ebb9-3fa5-438d-8791-cb3d9a9e4137
-  port: 4433
-  server: hk1.xiaoliyu.cyou
-  skip-cert-verify: true
   tls: false
   type: hysteria2
 - alterId: 0
@@ -309,22 +301,36 @@ proxies:
     headers:
       Host: myvpshosting.name.ng
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 25'
+  network: ws
+  port: '80'
+  server: myvpshosting.name.ng
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 96408f9a-df03-448b-b7e4-ec8e2c216682
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 25'
+  name: '[F] 🌍 其它地区 26'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 2008
@@ -332,7 +338,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 05'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 43747
@@ -340,7 +346,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 06'
+- name: '[F] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 50116
@@ -431,7 +437,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 07'
+  name: '[G] 🇭🇰 香港 08'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -466,7 +472,7 @@ proxies:
   - h2
   - http/1.1
   encryption: none
-  name: '[H] 🌍 其它地区 26'
+  name: '[H] 🌍 其它地区 27'
   network: xhttp
   port: '8443'
   server: 162.159.36.79
@@ -560,7 +566,7 @@ proxies:
     path: /eyJqdW5rIjoiVjBwVjN1TEMwd3JZNVciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 27'
+  name: '[H] 🌍 其它地区 28'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -577,7 +583,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 28'
+  name: '[H] 🌍 其它地区 29'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -593,7 +599,7 @@ proxies:
   uuid: 4a671c83-ecce-4356-8d9b-f679be93ad0b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 29'
+  name: '[H] 🌍 其它地区 30'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -644,7 +650,7 @@ proxies:
     path: /
   xudp: true
 - encryption: none
-  name: '[H] 🌍 其它地区 30'
+  name: '[H] 🌍 其它地区 31'
   network: raw
   port: '55014'
   reality-opts:
@@ -658,7 +664,7 @@ proxies:
   uuid: b01631fa-502b-497f-b8ed-2fda669667ad
   xudp: true
 - encryption: none
-  name: '[H] 🌍 其它地区 31'
+  name: '[H] 🌍 其它地区 32'
   network: ws
   port: '80'
   server: 2.27.7.116
