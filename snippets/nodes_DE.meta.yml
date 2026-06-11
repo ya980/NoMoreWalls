@@ -1,206 +1,85 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇩🇪 德国 01'
-  obfs: ''
-  obfs-password: ''
+- name: '[E] 🇩🇪 德国 01'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: '4433'
-  server: 185.228.139.247
+  port: 4433
+  server: 152.53.12.152
   skip-cert-verify: true
-  sni: de2.xiaoliyu.cyou
+  sni: de3.xiaoliyu.cyou
+  tls: false
   type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
+- encryption: none
   name: '[H] 🇩🇪 德国 02'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: lgU9TqUQg6wb6LNSe6HrXQ5uTlh7gXdcBRfy1hDopnE
-    short-id: '!!str 757817538c'
-  server: 167.172.104.197
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 66dba463-31e2-4101-a2ff-cfd30ad4402d
-  xudp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 03'
   network: ws
-  port: '80'
-  server: 199.232.197.131
+  packet-encoding: xudp
+  port: 80
+  server: 104.29.124.101
+  skip-cert-verify: false
+  tls: false
   type: vless
   udp: true
-  uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa
+  uuid: 3d663ca2-98b2-4f2b-8652-c527b12bebfc
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: max-gb1.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 04'
-  network: ws
-  port: '443'
-  server: 199.232.78.159
-  servername: default.ssl.fastly.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0c09799a-47ca-494e-a50e-828632ef9d81
-  ws-opts:
-    headers:
-      Host: bazaryabab.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 05'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 5HItszJ7XSKexeNn6F9BSdJLXTfSiCDwUSqLi1Hxd2Q
-    short-id: '!!str cd85b2abe0feed49'
-  server: de.tgru.in
-  servername: tgru.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33bd7d64-2b03-4b19-82e5-9610afde3c3d
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 06'
-  network: ws
-  port: '2096'
-  server: ip.feywebsite.ir
-  servername: 07e357aa7e747ca4.hOzHeEn.Ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
-  ws-opts:
-    headers:
-      Host: greattehran.hozheen.ir
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /ws?ed=2560
-  xudp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 07'
-  network: xhttp
-  port: '24758'
-  server: 109.71.253.204
-  type: vless
-  udp: true
-  uuid: e30c66d8-725a-4bb6-9173-58b1769d9c6f
-  xhttp-opts:
-    host: www.speedtest.net
-    mode: stream-one
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 08'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: eIwe5pSZs414JJDSuBA3R4-ikllq0oITezzVIdUkACI
-    short-id: '!!str ad7dab462a323acb'
-  server: 185.229.9.8
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3a836fe1-8de7-489b-b189-8f0d3bf31ec9
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 09'
-  network: xhttp
-  port: '8443'
-  reality-opts:
-    public-key: QLamtir13xwzyWVlPRN3C7lw_fhSBU7X4H3A8zAl5Fg
-    short-id: '!!str 6f3192'
-  server: hamrahaval.soft26.ir
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d39664df-5bc0-4f49-9894-8f03b4150082
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 10'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 5HItszJ7XSKexeNn6F9BSdJLXTfSiCDwUSqLi1Hxd2Q
-    short-id: '!!str 3287e9988ca1e611'
-  server: de2.tgru.in
-  servername: tgru.in
-  tls: true
-  type: vless
-  udp: true
-  uuid: 33bd7d64-2b03-4b19-82e5-9610afde3c3d
-  xudp: true
+      Host: orange-truth-c6d1.rhyljiti.workers.dev
+    max-early-data: 2560
+    path: /eyJqdW5rIjoiVjBwVjN1TEMwd3JZNVciLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 11'
-  network: xhttp
-  port: '443'
-  server: de1.gamelistak.com
+  name: '[H] 🇩🇪 德国 03'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.16.174.39
+  servername: Drping.nscl.ir
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 54a83fbb-c966-4bb2-bed6-a808b2fc3913
-  xhttp-opts:
-    host: de1.gamelistak.com
-    mode: auto
-    path: /@MrNexTV2RAY
-    x-padding-bytes: 100-1000
-  xudp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 12'
+  uuid: 1c4046d3-333f-4e8d-b9cc-333e7ec3143b
+  ws-opts:
+    headers:
+      Host: Drping.nscl.ir
+    path: /DrPing_channel
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 04'
   network: xhttp
-  port: '8443'
-  server: de.tgru.in
+  port: '2087'
+  server: www.speedtest.net
+  servername: r1.firefly-service.com
+  tls: true
   type: vless
   udp: true
-  uuid: 33bd7d64-2b03-4b19-82e5-9610afde3c3d
+  uuid: 2330f424-ef1f-47ad-a42a-815e5c576820
   xhttp-opts:
-    mode: auto
+    mode: stream-up
     path: /
   xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 13'
-  network: tcp
-  port: '1006'
-  reality-opts:
-    public-key: 2iijxUyJsanFAkX0ctH6H4RTW1N4mQYnIsaP8qrbbS8
-    short-id: '!!str 0c3a409c2ba7d083'
-  server: 46.225.155.159
-  servername: yahoo.com
+  name: '[H] 🇩🇪 德国 05'
+  network: xhttp
+  port: '8443'
+  server: xco.xonline.sbs
+  servername: xco.trevor.ir
   tls: true
   type: vless
   udp: true
-  uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
+  uuid: f1db386e-3c0e-4da3-8eb3-cd738701c523
+  xhttp-opts:
+    host: xco.trevor.ir
+    mode: auto
+    path: /cocjslfnr
+    x-padding-bytes: 100-1000
   xudp: true
