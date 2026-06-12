@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇸🇬 新加坡 01'
+- name: '[F] 🇸🇬 新加坡 01'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 48738
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 02'
+- name: '[F] 🇸🇬 新加坡 02'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 48738
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 03'
+- name: '[F] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 32434
@@ -24,48 +24,47 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[G] 🇸🇬 新加坡 04'
+  name: '[H] 🇸🇬 新加坡 04'
   network: ws
-  port: '443'
-  server: 104.20.22.137
-  servername: sgpwap.henso.top
+  port: 443
+  server: 162.159.49.145
+  servername: ld.223350.xyz
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: 3b5e5f1b-dff2-4c4e-b348-124cf7cd64aa
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
   ws-opts:
     headers:
-      Host: sgpwap.henso.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /3b5e5f1b-dff2-4c4e-b348-124cf7cd64aa-vless
-  xudp: true
-- client-fingerprint: chrome
-  name: '[G] 🇸🇬 新加坡 05'
+      Host: ld.223350.xyz
+    path: /
+- encryption: none
+  name: '[H] 🇸🇬 新加坡 05'
   network: ws
-  port: '443'
-  server: 104.26.4.251
-  servername: sgpwap.henso.top
-  tls: true
+  port: '80'
+  server: 162.159.34.60
   type: vless
   udp: true
-  uuid: 3b5e5f1b-dff2-4c4e-b348-124cf7cd64aa
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
   ws-opts:
     headers:
-      Host: sgpwap.henso.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /3b5e5f1b-dff2-4c4e-b348-124cf7cd64aa-vless
+      Host: amirvpn.amirhm00100.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /?ed=2048
   xudp: true
-- alterId: 2
-  cipher: auto
-  name: '[G] 🇸🇬 新加坡 06'
-  network: tcp
-  port: 30845
-  server: 103.182.97.12
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- encryption: none
+  name: '[H] 🇸🇬 新加坡 06'
+  network: ws
+  port: '80'
+  server: 198.41.211.114
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 0ca855d9-7c03-40eb-929b-919f934abdc3
+  ws-opts:
+    headers:
+      Host: amirvpn.amirhm00100.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/65.0.3325.181 Safari/537.36
+    path: /?ed=2048
   xudp: true

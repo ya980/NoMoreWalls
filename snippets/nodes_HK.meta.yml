@@ -1,11 +1,12 @@
 proxies:
-- name: '[D] 🇭🇰 香港 01'
+- name: '[E] 🇭🇰 香港 01'
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 56309
   server: hkt.ccwink.cc
+  skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇭🇰 香港 02'
+- name: '[E] 🇭🇰 香港 02'
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 56309
   server: hkt.ccwink.cc
@@ -13,7 +14,7 @@ proxies:
   sni: hkt.ccwink.cc
   tls: false
   type: hysteria2
-- name: '[D] 🇭🇰 香港 03'
+- name: '[E] 🇭🇰 香港 03'
   password: e3a5bb40be52de65
   port: 55555
   server: 89.251.26.111
@@ -23,14 +24,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 05'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 53018
@@ -38,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 06'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 1123
@@ -46,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 07'
+- name: '[F] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 1123
@@ -56,7 +57,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 08'
+  name: '[G] 🇭🇰 香港 08'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -64,3 +65,42 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 09'
+  network: tcp
+  port: '7443'
+  reality-opts:
+    public-key: _GHDETa6pflP7WjkBT-2jMYnb0xRs-e8LrCu93Z_CHo
+    short-id: '!!str d82fb387'
+  server: 103.112.71.172
+  servername: icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 89304de3-af59-4313-b18d-c93dadf54537
+  xudp: true
+- name: '[H] 🇭🇰 香港 10'
+  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+  port: 5228
+  server: 19fdb0e3-t9zts0-tbck4p-mv7m.cm4.oshuawei.com
+  sni: 19fdb0e3-t9zts0-tbck4p-mv7m.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+- name: '[H] 🇭🇰 香港 11'
+  password: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+  port: 5228
+  server: 2a162951-tetwg0-tga61j-mv7m.cm4.oshuawei.com
+  tls: true
+  type: http
+  username: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+- name: '[H] 🇭🇰 香港 12'
+  network: tcp
+  password: 4f4d1167-ef14-4304-9bce-0740472503ef
+  port: 45619
+  server: 103.177.136.45
+  skip-cert-verify: true
+  sni: fr.01.naiun.bilibili.com
+  type: trojan

@@ -1,13 +1,5 @@
 proxies:
-- name: '[D] 🇺🇸 美国 01'
-  password: 2d83ea00-2813-448d-bee6-14eaf7f52e13
-  port: 443
-  server: 161.104.88.46
-  skip-cert-verify: false
-  sni: k71530.w-mebel.pro
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
+- name: '[F] 🇺🇸 美国 01'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 48277
@@ -15,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 03'
+- name: '[F] 🇺🇸 美国 02'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -23,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -33,7 +25,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 04'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -42,7 +34,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 06'
+  name: '[G] 🇺🇸 美国 05'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -50,96 +42,134 @@ proxies:
   tls: false
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- down: ''
-  fingerprint: ''
-  name: '[G] 🇺🇸 美国 07'
-  obfs: salamander
-  obfs-password: gxXGwphUe6APbFFsWA
-  password: Nrqyc1GkGr
-  port: '54236'
-  server: panel.cobalttoolsgithub.online
-  skip-cert-verify: false
-  sni: panel.cobalttoolsgithub.online
-  type: hysteria2
-  up: ''
 - client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 09'
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 104.20.17.98
-  servername: racknerd.henso.wiki
-  skip-cert-verify: true
+  encryption: none
+  name: '[H] 🇺🇸 美国 06'
+  network: tcp
+  port: '1005'
+  reality-opts:
+    public-key: aEyXUqZ4doy7Qse745h5IKGo31Jc2YEK3QOVaOuPPns
+    short-id: '!!str 4f2087146c1f587a'
+  server: newyorkcity.instasup.ir
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 9fb8b6a8-5094-42e3-a949-26bc63551345
+  uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7
+  xudp: true
+- name: '[H] 🇺🇸 美国 07'
+  network: ws
+  port: 8880
+  server: 114.129.43.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: racknerd.henso.wiki
-    path: /9fb8b6a8-5094-42e3-a949-26bc63551345-vless
+      Host: vms.lifetime04.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 08'
+  network: ws
+  port: 443
+  security: tls
+  server: cdn.veilvpn.fans
+  servername: cdn.veilvpn.fans
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    headers:
+      Host: cdn.veilvpn.fans
+    path: /vpnhu
+    v2ray-http-upgrade: true
+- name: '[H] 🇺🇸 美国 09'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[H] 🇺🇸 美国 10'
+  network: ws
+  port: 8880
+  server: 92.53.188.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime18.workers.dev
+    path: /
 - encryption: none
-  name: '[G] 🇺🇸 美国 10'
+  name: '[H] 🇺🇸 美国 11'
   network: ws
   packet-encoding: xudp
-  port: 8880
-  server: cdn.exon-software.ir
+  port: 55380
+  server: 172.86.109.206
   skip-cert-verify: false
   tls: false
   type: vless
   udp: true
-  uuid: 77bde48a-6e7a-4182-ab42-265696bfc591
+  uuid: 5e1f8cb7-5509-43c9-a417-1c65c0df5959
   ws-opts:
-    headers:
-      Host: ssw.mobile-unix.ir
     path: /
-    v2ray-http-upgrade: true
-    v2ray-http-upgrade-fast-open: true
-- encryption: none
-  name: '[G] 🇺🇸 美国 11'
-  network: xhttp
-  port: '80'
-  server: 76.13.121.90
-  type: vless
-  udp: true
-  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
-  xhttp-opts:
-    host: play.google.com
-    mode: auto
-    path: /SoonTeam
-    x-padding-bytes: 100-1000
-  xudp: true
-- encryption: none
-  name: '[G] 🇺🇸 美国 12'
-  network: xhttp
-  port: '80'
-  server: wst.imsoon.net
-  type: vless
-  udp: true
-  uuid: 1b15fe14-d01a-47f0-acba-98f79a13c2af
-  xhttp-opts:
-    host: play.google.com
-    mode: auto
-    path: /SoonTeam
-    x-padding-bytes: 100-1000
-  xudp: true
 - client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 13'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: YG4byJp2QQKqQmcWVqxQVk99odu8l1wFNHxcTTNThAs
-    short-id: '!!str 6f0693bf8b91cb64'
-  server: 38.180.81.209
-  servername: www.cloudflare.com
+  name: '[H] 🇺🇸 美国 12'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 104.21.84.167
+  servername: cdn.veilvpn.fans
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: b5692799-0576-4c94-b67b-506994428dee
+  uuid: 30980fc4-8789-42df-80d1-0c8e5cd26881
+  ws-opts:
+    headers:
+      Host: cdn.veilvpn.fans
+    path: /vpnhu
+    v2ray-http-upgrade: true
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 13'
+  network: ws
+  password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
+  port: '443'
+  server: h2.bnm.uw.to
+  skip-cert-verify: false
+  sni: h2.bnm.uw.to
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /0cb2739d-98b8-45ce-b52c-4305c40975a6-tr
+- encryption: none
+  name: '[H] 🇺🇸 美国 14'
+  network: ws
+  port: '80'
+  server: 104.17.72.206
+  type: vless
+  udp: true
+  uuid: 1de37726-744b-46e1-9101-c926b3402e82
+  ws-opts:
+    headers:
+      Host: v2.v2configlab.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; Mi A1 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 14'
+  name: '[I] 🇺🇸 美国 15'
   network: tcp
   port: '180'
   server: 82.198.246.214

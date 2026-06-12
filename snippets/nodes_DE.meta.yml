@@ -1,5 +1,5 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- name: '[E] 🇩🇪 德国 01'
   password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
   port: 4433
   server: 152.53.12.152
@@ -8,138 +8,48 @@ proxies:
   tls: false
   type: hysteria2
 - encryption: none
-  name: '[G] 🇩🇪 德国 02'
-  network: xhttp
-  packet-encoding: xudp
-  port: 7000
-  server: 89.106.64.15
-  skip-cert-verify: false
-  tls: false
+  name: '[H] 🇩🇪 德国 02'
+  network: ws
+  port: '80'
+  server: 199.232.197.131
   type: vless
   udp: true
-  uuid: 0a715ede-593a-4018-8406-66e2c3b1169c
-  xhttp-opts:
-    host: a12.crowsvpn.shop
-    mode: stream-one
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /
-    x-padding-bytes: 100-1000
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 03'
-  network: tcp
-  port: '7443'
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-    short-id: '!!str d82fb387'
-  server: 167.104.223.68
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1c0277ad-bb4d-496f-bc0c-40ccee03fca5
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 03'
   network: xhttp
-  port: '443'
-  server: 89.144.30.104
-  servername: dey.lnmarketplace.net@kurdconfig
+  port: '2053'
+  server: 45.85.119.181
+  servername: FREEchanell1.mobilezahra.com.
   tls: true
   type: vless
   udp: true
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
+  uuid: 98731bd6-07ae-4fd0-b05c-26253eea43db
   xhttp-opts:
-    host: dey.lnmarketplace.net
-    mode: stream-one
-    path: /kavir
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
-  name: '[G] 🇩🇪 德国 05'
-  network: xhttp
-  port: '443'
-  server: dey.lnmarketplace.net
-  servername: dey.lnmarketplace.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  xhttp-opts:
-    host: dey.lnmarketplace.net
-    mode: stream-one
-    path: /kavir
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 06'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Vgpu-ulcEK2GcWK3dohesaAGGFlnrXD1MxPrU6j_KkY
-    short-id: '!!str bad3a25cf8c16109'
-  server: 45.95.96.134
-  servername: mos3078.rtnode.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e71d588-61af-4b58-b467-3eba16b5041b
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 07'
-  network: xhttp
-  port: '8443'
-  server: xco.xonline.sbs
-  servername: xco.trevor.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62f4392f-61bd-4893-a79c-8e3922e8bacc
-  xhttp-opts:
-    host: xco.trevor.ir
+    host: FREEchanell1.mobilezahra.com.
     mode: auto
-    path: /cocjslfnr
+    sc-min-posts-interval-ms: 30
     x-padding-bytes: 100-1000
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 08'
-  network: tcp
-  port: '7500'
-  reality-opts:
-    public-key: 8a3blVdAACDlvRA5zrdNxHLZ9boU5QkwGMkf0WwyZVI
-    short-id: '!!str 77a3a1c829040294'
-  server: 9newde.myatris.org
-  servername: www.varzesh3.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6c76efec-ee0e-4bcc-b9e6-98859ab68484
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: gun
-  name: '[G] 🇩🇪 德国 09'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: gUU8rOYxXtE2ENvQ-RLrmaON2lw2L9lObStu-EaJxhs
-    short-id: '!!str d05e7ab9872797f4'
-  server: 45.153.190.26
-  servername: mageia.ubuntuhosting.host
-  tls: true
-  type: vless
-  udp: true
-  uuid: e70ad57f-5b39-46f5-ba70-44953ad23164
-  xudp: true
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 04'
+  network: ws
+  port: 8080
+  server: jd.103672.xyz
+  tls: false
+  type: vmess
+  uuid: c14a83db-f333-452e-acff-93b8f7160b10
+  ws-opts:
+    headers:
+      Host: dedasabo.103466.xyz
+    path: /
