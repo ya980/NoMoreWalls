@@ -1,20 +1,16 @@
 proxies:
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 01'
-  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
-  port: 443
-  server: 23.166.40.27
-  sni: u723828us881.ccgfw.top
+- name: '[E] 🇺🇸 美国 01'
+  password: a8160c2f-561b-4849-83d2-9900d1442c74
+  port: 8443
+  server: 62.60.238.208
+  sni: yandexcdn2.ookcdn.ru
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 02'
-  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
-  port: 443
-  server: 195.133.53.225
-  sni: u723828us462.csgfw.top
+- name: '[E] 🇺🇸 美国 02'
+  password: a8160c2f-561b-4849-83d2-9900d1442c74
+  port: 8443
+  server: 193.233.130.249
+  sni: yandexcdn18.ookcdn.ru
   tls: false
   type: hysteria2
 - alpn:
@@ -22,11 +18,20 @@ proxies:
   name: '[E] 🇺🇸 美国 03'
   password: 723af53a-b131-3270-8ce0-13f8ecaaa322
   port: 443
-  server: 188.119.64.120
-  sni: u723828us429.csgfw.top
+  server: s554.okgfw.top
+  sni: u723828us554.okgfw.top
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 04'
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 04'
+  password: 723af53a-b131-3270-8ce0-13f8ecaaa322
+  port: 443
+  server: 195.133.53.225
+  sni: u723828us462.csgfw.top
+  tls: false
+  type: hysteria2
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -34,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: d02e3bb7e6b3333e818d36866d40de6e
   port: 17005
@@ -42,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 17801
@@ -52,7 +57,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[F] 🇺🇸 美国 07'
+  name: '[F] 🇺🇸 美国 08'
   port: 180
   server: 82.198.246.250
   skip-cert-verify: false
@@ -61,7 +66,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 08'
+  name: '[G] 🇺🇸 美国 09'
   network: tcp
   port: '180'
   server: 82.198.246.250
@@ -70,7 +75,7 @@ proxies:
   type: vmess
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 09'
+  name: '[H] 🇺🇸 美国 10'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -82,7 +87,7 @@ proxies:
   flow: xtls-rprx-vision
   fp: edge
   headerType: none
-  name: '[H] 🇺🇸 美国 10'
+  name: '[H] 🇺🇸 美国 11'
   network: tcp
   pbk: gGJ8dmjhQ4MhgvLp5yd7tZlBOw04c4d7WflhpXTC3BQ
   port: 20006
