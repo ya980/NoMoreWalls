@@ -1,4 +1,14 @@
 proxies:
+- name: '[D] 🇩🇪 德国 01'
+  obfs: salamander
+  obfs-password: hg26zdlxvw7bj6pd
+  password: 0djglvgv7lh45uz9
+  port: 32254
+  server: 91.107.137.0
+  skip-cert-verify: false
+  sni: saeed.saeedposivip.ir
+  tls: false
+  type: hysteria2
 - name: '[D] 🌍 其它地区 01'
   obfs: salamander
   obfs-password: EsimObfs_9mK2x7
@@ -100,14 +110,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🌍 其它地区 10'
-  password: dongtaiwang.com
-  port: 22000
-  server: 62.210.10.108
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🌍 其它地区 11'
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
   password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
@@ -122,7 +124,7 @@ proxies:
   - h2
   - http/1.1
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
   password: zZlPDO5jYeaE9rYtNnjlBI0igvbIdjRX
@@ -131,7 +133,7 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
+- name: '[D] 🌍 其它地区 11'
   obfs: salamander
   obfs-password: 8s7t1sNDH36vU8_Ixd7MckIY
   password: zZlPDO5jYeaE9rYtNnjlBI0igvbIdjRX
@@ -141,19 +143,20 @@ proxies:
   sni: www.microsoft.com
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 12'
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
+- alpn:
+  - h3
+  name: '[E] 🌍 其它地区 12'
+  password: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
+  port: 443
+  server: s544.ccgfw.online
+  sni: u729792us544.ccgfw.online
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
+- name: '[E] 🇫🇷 法国 02'
   password: e4e7866d-920b-4a53-a8e2-6ae9b2a42fc2
   port: 11000
   server: 185.227.108.195
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: de-node.farnet.top
   tls: false
   type: hysteria2
@@ -161,18 +164,11 @@ proxies:
   password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
   port: 56309
   server: hkt.ccwink.cc
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: hkt.ccwink.cc
   tls: false
   type: hysteria2
 - name: '[E] 🇭🇰 香港 02'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 03'
   password: e3a5bb40be52de65
   port: 55555
   server: 89.251.26.111
@@ -180,24 +176,15 @@ proxies:
   sni: apps.apple.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🌍 其它地区 13'
-  password: 28beee5e-40ab-3c36-b797-1e4ecf27d0a0
-  port: 443
-  server: 88.151.33.158
-  skip-cert-verify: true
-  sni: u729792us504.csgfw.top
-  tls: false
-  type: hysteria2
-- name: '[E] 🌍 其它地区 14'
+- name: '[E] 🌍 其它地区 13'
   password: efe3901e-b309-43f3-843a-f4f871670cf3
   port: 8449
   server: 154.83.159.46
+  skip-cert-verify: true
   sni: sni.nl01-cherry.online
   tls: false
   type: hysteria2
-- name: '[E] 🌍 其它地区 15'
+- name: '[E] 🌍 其它地区 14'
   password: efe3901e-b309-43f3-843a-f4f871670cf3
   port: 8449
   server: 888275.nl01-cherry.online
@@ -217,18 +204,18 @@ proxies:
   uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 01'
+  name: '[E] 🌍 其它地区 15'
   network: ws
-  port: '443'
-  server: 8.211.149.30
+  port: '49515'
+  server: 163.223.224.68
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0
+  uuid: 3e24de0d-43c1-46d6-de72-44c6806c0386
   ws-opts:
     headers:
-      Host: polartime.link
-    path: /ws/
+      Host: varzesh3.com
+    path: /
 - cipher: aes-256-cfb
   name: '[F] 🌍 其它地区 16'
   password: amazonskr05
@@ -237,14 +224,14 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 03'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 05'
+- name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 53018
@@ -252,7 +239,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 06'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -260,7 +247,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 07'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -268,7 +255,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 02'
+- name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -276,7 +263,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 37973
@@ -284,7 +271,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 5701
@@ -351,7 +338,7 @@ proxies:
   uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 08'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -457,7 +444,7 @@ proxies:
   uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249
   xudp: true
 - encryption: mlkem768x25519plus.native.0rtt.R53o6T7qs1BOuqPzb02dDIBzpKqtioSPChYKw-jD11Q
-  name: '[H] 🇩🇪 德国 02'
+  name: '[H] 🇩🇪 德国 03'
   network: ws
   port: '2083'
   server: 188.121.125.169
@@ -477,7 +464,7 @@ proxies:
   - h2
   - http/1.1
   encryption: none
-  name: '[H] 🇩🇪 德国 03'
+  name: '[H] 🇩🇪 德国 04'
   network: xhttp
   port: '2083'
   server: 104.17.122.123
@@ -625,7 +612,7 @@ proxies:
   udp: true
   uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249
   xudp: true
-- name: '[H] 🇭🇰 香港 09'
+- name: '[H] 🇭🇰 香港 08'
   password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
   port: 5228
   server: d44bb887-t9zts0-tgl02u-1jr1u.cm4.oshuawei.com
@@ -656,7 +643,7 @@ proxies:
     path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
   xudp: true
 - flow: xtls-rprx-vision
-  name: '[H] 🇯🇵 日本 05'
+  name: '[H] 🇯🇵 日本 04'
   network: tcp
   packet-encoding: xudp
   port: 8443
@@ -712,7 +699,7 @@ proxies:
   uuid: 82dbc26e-2dcc-436a-84ee-f57d098209cd
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 05'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -727,7 +714,7 @@ proxies:
   udp: true
   uuid: fdba43e2-9dc3-4c3e-a890-08ab21e60081
 - encryption: none
-  name: '[H] 🇩🇪 德国 05'
+  name: '[H] 🇩🇪 德国 06'
   network: xhttp
   packet-encoding: xudp
   port: 2052
@@ -908,7 +895,7 @@ proxies:
   up: ''
 - alpn:
   - http/1.1
-  name: '[H] 🇯🇵 日本 06'
+  name: '[H] 🇯🇵 日本 05'
   network: ws
   password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
   port: '443'
@@ -923,7 +910,7 @@ proxies:
         like Gecko) Chrome/62.0.3202.94 Safari/537.36
     path: /
 - encryption: none
-  name: '[H] 🇫🇷 法国 04'
+  name: '[H] 🇫🇷 法国 03'
   network: ws
   port: '443'
   server: betty.ns.cloudflare.com
@@ -975,7 +962,7 @@ proxies:
     x-padding-bytes: 100-1000
   xudp: true
 - encryption: none
-  name: '[H] 🇩🇪 德国 06'
+  name: '[H] 🇩🇪 德国 07'
   network: ws
   port: '443'
   server: betty.ns.cloudflare.com
@@ -1023,7 +1010,7 @@ proxies:
         (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
     path: /?ed=2048
   xudp: true
-- name: '[H] 🇩🇪 德国 07'
+- name: '[H] 🇩🇪 德国 08'
   network: ws
   port: '80'
   server: 104.25.118.238
@@ -1041,7 +1028,7 @@ proxies:
   - h3
   - h2
   encryption: none
-  name: '[H] 🇩🇪 德国 08'
+  name: '[H] 🇩🇪 德国 09'
   network: ws
   port: '443'
   server: 104.16.72.139
@@ -1058,7 +1045,7 @@ proxies:
     path: /news
   xudp: true
 - encryption: none
-  name: '[H] 🇩🇪 德国 09'
+  name: '[H] 🇩🇪 德国 10'
   network: ws
   port: '443'
   server: betty.ns.cloudflare.com
@@ -1075,7 +1062,7 @@ proxies:
     path: /rsedgws
   xudp: true
 - encryption: none
-  name: '[H] 🇩🇪 德国 10'
+  name: '[H] 🇩🇪 德国 11'
   network: ws
   port: '2086'
   server: 172.67.89.31
@@ -1125,7 +1112,7 @@ proxies:
   uuid: 9e59fc22-f7f8-4dbf-b370-cfd1a4e51464
   xudp: true
 - cipher: aes-128-gcm
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 06'
   password: JVrsLLN1tkN8oXZO
   port: 13223
   server: chengbai02.ascwt179.com
