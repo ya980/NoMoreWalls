@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 台湾 01'
-  network: tcp
-  port: '11886'
-  server: tttttt.ly123.edu.kg
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 14'
+  name: '[E] 🌍 其它地区 19'
   network: ws
   port: '49515'
   server: 163.223.224.68
@@ -24,21 +14,21 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 15'
+  name: '[F] 🌍 其它地区 20'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 03'
+  name: '[F] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 53018
@@ -46,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 05'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -54,7 +44,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 06'
+- name: '[F] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -110,7 +100,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇺🇸 美国 02'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
@@ -118,7 +108,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 03'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -126,7 +116,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 22057
@@ -136,7 +126,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 07'
+  name: '[G] 🇭🇰 香港 08'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -144,98 +134,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alpn:
-  - http/1.1
-  name: '[H] 🇯🇵 日本 04'
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: '443'
-  server: saas.sin.fan
-  skip-cert-verify: false
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /
-- alpn:
-  - http/1.1
-  name: '[H] 🇯🇵 日本 05'
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: '443'
-  server: 35.72.81.216
-  skip-cert-verify: false
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.109 Safari/537.36
-    path: /?ed=2048
-- alpn:
-  - http/1.1
-  name: '[H] 🇯🇵 日本 06'
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: '443'
-  server: 154.83.95.129
-  skip-cert-verify: false
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/51.0.2704.103 Safari/537.36
-    path: /?ed=2048
-- name: '[H] 🇸🇬 新加坡 04'
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: '443'
-  server: store.ubi.com
-  skip-cert-verify: true
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
-- alterId: 2
-  cipher: auto
-  name: '[H] 🇸🇬 新加坡 06'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- allowInsecure: '1'
-  insecure: '1'
-  name: '[H] 🇯🇵 日本 07'
-  network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
-  port: 443
-  security: tls
-  server: 57.182.89.177
-  servername: jy.hhllfly.kdns.fr
-  skip-cert-verify: true
-  sni: jy.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: jy.hhllfly.kdns.fr
-    max-early-data: 2048
-    path: /
-- name: '[H] 🇯🇵 日本 08'
+- name: '[H] 🇯🇵 日本 04'
   network: ws
   password: hV66LcSGyxUdHq2aAeqxmLfpBDQmRYxo8Wte43oZr8L379SS
   port: 443
@@ -246,39 +145,81 @@ proxies:
     headers:
       Host: node2.bw8848.org
     path: /node2-node2-gu7bfd
-- alpn:
-  - http/1.1
-  name: '[H] 🇭🇰 香港 10'
+- name: '[H] 🇺🇸 美国 08'
   network: ws
-  password: 4c3164ee-abcf-4091-abea-d1cd4937a68d
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 103.74.192.228
-  sni: jy.hhllfly.kdns.fr
+  server: 154.17.28.152
+  sni: hhcm.hhxaf.cc.cd
   type: trojan
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: jy.hhllfly.kdns.fr
-    max-early-data: 2048
+      Host: hhcm.hhxaf.cc.cd
     path: /
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 07'
-  password: amazonskr05
+- name: '[H] 🇺🇸 美国 09'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
   port: 443
-  server: 34.224.81.99
+  server: 69.63.217.6
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: '[H] 🇫🇷 法国 02'
+  network: ws
+  password: humanity
+  port: 443
+  server: 172.64.146.211
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
+- name: '[H] 🇰🇷 韩国 05'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: '443'
+  server: 129.154.50.159
   skip-cert-verify: false
-  type: ss
-  udp: false
-- alterId: 0
-  cipher: auto
-  insecure: '0'
-  name: '[H] 🇺🇸 美国 08'
-  network: tcp
-  port: 29633
-  server: 23.141.204.132
-  tls: false
-  type: vmess
-  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /
+- name: '[H] 🇺🇸 美国 12'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: '443'
+  server: 69.63.223.42
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /
+- name: '[H] 🇭🇰 香港 09'
+  network: ws
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  port: '8443'
+  server: 83.229.121.78
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /
 - cipher: aes-128-gcm
   name: '[I] 🇯🇵 日本 09'
   password: JVrsLLN1tkN8oXZO
