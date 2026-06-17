@@ -1,1 +1,42 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] SE 01'
+  network: tcp
+  port: 8443
+  server: 45.159.12.34
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] SE 02'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: xx8vYPWtNhcn3i4iprMYCsURqX9hmTz_8tA_vuE1_GI
+    short-id: '!!str fe12'
+  server: 144.31.128.61
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e8bf51de-efc9-42a4-be50-1a6bc3170c63
+  xudp: true
+- encryption: none
+  name: '[H] SE 03'
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  server: 45.159.12.162
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
