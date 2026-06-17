@@ -23,15 +23,21 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 06'
-  network: ws
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 07'
+  password: amazonskr05
   port: 443
-  server: 154.17.26.148
-  sni: tjsp.hhxaf.cc.cd
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
+  server: 34.224.81.99
+  skip-cert-verify: false
+  type: ss
+  udp: false
+- alterId: 0
+  cipher: auto
+  insecure: '0'
+  name: '[H] 🇺🇸 美国 08'
+  network: tcp
+  port: 29633
+  server: 23.141.204.132
+  tls: false
+  type: vmess
+  uuid: 0685a0bf-2413-45d2-dc00-c0281387c247
