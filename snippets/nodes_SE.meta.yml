@@ -1,16 +1,41 @@
 proxies:
 - client-fingerprint: chrome
-  name: '[H] SE 01'
+  encryption: none
+  name: '[G] SE 01'
   network: tcp
   port: '8443'
-  server: 45.159.12.162
+  server: 45.159.12.164
   servername: ams1.fromblancwithlove.com
   tls: true
   type: vless
   udp: true
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
   xudp: true
-- name: '[I] SE 02'
+- encryption: none
+  name: '[G] SE 02'
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  server: 45.159.12.18
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- encryption: none
+  name: '[G] SE 03'
+  network: tcp
+  packet-encoding: xudp
+  port: 8443
+  server: 45.159.12.6
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: '[I] SE 04'
   network: tcp
   port: 443
   server: 70.34.211.208
