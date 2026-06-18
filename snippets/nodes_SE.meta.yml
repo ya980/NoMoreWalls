@@ -40,7 +40,14 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   name: '[H] SE 04'
   password: yu2XnSPWhmQjxn83iJA3DA
-  port: '3478'
+  port: 3478
   server: 207.2.120.46
   type: ss
   udp: true
+- name: '[I] SE 05'
+  network: tcp
+  port: 443
+  server: 70.34.211.208
+  tls: false
+  type: vless
+  uuid: 2ef5251a-dc71-49b2-85bc-c9c56654d857

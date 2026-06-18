@@ -42,3 +42,16 @@ proxies:
   skip-cert-verify: true
   sni: vpn-sg-002.fastervpn.world
   type: hysteria2
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[I] 🇸🇬 新加坡 06'
+  network: tcp
+  port: 443
+  server: group.shalana.xyz
+  servername: aka.ms
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 75979242-d597-4311-a019-f3735eb3793d
