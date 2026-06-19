@@ -1,26 +1,69 @@
 proxies:
+- name: '[E] 🇬🇧 英国 01'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 88.151.195.220
+  skip-cert-verify: false
+  sni: u711540us282.wagahaha.xyz
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇬🇧 英国 01'
+  name: '[E] 🇬🇧 英国 02'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
   server: 88.151.195.220
   sni: u711540us282.wagahaha.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 02'
+  name: '[H] 🇬🇧 英国 03'
   network: tcp
-  packet-encoding: xudp
   port: 443
   reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 82.40.23.19
-  servername: sellflow.org
+    public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY
+    short-id: '!!str 7a3f9e2b1c8d4f6a'
+  server: 31.76.113.60
+  servername: it.s3-cloud.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇬🇧 英国 04'
+  network: xhttp
+  packet-encoding: xudp
+  port: 443
+  server: sn.clasmateso.tr
+  servername: sn.clasmateso.tr
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
+  uuid: 71a813c9-7ad5-4152-9b18-353d3fff1482
+  xhttp-opts:
+    host: sn.clasmateso.tr
+    mode: auto
+    path: /sni
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  name: '[H] 🇬🇧 英国 05'
+  network: ws
+  password: 87873670-6845-11f1-94a5-1239d0255272
+  port: '443'
+  server: news.microsoft.com
+  skip-cert-verify: false
+  sni: uk1.test3.net
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /howdy
