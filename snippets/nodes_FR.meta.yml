@@ -12,13 +12,16 @@ proxies:
 - name: '[E] 🇫🇷 法国 02'
   password: c6b2924e-a913-4864-a910-b446b9841b4b
   port: 443
-  server: connect-ger2.gadmap.online
+  server: 185.181.10.237
+  skip-cert-verify: false
   sni: connect-ger2.gadmap.online
   tls: false
   type: hysteria2
-- name: '[I] 🇫🇷 法国 03'
-  port: 6805
-  server: faranse.duravex.net
+- name: '[E] 🇫🇷 法国 03'
+  password: c6b2924e-a913-4864-a910-b446b9841b4b
+  port: 443
+  server: connect-ger2.gadmap.online
+  skip-cert-verify: true
+  sni: connect-ger2.gadmap.online
   tls: false
-  type: vless
-  uuid: 4c0c49ab-28f1-4411-bf90-5d073caf56ed
+  type: hysteria2
