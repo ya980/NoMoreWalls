@@ -21,14 +21,14 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 01'
+  name: '[F] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 02'
+- name: '[F] 🇭🇰 香港 03'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 53018
@@ -36,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 03'
+- name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -44,7 +44,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -126,7 +126,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 05'
+  name: '[G] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -193,21 +193,25 @@ proxies:
     headers:
       Host: hhcm.hhxaf.cc.cd
     path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 13'
+  network: tcp
+  port: 443
+  server: atiins.com.tr
+  servername: atiins.com.tr
+  tls: true
+  type: vmess
+  uuid: 97775936-05ea-4fea-8562-e9eb98559790
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇩🇪 德国 11'
+  password: UlY3BdJmpmWdy9RJmgxfaA
+  port: 1080
+  server: 217.179.5.162
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🌍 其它地区 37'
   password: BKtw7AVI6tDcK1oAP4B2lu
   port: 443
   server: 94.103.2.174
-  type: ss
-- cipher: aes-128-gcm
-  name: '[I] 🇭🇰 香港 06'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇭🇰 香港 07'
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: 19001
-  server: ss.047.node-for-bigairport.win
   type: ss
