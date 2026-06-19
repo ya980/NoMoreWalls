@@ -1,8 +1,17 @@
 proxies:
+- alpn:
+  - h3
+  name: '[E] 🇬🇧 英国 01'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 88.151.195.220
+  sni: u711540us282.wagahaha.xyz
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇬🇧 英国 01'
+  name: '[H] 🇬🇧 英国 02'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -15,16 +24,3 @@ proxies:
   type: vless
   udp: true
   uuid: ff19693c-11f3-4df9-8713-79a85a5ca090
-- name: '[I] 🇬🇧 英国 02'
-  port: 22263
-  server: 104.194.148.56
-  tls: false
-  type: vless
-  uuid: 05671cd1-ab2f-4f64-a926-b655f199a23d
-- name: '[I] 🇬🇧 英国 03'
-  network: tcp
-  port: 8880
-  server: 165.227.236.227
-  tls: false
-  type: vless
-  uuid: 53b8b074-c180-41d9-80dc-55979e0ddc58
