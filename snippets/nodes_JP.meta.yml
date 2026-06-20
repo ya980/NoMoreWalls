@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
+- name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 02'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 37973
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 37973
@@ -24,8 +24,11 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: '[I] 🇯🇵 日本 04'
-  port: 37716
-  server: 167.233.116.204
-  tls: false
+  network: tcp
+  port: 8443
+  server: 185.229.191.157
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 9d09a22b-acf7-4da2-923c-3dc3a3442fbb
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93

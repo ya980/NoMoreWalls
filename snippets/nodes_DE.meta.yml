@@ -1,6 +1,6 @@
 proxies:
 - client-fingerprint: chrome
-  name: '[G] 🇩🇪 德国 01'
+  name: '[H] 🇩🇪 德国 01'
   network: tcp
   packet-encoding: xudp
   port: 443
@@ -15,7 +15,7 @@ proxies:
   uuid: 3e7f67de-648e-4871-b51a-a225214d41ee
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇩🇪 德国 02'
+  name: '[H] 🇩🇪 德国 02'
   network: tcp
   port: '9999'
   reality-opts:
@@ -31,7 +31,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 03'
+  name: '[H] 🇩🇪 德国 03'
   network: tcp
   port: '443'
   reality-opts:
@@ -46,7 +46,7 @@ proxies:
   xudp: true
 - alterId: '0'
   cipher: auto
-  name: '[G] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 04'
   network: tcp
   port: '1020'
   server: nlt.reata.ir
@@ -58,7 +58,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇩🇪 德国 05'
+  name: '[H] 🇩🇪 德国 05'
   network: tcp
   port: '8080'
   reality-opts:
@@ -74,7 +74,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 06'
+  name: '[H] 🇩🇪 德国 06'
   network: tcp
   port: '40443'
   reality-opts:
@@ -87,9 +87,16 @@ proxies:
   udp: true
   uuid: 8c158c22-ecaf-441e-8653-91f1a5a4fd15
   xudp: true
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[I] 🇩🇪 德国 07'
-  password: UlY3BdJmpmWdy9RJmgxfaA
-  port: 1080
-  server: 217.179.5.162
-  type: ss
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 69_I9Wm_vP5wQUbiQhdejWS9yLlNYLFjcnF59G-0GAU
+    short-id: '!!str 31e36d0ac3355472'
+  server: 191.44.118.101
+  servername: www.microsoft.com
+  tls: false
+  type: vless
+  uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b

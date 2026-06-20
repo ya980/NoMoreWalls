@@ -1,15 +1,14 @@
 proxies:
-- name: '[D] 🇬🇧 英国 01'
+- name: '[E] 🇬🇧 英国 01'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
   server: 88.151.195.220
-  skip-cert-verify: false
   sni: u711540us282.wagahaha.xyz
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇬🇧 英国 02'
+  name: '[E] 🇬🇧 英国 02'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
   server: 88.151.195.220
@@ -20,7 +19,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: deepl.com
-  name: '[G] 🇬🇧 英国 03'
+  name: '[H] 🇬🇧 英国 03'
   network: grpc
   port: '446'
   reality-opts:
@@ -37,7 +36,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: deepl.com
-  name: '[G] 🇬🇧 英国 04'
+  name: '[H] 🇬🇧 英国 04'
   network: grpc
   port: '446'
   reality-opts:
@@ -52,7 +51,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[G] 🇬🇧 英国 05'
+  name: '[H] 🇬🇧 英国 05'
   network: tcp
   port: '443'
   reality-opts:
@@ -67,7 +66,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇬🇧 英国 06'
+  name: '[H] 🇬🇧 英国 06'
   network: ws
   port: '443'
   server: another-cf.dnsyes.kawaii520.icu
@@ -83,3 +82,21 @@ proxies:
         like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: /
   xudp: true
+- name: '[I] 🇬🇧 英国 07'
+  network: tcp
+  port: 8443
+  server: 152.233.28.200
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: '[I] 🇬🇧 英国 08'
+  network: tcp
+  port: 8443
+  server: 152.233.28.201
+  servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
