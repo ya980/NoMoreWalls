@@ -23,7 +23,24 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[I] 🇯🇵 日本 04'
+- client-fingerprint: random
+  name: '[H] 🇯🇵 日本 04'
+  network: ws
+  port: '2096'
+  server: saas.sin.fan
+  servername: sp.linuxdododo.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
+  ws-opts:
+    headers:
+      Host: sp.linuxdododo.ccwu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /proxyip=ProxyIP.JP.cmliussss.net
+  xudp: true
+- name: '[I] 🇯🇵 日本 05'
   network: tcp
   port: 8443
   server: 185.229.191.157
