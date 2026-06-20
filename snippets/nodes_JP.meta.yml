@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
+- name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 02'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 37973
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 37973
@@ -23,24 +23,23 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: random
-  name: '[G] 🇯🇵 日本 04'
-  network: ws
-  port: '2096'
-  server: saas.sin.fan
-  servername: sp.linuxdododo.ccwu.cc
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇯🇵 日本 04'
+  network: tcp
+  port: 5454
+  reality-opts:
+    public-key: 7Mb18pl7fH3NvhVevIVTgRdPlAorUucOWMlUaTrDV0o
+    short-id: '!!str 4265cc8365'
+  server: 1.sdwan.realm-sync.com
+  servername: swcdn.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 06b65903-406d-4a41-8400-6fd5c0ee7798
-  ws-opts:
-    headers:
-      Host: sp.linuxdododo.ccwu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /proxyip=ProxyIP.JP.cmliussss.net
+  uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
   xudp: true
-- name: '[H] 🇯🇵 日本 05'
+- name: '[I] 🇯🇵 日本 05'
   network: tcp
   port: 8443
   server: 185.229.191.157

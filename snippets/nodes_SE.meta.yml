@@ -1,5 +1,5 @@
 proxies:
-- name: '[C] SE 01'
+- name: '[D] SE 01'
   obfs: salamander
   obfs-password: T.me$V2RayyNGvpn
   password: T$me$V2RayyNGvpn
@@ -9,7 +9,7 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
-- name: '[C] SE 02'
+- name: '[D] SE 02'
   obfs: salamander
   obfs-password: T$me$V2RayyNGVpn@V2RayyNGvpn
   password: T$me$V2RayyNGvpn
@@ -19,15 +19,31 @@ proxies:
   sni: www.wordreference.com
   tls: false
   type: hysteria2
-- name: '[C] SE 03'
+- name: '[D] SE 03'
   password: c6b2924e-a913-4864-a910-b446b9841b4b
   port: 443
   server: connect-ger2.gadmap.online
   sni: connect-ger2.gadmap.online
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] SE 04'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: se.faygo.bot
+  servername: enterprisekitten.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922
+  xudp: true
+- client-fingerprint: chrome
+  name: '[I] SE 05'
   network: tcp
   port: 8443
   server: 79.127.249.221
