@@ -1,37 +1,56 @@
 proxies:
-- name: '[E] 🇺🇸 美国 01'
+- alpn:
+  - h3
+  name: '[D] 🇺🇸 美国 01'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
   server: 23.166.40.27
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: u711540us881.ccgfw.top
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
+- name: '[D] 🇺🇸 美国 02'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
-  server: s554.okgfw.top
-  skip-cert-verify: false
-  sni: u711540us554.okgfw.top
+  server: 23.166.40.27
+  sni: u711540us881.ccgfw.top
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇺🇸 美国 03'
+  name: '[D] 🇺🇸 美国 03'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
   server: s554.okgfw.top
+  skip-cert-verify: true
   sni: u711540us554.okgfw.top
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
+- name: '[D] 🇺🇸 美国 04'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: s554.okgfw.top
+  skip-cert-verify: false
+  sni: u711540us554.okgfw.top
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 05'
   password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
   port: 443
   server: 195.133.53.225
+  skip-cert-verify: false
   sni: u711540us462.csgfw.top
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 05'
+- name: '[D] 🇺🇸 美国 06'
+  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
+  port: 443
+  server: 188.119.65.33
+  skip-cert-verify: false
+  sni: u711540us261.wagahaha.xyz
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
@@ -39,7 +58,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -47,7 +66,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 41889
@@ -55,40 +74,40 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 08'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- alpn:
-  - h3
-  name: '[H] 🇺🇸 美国 09'
-  password: MySecurePassword123
-  port: 8443
-  server: wuhantravel.duckdns.org
-  sni: wuhantravel.duckdns.org
-  type: hysteria2
+- encryption: none
+  name: '[G] 🇺🇸 美国 10'
+  network: ws
+  port: '8880'
+  server: 50.62.198.50
+  type: vless
   udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime39.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 10'
+  name: '[G] 🇺🇸 美国 11'
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: bx8Vj6dVO5DKul_uEMHeg7ZtEkT7Twud2IDdwClRAgQ
-    short-id: '!!str a1b2c3d4'
-  server: 149.28.87.17
-  servername: www.cloudflare.com
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str 6a2b5c9d'
+  server: sw.musicperec.ru
+  servername: www.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: f265505f-a2cf-4b50-8ea1-d250313d0f52
+  uuid: 31216f81-3139-0021-bac4-646680314264
+  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 11'
+  name: '[I] 🇺🇸 美国 12'
   network: tcp
   port: 443
   server: atiins.com.tr
