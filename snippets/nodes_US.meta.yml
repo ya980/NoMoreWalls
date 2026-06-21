@@ -1,31 +1,27 @@
 proxies:
-- name: '[E] 🇺🇸 美国 01'
-  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
-  port: 443
-  server: 23.166.40.27
-  skip-cert-verify: false
-  sni: u711540us881.ccgfw.top
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 02'
-  password: 43bcba7d-cd22-379c-a7da-2e8eafecbc78
-  port: 443
-  server: s554.okgfw.top
-  skip-cert-verify: true
-  sni: u711540us554.okgfw.top
-  tls: false
-  type: hysteria2
-- name: '[F] 🇺🇸 美国 03'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 01'
+  network: ws
+  port: '443'
+  server: cf.scpnb.top
+  servername: vienna-bread-threats-amendment.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed
+  ws-opts:
+    headers:
+      Host: vienna-bread-threats-amendment.trycloudflare.com
+    path: /7c84ae69-f0b3-47dc-83c5-e7b5f00f5bed-vm
+- name: '[F] 🇺🇸 美国 02'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 49277
-  server: 35.77.34.38
+  server: 43.198.206.201
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: e0195c73018d597b1c2f0ea89d8676ae
   port: 17005
@@ -33,78 +29,125 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
-  port: 41889
-  server: 16.163.106.209
+  port: 17801
+  server: 18.163.80.94
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: '[H] 🇺🇸 美国 05'
+  network: tcp
+  password: e0195c73018d597b1c2f0ea89d8676ae
+  port: 49277
+  server: 35.77.34.38
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- encryption: none
+  name: '[H] 🇺🇸 美国 06'
+  network: ws
+  port: 8880
+  server: 92.53.189.40
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime19.workers.dev
+    path: /
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 06'
+  name: '[H] 🇺🇸 美国 07'
   network: ws
   port: '443'
-  server: 66.33.23.63
-  servername: tmesubgift.up.railway.app
+  server: 104.17.9.5
+  servername: newgit.jisucf.cloudns.biz
   tls: true
   type: vless
   udp: true
-  uuid: 17d21ae6-4fb9-cc7d-757a-b11fb2ecc622
+  uuid: 5fbbf263-0518-446c-8ef2-13b2001aa69d
   ws-opts:
     headers:
-      Host: tmesubgift.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /ws/17d21ae6-4fb9-cc7d-757a-b11fb2ecc622
+      Host: newgit.jisucf.cloudns.biz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /
   xudp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 07'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇺🇸 美国 08'
-  network: tcp
-  packet-encoding: xudp
-  port: 8443
-  reality-opts:
-    public-key: FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc
-    short-id: '!!str cafe01234567'
-  server: 172.86.91.58
-  servername: www.apple.com
-  skip-cert-verify: false
+  network: ws
+  port: '443'
+  server: rvg-production-3182.up.railway.app
+  servername: rvg-production-3182.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: c81f0504-2c7c-11f1-9ec5-baabcd4be2cd
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  uuid: 9229da01-d8d4-0d1a-0e33-eb59a8b25234
+  ws-opts:
+    headers:
+      Host: rvg-production-3182.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /ws/9229da01-d8d4-0d1a-0e33-eb59a8b25234
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇺🇸 美国 09'
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: '16369'
   reality-opts:
-    public-key: KS0F6q2PTY1s6y2sH5PdrznYqprIkUBtS1masvcrJjo
-    short-id: '!!str 823257b7b9ab9d02'
-  server: 150.241.102.175
-  servername: usa.zestful.bond
-  skip-cert-verify: false
+    public-key: RFyxgMgejl5ITpTp3ZNR1g6XBPXL19csJ04Kf_-bLgM
+    short-id: '!!str 83'
+  server: ansooyefilter-bot.njati.ir
+  servername: www.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: 967064b5-3272-431e-8dce-9519acfb94be
-- name: '[I] 🇺🇸 美国 10'
+  uuid: c468fa1a-18fb-41e3-9881-b45638e526e5
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 10'
   network: tcp
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  port: 8443
-  server: 23.149.28.8.sslip.io
-  skip-cert-verify: false
-  type: trojan
+  port: 443
+  reality-opts:
+    public-key: 69_I9Wm_vP5wQUbiQhdejWS9yLlNYLFjcnF59G-0GAU
+    short-id: '!!str 31e36d0ac3355472'
+  server: 191.44.118.101
+  servername: www.microsoft.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 11'
+  network: ws
+  port: 80
+  server: 69.84.182.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8975871-a7a0-4906-8835-a23c1258ca1e
+  ws-opts:
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
+    path: /
+- name: '[I] 🇺🇸 美国 12'
+  network: tcp
+  port: 44918
+  server: 64.118.155.66
+  tls: false
+  type: vless
+  uuid: cd6a9e75-2df3-4fad-9bd1-0752bb1bf30c
