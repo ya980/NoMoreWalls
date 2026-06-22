@@ -1,14 +1,21 @@
 proxies:
+- name: '[E] 🇭🇰 香港 01'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 01'
+  name: '[F] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 02'
+- name: '[F] 🇭🇰 香港 03'
   network: tcp
   password: 860c3c2c89a1c7515792be1c5295d21e
   port: 2008
@@ -16,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 03'
+- name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -24,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 27167
@@ -34,7 +41,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 05'
+  name: '[G] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -44,7 +51,26 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - client-fingerprint: random
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 06'
+  name: '[I] 🇭🇰 香港 07'
+  network: tcp
+  port: 58712
+  reality-opts:
+    public-key: en2L9xxQOv2w4eD0sxqu3eOFGnqOxZLWuR9sFqBDdAM
+    short-id: '!!str f266fd3d4e'
+  server: 1.sdwan.realm-sync.com
+  servername: swcdn.apple.com
+  tls: false
+  type: vless
+  uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
+- cipher: aes-128-gcm
+  name: '[I] 🇭🇰 香港 08'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[I] 🇭🇰 香港 09'
   network: tcp
   port: 60776
   reality-opts:
@@ -57,7 +83,7 @@ proxies:
   uuid: da4f61d1-8ca2-4bbf-a79a-1dfff04073e6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 07'
+  name: '[I] 🇭🇰 香港 10'
   network: tcp
   port: 55567
   reality-opts:

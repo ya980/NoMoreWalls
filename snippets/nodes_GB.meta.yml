@@ -19,9 +19,10 @@ proxies:
   encryption: none
   name: '[H] 🇬🇧 英国 02'
   network: tcp
-  port: '8443'
+  port: 8443
   server: 152.233.28.201
   servername: ams1.fromblancwithlove.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -55,26 +56,20 @@ proxies:
   udp: true
   uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
   xudp: true
-- client-fingerprint: chrome
-  name: '[I] 🇬🇧 英国 05'
+- name: '[I] 🇬🇧 英国 05'
   network: tcp
   port: 8443
   server: 152.233.28.202
+  servername: ams1.fromblancwithlove.com
+  tls: true
+  type: vless
+  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+- name: '[I] 🇬🇧 英国 06'
+  network: tcp
+  port: 8443
+  server: 152.233.28.200
   servername: ams1.fromblancwithlove.com
   skip-cert-verify: false
   tls: true
   type: vless
   uuid: 394f6981-a782-4779-9a85-e6cf22935d93
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 06'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: hWw_QLJsQmDlX_9AsTb29wy6RhJ-lHtjHseiZlthXhU
-    short-id: '!!str 9550667e9597f1e5'
-  server: gb1.anpmech.com
-  servername: gb1.anpmech.com
-  tls: false
-  type: vless
-  uuid: 0e49e208-e09e-49bc-afee-2907e5419107

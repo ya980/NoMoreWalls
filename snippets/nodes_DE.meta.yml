@@ -8,12 +8,22 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
+  obfs: salamander
+  obfs-password: T.me/V2RayyNGvpn
+  password: V2RayyNGvpn
+  port: 443
+  server: 185.250.41.245
+  skip-cert-verify: true
+  sni: www.wordreference.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: '[H] 🇩🇪 德国 02'
+  name: '[H] 🇩🇪 德国 03'
   port: 54177
   protocol: udp
   server: 5.83.129.90
@@ -26,7 +36,7 @@ proxies:
   - ''
   alterId: '0'
   cipher: auto
-  name: '[H] 🇩🇪 德国 03'
+  name: '[H] 🇩🇪 德国 04'
   network: tcp
   port: '1020'
   server: nlt.reata.ir
@@ -38,7 +48,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 05'
   network: xhttp
   port: '443'
   server: 45.130.125.6
@@ -55,7 +65,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 05'
+  name: '[H] 🇩🇪 德国 06'
   network: tcp
   port: '443'
   reality-opts:
@@ -71,7 +81,7 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 06'
+  name: '[H] 🇩🇪 德国 07'
   network: tcp
   port: '3443'
   reality-opts:
@@ -86,7 +96,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 07'
+  name: '[H] 🇩🇪 德国 08'
   network: xhttp
   port: '8443'
   reality-opts:
@@ -105,7 +115,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 08'
+  name: '[H] 🇩🇪 德国 09'
   network: tcp
   port: '8443'
   server: vpn.oplatasite.ru
@@ -117,7 +127,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 09'
+  name: '[H] 🇩🇪 德国 10'
   network: tcp
   port: '2053'
   reality-opts:
@@ -130,16 +140,3 @@ proxies:
   udp: true
   uuid: 7c47eb1d-58b3-4019-9c4c-3ad3df670cfa
   xudp: true
-- client-fingerprint: firefox
-  name: '[I] 🇩🇪 德国 10'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA
-  server: 94.156.122.251
-  servername: yandex.by
-  tls: false
-  type: vless
-  uuid: ca428a2e-7f82-4030-851b-cab731a5645a
-  ws-opts:
-    path: '%2Fxh'
