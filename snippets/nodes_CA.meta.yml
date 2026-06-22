@@ -1,24 +1,57 @@
 proxies:
-- name: '[D] 🇨🇦 加拿大 01'
-  obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
-  password: V2RayyNGvpn
-  port: 80
-  server: 66.92.161.94
-  skip-cert-verify: true
+- name: '[I] 🇨🇦 加拿大 01'
+  network: ws
+  port: 2095
+  server: www.temu.com
+  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+  skip-cert-verify: false
   tls: false
-  type: hysteria2
-- name: '[D] 🇨🇦 加拿大 02'
-  obfs: salamander
-  obfs-password: T.me/V2RayyNGvpn
-  password: kjMoXj9ZxP
-  port: 443
-  server: 66.92.161.94
-  skip-cert-verify: true
-  sni: www.wordreference.com
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+    path: /fp=randomized
+- name: '[I] 🇨🇦 加拿大 02'
+  network: ws
+  port: 2095
+  server: www.npmjs.com
+  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+  skip-cert-verify: false
   tls: false
-  type: hysteria2
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+    path: /fp=randomized
 - name: '[I] 🇨🇦 加拿大 03'
+  network: ws
+  port: 2095
+  server: developers.cloudflare.com
+  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+    path: /fp=randomized
+- name: '[I] 🇨🇦 加拿大 04'
+  network: ws
+  port: 2095
+  server: www.epicgames.com
+  servername: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: cnmfangbinxing.fangbinxingnmsl-fuckyou.workers.dev
+    path: /fp=randomized
+- name: '[I] 🇨🇦 加拿大 05'
   network: xhttp
   port: 8880
   server: 104.17.52.188
@@ -29,7 +62,7 @@ proxies:
     headers:
       Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
     path: '%2F%40SoonTeam'
-- name: '[I] 🇨🇦 加拿大 04'
+- name: '[I] 🇨🇦 加拿大 06'
   network: xhttp
   port: 8880
   server: 104.27.194.143
@@ -40,7 +73,18 @@ proxies:
     headers:
       Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
     path: '%2F%40SoonTeam'
-- name: '[I] 🇨🇦 加拿大 05'
+- name: '[I] 🇨🇦 加拿大 07'
+  network: xhttp
+  port: 8080
+  server: 104.27.194.143
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: new.new.new.ab841.com
+    path: '%2F%40SoonTeam'
+- name: '[I] 🇨🇦 加拿大 08'
   network: xhttp
   port: 8880
   server: 108.162.195.19
@@ -51,44 +95,18 @@ proxies:
     headers:
       Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
     path: '%2F%40SoonTeam'
-- client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 06'
-  network: xhttp
-  port: 443
-  server: 188.114.97.6
-  servername: fi.dns.xn--q9jyb4c
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 1c3927cb-6141-4473-a17d-4b290f7c6980
-  ws-opts:
-    headers:
-      Host: fi.dns.xn--q9jyb4c
-    path: '%2Fxn--q9jyb4c'
-- name: '[I] 🇨🇦 加拿大 07'
-  network: xhttp
-  port: 8880
-  server: 198.41.207.201
+- name: '[I] 🇨🇦 加拿大 09'
+  network: ws
+  port: 8080
+  server: 172.67.176.31
   tls: false
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: b3a5f201-eeaf-40c8-909c-72f4860cefc8
   ws-opts:
     headers:
-      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
-    path: '%2F%40SoonTeam'
-- client-fingerprint: chrome
-  name: '[I] 🇨🇦 加拿大 08'
-  network: ws
-  port: 8443
-  server: 188.114.97.6
-  servername: argoovpn.imanaghapour.ir
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    path: '%2F'
-- name: '[I] 🇨🇦 加拿大 09'
+      Host: orange-bonus-abd9.dalvandimohammadmahdi.workers.dev
+    path: '%2FeyJqdW5rIjoiUWtMSnFJZFM2S3JnIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6W119'
+- name: '[I] 🇨🇦 加拿大 10'
   network: xhttp
   port: 8080
   server: 198.41.207.201
@@ -98,4 +116,15 @@ proxies:
   ws-opts:
     headers:
       Host: new.new.new.ab841.com
+    path: '%2F%40SoonTeam'
+- name: '[I] 🇨🇦 加拿大 11'
+  network: xhttp
+  port: 8880
+  server: 198.41.207.201
+  tls: false
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: sudo.domain.direct.Pannel.admin.soon.ab841.com
     path: '%2F%40SoonTeam'

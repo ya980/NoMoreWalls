@@ -1,25 +1,25 @@
 proxies:
 - name: '[F] 🇺🇸 美国 01'
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
+  password: 860c3c2c89a1c7515792be1c5295d21e
   port: 49277
-  server: 43.198.206.201
+  server: 18.162.41.225
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 02'
   network: tcp
-  password: e0195c73018d597b1c2f0ea89d8676ae
+  password: 860c3c2c89a1c7515792be1c5295d21e
   port: 17005
-  server: 13.115.223.251
+  server: 95.40.53.232
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: BxceQaOe
-  port: 17801
-  server: 18.163.80.94
+  port: 11993
+  server: 95.40.92.87
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -34,18 +34,15 @@ proxies:
 - encryption: none
   name: '[H] 🇺🇸 美国 05'
   network: ws
-  port: '8880'
+  port: 8880
   server: 92.53.189.40
+  tls: false
   type: vless
   udp: true
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
     headers:
       Host: vms.lifetime19.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    max-early-data: 2560
     path: /
   xudp: true
 - alpn:
@@ -119,9 +116,20 @@ proxies:
   udp: true
   uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
   xudp: true
+- name: '[I] 🇺🇸 美国 10'
+  network: ws
+  port: 80
+  server: 167.82.0.1
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 10'
+  name: '[I] 🇺🇸 美国 11'
   network: ws
   port: '80'
   server: 69.84.182.49
@@ -133,25 +141,17 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
-- flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 11'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OOo-agzuOug2EM-rLJMrgH2pkuVahVWEdXSFMl3z_EE
-  server: nextcloud.c-coo.store
-  servername: nextcloud.c-coo.store
-  tls: false
-  type: vless
-  uuid: 7d14f1cf-3740-4fbd-a31c-6f7d078f97d7
-- name: '[I] 🇺🇸 美国 12'
+- client-fingerprint: chrome
+  name: '[I] 🇺🇸 美国 12'
   network: xhttp
-  port: 2052
-  server: 45.40.145.21
-  tls: false
+  port: 443
+  server: fsxhh.fastshop1.com
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
   type: vless
-  uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bd
+  uuid: 4c9b304f-ec00-41af-be5b-aa3f22ed430e
   ws-opts:
     headers:
-      Host: cdn3.goofymoofy.com
-    path: /pabloping
+      Host: wizardali.global.ssl.fastly.net
+    path: '%2Fmammadalifsx'
