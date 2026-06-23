@@ -1,34 +1,31 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇷🇺 俄罗斯 01'
-  password: 7SEstdmLhf-aFK_G9eaYHKT_YpSov58B
-  port: '51523'
-  server: ru.moktana.app
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 02'
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 01'
   network: tcp
-  port: '8443'
-  server: ru.oplatasite.ru
-  servername: vpn.oplatasite.ru
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 109.73.194.240
+  servername: sellflow.org
   tls: true
   type: vless
   udp: true
-  uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
+  uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
   xudp: true
-- client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 03'
-  network: ws
-  port: 9443
-  server: 176.109.94.202
-  servername: mms-2tets.hysteria.ltd
-  skip-cert-verify: false
-  tls: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 5.129.194.22
+  servername: sellflow.org
+  tls: false
   type: vless
-  uuid: 71b03803-5dfe-4dac-8406-a06e94b1bd70
+  uuid: 33de2596-d95d-412b-a8c2-410be7060ca3
   ws-opts:
     headers:
-      Host: mms-2tets.hysteria.ltd
-    path: '%2Fws'
+      Host: sellflow.org

@@ -2,12 +2,19 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   name: '[H] SE 01'
-  network: tcp
-  port: '8443'
-  server: swed.oplatasite.ru
-  servername: vpn.oplatasite.ru
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: 9bQKxfkbIe21xpF95Ze1omF37XTnz7FGzNyRYTneV38
+    short-id: '!!str 2df193d1'
+  server: 13.51.6.239
+  servername: is1-ssl.mzstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 9cc56b5d-2a44-4fd1-91e3-659b06255c11
+  uuid: 10e4afc4-eeac-4a16-93e8-a42b70ce148b
+  xhttp-opts:
+    mode: stream-up
+    path: '@namedzadim'
+    x-padding-bytes: 100-1000
   xudp: true
