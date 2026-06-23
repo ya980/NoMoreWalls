@@ -9,17 +9,17 @@ proxies:
   type: trojan
 - name: '[F] 🇯🇵 日本 02'
   network: tcp
-  password: 860c3c2c89a1c7515792be1c5295d21e
-  port: 55973
-  server: 95.40.53.232
+  password: 2009158055b4d37156cee7082c50ffde
+  port: 5701
+  server: 43.199.200.130
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇯🇵 日本 03'
   network: tcp
-  password: 860c3c2c89a1c7515792be1c5295d21e
-  port: 37973
-  server: 18.162.41.225
+  password: 2009158055b4d37156cee7082c50ffde
+  port: 5701
+  server: 18.163.125.35
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -53,12 +53,16 @@ proxies:
   udp: true
   uuid: 7e6d3393-bb84-45c7-9eef-35de95805b7e
   xudp: true
-- client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 06'
-  port: 8443
-  server: 87.249.139.233
-  servername: ams1.fromblancwithlove.com
+- name: '[I] 🇯🇵 日本 06'
+  network: ws
+  port: 80
+  server: 151.101.109.223
+  servername: max-gb1.global.ssl.fastly.net
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vless
-  uuid: 394f6981-a782-4779-9a85-e6cf22935d93
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: /

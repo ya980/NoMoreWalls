@@ -1,17 +1,17 @@
 proxies:
 - name: '[F] 🇺🇸 美国 01'
   network: tcp
-  password: 860c3c2c89a1c7515792be1c5295d21e
+  password: 2009158055b4d37156cee7082c50ffde
   port: 49277
-  server: 18.162.41.225
+  server: 57.183.13.23
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 02'
   network: tcp
-  password: 860c3c2c89a1c7515792be1c5295d21e
+  password: 2009158055b4d37156cee7082c50ffde
   port: 17005
-  server: 95.40.53.232
+  server: 57.183.13.23
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -108,13 +108,13 @@ proxies:
   flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 09'
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
     public-key: 69_I9Wm_vP5wQUbiQhdejWS9yLlNYLFjcnF59G-0GAU
     short-id: '!!str 31e36d0ac3355472'
   server: 191.44.118.101
   servername: www.microsoft.com
-  tls: false
+  tls: true
   type: vless
   udp: true
   uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b
@@ -123,6 +123,8 @@ proxies:
   network: ws
   port: 80
   server: 167.82.0.1
+  servername: max-gb1.global.ssl.fastly.net
+  skip-cert-verify: false
   tls: false
   type: vless
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
@@ -143,22 +145,31 @@ proxies:
   uuid: b69a71ef-51dc-48c6-b3df-4c3533062606
 - name: '[I] 🇺🇸 美国 12'
   network: ws
-  port: 80
-  server: 151.101.109.223
-  servername: max-gb1.global.ssl.fastly.net
-  skip-cert-verify: false
+  port: 8880
+  server: 50.62.198.50
   tls: false
   type: vless
-  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: max-gb1.global.ssl.fastly.net
-    path: /
+      Host: vms.lifetime39.workers.dev
+    path: '%2F'
+- name: '[I] 🇺🇸 美国 13'
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 13'
+  name: '[I] 🇺🇸 美国 14'
   network: ws
-  port: 80
+  port: '80'
   server: 69.84.182.49
   servername: ''
   tls: false
@@ -168,20 +179,3 @@ proxies:
     headers:
       Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.
     path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  name: '[I] 🇺🇸 美国 14'
-  network: xhttp
-  port: 443
-  server: 151.101.69.219
-  servername: global.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 7e8158b0-449d-4350-b2b0-52b485aabc5e
-  ws-opts:
-    headers:
-      Host: nlqeshm.global.ssl.fastly.net
-    path: /GaMeOpTiMiZeR?ed=2048

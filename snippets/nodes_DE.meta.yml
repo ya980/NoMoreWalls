@@ -140,3 +140,37 @@ proxies:
   udp: true
   uuid: 7c47eb1d-58b3-4019-9c4c-3ad3df670cfa
   xudp: true
+- name: '[I] 🇩🇪 德国 11'
+  network: ws
+  port: 8880
+  server: 185.135.9.50
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
+- name: '[I] 🇩🇪 德国 12'
+  network: ws
+  port: 8880
+  server: 31.185.108.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime23.workers.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 13'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y
+    short-id: '!!str c56c3ba3b9f676c5'
+  server: 95.85.233.181
+  servername: c.primarymaster.online
+  tls: false
+  type: vless
+  uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f
