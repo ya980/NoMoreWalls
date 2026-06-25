@@ -1,17 +1,10 @@
 proxies:
-- name: '[E] CH 01'
-  password: b7d1d82a-4b7d-4f74-ae7a-c18676d2f4df
-  port: 1935
-  server: sw.monkeyisland.xyz
-  sni: sw.monkeyisland.xyz
-  tls: false
-  type: hysteria2
 - encryption: none
   http-opts:
     headers: {}
     path:
     - /@monacoVPN@monacoVPN@monacoVPN@monacoVPN
-  name: '[H] CH 02'
+  name: '[G] CH 01'
   network: http
   port: '22'
   server: 172.65.111.43
@@ -21,7 +14,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] CH 03'
+  name: '[G] CH 02'
   network: xhttp
   packet-encoding: xudp
   port: 443
