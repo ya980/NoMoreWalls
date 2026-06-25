@@ -10,17 +10,17 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[F] 🇭🇰 香港 06'
   network: tcp
-  password: ba5b6f1d3a9da87096165da523fb4375
+  password: a844e75e40134ee742e80ced8509b310
   port: 2008
-  server: 95.40.43.133
+  server: 95.40.80.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
-  port: 39414
-  server: 43.199.31.72
+  port: 27167
+  server: 18.163.184.21
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -28,7 +28,7 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 29449
-  server: 43.199.44.33
+  server: 43.199.73.120
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -43,10 +43,13 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[I] 🇭🇰 香港 10'
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  skip-cert-verify: false
-  sni: yazhou10.dynu.net
+  network: ws
+  password: '!!str 114514'
+  port: 443
+  server: 23.156.153.57
+  sni: tjaaa.hhllfly.kdns.fr
   type: trojan
+  ws-opts:
+    headers:
+      Host: tjaaa.hhllfly.kdns.fr
+    path: '%2F'

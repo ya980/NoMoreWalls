@@ -97,15 +97,16 @@ proxies:
 - encryption: none
   name: '[H] 🇩🇪 德国 08'
   network: ws
-  port: 80
+  port: '80'
   server: 151.101.171.151
-  tls: false
   type: vless
   udp: true
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /?ed=2560
   xudp: true
 - alpn:
@@ -166,15 +167,16 @@ proxies:
 - encryption: none
   name: '[H] 🇩🇪 德国 12'
   network: ws
-  port: 80
+  port: '80'
   server: 151.101.57.151
-  tls: false
   type: vless
   udp: true
   uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
   ws-opts:
     headers:
       Host: max-gb1.global.ssl.fastly.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /?ed=2560
   xudp: true
 - name: '[H] 🇩🇪 德国 13'
@@ -265,3 +267,14 @@ proxies:
     headers:
       Host: max-gb1.global.ssl.fastly.net
     path: /?https://t.me/WangCai2🇨🇳
+- name: '[I] 🇩🇪 德国 20'
+  network: ws
+  port: 80
+  server: 151.101.7.151
+  tls: false
+  type: vless
+  uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846
+  ws-opts:
+    headers:
+      Host: max-gb1.global.ssl.fastly.net
+    path: '%2F%3Fhttps%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3'

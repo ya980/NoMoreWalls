@@ -48,3 +48,16 @@ proxies:
   type: vless
   udp: true
   uuid: e4468d51-2528-4d40-a92d-5cf409d00dac
+- name: '[I] 🇫🇷 法国 06'
+  network: ws
+  port: 443
+  server: t-panel.wasmer.app
+  servername: t-panel.wasmer.app
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 9cd65844-3f28-4081-8d70-b5c61815f45d
+  ws-opts:
+    headers:
+      Host: t-panel.wasmer.app
+    path: '%2Fws%2F9cd65844-3f28-4081-8d70-b5c61815f45d'
