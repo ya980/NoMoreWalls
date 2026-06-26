@@ -1,25 +1,32 @@
 proxies:
-- name: '[F] 🇸🇬 新加坡 01'
+- name: '[D] 🇸🇬 新加坡 01'
+  password: 0ea1fd78-14b4-438c-a28d-709a77d98251
+  port: 31202
+  server: sg.baiyi.cloudns.org
+  sni: sg.baiyi.cloudns.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 02'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 29642
-  server: 95.40.109.13
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 48738
+  server: 18.166.209.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 02'
+- name: '[E] 🇸🇬 新加坡 03'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 6357
-  server: 95.40.80.58
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 48738
+  server: 43.198.247.168
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 03'
+- name: '[E] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 16.162.119.13
+  port: 9149
+  server: 54.46.14.161
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -29,7 +36,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇸🇬 新加坡 04'
+  name: '[G] 🇸🇬 新加坡 05'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -50,7 +57,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇸🇬 新加坡 05'
+  name: '[G] 🇸🇬 新加坡 06'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -65,14 +72,3 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: '[I] 🇸🇬 新加坡 06'
-  network: ws
-  password: '!!str 114514'
-  port: 443
-  server: 172.236.154.50
-  sni: tjaaa.hhllfly.kdns.fr
-  type: trojan
-  ws-opts:
-    headers:
-      Host: tjaaa.hhllfly.kdns.fr
-    path: '%2F'

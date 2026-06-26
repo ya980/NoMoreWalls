@@ -1,5 +1,5 @@
 proxies:
-- name: '[D] 🇯🇵 日本 01'
+- name: '[C] 🇯🇵 日本 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: hy3.466688.xyz
@@ -7,27 +7,34 @@ proxies:
   sni: https://t.me/QiangLieTuiJian
   tls: false
   type: hysteria2
-- name: '[F] 🇯🇵 日本 02'
+- name: '[D] 🇯🇵 日本 02'
+  password: 5cb196b8-701a-46b8-843b-2c14061885b5
+  port: 10277
+  server: jp.baiyi.cloudns.org
+  sni: jp.baiyi.cloudns.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
-  port: 10624
-  server: 54.250.183.37
+  port: 51976
+  server: 13.158.45.13
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
+- name: '[E] 🇯🇵 日本 04'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 37973
-  server: 13.158.46.252
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 3743
+  server: 18.166.209.37
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[E] 🇯🇵 日本 05'
   network: tcp
-  password: a844e75e40134ee742e80ced8509b310
-  port: 3743
-  server: 13.158.46.252
+  password: 333967de4411e1e833244ba4becc20bf
+  port: 55973
+  server: 43.198.247.168
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -37,7 +44,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇯🇵 日本 05'
+  name: '[G] 🇯🇵 日本 06'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -58,7 +65,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇯🇵 日本 06'
+  name: '[G] 🇯🇵 日本 07'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -79,7 +86,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇯🇵 日本 07'
+  name: '[G] 🇯🇵 日本 08'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -100,7 +107,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇯🇵 日本 08'
+  name: '[G] 🇯🇵 日本 09'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -121,7 +128,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇯🇵 日本 09'
+  name: '[G] 🇯🇵 日本 10'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -142,7 +149,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇯🇵 日本 10'
+  name: '[G] 🇯🇵 日本 11'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -163,7 +170,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇯🇵 日本 11'
+  name: '[G] 🇯🇵 日本 12'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -178,11 +185,16 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: '[I] 🇯🇵 日本 12'
-  network: tcp
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
+- name: '[H] 🇯🇵 日本 13'
+  network: ws
+  port: 443
+  server: 167.82.101.251
+  servername: default.ssl.fastly.net
   skip-cert-verify: false
-  sni: yazhou10.dynu.net
-  type: trojan
+  tls: true
+  type: vless
+  uuid: d27a232b-de94-4204-9bae-b0c243c6b93c
+  ws-opts:
+    headers:
+      Host: newip.global.ssl.fastly.neT.
+    path: /
