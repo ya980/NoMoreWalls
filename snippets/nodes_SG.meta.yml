@@ -1,25 +1,17 @@
 proxies:
 - name: '[F] 🇸🇬 新加坡 01'
   network: tcp
-  password: 333967de4411e1e833244ba4becc20bf
+  password: 230012981ba34c12fec11deca0379005
   port: 48738
-  server: 18.166.209.37
+  server: 54.46.30.217
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇸🇬 新加坡 02'
   network: tcp
-  password: 333967de4411e1e833244ba4becc20bf
-  port: 48738
-  server: 43.198.247.168
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇸🇬 新加坡 03'
-  network: tcp
   password: BxceQaOe
   port: 9149
-  server: 54.46.14.161
+  server: 18.162.53.161
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -29,7 +21,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇸🇬 新加坡 04'
+  name: '[H] 🇸🇬 新加坡 03'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -50,7 +42,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[H] 🇸🇬 新加坡 05'
+  name: '[H] 🇸🇬 新加坡 04'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -65,3 +57,40 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[I] 🇸🇬 新加坡 05'
+  port: 443
+  reality-opts:
+    public-key: nnUS7C7-QQntfoyBI7_Ym2DYIJX8ULNjHkKk9Zr8dRs
+    short-id: '!!str 3a8657890bb824a2'
+  server: 163.128.99.219
+  servername: www.apple.com
+  tls: false
+  type: vless
+  uuid: 6d06761b-8103-41cb-af1b-5a3b32b0eedc
+- name: '[I] 🇸🇬 新加坡 06'
+  network: ws
+  port: 3389
+  server: 43.163.89.186
+  servername: c.eoa.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[I] 🇸🇬 新加坡 07'
+  network: ws
+  port: 7788
+  server: 43.153.208.246
+  servername: c.eoa.ccwu.cc
+  tls: true
+  type: vless
+  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
+  ws-opts:
+    headers:
+      Host: c.eoa.ccwu.cc
+    path: '%2F'
