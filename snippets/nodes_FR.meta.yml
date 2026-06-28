@@ -28,27 +28,19 @@ proxies:
   sni: argg1.auragg.org
   tls: false
   type: hysteria2
-- encryption: none
-  name: '[H] 🇫🇷 法国 04'
-  network: xhttp
-  port: '55117'
-  server: 104.253.134.92
-  type: vless
-  udp: true
-  uuid: 010a6106-960a-4a3c-94d3-410a50c1219d
-  xhttp-opts:
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇫🇷 法国 05'
+  encryption: none
+  name: '[H] 🇫🇷 法国 04'
+  network: tcp
   port: 80
   reality-opts:
     public-key: mjkj2VuAfc9eoRfIVNaHgUV7fZR40XgnjeE31hVVR24
     short-id: '!!str c1'
   server: 45.67.139.162
   servername: www.sony.com
+  skip-cert-verify: true
   tls: false
   type: vless
+  udp: true
   uuid: 2c212fbb-08f9-4be0-a128-b10892111d6d
+  xudp: true
