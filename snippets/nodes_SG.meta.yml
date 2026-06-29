@@ -1,23 +1,31 @@
 proxies:
-- name: '[E] 🇸🇬 新加坡 01'
+- name: '[F] 🇸🇬 新加坡 01'
   network: tcp
-  password: 230012981ba34c12fec11deca0379005
-  port: 48738
-  server: 54.46.30.217
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 6357
+  server: 43.199.32.140
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 02'
+- name: '[F] 🇸🇬 新加坡 02'
+  network: tcp
+  password: 4e4910ec52552e36aa43a870a179da83
+  port: 48738
+  server: 43.199.32.140
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 18.166.29.105
+  port: 22459
+  server: 95.40.63.61
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇸🇬 新加坡 03'
+  name: '[H] 🇸🇬 新加坡 04'
   network: ws
   port: '443'
   server: cf6.466688.xyz
@@ -36,7 +44,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇸🇬 新加坡 04'
+  name: '[H] 🇸🇬 新加坡 05'
   network: tcp
   port: '443'
   reality-opts:
@@ -51,7 +59,7 @@ proxies:
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇸🇬 新加坡 05'
+  name: '[H] 🇸🇬 新加坡 06'
   network: ws
   port: '443'
   server: cf8.466688.xyz
@@ -69,7 +77,7 @@ proxies:
   xudp: true
 - down: ''
   fingerprint: ''
-  name: '[G] 🇸🇬 新加坡 06'
+  name: '[H] 🇸🇬 新加坡 07'
   obfs: ''
   obfs-password: ''
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
@@ -85,7 +93,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 07'
+  name: '[H] 🇸🇬 新加坡 08'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -106,7 +114,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 08'
+  name: '[H] 🇸🇬 新加坡 09'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -121,59 +129,9 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- name: '[I] 🇸🇬 新加坡 09'
+- name: '[I] 🇸🇬 新加坡 10'
   password: 63872b0d-87dd-4474-b690-92773af2922e
   port: 20035
   server: kkvlvvq-a.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 10'
-  network: ws
-  port: 3389
-  server: 43.163.89.186
-  servername: c.eoa.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
-  ws-opts:
-    headers:
-      Host: c.eoa.ccwu.cc
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[I] 🇸🇬 新加坡 11'
-  network: ws
-  port: 7788
-  server: 43.153.208.246
-  servername: c.eoa.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 03d73bc8-01a9-46a7-90b9-3d27065ed328
-  ws-opts:
-    headers:
-      Host: c.eoa.ccwu.cc
-    path: '%2F'
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 12'
-  port: 443
-  reality-opts:
-    public-key: EAxetkUM_1nerrjiX8yM7ceiOZccVFbYRiRt9ALDWzw
-    short-id: '!!str 12ec278197ed73d9'
-  server: 163.128.98.179
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: f68eda7b-a93a-437e-8b35-3bb6c675b025
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: '[I] 🇸🇬 新加坡 13'
-  port: 443
-  reality-opts:
-    public-key: bOl3cE95DyTP45SarBNVL9VSwvAQETENlm0iMNaxLyo
-    short-id: '!!str 93a993bbc8b86684'
-  server: 163.128.98.252
-  servername: www.apple.com
-  tls: false
-  type: vless
-  uuid: 6aeb24c8-efc1-4a8a-8b70-f4373c57cdc2

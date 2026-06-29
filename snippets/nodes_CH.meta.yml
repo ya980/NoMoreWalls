@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] CH 01'
+  name: '[H] CH 01'
   network: tcp
   port: '2083'
   reality-opts:
@@ -20,7 +20,7 @@ proxies:
   - http/1.1
   - h3
   client-fingerprint: chrome
-  name: '[G] CH 02'
+  name: '[H] CH 02'
   network: tcp
   password: SoftNetConnect
   port: '42549'
@@ -30,7 +30,7 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '[G] CH 03'
+  name: '[H] CH 03'
   network: tcp
   password: SoftNetConnect
   port: '42549'
@@ -38,3 +38,17 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] CH 04'
+  network: tcp
+  port: 2083
+  reality-opts:
+    public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY
+    short-id: '!!str 4e590fdc'
+  server: 83.228.250.119
+  servername: www.yahoo.com
+  skip-cert-verify: true
+  tls: false
+  type: vless
+  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
