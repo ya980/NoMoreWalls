@@ -1,10 +1,11 @@
 proxies:
-- name: '[E] 🇺🇸 美国 01'
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  port: 8444
-  server: wlte3.nimarko.org
-  skip-cert-verify: false
-  sni: testing8.nimarko.org
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 01'
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  port: 443
+  server: 23.166.40.27
+  sni: u691611u2e827823s79.sspcccdn.xyz
   tls: false
   type: hysteria2
 - alpn:
@@ -16,7 +17,15 @@ proxies:
   sni: u691611us554.okgfw.top
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 03'
+- name: '[E] 🇺🇸 美国 03'
+  password: 9794d18f-9280-3553-a7a5-a23da75aca76
+  port: 443
+  server: s554.okgfw.top
+  skip-cert-verify: false
+  sni: u691611us554.okgfw.top
+  tls: false
+  type: hysteria2
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: 4e4910ec52552e36aa43a870a179da83
   port: 49277
@@ -24,7 +33,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: 4e4910ec52552e36aa43a870a179da83
   port: 17005
@@ -32,7 +41,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -42,7 +51,7 @@ proxies:
   type: trojan
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 06'
+  name: '[H] 🇺🇸 美国 07'
   network: ws
   port: '443'
   server: fast.cd-tur4.ir
@@ -62,7 +71,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 07'
+  name: '[H] 🇺🇸 美国 08'
   network: ws
   port: '443'
   server: rvg-production-b337.up.railway.app
@@ -79,7 +88,7 @@ proxies:
     path: /ws/3195e102-c157-eed6-eaa5-13ae596360e2
   xudp: true
 - client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 08'
+  name: '[H] 🇺🇸 美国 09'
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: '58995'
   server: d1.catcat321.com
@@ -89,7 +98,7 @@ proxies:
   udp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 09'
+  name: '[H] 🇺🇸 美国 10'
   network: ws
   port: '443'
   server: support.zoom.us
@@ -106,7 +115,7 @@ proxies:
     path: /us-gllc
   xudp: true
 - client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 10'
+  name: '[H] 🇺🇸 美国 11'
   network: tcp
   password: 63872b0d-87dd-4474-b690-92773af2922e
   port: '42531'
@@ -116,7 +125,7 @@ proxies:
   type: trojan
   udp: true
 - encryption: none
-  name: '[H] 🇺🇸 美国 11'
+  name: '[H] 🇺🇸 美国 12'
   network: xhttp
   port: 80
   server: wst.imsoon.net
@@ -130,7 +139,7 @@ proxies:
     x-padding-bytes: 100-1000
   xudp: true
 - encryption: none
-  name: '[H] 🇺🇸 美国 12'
+  name: '[H] 🇺🇸 美国 13'
   network: xhttp
   port: 80
   server: 76.13.121.90
@@ -144,14 +153,14 @@ proxies:
     x-padding-bytes: 100-1000
   xudp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 13'
+  name: '[H] 🇺🇸 美国 14'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: '[H] 🇺🇸 美国 14'
+- name: '[H] 🇺🇸 美国 15'
   network: tcp
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: 50888
@@ -159,7 +168,7 @@ proxies:
   skip-cert-verify: true
   sni: d.usj1.cat.bilibili.com
   type: trojan
-- name: '[H] 🇺🇸 美国 15'
+- name: '[H] 🇺🇸 美国 16'
   network: tcp
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: 13320
@@ -171,7 +180,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 16'
+  name: '[H] 🇺🇸 美国 17'
   network: ws
   password: 0cb2739d-98b8-45ce-b52c-4305c40975a6
   port: '443'
