@@ -1,46 +1,7 @@
 proxies:
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
   name: '[H] CH 01'
-  network: tcp
-  port: '2083'
-  reality-opts:
-    public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY
-    short-id: '!!str 4e590fdc'
-  server: 37.156.44.215
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  name: '[H] CH 02'
-  network: tcp
-  password: SoftNetConnect
-  port: '42549'
-  server: 37.156.44.215
-  skip-cert-verify: true
-  sni: www.speedtest.net
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[H] CH 03'
-  network: tcp
-  password: SoftNetConnect
-  port: '42549'
-  server: 37.156.44.215
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] CH 04'
   network: tcp
   port: 2083
   reality-opts:
