@@ -1,28 +1,11 @@
 proxies:
-- name: '[I] 🇨🇦 加拿大 09'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.117
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
 - name: '[I] 🇨🇦 加拿大 10'
   network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
+  password: Mitivpn
+  port: 80
+  server: 151.101.0.0
   type: trojan
   ws-opts:
-    path: /assignment
-- name: '[I] 🇨🇦 加拿大 11'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.46
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: /assignment
+    headers:
+      Host: 3-mitivpn.global.ssl.fastly.net
+    path: /ed=mitivpn

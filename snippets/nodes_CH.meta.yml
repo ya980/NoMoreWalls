@@ -1,32 +1,17 @@
 proxies:
-- client-fingerprint: firefox
+- client-fingerprint: chrome
   encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  flow: xtls-rprx-vision
   name: '[H] CH 01'
-  network: xhttp
-  port: '443'
-  server: 151.101.56.6
-  servername: speedtest.net
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc
+    short-id: '!!str 445ab326fc7c90ac'
+  server: gt-ch-01.live
+  servername: storage.yandex.net
   tls: true
   type: vless
   udp: true
-  uuid: e76add86-320b-459c-a120-3af8b7e511d4
-  xhttp-opts:
-    host: mmdxiali.global.ssl.fastly.net
-    mode: packet-up
-    path: /mammadalifsx
+  uuid: 05a01432-0302-439f-a88d-8442cd27b7d5
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] CH 02'
-  network: tcp
-  port: 2083
-  reality-opts:
-    public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY
-    short-id: '!!str 4e590fdc'
-  server: 83.228.250.119
-  servername: www.yahoo.com
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  uuid: 89049f79-320b-48a0-b1cf-110165cae30c
