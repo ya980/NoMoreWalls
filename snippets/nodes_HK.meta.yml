@@ -1,27 +1,5 @@
 proxies:
-- name: '[D] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[D] 🇭🇰 香港 02'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
-  skip-cert-verify: true
-  sni: hkt.ccwink.cc
-  tls: false
-  type: hysteria2
-- name: '[D] 🇭🇰 香港 03'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.174
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[D] 🇭🇰 香港 04'
+- name: '[E] 🇭🇰 香港 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
@@ -29,7 +7,7 @@ proxies:
   sni: https%3A%2F%2Ft.me%2Foneclickvpnkeys
   tls: false
   type: hysteria2
-- name: '[D] 🇭🇰 香港 05'
+- name: '[E] 🇭🇰 香港 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
@@ -37,7 +15,7 @@ proxies:
   sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
-- name: '[D] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.174
@@ -47,14 +25,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 08'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: 82c038b55e40ca2613b76bb98c7f6d1f
   port: 2008
@@ -62,7 +40,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 09'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -70,7 +48,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 10'
+- name: '[F] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -80,7 +58,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 11'
+  name: '[G] 🇭🇰 香港 08'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -88,21 +66,53 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[I] 🇭🇰 香港 12'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 09'
+  network: tcp
+  port: '14010'
+  reality-opts:
+    public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
+    short-id: '!!str 1ebaa8ea57a71ffc'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 10'
+  network: tcp
+  port: '14004'
+  reality-opts:
+    public-key: zSt5a1vs3C3oxm3fSUB_egA98IO3XZr7JGzE6OdMTz8
+    short-id: '!!str 22c485f4000241'
+  server: vip.bcjdvip.com
+  servername: apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
+  xudp: true
+- name: '[I] 🇭🇰 香港 11'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
   sni: yazhou10.dynu.net
   type: trojan
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 13'
+  name: '[I] 🇭🇰 香港 12'
   password: 7e1dd4c55bf85da5
   port: 30129
   server: 212.192.13.91
   type: ss
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 14'
+  name: '[I] 🇭🇰 香港 13'
   network: tcp
   port: 14009
   reality-opts:
@@ -115,7 +125,7 @@ proxies:
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 15'
+  name: '[I] 🇭🇰 香港 14'
   network: tcp
   port: 14001
   reality-opts:

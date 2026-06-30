@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇸🇬 新加坡 01'
+- name: '[F] 🇸🇬 新加坡 01'
   network: tcp
   password: 82c038b55e40ca2613b76bb98c7f6d1f
   port: 48738
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 02'
+- name: '[F] 🇸🇬 新加坡 02'
   network: tcp
   password: 82c038b55e40ca2613b76bb98c7f6d1f
   port: 6357
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 03'
+- name: '[F] 🇸🇬 新加坡 03'
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -23,21 +23,34 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[G] 🇸🇬 新加坡 04'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 13.212.110.106
-  skip-cert-verify: true
-  sni: vpn-sg-001.fastervpn.world
-  tfo: false
-  type: hysteria2
 - client-fingerprint: chrome
   ech-opts:
     _dns: https://dns.alidns.com/dns-query
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 05'
+  name: '[H] 🇸🇬 新加坡 04'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.153.159
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: '[H] 🇸🇬 新加坡 05'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -58,7 +71,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 06'
+  name: '[H] 🇸🇬 新加坡 06'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -79,28 +92,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 07'
-  network: ws
-  packet-encoding: xudp
-  port: 443
-  server: 162.159.42.182
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: '[G] 🇸🇬 新加坡 08'
+  name: '[H] 🇸🇬 新加坡 07'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -121,7 +113,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 09'
+  name: '[H] 🇸🇬 新加坡 08'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -142,7 +134,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 10'
+  name: '[H] 🇸🇬 新加坡 09'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -163,28 +155,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 11'
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.46.24
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: '[G] 🇸🇬 新加坡 12'
+  name: '[H] 🇸🇬 新加坡 10'
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -205,7 +176,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 13'
+  name: '[H] 🇸🇬 新加坡 11'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -226,7 +197,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 14'
+  name: '[H] 🇸🇬 新加坡 12'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -247,7 +218,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 15'
+  name: '[H] 🇸🇬 新加坡 13'
   network: ws
   packet-encoding: xudp
   port: 2083
@@ -268,7 +239,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 16'
+  name: '[H] 🇸🇬 新加坡 14'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -289,7 +260,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 17'
+  name: '[H] 🇸🇬 新加坡 15'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -310,7 +281,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 18'
+  name: '[H] 🇸🇬 新加坡 16'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -331,7 +302,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 19'
+  name: '[H] 🇸🇬 新加坡 17'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -352,28 +323,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 20'
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 172.64.35.37
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: '[G] 🇸🇬 新加坡 21'
+  name: '[H] 🇸🇬 新加坡 18'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -394,28 +344,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 22'
-  network: ws
-  packet-encoding: xudp
-  port: 8443
-  server: 162.159.41.198
-  servername: t1s1.rittbo.kdns.fr
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  ws-opts:
-    headers:
-      Host: t1s1.rittbo.kdns.fr
-    path: /
-- client-fingerprint: chrome
-  ech-opts:
-    _dns: https://dns.alidns.com/dns-query
-    enable: true
-    query-server-name: cloudflare-ech.com
-  encryption: none
-  name: '[G] 🇸🇬 新加坡 23'
+  name: '[H] 🇸🇬 新加坡 19'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -436,7 +365,28 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 24'
+  name: '[H] 🇸🇬 新加坡 20'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.8.123
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: '[H] 🇸🇬 新加坡 21'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -457,7 +407,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 25'
+  name: '[H] 🇸🇬 新加坡 22'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -478,7 +428,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 26'
+  name: '[H] 🇸🇬 新加坡 23'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -499,7 +449,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 27'
+  name: '[H] 🇸🇬 新加坡 24'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -520,7 +470,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 28'
+  name: '[H] 🇸🇬 新加坡 25'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -541,7 +491,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 29'
+  name: '[H] 🇸🇬 新加坡 26'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -562,7 +512,28 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 30'
+  name: '[H] 🇸🇬 新加坡 27'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.146.229
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: '[H] 🇸🇬 新加坡 28'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -583,7 +554,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 31'
+  name: '[H] 🇸🇬 新加坡 29'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -604,7 +575,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 32'
+  name: '[H] 🇸🇬 新加坡 30'
   network: ws
   packet-encoding: xudp
   port: 8443
@@ -625,7 +596,7 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 33'
+  name: '[H] 🇸🇬 新加坡 31'
   network: ws
   packet-encoding: xudp
   port: 443
@@ -646,11 +617,11 @@ proxies:
     enable: true
     query-server-name: cloudflare-ech.com
   encryption: none
-  name: '[G] 🇸🇬 新加坡 34'
+  name: '[H] 🇸🇬 新加坡 32'
   network: ws
   packet-encoding: xudp
   port: 443
-  server: 162.159.3.48
+  server: 162.159.10.87
   servername: t1s1.rittbo.kdns.fr
   skip-cert-verify: false
   tls: true
@@ -661,46 +632,24 @@ proxies:
     headers:
       Host: t1s1.rittbo.kdns.fr
     path: /
-- encryption: none
-  name: '[G] 🇸🇬 新加坡 35'
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: '[H] 🇸🇬 新加坡 33'
   network: ws
-  port: '80'
-  server: 172.64.156.188
+  packet-encoding: xudp
+  port: 443
+  server: 162.159.16.154
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 53342b53-157e-4475-9f3a-40439434e689
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
   ws-opts:
     headers:
-      Host: c.iamdt.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      Host: t1s1.rittbo.kdns.fr
     path: /
-  xudp: true
-- name: '[G] 🇸🇬 新加坡 36'
-  network: ws
-  port: '8880'
-  server: 162.159.48.193
-  type: vless
-  udp: true
-  uuid: 8995976a-1c81-4b44-a414-d3bc71058a21
-  ws-opts:
-    headers:
-      Host: muddy-queen-cdda.181-cf9.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
-- name: '[G] 🇸🇬 新加坡 37'
-  network: ws
-  port: '8880'
-  server: 162.159.48.193
-  type: vless
-  udp: true
-  uuid: a7b8b48e-1000-46f5-a974-f6606d94f3b4
-  ws-opts:
-    headers:
-      Host: misty-hill-4b94.146-c18.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
