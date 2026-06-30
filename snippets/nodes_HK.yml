@@ -42,14 +42,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[I] 🇭🇰 香港 11'
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇭🇰 香港 09'
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2a81d8b1-0c20-48b4-9638-cd68d8f68ea3
+  ws-opts:
+    headers:
+      Host: 0513354beac93370008fd6be3cdf9ff1.mobgslb.tbcache.com
+    path: /
+- name: '[I] 🇭🇰 香港 10'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
   sni: yazhou10.dynu.net
   type: trojan
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 12'
+  name: '[I] 🇭🇰 香港 11'
   password: 7e1dd4c55bf85da5
   port: 30129
   server: 212.192.13.91

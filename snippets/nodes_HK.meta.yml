@@ -66,53 +66,36 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
+- alterId: 0
+  cipher: auto
   name: '[H] 🇭🇰 香港 09'
-  network: tcp
-  port: '14010'
-  reality-opts:
-    public-key: PT1gw9B5majPBH2_qST-vymli9f6RlTmvGS2gPtdhF8
-    short-id: '!!str 1ebaa8ea57a71ffc'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: true
-  type: vless
+  network: ws
+  port: 16622
+  server: planb.mojcn.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇭🇰 香港 10'
-  network: tcp
-  port: '14004'
-  reality-opts:
-    public-key: zSt5a1vs3C3oxm3fSUB_egA98IO3XZr7JGzE6OdMTz8
-    short-id: '!!str 22c485f4000241'
-  server: vip.bcjdvip.com
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
-  xudp: true
-- name: '[I] 🇭🇰 香港 11'
+  uuid: 2a81d8b1-0c20-48b4-9638-cd68d8f68ea3
+  ws-opts:
+    headers:
+      Host: 0513354beac93370008fd6be3cdf9ff1.mobgslb.tbcache.com
+    path: /
+- name: '[I] 🇭🇰 香港 10'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
   sni: yazhou10.dynu.net
   type: trojan
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 12'
+  name: '[I] 🇭🇰 香港 11'
   password: 7e1dd4c55bf85da5
   port: 30129
   server: 212.192.13.91
   type: ss
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 13'
+  name: '[I] 🇭🇰 香港 12'
   network: tcp
   port: 14009
   reality-opts:
@@ -125,7 +108,7 @@ proxies:
   uuid: 3e06720a-86f0-49b9-8f00-062681e3b385
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 14'
+  name: '[I] 🇭🇰 香港 13'
   network: tcp
   port: 14001
   reality-opts:
