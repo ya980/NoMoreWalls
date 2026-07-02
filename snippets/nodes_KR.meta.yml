@@ -1,1 +1,30 @@
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: '[H] 🇰🇷 韩国 01'
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: '[H] 🇰🇷 韩国 02'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 141.164.42.2
+  servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  ws-opts:
+    headers:
+      Host: t1s1.rittbo.kdns.fr
+    path: /
