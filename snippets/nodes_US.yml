@@ -1,5 +1,19 @@
 proxies:
-- name: '[E] 🇺🇸 美国 04'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 01'
+  network: ws
+  port: '48885'
+  server: 216.36.115.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 929f4b3b-60ed-4c7d-e94e-243ee9bbc743
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- name: '[F] 🇺🇸 美国 02'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 17005
@@ -7,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 49277
@@ -15,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -23,3 +37,66 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 05'
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: 104.16.72.41
+  skip-cert-verify: false
+  sni: De.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /MiTiVPN=De
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 06'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 104.19.230.21
+  skip-cert-verify: false
+  sni: Nl.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/46.0.2490.71 Safari/537.36
+    path: /MiTiVPN=NL
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 09'
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: 94.140.0.40
+  skip-cert-verify: false
+  sni: Usa.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /MiTiVPN=Usa
+- alterId: 2
+  cipher: auto
+  name: '[H] 🇺🇸 美国 10'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
