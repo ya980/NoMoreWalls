@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 02'
+  name: '[D] 🇺🇸 美国 03'
   network: ws
   port: '48885'
   server: 216.36.115.182
@@ -15,7 +15,7 @@ proxies:
     path: ''
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 03'
+  name: '[D] 🇺🇸 美国 04'
   network: ws
   port: '48885'
   server: 216.36.115.182
@@ -27,7 +27,7 @@ proxies:
     headers:
       Host: ''
     path: /
-- name: '[F] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 05'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 17005
@@ -35,7 +35,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 49277
@@ -43,7 +43,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 44265
@@ -51,3 +51,27 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[G] 🇺🇸 美国 10'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 104.16.72.41
+  skip-cert-verify: false
+  sni: sw.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /MiTiVPN=Se
+- cipher: aes-256-cfb
+  name: '[G] 🇺🇸 美国 20'
+  password: amazonskr05
+  port: '443'
+  server: 18.222.166.251
+  type: ss
+  udp: true
