@@ -14,7 +14,7 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 19'
+  name: '[F] 🌍 其它地区 20'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -30,9 +30,9 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[F] 🇭🇰 香港 07'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
+  password: b8494776252056a1b62e77c4ff6a6d61
   port: 2008
-  server: 95.40.113.209
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -40,87 +40,79 @@ proxies:
   network: tcp
   password: BxceQaOe
   port: 29449
-  server: 95.40.58.222
+  server: 18.162.144.111
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[F] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
-  port: 3941
-  server: 16.163.149.119
+  port: 11035
+  server: 18.166.152.128
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 52904
-  server: 18.181.219.39
+  port: 10624
+  server: 52.195.161.184
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 02'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 3743
-  server: 18.163.118.4
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 5701
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇯🇵 日本 03'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 37973
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 3743
+  server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇸🇬 新加坡 01'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 6357
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 29642
+  server: 16.163.43.143
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇸🇬 新加坡 02'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 48738
-  server: 95.40.113.209
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇸🇬 新加坡 03'
-  network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 16.162.192.195
+  port: 41421
+  server: 18.162.152.114
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[F] 🇺🇸 美国 05'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 49277
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 17005
+  server: 16.163.43.143
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 06'
   network: tcp
-  password: cbed60798db0624ba9d15418f0d0d9a4
-  port: 17005
-  server: 95.40.113.209
+  password: b8494776252056a1b62e77c4ff6a6d61
+  port: 49277
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
-  port: 11993
-  server: 16.163.149.119
+  port: 44265
+  server: 18.162.152.114
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -141,13 +133,40 @@ proxies:
   server: 35.181.4.41
   type: ss
   udp: true
-- name: '[I] 🇭🇰 香港 11'
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
+- cipher: aes-128-gcm
+  name: '[I] 🇭🇰 香港 11'
+  password: JVrsLLN1tkN8oXZO
+  port: 13223
+  server: chengbai02.ascwt179.com
+  type: ss
+- name: '[I] 🇨🇦 加拿大 02'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.12.149
+  sni: www.multiplydose.com
   type: trojan
-- name: '[I] 🌍 其它地区 90'
+  ws-opts:
+    path: /assignment
+- name: '[I] 🌍 其它地区 93'
+  network: ws
+  password: humanity
+  port: 443
+  server: 45.130.125.32
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '[I] 🇨🇦 加拿大 03'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.44
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '[I] 🌍 其它地区 94'
   network: ws
   password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
   port: 443
