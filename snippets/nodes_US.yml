@@ -1,5 +1,5 @@
 proxies:
-- name: '[F] 🇺🇸 美国 03'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 17005
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 49277
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 2366
@@ -26,41 +26,24 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 06'
+  name: '[H] 🇺🇸 美国 08'
   network: ws
-  password: MiTiVPN
+  password: MITIVPN
   port: '443'
-  server: assets.fiverr.com
+  server: 94.140.0.40
   skip-cert-verify: false
-  sni: sw.App-Cloud.ir
+  sni: Usa.App-Cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /MiTiVPN=Se
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /MiTiVPN=Usa
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 07'
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 88.216.67.230
-  skip-cert-verify: false
-  sni: Nel.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /MiTiVPN=NL
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 11'
+  name: '[H] 🇺🇸 美国 13'
   network: ws
   password: MiTiVPN
   port: '443'
@@ -71,24 +54,27 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /MiTiVPN=NL
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 15'
-  password: amazonskr05
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 14'
+  network: ws
+  password: MITIVPN
   port: '443'
-  server: 18.188.42.241
-  type: ss
+  server: www.speedtest.net
+  skip-cert-verify: false
+  sni: germany.App-Cloud.ir
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 16'
-  password: amazonskr05
-  port: '443'
-  server: 3.147.127.17
-  type: ss
-  udp: true
-- name: '[I] 🇺🇸 美国 18'
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /MiTiVPN=De
+- name: '[I] 🇺🇸 美国 16'
   network: ws
   password: humanity
   port: 443

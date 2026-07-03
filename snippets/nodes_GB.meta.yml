@@ -1,9 +1,17 @@
 proxies:
-- name: '[E] 🇬🇧 英国 01'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 01'
+  network: tcp
+  packet-encoding: xudp
   port: 8443
-  server: 31.77.131.115
-  skip-cert-verify: true
-  sni: argg3.auragg.org
-  tls: false
-  type: hysteria2
+  reality-opts:
+    public-key: dY9SNEllJMW63xo-JdXufhmjAxB_4uFw_QMjgufjiD8
+    short-id: '!!str ea10cd5686751ec5'
+  server: 45.206.0.39
+  servername: storage.yandex.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52faee73-e0fe-4661-992d-67259257170f

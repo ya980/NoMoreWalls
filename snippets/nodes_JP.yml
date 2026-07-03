@@ -1,5 +1,19 @@
 proxies:
-- name: '[F] 🇯🇵 日本 01'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 01'
+  network: ws
+  port: '2052'
+  server: 157.85.230.247
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85357d35-492e-4814-835a-aba4cb7f00ad
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 10624
@@ -7,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 02'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 5701
@@ -15,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 3743

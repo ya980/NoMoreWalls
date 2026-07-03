@@ -7,14 +7,30 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
-  password: c059a786-3a03-4300-9ace-4f9cda0f360c
-  port: 8444
-  server: wlte3.nimarko.org
+  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  port: 5443
+  server: united.hysteria.ltd
   skip-cert-verify: false
-  sni: testing8.nimarko.org
+  sni: united.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 03'
+- name: '[E] 🇺🇸 美国 03'
+  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  port: 5443
+  server: hyst-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: hyst-1.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 04'
+  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  port: 5443
+  server: vkmks.hysteria.ltd
+  skip-cert-verify: false
+  sni: vkmks.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 17005
@@ -22,7 +38,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 49277
@@ -30,7 +46,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 2366
@@ -41,40 +57,41 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 06'
+  name: '[H] 🇺🇸 美国 08'
   network: ws
-  password: MiTiVPN
+  password: MITIVPN
   port: '443'
-  server: assets.fiverr.com
+  server: 94.140.0.40
   skip-cert-verify: false
-  sni: sw.App-Cloud.ir
+  sni: Usa.App-Cloud.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
-    path: /MiTiVPN=Se
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 07'
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 88.216.67.230
-  skip-cert-verify: false
-  sni: Nel.App-Cloud.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /MiTiVPN=NL
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /MiTiVPN=Usa
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 08'
+  name: '[H] 🇺🇸 美国 09'
+  network: ws
+  port: '443'
+  server: 39.107.252.182
+  servername: nbhhh.mrcool.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  ws-opts:
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /proxyip=Telegram-WangCai2🇨🇳
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 10'
   network: ws
   port: 443
   server: 172.64.79.244
@@ -91,7 +108,7 @@ proxies:
     path: /proxyip=ProxyIP.US.CMLiussss.Net
   xudp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 09'
+  name: '[H] 🇺🇸 美国 11'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -100,10 +117,10 @@ proxies:
   username: dongtaiwang.com
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 10'
+  name: '[H] 🇺🇸 美国 12'
   network: ws
   port: 8443
-  server: 162.159.252.70
+  server: 162.159.251.87
   servername: ldp2642.brucewang777.eu.cc
   tls: true
   type: vless
@@ -112,15 +129,14 @@ proxies:
   ws-opts:
     headers:
       Host: ldp2642.brucewang777.eu.cc
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.79 Safari/537.36
     path: /proxyip=ProxyIP.US.CMLiussss.Net
   xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 11'
+  name: '[H] 🇺🇸 美国 13'
   network: ws
   password: MiTiVPN
   port: '443'
@@ -131,67 +147,27 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.181 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /MiTiVPN=NL
-- name: '[H] 🇺🇸 美国 12'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 14'
   network: ws
-  port: '8880'
-  server: 172.64.88.251
-  type: vless
-  udp: true
-  uuid: 7db9bcc1-78f1-455d-944b-3363b867e670
-  ws-opts:
-    headers:
-      Host: long-wildflower-3df6.341-165.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
-- name: '[H] 🇺🇸 美国 13'
-  network: ws
-  port: '8880'
-  server: 172.64.94.251
-  type: vless
-  udp: true
-  uuid: f3a30870-eb2e-4ad7-85cb-c0e65d061d5b
-  ws-opts:
-    headers:
-      Host: shrill-mouse-dacd.391.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- name: '[H] 🇺🇸 美国 14'
-  network: ws
-  port: '8880'
-  server: 104.16.106.213
-  type: vless
-  udp: true
-  uuid: 9c772ed7-2843-4554-9a96-4a88f827de58
-  ws-opts:
-    headers:
-      Host: nameless-tree-08b8.352.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX2 Build/HUAWEITRT-LX2; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/59.0.3071.125 Mobile
-        Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 15'
-  password: amazonskr05
+  password: MITIVPN
   port: '443'
-  server: 18.188.42.241
-  type: ss
+  server: www.speedtest.net
+  skip-cert-verify: false
+  sni: germany.App-Cloud.ir
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 16'
-  password: amazonskr05
-  port: '443'
-  server: 3.147.127.17
-  type: ss
-  udp: true
-- name: '[H] 🇺🇸 美国 17'
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /MiTiVPN=De
+- name: '[H] 🇺🇸 美国 15'
   password: ''
   port: '443'
   server: 38.28.193.1
@@ -199,7 +175,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[I] 🇺🇸 美国 18'
+- name: '[I] 🇺🇸 美国 16'
   network: ws
   password: humanity
   port: 443

@@ -30,98 +30,41 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 04'
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  port: 443
-  server: 2.26.7.99
-  skip-cert-verify: true
-  sni: argg9.auragg.org
-  tls: false
-  type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 05'
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 04'
   network: ws
-  port: '2083'
-  server: xn-ip.dbsll.ir
-  servername: xn-de.shakhle.ir.
+  port: '443'
+  server: 185.18.250.157
+  servername: mAhaNrEaliteAm.MaHkHan.iR
   tls: true
   type: vless
   udp: true
-  uuid: 199436d3-2fa2-4e34-a1de-844419de5a4f
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: xn-de.shakhle.ir.
+      Host: mAhaNrEaliteAm.MaHkHan.iR
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /?ed=2048
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
+    path: /?ed=2560fp=chrome
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 06'
-  network: xhttp
-  port: '443'
-  server: 45.130.125.6
-  servername: germany4.alibaba1405.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac006062-f051-43c6-bd4c-f409285c8635
-  xhttp-opts:
-    host: germany4.alibaba1405.org
-    mode: auto
-    path: /v2raylink
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 07'
-  network: xhttp
-  port: '443'
-  server: 45.130.125.172
-  servername: germany4.alibaba1405.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac006062-f051-43c6-bd4c-f409285c8635
-  xhttp-opts:
-    host: germany4.alibaba1405.org
-    mode: auto
-    path: /v2raylink
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 08'
-  network: ws
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 05'
+  network: tcp
+  packet-encoding: xudp
   port: 8443
-  server: 104.20.2.221
-  servername: bycf.lzjnb.shop
-  skip-cert-verify: true
-  tfo: false
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '!!str 8d3293f0066e129a'
+  server: 154.222.9.157
+  servername: storage.yandex.net
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: bycf.lzjnb.shop
-    max-early-data: 2560
-    path: /
-- name: '[H] 🇩🇪 德国 09'
-  network: ws
-  port: '8880'
-  server: 104.26.13.40
-  type: vless
   udp: true
-  uuid: 612f78a0-65ca-45af-a3ff-7d0f8e9f8655
-  ws-opts:
-    headers:
-      Host: broken-star-c5ae.446.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: '[H] 🇩🇪 德国 10'
+  uuid: aa5b231c-4e18-4ae6-b83c-a293f51c0dfa
+- name: '[H] 🇩🇪 德国 06'
   network: ws
   port: '8880'
   server: 162.159.140.78
@@ -135,22 +78,8 @@ proxies:
         like Gecko) Chrome/64.0.3282.167 Safari/537.36
     path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
-- name: '[H] 🇩🇪 德国 11'
-  network: ws
-  port: '8880'
-  server: 162.159.140.78
-  type: vless
-  udp: true
-  uuid: f35fb51f-8d34-49ec-80cb-7d04ffc1a69b
-  ws-opts:
-    headers:
-      Host: damp-sky-9aaa.224-8b4.workers.dev
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-  xudp: true
 - flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 12'
+  name: '[I] 🇩🇪 德国 07'
   port: 443
   reality-opts:
     public-key: 6DGUbHZFVqaAbexHjwHPggWgoHgFGyDSp20wuapQRwA
@@ -160,7 +89,7 @@ proxies:
   tls: false
   type: vless
   uuid: ad1f7afa-af80-4878-816d-1196c9ea70f2
-- name: '[I] 🇩🇪 德国 13'
+- name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -172,7 +101,7 @@ proxies:
       Host: rb24.ir
     path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 09'
   network: ws
   port: 443
   server: 109.120.176.17
