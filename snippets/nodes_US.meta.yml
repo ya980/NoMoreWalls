@@ -17,23 +17,7 @@ proxies:
   sni: united.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
-  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
-  port: 5443
-  server: hyst-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: hyst-1.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
-  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
-  port: 5443
-  server: vkmks.hysteria.ltd
-  skip-cert-verify: false
-  sni: vkmks.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 17005
@@ -41,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: b8494776252056a1b62e77c4ff6a6d61
   port: 49277
@@ -49,7 +33,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 2366
@@ -57,7 +41,64 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 08'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 06'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: assets.fiverr.com
+  skip-cert-verify: false
+  sni: Finl.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /MiTiVPN=fL
+- alterId: '0'
+  cipher: auto
+  name: '[H] 🇺🇸 美国 07'
+  network: ws
+  port: '16626'
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2d016e52-8927-4bb0-a54a-00fee0ccdcda
+  ws-opts:
+    headers:
+      Host: 56cb845ce530497f053c0d95b667de5a.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[H] 🇺🇸 美国 08'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 104.18.114.47
+  skip-cert-verify: false
+  sni: Nl.App-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/45.0.2454.93 Safari/537.36
+    path: /MiTiVPN=NL
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 09'
+  password: amazonskr05
+  port: '443'
+  server: 3.148.210.179
+  type: ss
+  udp: true
+- name: '[H] 🇺🇸 美国 10'
   password: ''
   port: '443'
   server: 38.28.193.1
@@ -65,7 +106,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[I] 🇺🇸 美国 09'
+- name: '[I] 🇺🇸 美国 11'
   network: ws
   password: humanity
   port: 443

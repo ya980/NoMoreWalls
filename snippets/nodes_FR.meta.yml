@@ -10,22 +10,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 02'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
-  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
-  port: 6443
-  server: france.hysteria.ltd
-  skip-cert-verify: false
-  sni: france.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
   password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
   port: 5443
   server: unic.hysteria.ltd
@@ -33,6 +17,33 @@ proxies:
   sni: unic.hysteria.ltd
   tls: false
   type: hysteria2
+- name: '[E] 🇫🇷 法国 03'
+  password: 97d290a0-acec-4aae-b8cf-c7111a5a6397
+  port: 8443
+  server: srvhy1.ezcon24.online
+  skip-cert-verify: true
+  sni: srvhy1.ezcon24.online
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇫🇷 法国 04'
+  network: ws
+  port: '443'
+  server: 188.114.97.6
+  servername: JoinProxyVPN11.terazhediii.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
+  ws-opts:
+    headers:
+      Host: terazhediii.info
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
+        Safari/537.36
+    path: /hdgrbws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+  xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: '[I] 🇫🇷 法国 05'
