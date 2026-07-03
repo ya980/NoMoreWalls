@@ -21,6 +21,7 @@ proxies:
   password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   port: 443
   server: 31.77.158.156
+  skip-cert-verify: true
   sni: argg2.auragg.org
   tls: false
   type: hysteria2
@@ -28,12 +29,27 @@ proxies:
   password: 98dab41c-f18a-406b-8de2-3cc8bb797d5d
   port: 443
   server: 31.77.158.156
+  skip-cert-verify: true
   sni: argg2.auragg.org
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 05'
+  password: amazonskr05
+  port: '443'
+  server: 13.36.174.32
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 06'
+  password: amazonskr05
+  port: '443'
+  server: 35.180.71.217
+  type: ss
+  udp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[I] 🇫🇷 法国 05'
+  name: '[I] 🇫🇷 法国 07'
   port: 443
   reality-opts:
     public-key: Lk_uZjr6a6DyLsgh1VasuUCN9G2YdO32u9nFZPgHxSw
