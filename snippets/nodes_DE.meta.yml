@@ -30,7 +30,56 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- name: '[I] 🇩🇪 德国 04'
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: '[H] 🇩🇪 德国 04'
+  network: xhttp
+  port: '2087'
+  server: 188.114.99.250
+  servername: rr.v2configpro.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: rr.v2configpro.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  name: '[H] 🇩🇪 德国 05'
+  network: ws
+  port: '22633'
+  server: 193.187.148.236
+  type: vless
+  udp: true
+  uuid: e6df6780-9d53-4745-a036-2bdc8d7cca5d
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 06'
+  network: ws
+  port: 8443
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: bycf.lzjnb.shop
+    max-early-data: 2560
+    path: /
+- name: '[I] 🇩🇪 德国 07'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -42,7 +91,7 @@ proxies:
       Host: rb24.ir
     path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 05'
+  name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 443
   server: 109.120.176.17

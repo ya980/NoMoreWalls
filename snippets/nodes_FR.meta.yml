@@ -17,7 +17,15 @@ proxies:
   sni: srvhy1.ezcon24.online
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 03'
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 03'
+  password: amazonskr05
+  port: 443
+  server: 51.44.220.197
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: '[H] 🇫🇷 法国 04'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-fr-001.fastervpn.world
@@ -25,3 +33,19 @@ proxies:
   sni: vpn-fr-001.fastervpn.world
   type: hysteria2
   udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 05'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str 3c9c5d01c6f824dd'
+  server: 155.117.137.110
+  servername: cdn6-49.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
+  xudp: true
