@@ -42,7 +42,7 @@ proxies:
       Host: ''
     path: /
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 53'
+  name: '[F] 🌍 其它地区 52'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -58,39 +58,39 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[F] 🇭🇰 香港 02'
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 2008
-  server: 18.162.58.236
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 53012
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇭🇰 香港 03'
   network: tcp
   password: BxceQaOe
-  port: 29449
-  server: 95.40.26.121
+  port: 11035
+  server: 43.199.66.183
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
-  port: 11035
-  server: 18.163.124.19
+  port: 4374
+  server: 16.162.34.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
-  port: 10624
-  server: 52.194.214.115
+  port: 27826
+  server: 13.230.228.151
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 04'
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
+  password: d6788cf74e6844c45538204efd24b00f
   port: 5701
   server: 18.162.58.236
   skip-cert-verify: true
@@ -98,49 +98,57 @@ proxies:
   type: trojan
 - name: '[F] 🇯🇵 日本 05'
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 3743
-  server: 16.163.138.198
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 55973
+  server: 18.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇸🇬 新加坡 01'
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 29642
-  server: 16.163.43.143
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 48738
+  server: 16.163.50.86
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇸🇬 新加坡 02'
   network: tcp
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 29642
+  server: 16.163.43.143
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇸🇬 新加坡 03'
+  network: tcp
   password: BxceQaOe
-  port: 22459
-  server: 43.198.12.202
+  port: 45744
+  server: 43.199.77.197
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[F] 🇺🇸 美国 03'
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
-  port: 17005
-  server: 16.163.43.143
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 49277
+  server: 16.162.58.236
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 04'
   network: tcp
-  password: b8494776252056a1b62e77c4ff6a6d61
+  password: d6788cf74e6844c45538204efd24b00f
   port: 49277
-  server: 16.163.50.86
+  server: 16.163.138.198
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
-  port: 2366
-  server: 16.163.155.249
+  port: 34638
+  server: 18.162.53.72
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -154,6 +162,13 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 08'
+  password: amazonskr05
+  port: '443'
+  server: 3.148.210.179
+  type: ss
+  udp: true
 - alpn:
   - http/1.1
   name: '[H] 🌍 其它地区 86'
@@ -167,17 +182,24 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
     path: /
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 10'
+  name: '[H] 🇫🇷 法国 05'
+  password: amazonskr05
+  port: '443'
+  server: 15.237.74.149
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 14'
   password: amazonskr05
   port: '443'
   server: 3.133.132.79
   type: ss
   udp: true
-- name: '[H] 🇩🇪 德国 08'
+- name: '[H] 🇩🇪 德国 07'
   network: tcp
   password: DkQbKDcxEcKj6CoK6erBrQPsgnB7n7nM
   port: '5222'
@@ -187,36 +209,38 @@ proxies:
   type: trojan
   udp: true
 - cipher: aes-256-gcm
-  name: '[H] 🌍 其它地区 93'
+  name: '[I] 🌍 其它地区 106'
   password: 2803361d6c196af8
-  port: '30888'
+  port: 30888
   server: 166.1.228.172
   type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 06'
-  password: amazonskr05
-  port: '443'
-  server: 35.180.21.4
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇷🇺 俄罗斯 01'
+  password: f9vrSj-T8Nc3wuRuWCp9Rg
+  port: 1080
+  server: 88.218.170.50
   type: ss
-  udp: true
-- name: '[I] 🌍 其它地区 110'
-  password: PI36027154
-  port: 443
-  server: tight-possum.rooster465.autos
-  type: trojan
-- cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 112'
-  password: 49kmgb20hkrfqtqm
-  port: 443
-  server: 188.121.123.55
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇸🇬 新加坡 09'
+  password: 8Q8WSWTEJfzYVjXH1setj3
+  port: 16161
+  server: 143.198.86.126
   type: ss
-- name: '[I] 🇺🇸 美国 17'
+- name: '[I] 🇨🇦 加拿大 04'
   network: ws
   password: humanity
   port: 443
-  server: 8.6.112.0
-  sni: www.multiplydose.com
+  server: 104.16.174.36
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '[I] 🇨🇦 加拿大 05'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.219
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: /assignment
