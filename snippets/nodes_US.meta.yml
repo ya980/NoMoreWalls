@@ -1,9 +1,10 @@
 proxies:
 - name: '[E] 🇺🇸 美国 01'
-  password: 3e6d5dd0-05ff-4efd-b9ef-3b68843e6d81
-  port: 443
-  server: at164.mechvpn.online
-  sni: at164.mechvpn.online
+  password: 13d29042-ab82-4195-9cd4-2bafc518e201
+  port: 52625
+  server: 147.90.235.195
+  skip-cert-verify: true
+  sni: apps.apple.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
@@ -23,6 +24,38 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
+  password: 3a73ed62-94e5-4c36-856e-a87e2d2487f2
+  port: 55000
+  server: 156.229.164.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 05'
+  password: 73ffcd12-0155-432f-9fd4-c1d2bf9190d7
+  port: 51717
+  server: 172.96.141.4
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 06'
+  password: 8b45d379-702f-41b3-a6b2-9c87a01dcd5c
+  port: 51017
+  server: 172.96.141.4
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 07'
+  password: a2414b95-6e6f-4c1d-87a9-605e7b72b232
+  port: 55000
+  server: 156.229.164.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 08'
   password: a8a5b34d-fe46-487d-bd6a-d9f3101525fd
   port: 50581
   server: 172.96.141.4
@@ -30,7 +63,47 @@ proxies:
   sni: api.push.apple.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 09'
+  password: af223a34-e37f-41c8-8467-26474a3ac9d8
+  port: 55000
+  server: 156.229.164.1
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 10'
+  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  port: 5443
+  server: hyst-1.hysteria.ltd
+  skip-cert-verify: false
+  sni: hyst-1.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 11'
+  password: 53d0c9d8-0d59-453c-a5da-8f7c81f5ea03
+  port: 5443
+  server: vkmks.hysteria.ltd
+  skip-cert-verify: false
+  sni: vkmks.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 12'
+  password: 73ffcd12-0155-432f-9fd4-c1d2bf9190d7
+  port: 51857
+  server: 46.17.40.117
+  skip-cert-verify: true
+  sni: music.apple.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 13'
+  password: cb887032-0447-4216-be3c-7333ecdcda9a
+  port: 50045
+  server: 46.17.40.117
+  skip-cert-verify: true
+  sni: music.apple.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 14'
   password: 8ab59c8d-e4b5-4275-b916-083600addd53
   port: 30000
   server: ru.841130.xyz
@@ -38,7 +111,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 15'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -46,7 +119,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 16'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -54,7 +127,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 17'
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -62,7 +135,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 09'
+- name: '[H] 🇺🇸 美国 18'
   network: ws
   port: 443
   server: 8.133.176.42
@@ -76,32 +149,41 @@ proxies:
     headers:
       Host: nbhhh.mrcool.kdns.fr
     path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 19'
+  network: ws
+  port: 443
+  server: 39.107.252.182
+  servername: nbhhh.mrcool.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832
+  ws-opts:
+    headers:
+      Host: nbhhh.mrcool.kdns.fr
+    path: /proxyip=Telegram-WangCai2🇨🇳
 - multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 10'
+  name: '[H] 🇺🇸 美国 20'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: '[H] 🇺🇸 美国 11'
+- encryption: none
+  name: '[H] 🇺🇸 美国 21'
   network: ws
-  port: '8880'
-  server: 104.16.106.213
+  port: '80'
+  server: 192.166.82.165
   type: vless
   udp: true
-  uuid: b4a18856-301d-4bb2-b729-6afcb700faf5
+  uuid: ed6297aa-aa75-46b8-fea7-98074fd0a482
   ws-opts:
     headers:
-      Host: red-flower-a2bf.363.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+      Host: skyroom.online
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /assets/js/app-v2.8.4-5f9a2b3c.js
   xudp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 12'
-  password: amazonskr05
-  port: '443'
-  server: 3.136.233.197
-  type: ss
-  udp: true
