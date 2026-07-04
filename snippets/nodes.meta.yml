@@ -372,14 +372,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🌍 其它地区 45'
-  password: f80fadf1-4f90-40e2-891f-e9a10146d960
-  port: 4142
-  server: 2a0b:4142:a86::2
-  skip-cert-verify: true
-  sni: c9a0c4942b7edk1v6.587458.xyz
-  tls: false
-  type: hysteria2
-- name: '[D] 🌍 其它地区 46'
   obfs: salamander
   obfs-password: 2a7e8084206388f4
   password: gdubbi2zb6gdp0c8
@@ -412,7 +404,7 @@ proxies:
   sni: ger1.riziro.ir
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 47'
+- name: '[D] 🌍 其它地区 46'
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
   password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR
@@ -435,7 +427,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🌍 其它地区 48'
+  name: '[D] 🌍 其它地区 47'
   obfs: salamander
   obfs-password: 2gg0tx9d2etug8n9
   password: rjj39jg8iphgd06h
@@ -444,7 +436,7 @@ proxies:
   sni: pro2.riziro.ir
   tls: false
   type: hysteria2
-- name: '[D] 🌍 其它地区 49'
+- name: '[D] 🌍 其它地区 48'
   obfs: salamander
   obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ
   password: rs2mR3g9bZiMloftx6lZQ59Um1Ld
@@ -459,7 +451,7 @@ proxies:
   - http/1.1
   - h3
   fingerprint: chrome
-  name: '[D] 🌍 其它地区 50'
+  name: '[D] 🌍 其它地区 49'
   obfs: salamander
   obfs-password: 6b95esw2d7h3r7kl
   password: sm6wj2kn4v412om3
@@ -476,7 +468,7 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- name: '[E] 🌍 其它地区 51'
+- name: '[E] 🌍 其它地区 50'
   password: 16de749f-ce86-4ccd-9743-7a0ff2556185
   port: 443
   server: alba.normbot.ru
@@ -543,21 +535,21 @@ proxies:
   sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
-- name: '[E] 🌍 其它地区 52'
+- name: '[E] 🌍 其它地区 51'
   password: 16de749f-ce86-4ccd-9743-7a0ff2556185
   port: 443
   server: lithis.normbot.ru
   sni: Lithis.normbot.ru
   tls: false
   type: hysteria2
-- name: '[E] 🌍 其它地区 53'
+- name: '[E] 🌍 其它地区 52'
   password: 3e6d5dd0-05ff-4efd-b9ef-3b68843e6d81
   port: 443
   server: pl10.mechvpn.online
   sni: pl10.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[E] 🌍 其它地区 54'
+- name: '[E] 🌍 其它地区 53'
   password: 3e6d5dd0-05ff-4efd-b9ef-3b68843e6d81
   port: 443
   server: fr136.mechvpn.online
@@ -604,7 +596,7 @@ proxies:
   sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
-- name: '[E] 🌍 其它地区 55'
+- name: '[E] 🌍 其它地区 54'
   password: 0047a8bc-0025-4d45-899b-c75c669f3ede
   port: 8449
   server: 888275.cherry-nll-01.live
@@ -696,7 +688,7 @@ proxies:
       Host: www.bing.com
     path: 85357d35-492e-4814-835a-aba4cb7f00ad-vm
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 56'
+  name: '[F] 🌍 其它地区 55'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -816,6 +808,19 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- flow: xtls-rprx-vision
+  name: '[H] 🌍 其它地区 56'
+  port: 8443
+  reality-opts:
+    public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA
+    short-id: '2cfb5a0ae8ab0cb0'
+  server: 45.194.10.5
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907
 - name: '[H] 🇺🇸 美国 09'
   network: ws
   port: 443
@@ -830,20 +835,103 @@ proxies:
     headers:
       Host: nbhhh.mrcool.kdns.fr
     path: /proxyip=3cfb8e26.tp30304.ip.090227.xyz
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🌍 其它地区 57'
-  network: tcp
+- multiplexing: MULTIPLEXING_LOW
+  name: '[H] 🇺🇸 美国 10'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: '[H] 🇸🇬 新加坡 07'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 13.229.110.73
+  skip-cert-verify: true
+  sni: vpn-sg-001.fastervpn.world
+  tfo: false
+  type: hysteria2
+- encryption: none
+  name: '[H] 🇩🇪 德国 04'
+  network: ws
+  port: '8880'
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 8991a496-1baa-486f-9948-ffe44e68c072
+  ws-opts:
+    headers:
+      Host: soft-band-8da6.426.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- encryption: none
+  name: '[H] 🇸🇬 新加坡 08'
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
-    short-id: 'd020b987f84eb78a'
-  server: 45.198.108.152
-  servername: storage.yandex.net
+  server: 4.193.253.192
+  servername: sga.okkeo.me
   tls: true
   type: vless
   udp: true
-  uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
+  uuid: 18e65438-6095-4430-f258-ad68be5133b6
+  ws-opts:
+    headers:
+      Host: sga.okkeo.me
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /bing
+  xudp: true
+- flow: xtls-rprx-vision
+  name: '[H] 🌍 其它地区 57'
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: JKljeAoIvgygSC7PzCz74fckLcRv7udl4qCUEHxrOQk
+    short-id: 'b2c3d4e5'
+  server: it-r.vortexio.cc
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e63daf8b-d5ef-4dab-a43b-f731eb72e1f4
+  xudp: true
+- name: '[H] 🇺🇸 美国 11'
+  network: ws
+  port: '8880'
+  server: 104.16.106.213
+  type: vless
+  udp: true
+  uuid: b4a18856-301d-4bb2-b729-6afcb700faf5
+  ws-opts:
+    headers:
+      Host: red-flower-a2bf.363.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/43.0.2357.65 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 12'
+  password: amazonskr05
+  port: '443'
+  server: 3.136.233.197
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 02'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2AKBmK0PMf2zUMhRo1Ad-WNf_XoRk3AN-SGo6ZdhxA4
+    short-id: 'f66c289040d589ee'
+  server: 217.179.220.165
+  servername: uk.monkeyisland.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3e0a91ec-05a3-461f-9367-14b289a5b54b
   xudp: true
 - name: '[I] 🇯🇵 日本 06'
   network: ws
@@ -870,7 +958,7 @@ proxies:
   server: 88.218.170.50
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇸🇬 新加坡 07'
+  name: '[I] 🇸🇬 新加坡 09'
   password: 8Q8WSWTEJfzYVjXH1setj3
   port: 16161
   server: 143.198.86.126
@@ -884,7 +972,7 @@ proxies:
   uuid: 31ed0ed1-746a-46aa-bb54-7a3c30b90c3e
   ws-opts:
     path: /
-- name: '[I] 🇩🇪 德国 04'
+- name: '[I] 🇩🇪 德国 05'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -925,7 +1013,7 @@ proxies:
   type: trojan
   ws-opts:
     path: /assignment
-- name: '[I] 🇩🇪 德国 05'
+- name: '[I] 🇩🇪 德国 06'
   network: ws
   port: 443
   server: 109.120.176.17
