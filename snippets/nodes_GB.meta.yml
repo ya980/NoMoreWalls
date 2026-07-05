@@ -1,29 +1,30 @@
 proxies:
-- name: '[E] 🇬🇧 英国 01'
+- down: ''
+  fingerprint: ''
+  name: '[E] 🇬🇧 英国 01'
+  obfs: ''
+  obfs-password: ''
   password: 16de749f-ce86-4ccd-9743-7a0ff2556185
-  port: 443
+  port: '443'
   server: velikhis.normbot.ru
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: velikhis.normbot.ru
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: ios
+  up: ''
+- client-fingerprint: chrome
   encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇬🇧 英国 02'
-  network: ws
-  port: '443'
-  server: 194.238.79.150.fwqfw783rg2dad.website
-  servername: 194.238.79.150.fwqfw783rg2dad.website
+  network: tcp
+  port: '18022'
+  reality-opts:
+    public-key: qJhdahkY0zd79SmTB30P1cy7cSvwN5ONRqL1pktr3GY
+    short-id: '!!str f62ca9ccc14703a1'
+  server: e.ramcalshoping.ir
+  servername: www.yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 5bf12aea-0a92-41fb-ab2d-0e034b9f57a2
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /sequre/ws
+  uuid: 9e6cf131-5323-4607-a51e-036e8097e676
   xudp: true
