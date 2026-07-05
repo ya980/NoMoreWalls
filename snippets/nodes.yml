@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 27'
+  name: '[F] 🌍 其它地区 36'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -120,29 +120,46 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇨🇦 加拿大 01'
-  port: 18339
-  server: c87s5.portablesubmarines.com
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-- cipher: aes-256-cfb
-  name: '[H] 🇯🇵 日本 06'
-  password: amazonskr05
+- alpn:
+  - http/1.1
+  name: '[H] 🇩🇪 德国 07'
+  network: ws
+  password: MITIVPN
   port: '443'
-  server: 3.112.132.169
-  type: ss
+  server: 104.25.193.8
+  skip-cert-verify: false
+  sni: G-Dee.MaQror.ir
+  type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 10'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: petrolicious.com
+  skip-cert-verify: false
+  sni: NL-L-ll.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Nl
 - name: '[I] 🇭🇰 香港 10'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
   sni: yazhou10.dynu.net
   type: trojan
-- name: '[I] 🇨🇦 加拿大 03'
+- name: '[I] 🇨🇦 加拿大 02'
   network: ws
   password: humanity
   port: 443
@@ -153,7 +170,7 @@ proxies:
     headers:
       Host: www.creationlong.org
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 04'
+- name: '[I] 🇨🇦 加拿大 03'
   network: ws
   password: humanity
   port: 443
@@ -164,7 +181,7 @@ proxies:
     headers:
       Host: www.calmlunch.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 05'
+- name: '[I] 🇨🇦 加拿大 04'
   network: ws
   password: humanity
   port: 443
@@ -175,7 +192,7 @@ proxies:
     headers:
       Host: www.multiplydose.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 06'
+- name: '[I] 🇨🇦 加拿大 05'
   network: ws
   password: humanity
   port: 443
@@ -186,7 +203,7 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 07'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   password: humanity
   port: 443
@@ -199,7 +216,7 @@ proxies:
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 35'
+  name: '[I] 🌍 其它地区 42'
   network: tcp
   port: '18339'
   server: c87s5.portablesubmarines.com
@@ -207,7 +224,7 @@ proxies:
   tls: false
   type: vmess
   uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-- name: '[I] 🇨🇦 加拿大 16'
+- name: '[I] 🇨🇦 加拿大 15'
   network: ws
   password: humanity
   port: 443

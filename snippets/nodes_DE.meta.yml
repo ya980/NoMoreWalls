@@ -56,37 +56,24 @@ proxies:
   sni: h-se.s3-rus.ru
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   name: '[H] 🇩🇪 德国 07'
   network: ws
-  port: 443
-  server: 162.159.38.71
-  servername: freedom.dogegg.online
-  skip-cert-verify: true
-  tls: true
-  type: vless
+  password: MITIVPN
+  port: '443'
+  server: 104.25.193.8
+  skip-cert-verify: false
+  sni: G-Dee.MaQror.ir
+  type: trojan
   udp: true
-  uuid: c9ddce25-8dc7-4d01-af0a-cca144c9e42c
   ws-opts:
     headers:
-      Host: freedom.dogegg.online
-    path: /freedom
-- encryption: none
-  name: '[H] 🇩🇪 德国 08'
-  network: ws
-  port: '8880'
-  server: 172.66.200.130
-  type: vless
-  udp: true
-  uuid: a51d8a82-faec-44f4-8882-441a2e7f0ce4
-  ws-opts:
-    headers:
-      Host: spring-math-5c8c.434.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-  xudp: true
-- name: '[I] 🇩🇪 德国 09'
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=De
+- name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -98,7 +85,7 @@ proxies:
       Host: rb24.ir
     path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 09'
   network: ws
   port: 443
   server: 109.120.176.17
