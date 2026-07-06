@@ -1,23 +1,45 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
+- cipher: aes-256-gcm
   name: '[H] 🇷🇺 俄罗斯 01'
+  password: 1a87017d0bf57f34
+  port: '32432'
+  server: 176.32.39.106
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 02'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: Q7-sRiaAcmlJ_iwqiA46kDKso_r2kJ7X1mrVjL2illo
-    short-id: '!!str fd17502f9ac38e58'
-  server: fin.monkeyvillage.pro
-  servername: fin.monkeyvillage.pro
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: 176.109.92.139
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: f17a6493-07c9-452e-aa5d-5e823cb5d5fe
+  uuid: 10e1b54e-9bd1-4181-b337-3e464f8051ec
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: pro-ru-m.emrata.top
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10e1b54e-9bd1-4181-b337-3e464f8051ec
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 04'
   port: 1111
   reality-opts:
     public-key: YuhNgtj_Tf8WNLiSB2bNJKPvfwmqa6PNRpbP8TvNkzA
@@ -28,7 +50,7 @@ proxies:
   uuid: 72edcaa1-685e-4022-9576-273746529e1f
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 05'
   port: 25565
   reality-opts:
     public-key: Pw1EUU1hud5uvtfySGyGy5vV38bYIiQzDx-cDQoAdk0
@@ -40,7 +62,7 @@ proxies:
   uuid: 72edcaa1-685e-4022-9576-273746529e1f
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 06'
   port: 25567
   reality-opts:
     public-key: tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY
@@ -52,7 +74,7 @@ proxies:
   uuid: 72edcaa1-685e-4022-9576-273746529e1f
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 05'
+  name: '[I] 🇷🇺 俄罗斯 07'
   port: 25567
   reality-opts:
     public-key: tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY
@@ -63,7 +85,7 @@ proxies:
   type: vless
   uuid: 72edcaa1-685e-4022-9576-273746529e1f
 - client-fingerprint: chrome
-  name: '[I] 🇷🇺 俄罗斯 06'
+  name: '[I] 🇷🇺 俄罗斯 08'
   network: ws
   port: 443
   server: 78.41.111.87
