@@ -1,6 +1,5 @@
 proxies:
 - name: '[F] 🇯🇵 日本 01'
-  network: tcp
   password: BxceQaOe
   port: 27826
   server: 3.112.52.247
@@ -23,7 +22,31 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[H] 🇯🇵 日本 04'
+- name: '[G] 🇯🇵 日本 04'
+  network: tcp
+  password: BxceQaOe
+  port: 47656
+  server: 95.40.61.197
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇯🇵 日本 05'
+  network: tcp
+  port: '1443'
+  reality-opts:
+    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
+    short-id: '!!str 1a'
+  server: t25.qifei.app
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+  xudp: true
+- name: '[H] 🇯🇵 日本 06'
   password: a95e9198-0671-11f0-9426-f23c932f2c32
   port: '8201'
   server: 24964a7e-ths2o0-ths4hq-azvy.fsmax.wkuaishou.com
@@ -31,24 +54,3 @@ proxies:
   tls: true
   type: http
   username: a95e9198-0671-11f0-9426-f23c932f2c32
-- name: '[H] 🇯🇵 日本 05'
-  password: a95e9198-0671-11f0-9426-f23c932f2c32
-  port: '8201'
-  server: 9a820178-thtxc0-ths4hq-azvy.fsmax.wkuaishou.com
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: a95e9198-0671-11f0-9426-f23c932f2c32
-- client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 06'
-  network: ws
-  port: 443
-  server: wasmer-earth.jzy88.top
-  servername: wasmer-earth.jzy88.top
-  tls: true
-  type: vless
-  uuid: 60156344-dbc3-4614-8177-fd337539a473
-  ws-opts:
-    headers:
-      Host: wasmer-earth.jzy88.top
-    path: '%2F60156344'

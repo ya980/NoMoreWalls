@@ -10,13 +10,22 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 02'
-  password: e91d47a0-db5f-42da-828b-282e20a1f218
-  port: 8443
-  server: node.cvedcvpn.ru
-  sni: node.cvedcvpn.ru
+  password: 4bbc48e4-e800-4937-a4ce-d7e1fd4ed586
+  port: 443
+  server: fr191.mechvpn.online
+  skip-cert-verify: false
+  sni: fr191.mechvpn.online
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 03'
+  password: 4bbc48e4-e800-4937-a4ce-d7e1fd4ed586
+  port: 443
+  server: de5.mechvpn.online
+  skip-cert-verify: false
+  sni: de5.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 04'
   password: 97d290a0-acec-4aae-b8cf-c7111a5a6397
   port: 8443
   server: srvhy1.ezcon24.online
@@ -24,17 +33,25 @@ proxies:
   sni: srvhy1.ezcon24.online
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: e91d47a0-db5f-42da-828b-282e20a1f218
-  port: 443
-  server: node-de2.celerisvpn.ru
-  sni: node-de2.celerisvpn.ru
-  tls: false
-  type: hysteria2
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.bHRJoW9nvDfcJd3ZRLXLDwT4i216yH90Uz42CXEoVUc
+  name: '[H] 🇫🇷 法国 05'
+  network: tcp
+  port: '80'
+  reality-opts:
+    public-key: uOXWzNhsJ6sMuaZV8zPNZLu0kHNoUmDTRv6P1mlnsXk
+    short-id: '!!str 36ac6e559457f64b'
+  server: teamspk.callofdeuti.ir
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02c5fca9-cca0-4a81-a5e3-5fc734cc560c
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 05'
+  name: '[H] 🇫🇷 法国 06'
   network: tcp
   port: '443'
   reality-opts:
@@ -47,36 +64,33 @@ proxies:
   udp: true
   uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
   xudp: true
+- encryption: none
+  name: '[H] 🇫🇷 法国 07'
+  network: ws
+  port: '80'
+  server: de4.niekotin.de
+  type: vless
+  udp: true
+  uuid: 2415cbdc-e5fc-453e-91ad-0e2e532afb7c
+  ws-opts:
+    headers:
+      Host: de4.niekotin.de
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /vless
+  xudp: true
 - client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 06'
+  name: '[H] 🇫🇷 法国 08'
   network: tcp
   port: '443'
   reality-opts:
     public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
     short-id: '!!str 3c9c5d01c6f824dd'
-  server: 155.117.137.89
+  server: 155.117.137.174
   servername: cdn6-49.yahoo.com
   tls: true
   type: vless
   udp: true
   uuid: 9480871a-3843-441c-9b83-aa8c5c96b209
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[H] 🇫🇷 法国 07'
-  network: grpc
-  port: '7443'
-  reality-opts:
-    public-key: L82J-1ku9yAEYvUmr7xVGnROijbyeEI1LSryHx464i4
-    short-id: '!!str '
-  server: 193.233.91.118
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5887cc43-9f86-4d93-9903-02437398ac6c
   xudp: true

@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 37'
+  name: '[F] 🌍 其它地区 42'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -15,7 +15,6 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[F] 🇭🇰 香港 07'
-  network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 2008
   server: 18.162.58.236
@@ -23,7 +22,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇭🇰 香港 08'
-  network: tcp
   password: BxceQaOe
   port: 11035
   server: 16.163.150.200
@@ -31,7 +29,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[F] 🇭🇰 香港 09'
-  network: tcp
   password: BxceQaOe
   port: 29449
   server: 16.162.150.200
@@ -39,7 +36,6 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 01'
-  network: tcp
   password: BxceQaOe
   port: 27826
   server: 3.112.52.247
@@ -62,7 +58,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 02'
+- name: '[F] 🇸🇬 新加坡 01'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 6357
@@ -70,7 +66,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 03'
+- name: '[F] 🇸🇬 新加坡 02'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 48738
@@ -78,15 +74,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 04'
-  network: tcp
+- name: '[F] 🇸🇬 新加坡 03'
   password: BxceQaOe
   port: 41421
   server: 16.163.150.200
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
@@ -94,7 +89,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -102,8 +97,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
-  network: tcp
+- name: '[F] 🇺🇸 美国 07'
   password: BxceQaOe
   port: 44265
   server: 95.40.58.154
@@ -120,53 +114,128 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[G] 🇭🇰 香港 11'
+  network: tcp
+  password: d6788cf74e6844c45538204efd24b00f
+  port: 2008
+  server: 16.163.138.198
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[G] 🇭🇰 香港 12'
+  network: tcp
+  password: BxceQaOe
+  port: 11035
+  server: 16.162.109.204
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[G] 🇭🇰 香港 13'
+  network: tcp
+  password: BxceQaOe
+  port: 29449
+  server: 16.162.143.22
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- name: '[G] 🇯🇵 日本 04'
+  network: tcp
+  password: BxceQaOe
+  port: 47656
+  server: 95.40.61.197
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '[G] 🇸🇬 新加坡 04'
+  network: tcp
+  password: BxceQaOe
+  port: 51396
+  server: 16.162.34.133
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '[G] 🇺🇸 美国 08'
+  network: tcp
+  password: BxceQaOe
+  port: 44265
+  server: 18.163.116.155
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 09'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: petrolicious.com
+  skip-cert-verify: false
+  sni: Fo-F-lL.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Fl
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 10'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: petrolicious.com
+  skip-cert-verify: false
+  sni: S-o-W.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=Sw
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 16'
+  network: tcp
+  port: '16025'
+  server: c722s801.portablesubmarines.com
+  type: vmess
+  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
+  xudp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 14'
+  name: '[H] 🇺🇸 美国 32'
   password: amazonskr05
   port: '443'
-  server: 3.142.135.161
+  server: 18.188.176.234
   type: ss
   udp: true
-- name: '[I] 🇭🇰 香港 11'
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
-  type: trojan
-- name: '[I] 🇨🇦 加拿大 02'
-  network: ws
-  password: humanity
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 33'
+  password: amazonskr05
+  port: '443'
+  server: 3.147.85.161
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🌍 其它地区 96'
+  password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 443
-  server: 104.16.90.120
-  sni: www.creationlong.org
+  server: 82.38.31.35
+  type: ss
+- name: '[I] 🇨🇦 加拿大 18'
+  network: ws
+  password: 19877587-ed94-4033-88cd-4ac50a5e8718
+  port: 443
+  server: 104.16.148.5
+  sni: dimskiee.biz.id
   type: trojan
   ws-opts:
     headers:
-      Host: www.creationlong.org
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 03'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.19.64.105
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 04'
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.47.69
-  sni: www.multiplydose.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 05'
+      Host: dimskiee.biz.id
+    path: '%2FWangCai-8'
+- name: '[I] 🇨🇦 加拿大 21'
   network: ws
   password: humanity
   port: 443
@@ -177,33 +246,56 @@ proxies:
     headers:
       Host: www.calmloud.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 06'
+- name: '[I] 🇨🇦 加拿大 22'
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.34
+  server: 104.16.174.117
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- alterId: 0
-  cipher: auto
-  name: '[I] 🌍 其它地区 114'
-  network: tcp
-  port: '18339'
-  server: c87s5.portablesubmarines.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
-- name: '[I] 🇨🇦 加拿大 15'
+- name: '[I] 🌍 其它地区 99'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.187
-  sni: www.ignitelimit.com
+  server: 104.20.42.250
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '[I] 🇨🇦 加拿大 23'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.21.40.34
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
+- name: '[I] 🌍 其它地区 100'
+  network: ws
+  password: humanity
+  port: 443
+  server: 8.6.112.6
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '[I] 🌍 其它地区 111'
+  network: ws
+  password: humanity
+  port: 443
+  server: 165.215.250.14
+  sni: www.calmlunch.com
   type: trojan
   ws-opts:
     path: /assignment
