@@ -51,23 +51,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 06'
-  network: ws
-  password: MiTiVPN
+  network: tcp
   port: '443'
-  server: 141.193.213.21
-  skip-cert-verify: true
-  sni: fffffl-lls.MaQror.ir
-  type: trojan
+  reality-opts:
+    public-key: 0dIyov95G3A1ySANsJzdYY9DGLvaIFU8ofJf3Jtv1Ds
+    short-id: '!!str befa80d97af98b74'
+  server: 38.244.20.214
+  servername: www.apple.com
+  tls: true
+  type: vless
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
+  uuid: 5272cd9f-a028-4452-ad8a-9bc21f87bb19
+  xudp: true
 - name: '[H] 🇺🇸 美国 07'
   network: ws
   port: 443
@@ -82,21 +81,69 @@ proxies:
     headers:
       Host: support.zoom.us.yxls.eu.cc
     path: /sg-melbi
-- name: '[H] 🇺🇸 美国 08'
+- multiplexing: MULTIPLEXING_LOW
+  name: '[H] 🇺🇸 美国 08'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  name: '[H] 🇺🇸 美国 09'
   network: ws
-  port: '8880'
-  server: 104.17.170.132
+  port: '443'
+  server: x4g-production-40db.up.railway.app
+  servername: x4g-production-40db.up.railway.app
+  tls: true
   type: vless
   udp: true
-  uuid: 49a9aa25-443b-4fab-9a85-066dd5396c57
+  uuid: 25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
   ws-opts:
     headers:
-      Host: mute-river-6aee.421-bd7.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+      Host: x4g-production-40db.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws/25f15077-35b1-aa19-aa5d-f52e2ddd2a6d
   xudp: true
-- name: '[I] 🇺🇸 美国 09'
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇺🇸 美国 10'
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: 18.221.163.56
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: '[H] 🇺🇸 美国 11'
+  password: ''
+  port: '443'
+  server: 38.28.193.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 12'
+  network: ws
+  port: '8880'
+  server: anydesk.com
+  type: vless
+  udp: true
+  uuid: b85c8be2-3109-4b8a-aa82-f0d8fe06f5ae
+  ws-opts:
+    headers:
+      Host: young-dust-b8d9.31-8ba.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- name: '[I] 🇺🇸 美国 13'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -107,7 +154,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 10'
+- name: '[I] 🇺🇸 美国 14'
   network: ws
   port: 80
   server: 72.167.241.4
@@ -118,7 +165,7 @@ proxies:
     headers:
       Host: tiantizmlb.dpdns.org
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[I] 🇺🇸 美国 11'
+- name: '[I] 🇺🇸 美国 15'
   network: ws
   port: 80
   server: 209.94.90.4
@@ -129,7 +176,7 @@ proxies:
     headers:
       Host: tiantizmlb.dpdns.org
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[I] 🇺🇸 美国 12'
+- name: '[I] 🇺🇸 美国 16'
   network: ws
   port: 80
   server: 141.193.27.4
