@@ -1,20 +1,48 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 01'
+  network: ws
+  port: '20368'
+  server: 45.78.72.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b4dc8abc-cd61-407c-98cd-175344688b20
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 02'
+  network: ws
+  port: '19679'
+  server: 45.78.72.19
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4fb543fa-8034-45a4-ae29-a023d843e838
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 57'
+  name: '[F] 🌍 其它地区 54'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 03'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 06'
+- name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 2008
@@ -22,7 +50,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 07'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 4374
@@ -30,7 +58,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 08'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 29449
@@ -86,7 +114,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇺🇸 美国 01'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
@@ -94,7 +122,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 02'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -102,7 +130,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 03'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 22657
@@ -112,7 +140,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 09'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -120,14 +148,23 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 04'
-  password: amazonskr05
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 06'
+  network: ws
+  password: MiTiVPN
   port: '443'
-  server: 35.180.255.4
-  type: ss
+  server: 141.193.213.21
+  skip-cert-verify: true
+  sni: fffffl-lls.MaQror.ir
+  type: trojan
   udp: true
-- name: '[I] 🇭🇰 香港 11'
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
+- name: '[I] 🇭🇰 香港 08'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
@@ -135,7 +172,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 62'
+  name: '[I] 🌍 其它地区 55'
   network: tcp
   port: 5050
   server: 193.93.169.116
