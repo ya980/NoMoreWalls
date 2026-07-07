@@ -3,16 +3,16 @@ proxies:
   cipher: auto
   name: '[E] 🇺🇸 美国 01'
   network: ws
-  port: '20368'
-  server: 45.78.72.19
+  port: '8080'
+  server: 153.75.235.41
   servername: ''
   tls: false
   type: vmess
-  uuid: b4dc8abc-cd61-407c-98cd-175344688b20
+  uuid: 002b7948-b104-4e1d-f251-fc372006e8f5
   ws-opts:
     headers:
       Host: ''
-    path: /arki
+    path: /
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 02'
@@ -28,7 +28,7 @@ proxies:
       Host: ''
     path: /arki
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 54'
+  name: '[F] 🌍 其它地区 47'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -148,6 +148,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 2
+  cipher: auto
+  name: '[H] 🇺🇸 美国 07'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - name: '[I] 🇭🇰 香港 08'
   password: OccIqeORGQwiNkwS
   port: 19128
@@ -156,7 +168,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 74'
+  name: '[I] 🌍 其它地区 48'
   network: tcp
   port: 5050
   server: 193.93.169.116
