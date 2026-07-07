@@ -1,23 +1,62 @@
 proxies:
-- name: '[I] 🇬🇧 英国 01'
-  network: ws
-  port: 80
-  server: 91.193.58.166
-  tls: false
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 01'
+  network: tcp
+  port: '65145'
+  reality-opts:
+    public-key: xXNl2pewpj5o3PTe8BX4tvNhypdVzSOXZ9CCOzEj-Ak
+    short-id: '!!str b98e'
+  server: uk-lon-01.fsulink.com
+  servername: aws.amazon.com
+  tls: true
   type: vless
-  uuid: d566d849-ab28-4695-b01f-dcd284b67f5c
-  ws-opts:
-    headers:
-      Host: dry-frog-8793.454-dc4.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[I] 🇬🇧 英国 02'
-  network: ws
-  port: 8880
-  server: 45.12.30.30
-  tls: false
+  udp: true
+  uuid: eed3f3da-f553-472c-8159-714d882bf963
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇬🇧 英国 02'
+  network: xhttp
+  port: '443'
+  server: nlka.lockaway.top
+  servername: nlka.lockaway.top
+  tls: true
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime28.workers.dev
-    path: '%2F'
+  udp: true
+  uuid: 5163b7f3-c9bd-42ec-9841-350c84cbcdb5
+  xhttp-opts:
+    host: nlka.lockaway.top
+    mode: auto
+    path: /api/v2/stream/
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: 16-32
+      max-connections: '0'
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 03'
+  network: tcp
+  port: '2055'
+  reality-opts:
+    public-key: CWfqf06pemmlwAM8Ju1SMmnrYnAxoxMdGve0Bnu3yQ0
+    short-id: '!!str a1b2c3d4e5f6a7b8'
+  server: germaan.jetstoreapp.ru
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 040782e7-07a7-4e15-b2a0-ea63aaac17fc
+  xudp: true
