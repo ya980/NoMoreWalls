@@ -28,7 +28,7 @@ proxies:
       Host: ''
     path: /arki
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 47'
+  name: '[F] 🌍 其它地区 46'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -148,19 +148,53 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 2
-  cipher: auto
-  name: '[H] 🇺🇸 美国 07'
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 06'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 141.193.213.21
+  skip-cert-verify: true
+  sni: fffffl-lls.MaQror.ir
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- name: '[I] 🇭🇰 香港 08'
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 07'
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: www.speedtest.net
+  skip-cert-verify: true
+  sni: De-Ge-N.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=de
+- name: '[H] 🇫🇷 法国 05'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.64.146.211
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /assignment
+- name: '[I] 🇭🇰 香港 09'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
