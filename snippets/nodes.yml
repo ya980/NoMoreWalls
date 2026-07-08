@@ -1,6 +1,6 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 53'
+  name: '[F] 🌍 其它地区 55'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -57,12 +57,11 @@ proxies:
 - name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
-  port: '55973'
+  port: 55973
   server: 95.40.44.165
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-  udp: true
 - name: '[F] 🇸🇬 新加坡 01'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
@@ -121,22 +120,54 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[H] 🇭🇰 香港 08'
+  password: BxceQaOe
+  port: '27161'
+  server: 16.162.220.240
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: '[H] 🇺🇸 美国 09'
+  password: BxceQaOe
+  port: '11353'
+  server: 16.162.220.240
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
 - alpn:
   - http/1.1
-  name: '[H] 🇺🇸 美国 09'
+  name: '[H] 🇺🇸 美国 10'
   network: ws
   password: MiTiVPN
   port: '443'
-  server: 141.193.213.21
+  server: 104.16.72.2
   skip-cert-verify: true
-  sni: fffffl-lls.MaQror.ir
+  sni: sww-w.MaQror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.110 Safari/537.36
-    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=sw
+- alpn:
+  - http/1.1
+  name: '[H] 🇺🇸 美国 11'
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: 45.80.111.7
+  skip-cert-verify: true
+  sni: u---as.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=usa
 - name: '[H] 🇯🇵 日本 04'
   password: XG59623478
   port: 443
@@ -153,14 +184,6 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 05'
-  password: XG59623478
-  port: 443
-  server: evolving-platypus.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
 - name: '[H] 🇰🇷 韩国 02'
   password: XG59623478
   port: 443
@@ -169,7 +192,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 06'
+- name: '[H] 🇯🇵 日本 05'
   password: XG59623478
   port: 443
   server: precious-racer.rooster465.autos
@@ -177,7 +200,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 07'
+- name: '[H] 🇯🇵 日本 06'
   password: XG59623478
   port: 443
   server: giving-perch.rooster465.autos
@@ -185,7 +208,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 08'
+- name: '[H] 🇯🇵 日本 07'
   password: XG59623478
   port: 443
   server: smiling-fowl.rooster465.autos
@@ -193,7 +216,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇭🇰 香港 08'
+- name: '[H] 🇭🇰 香港 09'
   password: 1df3ece1218bedba28c6c6ac726a07bb
   port: 39001
   server: 114.80.8.128
@@ -202,7 +225,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 09'
+- name: '[H] 🇯🇵 日本 08'
   password: XG59623478
   port: 443
   server: excited-alien.rooster465.autos
@@ -210,7 +233,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 06'
+- name: '[H] 🇸🇬 新加坡 04'
   password: XG59623478
   port: 443
   server: shining-piranha.rooster465.autos
@@ -218,7 +241,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 10'
+- name: '[H] 🇯🇵 日本 09'
   password: XG59623478
   port: 443
   server: factual-titmouse.rooster465.autos
@@ -226,7 +249,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 11'
+- name: '[H] 🇯🇵 日本 10'
   password: XG59623478
   port: 443
   server: nice-elephant.rooster465.autos
@@ -234,7 +257,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 12'
+- name: '[H] 🇯🇵 日本 11'
   password: XG59623478
   port: 443
   server: pleased-mammal.rooster465.autos
@@ -242,15 +265,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 13'
-  password: XG59623478
-  port: 443
-  server: hot-tapir.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 14'
+- name: '[H] 🇯🇵 日本 12'
   password: XG59623478
   port: 443
   server: relaxing-mayfly.rooster465.autos
@@ -258,7 +273,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 15'
+- name: '[H] 🇯🇵 日本 13'
   password: XG59623478
   port: 443
   server: assuring-werewolf.rooster465.autos
@@ -266,7 +281,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 16'
+- name: '[H] 🇯🇵 日本 14'
   password: XG59623478
   port: 443
   server: mature-lamprey.rooster465.autos
@@ -282,7 +297,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 17'
+- name: '[H] 🇯🇵 日本 15'
   password: XG59623478
   port: 443
   server: key-flounder.rooster465.autos
@@ -290,7 +305,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 18'
+- name: '[H] 🇯🇵 日本 16'
   password: XG59623478
   port: 443
   server: bright-cicada.rooster465.autos
@@ -298,7 +313,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 19'
+- name: '[H] 🇯🇵 日本 17'
   password: XG59623478
   port: 443
   server: noble-tahr.rooster465.autos
@@ -306,7 +321,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 20'
+- name: '[H] 🇯🇵 日本 18'
   password: XG59623478
   port: 443
   server: saved-tuna.rooster465.autos
@@ -314,7 +329,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 21'
+- name: '[H] 🇯🇵 日本 19'
   password: XG59623478
   port: 443
   server: firm-krill.rooster465.autos
@@ -330,7 +345,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 22'
+- name: '[H] 🇺🇸 美国 13'
+  password: XG59623478
+  port: 443
+  server: next-ringtail.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 20'
   password: XG59623478
   port: 443
   server: careful-tadpole.rooster465.autos
@@ -338,7 +361,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 07'
+- name: '[H] 🇸🇬 新加坡 05'
   password: XG59623478
   port: 443
   server: real-ewe.rooster465.autos
@@ -346,7 +369,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 23'
+- name: '[H] 🇯🇵 日本 21'
   password: XG59623478
   port: 443
   server: content-joey.rooster465.autos
@@ -362,15 +385,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇰🇷 韩国 06'
-  password: XG59623478
-  port: 443
-  server: moral-buzzard.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 24'
+- name: '[H] 🇯🇵 日本 22'
   password: XG59623478
   port: 443
   server: tops-puma.rooster465.autos
@@ -378,15 +393,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 25'
-  password: XG59623478
-  port: 443
-  server: tight-gator.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 08'
+- name: '[H] 🇸🇬 新加坡 06'
   password: XG59623478
   port: 443
   server: flexible-pony.rooster465.autos
@@ -394,7 +401,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 09'
+- name: '[H] 🇸🇬 新加坡 07'
   password: XG59623478
   port: 443
   server: logical-ram.rooster465.autos
@@ -402,7 +409,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 10'
+- name: '[H] 🇸🇬 新加坡 08'
   password: XG59623478
   port: 443
   server: live-drake.rooster465.autos
@@ -410,7 +417,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 26'
+- name: '[H] 🇯🇵 日本 23'
   password: XG59623478
   port: 443
   server: prepared-hawk.rooster465.autos
@@ -418,7 +425,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 27'
+- name: '[H] 🇯🇵 日本 24'
   password: XG59623478
   port: 443
   server: distinct-llama.rooster465.autos
@@ -426,7 +433,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 28'
+- name: '[H] 🇯🇵 日本 25'
   password: XG59623478
   port: 443
   server: novel-kitten.rooster465.autos
@@ -434,31 +441,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇺🇸 美国 10'
+- name: '[H] 🇸🇬 新加坡 09'
   password: XG59623478
   port: 443
-  server: adjusted-orca.rooster465.autos
+  server: clean-elf.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 29'
-  password: XG59623478
-  port: 443
-  server: united-grouse.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 30'
-  password: XG59623478
-  port: 443
-  server: comic-eel.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 31'
+- name: '[H] 🇯🇵 日本 26'
   password: XG59623478
   port: 443
   server: equipped-moth.rooster465.autos
@@ -466,10 +457,26 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇰🇷 韩国 07'
+- name: '[H] 🇸🇬 新加坡 10'
+  password: XG59623478
+  port: 443
+  server: obliging-oyster.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: '[H] 🇰🇷 韩国 06'
   password: XG59623478
   port: 443
   server: topical-fox.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: '[H] 🇫🇷 法国 06'
+  password: XG59623478
+  port: 443
+  server: new-antelope.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
@@ -482,7 +489,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 32'
+- name: '[H] 🇯🇵 日本 27'
+  password: XG59623478
+  port: 443
+  server: complete-chipmunk.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 28'
   password: XG59623478
   port: 443
   server: working-tomcat.rooster465.autos
@@ -490,7 +505,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇰🇷 韩国 08'
+- name: '[H] 🇰🇷 韩国 07'
   password: XG59623478
   port: 443
   server: perfect-slug.rooster465.autos
@@ -506,15 +521,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 13'
-  password: XG59623478
-  port: 443
-  server: wise-longhorn.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 33'
+- name: '[H] 🇯🇵 日本 29'
   password: XG59623478
   port: 443
   server: grateful-owl.rooster465.autos
@@ -522,7 +529,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 34'
+- name: '[H] 🇯🇵 日本 30'
   password: XG59623478
   port: 443
   server: internal-krill.rooster465.autos
@@ -530,7 +537,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇰🇷 韩国 09'
+- name: '[H] 🇯🇵 日本 31'
+  password: XG59623478
+  port: 443
+  server: ruling-toucan.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: '[H] 🇰🇷 韩国 08'
   password: XG59623478
   port: 443
   server: mutual-puma.rooster465.autos
@@ -538,7 +553,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 35'
+- name: '[H] 🇯🇵 日本 32'
   password: XG59623478
   port: 443
   server: complete-cockatoo.rooster465.autos
@@ -546,7 +561,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 36'
+- name: '[H] 🇯🇵 日本 33'
   password: XG59623478
   port: 443
   server: up-dinosaur.rooster465.autos
@@ -554,15 +569,16 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇰🇷 韩国 10'
+- name: '[H] 🇰🇷 韩国 09'
+  network: tcp
   password: XG59623478
-  port: 443
+  port: '443'
   server: darling-emu.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇰🇷 韩国 11'
+- name: '[H] 🇰🇷 韩国 10'
   password: XG59623478
   port: 443
   server: whole-perch.rooster465.autos
@@ -570,7 +586,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 37'
+- name: '[H] 🇯🇵 日本 34'
   password: XG59623478
   port: 443
   server: modest-coral.rooster465.autos
@@ -578,7 +594,31 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 14'
+- name: '[H] 🇯🇵 日本 35'
+  password: XG59623478
+  port: 443
+  server: relaxed-unicorn.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 36'
+  password: XG59623478
+  port: 443
+  server: funny-hen.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: '[H] 🇰🇷 韩国 11'
+  password: XG59623478
+  port: 443
+  server: exotic-chicken.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 13'
   password: XG59623478
   port: 443
   server: calm-muskrat.rooster465.autos
@@ -602,7 +642,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 38'
+- name: '[H] 🇯🇵 日本 37'
   password: XG59623478
   port: 443
   server: worthy-labrador.rooster465.autos
@@ -618,31 +658,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 39'
+- name: '[H] 🌍 其它地区 56'
   password: XG59623478
   port: 443
-  server: next-jaybird.rooster465.autos
+  server: renewed-chigger.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 40'
-  password: XG59623478
-  port: 443
-  server: outgoing-lynx.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 41'
-  password: XG59623478
-  port: 443
-  server: full-mayfly.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 42'
+- name: '[H] 🇯🇵 日本 38'
   password: XG59623478
   port: 443
   server: peaceful-muskrat.rooster465.autos
@@ -650,31 +674,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 15'
-  password: XG59623478
-  port: 443
-  server: pumped-sailfish.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 43'
-  password: XG59623478
-  port: 443
-  server: regular-raptor.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 16'
-  password: XG59623478
-  port: 443
-  server: immune-mullet.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 17'
+- name: '[H] 🇸🇬 新加坡 14'
   password: XG59623478
   port: 443
   server: elegant-marten.rooster465.autos
@@ -682,7 +682,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 44'
+- name: '[H] 🇯🇵 日本 39'
   password: XG59623478
   port: 443
   server: learning-wren.rooster465.autos
@@ -690,7 +690,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 45'
+- name: '[H] 🇯🇵 日本 40'
   password: XG59623478
   port: 443
   server: charmed-cheetah.rooster465.autos
@@ -706,23 +706,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 46'
-  password: XG59623478
-  port: 443
-  server: free-hare.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 47'
-  password: XG59623478
-  port: 443
-  server: dashing-bedbug.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 18'
+- name: '[H] 🇸🇬 新加坡 15'
   password: XG59623478
   port: 443
   server: guided-warthog.rooster465.autos
@@ -730,15 +714,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 19'
+- name: '[H] 🇸🇬 新加坡 16'
   password: XG59623478
   port: 443
-  server: polite-husky.rooster465.autos
+  server: close-wasp.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 48'
+- name: '[H] 🇯🇵 日本 41'
   password: XG59623478
   port: 443
   server: pleased-albacore.rooster465.autos
@@ -749,7 +733,7 @@ proxies:
 - name: '[H] 🇰🇷 韩国 16'
   password: XG59623478
   port: 443
-  server: rested-seahorse.rooster465.autos
+  server: rich-gelding.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
@@ -770,7 +754,15 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 49'
+- name: '[H] 🇰🇷 韩国 19'
+  password: XG59623478
+  port: 443
+  server: wealthy-bengal.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 42'
   password: XG59623478
   port: 443
   server: moved-bluegill.rooster465.autos
@@ -778,7 +770,7 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 20'
+- name: '[H] 🇸🇬 新加坡 17'
   password: XG59623478
   port: 443
   server: tough-shark.rooster465.autos
@@ -786,23 +778,22 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇭🇰 香港 09'
-  password: XG59623478
-  port: 443
-  server: growing-oyster.rooster465.autos
-  skip-cert-verify: true
-  tls: true
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇫🇷 法国 08'
+  network: ws
+  port: 16645
+  server: 130.33.96.204
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- name: '[H] 🇺🇸 美国 11'
-  network: tcp
-  password: BxceQaOe
-  port: '11353'
-  server: 16.162.220.240
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
+  uuid: 2dd31bd9-e22c-471a-a9cc-9128fc768326
+  ws-opts:
+    headers:
+      Host: 4921b448814c533740d0eb52bb6b64b2.mobgslb.tbcache.com
+    path: /
+  xudp: true
 - name: '[I] 🇭🇰 香港 10'
   password: OccIqeORGQwiNkwS
   port: 19128
@@ -811,7 +802,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 13'
+  name: '[I] 🇺🇸 美国 18'
   network: ws
   port: '18814'
   server: 23.95.78.146

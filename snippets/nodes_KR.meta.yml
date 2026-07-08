@@ -42,7 +42,7 @@ proxies:
 - name: '[H] 🇰🇷 韩国 06'
   password: XG59623478
   port: 443
-  server: moral-buzzard.rooster465.autos
+  server: topical-fox.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
@@ -50,7 +50,7 @@ proxies:
 - name: '[H] 🇰🇷 韩国 07'
   password: XG59623478
   port: 443
-  server: topical-fox.rooster465.autos
+  server: perfect-slug.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
@@ -58,15 +58,17 @@ proxies:
 - name: '[H] 🇰🇷 韩国 08'
   password: XG59623478
   port: 443
-  server: perfect-slug.rooster465.autos
+  server: mutual-puma.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
   udp: true
-- name: '[H] 🇰🇷 韩国 09'
+- client-fingerprint: chrome
+  name: '[H] 🇰🇷 韩国 09'
+  network: tcp
   password: XG59623478
-  port: 443
-  server: mutual-puma.rooster465.autos
+  port: '443'
+  server: darling-emu.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
@@ -74,7 +76,7 @@ proxies:
 - name: '[H] 🇰🇷 韩国 10'
   password: XG59623478
   port: 443
-  server: darling-emu.rooster465.autos
+  server: whole-perch.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
@@ -82,7 +84,7 @@ proxies:
 - name: '[H] 🇰🇷 韩国 11'
   password: XG59623478
   port: 443
-  server: whole-perch.rooster465.autos
+  server: exotic-chicken.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
@@ -122,7 +124,7 @@ proxies:
 - name: '[H] 🇰🇷 韩国 16'
   password: XG59623478
   port: 443
-  server: rested-seahorse.rooster465.autos
+  server: rich-gelding.rooster465.autos
   skip-cert-verify: true
   tls: true
   type: trojan
@@ -143,24 +145,26 @@ proxies:
   tls: true
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  - ''
-  client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇰🇷 韩国 19'
-  network: ws
-  port: '8443'
-  server: 43.133.237.158
-  servername: wgl.cdn-c.gfw.qzz.io
+- name: '[H] 🇰🇷 韩国 19'
+  password: XG59623478
+  port: 443
+  server: wealthy-bengal.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇰🇷 韩国 20'
+  network: tcp
+  port: '5443'
+  reality-opts:
+    public-key: kK96AfsPzw1EX9-PhKVUxoLWL3EZlshTdQKkSGiguC4
+    short-id: '!!str 5c1b787c'
+  server: 168.93.224.117
+  servername: kr2.wequ.host
   tls: true
   type: vless
   udp: true
-  uuid: 26524cce-d514-4014-a426-365fb266a14d
-  ws-opts:
-    headers:
-      Host: wgl.cdn-c.gfw.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /danfeng-jh5qzt-fk3fns-mqcd-34e34dzl?ed=2560
+  uuid: 60300afa-3366-4ae3-959a-7b50438acebb
   xudp: true

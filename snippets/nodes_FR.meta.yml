@@ -10,14 +10,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 02'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: france-2.hysteria.ltd
-  skip-cert-verify: false
-  sni: france-2.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.27.216
@@ -25,7 +17,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
+- name: '[E] 🇫🇷 法国 03'
   obfs-password: github.com%2FAlvin9999-newpac%2Ffanqiang
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
@@ -34,14 +26,14 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
+- name: '[E] 🇫🇷 法国 04'
   password: fee5bf09-5d07-45e8-9a47-859b06694971
   port: 443
   server: ball.bluekitty.lol
   sni: ball.bluekitty.lol
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 06'
+- name: '[E] 🇫🇷 法国 05'
   password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
   port: 5443
   server: unic.hysteria.ltd
@@ -49,3 +41,49 @@ proxies:
   sni: unic.hysteria.ltd
   tls: false
   type: hysteria2
+- name: '[H] 🇫🇷 法国 06'
+  password: XG59623478
+  port: 443
+  server: new-antelope.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇫🇷 法国 07'
+  network: ws
+  port: '8443'
+  server: 104.16.72.232
+  servername: asli.romaphone.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: fb569f37-c7b8-4be6-bdd1-e9a5a514d8a4
+  ws-opts:
+    headers:
+      Host: asli.romaphone.ir
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇫🇷 法国 08'
+  network: ws
+  port: 16645
+  server: 130.33.96.204
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 2dd31bd9-e22c-471a-a9cc-9128fc768326
+  ws-opts:
+    headers:
+      Host: 4921b448814c533740d0eb52bb6b64b2.mobgslb.tbcache.com
+    path: /
+  xudp: true
