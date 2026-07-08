@@ -9,25 +9,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 02'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: france-2.hysteria.ltd
-  sni: france-2.hysteria.ltd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 03'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 6443
-  server: france-2.hysteria.ltd
-  sni: france-2.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
+- name: '[E] 🇫🇷 法国 02'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.27.216
@@ -35,7 +17,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
+- name: '[E] 🇫🇷 法国 03'
   obfs-password: github.com%2FAlvin9999-newpac%2Ffanqiang
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
@@ -44,20 +26,25 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 06'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: unic.hysteria.ltd
-  skip-cert-verify: false
-  sni: unic.hysteria.ltd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 07'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: unic.hysteria.ltd
-  sni: unic.hysteria.ltd
-  tls: false
-  type: hysteria2
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - rubika.ir,igap.net,splus.ir,skyroom.online
+    path:
+    - /
+  name: '[H] 🇫🇷 法国 04'
+  network: http
+  port: '700'
+  server: admin.console.support.admin.iranvatanam.com
+  type: vless
+  udp: true
+  uuid: 887c8eae-500f-4cda-8db9-e951ffba141f
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 05'
+  password: amazonskr05
+  port: '443'
+  server: 15.236.43.191
+  type: ss
+  udp: true

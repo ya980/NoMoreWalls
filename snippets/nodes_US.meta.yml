@@ -23,24 +23,7 @@ proxies:
   sni: sni.fi-m247-02.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: united.hysteria.ltd
-  skip-cert-verify: false
-  sni: united.hysteria.ltd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 05'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: united.hysteria.ltd
-  sni: united.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
@@ -48,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -56,7 +39,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 11353
@@ -65,24 +48,215 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 07'
+  password: XG59623478
+  port: '443'
+  server: novel-bat.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 09'
+  name: '[H] 🇺🇸 美国 08'
   network: ws
   port: '443'
-  server: 38.207.169.105
-  servername: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
+  server: x4g-production-213b.up.railway.app
+  servername: x4g-production-213b.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  uuid: 6e475ace-9410-5f61-8ea9-f05fadd1f604
   ws-opts:
     headers:
-      Host: stx4x.gyvz.kj2.hh.hhyf.kdns.fr
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.84 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
+      Host: x4g-production-213b.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /ws/6e475ace-9410-5f61-8ea9-f05fadd1f604
   xudp: true
-- name: '[I] 🇺🇸 美国 10'
+- name: '[H] 🇺🇸 美国 09'
+  network: ws
+  port: 443
+  server: 120.55.183.176
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: /sg-melbi
+- multiplexing: MULTIPLEXING_LOW
+  name: '[H] 🇺🇸 美国 10'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  name: '[H] 🇺🇸 美国 11'
+  network: ws
+  port: '443'
+  server: x4g-production-5110.up.railway.app
+  servername: x4g-production-5110.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7726f5f8-eded-a25f-d5c4-55e48ae096ea
+  ws-opts:
+    headers:
+      Host: x4g-production-5110.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /ws/7726f5f8-eded-a25f-d5c4-55e48ae096ea
+  xudp: true
+- client-fingerprint: firefox
+  name: '[H] 🇺🇸 美国 12'
+  network: tcp
+  port: '2026'
+  reality-opts:
+    public-key: 1pZz4shnro2xyuXc7MMSFseBbbuy1weo2QLclTDJ8Fo
+    short-id: '!!str db4a993c8bb355ba'
+  server: usa-efddr-343e-3rder-4r-4f4r-2-d2e-5f-tg-4eee.codesystem.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: f8cae104-2eaa-4b16-b258-65be28281b70
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 13'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: yDeMJ5l8Gv81vFdKRzjpwKPnIXDjM2rMyZW1va24sEE
+    short-id: '!!str '
+  server: 193.9.44.224
+  servername: gateway.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1d5a4918-2831-4171-8846-95028303f262
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: android
+  encryption: none
+  name: '[H] 🇺🇸 美国 14'
+  network: ws
+  port: '443'
+  server: x4g-production-135d.up.railway.app
+  servername: x4g-production-135d.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b8a1044-78a9-9461-d0b5-d6ebcd87959c
+  ws-opts:
+    headers:
+      Host: x4g-production-135d.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    path: /ws/7b8a1044-78a9-9461-d0b5-d6ebcd87959c
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 15'
+  network: ws
+  port: '443'
+  server: 69.46.46.55
+  servername: x4g-production-f37e.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a50f494-e264-fcef-406d-52c5eb6dc2df
+  ws-opts:
+    headers:
+      Host: x4g-production-f37e.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /ws/9a50f494-e264-fcef-406d-52c5eb6dc2df
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 16'
+  network: ws
+  port: '2053'
+  server: 172.67.152.85
+  servername: prwgrammer.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: aa0b9ed6-8cc9-40a8-8ec2-28e3a0927145
+  ws-opts:
+    headers:
+      Host: prwgrammer.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.81 Safari/537.36
+    path: /prwgrammer?ed=2560
+  xudp: true
+- name: '[H] 🇺🇸 美国 17'
+  network: ws
+  port: '8880'
+  server: www.visa.com.sg
+  type: vless
+  udp: true
+  uuid: f7ed4770-81f4-47a1-9490-8b8cd684c97e
+  ws-opts:
+    headers:
+      Host: silent-cloud-aa63.324-7d8.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 18'
+  network: ws
+  port: '443'
+  server: vless-ws.yinhanisbest.top
+  servername: vless-ws.yinhanisbest.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: bbb5a551-b1f3-487a-af25-854cc1ed4ed2
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
+        Safari/537.36
+    path: /vless
+  xudp: true
+- name: '[H] 🇺🇸 美国 19'
+  password: ''
+  port: '9002'
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 20'
+  password: ''
+  port: '9002'
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 443
   server: 1.tls.fastly.veraspeed.ir
@@ -97,7 +271,7 @@ proxies:
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 11'
+  name: '[I] 🇺🇸 美国 22'
   network: ws
   port: '18814'
   server: 23.95.78.146
@@ -111,7 +285,7 @@ proxies:
     path: dc0672f1-1a09-42ec-8f46-0a7e68349e79-vm
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 12'
+  name: '[I] 🇺🇸 美国 23'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -123,7 +297,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 13'
+  name: '[I] 🇺🇸 美国 24'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -135,7 +309,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 14'
+  name: '[I] 🇺🇸 美国 25'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -147,7 +321,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 15'
+  name: '[I] 🇺🇸 美国 26'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -159,7 +333,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 16'
+  name: '[I] 🇺🇸 美国 27'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -171,7 +345,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 17'
+  name: '[I] 🇺🇸 美国 28'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -183,7 +357,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 18'
+  name: '[I] 🇺🇸 美国 29'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -195,7 +369,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 19'
+  name: '[I] 🇺🇸 美国 30'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -207,7 +381,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 20'
+  name: '[I] 🇺🇸 美国 31'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -219,7 +393,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 21'
+  name: '[I] 🇺🇸 美国 32'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -231,7 +405,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 22'
+  name: '[I] 🇺🇸 美国 33'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -243,7 +417,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 23'
+  name: '[I] 🇺🇸 美国 34'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -255,7 +429,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 24'
+  name: '[I] 🇺🇸 美国 35'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
