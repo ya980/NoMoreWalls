@@ -24,14 +24,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: united.hysteria.ltd
-  skip-cert-verify: false
-  sni: united.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
   password: a2414b95-6e6f-4c1d-87a9-605e7b72b232
   port: 55000
   server: 156.229.164.1
@@ -39,15 +31,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
-  password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
-  port: 5443
-  server: hyst-1.hysteria.ltd
-  skip-cert-verify: false
-  sni: hyst-1.hysteria.ltd
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 05'
   password: 35a14133-45f6-40bc-a9cd-918fd0ecb345
   port: 5443
   server: vkmks.hysteria.ltd
@@ -55,7 +39,7 @@ proxies:
   sni: vkmks.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 17005
@@ -63,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 49277
@@ -71,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 10'
+- name: '[F] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 11353
@@ -79,7 +63,42 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[I] 🇺🇸 美国 11'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 09'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 141.193.213.21
+  skip-cert-verify: true
+  sni: fffffl-lls.MaQror.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=fl
+- name: '[H] 🇺🇸 美国 10'
+  password: XG59623478
+  port: 443
+  server: adjusted-orca.rooster465.autos
+  skip-cert-verify: true
+  tls: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 11'
+  network: tcp
+  password: BxceQaOe
+  port: '11353'
+  server: 16.162.220.240
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: '[I] 🇺🇸 美国 12'
   network: ws
   port: 443
   server: 1.tls.fastly.veraspeed.ir
@@ -94,7 +113,7 @@ proxies:
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 12'
+  name: '[I] 🇺🇸 美国 13'
   network: ws
   port: '18814'
   server: 23.95.78.146
@@ -108,7 +127,7 @@ proxies:
     path: dc0672f1-1a09-42ec-8f46-0a7e68349e79-vm
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 13'
+  name: '[I] 🇺🇸 美国 14'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -120,7 +139,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 14'
+  name: '[I] 🇺🇸 美国 15'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -132,7 +151,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 15'
+  name: '[I] 🇺🇸 美国 16'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -144,7 +163,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 16'
+  name: '[I] 🇺🇸 美国 17'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -156,7 +175,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 17'
+  name: '[I] 🇺🇸 美国 18'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -168,7 +187,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 18'
+  name: '[I] 🇺🇸 美国 19'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -180,7 +199,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 19'
+  name: '[I] 🇺🇸 美国 20'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -192,7 +211,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 20'
+  name: '[I] 🇺🇸 美国 21'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -204,7 +223,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 21'
+  name: '[I] 🇺🇸 美国 22'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -216,7 +235,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 22'
+  name: '[I] 🇺🇸 美国 23'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -228,7 +247,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 23'
+  name: '[I] 🇺🇸 美国 24'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -240,7 +259,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 24'
+  name: '[I] 🇺🇸 美国 25'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
@@ -252,7 +271,7 @@ proxies:
   uuid: 701ea834-7c31-4544-95d6-f0a4dfe40b36
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 25'
+  name: '[I] 🇺🇸 美国 26'
   port: 443
   reality-opts:
     public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg
