@@ -12,7 +12,7 @@ proxies:
 - name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: TWlkdqFSQH
+  password: TGzLlWQaFb
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -20,6 +20,26 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 03'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: TWlkdqFSQH
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 04'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: t-me-V2RayyNGvpn
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 05'
   password: zhangyang
   port: 6443
   server: 130.61.50.75
@@ -27,29 +47,3 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇩🇪 德国 04'
-  password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
-  port: 443
-  server: 31.77.144.133
-  sni: argg9.auragg.org
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[H] 🇩🇪 德国 05'
-  network: grpc
-  port: '2096'
-  reality-opts:
-    public-key: HdIk7jX58DtK-PGVKoU587O4w1KrDiej1qz8J2SmRA8
-    short-id: '!!str a7bf40db1b0e566a'
-  server: 144.31.87.16
-  servername: www.avito.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c40f773e-3b96-417e-b22c-e48cb63ca7d9
-  xudp: true
