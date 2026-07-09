@@ -26,24 +26,28 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 04'
-  network: tcp
-  port: '2026'
-  reality-opts:
-    public-key: 1pZz4shnro2xyuXc7MMSFseBbbuy1weo2QLclTDJ8Fo
-    short-id: '!!str db4a993c8bb355ba'
-  server: pl1.appcodes.ir
-  servername: yahoo.com
-  tls: true
-  type: vless
+- alpn:
+  - h3
+  name: '[E] 🇫🇷 法国 04'
+  password: 57c77d07-bec3-4bf7-9b72-70ece40450f6
+  port: 5443
+  server: unic.hysteria.ltd
+  sni: unic.hysteria.ltd
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇫🇷 法国 05'
+  network: ws
+  port: 16645
+  server: 103.181.165.120
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-  uuid: f8cae104-2eaa-4b16-b258-65be28281b70
+  uuid: 2dd31bd9-e22c-471a-a9cc-9128fc768326
+  ws-opts:
+    headers:
+      Host: 4921b448814c533740d0eb52bb6b64b2.mobgslb.tbcache.com
+    path: /
   xudp: true
-- name: '[H] 🇫🇷 法国 05'
-  password: ''
-  port: '1080'
-  server: 51.83.101.177
-  skip-cert-verify: true
-  type: socks5
-  username: ''
