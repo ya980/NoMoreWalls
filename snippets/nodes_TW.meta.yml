@@ -7,3 +7,24 @@ proxies:
   sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
+- alpn:
+  - http/1.1
+  - ''
+  client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇨🇳 台湾 02'
+  network: ws
+  port: '2087'
+  server: 220.135.92.105
+  servername: wgl.cdn-c.gfw.qzz.io
+  tls: true
+  type: vless
+  udp: true
+  uuid: 26524cce-d514-4014-a426-365fb266a14d
+  ws-opts:
+    headers:
+      Host: wgl.cdn-c.gfw.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
+    path: /danfeng-jh5qzt-fk3fns-mqcd-34e34dzl?ed=2560
+  xudp: true
