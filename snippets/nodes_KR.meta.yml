@@ -1,14 +1,37 @@
 proxies:
-- name: '[H] 🇰🇷 韩国 01'
-  password: test.+
-  port: 30446
-  server: testkr3.ssv.vc
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇰🇷 韩国 01'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: aVGSSemhxqqDg75lUDBxCNZZXfuBb4QrU8yZYnJD6nk
+    short-id: '!!str f554f56d31'
+  server: kr1.miyazono-kaori.com
+  servername: www.coway.com
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: test
-- name: '[I] 🇰🇷 韩国 02'
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇰🇷 韩国 02'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: '!!str c8af1462debbc1'
+  server: kr2.miyazono-kaori.com
+  servername: www.coway.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  xudp: true
+- name: '[I] 🇰🇷 韩国 03'
   network: ws
   password: '!!str 521314'
   port: 2096

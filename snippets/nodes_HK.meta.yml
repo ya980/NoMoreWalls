@@ -1,14 +1,21 @@
 proxies:
+- name: '[E] 🇭🇰 香港 01'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  sni: hkt.ccwink.cc
+  tls: false
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 01'
+  name: '[F] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 02'
+- name: '[F] 🇭🇰 香港 03'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 20083
@@ -16,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 03'
+- name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -24,7 +31,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -34,7 +41,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 05'
+  name: '[G] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -42,30 +49,71 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[H] 🇭🇰 香港 06'
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: www.yrtok.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 07'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: zV4Sja0iajpdzkR1iBMbI7RRWL2nlpgwGOtirQSG-zc
+    short-id: '!!str b81edf7fdee4'
+  server: hk3.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
   tls: true
-  type: trojan
+  type: vless
   udp: true
-- name: '[H] 🇭🇰 香港 07'
-  password: '!!str 2222'
-  port: '2222'
-  server: 43.100.106.220
-  skip-cert-verify: true
-  type: socks5
-  username: '2222'
-- cipher: aes-256-gcm
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇭🇰 香港 08'
-  password: f2ee3f33-8678-3d61-83e6-a80ad1e9bfcf
-  port: '1812'
-  server: 6.3.u.w.b.s.8.3.b.hk05-ae5.entry.v51124-1.qpon
-  type: ss
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2kl8isq7ajNv3BR6Z1EPag_LqJHmsfo2pn0dA7yetko
+    short-id: '!!str a2d13d677624197e'
+  server: hk6.miyazono-kaori.com
+  servername: www.hsbc.com.hk
+  tls: true
+  type: vless
   udp: true
-- name: '[I] 🇭🇰 香港 09'
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 09'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: HbjpGbCmp7lBysnS-twEYgGoriXACHZQObIpU9zJWVc
+    short-id: '!!str a273e9ee6ac0a466'
+  server: hk5.miyazono-kaori.com
+  servername: www.hsbc.com.hk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇭🇰 香港 10'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: KhRbgahSFqlPKB6QNp9QYb4oXMy2SIgi440tm6iFZHA
+    short-id: '!!str ea6b43'
+  server: hk4.miyazono-kaori.com
+  servername: hk4e-launcher-static.hoyoverse.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
+  xudp: true
+- name: '[I] 🇭🇰 香港 11'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
