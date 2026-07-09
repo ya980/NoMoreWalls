@@ -7,14 +7,14 @@ proxies:
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 02'
+  name: '[F] 🇭🇰 香港 03'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 03'
+- name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 20083
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 04'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 05'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -112,7 +112,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 06'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -120,44 +120,63 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[H] 🇭🇰 香港 07'
-  password: 1df3ece1218bedba28c6c6ac726a07bb
-  port: 39001
-  server: 114.80.8.128
-  skip-cert-verify: true
-  sni: www.yrtok.com
-  tls: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 01'
+  password: UZQY9hNjVNWwamajrXAf1vt8u63nj0fF
+  port: '8388'
+  server: 31.76.80.205
+  type: ss
+  udp: true
+- name: '[H] 🇸🇬 新加坡 04'
+  network: ws
+  password: '666'
+  port: '443'
+  server: 104.18.33.209
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 07'
+  password: amazonskr05
+  port: '443'
+  server: 3.142.134.224
+  type: ss
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇯🇵 日本 05'
+  name: '[I] 🇯🇵 日本 04'
   password: gelwvU9mUR0orEFS5D6u7A
   port: 1080
   server: 146.70.53.62
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 60'
+  name: '[I] 🌍 其它地区 108'
   password: gelwvU9mUR0orEFS5D6u7A
   port: 1080
   server: 194.54.80.37
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 61'
+  name: '[I] 🌍 其它地区 109'
   password: gelwvU9mUR0orEFS5D6u7A
   port: 1080
   server: 135.136.33.134
   type: ss
-- name: '[I] 🇺🇸 美国 10'
+- name: '[I] 🇺🇸 美国 08'
   password: XG59623478
   port: 443
   server: frank-piranha.rooster465.autos
   type: trojan
-- name: '[I] 🌍 其它地区 62'
+- name: '[I] 🌍 其它地区 110'
   password: XG59623478
   port: 443
   server: classic-duckling.rooster465.autos
   type: trojan
-- name: '[I] 🇭🇰 香港 08'
+- name: '[I] 🇭🇰 香港 09'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
@@ -185,7 +204,7 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: '%2F'
-- name: '[I] 🇰🇷 韩国 01'
+- name: '[I] 🇰🇷 韩国 02'
   network: ws
   password: '521314'
   port: 2096
@@ -196,7 +215,7 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: '%2F'
-- name: '[I] 🇬🇧 英国 02'
+- name: '[I] 🇬🇧 英国 03'
   network: ws
   password: '521314'
   port: 443
@@ -207,7 +226,7 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: '%2F'
-- name: '[I] 🇬🇧 英国 03'
+- name: '[I] 🇬🇧 英国 04'
   network: ws
   password: '521314'
   port: 443
@@ -218,7 +237,7 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: '%2F'
-- name: '[I] 🌍 其它地区 63'
+- name: '[I] 🌍 其它地区 111'
   network: ws
   password: '521314'
   port: 443
@@ -237,7 +256,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 12'
+  name: '[I] 🇺🇸 美国 10'
   network: ws
   port: '443'
   server: 154.64.237.173
@@ -251,7 +270,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 09'
+  name: '[I] 🇩🇪 德国 13'
   network: ws
   port: 8880
   server: 178.104.66.83
