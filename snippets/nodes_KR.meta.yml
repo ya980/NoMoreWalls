@@ -1,17 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇰🇷 韩国 01'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
-    short-id: '!!str c8af1462debbc1'
-  server: kr2.miyazono-kaori.com
-  servername: www.coway.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4442c33c-9889-4e0f-bff7-14f1f626dd6c
-  xudp: true
+- name: '[E] 🇰🇷 韩国 01'
+  password: d5m-5bGOsVbFgRlxsEyO3pCF
+  port: 55020
+  server: 8.148.4.25
+  skip-cert-verify: true
+  sni: 8.148.4.25
+  tls: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: '[H] 🇰🇷 韩国 02'
+  password: qwerREWQ@@
+  port: 2078
+  server: 27.255.82.134
+  skip-cert-verify: false
+  type: ss
+  udp: false
