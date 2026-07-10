@@ -1,10 +1,10 @@
 proxies:
 - name: '[E] 🇭🇰 香港 01'
-  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-  port: 56309
-  server: hkt.ccwink.cc
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
   skip-cert-verify: true
-  sni: hkt.ccwink.cc
+  sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
 - name: '[E] 🇭🇰 香港 02'
@@ -26,25 +26,25 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[F] 🇭🇰 香港 04'
   network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 20083
-  server: 18.162.245.147
+  password: bb839d14960b7a4fb1e95a3aef990528
+  port: 13118
+  server: 95.40.99.31
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 95.40.61.98
+  port: 29443
+  server: 18.163.62.241
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
-  port: 29443
-  server: 16.163.129.5
+  port: 7674
+  server: 43.199.202.97
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -58,23 +58,18 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  name: '[H] 🇭🇰 香港 08'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: EyizAEdItn0J0TDYHu7IyeiPY4rOPxG16W7MLUE8UCQ
-    short-id: '!!str 48'
-  server: 43.161.220.242
-  servername: www.nvidia.com
+- name: '[H] 🇭🇰 香港 08'
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: 39001
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: www.yrtok.com
   tls: true
-  type: vless
-  udp: true
-  uuid: ab73218d-9f81-47f7-a3cc-a56b8a1acadf
-  xudp: true
-- name: '[I] 🇭🇰 香港 09'
-  password: OccIqeORGQwiNkwS
-  port: 19128
-  server: jpbgp.netvigor.cc
-  sni: yazhou10.dynu.net
   type: trojan
+  udp: true
+- cipher: aes-256-gcm
+  name: '[I] 🇭🇰 香港 09'
+  password: 7e1dd4c55bf85da5
+  port: 20123
+  server: 212.192.15.108
+  type: ss

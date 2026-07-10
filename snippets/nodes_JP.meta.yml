@@ -2,30 +2,28 @@ proxies:
 - name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 6769
-  server: 13.158.76.164
+  port: 54411
+  server: 18.183.199.219
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 02'
   network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
-  port: 3743
-  server: 18.162.148.64
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇯🇵 日本 03'
-  network: tcp
-  password: d6788cf74e6844c45538204efd24b00f
+  password: bb839d14960b7a4fb1e95a3aef990528
   port: 24370
-  server: 18.162.148.64
+  server: 95.40.99.31
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇯🇵 日本 04'
-  password: gelwvU9mUR0orEFS5D6u7A
-  port: 1080
-  server: 146.70.53.62
-  type: ss
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 03'
+  port: 443
+  reality-opts:
+    public-key: B3MWDjEWGQsObyH-9npa_PlkaoQDBqzwlwURFK1zlE8
+    short-id: '!!str 3e0527d94cc8d1'
+  server: 148.253.211.10
+  servername: vk.me
+  tls: false
+  type: vless
+  uuid: 60576147-90e7-4afc-9cf9-c7361a8c7fd8

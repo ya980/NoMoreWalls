@@ -1,7 +1,13 @@
 proxies:
-- cipher: aes-128-gcm
-  name: '[I] 🇨🇳 中国 01'
-  password: JVrsLLN1tkN8oXZO
-  port: 13223
-  server: chengbai02.ascwt179.com
-  type: ss
+- name: '[I] 🇨🇳 中国 01'
+  network: ws
+  port: 443
+  server: 120.55.183.176
+  servername: support.zoom.us.yxls.eu.cc
+  tls: true
+  type: vless
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+  ws-opts:
+    headers:
+      Host: support.zoom.us.yxls.eu.cc
+    path: '%2Fsg-melbi'
