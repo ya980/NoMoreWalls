@@ -1,5 +1,15 @@
 proxies:
-- name: '[F] 🇸🇬 新加坡 01'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 01'
+  network: tcp
+  port: '56688'
+  server: 101.32.241.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c6bf87d-dbc0-4ab6-d774-ded20e5ed1c4
+- name: '[F] 🇸🇬 新加坡 02'
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 6357
@@ -7,7 +17,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 02'
+- name: '[F] 🇸🇬 新加坡 03'
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 6357
@@ -15,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 03'
+- name: '[F] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 51396
@@ -23,3 +33,49 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 05'
+  network: ws
+  password: '!!str 666'
+  port: '443'
+  server: 104.18.33.209
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 07'
+  password: BxceQaOe
+  port: '51396'
+  server: 43.199.202.97
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 08'
+  password: bb839d14960b7a4fb1e95a3aef990528
+  port: '6357'
+  server: 95.40.50.224
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 12'
+  network: ws
+  password: '!!str 666'
+  port: '443'
+  server: yx.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/

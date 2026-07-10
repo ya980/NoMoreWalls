@@ -1,5 +1,15 @@
 proxies:
-- name: '[F] 🇸🇬 新加坡 01'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇸🇬 新加坡 01'
+  network: tcp
+  port: '56688'
+  server: 101.32.241.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c6bf87d-dbc0-4ab6-d774-ded20e5ed1c4
+- name: '[F] 🇸🇬 新加坡 02'
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 6357
@@ -7,7 +17,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 02'
+- name: '[F] 🇸🇬 新加坡 03'
   network: tcp
   password: bb839d14960b7a4fb1e95a3aef990528
   port: 6357
@@ -15,7 +25,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 03'
+- name: '[F] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 51396
@@ -24,11 +34,33 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[H] 🇸🇬 新加坡 04'
+  name: '[H] 🇸🇬 新加坡 05'
   network: ws
+  password: '!!str 666'
   port: '443'
-  server: 162.159.10.87
+  server: 104.18.33.209
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.99 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- client-fingerprint: chrome
+  ech-opts:
+    _dns: https://dns.alidns.com/dns-query
+    enable: true
+    query-server-name: cloudflare-ech.com
+  encryption: none
+  name: '[H] 🇸🇬 新加坡 06'
+  network: ws
+  packet-encoding: xudp
+  port: 443
+  server: 172.64.42.44
   servername: t1s1.rittbo.kdns.fr
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
@@ -36,7 +68,77 @@ proxies:
   ws-opts:
     headers:
       Host: t1s1.rittbo.kdns.fr
+    path: /
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 07'
+  password: BxceQaOe
+  port: '51396'
+  server: 43.199.202.97
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 08'
+  password: bb839d14960b7a4fb1e95a3aef990528
+  port: '6357'
+  server: 95.40.50.224
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 09'
+  network: ws
+  port: '8880'
+  server: 162.159.48.193
+  type: vless
+  udp: true
+  uuid: 8995976a-1c81-4b44-a414-d3bc71058a21
+  ws-opts:
+    headers:
+      Host: muddy-queen-cdda.181-cf9.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /fp=chrome
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
   xudp: true
+- name: '[H] 🇸🇬 新加坡 10'
+  network: ws
+  port: '8880'
+  server: 162.159.48.193
+  type: vless
+  udp: true
+  uuid: ba746959-18e7-471c-b00f-fa5cdd930abf
+  ws-opts:
+    headers:
+      Host: crimson-bread-c38e.295.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+  xudp: true
+- name: '[H] 🇸🇬 新加坡 11'
+  network: ws
+  port: '8880'
+  server: codecanyon.net
+  type: vless
+  udp: true
+  uuid: 1cae67cd-9f09-4c59-94e6-998ed0346c44
+  ws-opts:
+    headers:
+      Host: lingering-lab-91a6.54-8c3.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.139 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 12'
+  network: ws
+  password: '!!str 666'
+  port: '443'
+  server: yx.cloudflare.182682.xyz
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
