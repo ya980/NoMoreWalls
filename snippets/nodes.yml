@@ -112,6 +112,33 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[H] 🇭🇰 香港 08'
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: '39001'
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: 114.80.8.128
+  type: trojan
+  udp: true
+- name: '[H] 🇭🇰 香港 09'
+  network: tcp
+  password: 1df3ece1218bedba28c6c6ac726a07bb
+  port: '39001'
+  server: 114.80.8.128
+  skip-cert-verify: true
+  sni: www.yrtok.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: '[H] 🇺🇸 美国 04'
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[H] 🇸🇬 新加坡 04'
   network: ws
   password: '666'
@@ -141,12 +168,24 @@ proxies:
         (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 04'
+  name: '[H] 🇫🇷 法国 08'
   password: amazonskr05
   port: '443'
-  server: 3.16.130.237
+  server: 51.44.170.232
   type: ss
   udp: true
+- name: '[H] 🇸🇬 新加坡 06'
+  network: ws
+  password: '666'
+  port: 443
+  server: 104.18.33.209
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+    path: /glasspanel/guest000_0_5de14443985f/
 - name: '[H] 🇸🇬 新加坡 07'
   network: ws
   password: '666'
@@ -158,8 +197,8 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
 - name: '[H] 🇸🇬 新加坡 08'
   network: ws
@@ -173,7 +212,7 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
 - name: '[H] 🇯🇵 日本 03'
   network: ws
@@ -186,18 +225,9 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
-- name: '[H] 🇺🇸 美国 05'
-  network: tcp
-  password: BxceQaOe
-  port: '34638'
-  server: 18.162.154.153
-  skip-cert-verify: true
-  sni: t.me/ripaojiedian
-  type: trojan
-  udp: true
 - name: '[H] 🇯🇵 日本 04'
   password: HW85960347
   port: '443'
@@ -205,22 +235,36 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 05'
-  password: PI36027154
-  port: '443'
-  server: ethical-raccoon.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 06'
+- name: '[H] 🇫🇷 法国 09'
   network: tcp
-  password: PI36027154
+  password: XG59623478
   port: '443'
-  server: ethical-raccoon.rooster465.autos
+  server: intense-basilisk.rooster465.autos
   skip-cert-verify: false
-  sni: ethical-raccoon.rooster465.autos
+  sni: intense-basilisk.rooster465.autos
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 07'
+  password: amazonskr05
+  port: '443'
+  server: 54.238.164.53
+  type: ss
+  udp: true
+- name: '[H] 🇸🇬 新加坡 09'
+  network: ws
+  password: '666'
+  port: '443'
+  server: 104.18.46.170
+  skip-cert-verify: false
+  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
 - cipher: aes-256-cfb
   name: '[H] 🇯🇵 日本 08'
   password: amazonskr05
@@ -242,20 +286,6 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
-- name: '[H] 🇸🇬 新加坡 12'
-  network: ws
-  password: '666'
-  port: '443'
-  server: 104.18.46.170
-  skip-cert-verify: false
-  sni: gdurt.ia6o.2s1.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
 - name: '[I] 🇨🇦 加拿大 01'
   network: ws
   password: humanity
@@ -267,7 +297,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 25'
+- name: '[I] 🌍 其它地区 26'
   network: tcp
   password: 0ds_NIm933rf_Nxio294_nbZi3
   port: 449
@@ -279,7 +309,7 @@ proxies:
     headers:
       Host: v2rayNplus--v2rayNplus--v2rayNplus
 - cipher: aes-256-gcm
-  name: '[I] 🇭🇰 香港 08'
+  name: '[I] 🇭🇰 香港 10'
   password: 7e1dd4c55bf85da5
   port: 20123
   server: 212.192.15.108

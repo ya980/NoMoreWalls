@@ -2,7 +2,7 @@ proxies:
 - name: '[D] 🇩🇪 德国 01'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: QjdEEystFJ
+  password: MjLSEZj2IW
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -12,7 +12,7 @@ proxies:
 - name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: TGzLlWQaFb
+  password: QjdEEystFJ
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -22,7 +22,7 @@ proxies:
 - name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: y4nJ8poIsh
+  password: TGzLlWQaFb
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -30,6 +30,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 04'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: y4nJ8poIsh
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 05'
   password: zhangyang
   port: 6443
   server: 130.61.50.75
@@ -37,7 +47,36 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- name: '[I] 🇩🇪 德国 05'
+- name: '[H] 🇩🇪 德国 06'
+  network: ws
+  port: '8880'
+  server: 104.27.82.154
+  type: vless
+  udp: true
+  uuid: 0ed342c3-eb45-4d63-83a1-697252636ca9
+  ws-opts:
+    headers:
+      Host: yellow-hall-d482.260-d22.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 07'
+  network: tcp
+  port: '50443'
+  reality-opts:
+    public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
+    short-id: '!!str '
+  server: 45.155.71.170
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
+  xudp: true
+- name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 80
   server: 146.75.119.82

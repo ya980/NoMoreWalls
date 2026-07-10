@@ -27,8 +27,8 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
 - client-fingerprint: chrome
   name: '[H] 🇯🇵 日本 04'
@@ -38,30 +38,12 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 05'
-  password: PI36027154
-  port: '443'
-  server: ethical-raccoon.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 06'
-  network: tcp
-  password: PI36027154
-  port: '443'
-  server: ethical-raccoon.rooster465.autos
-  skip-cert-verify: false
-  sni: ethical-raccoon.rooster465.autos
-  type: trojan
-  udp: true
 - alpn:
   - h3
   - h2
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇯🇵 日本 07'
+  name: '[H] 🇯🇵 日本 05'
   network: xhttp
   port: '443'
   reality-opts:
@@ -78,6 +60,27 @@ proxies:
     mode: auto
     path: /a7f3k9d2
   xudp: true
+- name: '[H] 🇯🇵 日本 06'
+  network: ws
+  port: '8880'
+  server: download.yunzhongzhuan.com
+  type: vless
+  udp: true
+  uuid: e9d9f06f-d5dd-460a-998f-52efc4732636
+  ws-opts:
+    headers:
+      Host: bitter-meadow-1d60.313-0f9.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 07'
+  password: amazonskr05
+  port: '443'
+  server: 54.238.164.53
+  type: ss
+  udp: true
 - cipher: aes-256-cfb
   name: '[H] 🇯🇵 日本 08'
   password: amazonskr05
