@@ -1,148 +1,282 @@
 proxies:
-- name: '[F] 🇺🇸 美国 01'
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 01'
+  password: 0e3ec08f-840e-46f8-b11e-3a5decbb97b6
+  port: 5443
+  server: united.hysteria.ltd
+  sni: united.hysteria.ltd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 02'
+  password: 0e3ec08f-840e-46f8-b11e-3a5decbb97b6
+  port: 5443
+  server: hyst-1.hysteria.ltd
+  sni: hyst-1.hysteria.ltd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇺🇸 美国 03'
+  password: 0e3ec08f-840e-46f8-b11e-3a5decbb97b6
+  port: 5443
+  server: vkmks.hysteria.ltd
+  sni: vkmks.hysteria.ltd
+  tls: false
+  type: hysteria2
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
-  password: bb839d14960b7a4fb1e95a3aef990528
+  password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
-  server: 95.40.99.31
+  server: 18.163.105.231
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 02'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
-  password: bb839d14960b7a4fb1e95a3aef990528
+  password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
-  server: 43.199.215.77
-  skip-cert-verify: true
+  server: 18.166.63.229
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 03'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
-  port: 34638
-  server: 18.162.154.153
+  port: 44265
+  server: 18.163.115.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 04'
-  password: amazonskr05
-  port: 443
-  server: 13.58.60.229
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 05'
-  network: ws
-  port: '443'
-  server: x4g-production-439a.up.railway.app
-  servername: x4g-production-439a.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c90e1c0-bbec-27c9-d368-6e053d541e9d
-  ws-opts:
-    headers:
-      Host: x4g-production-439a.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.181 Safari/537.36
-    path: /ws/8c90e1c0-bbec-27c9-d368-6e053d541e9d
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 06'
-  network: ws
-  port: '443'
-  server: x4g-production-439a.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8c90e1c0-bbec-27c9-d368-6e053d541e9d
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /ws/8c90e1c0-bbec-27c9-d368-6e053d541e9d
-  xudp: true
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.At2jbnJuJG3K6LecNH78rQf4fBPR5iHbtD7dTWS5axY
+  flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 07'
-  password: amazonskr05
+  network: xhttp
   port: '443'
-  server: 3.14.255.108
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 08'
-  password: amazonskr05
-  port: '443'
-  server: 18.191.132.3
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: '[H] 🇺🇸 美国 09'
-  network: ws
-  port: '443'
-  server: x4g-production-6f32.up.railway.app
-  servername: x4g-production-6f32.up.railway.app
+  reality-opts:
+    public-key: EL3QUDoISPGWsTMd3uuqUXMpq1qshiyD2lk-LdScR0g
+    short-id: '!!str 541f'
+  server: 184.174.97.211
+  servername: android.clients.google.com
   tls: true
   type: vless
   udp: true
-  uuid: 2e256a1f-4b58-8b5c-9e3e-79553fbb8efc
+  uuid: f09d18a9-d778-4e00-a49a-c0063d1c1b11
+  xhttp-opts:
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 08'
+  network: ws
+  port: '443'
+  server: 3x-ui-upgrade-production-1a93.up.railway.app
+  servername: 3x-ui-upgrade-production-1a93.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31ed3f3f-0a85-4ece-9c64-c673ae878adc
   ws-opts:
     headers:
-      Host: x4g-production-6f32.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/46.0.2490.71 Safari/537.36
-    path: /ws/2e256a1f-4b58-8b5c-9e3e-79553fbb8efc
+      Host: 3x-ui-upgrade-production-1a93.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 09'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: Od_l3To6OKuXy19tY0Feep0qNZfWcDL8kW3dRQHW2AQ
+    short-id: '!!str 99'
+  server: us2.fast-cone.com
+  servername: us2.fast-cone.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c99fdb9a-0cec-497d-9d29-d45ed770807b
   xudp: true
 - alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
+  - ''
+  alterId: '0'
+  cipher: auto
   name: '[H] 🇺🇸 美国 10'
   network: ws
+  port: '30080'
+  server: 143.198.235.98
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d76c0edb-8097-4371-8d97-722723756012
+  ws-opts:
+    headers: {}
+    path: /vm
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 11'
+  password: amazonskr05
   port: '443'
-  server: pnl2626.dpdns.org
-  servername: pnl2626.dpdns.org
+  server: 18.189.145.175
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 12'
+  password: amazonskr05
+  port: '443'
+  server: 18.119.164.101
+  type: ss
+  udp: true
+- name: '[I] 🇺🇸 美国 13'
+  network: ws
+  port: 443
+  server: cfd4.466688.xyz
+  servername: edge-e47d0df3.pages.dev
   tls: true
   type: vless
-  udp: true
-  uuid: 5335784a-332d-aec1-fa56-2929f50fe23c
+  uuid: 7ebbd929-720a-4782-8c6d-4d77a0a75ee4
   ws-opts:
     headers:
-      Host: pnl2626.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /ws/5335784a-332d-aec1-fa56-2929f50fe23c
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 11'
-  network: tcp
-  port: '40443'
-  reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-    short-id: '!!str '
-  server: 69.48.229.50
-  servername: deepl.com
+      Host: edge-e47d0df3.pages.dev
+    path: /?ed=2048@https://t.me/QiangLieTuiJianfp=chromefp=chrome
+- name: '[I] 🇺🇸 美国 14'
+  network: ws
+  port: 80
+  server: 199.232.132.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
+- name: '[I] 🇺🇸 美国 15'
+  network: ws
+  port: 80
+  server: 199.232.180.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
+- name: '[I] 🇺🇸 美国 16'
+  network: ws
+  port: 80
+  server: 199.232.184.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
+- name: '[I] 🇺🇸 美国 17'
+  network: ws
+  port: 80
+  server: 199.232.97.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
+- name: '[I] 🇺🇸 美国 18'
+  network: ws
+  port: 443
+  server: cfd2.466688.xyz
+  servername: edge-e47d0df3.pages.dev
   tls: true
   type: vless
-  udp: true
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-  xudp: true
-- name: '[H] 🇺🇸 美国 12'
-  password: ''
-  port: '9002'
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+  uuid: 7ebbd929-720a-4782-8c6d-4d77a0a75ee4
+  ws-opts:
+    headers:
+      Host: edge-e47d0df3.pages.dev
+    path: /?ed=2048@https://t.me/QiangLieTuiJianfp=chromefp=chrome
+- name: '[I] 🇺🇸 美国 19'
+  network: ws
+  port: 80
+  server: 199.232.31.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
+- name: '[I] 🇺🇸 美国 20'
+  network: ws
+  port: 80
+  server: 199.232.92.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
+- name: '[I] 🇺🇸 美国 21'
+  network: ws
+  password: humanity
+  port: 443
+  server: 199.181.197.143
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
+- name: '[I] 🇺🇸 美国 22'
+  network: ws
+  port: 8880
+  server: 155.46.167.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime50.workers.dev
+    path: '%2F'
+- name: '[I] 🇺🇸 美国 23'
+  network: ws
+  port: 8880
+  server: 192.0.54.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime35.workers.dev
+    path: '%2F'
+- name: '[I] 🇺🇸 美国 24'
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: '%2F'
+- name: '[I] 🇺🇸 美国 25'
+  network: ws
+  port: 80
+  server: 141.193.27.4
+  tls: false
+  type: vless
+  uuid: e403856e-4e50-49e6-9edc-d9536a803a6a
+  ws-opts:
+    headers:
+      Host: proud-cloud-5c50.113-8dc.workers.dev
+    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'

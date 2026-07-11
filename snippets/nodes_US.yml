@@ -1,46 +1,67 @@
 proxies:
-- name: '[F] 🇺🇸 美国 01'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
-  password: bb839d14960b7a4fb1e95a3aef990528
+  password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
-  server: 95.40.99.31
+  server: 18.163.105.231
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 02'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
-  password: bb839d14960b7a4fb1e95a3aef990528
+  password: b1a42ca60884057bf527d8d38b618cfb
   port: 17005
-  server: 43.199.215.77
-  skip-cert-verify: true
+  server: 18.166.63.229
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 03'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
-  port: 34638
-  server: 18.162.154.153
+  port: 44265
+  server: 18.163.115.109
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[H] 🇺🇸 美国 10'
+  network: ws
+  port: '30080'
+  server: 143.198.235.98
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d76c0edb-8097-4371-8d97-722723756012
+  ws-opts:
+    headers: {}
+    path: /vm
+  xudp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 04'
+  name: '[H] 🇺🇸 美国 11'
   password: amazonskr05
+  port: '443'
+  server: 18.189.145.175
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 12'
+  password: amazonskr05
+  port: '443'
+  server: 18.119.164.101
+  type: ss
+  udp: true
+- name: '[I] 🇺🇸 美国 21'
+  network: ws
+  password: humanity
   port: 443
-  server: 13.58.60.229
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 07'
-  password: amazonskr05
-  port: '443'
-  server: 3.14.255.108
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 08'
-  password: amazonskr05
-  port: '443'
-  server: 18.191.132.3
-  type: ss
-  udp: true
+  server: 199.181.197.143
+  sni: www.calmloud.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: '%2Fassignment'
