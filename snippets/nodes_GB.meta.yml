@@ -25,10 +25,32 @@ proxies:
   name: '[H] 🇬🇧 英国 02'
   network: grpc
   port: '443'
-  server: upgg2ge.auragg.org
-  servername: upgg2ge.auragg.org
+  server: servge0.auragg.org
+  servername: servge0.auragg.org
   tls: true
   type: vless
   udp: true
-  uuid: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
+  uuid: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   xudp: true
+- name: '[I] 🇬🇧 英国 03'
+  network: ws
+  port: 80
+  server: 199.232.224.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
+- name: '[I] 🇬🇧 英国 04'
+  network: ws
+  port: 80
+  server: 199.232.56.11
+  tls: false
+  type: vless
+  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
+  ws-opts:
+    headers:
+      Host: Fastapi.Org
+    path: /
