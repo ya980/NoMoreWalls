@@ -1,38 +1,5 @@
 proxies:
-- name: '[B] 🇫🇷 法国 01'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- name: '[B] 🇫🇷 法国 02'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[B] 🇫🇷 法国 03'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
-- name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 01'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -42,30 +9,47 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
+- name: '[E] 🇫🇷 法国 02'
   password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   port: 443
   server: argg2.auragg.org
   sni: argg2.auragg.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 06'
+- name: '[E] 🇫🇷 法国 03'
   password: 98dab41c-f18a-406b-8de2-3cc8bb797d5d
   port: 443
   server: a7x-01.ge.auragg.org
   sni: a7x-01.ge.auragg.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 07'
+- name: '[E] 🇫🇷 法国 04'
   password: 1e06c388-d31c-420e-916a-94a990648e34
   port: 5443
   server: unic.hysteria.ltd
   sni: unic.hysteria.ltd
   tls: false
   type: hysteria2
+- encryption: none
+  name: '[H] 🇫🇷 法国 05'
+  network: tcp
+  port: '22223'
+  server: 51.44.137.10
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- name: '[H] 🇫🇷 法国 06'
+  network: tcp
+  port: '22223'
+  server: 13.38.212.228
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇫🇷 法国 08'
+  name: '[I] 🇫🇷 法国 07'
   port: 50443
   reality-opts:
     public-key: hp9ht_jsxocTnQEbChb1G3JoDF50x-xDT8UYr66D1TQ
