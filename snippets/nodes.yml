@@ -1,20 +1,20 @@
 proxies:
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 16'
+  name: '[F] 🌍 其它地区 19'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 04'
+  name: '[F] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 05'
+- name: '[F] 🇭🇰 香港 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 32583
@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 06'
+- name: '[F] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 39411
@@ -30,7 +30,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 07'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -86,7 +86,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 01'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -94,7 +94,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 02'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -102,7 +102,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -112,7 +112,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 08'
+  name: '[G] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -120,69 +120,7 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 10'
-  password: rihjnjl3qsfr7u15
-  plugin: obfs
-  plugin-opts:
-    host: ''
-    mode: http
-  port: '8080'
-  server: 45.39.33.174
-  type: ss
-  udp: true
-- name: '[H] 🇸🇬 新加坡 09'
-  network: tcp
-  password: BxceQaOe
-  port: '45744'
-  server: 16.162.191.181
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- name: '[H] 🇺🇸 美国 11'
-  network: ws
-  password: '666'
-  port: '443'
-  server: 149.248.7.25
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.102 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: '[H] 🇺🇸 美国 12'
-  network: ws
-  password: '666'
-  port: '443'
-  server: 207.246.97.245
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: '[H] 🇺🇸 美国 13'
-  network: ws
-  password: '666'
-  port: '443'
-  server: 149.28.89.69
-  skip-cert-verify: false
-  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- name: '[H] 🇯🇵 日本 09'
+- name: '[H] 🇯🇵 日本 05'
   network: ws
   password: '666'
   port: '443'
@@ -196,13 +134,125 @@ proxies:
       User-Agent: Mozilla/5.0 (Linux; Android 5.1; A37f Build/LMY47V) AppleWebKit/537.36
         (KHTML, like Gecko) Chrome/43.0.2357.93 Mobile Safari/537.36
     path: /glasspanel/guest000_0_5de14443985f/
+- name: '[H] 🇯🇵 日本 06'
+  network: ws
+  password: '666'
+  port: '443'
+  server: cf.090227.xyz
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: '[H] 🇸🇬 新加坡 13'
+  network: ws
+  password: '666'
+  port: '443'
+  server: 104.18.34.228
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: '[H] 🇸🇬 新加坡 15'
+  network: ws
+  password: '666'
+  port: '443'
+  server: nexusmods.com
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: '[H] 🇸🇬 新加坡 17'
+  network: ws
+  password: '666'
+  port: '443'
+  server: 104.18.37.133
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: '[H] 🇸🇬 新加坡 18'
+  network: ws
+  password: '666'
+  port: '443'
+  server: 104.18.33.225
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; CPH1607 Build/MMB29M; wv) AppleWebKit/537.36
+        (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: '[H] 🇺🇸 美国 06'
+  network: ws
+  password: '666'
+  port: '443'
+  server: 45.63.89.102
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: '[H] 🇯🇵 日本 12'
+  network: ws
+  password: '666'
+  port: '443'
+  server: saas.sin.fan
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
+- name: '[H] 🇸🇬 新加坡 20'
+  network: ws
+  password: '666'
+  port: '443'
+  server: 104.18.43.190
+  skip-cert-verify: false
+  sni: 6oode.xqwd.qog.hh.penqiask.ccwu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /glasspanel/guest000_0_5de14443985f/
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🌍 其它地区 20'
   password: B-CeBiHsT59peuReN_E45Q
   port: 8443
   server: 194.85.249.189
   type: ss
-- name: '[I] 🇨🇦 加拿大 05'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   password: humanity
   port: 443
