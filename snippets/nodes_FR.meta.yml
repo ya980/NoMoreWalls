@@ -27,11 +27,11 @@ proxies:
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: argg2.auragg.org
-  skip-cert-verify: true
   sni: argg2.auragg.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
+- auth: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  name: '[E] 🇫🇷 法国 05'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: argg3.auragg.org
@@ -39,6 +39,7 @@ proxies:
   sni: argg3.auragg.org
   tls: false
   type: hysteria2
+  udp: true
 - name: '[E] 🇫🇷 法国 06'
   password: 0e3ec08f-840e-46f8-b11e-3a5decbb97b6
   port: 5443
@@ -77,18 +78,44 @@ proxies:
   udp: true
   uuid: 2fb948c4-3120-415a-bf4f-be18c74cd466
   xhttp-opts:
-    host: ovd7.global.ssl.fastly.net
+    host: ovd10.global.ssl.fastly.net
     mode: packet-up
     path: /
     sc-min-posts-interval-ms: 30
     x-padding-bytes: 100-1000
   xudp: true
-- encryption: none
+- client-fingerprint: firefox
   name: '[H] 🇫🇷 法国 10'
-  network: tcp
-  port: '22223'
-  server: 13.36.204.235
+  network: xhttp
+  port: '43264'
+  reality-opts:
+    public-key: V7HRYFnC_mCHvqcO5o9sKVN-vs_tQ1FnB9seskMAB0A
+    short-id: '!!str eb'
+  server: 91.209.71.83
+  servername: samsung.com
+  tls: true
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 0dbfdd92-a166-4852-9a5b-7cf508d196ab
+  xhttp-opts:
+    mode: auto
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇫🇷 法国 11'
+  network: xhttp
+  port: '443'
+  reality-opts:
+    public-key: xsIXgTL2OCh9mf2_8ng_944Kr5fxC0dypVocZ_NFb18
+    short-id: '!!str 76de498b'
+  server: france.nicqy.com
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0dbfdd92-a166-4852-9a5b-7cf508d196ab
+  xhttp-opts:
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
   xudp: true

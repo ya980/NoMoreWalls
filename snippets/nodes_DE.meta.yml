@@ -11,18 +11,18 @@ proxies:
   type: hysteria2
 - name: '[D] 🇩🇪 德国 02'
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: KYFundefinedZYs4KB
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
+  obfs-password: ngljeqgna3hmfr2s
+  password: 91uokb9ud7raz0fk
+  port: 56845
+  server: qg.easyiran.org
+  skip-cert-verify: false
+  sni: ''
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: MjLSEZj2IW
+  password: KYFundefinedZYs4KB
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -32,7 +32,7 @@ proxies:
 - name: '[D] 🇩🇪 德国 04'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: y4nJ8poIsh
+  password: MjLSEZj2IW
   port: 40460
   server: 91.107.152.188
   skip-cert-verify: true
@@ -40,6 +40,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 05'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: y4nJ8poIsh
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 06'
   password: zhangyang
   port: 6443
   server: 130.61.50.75
@@ -47,11 +57,10 @@ proxies:
   sni: https://www.calmloud.com
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 06'
+- name: '[E] 🇩🇪 德国 07'
   password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   port: 443
   server: sh02.auragg.org
-  skip-cert-verify: false
   sni: sh02.auragg.org
   tls: false
   type: hysteria2
@@ -60,7 +69,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: '[H] 🇩🇪 德国 07'
+  name: '[H] 🇩🇪 德国 08'
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -73,120 +82,10 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 08'
-  network: ws
-  port: '443'
-  server: free3.playon.ir
-  servername: free3.playon.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3cf1f286-9aa1-4465-a5cb-1aa4fc0416ae
-  ws-opts:
-    headers:
-      Host: free3.playon.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /fd-u0vGU8XGCMXc3A9x4x9dbJc
-  xudp: true
-- down: ''
-  fingerprint: ''
   name: '[H] 🇩🇪 德国 09'
-  obfs: ''
-  obfs-password: ''
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 4433
-  server: 202.61.205.86
-  skip-cert-verify: true
-  sni: de1.xiaoliyu.cyou
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: '[H] 🇩🇪 德国 10'
-  network: xhttp
-  port: '2087'
-  server: 172.67.69.211
-  servername: vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 11'
-  network: ws
-  port: '80'
-  server: 151.101.196.11
-  type: vless
-  udp: true
-  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: Fastapi.Org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 12'
-  network: ws
-  port: '80'
-  server: 199.232.236.11
-  type: vless
-  udp: true
-  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: Fastapi.Org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 13'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: HfuHCLrjmpMIqPbZ61f_MvdigyWZ3Oj_ZaxdlMdcdFA
-    short-id: '!!str 3a03e85af8d9f63e'
-  server: netcap.oblakoapp.com
-  servername: live.oblakoapp.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 838de912-398a-4c0e-9228-0fd44b0d1f8b
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇩🇪 德国 14'
-  network: raw
-  port: '80'
-  server: 94.103.167.116
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: d1b0c103-a7ff-4bd6-887d-a73d6ebf1f50
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 15'
   network: ws
   port: '443'
-  server: undef.network
+  server: hikvision-plus.com
   servername: ap.mozestanman.dpdns.org
   tls: true
   type: vless
@@ -196,6 +95,101 @@ proxies:
     headers:
       Host: ap.mozestanman.dpdns.org
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+        Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /Novex
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 10'
+  network: ws
+  port: '443'
+  server: freesocks.work
+  servername: ap.mozestanman.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: cee8c30c-fb13-4a89-abb4-5a32cf716c97
+  ws-opts:
+    headers:
+      Host: ap.mozestanman.dpdns.org
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /Novex
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 11'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: KP-P4zenuMuYe3UxPCjDEVmgqI4GiRZ95UbsAfmL71g
+    short-id: '!!str 970098f31b96a3e8'
+  server: 157.173.27.150
+  servername: travel.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838de912-398a-4c0e-9228-0fd44b0d1f8b
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 12'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: KP-P4zenuMuYe3UxPCjDEVmgqI4GiRZ95UbsAfmL71g
+    short-id: '!!str 970098f31b96a3e8'
+  server: 91.244.71.227
+  servername: travel.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 838de912-398a-4c0e-9228-0fd44b0d1f8b
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 13'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg
+    short-id: '!!str 0a6ba2716a409da6'
+  server: 45.155.70.1
+  servername: dolores.api.dznn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 83ceabec-a0ee-4d38-94c1-cbb2d6cbdf1a
+  xudp: true
+- name: '[H] 🇩🇪 德国 14'
+  network: ws
+  port: '8880'
+  server: icook.tw
+  type: vless
+  udp: true
+  uuid: aa7461af-3176-42a3-8974-59930189c521
+  ws-opts:
+    headers:
+      Host: round-block-e864.326.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /pyip=ProxyIP.US.CMLiussss.net
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[H] 🇩🇪 德国 15'
+  network: http
+  port: '8882'
+  server: 95.182.98.231
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   xudp: true

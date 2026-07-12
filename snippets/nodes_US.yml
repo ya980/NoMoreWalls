@@ -1,48 +1,51 @@
 proxies:
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
-  password: b1a42ca60884057bf527d8d38b618cfb
-  port: 17005
-  server: 18.163.105.231
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 18.162.115.77
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
-  password: b1a42ca60884057bf527d8d38b618cfb
-  port: 17005
-  server: 18.166.63.229
-  skip-cert-verify: false
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 18.163.192.100
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
-  port: 44265
-  server: 18.163.115.109
+  port: 34638
+  server: 95.40.54.118
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 06'
+  password: amazonskr05
+  port: 443
+  server: 3.16.130.237
+  type: ss
+  udp: true
 - alterId: 2
   cipher: auto
-  name: '[H] 🇺🇸 美国 18'
+  name: '[H] 🇺🇸 美国 11'
   network: tcp
-  port: 30808
-  server: v8.hdacd.com
+  port: 30845
+  server: v45.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   xudp: true
-- name: '[I] 🇺🇸 美国 29'
-  network: ws
-  password: humanity
-  port: 443
-  server: 199.181.197.143
-  sni: www.calmloud.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmloud.com
-    path: '%2Fassignment'
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 15'
+  password: amazonskr05
+  port: '443'
+  server: 3.145.46.201
+  type: ss
+  udp: true
