@@ -7,23 +7,7 @@ proxies:
   sni: united.hysteria.ltd
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
-  password: 1624ccf4-f88b-4411-81bd-978570b3cbdc
-  port: 55000
-  server: 156.229.164.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
-  password: 3bf33d8e-7bc7-470c-85af-8436f93dce3e
-  port: 55000
-  server: 156.229.164.1
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[F] 🇺🇸 美国 04'
+- name: '[F] 🇺🇸 美国 02'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -31,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -39,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 04'
   network: tcp
   password: BxceQaOe
   port: 34638
@@ -47,191 +31,49 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: qq
   encryption: none
-  name: '[H] 🇺🇸 美国 07'
-  network: ws
-  port: '443'
-  server: ansooyefilter-channel-production-79b2.up.railway.app
-  servername: ansooyefilter-channel-production-79b2.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ad99f4d-6144-8272-1a8b-8e0f3e2e2414
-  ws-opts:
-    headers:
-      Host: ansooyefilter-channel-production-79b2.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1; vivo 1716 Build/N2G47H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
-    path: /ws/3ad99f4d-6144-8272-1a8b-8e0f3e2e2414
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 08'
-  network: ws
-  port: '443'
-  server: x4g-production-0a45.up.railway.app
-  servername: x4g-production-0a45.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 778220c8-646a-b3d2-3d41-be2fe98e9e23
-  ws-opts:
-    headers:
-      Host: x4g-production-0a45.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /ws/778220c8-646a-b3d2-3d41-be2fe98e9e23
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 09'
-  network: ws
-  port: '443'
-  server: ansooyefilter-channel-production-79b2.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ad99f4d-6144-8272-1a8b-8e0f3e2e2414
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
-    path: /ws/3ad99f4d-6144-8272-1a8b-8e0f3e2e2414
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 10'
-  network: ws
-  port: '443'
-  server: ansooyefilter-channel-production-79b2.up.railway.app
-  servername: ansooyefilter-channel-production-79b2.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9aba207a-0958-d7f1-7e18-e86a6798297b
-  ws-opts:
-    headers:
-      Host: ansooyefilter-channel-production-79b2.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/43.0.2357.65 Safari/537.36
-    path: /ws/9aba207a-0958-d7f1-7e18-e86a6798297b
-  xudp: true
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 11'
+  name: '[H] 🇺🇸 美国 05'
   network: tcp
-  port: '993'
-  reality-opts:
-    public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
-    short-id: '!!str '
-  server: 140.235.168.9
-  servername: speed.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 526d2855-c7d1-ecf3-e4f8-5a75f77d5bb3
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 12'
-  network: ws
   port: '443'
-  server: ansooye.up.railway.app
-  servername: ansooye.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3d8f310d-a600-b473-1beb-8b308caea637
-  ws-opts:
-    headers:
-      Host: ansooye.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.89 Safari/537.36
-    path: /ws/3d8f310d-a600-b473-1beb-8b308caea637
-  xudp: true
-- client-fingerprint: ios
-  encryption: none
-  name: '[H] 🇺🇸 美国 13'
-  network: xhttp
-  port: '443'
-  server: 3x-ui-production-c69b.up.railway.app
-  servername: 3x-ui-production-c69b.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3438b3e0-d68b-4609-8e13-a24ee7bc6733
-  xhttp-opts:
-    host: 3x-ui-production-c69b.up.railway.app
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 14'
-  network: ws
-  port: '443'
-  server: ansooyefilter-channel-production-79b2.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9aba207a-0958-d7f1-7e18-e86a6798297b
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /ws/9aba207a-0958-d7f1-7e18-e86a6798297b
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇺🇸 美国 15'
-  network: tcp
-  port: '8526'
   reality-opts:
-    public-key: -zNDEqKkScKvMWB7spEper78GE_u-nR4jDHZ3DpOoxM
-    short-id: '!!str 62ad184af31fc8cf'
-  server: hokm-t2.igatel.com
-  servername: www.yahoo.com
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: '!!str 122218f4c1f172e4'
+  server: ads.yandex-dev.online
+  servername: ads.yandex-dev.online
   tls: true
   type: vless
   udp: true
-  uuid: a49adb79-ed7b-449a-8bba-3842dc495e74
+  uuid: e708dd75-cf26-4a45-aba3-45da05615910
   xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 16'
-  network: tcp
-  port: '40443'
-  reality-opts:
-    public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
-    short-id: '!!str '
-  server: 69.48.229.50
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
-  xudp: true
-- name: '[H] 🇺🇸 美国 17'
+- name: '[H] 🇺🇸 美国 06'
   password: ''
-  port: '9002'
-  server: 138.199.35.201
+  port: '443'
+  server: 38.28.193.1
   skip-cert-verify: true
   tls: true
   type: http
   username: ''
+- name: '[I] 🇺🇸 美国 07'
+  network: ws
+  port: 8880
+  server: 8.34.70.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+    path: /?ed=2560
+- name: '[I] 🇺🇸 美国 08'
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: /

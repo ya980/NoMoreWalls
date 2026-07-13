@@ -1,9 +1,37 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
-  password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
-  port: 55000
-  server: 45.154.205.25
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 01'
+  port: 443
+  server: s348.okgfw.top
+  servername: u695099u540f16e2s501.okgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 540f16e2s501.okgfw.top
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 02'
+  port: 443
+  server: 82.47.22.163
+  servername: u695099u540f16e2s501.okgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 540f16e2s501.okgfw.top
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 03'
+  port: 443
+  server: s561.gogocs.xyz
+  servername: u695099u540f16e2s501.okgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 540f16e2s501.okgfw.top
