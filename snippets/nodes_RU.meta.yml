@@ -1,7 +1,14 @@
 proxies:
+- cipher: aes-256-gcm
+  name: '[H] 🇷🇺 俄罗斯 01'
+  password: cfe685726eea2c4b
+  port: '10921'
+  server: 185.22.154.103
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: tcp
   port: 443
   reality-opts:
@@ -14,7 +21,7 @@ proxies:
   uuid: 4392b776-41a2-4300-b545-a3d2724b605b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 03'
   port: 2087
   reality-opts:
     public-key: J2RPvguvaBHlFDFOcZHs4sY9wSNIGNvvmDZud49A7i8
