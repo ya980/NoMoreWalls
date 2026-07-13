@@ -1,7 +1,82 @@
 proxies:
+- name: '[B] 🇬🇧 英国 01'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[B] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: '[B] 🇬🇧 英国 03'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[B] 🇬🇧 英国 04'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '[B] 🇬🇧 英国 05'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇬🇧 英国 06'
+  network: xhttp
+  port: '48933'
+  reality-opts:
+    public-key: uugDdrD7u6_dXpH4SCUwUvP4eaG-InWUZk-VKpyxiHc
+    short-id: '!!str '
+  server: umbr.gconexustun.ru
+  servername: cdn9-05.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42455ebe-1c84-479a-9bac-6433c30f8d19
+  xhttp-opts:
+    mode: packet-up
+    path: /
+    reuse-settings:
+      c-max-reuse-times: 64-128
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: 16-32
+      max-connections: '0'
+    sc-max-each-post-bytes: 1000000
+    sc-min-posts-interval-ms: 30
+    x-padding-bytes: 333-1777
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 01'
+  name: '[I] 🇬🇧 英国 07'
   port: 443
   server: s348.okgfw.top
   servername: u695099u540f16e2s501.okgfw.top
@@ -13,7 +88,7 @@ proxies:
       Host: 540f16e2s501.okgfw.top
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 02'
+  name: '[I] 🇬🇧 英国 08'
   port: 443
   server: 82.47.22.163
   servername: u695099u540f16e2s501.okgfw.top
@@ -25,7 +100,7 @@ proxies:
       Host: 540f16e2s501.okgfw.top
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 03'
+  name: '[I] 🇬🇧 英国 09'
   port: 443
   server: s561.gogocs.xyz
   servername: u695099u540f16e2s501.okgfw.top
