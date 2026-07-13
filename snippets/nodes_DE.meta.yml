@@ -51,6 +51,16 @@ proxies:
   type: hysteria2
 - name: '[D] 🇩🇪 德国 06'
   obfs: salamander
+  obfs-password: detgimgm8qh8i2g2
+  password: elknam6l7izf3z71
+  port: 52023
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 07'
+  obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: tU9Tcz3TMp
   port: 40460
@@ -59,14 +69,14 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 07'
+- name: '[E] 🇩🇪 德国 08'
   password: 837e9ea2-cf0b-46a1-93a8-7e25c3a4066c
   port: 443
   server: sh02.auragg.org
   sni: sh02.auragg.org
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 08'
+- name: '[E] 🇩🇪 德国 09'
   password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   port: 443
   server: sh02.auragg.org
@@ -74,76 +84,99 @@ proxies:
   sni: sh02.auragg.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '[H] 🇩🇪 德国 09'
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- client-fingerprint: chrome
-  encryption: none
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - biscotti.yektanet.com
+    path:
+    - /
   name: '[H] 🇩🇪 德国 10'
-  network: tcp
-  port: '44444'
-  reality-opts:
-    public-key: 79ji8OAmCVQTKcJmvf-iqZypOSKwuTD_sbatB4RHXXM
-    short-id: '!!str f37329647c9a1886'
-  server: Melinet1.temas-arvhA.iR
-  servername: yahoo.com.
-  tls: true
+  network: http
+  port: '12767'
+  server: 91.99.173.29
   type: vless
   udp: true
-  uuid: e044297a-304f-40a9-a9fb-d17b744fa781
+  uuid: 7ff3f986-f72c-4ebd-9eaa-bba121399cd2
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: chrome
   name: '[H] 🇩🇪 德国 11'
   network: ws
-  port: '443'
-  server: s97944.cdn.ngenix.net
+  port: 8443
+  server: 104.20.2.221
+  servername: bycf.lzjnb.shop
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
+  ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
+    headers:
+      Host: bycf.lzjnb.shop
+    max-early-data: 2560
+    path: /
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇩🇪 德国 12'
+  obfs: salamander
+  obfs-password: pqvmx29fokvh8ubb
+  password: TELEgRAM-ID-conf0088
+  port: '2053'
+  server: cuetara.name.cuetara.name
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+  up: ''
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: ios
+  encryption: none
+  name: '[H] 🇩🇪 德国 13'
+  network: ws
+  port: '8443'
+  server: germanyserver.nizeo.ir
+  servername: germanyserver.nizeo.ir
   tls: true
   type: vless
   udp: true
-  uuid: ab6a5359-0edf-41c3-8dfd-e4b005e80820
+  uuid: 53510d6b-47e0-43d0-bd47-6934c1b26bbb
   ws-opts:
     headers:
       Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /v1/data/sync/
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /
   xudp: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '[H] 🇩🇪 德国 12'
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: 500
-- name: '[I] 🇩🇪 德国 13'
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 14'
   network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
+  port: '443'
+  server: ip.sb
+  servername: bycf.lzjnb.shop
+  tls: true
   type: vless
-  uuid: 56aff7fa-9dae-4864-b5d7-9a150469dfa0
+  udp: true
+  uuid: 6c7a6a6a-6a6a-4000-8000-000000000002
   ws-opts:
     headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+      Host: bycf.lzjnb.shop
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.118 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 15'
+  network: raw
+  port: '443'
+  server: 109.120.152.19
+  servername: fast_s89.screw.page
+  tls: true
+  type: vless
+  udp: true
+  uuid: c0aa0cee-e855-4bcc-9afc-46241cb17990
+  xudp: true

@@ -1,23 +1,39 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇷🇺 俄罗斯 01'
   network: tcp
-  packet-encoding: xudp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: UkWs8ZVCrm_MxuzW9a8wKJC3IPjwBJcaz7Rb5czATyA
-    short-id: '!!str da122c35'
-  server: ru7.netfix.app
-  servername: haharu7.xixihaha.it.com
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  server: 147.45.39.93
+  servername: cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 935b4c83-6fab-469f-93ea-f7cae11d8a6e
+  uuid: 3ef170be-05d0-479c-9753-aa2f860964ea
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: Lg6h-bnd_hSHqUgXFnJ-TwMIWzQ-YgdQs5rxWTVvDkY
+    short-id: '!!str dcb232276ce1'
+  server: 212.22.82.138
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7438bc61-fc48-406c-a8a8-cb2185849d99
+  xudp: true
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 02'
+  name: '[H] 🇷🇺 俄罗斯 03'
   network: raw
   port: '443'
   reality-opts:
@@ -30,15 +46,3 @@ proxies:
   udp: true
   uuid: 935b4c83-6fab-469f-93ea-f7cae11d8a6e
   xudp: true
-- client-fingerprint: firefox
-  name: '[I] 🇷🇺 俄罗斯 03'
-  network: xhttp
-  port: 5443
-  reality-opts:
-    public-key: GDAE47AZLxgYihOLHNgZdSrRQBSzEEJhrKZx4vm6PgE
-    short-id: '!!str 9c4d6cc74ba8968d'
-  server: 94.126.204.75
-  servername: api-maps.yandex.ru
-  tls: false
-  type: vless
-  uuid: 2797a040-443c-4249-ab49-546b37519642

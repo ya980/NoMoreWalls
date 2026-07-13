@@ -1,23 +1,9 @@
 proxies:
-- name: '[I] 🇬🇧 英国 01'
-  network: ws
-  port: 80
-  server: 199.232.224.11
-  tls: false
-  type: vless
-  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
-  ws-opts:
-    headers:
-      Host: Fastapi.Org
-    path: /
-- name: '[I] 🇬🇧 英国 02'
-  network: ws
-  port: 80
-  server: 199.232.56.11
-  tls: false
-  type: vless
-  uuid: 3b940e86-7b0d-40da-acf1-12d334e41023
-  ws-opts:
-    headers:
-      Host: Fastapi.Org
-    path: /
+- name: '[H] 🇬🇧 英国 01'
+  password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
+  port: 55000
+  server: 45.154.205.25
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  udp: true
