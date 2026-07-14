@@ -1,89 +1,27 @@
 proxies:
-- name: '[B] 🇬🇧 英国 01'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: '[B] 🇬🇧 英国 02'
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560
-- name: '[B] 🇬🇧 英国 03'
-  network: ws
-  port: 8880
-  server: 45.80.110.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: '[B] 🇬🇧 英国 04'
-  network: ws
-  port: 8880
-  server: 185.159.247.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-    path: /
-- name: '[B] 🇬🇧 英国 05'
-  network: ws
-  port: 8880
-  server: 77.75.199.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: '[E] 🇬🇧 英国 06'
+- name: '[E] 🇬🇧 英国 01'
   password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
   port: 55000
   server: 45.154.205.25
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇬🇧 英国 07'
-  network: xhttp
-  port: '2087'
-  reality-opts:
-    public-key: YzBMpb1dERPYZ523TWUVf9MkqH4_zrnc_t_o2IjF0W4
-    short-id: '!!str e898156ae00ddeb8'
-  server: 31.76.10.180
-  servername: yahoo.com
-  tls: true
+- encryption: none
+  name: '[H] 🇬🇧 英国 02'
+  network: tcp
+  port: '1446'
+  server: 213.189.16.91
   type: vless
   udp: true
-  uuid: 4e37ec19-064c-41fe-a218-42b093d2ca5f
-  xhttp-opts:
-    host: vip-de2-unlimited.relqino.ir
-    mode: auto
-    path: /
+  uuid: d8b42cd5-a149-4356-9e61-111111111111
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇬🇧 英国 08'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
-    short-id: '!!str 1559b440'
-  server: 77.110.113.188
-  servername: www.samsung.com
+- name: '[I] 🇬🇧 英国 03'
+  network: ws
+  port: 2083
+  server: 91.193.58.17
+  servername: edgetunnel-cmliu.lyqnihao.dpdns.org
   tls: true
   type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
+  uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d
+  ws-opts:
+    path: '%2F'
