@@ -1,5 +1,77 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- encryption: none
+  name: '[B] 🇩🇪 德国 01'
+  network: tcp
+  port: 10443
+  server: 136.244.94.171
+  type: vless
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- encryption: none
+  name: '[B] 🇩🇪 德国 02'
+  network: tcp
+  port: 443
+  server: 136.244.94.171
+  type: vless
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: '[B] 🇩🇪 德国 03'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: '[B] 🇩🇪 德国 04'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: '[B] 🇩🇪 德国 05'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇩🇪 德国 06'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  security: reality
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
+  type: vless
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
+- name: '[D] 🇩🇪 德国 07'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: 58cb3fdyZN
@@ -9,7 +81,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 08'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: CakZRUUlundefinedS
@@ -19,7 +91,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 09'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: D0KVsHbDlj
@@ -29,7 +101,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 10'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: KYFundefinedZYs4KB
@@ -39,7 +111,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 11'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: MjLSEZj2IW
@@ -49,7 +121,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 06'
+- name: '[D] 🇩🇪 德国 12'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: Z5dFAw7u6U
@@ -59,7 +131,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 07'
+- name: '[D] 🇩🇪 德国 13'
   obfs: salamander
   obfs-password: detgimgm8qh8i2g2
   password: elknam6l7izf3z71
@@ -69,7 +141,7 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 08'
+- name: '[D] 🇩🇪 德国 14'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: tU9Tcz3TMp
@@ -81,24 +153,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: '[H] 🇩🇪 德国 09'
-  network: xhttp
-  port: '2087'
-  server: 172.67.69.211
-  servername: somthingspecial.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: d7ddc55f-c7a5-4161-abf0-71832121cbe4
-  xhttp-opts:
-    host: somthingspecial.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: '[H] 🇩🇪 德国 10'
+  name: '[H] 🇩🇪 德国 15'
   network: xhttp
   port: '2087'
   server: 172.67.69.212
@@ -113,60 +168,53 @@ proxies:
     path: /
     x-padding-bytes: 100-1000
   xudp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 11'
-  network: ws
-  port: '80'
-  server: sadaf.vlessvx.ir
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  encryption: none
+  name: '[H] 🇩🇪 德国 16'
+  network: tcp
+  port: '443'
+  server: de1.linkto.sbs
+  servername: de1.linkto.sbs
+  tls: true
   type: vless
   udp: true
+  uuid: dabe4e44-39e1-4464-9491-521993f207d8
+  xudp: true
+- encryption: mlkem768x25519plus.native.0rtt.sGrv3mIk61axsKIAJkxsh-2TAnalzVWQw70HsKAlQSU
+  name: '[H] 🇩🇪 德国 17'
+  network: tcp
+  port: '37825'
+  server: 31.56.89.31
+  type: vless
+  udp: true
+  uuid: dc9b85ff-a632-4349-974a-6548e3f0beed
+  xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 18'
+  network: xhttp
+  port: 1509
+  reality-opts:
+    public-key: -l1KYQqLEwues92UC_8inNAq7tiqrTAmgUVKadMpa3g
+    short-id: '!!str 6a3047730f673c48'
+  server: mcdn.server-wolf.ir
+  servername: yahoo.com
+  tls: false
+  type: vless
   uuid: 59e48e66-89c0-4139-ab2b-f808ec1ef825
   ws-opts:
     headers:
-      Host: AVIPQN.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /wp-admin.php?ed=2048
-  xudp: true
-- client-fingerprint: randomized
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 12'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Bp49BC_XtsdC4Jvp5p-vfR1voCti6QrYyIPKQSIt_Hw
-    short-id: '!!str 4326'
-  server: m12r.speedtestmark.com
-  servername: m12r.speedtestmark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9de60b66-8b6a-4f50-b1e1-854ceb214eb1
-  xudp: true
-- client-fingerprint: randomized
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 13'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: Bp49BC_XtsdC4Jvp5p-vfR1voCti6QrYyIPKQSIt_Hw
-    short-id: '!!str 4326'
-  server: m9r.speedtestmark.com
-  servername: m9r.speedtestmark.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9de60b66-8b6a-4f50-b1e1-854ceb214eb1
-  xudp: true
-- name: '[I] 🇩🇪 德国 14'
+      Host: yahoo.com
+    path: /
+- name: '[I] 🇩🇪 德国 19'
   network: ws
   port: 80
   server: 146.75.119.82
   tls: false
   type: vless
-  uuid: 4071fd0c-c8d2-4353-907e-d8e39ce9b71b
+  uuid: 69e01558-ebc4-4f72-9431-163fd21ebdcd
   ws-opts:
     headers:
       Host: rb24.ir

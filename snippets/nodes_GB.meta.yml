@@ -1,60 +1,89 @@
 proxies:
-- name: '[E] 🇬🇧 英国 01'
+- name: '[B] 🇬🇧 英国 01'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[B] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: '[B] 🇬🇧 英国 03'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[B] 🇬🇧 英国 04'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '[B] 🇬🇧 英国 05'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[E] 🇬🇧 英国 06'
   password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
   port: 55000
   server: 45.154.205.25
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- client-fingerprint: randomized
+- client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 02'
-  network: tcp
-  port: '443'
+  name: '[H] 🇬🇧 英国 07'
+  network: xhttp
+  port: '2087'
   reality-opts:
-    public-key: Bp49BC_XtsdC4Jvp5p-vfR1voCti6QrYyIPKQSIt_Hw
-    short-id: '!!str 4326'
-  server: m10r.speedtestmark.com
-  servername: m10r.speedtestmark.com
+    public-key: YzBMpb1dERPYZ523TWUVf9MkqH4_zrnc_t_o2IjF0W4
+    short-id: '!!str e898156ae00ddeb8'
+  server: 31.76.10.180
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 9de60b66-8b6a-4f50-b1e1-854ceb214eb1
+  uuid: 4e37ec19-064c-41fe-a218-42b093d2ca5f
+  xhttp-opts:
+    host: vip-de2-unlimited.relqino.ir
+    mode: auto
+    path: /
   xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 03'
-  port: 443
-  server: s348.okgfw.top
-  servername: u695099u540f16e2s501.okgfw.top
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇬🇧 英国 08'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
+    short-id: '!!str 1559b440'
+  server: 77.110.113.188
+  servername: www.samsung.com
   tls: true
   type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 540f16e2s501.okgfw.top
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 04'
-  port: 443
-  server: 82.47.22.163
-  servername: u695099u540f16e2s501.okgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 540f16e2s501.okgfw.top
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 05'
-  port: 443
-  server: s561.gogocs.xyz
-  servername: u695099u540f16e2s501.okgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 540f16e2s501.okgfw.top
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true

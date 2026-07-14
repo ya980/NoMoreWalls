@@ -1,26 +1,17 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: 4vIA_XIMBEZcJyLkxdi7v6FVVhc3gGru3eE5mciDyF8
-    short-id: '!!str 26fd24aa623cadc0'
-  server: 155.212.168.164
-  servername: msk-cloud.landcode.online
-  tls: false
+- name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
   type: vless
-  uuid: 4392b776-41a2-4300-b545-a3d2724b605b
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- cipher: aes-256-gcm
   name: '[I] 🇷🇺 俄罗斯 02'
-  port: 2087
-  reality-opts:
-    public-key: J2RPvguvaBHlFDFOcZHs4sY9wSNIGNvvmDZud49A7i8
-    short-id: '!!str 9f0a1b2c'
-  server: msk.24pitbullstore.ru
-  servername: msk.24pitbullstore.ru
-  tls: false
-  type: vless
-  uuid: 570779d8-b4cd-4b3c-a8bd-6127f51c4d48
+  password: cfe685726eea2c4b
+  port: 10921
+  server: 185.22.154.103
+  type: ss
