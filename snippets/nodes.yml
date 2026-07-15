@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 24'
+  name: '[E] 🌍 其它地区 22'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -11,21 +11,7 @@ proxies:
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: ''
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 25'
-  network: ws
-  port: '80'
-  server: 3h-kazakhstan1.09vpn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: ''
+      Host: 3h-kazakhstan1.09vpn.com
     path: /vmess/
 - alterId: 0
   cipher: auto
@@ -39,21 +25,31 @@ proxies:
   uuid: 68adffea-4146-4f92-b2f9-955cd634c274
 - alterId: 0
   cipher: auto
-  name: '[E] 🇬🇧 英国 02'
-  network: ws
-  port: '8880'
-  server: amir.amirport.ir
+  name: '[E] 🇨🇳 台湾 02'
+  network: tcp
+  port: '35034'
+  server: 165.154.195.38
   servername: ''
   tls: false
   type: vmess
-  uuid: 6991d596-745e-448c-9da4-cfc9dfde6f71
-  ws-opts:
-    headers:
-      Host: amir.amirport.ir
-    path: /
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 06'
+  name: '[E] 🇺🇸 美国 04'
+  network: ws
+  port: '443'
+  server: xsj004-10.facai2024.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      Host: xsj004-10.facai2024.com
+    path: /1f1aa362-25
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 05'
   network: ws
   port: '443'
   server: 45.205.31.175
@@ -63,11 +59,11 @@ proxies:
   uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
   ws-opts:
     headers:
-      Host: ''
+      Host: vpn.cyedu.xyz
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 07'
+  name: '[E] 🇺🇸 美国 06'
   network: tcp
   port: '10086'
   server: 45.205.31.175
@@ -77,7 +73,7 @@ proxies:
   uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 08'
+  name: '[E] 🇺🇸 美国 07'
   network: ws
   port: '8444'
   server: 45.205.31.175
@@ -91,20 +87,20 @@ proxies:
     path: /warp
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 09'
+  name: '[E] 🇺🇸 美国 08'
   network: ws
-  port: '8444'
+  port: '443'
   server: 45.205.31.175
   servername: vpn.cyedu.xyz
   tls: true
   type: vmess
-  uuid: f1fb546a-eaaf-4c10-98f1-871b48931077
+  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
   ws-opts:
     headers:
       Host: ''
-    path: /warp
+    path: /ws
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 26'
+  name: '[F] 🌍 其它地区 23'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -142,7 +138,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 02'
+- name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 6769
@@ -150,7 +146,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -158,7 +154,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 40138
@@ -182,7 +178,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇺🇸 美国 10'
+- name: '[F] 🇺🇸 美国 09'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -190,7 +186,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 11'
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -198,7 +194,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 12'
+- name: '[F] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -216,13 +212,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[H] 🇯🇵 日本 05'
+- name: '[H] 🇯🇵 日本 04'
   network: tcp
   password: CF68213490
   port: '443'
   server: settling-humpback.rooster465.autos
   skip-cert-verify: false
   sni: settling-humpback.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 05'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: present-ram.rooster465.autos
+  skip-cert-verify: false
+  sni: present-ram.rooster465.autos
   type: trojan
   udp: true
 - name: '[H] 🇯🇵 日本 06'
@@ -243,24 +248,43 @@ proxies:
   sni: relevant-oryx.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 06'
-  password: CF68213490
-  port: '443'
-  server: internal-krill.rooster465.autos
-  skip-cert-verify: false
-  sni: internal-krill.rooster465.autos
-  type: trojan
-  udp: true
 - name: '[H] 🇯🇵 日本 07'
   network: tcp
   password: CF68213490
   port: '443'
-  server: adapting-giraffe.rooster465.autos
+  server: star-cheetah.rooster465.autos
   skip-cert-verify: false
-  sni: adapting-giraffe.rooster465.autos
+  sni: star-cheetah.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 06'
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: star-hagfish.rooster465.autos
+  skip-cert-verify: false
+  sni: star-hagfish.rooster465.autos
   type: trojan
   udp: true
 - name: '[H] 🇸🇬 新加坡 07'
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: grateful-owl.rooster465.autos
+  skip-cert-verify: false
+  sni: grateful-owl.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 08'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: moral-basilisk.rooster465.autos
+  skip-cert-verify: false
+  sni: moral-basilisk.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 09'
   network: tcp
   password: CF68213490
   port: '443'
@@ -273,187 +297,12 @@ proxies:
   network: tcp
   password: CF68213490
   port: '443'
-  server: wealthy-gobbler.rooster465.autos
+  server: free-hare.rooster465.autos
   skip-cert-verify: false
-  sni: wealthy-gobbler.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 08'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: tight-gator.rooster465.autos
-  skip-cert-verify: false
-  sni: tight-gator.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 09'
-  password: CF68213490
-  port: '443'
-  server: intimate-moray.rooster465.autos
-  skip-cert-verify: false
-  sni: intimate-moray.rooster465.autos
+  sni: free-hare.rooster465.autos
   type: trojan
   udp: true
 - name: '[H] 🇸🇬 新加坡 10'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: modest-bat.rooster465.autos
-  skip-cert-verify: false
-  sni: modest-bat.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 11'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: star-hagfish.rooster465.autos
-  skip-cert-verify: false
-  sni: star-hagfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇰🇷 韩国 01'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: helping-shark.rooster465.autos
-  skip-cert-verify: false
-  sni: helping-shark.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇰🇷 韩国 02'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: central-jawfish.rooster465.autos
-  skip-cert-verify: false
-  sni: central-jawfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇩🇪 德国 04'
-  password: XG59623478
-  port: '443'
-  server: enabling-asp.rooster465.autos
-  skip-cert-verify: false
-  sni: enabling-asp.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 12'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: bright-cicada.rooster465.autos
-  skip-cert-verify: false
-  sni: bright-cicada.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 13'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: vast-werewolf.rooster465.autos
-  skip-cert-verify: false
-  sni: vast-werewolf.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 14'
-  password: CF68213490
-  port: '443'
-  server: musical-terrier.rooster465.autos
-  skip-cert-verify: false
-  sni: musical-terrier.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 15'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: brief-warthog.rooster465.autos
-  skip-cert-verify: false
-  sni: brief-warthog.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 09'
-  password: CF68213490
-  port: '443'
-  server: sacred-anemone.rooster465.autos
-  skip-cert-verify: false
-  sni: sacred-anemone.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 10'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: evolving-mollusk.rooster465.autos
-  skip-cert-verify: false
-  sni: evolving-mollusk.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 11'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: caring-wallaby.rooster465.autos
-  skip-cert-verify: false
-  sni: caring-wallaby.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇰🇷 韩国 03'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: gentle-mastiff.rooster465.autos
-  skip-cert-verify: false
-  sni: gentle-mastiff.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 12'
-  password: CF68213490
-  port: '443'
-  server: in-oriole.rooster465.autos
-  skip-cert-verify: false
-  sni: in-oriole.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 13'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: accurate-frog.rooster465.autos
-  skip-cert-verify: false
-  sni: accurate-frog.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 16'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: powerful-troll.rooster465.autos
-  skip-cert-verify: false
-  sni: powerful-troll.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇩🇪 德国 05'
-  network: tcp
-  password: OD90375861
-  port: '443'
-  server: together-insect.rooster465.autos
-  skip-cert-verify: false
-  sni: together-insect.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 17'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: moral-basilisk.rooster465.autos
-  skip-cert-verify: false
-  sni: moral-basilisk.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 18'
   network: tcp
   password: CF68213490
   port: '443'
@@ -462,16 +311,61 @@ proxies:
   sni: learning-wren.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 14'
+- name: '[H] 🇯🇵 日本 09'
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: immune-mullet.rooster465.autos
+  skip-cert-verify: false
+  sni: immune-mullet.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 10'
   network: tcp
   password: CF68213490
   port: '443'
-  server: concrete-aardvark.rooster465.autos
+  server: innocent-rattler.rooster465.autos
   skip-cert-verify: false
-  sni: concrete-aardvark.rooster465.autos
+  sni: innocent-rattler.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 15'
+- name: '[H] 🇸🇬 新加坡 11'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: brief-warthog.rooster465.autos
+  skip-cert-verify: false
+  sni: brief-warthog.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 11'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: wealthy-gobbler.rooster465.autos
+  skip-cert-verify: false
+  sni: wealthy-gobbler.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 12'
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: active-hippo.rooster465.autos
+  skip-cert-verify: false
+  sni: active-hippo.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 12'
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: shining-piranha.rooster465.autos
+  skip-cert-verify: false
+  sni: shining-piranha.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 13'
   network: tcp
   password: CF68213490
   port: '443'
@@ -480,60 +374,43 @@ proxies:
   sni: ultimate-jaguar.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇰🇷 韩国 04'
+- name: '[H] 🇯🇵 日本 14'
   network: tcp
   password: CF68213490
   port: '443'
-  server: pure-ram.rooster465.autos
+  server: sacred-anemone.rooster465.autos
   skip-cert-verify: false
-  sni: pure-ram.rooster465.autos
+  sni: sacred-anemone.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 16'
-  password: CF68213490
-  port: '443'
-  server: innocent-rattler.rooster465.autos
-  skip-cert-verify: false
-  sni: innocent-rattler.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 17'
+- name: '[H] 🇸🇬 新加坡 13'
   network: tcp
   password: CF68213490
   port: '443'
-  server: shining-piranha.rooster465.autos
+  server: musical-terrier.rooster465.autos
   skip-cert-verify: false
-  sni: shining-piranha.rooster465.autos
+  sni: musical-terrier.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 18'
+- name: '[H] 🇯🇵 日本 15'
+  password: CF68213490
+  port: '443'
+  server: caring-wallaby.rooster465.autos
+  skip-cert-verify: false
+  sni: caring-wallaby.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇰🇷 韩国 01'
   network: tcp
   password: CF68213490
   port: '443'
-  server: alert-redfish.rooster465.autos
+  server: central-jawfish.rooster465.autos
   skip-cert-verify: false
-  sni: alert-redfish.rooster465.autos
+  sni: central-jawfish.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 19'
+- name: '[H] 🇸🇬 新加坡 14'
   network: tcp
-  password: CF68213490
-  port: '443'
-  server: normal-macaque.rooster465.autos
-  skip-cert-verify: false
-  sni: normal-macaque.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 19'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: rested-osprey.rooster465.autos
-  skip-cert-verify: false
-  sni: rested-osprey.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 20'
   password: CF68213490
   port: '443'
   server: summary-lemming.rooster465.autos
@@ -541,94 +418,15 @@ proxies:
   sni: summary-lemming.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 20'
-  network: tcp
+- name: '[H] 🇯🇵 日本 16'
   password: CF68213490
   port: '443'
-  server: free-hare.rooster465.autos
+  server: evolving-mollusk.rooster465.autos
   skip-cert-verify: false
-  sni: free-hare.rooster465.autos
+  sni: evolving-mollusk.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇩🇪 德国 06'
-  password: KV63147582
-  port: '443'
-  server: evolving-baboon.rooster465.autos
-  skip-cert-verify: false
-  sni: evolving-baboon.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 21'
-  network: ws
-  password: '666'
-  port: '443'
-  server: www.cnae.top
-  skip-cert-verify: false
-  sni: yg3u2.ncc0.n06.hh.hhhdl.kdns.fr
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /glasspanel/guest000_0_5de14443985f/
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 15'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: '2377'
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- name: '[H] 🇯🇵 日本 21'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: 13.115.229.63
-  skip-cert-verify: false
-  sni: alert-redfish.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 22'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: 35.72.9.75
-  skip-cert-verify: false
-  sni: caring-wallaby.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 23'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: 43.207.117.135
-  skip-cert-verify: false
-  sni: eminent-panther.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 24'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: 52.195.207.214
-  skip-cert-verify: false
-  sni: rested-osprey.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 22'
-  network: tcp
-  password: CF68213490
-  port: '443'
-  server: 54.255.216.250
-  skip-cert-verify: false
-  sni: musical-terrier.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇸🇬 新加坡 23'
+- name: '[H] 🇸🇬 新加坡 15'
   network: tcp
   password: CF68213490
   port: '443'
@@ -637,7 +435,7 @@ proxies:
   sni: evolving-platypus.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 24'
+- name: '[H] 🇸🇬 新加坡 16'
   network: tcp
   password: CF68213490
   port: '443'
@@ -646,25 +444,138 @@ proxies:
   sni: gentle-raptor.rooster465.autos
   type: trojan
   udp: true
+- name: '[H] 🇸🇬 新加坡 17'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: bright-cicada.rooster465.autos
+  skip-cert-verify: false
+  sni: bright-cicada.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇰🇷 韩国 02'
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: gentle-mastiff.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-mastiff.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇰🇷 韩国 03'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: pure-ram.rooster465.autos
+  skip-cert-verify: false
+  sni: pure-ram.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 18'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: vast-werewolf.rooster465.autos
+  skip-cert-verify: false
+  sni: vast-werewolf.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 19'
+  password: CF68213490
+  port: '443'
+  server: powerful-troll.rooster465.autos
+  skip-cert-verify: false
+  sni: powerful-troll.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 20'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: modest-bat.rooster465.autos
+  skip-cert-verify: false
+  sni: modest-bat.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 21'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: immense-eagle.rooster465.autos
+  skip-cert-verify: false
+  sni: immense-eagle.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 22'
+  password: CF68213490
+  port: '443'
+  server: tight-gator.rooster465.autos
+  skip-cert-verify: false
+  sni: tight-gator.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 23'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: internal-krill.rooster465.autos
+  skip-cert-verify: false
+  sni: internal-krill.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇯🇵 日本 17'
+  network: tcp
+  password: CF68213490
+  port: '443'
+  server: adapting-giraffe.rooster465.autos
+  skip-cert-verify: false
+  sni: adapting-giraffe.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 24'
+  network: tcp
+  password: CF68213490
+  port: 443
+  server: normal-macaque.rooster465.autos
+  skip-cert-verify: false
+  sni: normal-macaque.rooster465.autos
+  type: trojan
+  udp: true
 - name: '[H] 🇸🇬 新加坡 25'
   network: tcp
   password: CF68213490
-  port: '443'
-  server: grateful-owl.rooster465.autos
+  port: 443
+  server: intimate-moray.rooster465.autos
   skip-cert-verify: false
-  sni: grateful-owl.rooster465.autos
+  sni: intimate-moray.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 25'
+- name: '[H] 🇯🇵 日本 19'
   network: tcp
   password: CF68213490
-  port: '443'
-  server: immune-mullet.rooster465.autos
+  port: 443
+  server: 35.72.9.75
   skip-cert-verify: false
-  sni: immune-mullet.rooster465.autos
+  sni: caring-wallaby.rooster465.autos
   type: trojan
   udp: true
-- name: '[I] 🇩🇪 德国 09'
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 15'
+  network: ws
+  port: 16626
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 45efc1d9-29c2-46ce-a32a-93863e7d84ae
+  ws-opts:
+    headers:
+      Host: 2310fae741725b270145f3c336f651b5.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: '[I] 🇩🇪 德国 05'
   network: ws
   password: humanity
   port: 443
@@ -686,7 +597,7 @@ proxies:
     headers:
       Host: www.multiplydose.com
     path: '%2Fassignment'
-- name: '[I] 🇭🇰 香港 08'
+- name: '[I] 🇭🇰 香港 09'
   network: ws
   password: '521314'
   port: 443
@@ -697,7 +608,7 @@ proxies:
     headers:
       Host: tjplay.lxdxo.kdns.fr
     path: '%2F'
-- name: '[I] 🇺🇸 美国 20'
+- name: '[I] 🇺🇸 美国 17'
   password: '3632736327'
   port: 2888
   server: us04021322.tmdsb.org
@@ -718,13 +629,13 @@ proxies:
       Host: zt-ai.cloud
     path: /v2ray
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 21'
+  name: '[I] 🇺🇸 美国 18'
   password: 3t21e/P6fxeSULmI2S4f0mJ3q3b2TiQO
   port: 8388
   server: 43.173.98.184
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 01'
   password: 32c0ea6e823341a2
   port: 20123
   server: 185.22.154.254
