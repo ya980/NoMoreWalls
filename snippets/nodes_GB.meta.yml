@@ -1,8 +1,129 @@
 proxies:
-- name: '[E] 🇬🇧 英国 01'
+- name: '[B] 🇬🇧 英国 01'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[B] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: '[B] 🇬🇧 英国 03'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[B] 🇬🇧 英国 04'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '[B] 🇬🇧 英国 05'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[E] 🇬🇧 英国 06'
   password: grape_288923
   port: 8080
   server: 82.22.53.30
   sni: grape-coffee-fi.gleeze.com
   tls: false
   type: hysteria2
+- http-opts:
+    headers:
+      Host:
+      - www.icloud.com
+    path:
+    - /
+  name: '[H] 🇬🇧 英国 07'
+  network: http
+  port: '8090'
+  server: s5.cnavippanel.com
+  type: vless
+  udp: true
+  uuid: 2d0c58db-8e93-41b4-bc37-00e27e6f83f7
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 08'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: yuKSmrb2MumCllTTmBJiuNTQcGxEaNhqmZVR8dVjLwI
+    short-id: '!!str d1c2b3a4'
+  server: hudrososov.blog
+  servername: hudrososov.blog
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2428711f-5117-46e9-a2cb-741797a60ed8
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 09'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-fi.emrata.top
+  servername: pro-fi.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01bd15c8-835f-4210-a730-770a0fa505f6
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇬🇧 英国 10'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-it.emrata.top
+  servername: pro-it.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 522e84a6-2f0b-4109-901d-dbf05b60ce59
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 11'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: uY-4wMHFY1pD8SIwHBfcxVRdolB7NAJIWIbYjaG8iw0
+    short-id: '!!str '
+  server: pro-us.emrata.top
+  servername: pro-us.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 522e84a6-2f0b-4109-901d-dbf05b60ce59
+  xudp: true
