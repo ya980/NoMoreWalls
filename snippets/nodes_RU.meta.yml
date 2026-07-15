@@ -1,9 +1,105 @@
 proxies:
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 95.163.211.150
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f8923d5-77b8-4046-9899-6892dde4ef32
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 95.163.211.165
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 44e084a7-4928-4492-b646-7dc417066576
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: nfkwd9xJCoNuWrvvieBB9VfpcDldsARAdFPL0dF5A1Q
+    short-id: '!!str 305570274c0c72cc'
+  server: 213.189.217.79
+  servername: ru.hagrid-connected.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7499f0a0-3670-4cf6-a31c-ad4cd943cf18
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 04'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: X3_wpAsAUS1ajiuResGGrHQo8aMT1KlbMeMWAFk1jX8
+    short-id: '!!str '
+  server: 158.160.243.64
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d9f0d148-991d-0064-a388-c3b69a0534df
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 05'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 213.171.28.202
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f8923d5-77b8-4046-9899-6892dde4ef32
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 87.242.86.56
+  servername: sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f8923d5-77b8-4046-9899-6892dde4ef32
+  xudp: true
 - alpn:
   - h3
   down: ''
   fingerprint: ''
-  name: '[H] 🇷🇺 俄罗斯 01'
+  name: '[H] 🇷🇺 俄罗斯 07'
   obfs: ''
   obfs-password: ''
   password: 356c6c63-0ef7-4c45-a092-742d09b925c3
@@ -14,18 +110,19 @@ proxies:
   type: hysteria2
   up: ''
 - client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 02'
-  network: tcp
-  port: '443'
+  name: '[I] 🇷🇺 俄罗斯 08'
+  port: 443
   reality-opts:
-    public-key: R27DVC-KJRwzorKGz7tlPNeKs0R-gZnW1_qI6gGXVC8
-    short-id: '!!str 45ba24f429ad1f28'
-  server: ru.vrsvpn.com
-  servername: web.max.ru
-  tls: true
+    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
+    short-id: '!!str 1559b440'
+  server: 77.110.113.188
+  servername: www.samsung.com
+  tls: false
   type: vless
-  udp: true
-  uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384
-  xudp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+- cipher: aes-256-gcm
+  name: '[I] 🇷🇺 俄罗斯 09'
+  password: 32c0ea6e823341a2
+  port: 20123
+  server: 185.22.154.254
+  type: ss
