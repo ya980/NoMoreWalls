@@ -1,15 +1,29 @@
 proxies:
 - name: '[E] 🇬🇧 英国 01'
-  password: 88f839f2-c3c0-487d-aac3-f8c089d2369d
-  port: 55000
-  server: 45.154.205.25
-  skip-cert-verify: true
+  password: grape_288923
+  port: 8080
+  server: 82.22.53.30
+  sni: grape-coffee-fi.gleeze.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇬🇧 英国 02'
+  network: ws
+  port: '8880'
+  server: amir.amirport.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6991d596-745e-448c-9da4-cfc9dfde6f71
+  ws-opts:
+    headers:
+      Host: amir.amirport.ir
+    path: /
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 02'
+  name: '[H] 🇬🇧 英国 03'
   network: tcp
   port: '443'
   reality-opts:

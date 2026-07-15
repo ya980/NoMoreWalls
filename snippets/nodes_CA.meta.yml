@@ -1,5 +1,42 @@
 proxies:
-- name: '[I] 🇨🇦 加拿大 01'
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 01'
+  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  port: 8443
+  server: aestheticperforator.ru
+  skip-cert-verify: false
+  sni: aestheticperforator.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 02'
+  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  port: 8443
+  server: aestheticperforator.ru
+  skip-cert-verify: false
+  sni: aestheticperforator.ru
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇨🇦 加拿大 03'
+  obfs-password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  port: 8443
+  server: aestheticperforator.ru
+  skip-cert-verify: true
+  sni: aestheticperforator.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 04'
+  obfs-password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  password: 48139d20-931e-4e2b-83f5-8ea97d226c18
+  port: 8443
+  server: aestheticperforator.ru
+  sni: aestheticperforator.ru
+  tls: false
+  type: hysteria2
+- name: '[I] 🇨🇦 加拿大 05'
   network: ws
   password: humanity
   port: 443
@@ -10,7 +47,7 @@ proxies:
     headers:
       Host: www.multiplydose.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 02'
+- name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: 8880
   server: 172.67.161.104
@@ -21,7 +58,7 @@ proxies:
     headers:
       Host: nameless-poetry-12fb.8-0a2.workers.dev
     path: '%2F'
-- name: '[I] 🇨🇦 加拿大 03'
+- name: '[I] 🇨🇦 加拿大 07'
   network: ws
   port: 8880
   server: www.baipiao.eu.org
@@ -34,7 +71,7 @@ proxies:
     path: /pyip=ProxyIP.KR.CMLiussss.net
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇦 加拿大 04'
+  name: '[I] 🇨🇦 加拿大 08'
   network: ws
   port: 443
   server: zt-ai.cloud
