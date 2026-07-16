@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 24'
+  name: '[E] 🌍 其它地区 21'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -15,7 +15,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 25'
+  name: '[E] 🌍 其它地区 22'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -29,7 +29,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 26'
+  name: '[E] 🌍 其它地区 23'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -80,7 +80,7 @@ proxies:
       Host: ''
     path: /warp
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 27'
+  name: '[F] 🌍 其它地区 24'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -200,27 +200,48 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 09'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
 - name: '[H] 🇸🇬 新加坡 07'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
   server: 188.164.248.122
+  skip-cert-verify: true
   sni: space.byu.id.yxls.eu.cc
   type: trojan
   ws-opts:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
+- alterId: '0'
+  cipher: auto
+  name: '[H] 🇨🇦 加拿大 04'
+  network: tcp
+  port: '18339'
+  server: c87s5.portablesubmarines.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43
+  xudp: true
+- name: '[H] 🇸🇬 新加坡 08'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: driving-antelope.rooster465.autos
+  skip-cert-verify: false
+  sni: driving-antelope.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[H] 🇸🇬 新加坡 09'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: topical-shark.rooster465.autos
+  skip-cert-verify: false
+  sni: topical-shark.rooster465.autos
+  type: trojan
+  udp: true
 - name: '[H] 🇰🇷 韩国 01'
   network: tcp
   password: NQ26071394
@@ -230,7 +251,7 @@ proxies:
   sni: thorough-foxhound.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 17'
+- name: '[H] 🇯🇵 日本 14'
   network: tcp
   password: NQ26071394
   port: '443'
@@ -239,7 +260,7 @@ proxies:
   sni: ace-liger.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 09'
+- name: '[H] 🇸🇬 新加坡 10'
   network: tcp
   password: NQ26071394
   port: '443'
@@ -248,7 +269,7 @@ proxies:
   sni: bold-eagle.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 10'
+- name: '[H] 🇸🇬 新加坡 11'
   network: tcp
   password: NQ26071394
   port: '443'
@@ -266,7 +287,7 @@ proxies:
   sni: gentle-platypus.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇸🇬 新加坡 11'
+- name: '[H] 🇸🇬 新加坡 12'
   network: tcp
   password: NQ26071394
   port: '443'
@@ -275,25 +296,7 @@ proxies:
   sni: amazing-troll.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇯🇵 日本 18'
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: arriving-koala.rooster465.autos
-  skip-cert-verify: false
-  sni: arriving-koala.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[H] 🇯🇵 日本 19'
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: direct-hawk.rooster465.autos
-  skip-cert-verify: false
-  sni: direct-hawk.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[I] 🇯🇵 日本 20'
+- name: '[I] 🇯🇵 日本 15'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
@@ -306,7 +309,7 @@ proxies:
   server: r3mrcg001287h3p.cybervena.com
   type: ss
 - cipher: aes-256-gcm
-  name: '[I] 🇨🇦 加拿大 09'
+  name: '[I] 🇨🇦 加拿大 10'
   password: 2803361d6c196af8
   port: 20111
   server: 50.114.177.235
