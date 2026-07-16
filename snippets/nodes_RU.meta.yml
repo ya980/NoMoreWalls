@@ -1,20 +1,17 @@
 proxies:
-- auth: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇷🇺 俄罗斯 01'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 8443
-  server: fl02.auragg.org
-  skip-cert-verify: true
-  sni: fl02.auragg.org
-  type: hysteria2
-- client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 02'
-  port: 443
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
-    short-id: '!!str 1559b440'
-  server: 77.110.113.188
-  servername: www.samsung.com
-  tls: false
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: rf1.o4ka-internet.com
+  servername: rf1.o4ka-internet.com
+  tls: true
   type: vless
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  udp: true
+  uuid: a3114afe-ea45-4705-b3c5-4e7162fad687
+  xudp: true

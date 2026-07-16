@@ -1,24 +1,29 @@
 proxies:
 - name: '[D] 🇩🇪 德国 01'
-  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  port: 8449
-  server: jongjmi.odnako.site
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: 92QgVKZjWa
+  port: 40460
+  server: 91.107.152.188
   skip-cert-verify: true
-  sni: jongjmi.odnako.site
+  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 02'
-  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  port: 8449
-  server: soskeynets.odnako.site
-  sni: jongjmi.odnako.site
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: NZC2w2V2NQ
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: 92QgVKZjWa
-  port: 40460
+  password: Ov5kSglMCd
+  port: 31999
   server: 91.107.152.188
   skip-cert-verify: true
   sni: www.amd.com
@@ -65,53 +70,75 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇩🇪 德国 08'
-  network: ws
-  port: 2096
-  server: 104.26.5.224
-  servername: vp23.cc.cd
+  network: xhttp
+  port: '2056'
+  reality-opts:
+    public-key: qXZfqpQScWQea7Kpr69if9iHhiA7IMLwUgZflIvuWh8
+    short-id: '!!str 4eee3ae71639f189'
+  server: c.bazardam.shop
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp23.cc.cd
-    path: /
+  uuid: 3f646f4d-b96e-4ba4-b562-0fd4854391a8
+  xhttp-opts:
+    host: hostname
+    mode: auto
+    path: /path
+    x-padding-bytes: 100-1000
+  xudp: true
 - client-fingerprint: chrome
   name: '[H] 🇩🇪 德国 09'
   network: ws
-  port: 8443
-  server: 104.26.8.249
-  servername: vp41.cc.cd
+  port: 443
+  server: 104.26.1.53
+  servername: vp26.cc.cd
   tls: true
   type: vless
   udp: true
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: vp41.cc.cd
+      Host: vp26.cc.cd
     path: /
 - client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇩🇪 德国 10'
-  network: xhttp
-  port: 8443
-  server: love.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
+    short-id: '!!str f0eb800bd980b00b'
+  server: sof.edgeptr.org
+  servername: www.lovelive-anime.jp
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
+  uuid: 7f58bef5-859c-4fe2-840b-9183b1c8320d
   xudp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 11'
+  password: amazonskr05
+  port: '443'
+  server: 63.183.207.82
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 12'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: quiet-condor.rooster465.autos
+  skip-cert-verify: false
+  sni: quiet-condor.rooster465.autos
+  type: trojan
+  udp: true
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 11'
+  name: '[I] 🇩🇪 德国 13'
   network: tcp
   port: 443
   reality-opts:

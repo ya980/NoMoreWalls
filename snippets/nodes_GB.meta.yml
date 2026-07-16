@@ -16,7 +16,44 @@ proxies:
   sni: grape-coffee-fi.gleeze.com
   tls: false
   type: hysteria2
-- name: '[I] 🇬🇧 英国 03'
+- client-fingerprint: qq
+  encryption: none
+  name: '[H] 🇬🇧 英国 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
+    short-id: '!!str 1559b440'
+  server: 77.110.113.188
+  servername: www.samsung.com
+  tls: false
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: random
+  encryption: none
+  name: '[H] 🇬🇧 英国 04'
+  network: ws
+  port: '8443'
+  server: 104.17.148.22
+  servername: ips-good.parsianboton.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 81b8aac5-e22e-46aa-91f4-bdf6a686be51
+  ws-opts:
+    headers:
+      Host: ips-good.parsianboton.ir
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /
+  xudp: true
+- name: '[I] 🇬🇧 英国 05'
   network: ws
   port: 2083
   server: 91.193.58.17

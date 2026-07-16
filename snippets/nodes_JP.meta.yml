@@ -40,22 +40,36 @@ proxies:
 - client-fingerprint: chrome
   name: '[H] 🇯🇵 日本 05'
   network: ws
-  port: 2053
-  server: 162.159.38.42
-  servername: vp21.cc.cd
+  port: 8443
+  server: 108.162.198.171
+  servername: vp29.cc.cd
   tls: true
   type: vless
   udp: true
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: vp21.cc.cd
+      Host: vp29.cc.cd
     path: /
 - client-fingerprint: chrome
   name: '[H] 🇯🇵 日本 06'
   network: ws
-  port: 443
-  server: 162.159.38.42
+  port: 2053
+  server: 103.106.228.126
+  servername: vp11.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp11.cc.cd
+    path: /
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 07'
+  network: ws
+  port: 8443
+  server: 162.159.45.62
   servername: vp20.cc.cd
   tls: true
   type: vless
@@ -66,63 +80,7 @@ proxies:
       Host: vp20.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 07'
-  network: ws
-  port: 8443
-  server: 108.162.198.177
-  servername: vp15.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp15.cc.cd
-    path: /
-- client-fingerprint: chrome
   name: '[H] 🇯🇵 日本 08'
-  network: ws
-  port: 443
-  server: 162.159.38.45
-  servername: vp25.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp25.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 09'
-  network: ws
-  port: 2096
-  server: 162.159.38.91
-  servername: vp17.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp17.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 10'
-  network: ws
-  port: 8443
-  server: 162.159.39.73
-  servername: vp14.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp14.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 11'
   network: ws
   port: 8443
   server: 162.159.38.230
@@ -136,7 +94,7 @@ proxies:
       Host: vp14.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 12'
+  name: '[H] 🇯🇵 日本 09'
   network: ws
   port: 2053
   server: 162.159.39.251
@@ -149,22 +107,7 @@ proxies:
     headers:
       Host: vp28.cc.cd
     path: /
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 13'
-  network: ws
-  port: 443
-  server: 162.159.39.211
-  servername: vp26.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp26.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 14'
+- name: '[H] 🇯🇵 日本 10'
   network: tcp
   password: NQ26071394
   port: '443'
@@ -173,14 +116,105 @@ proxies:
   sni: ace-liger.rooster465.autos
   type: trojan
   udp: true
-- name: '[I] 🇯🇵 日本 15'
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 11'
+  password: NQ26071394
+  port: '443'
+  server: arriving-koala.rooster465.autos
+  skip-cert-verify: false
+  sni: arriving-koala.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 12'
+  password: NQ26071394
+  port: '443'
+  server: direct-hawk.rooster465.autos
+  skip-cert-verify: false
+  sni: direct-hawk.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇯🇵 日本 13'
+  network: tcp
+  port: '37533'
+  reality-opts:
+    public-key: sMCL5iZlxohNM99-YH1tg56J74WL8ZO64rfcw95xdgQ
+    short-id: '!!str 72'
+  server: 172.81.102.142
+  servername: www.amazon.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1416a27c-edba-4822-90d5-728b4333114d
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 14'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: gentle-turtle.rooster465.autos
+  skip-cert-verify: false
+  sni: gentle-turtle.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 15'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: inviting-rabbit.rooster465.autos
+  skip-cert-verify: false
+  sni: inviting-rabbit.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 16'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: skilled-polliwog.rooster465.autos
+  skip-cert-verify: false
+  sni: skilled-polliwog.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: random
+  name: '[H] 🇯🇵 日本 17'
+  network: ws
+  port: '443'
+  server: 172.64.52.210
+  servername: cfh.evan00.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: d2a4ac9a-2fda-4a65-ab10-ec92d1897012
+  ws-opts:
+    headers:
+      Host: cfh.evan00.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/59.0.3071.115 Safari/537.36
+    path: /proxyip=sjc.o00o.ooo
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 18'
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: grand-grub.rooster465.autos
+  skip-cert-verify: false
+  sni: grand-grub.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[I] 🇯🇵 日本 19'
   password: OccIqeORGQwiNkwS
   port: 19128
   server: jpbgp.netvigor.cc
   sni: yazhou10.dynu.net
   type: trojan
 - flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 16'
+  name: '[I] 🇯🇵 日本 20'
   network: tcp
   port: 443
   server: s9959.gogocs.xyz
