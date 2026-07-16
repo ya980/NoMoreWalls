@@ -1,5 +1,14 @@
 proxies:
-- name: '[D] 🇫🇷 法国 01'
+- auth: 87qety_hERGP8Y9_jqier3gw_nA8Q34_B2
+  name: '[D] 🇫🇷 法国 01'
+  password: 87qety_hERGP8Y9_jqier3gw_nA8Q34_B2
+  port: 8443
+  server: 45.155.103.217
+  skip-cert-verify: true
+  sni: kamil-power-machine.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 02'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -7,13 +16,6 @@ proxies:
   server: 206.71.158.37
   skip-cert-verify: true
   sni: YAPC-1.afshin.ir
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 02'
-  password: 87qety_hERGP8Y9_jqier3gw_nA8Q34_B2
-  port: 8443
-  server: 45.155.103.217
-  sni: kamil-power-machine.roxa.org
   tls: false
   type: hysteria2
 - alpn:
@@ -31,19 +33,3 @@ proxies:
   type: tuic
   udp-relay-mode: native
   uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
-- client-fingerprint: ios
-  encryption: none
-  name: '[H] 🇫🇷 法国 04'
-  network: xhttp
-  port: '8443'
-  server: 104.21.19.240
-  servername: xh.hrmp.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3dc9f16e-a3c2-494a-9e06-b77ceb488a2c
-  xhttp-opts:
-    host: xh.hrmp.kdns.fr
-    mode: auto
-    path: /tirexxhttp
-  xudp: true
