@@ -12,16 +12,6 @@ proxies:
 - name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: V2RAYYNGVPN
-  port: 40460
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
   password: p3HaP2Lht6
   port: 40460
   server: 91.107.152.188
@@ -29,56 +19,65 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- encryption: none
-  grpc-opts:
+- grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless
+  name: '[H] 🇩🇪 德国 03'
+  network: grpc
+  port: 2085
+  server: 81.31.211.115
+  tls: false
+  type: vless
+  udp: true
+  uuid: f7c0db69-6963-4d7e-9743-8ef52c44c7b8
+- grpc-opts:
     grpc-service-name: vless
   name: '[H] 🇩🇪 德国 04'
   network: grpc
   port: '2085'
-  server: 81.31.211.118
+  server: 81.31.211.111
+  type: vless
+  udp: true
+  uuid: 3d244afc-60ef-468a-9b19-f4bbad7e8ef1
+  xudp: true
+- encryption: none
+  grpc-opts:
+    grpc-service-name: vless
+  name: '[H] 🇩🇪 德国 05'
+  network: grpc
+  port: '2085'
+  server: 81.31.211.110
   type: vless
   udp: true
   uuid: 3067642d-02fa-47e9-a6a2-fb5dda565969
   xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 05'
-  password: XG59623478
-  port: '443'
-  server: enabling-asp.rooster465.autos
-  skip-cert-verify: false
-  sni: enabling-asp.rooster465.autos
-  type: trojan
+- encryption: none
+  grpc-opts:
+    grpc-service-name: vless
+  name: '[H] 🇩🇪 德国 06'
+  network: grpc
+  port: '2085'
+  server: 81.31.211.108
+  type: vless
   udp: true
-- client-fingerprint: chrome
+  uuid: cebf31b3-a467-4b84-9dce-62bed1c26719
+  xudp: true
+- client-fingerprint: qq
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 06'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: PDBVcDR6o01XUpdNNZ6rutJ_DBqnF7VcDuWceHIpyE8
-    short-id: '!!str 8c4d9e1f'
-  server: 5.253.66.203
-  servername: cdn-up.perecbass.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
   name: '[H] 🇩🇪 德国 07'
-  network: raw
-  port: '25520'
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: CdbZitEgBioklscSAiU8eGR_sRvzLPrH3davu5DrNBc
-    short-id: '!!str a8de8bc1e9f5ef'
-  server: tv.myblog.org.tr
-  servername: yahoo.com
-  tls: true
+    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
+    short-id: '!!str 59eee550a1014198'
+  server: de10.buycloud.app
+  servername: de10.buycloud.app
+  skip-cert-verify: true
+  tls: false
   type: vless
   udp: true
-  uuid: db1aebd3-7599-4d9e-962f-0004ee87119e
+  uuid: bbae962a-b6e9-46e6-990c-6abf13e6b075
   xudp: true
 - client-fingerprint: chrome
   encryption: none
@@ -87,186 +86,138 @@ proxies:
   network: tcp
   port: '443'
   reality-opts:
-    public-key: 3rs3GXSan8G1G6kFcat6CNCjZeQjPxPnGJzQX3hak1o
-    short-id: '!!str 2bf3'
-  server: de01.janaj.space
-  servername: www.nvidia.com
+    public-key: PDBVcDR6o01XUpdNNZ6rutJ_DBqnF7VcDuWceHIpyE8
+    short-id: '!!str 0c6d3e2f'
+  server: 5.253.66.63
+  servername: cdn-up.perecbass.ru
   tls: true
   type: vless
   udp: true
-  uuid: 5c221de4-590b-41b8-8a3d-4c7dd6d0948f
+  uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692
   xudp: true
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
   name: '[H] 🇩🇪 德国 09'
-  network: tcp
-  port: '2443'
-  reality-opts:
-    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
-    short-id: '!!str 8f9d033ad6d2cebf'
-  server: ge3.cyphervpn.pro
-  servername: ge3.cyphervpn.pro
+  network: xhttp
+  port: 8443
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
   xudp: true
-- name: '[H] 🇩🇪 德国 10'
-  password: XG59623478
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 10'
+  network: tcp
+  password: OD90375861
   port: '443'
-  server: enabling-asp.rooster465.autos
+  server: together-insect.rooster465.autos
   skip-cert-verify: false
+  sni: together-insect.rooster465.autos
   type: trojan
   udp: true
-- name: '[H] 🇩🇪 德国 11'
-  network: ws
-  port: '2052'
-  server: freesocks.work
+- grpc-opts:
+    grpc-service-name: vless
+  name: '[H] 🇩🇪 德国 11'
+  network: grpc
+  port: '2085'
+  server: 81.31.211.119
   type: vless
   udp: true
-  uuid: 667b9ff0-6d1b-4b7d-9eab-d47272b45509
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
-    path: /api-v1
+  uuid: 3067642d-02fa-47e9-a6a2-fb5dda565969
   xudp: true
 - alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
   name: '[H] 🇩🇪 德国 12'
   network: xhttp
   port: '443'
-  server: 151.101.117.195
-  servername: manage.fastly.com
+  server: 167.82.101.210
+  servername: global.fastly.coM.
   tls: true
   type: vless
   udp: true
-  uuid: 0e827ac7-8c05-449c-9c7e-0e9b180996ce
+  uuid: 55f940c5-9ffb-4d41-992d-576a74cf7ba0
   xhttp-opts:
-    host: lunex.store
+    host: farangis.global.ssl.fastly.neT.
     mode: auto
-    path: /Lunex
+    path: /
     sc-max-each-post-bytes: 1000000
     sc-min-posts-interval-ms: 30
     x-padding-bytes: 100-1000
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 13'
+  network: tcp
+  port: '55555'
+  reality-opts:
+    public-key: XPuLE49PtDeixzwOmEHuMFSZexYDTQifZ7s99w5e4QY
+    short-id: '!!str 880eeeef4927eed5'
+  server: falkoraz.sav-savteam.iR
+  servername: yahoo.com.
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55f940c5-9ffb-4d41-992d-576a74cf7ba0
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 14'
+  network: ws
+  port: '2083'
+  server: hikvision-plus.com
+  servername: moz.boaza.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 85c40985-f109-410c-9657-4a2f52140bf0
+  ws-opts:
+    headers:
+      Host: moz.boaza.dpdns.org
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: safari
+  encryption: none
+  name: '[H] 🇩🇪 德国 15'
+  network: ws
+  port: '443'
+  server: s97944.cdn.ngenix.net
+  servername: s97944.cdn.ngenix.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: ab6a5359-0edf-41c3-8dfd-e4b005e80820
+  ws-opts:
+    headers:
+      Host: s97944.cdn.ngenix.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/50.0.2661.94 Safari/537.36
+    path: /v1/data/sync/
+  xudp: true
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 13'
+  name: '[H] 🇩🇪 德国 16'
   network: tcp
   port: '443'
   reality-opts:
     public-key: olcTApVIdrdt_bsMJaLsZ-8bYR73oMNzgCZJuR_4sFA
     short-id: '!!str 7c83683ed7507a69'
-  server: 77.105.169.44
+  server: 77.223.99.95
   servername: dzen.ru
   tls: true
   type: vless
   udp: true
-  uuid: 1281ef13-f1cd-493b-903e-4c2f4ffe1eba
+  uuid: e5573bd4-6b10-4010-a67d-54ea2b51e8bf
   xudp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 14'
-  network: ws
-  port: '2052'
-  server: undef.network
-  type: vless
-  udp: true
-  uuid: 667b9ff0-6d1b-4b7d-9eab-d47272b45509
-  ws-opts:
-    headers:
-      Host: uwu.blueknightnet.qzz.io
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/42.0.2311.90 Safari/537.36
-    path: /api-v1
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 15'
-  network: raw
-  port: '25567'
-  reality-opts:
-    public-key: tsxzBG6xHNl1Nu8XPpd3hWk_zPGrpFrv2Z-difc3nGY
-    short-id: '!!str a5bd715847213387'
-  server: 78.159.245.44
-  servername: iv.kommersant.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 87844308-7663-450e-af2c-3cd65e1da4b7
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 16'
-  network: xhttp
-  port: '2083'
-  server: securitytrails.com
-  servername: cdn.myneverland.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 957360f2-2ec4-4638-8cf3-fffc6cc57aa1
-  xhttp-opts:
-    host: cdn.myneverland.dpdns.org
-    mode: auto
-    path: /forall
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 17'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: WrgS5ITjOMoZjMYOBi5wmTREOuRce_hTiR7avUsqsg8
-    short-id: '!!str '
-  server: germnode1.izzzyvpn.ru
-  servername: ads.x5.ru:443
-  tls: true
-  type: vless
-  udp: true
-  uuid: aea30a00-4cbb-4acc-b1c2-cb53a7522d09
-  xudp: true
-- encryption: none
-  grpc-opts:
-    grpc-service-name: vless
-  name: '[H] 🇩🇪 德国 18'
-  network: grpc
-  port: '2085'
-  server: 81.31.211.113
-  type: vless
-  udp: true
-  uuid: cebf31b3-a467-4b84-9dce-62bed1c26719
-  xudp: true
-- name: '[I] 🇩🇪 德国 19'
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[I] 🇩🇪 德国 20'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
-  uuid: 7e07dd97-784e-4d6a-99c6-acaea4708d88
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048

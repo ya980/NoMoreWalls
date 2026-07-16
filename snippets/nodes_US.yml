@@ -1,17 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 07'
-  network: tcp
-  port: '443'
-  server: 165.140.216.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 08'
+  name: '[E] 🇺🇸 美国 06'
   network: ws
   port: '8444'
   server: 45.205.31.175
@@ -25,7 +15,7 @@ proxies:
     path: /warp
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 09'
+  name: '[E] 🇺🇸 美国 07'
   network: ws
   port: '443'
   server: 45.205.31.175
@@ -39,7 +29,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 10'
+  name: '[E] 🇺🇸 美国 08'
   network: ws
   port: '443'
   server: 45.205.31.175
@@ -53,7 +43,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 11'
+  name: '[E] 🇺🇸 美国 09'
   network: tcp
   port: '10086'
   server: 45.205.31.175
@@ -61,62 +51,27 @@ proxies:
   tls: true
   type: vmess
   uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
+- name: '[F] 🇺🇸 美国 10'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 18.167.68.98
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇺🇸 美国 11'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 16.163.103.15
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: '[F] 🇺🇸 美国 12'
   network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.77.5
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇺🇸 美国 13'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.123.154
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇺🇸 美国 14'
-  network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 95.40.32.2
+  port: 44265
+  server: 95.40.42.248
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 19'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 20'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)6db9d46:44797
-    mode: tls
-  port: '2377'
-  server: 88.210.36.109
-  type: ss
-  udp: true
-- name: '[I] 🇺🇸 美国 24'
-  password: '!!str 3632736327'
-  port: 2888
-  server: us04021322.tmdsb.org
-  sni: us04021322.tmdsb.org
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 25'
-  password: 3t21e/P6fxeSULmI2S4f0mJ3q3b2TiQO
-  port: 8388
-  server: 43.173.98.184
-  type: ss

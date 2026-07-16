@@ -23,14 +23,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
-  password: Hy2@SiLiCon2026!
-  port: 8443
-  server: 43.130.7.3
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
   password: Xiao456.
   port: 5443
   server: 45.205.31.175
@@ -38,7 +30,7 @@ proxies:
   sni: vpn.cyedu.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 05'
   password: Xiao456.
   port: 8443
   server: 45.205.31.175
@@ -48,17 +40,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 07'
-  network: tcp
-  port: '443'
-  server: 165.140.216.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 08'
+  name: '[E] 🇺🇸 美国 06'
   network: ws
   port: '8444'
   server: 45.205.31.175
@@ -72,7 +54,7 @@ proxies:
     path: /warp
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 09'
+  name: '[E] 🇺🇸 美国 07'
   network: ws
   port: '443'
   server: 45.205.31.175
@@ -86,7 +68,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 10'
+  name: '[E] 🇺🇸 美国 08'
   network: ws
   port: '443'
   server: 45.205.31.175
@@ -100,7 +82,7 @@ proxies:
     path: /ws
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 11'
+  name: '[E] 🇺🇸 美国 09'
   network: tcp
   port: '10086'
   server: 45.205.31.175
@@ -108,131 +90,76 @@ proxies:
   tls: true
   type: vmess
   uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
+- name: '[F] 🇺🇸 美国 10'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 18.167.68.98
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇺🇸 美国 11'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 49277
+  server: 16.163.103.15
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
 - name: '[F] 🇺🇸 美国 12'
   network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.77.5
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇺🇸 美国 13'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.123.154
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇺🇸 美国 14'
-  network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 95.40.32.2
+  port: 44265
+  server: 95.40.42.248
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alpn:
+  - h3
+  - h2
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 15'
+  name: '[H] 🇺🇸 美国 13'
   network: ws
   port: '443'
-  server: f35-ansooyee.up.railway.app
-  servername: f35-ansooyee.up.railway.app
+  server: marzban-node-production-7017.up.railway.app
+  servername: marzban-node-production-7017.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 69209652-ebd8-6e2c-93c8-cbc7009824c9
+  uuid: e3b61686-574f-4c57-b016-0e6d060f0b4f
   ws-opts:
     headers:
-      Host: f35-ansooyee.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws/69209652-ebd8-6e2c-93c8-cbc7009824c9
+      Host: marzban-node-production-7017.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /vless
   xudp: true
 - alpn:
+  - h2
   - http/1.1
+  - h3
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 16'
+  name: '[H] 🇺🇸 美国 14'
   network: ws
   port: '443'
-  server: soskeynets-production-b766.up.railway.app
-  servername: test-production-b766.up.railway.app
+  server: 198.202.211.1
+  servername: sinavm3.soft10.ir
   tls: true
   type: vless
   udp: true
-  uuid: eb87009d-ce35-731c-853e-a72a8fda4f91
+  uuid: 963c91fc-1ce7-4fc7-806f-0a2e7b03bfee
   ws-opts:
     headers:
-      Host: test-production-b766.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /ws/eb87009d-ce35-731c-853e-a72a8fda4f91
+      Host: sinavm3.soft10.ir
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 17'
-  network: ws
-  port: '443'
-  server: xhttp-production-315c.up.railway.app
-  servername: xhttp-production-315c.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5285a0ee-fb1b-01c6-7d3d-452fdbe0d09a
-  ws-opts:
-    headers:
-      Host: xhttp-production-315c.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /ws/5285a0ee-fb1b-01c6-7d3d-452fdbe0d09a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 18'
-  network: tcp
-  port: '51963'
-  reality-opts:
-    public-key: 96R745HIUgKX33-bqiqB5F9uQFTacNEwP2W4ZYD7kVE
-    short-id: '!!str e2'
-  server: panel1.legendcr.ir
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec99e107-8d2f-4767-a9ac-689424a55d3a
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 19'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 20'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)6db9d46:44797
-    mode: tls
-  port: '2377'
-  server: 88.210.36.109
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 21'
+  name: '[H] 🇺🇸 美国 15'
   network: tcp
   port: '40082'
   reality-opts:
@@ -245,27 +172,62 @@ proxies:
   udp: true
   uuid: 26bb3a99-4583-4744-bb8e-a5c823ad29e9
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: '[H] 🇺🇸 美国 22'
+- name: '[H] 🇺🇸 美国 16'
   network: ws
-  port: '443'
-  server: x4g-production-4da6.up.railway.app
-  servername: x4g-production-4da6.up.railway.app
+  port: 443
+  server: 104.19.33.83
+  servername: ourfast.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 8bf78d04-b9f6-5fb8-973d-ed1d29bf0d87
+  uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
   ws-opts:
     headers:
-      Host: x4g-production-4da6.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /ws/8bf78d04-b9f6-5fb8-973d-ed1d29bf0d87
+      Host: ourfast.ccwu.cc
+    path: /
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 17'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: '!!str 43dcff53849b81e6'
+  server: 89.105.219.132
+  servername: nl.quattro-tech.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
   xudp: true
-- name: '[I] 🇺🇸 美国 23'
+- name: '[H] 🇺🇸 美国 18'
+  network: ws
+  port: '2095'
+  server: au273g4s.cf.3666888.xyz
+  type: vless
+  udp: true
+  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
+  ws-opts:
+    headers:
+      Host: 7cflukl1.cnm.qzz.io
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /sub
+  xudp: true
+- name: '[I] 🇺🇸 美国 19'
+  network: ws
+  port: 443
+  server: 199.232.22.39
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 891710f4-45f3-41b1-99a6-6f1510f83c10
+  ws-opts:
+    headers:
+      Host: pan21.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed
+- name: '[I] 🇺🇸 美国 20'
   network: ws
   port: 443
   server: 1.tls.fastly.veraspeed.ir
@@ -277,15 +239,37 @@ proxies:
     headers:
       Host: pan21.global.ssl.fastly.net
     path: '%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed'
-- name: '[I] 🇺🇸 美国 24'
-  password: '!!str 3632736327'
-  port: 2888
-  server: us04021322.tmdsb.org
-  sni: us04021322.tmdsb.org
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 25'
-  password: 3t21e/P6fxeSULmI2S4f0mJ3q3b2TiQO
-  port: 8388
-  server: 43.173.98.184
-  type: ss
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[I] 🇺🇸 美国 21'
+  network: xhttp
+  port: 443
+  server: 199.232.206.245
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 92f3873f-78a4-4f08-adb2-825ca7f34a9a
+  ws-opts:
+    headers:
+      Host: networkzvx.global.ssl.fastly.net
+    path: /da
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[I] 🇺🇸 美国 22'
+  network: xhttp
+  port: 443
+  server: 151.101.56.7
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 92f3873f-78a4-4f08-adb2-825ca7f34a9a
+  ws-opts:
+    headers:
+      Host: networkzvx.global.ssl.fastly.net
+    path: /da

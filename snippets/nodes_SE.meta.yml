@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] SE 01'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: '!!str ff776ff77be48b88'
+  server: swed1.helper-internet.com
+  servername: swed1.helper-internet.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 59da5351-5151-417d-b2f7-6923848b717e
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] SE 02'
+  port: 443
+  reality-opts:
+    public-key: kWLch3EWX5VBdNU5EiTNQhMwaOWNUtqR-ftUcc-B6gc
+    short-id: '!!str 43dabaaf5e906033'
+  server: 2.26.124.69
+  servername: site.rumedia-cdn.com
+  tls: false
+  type: vless
+  uuid: 73db72eb-eae3-4623-9395-a5eedc584569
