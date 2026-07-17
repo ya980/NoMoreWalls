@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇭🇰 香港 01'
+- name: '[D] 🇭🇰 香港 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
@@ -7,7 +7,7 @@ proxies:
   sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
-- name: '[E] 🇭🇰 香港 02'
+- name: '[D] 🇭🇰 香港 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 202.146.222.29
@@ -17,14 +17,14 @@ proxies:
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 03'
+  name: '[E] 🇭🇰 香港 03'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 04'
+- name: '[E] 🇭🇰 香港 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 13118
@@ -32,7 +32,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 05'
+- name: '[E] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -40,7 +40,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 27167
@@ -50,7 +50,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -58,3 +58,35 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- client-fingerprint: chrome
+  name: '[G] 🇭🇰 香港 08'
+  network: ws
+  port: 443
+  server: proxyip.hk.cmliussss.net
+  servername: vp10.pages.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp10.pages.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇭🇰 香港 09'
+  network: ws
+  port: '8443'
+  server: 185.241.42.81
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  xudp: true
