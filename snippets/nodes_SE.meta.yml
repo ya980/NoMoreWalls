@@ -1,13 +1,16 @@
 proxies:
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] SE 01'
-  port: 443
+  name: '[H] SE 01'
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: kWLch3EWX5VBdNU5EiTNQhMwaOWNUtqR-ftUcc-B6gc
-    short-id: '!!str 43dabaaf5e906033'
-  server: 2.26.124.69
-  servername: site.rumedia-cdn.com
-  tls: false
+    public-key: dotcvtU55OCUPuizRM0JAkzxHiaf1p0-ZgnxeAgrh3Y
+    short-id: '!!str 32c12b179291c5e8'
+  server: swed1.panel11.ru
+  servername: swed1.panel11.ru
+  tls: true
   type: vless
-  uuid: 73db72eb-eae3-4623-9395-a5eedc584569
+  udp: true
+  uuid: aeb9e730-5f9e-404d-a8af-9e2e68dc7f5d
+  xudp: true
