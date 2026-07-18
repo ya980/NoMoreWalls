@@ -1,5 +1,20 @@
 proxies:
 - name: '[D] 🇭🇰 香港 01'
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[D] 🇭🇰 香港 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  tls: false
+  type: hysteria2
+- name: '[D] 🇭🇰 香港 03'
   password: c6d33e4e-c01a-4ec0-82d3-c4c18f451e4c
   port: 40000
   server: 128.241.227.213
@@ -7,16 +22,30 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇭🇰 香港 04'
+  network: ws
+  port: '443'
+  server: 221.204.41.88
+  servername: speeches-obligations-view-epinions.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
+  ws-opts:
+    headers:
+      Host: speeches-obligations-view-epinions.trycloudflare.com
+    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
+  name: '[E] 🇭🇰 香港 05'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 03'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
@@ -24,7 +53,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 04'
+- name: '[E] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -32,7 +61,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 05'
+- name: '[E] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -42,7 +71,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 09'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -53,20 +82,20 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇭🇰 香港 07'
+  name: '[G] 🇭🇰 香港 10'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: CdNLdccy_ALnjDvwZa14eP31CoJ_BLqJAS2OLCNwogg
-    short-id: '!!str d19dcb524604e214'
-  server: z-hkl.h.w.466688.xyz
+    public-key: j0mfhbzohqV1W_PaNeYyKEVuaiK1-A9k2AQJQK7ZDzQ
+    short-id: '!!str 4aeab483de4dd53a'
+  server: z-hk.h.w.466688.xyz
   servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 1b6de5d8-3285-422c-b6fe-2989918f528b
+  uuid: 904183f1-0495-478b-b11f-1fe12e84ad8b
   xudp: true
-- name: '[I] 🇭🇰 香港 08'
+- name: '[I] 🇭🇰 香港 11'
   network: ws
   port: 8443
   server: 185.241.42.81
