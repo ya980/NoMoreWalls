@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 23'
+  name: '[D] 🌍 其它地区 22'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -15,7 +15,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 24'
+  name: '[D] 🌍 其它地区 23'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -59,7 +59,7 @@ proxies:
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 25'
+  name: '[D] 🌍 其它地区 24'
   network: tcp
   port: '10046'
   server: family.bucket.x9.kfc-520.com
@@ -88,7 +88,7 @@ proxies:
   type: vmess
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 26'
+  name: '[E] 🌍 其它地区 25'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -212,20 +212,7 @@ proxies:
   name: '[G] 🇩🇪 德国 09'
   password: amazonskr05
   port: 443
-  server: 3.71.12.190
-  type: ss
-- name: '[G] 🌍 其它地区 27'
-  password: 2eutknankxtbgkwcajzt
-  port: 52794
-  server: 193.148.19.213
-  skip-cert-verify: true
-  sni: 193.148.19.213
-  type: trojan
-- cipher: aes-256-gcm
-  name: '[G] 🇭🇰 香港 08'
-  password: gXtfJmxrZ8Qkkd2k
-  port: 16025
-  server: c722s1.portablesubmarines.com
+  server: 35.156.204.162
   type: ss
 - name: '[G] 🇸🇬 新加坡 05'
   network: ws
@@ -239,107 +226,118 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 08'
-  password: amazonskr05
-  port: 443
-  server: 18.221.194.108
-  type: ss
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '[G] 🇺🇸 美国 11'
+- name: '[G] 🇸🇬 新加坡 06'
   network: tcp
-  port: '16025'
-  server: c722s801.portablesubmarines.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[G] 🌍 其它地区 30'
-  network: raw
-  port: '10049'
-  server: family.bucket.x9.kfc-520.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[G] 🇩🇪 德国 18'
-  password: amazonskr05
-  port: '443'
-  server: 63.183.207.82
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 12'
-  password: amazonskr05
-  port: '443'
-  server: 13.59.56.221
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '[G] 🇺🇸 美国 13'
-  network: raw
-  port: '16025'
-  server: c722s801.portablesubmarines.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
-  xudp: true
-- name: '[G] 🌍 其它地区 37'
-  network: tcp
-  password: XG59623478
-  port: '443'
-  server: 82.117.225.216
-  skip-cert-verify: false
-  sni: concise-buck.rooster465.autos
+  password: BxceQaOe
+  port: '32434'
+  server: 54.46.125.103
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: '[G] 🌍 其它地区 44'
+- name: '[G] 🇯🇵 日本 04'
   network: tcp
-  port: '52525'
-  server: 65.109.219.124
+  password: HW85960347
+  port: '443'
+  server: exciting-turtle.rooster465.autos
   skip-cert-verify: false
+  sni: exciting-turtle.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] 🇩🇪 德国 10'
+  password: amazonskr05
+  port: '443'
+  server: 54.93.186.149
+  type: ss
+  udp: true
+- name: '[G] 🇸🇬 新加坡 07'
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: major-cobra.rooster465.autos
+  skip-cert-verify: false
+  sni: major-cobra.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[G] 🇯🇵 日本 05'
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: sharing-fawn.rooster465.autos
+  skip-cert-verify: false
+  sni: sharing-fawn.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[G] 🇸🇬 新加坡 08'
+  network: tcp
+  password: JA96378052
+  port: '443'
+  server: modest-coral.rooster465.autos
+  skip-cert-verify: false
+  sni: modest-coral.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[G] 🇯🇵 日本 06'
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: lucky-primate.rooster465.autos
+  skip-cert-verify: false
+  sni: lucky-primate.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[G] 🇸🇬 新加坡 09'
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: quality-sheepdog.rooster465.autos
+  skip-cert-verify: false
+  sni: quality-sheepdog.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[G] 🇯🇵 日本 07'
+  network: tcp
+  password: JA96378052
+  port: '443'
+  server: bursting-baboon.rooster465.autos
+  skip-cert-verify: false
+  sni: bursting-baboon.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[G] 🇯🇵 日本 09'
+  network: tcp
+  password: HW85960347
+  port: '443'
+  server: saved-mantis.rooster465.autos
+  skip-cert-verify: false
+  sni: saved-mantis.rooster465.autos
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇺🇸 美国 11'
+  network: tcp
+  port: '16025'
+  server: c722s801.portablesubmarines.com
   tls: false
   type: vmess
-  udp: true
-  uuid: 358f44f0-2686-46c8-9cc6-ec52abd66df4
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[G] 🇬🇧 英国 03'
-  password: amazonskr05
-  port: '443'
-  server: 3.8.78.225
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[G] 🇬🇧 英国 04'
-  password: amazonskr05
-  port: '443'
-  server: 18.171.62.49
-  type: ss
-  udp: true
+  uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 48'
+  name: '[I] 🌍 其它地区 26'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.46
   type: ss
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇨🇳 台湾 04'
+  network: raw
+  port: '10049'
+  server: family.bucket.x9.kfc-520.com
+  tls: false
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - name: '[I] 🇨🇦 加拿大 02'
   network: ws
   password: humanity
@@ -351,7 +349,7 @@ proxies:
     headers:
       Host: www.gossipglove.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 51'
+- name: '[I] 🌍 其它地区 30'
   network: ws
   password: humanity
   port: 443
