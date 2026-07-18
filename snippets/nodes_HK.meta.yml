@@ -11,7 +11,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  sni: https%3A%2F%2Ft.me%2FWangCai2
   tls: false
   type: hysteria2
 - name: '[D] 🇭🇰 香港 03'
@@ -22,30 +22,16 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: 221.204.41.88
-  servername: speeches-obligations-view-epinions.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
-  ws-opts:
-    headers:
-      Host: speeches-obligations-view-epinions.trycloudflare.com
-    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 05'
+  name: '[E] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 05'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
@@ -53,7 +39,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 07'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -61,7 +47,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 08'
+- name: '[E] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -71,7 +57,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 08'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -82,7 +68,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇭🇰 香港 10'
+  name: '[G] 🇭🇰 香港 09'
   network: tcp
   port: '443'
   reality-opts:
@@ -94,6 +80,23 @@ proxies:
   type: vless
   udp: true
   uuid: 904183f1-0495-478b-b11f-1fe12e84ad8b
+  xudp: true
+- client-fingerprint: chrome
+  name: '[G] 🇭🇰 香港 10'
+  network: ws
+  port: '8443'
+  server: 43.250.175.174
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
   xudp: true
 - name: '[I] 🇭🇰 香港 11'
   network: ws
