@@ -1,37 +1,8 @@
 proxies:
-- name: '[D] 🇺🇸 美国 01'
-  password: Ov_98eqvJ9N8SE3_Bxhr238e_Ntz2_Sxc47_J2
-  port: 8443
-  server: 185.126.236.152
-  sni: key-hm-at.1cooldns.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 02'
-  password: Hy2@SiLiCon2026!
-  port: 8443
-  server: 43.130.7.3
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 03'
-  password: Xiao456.
-  port: 5443
-  server: 45.205.31.175
-  sni: vpn.cyedu.xyz
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 04'
-  password: Xiao456.
-  port: 8443
-  server: 45.205.31.175
-  sni: vpn.cyedu.xyz
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 05'
-  network: tcp
+  name: '[D] 🇺🇸 美国 01'
+  network: raw
   port: '10004'
   server: zjs001.kfc-520.com
   servername: ''
@@ -40,57 +11,15 @@ proxies:
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 06'
-  network: ws
-  port: '443'
-  server: xsj004-10.facai2024.com
-  servername: xsj004-10.facai2024.com
-  tls: true
-  type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      Host: xsj004-10.facai2024.com
-    path: /1f1aa362-25
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 07'
-  network: ws
-  port: '443'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
-  ws-opts:
-    headers:
-      Host: vpn.cyedu.xyz
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 02'
   network: tcp
-  port: '10086'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
+  port: '10004'
+  server: zjs001.kfc-520.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 09'
-  network: ws
-  port: '8444'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: f1fb546a-eaaf-4c10-98f1-871b48931077
-  ws-opts:
-    headers:
-      Host: ''
-    path: /warp
-- name: '[E] 🇺🇸 美国 10'
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- name: '[E] 🇺🇸 美国 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -98,7 +27,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 11'
+- name: '[E] 🇺🇸 美国 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -106,7 +35,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 12'
+- name: '[E] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 25651
@@ -118,7 +47,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: api.v2.ApiService
-  name: '[G] 🇺🇸 美国 13'
+  name: '[G] 🇺🇸 美国 06'
   network: grpc
   port: 443
   reality-opts:
@@ -134,7 +63,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: api.v2.ApiService
-  name: '[G] 🇺🇸 美国 14'
+  name: '[G] 🇺🇸 美国 07'
   network: grpc
   port: 443
   reality-opts:
@@ -147,13 +76,13 @@ proxies:
   udp: true
   uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3
 - cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 15'
+  name: '[G] 🇺🇸 美国 08'
   password: amazonskr05
   port: 443
   server: 18.221.194.108
   type: ss
 - client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 16'
+  name: '[G] 🇺🇸 美国 09'
   network: ws
   port: 8443
   server: 208.68.180.93
@@ -166,7 +95,7 @@ proxies:
       Host: s5gydl.936.us.ci
     path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - multiplexing: MULTIPLEXING_LOW
-  name: '[G] 🇺🇸 美国 17'
+  name: '[G] 🇺🇸 美国 10'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -177,7 +106,7 @@ proxies:
   - ''
   alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 18'
+  name: '[G] 🇺🇸 美国 11'
   network: tcp
   port: '16025'
   server: c722s801.portablesubmarines.com
@@ -188,7 +117,7 @@ proxies:
   uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b
   xudp: true
 - cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 19'
+  name: '[G] 🇺🇸 美国 12'
   password: amazonskr05
   port: '443'
   server: 13.59.56.221
@@ -196,7 +125,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[G] 🇺🇸 美国 20'
+  name: '[G] 🇺🇸 美国 13'
   network: raw
   port: '16025'
   server: c722s801.portablesubmarines.com
@@ -209,7 +138,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.bMT5OWHemaw8_xxN4a4DyFs3KuWja6jldZa7GEpKKzo
   flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 21'
+  name: '[G] 🇺🇸 美国 14'
   network: tcp
   port: '8443'
   reality-opts:
@@ -226,7 +155,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: cloud.v2.RelayService
-  name: '[G] 🇺🇸 美国 22'
+  name: '[G] 🇺🇸 美国 15'
   network: grpc
   port: '443'
   reality-opts:
@@ -243,7 +172,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '[I] 🇺🇸 美国 23'
+  name: '[I] 🇺🇸 美国 16'
   network: xhttp
   port: 443
   server: 199.232.206.245
@@ -260,7 +189,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '[I] 🇺🇸 美国 24'
+  name: '[I] 🇺🇸 美国 17'
   network: xhttp
   port: 443
   server: 151.101.56.7
