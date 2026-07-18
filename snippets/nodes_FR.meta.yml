@@ -10,32 +10,18 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 02'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 8443
-  server: fl02.auragg.org
-  skip-cert-verify: true
-  sni: fl02.auragg.org
+  password: f422e914-ba20-4855-9441-c044d3f2f6e1
+  port: 443
+  server: fr.air-vpn.lol
+  sni: fr.air-vpn.lol
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇫🇷 法国 03'
-  network: ws
-  port: '12899'
-  server: gtm1.ktmwan.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
 - client-fingerprint: chrome
-  name: '[G] 🇫🇷 法国 04'
+  encryption: none
+  name: '[G] 🇫🇷 法国 03'
   network: ws
   port: '443'
-  server: cf8.466688.xyz
+  server: cf1.466688.xyz
   servername: cf-thfr-p.netnode.cc.cd
   tls: true
   type: vless
@@ -44,77 +30,50 @@ proxies:
   ws-opts:
     headers:
       Host: cf-thfr-p.netnode.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
     path: /t.me/QiangLieTuiJian-vl
   xudp: true
 - client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇫🇷 法国 05'
-  network: tcp
+  name: '[G] 🇫🇷 法国 04'
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: y8-hfUvs9-MScp_tjMFi5LKuULGmnodHbI5Q_sTk_A0
-    short-id: '!!str '
-  server: netherlands.vpnserverhub.com
-  servername: yahoo.com
+  server: cf3.466688.xyz
+  servername: cf-thfr-p.netnode.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 81a83e21-b587-49a9-8961-2fd4aa9f2d83
+  uuid: 4710eac8-f188-426a-a7d3-498c59de6503
+  ws-opts:
+    headers:
+      Host: cf-thfr-p.netnode.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /t.me/QiangLieTuiJian-vl
   xudp: true
-- client-fingerprint: firefox
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇫🇷 法国 06'
-  network: tcp
+  name: '[G] 🇫🇷 法国 05'
+  network: xhttp
   port: '443'
-  reality-opts:
-    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
-    short-id: '!!str '
-  server: 37.49.230.101
-  servername: fastsync.xyz
+  server: 172.64.189.180
+  servername: nnnn.arashmokhtari.com
   tls: true
   type: vless
   udp: true
-  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
+  uuid: 93c6a4b8-0902-4af8-9b2e-b6ecb6a55df4
+  xhttp-opts:
+    host: nnnn.arashmokhtari.com
+    mode: auto
+    path: /persianvpn
+    x-padding-bytes: 100-1000
   xudp: true
-- name: '[I] 🇫🇷 法国 07'
-  network: tcp
-  port: 2090
-  server: fn.fifapes.monster
-  tls: false
-  type: vless
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
-- name: '[I] 🇫🇷 法国 08'
-  port: 22222
-  server: 13.39.56.66
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇫🇷 法国 09'
-  password: NQ26071394
-  port: 443
-  server: ready-kangaroo.rooster465.autos
-  sni: ready-kangaroo.rooster465.autos
-  type: trojan
-- name: '[I] 🇫🇷 法国 10'
-  network: tcp
-  port: 22223
-  server: 13.39.56.66
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇫🇷 法国 11'
-  network: tcp
-  port: 22224
-  server: 13.39.56.66
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
-  name: '[I] 🇫🇷 法国 12'
+  name: '[I] 🇫🇷 法国 06'
   network: xhttp
   port: 18682
   reality-opts:
@@ -127,15 +86,17 @@ proxies:
   uuid: 784974f6-6289-4988-a51d-7d54f9e6915c
   ws-opts:
     path: /
-- name: '[I] 🇫🇷 法国 13'
-  network: ws
-  port: 2053
-  server: 51.91.103.101
-  servername: s5gydl.936.us.ci
-  tls: true
+- client-fingerprint: chrome
+  name: '[I] 🇫🇷 法国 07'
+  network: xhttp
+  port: 43264
+  reality-opts:
+    public-key: V7HRYFnC_mCHvqcO5o9sKVN-vs_tQ1FnB9seskMAB0A
+    short-id: '!!str 4cfbda45'
+  server: 91.209.71.83
+  servername: eu-images.shop.samsung.com
+  tls: false
   type: vless
-  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  uuid: 784974f6-6289-4988-a51d-7d54f9e6915c
   ws-opts:
-    headers:
-      Host: s5gydl.936.us.ci
-    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4fp=chrome
+    path: /

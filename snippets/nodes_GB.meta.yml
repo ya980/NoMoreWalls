@@ -6,39 +6,23 @@ proxies:
   sni: grape-coffee-fi.gleeze.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇬🇧 英国 02'
-  network: ws
-  port: '12886'
-  server: gtm1.ktmwan.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇬🇧 英国 03'
-  network: tcp
-  port: 2443
-  reality-opts:
-    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
-    short-id: '!!str 8f9d033ad6d2cebf'
-  server: ge1.cyphervpn.pro
-  servername: ge1.cyphervpn.pro
-  tls: false
-  type: vless
-  udp: true
-  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
-  xudp: true
 - client-fingerprint: qq
-  encryption: none
-  name: '[G] 🇬🇧 英国 04'
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-yandex
+  name: '[G] 🇬🇧 英国 02'
+  network: grpc
+  port: 8443
+  reality-opts:
+    public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg
+    short-id: '!!str 844352756c1fabba'
+  server: uk.riotvpn.eu
+  servername: avatars.mds.yandex.net
+  tls: true
+  type: vless
+  uuid: f885cecc-a6ea-4e9b-87da-c7dc4b745348
+- client-fingerprint: qq
+  name: '[G] 🇬🇧 英国 03'
   network: tcp
   port: '443'
   reality-opts:
@@ -50,58 +34,17 @@ proxies:
   type: vless
   udp: true
   uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇬🇧 英国 05'
-  network: tcp
-  port: '10002'
-  reality-opts:
-    public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg
-    short-id: '!!str 8a430229'
-  server: media.globalschool.edu.kg
-  servername: www.apple.com
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: '[G] 🇬🇧 英国 04'
+  password: amazonskr05
+  port: '443'
+  server: 3.8.78.225
+  type: ss
   udp: true
-  uuid: 19b896e1-b370-42a9-b21b-f1debf961b9c
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 06'
-  port: 443
-  server: s128.okgfw.top
-  servername: u695099u775a58bcs124.ccgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 775a58bcs124.ccgfw.top
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 07'
-  port: 443
-  server: s148.okgfwbackxyz.xyz
-  servername: u695099u775a58bcs124.ccgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 775a58bcs124.ccgfw.top
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 08'
-  port: 443
-  server: 193.142.59.180
-  servername: u695099u775a58bcs124.ccgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 775a58bcs124.ccgfw.top
+- cipher: aes-256-cfb
+  name: '[G] 🇬🇧 英国 05'
+  password: amazonskr05
+  port: '443'
+  server: 18.171.62.49
+  type: ss
+  udp: true

@@ -9,72 +9,37 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇨🇦 加拿大 02'
-  network: raw
-  port: '10043'
-  server: family.bucket.x9.kfc-520.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- name: '[I] 🇨🇦 加拿大 02'
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.96.3
+  sni: www.gossipglove.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: '%2Fassignment'
 - name: '[I] 🇨🇦 加拿大 03'
   network: ws
-  port: 8443
-  server: 172.66.3.90
-  servername: shin-ra.ccwu.cc
-  tls: true
-  type: vless
-  uuid: 817b61c8-9bf0-4365-8a52-e43dfad274a6
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
     headers:
-      Host: shin-ra.ccwu.cc
-    path: '%2F'
-- name: '[I] 🇨🇦 加拿大 04'
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇨🇦 加拿大 04'
   network: ws
   port: 443
-  server: cdn.204910.best
-  servername: cf11.evan00.dpdns.org
+  server: 8cdn.njkrpl.com
+  servername: 8cdn.njkrpl.com
   tls: true
-  type: vless
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  type: vmess
+  uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
   ws-opts:
-    headers:
-      Host: cf11.evan00.dpdns.org
-    path: /proxyip=ProxyIP.US.cmliussss.netfp=randomfp=chrome
-- name: '[I] 🇨🇦 加拿大 05'
-  network: ws
-  port: 2082
-  server: xqgs1fjh.cf.3666888.xyz
-  tls: false
-  type: vless
-  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
-  ws-opts:
-    headers:
-      Host: 0dsshvzb.cnm.qzz.io
-    path: /sub
-- name: '[I] 🇨🇦 加拿大 06'
-  network: ws
-  port: 443
-  server: cf.tencentapp.cn
-  servername: cf11.evan00.dpdns.org
-  tls: true
-  type: vless
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
-  ws-opts:
-    headers:
-      Host: cf11.evan00.dpdns.org
-    path: /proxyip=ProxyIP.US.cmliussss.netfp=random
-- name: '[I] 🇨🇦 加拿大 07'
-  network: ws
-  port: 443
-  server: 108.162.195.58
-  servername: cf11.evan00.dpdns.org
-  tls: true
-  type: vless
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
-  ws-opts:
-    headers:
-      Host: cf11.evan00.dpdns.org
-    path: /proxyip=ProxyIP.US.cmliussss.netfp=random
+    path: /
