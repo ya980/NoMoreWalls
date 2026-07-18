@@ -1,104 +1,46 @@
 proxies:
-- name: '[D] 🇯🇵 日本 01'
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
+- name: '[E] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 18.162.51.224
+  port: 24397
+  server: 54.238.245.134
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '[E] 🇯🇵 日本 02'
+  network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 40138
+  server: 16.163.40.213
+  skip-cert-verify: false
+  sni: www.nintendogames.net
   type: trojan
 - name: '[E] 🇯🇵 日本 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 24370
-  server: 43.198.71.42
+  port: 38937
+  server: 16.163.40.213
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 04'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 24370
-  server: 18.166.55.241
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[G] 🇯🇵 日本 05'
-  password: NQ26071394
-  port: 443
-  server: harmless-pegasus.rooster465.autos
-  skip-cert-verify: true
-  sni: harmless-pegasus.rooster465.autos
-  type: trojan
-- client-fingerprint: random
-  name: '[G] 🇯🇵 日本 06'
+- encryption: none
+  name: '[G] 🇯🇵 日本 04'
   network: ws
-  port: 443
-  server: 172.64.229.1
-  servername: cf11.evan00.dpdns.org
-  tls: true
+  port: '8880'
+  server: cf5.466688.xyz
   type: vless
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  udp: true
+  uuid: 9be3bb59-c281-4fee-ae3d-7cf6c4b47eb4
   ws-opts:
     headers:
-      Host: cf11.evan00.dpdns.org
-    path: /proxyip=ProxyIP.US.cmliussss.net
-- name: '[G] 🇯🇵 日本 07'
-  password: NQ26071394
-  port: 443
-  server: innocent-mullet.rooster465.autos
-  skip-cert-verify: true
-  sni: innocent-mullet.rooster465.autos
-  type: trojan
-- name: '[G] 🇯🇵 日本 08'
-  password: NQ26071394
-  port: 443
-  server: bursting-racer.rooster465.autos
-  skip-cert-verify: true
-  sni: bursting-racer.rooster465.autos
-  type: trojan
-- name: '[G] 🇯🇵 日本 09'
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: wise-rhino.rooster465.autos
-  skip-cert-verify: false
-  sni: wise-rhino.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[G] 🇯🇵 日本 10'
-  network: tcp
-  password: NQ26071394
-  port: '443'
-  server: one-dove.rooster465.autos
-  skip-cert-verify: false
-  sni: one-dove.rooster465.autos
-  type: trojan
-  udp: true
+      Host: late-mountain-6801.355.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇯🇵 日本 11'
+  name: '[I] 🇯🇵 日本 05'
   password: Vr06rU_v1vFPYeXq9zbsAA
   port: 1080
-  server: 194.187.251.2
+  server: 156.146.40.84
   type: ss
-- name: '[I] 🇯🇵 日本 12'
-  network: ws
-  port: 2053
-  server: 103.106.228.126
-  servername: vp11.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp11.cc.cd
-    path: /fp=chrome

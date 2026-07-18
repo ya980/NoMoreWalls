@@ -14,90 +14,91 @@ proxies:
   sni: 209.74.81.28
   tls: false
   type: hysteria2
-- name: '[E] 🇸🇬 新加坡 03'
-  network: tcp
-  password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 48738
-  server: 18.163.180.35
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇸🇬 新加坡 03'
+  network: ws
+  port: '12901'
+  server: cs.ktmcn.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
 - name: '[E] 🇸🇬 新加坡 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 6357
-  server: 43.198.71.42
+  server: 18.166.74.220
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[E] 🇸🇬 新加坡 05'
   network: tcp
+  password: b490740312aedb5f9f6b84c7aebd08c0
+  port: 48738
+  server: 95.40.52.88
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[E] 🇸🇬 新加坡 06'
+  network: tcp
   password: BxceQaOe
-  port: 9149
-  server: 18.163.41.112
+  port: 32434
+  server: 54.46.125.103
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[G] 🇸🇬 新加坡 06'
-  password: NQ26071394
-  port: 443
-  server: organic-locust.rooster465.autos
-  skip-cert-verify: true
-  sni: organic-locust.rooster465.autos
-  type: trojan
-- name: '[G] 🇸🇬 新加坡 07'
-  password: NQ26071394
-  port: 443
-  server: evident-ant.rooster465.autos
-  skip-cert-verify: true
-  sni: evident-ant.rooster465.autos
-  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇸🇬 新加坡 07'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: iNTKMWUbyqCAOQ4VeJaNiHWK3T4w2T7R4zKPioC8qT8
+    short-id: '!!str b68b884d89e9a242'
+  server: 159.65.7.154
+  servername: onic.pk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3c5e6124-decf-425d-8c1e-fe05cb4dd298
+  xudp: true
 - name: '[G] 🇸🇬 新加坡 08'
   network: ws
-  port: 443
-  server: 162.159.6.235
-  servername: cf11.evan00.dpdns.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
+  port: '8880'
+  server: themeforest.net
   type: vless
   udp: true
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  uuid: 1563ad16-9ac7-4214-8eb7-303f745efb07
   ws-opts:
     headers:
-      Host: cf11.evan00.dpdns.org
-    path: /proxyip=ProxyIP.US.cmliussss.netfp=random
-- client-fingerprint: random
-  name: '[G] 🇸🇬 新加坡 09'
-  network: ws
-  port: '443'
-  server: 108.162.195.58
-  servername: cf11.evan00.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
-  ws-opts:
-    headers:
-      Host: cf11.evan00.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /proxyip=ProxyIP.US.cmliussss.net
+      Host: silent-cake-fb8d.69-a76.workers.dev
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
+    path: /pyip=ProxyIP.SG.CMLiussss.net
   xudp: true
-- client-fingerprint: random
-  name: '[G] 🇸🇬 新加坡 10'
+- name: '[G] 🇸🇬 新加坡 09'
   network: ws
-  port: '443'
-  server: cf.tencentapp.cn
-  servername: cf11.evan00.dpdns.org
-  tls: true
+  port: '8880'
+  server: deepl.com
   type: vless
   udp: true
-  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
+  uuid: f15a5586-23f6-453f-97f5-c301b949e699
   ws-opts:
     headers:
-      Host: cf11.evan00.dpdns.org
+      Host: mute-sunset-0849.40-aeb.workers.dev
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2272.101 Safari/537.36
-    path: /proxyip=ProxyIP.US.cmliussss.net
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /pyip=ProxyIP.KR.CMLiussss.net
   xudp: true
+- name: '[I] 🇸🇬 新加坡 10'
+  password: NQ26071394
+  port: 443
+  server: helping-newt.rooster465.autos
+  sni: helping-newt.rooster465.autos
+  type: trojan

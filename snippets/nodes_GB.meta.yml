@@ -1,74 +1,107 @@
 proxies:
-- name: '[C] 🇬🇧 英国 01'
-  obfs: salamander
-  obfs-password: TeLeGRam=V2RayyNGvpn
-  password: V2RayyNGvpn
-  port: 58410
-  server: 51.89.225.225
-  skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
+- name: '[D] 🇬🇧 英国 01'
   password: grape_288923
   port: 8080
   server: 82.22.53.30
   sni: grape-coffee-fi.gleeze.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇬🇧 英国 02'
+  network: ws
+  port: '12886'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇬🇧 英国 03'
+  network: tcp
+  port: 2443
+  reality-opts:
+    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
+    short-id: '!!str 8f9d033ad6d2cebf'
+  server: ge1.cyphervpn.pro
+  servername: ge1.cyphervpn.pro
+  tls: false
+  type: vless
+  udp: true
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  name: '[G] 🇬🇧 英国 04'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
+    short-id: '!!str 1559b440'
+  server: 77.110.113.188
+  servername: www.samsung.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇬🇧 英国 03'
-  network: ws
-  port: '443'
-  server: 104.25.249.215
-  servername: dfujbv.mobilevisionn.ir
+  flow: xtls-rprx-vision
+  name: '[G] 🇬🇧 英国 05'
+  network: tcp
+  port: '10002'
+  reality-opts:
+    public-key: G90QHqX9hS3dcSfGKSZtxfjW_eFiaIeEMzw3BKIzwkg
+    short-id: '!!str 8a430229'
+  server: media.globalschool.edu.kg
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 4de09ba9-eaea-404e-a28d-c548f52e9b8c
-  ws-opts:
-    headers:
-      Host: dfujbv.mobilevisionn.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /DBFyQJ5aNatpJCSSukvp8c
+  uuid: 19b896e1-b370-42a9-b21b-f1debf961b9c
   xudp: true
-- grpc-opts:
-    grpc-service-name: ge1grpc
-  name: '[G] 🇬🇧 英国 04'
-  network: grpc
-  port: 8443
-  server: ge1.cyphervpn.pro
-  servername: ge1.cyphervpn.pro
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
-- name: '[I] 🇬🇧 英国 05'
-  network: ws
-  port: 2087
-  server: 91.193.59.230
-  servername: vp14.cc.cd
-  tls: true
-  type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp14.cc.cd
-    path: /fp=chrome
-- name: '[I] 🇬🇧 英国 06'
-  network: ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 06'
   port: 443
-  server: 91.193.59.240
-  servername: vp13.cc.cd
+  server: s128.okgfw.top
+  servername: u695099u775a58bcs124.ccgfw.top
   tls: true
   type: vless
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
   ws-opts:
     headers:
-      Host: vp13.cc.cd
-    path: /fp=chrome
+      Host: 775a58bcs124.ccgfw.top
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 07'
+  port: 443
+  server: s148.okgfwbackxyz.xyz
+  servername: u695099u775a58bcs124.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 775a58bcs124.ccgfw.top
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 08'
+  port: 443
+  server: 193.142.59.180
+  servername: u695099u775a58bcs124.ccgfw.top
+  tls: true
+  type: vless
+  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  ws-opts:
+    headers:
+      Host: 775a58bcs124.ccgfw.top
