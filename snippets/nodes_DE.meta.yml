@@ -32,7 +32,7 @@ proxies:
 - name: '[C] 🇩🇪 德国 04'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: RKJDOKrcIZ
+  password: V2RayyNGvpn-
   port: 31999
   server: 91.107.152.188
   skip-cert-verify: true
@@ -41,10 +41,10 @@ proxies:
   type: hysteria2
 - name: '[C] 🇩🇪 德国 05'
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: V2RayyNGvpn-
-  port: 31999
-  server: 91.107.152.188
+  obfs-password: T-ME-V2RayyNGvpn
+  password: VpxzokH9V4
+  port: 25810
+  server: 91.107.174.32
   skip-cert-verify: true
   sni: www.amd.com
   tls: false
@@ -89,22 +89,39 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
   name: '[G] 🇩🇪 德国 10'
-  password: amazonskr05
-  port: 443
-  server: 35.156.204.162
-  type: ss
+  network: xhttp
+  port: 8443
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
 - cipher: aes-256-cfb
   name: '[G] 🇩🇪 德国 11'
   password: amazonskr05
   port: '443'
-  server: 54.93.186.149
+  server: 3.77.54.36
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] 🇩🇪 德国 12'
+  password: amazonskr05
+  port: '443'
+  server: 3.75.172.120
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 12'
+  name: '[I] 🇩🇪 德国 13'
   port: 443
   reality-opts:
     public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs
@@ -116,7 +133,7 @@ proxies:
   uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 13'
+  name: '[I] 🇩🇪 德国 14'
   port: 2443
   reality-opts:
     public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
@@ -128,7 +145,7 @@ proxies:
   uuid: 8bba3194-4856-46d1-8319-075817d87eb1
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 14'
+  name: '[I] 🇩🇪 德国 15'
   port: 443
   reality-opts:
     public-key: W8hnq0oVIPpRGyM8UUQuaAF2KKxl6C10yBgO911iFwM
