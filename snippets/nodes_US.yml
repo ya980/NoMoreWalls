@@ -3,51 +3,27 @@ proxies:
   cipher: auto
   name: '[D] 🇺🇸 美国 03'
   network: tcp
-  port: '10086'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 04'
-  network: ws
-  port: '443'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
-  ws-opts:
-    headers:
-      Host: vpn.cyedu.xyz
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 05'
-  network: ws
-  port: '443'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 06'
-  network: tcp
   port: '10004'
   server: zjs001.kfc-520.com
   servername: ''
   tls: false
   type: vmess
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- name: '[E] 🇺🇸 美国 07'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 04'
+  network: ws
+  port: '443'
+  server: xsj004-10.facai2024.com
+  servername: xsj004-10.facai2024.com
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      Host: xsj004-10.facai2024.com
+    path: /1f1aa362-25
+- name: '[E] 🇺🇸 美国 05'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -55,7 +31,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 08'
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -63,7 +39,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 09'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 25651
@@ -71,13 +47,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 15'
-  network: tcp
-  password: ON38567014
-  port: '443'
-  server: harmless-akita.rooster465.autos
-  skip-cert-verify: false
-  sni: harmless-akita.rooster465.autos
-  type: trojan
-  udp: true

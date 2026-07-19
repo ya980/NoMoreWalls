@@ -132,9 +132,21 @@ proxies:
   sni: sw02.auragg.org
   tls: false
   type: hysteria2
+- name: '[G] 🇩🇪 德国 15'
+  network: ws
+  port: 80
+  server: 108.162.194.226
+  tls: false
+  type: vless
+  udp: true
+  uuid: 39e4ffce-5027-4138-a93b-4de33bc2a3f1
+  ws-opts:
+    headers:
+      Host: ppp.19bot.ir
+    path: /secure-vpn/
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: '[G] 🇩🇪 德国 15'
+  name: '[G] 🇩🇪 德国 16'
   network: xhttp
   port: 8443
   server: love.ns.cloudflare.com
@@ -150,7 +162,7 @@ proxies:
     x-padding-bytes: 100-1000
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: '[G] 🇩🇪 德国 16'
+  name: '[G] 🇩🇪 德国 17'
   network: xhttp
   port: 8443
   server: bayan.ns.cloudflare.com
@@ -164,18 +176,20 @@ proxies:
     mode: auto
     path: /
     x-padding-bytes: 100-1000
-- encryption: none
-  name: '[G] 🇩🇪 德国 17'
-  network: ws
-  port: '445'
-  server: snapp.ir.jetpingnet.com
-  type: vless
+- name: '[G] 🇩🇪 德国 18'
+  password: ON38567014
+  port: 443
+  server: sensible-grubworm.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
   udp: true
-  uuid: c8b2807e-7d40-4e62-949b-b99a2fdbeb45
-  ws-opts:
-    headers:
-      Host: snapp.ir.jetpingnet.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /sdfskfjh?ed=2048
-  xudp: true
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 19'
+  network: tcp
+  password: ON38567014
+  port: '443'
+  server: summary-finch.rooster465.autos
+  skip-cert-verify: false
+  sni: summary-finch.rooster465.autos
+  type: trojan
+  udp: true
