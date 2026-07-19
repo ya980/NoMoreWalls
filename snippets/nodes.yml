@@ -1,9 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🇨🇦 加拿大 02'
+  name: '[D] 🌍 其它地区 23'
+  network: raw
+  port: '10049'
+  server: family.bucket.x9.kfc-520.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 24'
   network: tcp
-  port: '10043'
+  port: '10409'
+  server: family.bucket.x9.kfc-520.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 25'
+  network: tcp
+  port: '10038'
   server: family.bucket.x9.kfc-520.com
   servername: ''
   tls: false
@@ -21,70 +41,42 @@ proxies:
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 0
   cipher: auto
-  name: '[D] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: 221.204.41.88
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1c503beb-4589-409b-bddf-5190925f72f0
-  ws-opts:
-    headers:
-      Host: speeches-obligations-view-epinions.trycloudflare.com
-    path: 1c503beb-4589-409b-bddf-5190925f72f0-vm
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 25'
+  name: '[D] 🌍 其它地区 26'
   network: tcp
-  port: '10045'
+  port: 10039
   server: family.bucket.x9.kfc-520.com
   servername: ''
   tls: false
   type: vmess
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: '[D] 🌍 其它地区 26'
-  network: ws
-  port: '80'
-  server: 61.245.11.60
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess/
 - alterId: 0
   cipher: auto
   name: '[D] 🌍 其它地区 27'
   network: ws
   port: '80'
-  server: 61.245.11.60
+  server: 3h-kazakhstan1.09vpn.com
   servername: ''
   tls: false
   type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: 61.245.11.60
+      Host: 3h-kazakhstan1.09vpn.com
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 28'
-  network: ''
-  port: '10047'
+  name: '[D] 🇰🇷 韩国 01'
+  network: raw
+  port: '10038'
   server: family.bucket.x9.kfc-520.com
-  servername: family.bucket.x9.kfc-520.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 29'
-  network: ''
+  name: '[D] 🌍 其它地区 28'
+  network: tcp
   port: '10049'
   server: family.bucket.x9.kfc-520.com
   servername: ''
@@ -93,14 +85,38 @@ proxies:
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 30'
+  name: '[D] 🌍 其它地区 29'
   network: tcp
-  port: '10046'
+  port: '10048'
   server: family.bucket.x9.kfc-520.com
   servername: ''
   tls: false
   type: vmess
   uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 03'
+  network: tcp
+  port: '10086'
+  server: 45.205.31.175
+  servername: vpn.cyedu.xyz
+  tls: true
+  type: vmess
+  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 04'
+  network: ws
+  port: '443'
+  server: 45.205.31.175
+  servername: vpn.cyedu.xyz
+  tls: true
+  type: vmess
+  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
+  ws-opts:
+    headers:
+      Host: vpn.cyedu.xyz
+    path: /ws
 - alterId: 0
   cipher: auto
   name: '[D] 🇺🇸 美国 05'
@@ -118,57 +134,29 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[D] 🇺🇸 美国 06'
-  network: ws
-  port: '443'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
-  ws-opts:
-    headers:
-      Host: vpn.cyedu.xyz
-    path: /ws
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 07'
   network: tcp
-  port: '10086'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
+  port: '10004'
+  server: zjs001.kfc-520.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 08'
-  network: ws
-  port: '8444'
-  server: 45.205.31.175
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: f1fb546a-eaaf-4c10-98f1-871b48931077
-  ws-opts:
-    headers:
-      Host: ''
-    path: /warp
+  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 31'
+  name: '[E] 🌍 其它地区 30'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 05'
+  name: '[E] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
@@ -176,7 +164,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 07'
+- name: '[E] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -184,7 +172,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 08'
+- name: '[E] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 50115
@@ -240,7 +228,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇺🇸 美国 09'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -248,7 +236,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 10'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -256,7 +244,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 11'
+- name: '[E] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 25651
@@ -266,7 +254,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -375,7 +363,7 @@ proxies:
   sni: social-cod.rooster465.autos
   type: trojan
   udp: true
-- name: '[G] 🇺🇸 美国 13'
+- name: '[G] 🇺🇸 美国 11'
   password: KV63147582
   port: 443
   server: hardy-seahorse.rooster465.autos
@@ -383,7 +371,7 @@ proxies:
   sni: hardy-seahorse.rooster465.autos
   type: trojan
   udp: true
-- name: '[G] 🇺🇸 美国 18'
+- name: '[G] 🇺🇸 美国 16'
   password: JA96378052
   port: 443
   server: careful-cow.rooster465.autos
@@ -393,7 +381,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: '[G] 🇺🇸 美国 23'
+  name: '[G] 🇺🇸 美国 21'
   port: 30829
   server: v29.hdacd.com
   skip-cert-verify: true
@@ -410,7 +398,7 @@ proxies:
   sni: master-possum.rooster465.autos
   type: trojan
   udp: true
-- name: '[G] 🇺🇸 美国 24'
+- name: '[G] 🇺🇸 美国 22'
   network: tcp
   password: KV63147582
   port: '443'
@@ -430,7 +418,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: '[G] 🇺🇸 美国 25'
+  name: '[G] 🇺🇸 美国 23'
   network: tcp
   port: 30845
   server: v45.hdacd.com
@@ -457,29 +445,20 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 45'
+  name: '[I] 🌍 其它地区 44'
   password: FXpDf7WV6lfD6n9hpz7HF2
   port: 57925
   server: 157.22.240.141
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 46'
+  name: '[I] 🌍 其它地区 45'
   password: oZIoA69Q8yhcQV8ka3Pa3A
   port: 8080
   server: 82.38.31.48
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇨🇳 台湾 04'
-  network: tcp
-  port: 10039
-  server: family.bucket.x9.kfc-520.com
-  tls: false
-  type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇨🇦 加拿大 03'
+  name: '[I] 🇨🇦 加拿大 01'
   network: ws
   port: 443
   server: 104.21.88.22
@@ -491,7 +470,7 @@ proxies:
     headers:
       Host: vpn.cyedu.xyz
     path: /ws
-- name: '[I] 🌍 其它地区 50'
+- name: '[I] 🌍 其它地区 49'
   network: ws
   password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
   port: 443
