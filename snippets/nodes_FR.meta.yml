@@ -32,40 +32,18 @@ proxies:
   sni: de1-hy2.veilvpn.life
   tls: false
   type: hysteria2
-- encryption: none
+- client-fingerprint: chrome
   name: '[G] 🇫🇷 法国 05'
-  network: tcp
-  port: '22223'
-  server: 13.36.95.89
-  type: vless
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.97
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- client-fingerprint: chrome
-  name: '[I] 🇫🇷 法国 06'
-  network: xhttp
-  port: 18682
-  reality-opts:
-    public-key: OqEscRLjKXGwlfh21MzuR035RB3eiCuR3vZ3mHVGEnU
-    short-id: '!!str a94c4a'
-  server: 31.77.149.177
-  servername: www.yahoo.com
-  tls: false
-  type: vless
-  uuid: 784974f6-6289-4988-a51d-7d54f9e6915c
   ws-opts:
-    path: /
-- client-fingerprint: chrome
-  name: '[I] 🇫🇷 法国 07'
-  network: xhttp
-  port: 43264
-  reality-opts:
-    public-key: V7HRYFnC_mCHvqcO5o9sKVN-vs_tQ1FnB9seskMAB0A
-    short-id: '!!str 4cfbda45'
-  server: 91.209.71.83
-  servername: eu-images.shop.samsung.com
-  tls: false
-  type: vless
-  uuid: 784974f6-6289-4988-a51d-7d54f9e6915c
-  ws-opts:
-    path: /
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
