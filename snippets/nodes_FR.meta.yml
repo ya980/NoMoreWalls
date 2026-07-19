@@ -9,13 +9,32 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
+- down: ''
+  fingerprint: ''
   name: '[D] 🇫🇷 法国 02'
-  network: raw
-  port: '10037'
-  server: family.bucket.x9.kfc-520.com
-  servername: ''
+  obfs: ''
+  obfs-password: ''
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: '443'
+  server: ge01.auragg.org
+  skip-cert-verify: false
+  sni: ge01.auragg.org
+  tls: false
+  type: hysteria2
+  up: ''
+- alterId: '0'
+  cipher: auto
+  name: '[G] 🇫🇷 法国 03'
+  network: ws
+  port: '12886'
+  server: gtm1.ktmwan.net
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 1dc73529-f030-3ac5-ad64-f7666b9a51bc
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
