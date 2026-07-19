@@ -1,33 +1,46 @@
 proxies:
+- alterId: '0'
+  cipher: auto
+  name: '[D] 🇺🇸 美国 03'
+  network: ws
+  port: '12889'
+  server: gtm1.ktmwan.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 04'
+  network: raw
+  port: '10086'
+  server: 45.205.31.175
+  servername: vpn.cyedu.xyz
+  tls: true
+  type: vmess
+  uuid: 33f38758-81d2-43b0-a74a-2d7c70ea27c8
 - alterId: 0
   cipher: auto
   name: '[D] 🇺🇸 美国 05'
   network: ws
-  port: '443'
-  server: xsj004-10.facai2024.com
+  port: '12885'
+  server: cs.ktmcn.net
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
   ws-opts:
     headers:
-      Host: xsj004-10.facai2024.com
-    path: /1f1aa362-25
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 06'
-  network: ws
-  port: '443'
-  server: xsj004-10.facai2024.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1f1aa362-25
-- name: '[E] 🇺🇸 美国 07'
+      Host: baidu.com
+    path: /
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -35,7 +48,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 08'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -43,7 +56,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 09'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 25651

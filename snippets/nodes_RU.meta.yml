@@ -1,5 +1,30 @@
 proxies:
-- name: '[I] 🇷🇺 俄罗斯 01'
+- name: '[D] 🇷🇺 俄罗斯 01'
+  password: hysteria2_fastlane_bvf5snkx6:BxaAL2BhCBGg9TrlsqX5AXeXZg2HOtRE
+  port: 1935
+  server: 144.31.135.204
+  skip-cert-verify: false
+  sni: nl2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- alterId: '0'
+  cipher: auto
+  name: '[D] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: '12887'
+  server: gtm1.ktmwan.net
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+  xudp: true
+- name: '[I] 🇷🇺 俄罗斯 03'
   network: ws
   port: 4100
   server: 5.129.194.34
@@ -12,7 +37,7 @@ proxies:
     path: '%2Fv1'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 04'
   port: 443
   reality-opts:
     public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
@@ -24,7 +49,7 @@ proxies:
   uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 05'
   port: 443
   reality-opts:
     public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I

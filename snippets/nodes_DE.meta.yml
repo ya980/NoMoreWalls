@@ -22,7 +22,7 @@ proxies:
 - name: '[C] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: IoFmkhjUlE
+  password: M4q4riAk3C
   port: 31999
   server: 91.107.152.188
   skip-cert-verify: true
@@ -51,16 +51,6 @@ proxies:
   type: hysteria2
 - name: '[C] 🇩🇪 德国 06'
   obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: ZkaDQncyundefineda
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '[C] 🇩🇪 德国 07'
-  obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: a6alb4YAgC
   port: 25810
@@ -69,7 +59,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[C] 🇩🇪 德国 08'
+- name: '[C] 🇩🇪 德国 07'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: idCPgpLEqx
@@ -79,7 +69,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[C] 🇩🇪 德国 09'
+- name: '[C] 🇩🇪 德国 08'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: kfCR7ekba6
@@ -89,7 +79,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[C] 🇩🇪 德国 10'
+- name: '[C] 🇩🇪 德国 09'
   obfs: salamander
   obfs-password: T-ME-V2RayyNGvpn
   password: yDkExundefinedconf
@@ -99,7 +89,7 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 11'
+- name: '[D] 🇩🇪 德国 10'
   password: 8f0560ec-ba22-4431-a6a7-318dc59d5233
   port: 443
   server: histerrr-faq-www.ru
@@ -107,23 +97,40 @@ proxies:
   sni: histerrr-faq-www.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 12'
-  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
-  port: 8443
-  server: 213.202.219.29
-  skip-cert-verify: false
-  sni: grape-sos-de.roxa.org
-  tls: false
-  type: hysteria2
-- auth: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  name: '[D] 🇩🇪 德国 13'
+- name: '[D] 🇩🇪 德国 11'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 8443
   server: sw02.auragg.org
-  skip-cert-verify: true
   sni: sw02.auragg.org
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇩🇪 德国 12'
+  network: ws
+  port: '12898'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 13'
+  network: ws
+  port: 8443
+  server: 51.77.141.103
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
 - client-fingerprint: chrome
   encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
   name: '[G] 🇩🇪 德国 14'
@@ -140,3 +147,111 @@ proxies:
     mode: auto
     path: /
     x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: '[G] 🇩🇪 德国 15'
+  network: xhttp
+  port: 8443
+  server: bayan.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 16'
+  network: ws
+  port: 2053
+  server: 152.228.135.44
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 17'
+  network: ws
+  port: 8443
+  server: 51.91.101.216
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇩🇪 德国 18'
+  network: xhttp
+  port: '2083'
+  server: securitytrails.com
+  servername: cdn.simsamsom.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 957360f2-2ec4-4638-8cf3-fffc6cc57aa1
+  xhttp-opts:
+    host: cdn.simsamsom.dpdns.org
+    mode: auto
+    path: /forall
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  name: '[G] 🇩🇪 德国 19'
+  network: tcp
+  port: '57785'
+  server: 136.244.95.190
+  type: vless
+  udp: true
+  uuid: 399f7f1b-0f5e-43a1-b0b5-6f255367d778
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: random
+  encryption: none
+  name: '[G] 🇩🇪 德国 20'
+  network: ws
+  port: '2087'
+  server: vs.dragonio.ir
+  servername: red.dragonio.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 38128d56-75fd-4758-b132-92d7e0a10cf0
+  ws-opts:
+    headers:
+      Host: red.dragonio.ir
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/69.0.3497.100 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 21'
+  network: ws
+  port: '2053'
+  server: 152.228.135.135
+  servername: s5gydl.936.us.ci
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  ws-opts:
+    headers:
+      Host: s5gydl.936.us.ci
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /proxyip=tw.william.us.ci?uuid=f4e91fac-25eb-4d26-a14c-c82c3778a0e4
+  xudp: true

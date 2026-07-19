@@ -6,33 +6,37 @@ proxies:
   sni: grape-coffee-fi.gleeze.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[G] 🇬🇧 英国 02'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: VmBEjLUpiEnoNIaPNGDfVPIOzH_ktSDdsGGAvissxgI
-    short-id: '!!str '
-  server: 2.26.82.237
-  servername: speed.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 906be882-7f16-47c3-8702-59db2ada9688
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇬🇧 英国 02'
+  network: ws
+  port: '12886'
+  server: gtm1.ktmwan.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /
+- cipher: aes-256-cfb
   name: '[G] 🇬🇧 英国 03'
+  password: amazonskr05
+  port: 443
+  server: 13.135.169.180
+  type: ss
+- client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇬🇧 英国 04'
   network: raw
-  port: '443'
+  port: 443
   reality-opts:
     public-key: 4e4FI0siWxFtLCRCVDQurn1wLTuvKWhRY0zj1SaUcyw
     short-id: '!!str 1559b440'
   server: 77.110.113.188
   servername: www.samsung.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
