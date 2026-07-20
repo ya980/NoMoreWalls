@@ -7,34 +7,26 @@ proxies:
   sni: nl2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- alterId: '0'
+- alterId: 0
   cipher: auto
   name: '[D] 🇷🇺 俄罗斯 02'
   network: ws
   port: '12887'
   server: gtm1.ktmwan.net
   servername: ''
-  skip-cert-verify: false
   tls: false
   type: vmess
-  udp: true
   uuid: 4941aa8d-07d2-408c-be2c-117debecba30
   ws-opts:
     headers:
       Host: baidu.com
     path: /
-  xudp: true
-- name: '[I] 🇷🇺 俄罗斯 03'
-  network: ws
-  port: 4100
-  server: 5.129.194.34
-  tls: false
-  type: vless
-  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
-  ws-opts:
-    headers:
-      Host: live.ok.ru
-    path: '%2Fv1'
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇷🇺 俄罗斯 03'
+  password: vwc9nGgP8O5KeWbyrwiUow
+  port: 1080
+  server: 212.67.17.239
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[I] 🇷🇺 俄罗斯 04'
@@ -59,3 +51,14 @@ proxies:
   tls: false
   type: vless
   uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
+- name: '[I] 🇷🇺 俄罗斯 06'
+  network: ws
+  port: 4100
+  server: 5.129.194.34
+  tls: false
+  type: vless
+  uuid: 9b44bfb4-9d28-4870-9fc3-5154d6d462ff
+  ws-opts:
+    headers:
+      Host: live.ok.ru
+    path: '%2Fv1'

@@ -1,29 +1,29 @@
 proxies:
-- alterId: 0
+- alterId: '0'
   cipher: auto
   name: '[D] 🇨🇦 加拿大 02'
   network: ws
   port: '12897'
   server: gtm1.ktmwan.net
   servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
+  udp: true
   uuid: 4941aa8d-07d2-408c-be2c-117debecba30
   ws-opts:
     headers:
       Host: baidu.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇨🇦 加拿大 04'
+  xudp: true
+- name: '[I] 🇨🇦 加拿大 04'
   network: ws
+  password: humanity
   port: 443
-  server: 104.21.88.22
-  servername: vpn.cyedu.xyz
-  tls: true
-  type: vmess
-  uuid: 79e0df31-8ed5-4213-9fff-292a9fbeae7b
+  server: 104.16.71.213
+  sni: www.calmlunch.com
+  type: trojan
   ws-opts:
     headers:
-      Host: vpn.cyedu.xyz
-    path: /ws
+      Host: www.calmlunch.com
+    path: '%2Fassignment'
