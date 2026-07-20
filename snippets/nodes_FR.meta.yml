@@ -10,6 +10,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 02'
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
+  port: 8443
+  server: fl02.auragg.org
+  sni: fl02.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 03'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: ge01.auragg.org
@@ -17,7 +24,14 @@ proxies:
   sni: ge01.auragg.org
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
+- name: '[D] 🇫🇷 法国 04'
+  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
+  port: 8443
+  server: vpn.the2oser.lol
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 05'
   password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
   port: 8433
   server: de1-hy2.veilvpn.life
@@ -25,3 +39,29 @@ proxies:
   sni: de1-hy2.veilvpn.life
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: '[D] 🇫🇷 法国 06'
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  sni: devideo.h2corp.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 07'
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  sni: devideo.h2corp.org
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '[G] 🇫🇷 法国 08'
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: firm-warthog.rooster465.autos
+  skip-cert-verify: false
+  sni: firm-warthog.rooster465.autos
+  type: trojan
+  udp: true

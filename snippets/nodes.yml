@@ -1,34 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 27'
+  name: '[D] 🌍 其它地区 32'
   network: ws
   port: '80'
-  server: 38.107.234.57
+  server: 61.245.11.60
   servername: ''
   tls: false
   type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
   ws-opts:
     headers:
       Host: ''
     path: /vmess/
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 28'
+  name: '[E] 🌍 其它地区 33'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 03'
+  name: '[E] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 04'
+- name: '[E] 🇭🇰 香港 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 47867
@@ -36,7 +36,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 05'
+- name: '[E] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -44,7 +44,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -76,7 +76,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 02'
+- name: '[E] 🇸🇬 新加坡 03'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -84,7 +84,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 03'
+- name: '[E] 🇸🇬 新加坡 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 48738
@@ -92,7 +92,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 04'
+- name: '[E] 🇸🇬 新加坡 05'
   network: tcp
   password: BxceQaOe
   port: 41421
@@ -100,7 +100,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -108,7 +108,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -116,7 +116,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 11993
@@ -126,7 +126,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -137,41 +137,39 @@ proxies:
 - name: '[G] 🇸🇬 新加坡 06'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: '443'
+  port: 443
   server: 188.164.248.122
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: space.byu.id.yxls.eu.cc
   type: trojan
-  udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+      Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🌍 其它地区 31'
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-  port: '8080'
-  server: 82.38.31.174
-  type: ss
+- alterId: 2
+  cipher: auto
+  name: '[G] 🇺🇸 美国 10'
+  network: tcp
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-gcm
-  name: '[G] 🇭🇰 香港 08'
-  password: 95c3d114-5370-3e54-832a-5a5acc492b9b
-  port: '1416'
-  server: n.j.y.y.h.z.g.e.d.hk06-ae5.entry.v51124-5.qpon
-  type: ss
-  udp: true
-- cipher: aes-256-gcm
-  name: '[G] 🌍 其它地区 32'
-  password: 95c3d114-5370-3e54-832a-5a5acc492b9b
-  port: '20028'
-  server: s.n.y.5.8.z.4.e.d.ar01-ae5.entry.v51124-5.qpon
-  type: ss
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: '[G] 🇫🇷 法国 08'
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: firm-warthog.rooster465.autos
+  skip-cert-verify: false
+  sni: firm-warthog.rooster465.autos
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 10'
   network: ws
   port: 443
   server: 4cdn.njkrpl.com
@@ -180,7 +178,7 @@ proxies:
   uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
   ws-opts: {}
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 02'
   password: vwc9nGgP8O5KeWbyrwiUow
   port: 1080
   server: 212.67.17.239
