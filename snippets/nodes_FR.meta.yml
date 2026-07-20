@@ -9,30 +9,15 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[D] 🇫🇷 法国 02'
-  password: 1f31377f-a6bc-461f-9745-be3ed0ff4ecd
-  port: 9443
-  server: newlte.kihsuyhf8jkiugsxb.cfd
-  skip-cert-verify: false
-  sni: newlte.kihsuyhf8jkiugsxb.cfd
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇫🇷 法国 03'
-  obfs: ''
-  obfs-password: ''
+- name: '[D] 🇫🇷 法国 02'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: '443'
+  port: 443
   server: ge01.auragg.org
   skip-cert-verify: false
   sni: ge01.auragg.org
   tls: false
   type: hysteria2
-  up: ''
-- name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 03'
   password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
   port: 8433
   server: de1-hy2.veilvpn.life
@@ -40,17 +25,74 @@ proxies:
   sni: de1-hy2.veilvpn.life
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇫🇷 法国 05'
-  network: ws
-  port: '12899'
-  server: gtm1.ktmwan.net
-  servername: ''
+- alpn:
+  - h3
+  name: '[D] 🇫🇷 法国 04'
+  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
+  port: 25447
+  server: 144.31.107.101
+  sni: devideo.h2corp.org
   tls: false
-  type: vmess
-  uuid: 4941aa8d-07d2-408c-be2c-117debecba30
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '[G] 🇫🇷 法国 05'
+  network: ws
+  port: 8443
+  server: ad-018.cloud25075.info
+  servername: ad-018.cloud25075.info
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d3abfa9-bdf5-4334-8383-dcf92df802a5
   ws-opts:
     headers:
-      Host: baidu.com
+      Host: ad-018.cloud25075.info
     path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 06'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 2dgS9vJTywAfGZmlkuzDIIXLUR-E1A-0na8_W--ruUc
+    short-id: '!!str 5be8210215'
+  server: 89.208.113.157
+  servername: parisjetaime.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f4c983e-382c-d2fa-b2dc-7981f02b34de
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 07'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
+    short-id: '!!str '
+  server: 37.49.230.101
+  servername: fastsync.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
+  xudp: true
+- client-fingerprint: random
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 08'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
+    short-id: '!!str '
+  server: 37.49.230.102
+  servername: fastsync.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d407defe-cd4f-4d32-a3b1-47c2c813c50d
+  xudp: true
