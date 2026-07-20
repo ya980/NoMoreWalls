@@ -10,13 +10,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 02'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 8443
-  server: fl02.auragg.org
-  sni: fl02.auragg.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: ge01.auragg.org
@@ -24,34 +17,80 @@ proxies:
   sni: ge01.auragg.org
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 03'
   password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
   port: 8443
   server: vpn.the2oser.lol
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 05'
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8433
-  server: de1-hy2.veilvpn.life
-  skip-cert-verify: false
-  sni: de1-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇫🇷 法国 06'
+  name: '[D] 🇫🇷 法国 04'
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   port: 25447
   server: 144.31.107.101
   sni: devideo.h2corp.org
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
+- name: '[D] 🇫🇷 法国 05'
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   port: 25447
   server: 144.31.107.101
   sni: devideo.h2corp.org
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 06'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: pPGE5Uacj1AGAB_WLOXB_UUnVBOmuJGH0vTSfmRBKzM
+    short-id: '!!str 2e40144ddc07e8e1'
+  server: fr03.tunnely.ru
+  servername: fr03.tunnely.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 31649657-6c78-4c2c-b25b-5cd574b082b5
+- name: '[G] 🇫🇷 法国 07'
+  password: IQ68037294
+  port: 443
+  server: definite-giraffe.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-giraffe.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[G] 🇫🇷 法国 08'
+  password: IQ68037294
+  port: 443
+  server: humane-bird.rooster465.autos
+  skip-cert-verify: true
+  type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 09'
+  network: raw
+  port: '9443'
+  reality-opts:
+    public-key: 6RL8C_2Hi2awKka98Kkx62STPrDXSb25C5u66GIhXRI
+    short-id: '!!str b703abc44e905632'
+  server: play-1.serveroff.net
+  servername: fr-1.converter.darkpn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 27c1d725-629c-4e65-9271-d6f5df82c7e9
+  xudp: true
+- client-fingerprint: chrome
+  name: '[G] 🇫🇷 法国 10'
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: firm-warthog.rooster465.autos
+  skip-cert-verify: false
+  sni: firm-warthog.rooster465.autos
+  type: trojan
+  udp: true
