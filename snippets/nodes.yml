@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 26'
+  name: '[D] 🌍 其它地区 28'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -15,7 +15,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 27'
+  name: '[D] 🌍 其它地区 29'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -29,7 +29,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 28'
+  name: '[D] 🌍 其它地区 30'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -56,7 +56,7 @@ proxies:
       Host: xsj004-10.facai2024.com
     path: /1f1aa362-25
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 29'
+  name: '[E] 🌍 其它地区 31'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -176,42 +176,31 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[G] 🇯🇵 日本 05'
-  network: ws
-  port: 12883
-  server: cs.ktmcn.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 78f2e8f0-68ea-438e-84ec-d58c9416c680
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /
 - name: '[G] 🇸🇬 新加坡 06'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
+  port: '443'
   server: 188.164.248.122
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: space.byu.id.yxls.eu.cc
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: space.byu.id.yxls.eu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /in-pdr
-- name: '[G] 🇺🇸 美国 09'
-  password: XG59623478
-  port: 443
-  server: possible-pup.rooster465.autos
+- name: '[G] 🇸🇬 新加坡 08'
+  password: BxceQaOe
+  port: '41421'
+  server: 43.198.13.164
   skip-cert-verify: true
-  sni: possible-pup.rooster465.autos
+  sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 05'
   network: ws
   port: 443
   server: 4cdn.njkrpl.com
@@ -220,7 +209,7 @@ proxies:
   uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8
   ws-opts: {}
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 02'
   password: vwc9nGgP8O5KeWbyrwiUow
   port: 1080
   server: 212.67.17.239
