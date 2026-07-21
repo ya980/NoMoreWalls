@@ -63,51 +63,80 @@ proxies:
   sni: sw02.auragg.org
   tls: false
   type: hysteria2
-- name: '[G] 🇩🇪 德国 08'
-  password: IQ68037294
-  port: 443
-  server: aware-pika.rooster465.autos
-  skip-cert-verify: true
-  sni: aware-pika.rooster465.autos
-  type: trojan
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+    path:
+    - /
+  name: '[G] 🇩🇪 德国 08'
+  network: http
+  port: '8882'
+  server: gr1.fifapes.monster
+  type: vless
   udp: true
-- cipher: aes-256-cfb
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
   name: '[G] 🇩🇪 德国 09'
-  password: amazonskr05
-  port: '443'
-  server: 63.176.169.206
-  type: ss
+  network: xhttp
+  port: '8443'
+  server: 162.159.38.119
+  servername: o.vamosargentina.dpdns.org
+  tls: true
+  type: vless
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: o.vamosargentina.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
   name: '[G] 🇩🇪 德国 11'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: XSerkZgTPWKCzSgKTbfx3xgTp3asGddifSFtvp0bJyw
-    short-id: '!!str 89b8ef1537c69f72'
-  server: 83.243.86.45
-  servername: download.amd.com
-  tls: true
+  network: http
+  port: '8882'
+  server: 31.56.206.222
   type: vless
   udp: true
-  uuid: 00a84cc6-073c-454b-9487-f0b7238e715f
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: random
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
   name: '[G] 🇩🇪 德国 12'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: 3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q
-    short-id: '!!str 55763d54'
-  server: 194.55.239.250
-  servername: yastatic.ru
+  network: ws
+  port: '8083'
+  server: hossein1.roozaraa.ir
+  servername: hossein1.roozaraa.ir
   tls: true
   type: vless
   udp: true
-  uuid: 8947f307-311a-461e-ab1c-f02b599d6baa
+  uuid: f8899e3b-38f7-43d0-8bf5-3e46bef9f798
+  ws-opts:
+    headers:
+      Host: hossein1.roozaraa.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.110 Safari/537.36
+    path: /
   xudp: true
+- name: '[I] 🇩🇪 德国 13'
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'

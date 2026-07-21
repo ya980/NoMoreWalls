@@ -1,12 +1,14 @@
 proxies:
-- name: '[I] 🇨🇦 加拿大 01'
+- client-fingerprint: chrome
+  name: '[I] 🇨🇦 加拿大 01'
   network: ws
-  password: humanity
   port: 443
-  server: 104.19.208.184
-  sni: www.multiplydose.com
-  type: trojan
+  server: 172.64.155.209
+  servername: cf.cfvip.lol
+  tls: true
+  type: vless
+  uuid: 93f0761d-4393-4b43-a523-e812fa0b7e83
   ws-opts:
     headers:
-      Host: www.multiplydose.com
-    path: '%2F%2Fassignment'
+      Host: cf.cfvip.lol
+    path: '%2F'
