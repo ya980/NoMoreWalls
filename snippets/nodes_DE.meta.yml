@@ -56,76 +56,32 @@ proxies:
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: '[G] 🇩🇪 德国 07'
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+- name: '[D] 🇩🇪 德国 07'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 8443
+  server: sw02.auragg.org
+  sni: sw02.auragg.org
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
   name: '[G] 🇩🇪 德国 08'
-  network: xhttp
-  port: '8443'
+  network: ws
+  port: '443'
   server: 162.159.38.119
-  servername: o.vamosargentina.dpdns.org
+  servername: telegram.mxgrid.xyz
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: o.vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
+  uuid: a3f8f570-3e53-4252-a01f-f95156680e39
+  ws-opts:
+    headers:
+      Host: telegram.mxgrid.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /-----MxGriD-----
   xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 09'
-  network: xhttp
-  port: '443'
-  server: dey.lnmarketplace.net
-  servername: dey.lnmarketplace.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  xhttp-opts:
-    host: dey.lnmarketplace.net
-    mode: stream-one
-    path: /kavir
-  xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 10'
-  network: xhttp
-  port: '443'
-  server: 89.144.30.104
-  servername: dey.lnmarketplace.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3536e1fa-0850-44d1-b123-925ce12476cf
-  xhttp-opts:
-    host: dey.lnmarketplace.net
-    mode: stream-one
-    path: /kavir
-  xudp: true
-- name: '[I] 🇩🇪 德国 11'
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   password: humanity
   port: 443
