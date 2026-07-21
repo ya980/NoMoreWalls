@@ -1,5 +1,12 @@
 proxies:
 - name: '[D] 🇬🇧 英国 01'
+  password: 7_Bz834J98n238cNbx7cjLAw_Nux28c_kIO1Hq86Vr
+  port: 8443
+  server: 151.247.219.191
+  sni: hopp-queen.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 02'
   password: grape_288923
   port: 8080
   server: 82.22.53.30
@@ -8,16 +15,17 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇬🇧 英国 02'
-  network: xhttp
-  port: '8443'
-  server: 31.76.87.210
-  servername: pl1.gobalance.live
+  flow: xtls-rprx-vision
+  name: '[G] 🇬🇧 英国 03'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: yLDI5Qjzn4AHlXVDEXNVcLKAdr_dFeJ3p4eAScGkQjA
+    short-id: '!!str 0b0aa9caed9d011e'
+  server: 31.77.201.85
+  servername: ag-03.rita-cloud.com
   tls: true
   type: vless
   udp: true
-  uuid: 6f34a071-9a87-4665-b01a-4b5a5c95e552
-  xhttp-opts:
-    mode: auto
-    path: /api/v1/events
+  uuid: 16ad976d-b5df-4b4e-87b6-87cc64ac0a8b
   xudp: true

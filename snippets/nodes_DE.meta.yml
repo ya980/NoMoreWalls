@@ -50,43 +50,27 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 06'
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: 8443
+  server: 213.202.219.29
+  sni: grape-sos-de.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 07'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 8443
   server: sw02.auragg.org
   sni: sw02.auragg.org
   tls: false
   type: hysteria2
-- encryption: none
-  name: '[G] 🇩🇪 德国 07'
-  network: tcp
-  port: '22222'
-  server: 3.75.155.42
-  type: vless
+- name: '[G] 🇩🇪 德国 08'
+  password: IQ68037294
+  port: 443
+  server: aware-pika.rooster465.autos
+  skip-cert-verify: true
+  sni: aware-pika.rooster465.autos
+  type: trojan
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 08'
-  network: xhttp
-  port: '443'
-  server: 167.82.101.210
-  servername: global.fastly.coM.
-  tls: true
-  type: vless
-  udp: true
-  uuid: b2c19254-3f8d-4851-8861-fd2c4c26eca0
-  xhttp-opts:
-    host: farangis.global.ssl.fastly.neT.
-    mode: auto
-    path: /
-    sc-max-each-post-bytes: 1000000
-    sc-min-posts-interval-ms: 30
-    x-padding-bytes: 100-1000
-  xudp: true
 - cipher: aes-256-cfb
   name: '[G] 🇩🇪 德国 09'
   password: amazonskr05
@@ -94,53 +78,36 @@ proxies:
   server: 63.176.169.206
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: '[G] 🇩🇪 德国 10'
-  network: tcp
-  password: IQ68037294
-  port: '443'
-  server: aware-pika.rooster465.autos
-  skip-cert-verify: false
-  sni: aware-pika.rooster465.autos
-  type: trojan
-  udp: true
 - client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
+  encryption: none
+  flow: xtls-rprx-vision
   name: '[G] 🇩🇪 德国 11'
-  network: grpc
-  port: '7443'
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: HQHil8nG-HZlQ0wPWXJpX4VvbrauBlCRH26tu4yVFQ4
-    short-id: '!!str bfa2ebf4'
-  server: 84.201.4.252
-  servername: www.telekom.de
+    public-key: XSerkZgTPWKCzSgKTbfx3xgTp3asGddifSFtvp0bJyw
+    short-id: '!!str 89b8ef1537c69f72'
+  server: 83.243.86.45
+  servername: download.amd.com
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: 00a84cc6-073c-454b-9487-f0b7238e715f
   xudp: true
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
   name: '[G] 🇩🇪 德国 12'
-  network: http
-  port: '8882'
-  server: 31.56.206.222
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: 3yWaaf1TBj82g8QIzmvegzMto2XFcsK6MHdeddBrE0Q
+    short-id: '!!str 55763d54'
+  server: 194.55.239.250
+  servername: yastatic.ru
+  tls: true
   type: vless
   udp: true
-  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  uuid: 8947f307-311a-461e-ab1c-f02b599d6baa
   xudp: true
-- name: '[I] 🇩🇪 德国 13'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
-  uuid: 5921b1dc-4647-4ee5-a0a7-b2c3bad4a68d
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
