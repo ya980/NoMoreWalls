@@ -7,15 +7,33 @@ proxies:
   sni: nl2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: FN85iXr6eKOQLpileQaXWAQS9LcdwTFAfgMoZT6-5kQ
+    short-id: '!!str cbbd2f61842e7cf7'
+  server: ru-185.monkeyisland.xyz
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 37c08b33-a273-4b66-a114-48abceb037a4
+  xudp: true
 - cipher: aes-256-gcm
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 03'
   password: 32c0ea6e823341a2
   port: 8016
   server: 185.22.154.254
   type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 04'
   port: 443
   reality-opts:
     public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
@@ -25,7 +43,7 @@ proxies:
   tls: false
   type: vless
   uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
-- name: '[I] 🇷🇺 俄罗斯 04'
+- name: '[I] 🇷🇺 俄罗斯 05'
   network: ws
   port: 4100
   server: 5.129.194.34
@@ -38,7 +56,7 @@ proxies:
     path: '%2Fv1'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 05'
+  name: '[I] 🇷🇺 俄罗斯 06'
   port: 443
   reality-opts:
     public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
