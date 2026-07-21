@@ -30,7 +30,28 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- name: '[D] 🇺🇸 美国 05'
+  password: 1f31377f-a6bc-461f-9745-be3ed0ff4ecd
+  port: 6443
+  server: newlte.kihsuyhf8jkiugsxb.cfd
+  sni: newlte.kihsuyhf8jkiugsxb.cfd
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 06'
+  network: ws
+  port: '443'
+  server: xsj004-10.facai2024.com
+  servername: xsj004-10.facai2024.com
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      Host: xsj004-10.facai2024.com
+    path: /1f1aa362-25
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -38,7 +59,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -46,7 +67,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 11993
@@ -55,7 +76,7 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 08'
+  name: '[G] 🇺🇸 美国 10'
   password: IQ68037294
   port: '443'
   server: optimal-dane.rooster465.autos
@@ -63,89 +84,67 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 09'
-  network: tcp
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: '49361'
-  server: 163.245.196.68
-  skip-cert-verify: false
-  sni: 163.245.196.68.sslip.io
-  type: trojan
-  udp: true
-- client-fingerprint: safari
   encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: '[G] 🇺🇸 美国 10'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: _yzmX8WwaZJD4ddVgOZWJsx6r0lJzhTrTbkQLhwiWXk
-    short-id: '!!str c8540a3e9e1d8136'
-  server: 72.56.236.35
-  servername: usr.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
   name: '[G] 🇺🇸 美国 11'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: _yzmX8WwaZJD4ddVgOZWJsx6r0lJzhTrTbkQLhwiWXk
-    short-id: '!!str c8540a3e9e1d8136'
-  server: usr.moktana.app
-  servername: usr.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
-  xudp: true
-- client-fingerprint: randomized
-  name: '[G] 🇺🇸 美国 12'
   network: ws
   port: '443'
-  server: 104.17.28.89
-  servername: workspace.evan00.dpdns.org
+  server: 60.205.5.16
+  servername: vp58.cc.cd
   tls: true
   type: vless
   udp: true
-  uuid: 1078d418-b4e0-4668-9018-dc90c2042d61
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
+    early-data-header-name: Sec-WebSocket-Protocol
     headers:
-      Host: workspace.evan00.dpdns.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/69.0.3497.100 Safari/537.36
-    path: /
+      Host: vp58.cc.cd
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    max-early-data: 2560
+    path: Telegram🇨🇳 @VPNine1
   xudp: true
-- client-fingerprint: firefox
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 12'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: RBLUab6xZY89_lavlyhc6Wbh6bZCPB1D6UpmBn5UKFw
+    short-id: '!!str a379aacd5815cb32'
+  server: us-1.124515.xyz
+  servername: us-1.124515.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56b812e4-2d96-4ce5-b365-6c801663a37a
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
   flow: xtls-rprx-vision
   name: '[G] 🇺🇸 美国 13'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: usa07.myxasecure.space
-  servername: usa07.myxasecure.space
+    public-key: dQ1UuZtHmkxbOa0CuhzD8xx5l2oX3PTYvEWWE7C2Djk
+    short-id: '!!str '
+  server: usa.izzzyvpn.ru
+  servername: ads.x5.ru:443
   tls: true
   type: vless
   udp: true
-  uuid: b79ada82-b394-4afd-828f-7eefecae3a97
+  uuid: aea30a00-4cbb-4acc-b1c2-cb53a7522d09
   xudp: true
-- name: '[G] 🇺🇸 美国 14'
-  password: ''
-  port: '9002'
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
+- client-fingerprint: chrome
+  name: '[G] 🇺🇸 美国 14'
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: integral-elf.rooster465.autos
+  skip-cert-verify: false
+  sni: integral-elf.rooster465.autos
+  type: trojan
+  udp: true
 - client-fingerprint: firefox
   name: '[I] 🇺🇸 美国 15'
   network: ws

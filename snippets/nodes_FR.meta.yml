@@ -9,57 +9,60 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
+- alpn:
+  - h3
+  name: '[D] 🇫🇷 法国 02'
+  password: 1f31377f-a6bc-461f-9745-be3ed0ff4ecd
+  port: 9443
+  server: newlte.kihsuyhf8jkiugsxb.cfd
+  skip-cert-verify: false
+  sni: newlte.kihsuyhf8jkiugsxb.cfd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[D] 🇫🇷 法国 03'
+  password: 433def7c1a6e432e8a1ced81e966fe9e
+  port: 443
+  server: 64.188.64.204
+  sni: ge2.skydrgn.xyz
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 04'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: ge01.auragg.org
   sni: ge01.auragg.org
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
+- name: '[D] 🇫🇷 法国 05'
   password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
   port: 8443
   server: vpn.the2oser.lol
   skip-cert-verify: true
-  sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
-  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
-  port: 8443
-  server: vpn.the2oser.lol
-  skip-cert-verify: true
+- name: '[D] 🇫🇷 法国 06'
+  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
+  port: 8433
+  server: de1-hy2.veilvpn.life
+  sni: de1-hy2.veilvpn.life
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇫🇷 法国 05'
+  name: '[D] 🇫🇷 法国 07'
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   port: 25447
   server: 144.31.107.101
   sni: devideo.h2corp.org
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 06'
+- name: '[D] 🇫🇷 法国 08'
   password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
   port: 25447
   server: 144.31.107.101
   sni: devideo.h2corp.org
   tls: false
   type: hysteria2
-- client-fingerprint: random
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇫🇷 法国 07'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ppvT23Dpmf4G9dZLVQJq3Ev9ckq4REa1jJ9gkXqp1zQ
-    short-id: '!!str '
-  server: 37.49.230.107
-  servername: fastsync.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-  xudp: true

@@ -1,7 +1,21 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 26'
+  name: '[D] 🌍 其它地区 29'
+  network: ws
+  port: '80'
+  server: 38.107.234.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 30'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -13,22 +27,36 @@ proxies:
     headers:
       Host: ''
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 06'
+  network: ws
+  port: '443'
+  server: xsj004-10.facai2024.com
+  servername: xsj004-10.facai2024.com
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      Host: xsj004-10.facai2024.com
+    path: /1f1aa362-25
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 27'
+  name: '[E] 🌍 其它地区 31'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 03'
+  name: '[E] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 04'
+- name: '[E] 🇭🇰 香港 05'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 13118
@@ -36,7 +64,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 05'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -44,7 +72,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 11231
@@ -100,7 +128,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -108,7 +136,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -116,7 +144,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 11993
@@ -126,7 +154,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 08'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -135,78 +163,85 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: '[G] 🇸🇬 新加坡 06'
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: 443
+  server: 188.164.248.122
+  skip-cert-verify: true
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: space.byu.id.yxls.eu.cc
+    path: /in-pdr
+- name: '[G] 🇸🇬 新加坡 07'
   password: IQ68037294
   port: 443
-  server: pleased-sawfly.rooster465.autos
+  server: apt-midge.rooster465.autos
   skip-cert-verify: true
+  sni: apt-midge.rooster465.autos
   type: trojan
-- name: '[G] 🇺🇸 美国 08'
+  udp: true
+- name: '[G] 🇺🇸 美国 10'
   password: IQ68037294
   port: '443'
   server: optimal-dane.rooster465.autos
   skip-cert-verify: false
   type: trojan
   udp: true
-- name: '[G] 🇸🇬 新加坡 07'
-  password: IQ68037294
-  port: '443'
-  server: casual-stallion.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: '[G] 🇸🇬 新加坡 08'
-  password: IQ68037294
-  port: '443'
-  server: glowing-deer.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[G] 🌍 其它地区 66'
+  name: '[G] 🌍 其它地区 34'
   password: r2v53aul8lsaweki
   port: '25026'
   server: 0721-syah.kovira2.ir
   type: ss
   udp: true
-- name: '[G] 🇺🇸 美国 09'
-  network: tcp
-  password: 0ebb269c9f2d4e8e46b0cd4105a55134
-  port: '49361'
-  server: 163.245.196.68
+- name: '[G] 🇯🇵 日本 04'
+  password: IQ68037294
+  port: '443'
+  server: major-duckling.rooster465.autos
   skip-cert-verify: false
-  sni: 163.245.196.68.sslip.io
   type: trojan
   udp: true
 - name: '[G] 🇸🇬 新加坡 11'
   network: tcp
   password: IQ68037294
   port: '443'
-  server: prepared-turkey.rooster465.autos
+  server: giving-bird.rooster465.autos
   skip-cert-verify: false
-  sni: prepared-turkey.rooster465.autos
+  sni: giving-bird.rooster465.autos
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] 🇩🇪 德国 13'
+  password: amazonskr05
+  port: '443'
+  server: 18.159.53.205
+  type: ss
+  udp: true
+- name: '[G] 🇯🇵 日本 05'
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: new-antelope.rooster465.autos
+  skip-cert-verify: false
+  sni: new-antelope.rooster465.autos
+  type: trojan
+  udp: true
+- name: '[G] 🇺🇸 美国 14'
+  network: tcp
+  password: IQ68037294
+  port: '443'
+  server: integral-elf.rooster465.autos
+  skip-cert-verify: false
+  sni: integral-elf.rooster465.autos
   type: trojan
   udp: true
 - name: '[G] 🇸🇬 新加坡 12'
   network: tcp
   password: IQ68037294
   port: '443'
-  server: helpful-possum.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: '[G] 🇸🇬 新加坡 13'
-  network: tcp
-  password: IQ68037294
-  port: '443'
   server: apt-midge.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: '[G] 🇯🇵 日本 04'
-  network: tcp
-  password: IQ68037294
-  port: '443'
-  server: sweeping-parakeet.rooster465.autos
   skip-cert-verify: false
   type: trojan
   udp: true
@@ -216,7 +251,7 @@ proxies:
   port: 443
   server: 8.210.171.48
   type: ss
-- name: '[I] 🇩🇪 德国 13'
+- name: '[I] 🇩🇪 德国 14'
   network: ws
   password: humanity
   port: 443
@@ -228,12 +263,12 @@ proxies:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
 - cipher: aes-256-gcm
-  name: '[I] 🇷🇺 俄罗斯 06'
+  name: '[I] 🇷🇺 俄罗斯 02'
   password: 32c0ea6e823341a2
   port: 8016
   server: 185.22.154.254
   type: ss
-- name: '[I] 🌍 其它地区 94'
+- name: '[I] 🌍 其它地区 50'
   network: ws
   password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
   port: 443
