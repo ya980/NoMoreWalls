@@ -3,7 +3,7 @@ proxies:
   encryption: none
   flow: xtls-rprx-vision
   name: '[G] 🇷🇺 俄罗斯 01'
-  network: tcp
+  network: raw
   port: '443'
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
@@ -15,68 +15,7 @@ proxies:
   udp: true
   uuid: 2a77a470-315c-493d-b690-59b814a804cb
   xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇷🇺 俄罗斯 02'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 161.104.107.86
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2a77a470-315c-493d-b690-59b814a804cb
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-  name: '[G] 🇷🇺 俄罗斯 03'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: '!!str 9e2a6f4c3b7d1e8a'
-  server: ru.moktana.app
-  servername: ru.moktana.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 696915f2-5ad4-452b-987c-d83d29d0503a
-  xudp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇷🇺 俄罗斯 04'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SHDdd617KLHHb0qlQFOHepeHFl_Ch2i-K7o891uyo2M
-    short-id: '!!str '
-  server: 45.143.201.72
-  servername: tehno.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 05'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
-    short-id: '!!str b7fc0f11dda97edb'
-  server: corelink.su
-  servername: corelink.su
-  tls: false
-  type: vless
-  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19
-- name: '[I] 🇷🇺 俄罗斯 06'
+- name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 4100
   server: 5.129.194.34
@@ -87,15 +26,3 @@ proxies:
     headers:
       Host: live.ok.ru
     path: '%2Fv1'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 07'
-  port: 443
-  reality-opts:
-    public-key: b0y3fVgL8jKbO3cNmh_qCoZWoWRsY6BYc6VDJFkNe2I
-    short-id: '!!str b7fc0f11dda97edb'
-  server: 201.51.12.73
-  servername: corelink.su
-  tls: false
-  type: vless
-  uuid: 153560b0-1a33-4b44-b059-ca5b22e55c19

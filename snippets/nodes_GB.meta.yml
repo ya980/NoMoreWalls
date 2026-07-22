@@ -1,34 +1,16 @@
 proxies:
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇬🇧 英国 01'
-  network: tcp
-  port: '4888'
-  reality-opts:
-    public-key: qtTBa3X4L1h8yS5jbUPY4SFstmtQ0v1oOn0f3qqV3jc
-    short-id: '!!str ce6dec37e4d0d3c6'
-  server: 31.76.119.201
-  servername: pingless.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: af288d94-dd26-46cb-ad3d-5fe644e97e2f
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: auragrpc
-  name: '[G] 🇬🇧 英国 02'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: TGJxKbPG8ds2NwK6uhgQURUfVJ01BcRh3Eaoy3dtdGA
-    short-id: '!!str a3d8f1e9b2c7d4e6'
-  server: ge03.auragg.org
-  servername: cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  xudp: true
+- name: '[D] 🇬🇧 英国 01'
+  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
+  port: 443
+  server: popa.leontunel.ru
+  skip-cert-verify: false
+  sni: popa.leontunel.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 02'
+  password: grape_288923
+  port: 8080
+  server: 194.247.182.201
+  sni: grape-coffee-fi.gleeze.com
+  tls: false
+  type: hysteria2
