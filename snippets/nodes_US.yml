@@ -2,17 +2,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[D] 🇺🇸 美国 05'
-  network: ws
+  network: tcp
   port: '443'
-  server: xsj004-10.facai2024.com
+  server: 165.140.216.142
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
-  ws-opts:
-    headers:
-      Host: ''
-    path: /1f1aa362-25
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
@@ -37,20 +33,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: '[G] 🇺🇸 美国 09'
+  password: WG39087154
+  port: 443
+  server: caring-ghoul.rooster465.autos
+  skip-cert-verify: true
+  sni: caring-ghoul.rooster465.autos
+  type: trojan
+  udp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 10'
+  name: '[G] 🇺🇸 美国 19'
   network: ws
   password: MITIVPN
   port: '443'
   server: 104.16.72.50
-  skip-cert-verify: false
-  sni: win-mitivpn-----mitivpn.app-Cloud.ir
+  skip-cert-verify: true
+  sni: win-mitivpn-----mitivpn.Maqror.ir
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.116 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winde

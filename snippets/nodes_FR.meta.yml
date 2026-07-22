@@ -18,21 +18,77 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 03'
-  password: 8ffbff3b-12c9-4d49-af97-93a8d6cb4edb
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   port: 443
-  server: de2.sunconnecthub.com
-  skip-cert-verify: false
-  sni: de2.sunconnecthub.com
+  server: ge01.auragg.org
+  sni: ge01.auragg.org
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 04'
+  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
+  port: 443
+  server: ge01.auragg.org
+  sni: ge01.auragg.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 05'
   password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
   port: 8443
   server: vpn.the2oser.lol
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[I] 🇫🇷 法国 05'
+- name: '[D] 🇫🇷 法国 06'
+  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
+  port: 8443
+  server: vpn.the2oser.lol
+  sni: vpn.the2oser.lol
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '[G] 🇫🇷 法国 07'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.8
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
+- fingerprint: ''
+  name: '[G] 🇫🇷 法国 08'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: '22880'
+  server: anytls2.934618.xyz
+  skip-cert-verify: false
+  sni: anytls2.934618.xyz
+  type: anytls
+  udp: true
+  username: github.com/Alvin9999-newpac/fanqiang
+- encryption: none
+  name: '[G] 🇫🇷 法国 09'
+  network: tcp
+  port: '22222'
+  server: 51.44.112.70
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- client-fingerprint: chrome
+  name: '[G] 🇫🇷 法国 10'
+  network: tcp
+  password: WG39087154
+  port: '443'
+  server: nearby-cod.rooster465.autos
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- name: '[I] 🇫🇷 法国 11'
   network: ws
   port: 8880
   server: 185.193.30.30
