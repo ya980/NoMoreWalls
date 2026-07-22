@@ -1,15 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 04'
-  network: tcp
+  name: '[D] 🇺🇸 美国 05'
+  network: ws
   port: '443'
-  server: 165.140.216.141
+  server: xsj004-10.facai2024.com
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
-- name: '[E] 🇺🇸 美国 05'
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1f1aa362-25
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -17,7 +21,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -25,7 +29,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -33,3 +37,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[G] 🇺🇸 美国 10'
+  network: ws
+  password: MITIVPN
+  port: '443'
+  server: 104.16.72.50
+  skip-cert-verify: false
+  sni: win-mitivpn-----mitivpn.app-Cloud.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=winusa
