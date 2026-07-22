@@ -59,14 +59,6 @@ proxies:
 - name: '[D] 🇩🇪 德国 07'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 8443
-  server: 31.77.158.105
-  skip-cert-verify: false
-  sni: sw02.auragg.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 08'
-  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: 8443
   server: sw02.auragg.org
   sni: sw02.auragg.org
   tls: false
@@ -76,7 +68,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: '[G] 🇩🇪 德国 09'
+  name: '[G] 🇩🇪 德国 08'
   port: 20088
   server: 5.83.129.153
   skip-cert-verify: true
@@ -84,52 +76,70 @@ proxies:
   type: hysteria
   up: 500
 - alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: '[G] 🇩🇪 德国 10'
-  network: xhttp
-  port: '8443'
-  server: 162.159.38.119
-  servername: o.vamosargentina.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: o.vamosargentina.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- alpn:
   - h3
+  auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
-  down: '55'
-  name: '[G] 🇩🇪 德国 11'
+  down: 1000
+  name: '[G] 🇩🇪 德国 09'
   port: 54177
   server: 5.83.129.90
   skip-cert-verify: true
-  sni: bing.com
+  sni: apple.com
   type: hysteria
-  udp: true
-  up: '11'
-- cipher: aes-256-cfb
-  name: '[G] 🇩🇪 德国 12'
-  password: amazonskr05
-  port: '443'
-  server: 18.159.53.205
-  type: ss
-  udp: true
-- name: '[I] 🇩🇪 德国 13'
+  up: 500
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 10'
   network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
+  password: p2QFnWdKPZt0evve7n-C52fTqRndJa5W
+  port: '443'
+  server: 103.27.157.97
+  skip-cert-verify: false
+  sni: rem.dtr.kotokopolb.ru
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /trojan-ws
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[G] 🇩🇪 德国 11'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: dqgIhU45MGa6nWIwRU-j9LDYVOQXliSQAoI1Foe4cyI
+    short-id: '!!str 11ffa74edffc01aa'
+  server: 93.152.224.198
+  servername: akenai.kyras.pw
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6db6b948-655f-4f68-a9e7-865050e05b31
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[G] 🇩🇪 德国 12'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: dJDkS3qV0P2GnLUkGBpmeWhu5brRDMVUeBE4ng1WcnQ
+    short-id: '!!str '
+  server: 5.83.129.253
+  servername: flash.try-me.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03
+  xudp: true
+- name: '[I] 🇩🇪 德国 13'
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: 76e5908e-d3fd-49fd-8bd0-ce26ec368dea
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
