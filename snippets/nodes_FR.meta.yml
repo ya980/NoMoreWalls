@@ -10,19 +10,17 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 02'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: fr2.h2corp.org
-  skip-cert-verify: false
-  sni: fr2.h2corp.org
+  password: 1f31377f-a6bc-461f-9745-be3ed0ff4ecd
+  port: 9443
+  server: newlte.kihsuyhf8jkiugsxb.cfd
+  sni: newlte.kihsuyhf8jkiugsxb.cfd
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 03'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
   port: 443
-  server: germany1.noesissite.ru
-  skip-cert-verify: false
-  sni: germany1.noesissite.ru
+  server: ge01.auragg.org
+  sni: ge01.auragg.org
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 04'
@@ -39,11 +37,42 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[G] 🇫🇷 法国 06'
-  network: tcp
-  port: 22222
-  server: 15.188.211.23
+- name: '[D] 🇫🇷 法国 06'
+  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
+  port: 8443
+  server: vpn.the2oser.lol
+  sni: vpn.the2oser.lol
   tls: false
+  type: hysteria2
+- encryption: none
+  name: '[G] 🇫🇷 法国 07'
+  network: tcp
+  port: '22223'
+  server: 15.224.131.242
   type: vless
   udp: true
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 08'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: eMZtu7E1ycy-MOzBGLo8RrXk2i_hHqHd4E8DodvwUFE
+    short-id: '!!str c65b41802a043ff0'
+  server: new.fr.u3er1.ir
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9a97a3dd-20a8-451a-9274-a49b5de7cf9c
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇫🇷 法国 09'
+  password: Q_LUYdpUM8gB9OhIJP-jeFNeCIQPAQBP
+  port: '1080'
+  server: new.fr.u3er1.ir
+  type: ss
+  udp: true

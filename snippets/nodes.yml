@@ -18,14 +18,14 @@ proxies:
   name: '[D] 🌍 其它地区 36'
   network: ws
   port: '80'
-  server: 38.107.234.57
+  server: 3h-kazakhstan1.09vpn.com
   servername: ''
   tls: false
   type: vmess
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: 3h-kazakhstan1.09vpn.com
+      Host: ''
     path: /vmess/
 - alterId: 0
   cipher: auto
@@ -39,11 +39,25 @@ proxies:
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+      Host: 3h-kazakhstan1.09vpn.com
     path: /vmess/
 - alterId: 0
   cipher: auto
   name: '[D] 🌍 其它地区 38'
+  network: ws
+  port: '80'
+  server: 38.107.234.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 39'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -55,8 +69,60 @@ proxies:
     headers:
       Host: 61.245.11.60
     path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 40'
+  network: ws
+  port: '80'
+  server: 61.245.11.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 03'
+  network: ''
+  port: '53168'
+  server: lt.badns.help
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 04'
+  network: ws
+  port: '443'
+  server: xsj004-10.facai2024.com
+  servername: xsj004-10.facai2024.com
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      Host: xsj004-10.facai2024.com
+    path: /1f1aa362-25
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 05'
+  network: ws
+  port: '443'
+  server: xsj004-10.facai2024.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      Host: ''
+    path: /1f1aa362-25
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 39'
+  name: '[E] 🌍 其它地区 41'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -142,7 +208,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -150,7 +216,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -158,7 +224,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 25651
@@ -176,47 +242,25 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇰🇷 韩国 01'
-  password: FC60532879
+- name: '[G] 🌍 其它地区 42'
+  password: JA96378052
   port: 443
-  server: powerful-opossum.rooster465.autos
+  server: evident-gnat.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
 - name: '[G] 🇸🇬 新加坡 06'
-  network: tcp
   password: FC60532879
   port: 443
   server: resolved-gelding.rooster465.autos
-  skip-cert-verify: false
-  sni: resolved-gelding.rooster465.autos
-  tls: true
-  type: trojan
-  udp: true
-- name: '[G] 🇸🇬 新加坡 07'
-  password: FC60532879
-  port: 443
-  server: neat-quail.rooster465.autos
   skip-cert-verify: true
-  type: trojan
-- name: '[G] 🇸🇬 新加坡 08'
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: '443'
-  server: 188.164.248.122
-  skip-cert-verify: false
-  sni: space.byu.id.yxls.eu.cc
+  sni: resolved-gelding.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /in-pdr
 - alpn:
   - h2
   - http/1.1
-  name: '[G] 🇸🇬 新加坡 09'
+  name: '[G] 🇸🇬 新加坡 07'
   network: ws
   password: MITIVPN
   port: '443'
@@ -227,18 +271,24 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=uss
 - alterId: 2
   cipher: auto
   name: '[G] 🇺🇸 美国 15'
   network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
   type: vmess
-  udp: true
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
+  ws-opts:
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇫🇷 法国 09'
+  password: Q_LUYdpUM8gB9OhIJP-jeFNeCIQPAQBP
+  port: '1080'
+  server: new.fr.u3er1.ir
+  type: ss
+  udp: true
