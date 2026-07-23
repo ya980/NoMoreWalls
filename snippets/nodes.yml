@@ -1,30 +1,76 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 04'
-  network: tcp
-  port: '53168'
-  server: lt.badns.help
+  name: '[D] 🌍 其它地区 35'
+  network: ws
+  port: '80'
+  server: 38.107.234.57
   servername: ''
   tls: false
   type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 36'
+  network: ws
+  port: '80'
+  server: 38.107.234.57
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 37'
+  network: ws
+  port: '80'
+  server: 3h-kazakhstan1.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 38'
+  network: ws
+  port: '80'
+  server: 61.245.11.60
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  ws-opts:
+    headers:
+      Host: 61.245.11.60
+    path: /vmess/
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 27'
+  name: '[E] 🌍 其它地区 39'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 02'
+  name: '[E] 🇭🇰 香港 03'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 03'
+- name: '[E] 🇭🇰 香港 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 13118
@@ -32,7 +78,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 04'
+- name: '[E] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -40,7 +86,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 05'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -96,7 +142,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 04'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -104,7 +150,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 05'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -112,7 +158,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 25651
@@ -122,7 +168,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 06'
+  name: '[F] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -130,22 +176,10 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇸🇬 新加坡 06'
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
 - alpn:
   - h2
   - http/1.1
-  name: '[G] 🇸🇬 新加坡 08'
+  name: '[G] 🇸🇬 新加坡 07'
   network: ws
   password: MITIVPN
   port: '443'
@@ -156,40 +190,6 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/53.0.2785.143 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=uss
-- alpn:
-  - h2
-  - http/1.1
-  name: '[G] 🇸🇬 新加坡 09'
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.18.34.13
-  skip-cert-verify: true
-  sni: b-g--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/44.0.2403.157 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=fls
-- alpn:
-  - h2
-  - http/1.1
-  name: '[G] 🇸🇬 新加坡 10'
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 172.64.148.84
-  skip-cert-verify: true
-  sni: u--o-MiTiVPN---MiTiVPNj.aPp-cLoud.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=nls
