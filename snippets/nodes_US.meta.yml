@@ -8,13 +8,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇺🇸 美国 02'
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 03'
   password: e3a5bb40be52de65
   port: 2328
   server: q.baoge.me
@@ -22,7 +15,25 @@ proxies:
   sni: apps.apple.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
+- name: '[D] 🇺🇸 美国 03'
+  password: Hy2@SiLiCon2026!
+  port: 8443
+  server: 43.130.7.3
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 04'
+  network: tcp
+  port: '53168'
+  server: lt.badns.help
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+- name: '[E] 🇺🇸 美国 05'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -30,7 +41,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 17005
@@ -38,7 +49,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 25651
@@ -46,42 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇺🇸 美国 07'
-  network: ws
-  port: '443'
-  server: ezaccess1-x4g-ezaccess1-e6b8.up.railway.app
-  servername: ezaccess1-x4g-ezaccess1-e6b8.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4834f2fb-0f56-5fe5-37df-2082896b4f75
-  ws-opts:
-    headers:
-      Host: ezaccess1-x4g-ezaccess1-e6b8.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /ws/4834f2fb-0f56-5fe5-37df-2082896b4f75
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 08'
-  network: tcp
-  port: '26968'
-  reality-opts:
-    public-key: IwMxv6Qwg6pWExtNPebIfOc6nhG82nNyKYVlKQwOPhI
-    short-id: '!!str edec63'
-  server: doufovh.papstore.xyz
-  servername: images-na.ssl-images-amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 70289a41-983c-43bf-8331-c2c8cfb1ffa0
-  xudp: true
-- name: '[I] 🇺🇸 美国 09'
+- name: '[I] 🇺🇸 美国 08'
   network: ws
   port: 443
   server: 162.159.38.119
@@ -94,7 +70,7 @@ proxies:
     headers:
       Host: vangoghhh.info
     path: /rdfgtws
-- name: '[I] 🇺🇸 美国 10'
+- name: '[I] 🇺🇸 美国 09'
   network: ws
   port: 443
   server: fast.motorbazan.com
