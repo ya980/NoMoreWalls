@@ -12,7 +12,7 @@ proxies:
 - name: '[C] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: 73x493S1pE
+  password: RSGabzHJGl
   port: 31999
   server: 91.107.152.188
   skip-cert-verify: true
@@ -22,26 +22,6 @@ proxies:
 - name: '[C] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
-  password: RSGabzHJGl
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '[C] 🇩🇪 德国 04'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: ZkWtnfGK6h
-  port: 31999
-  server: 91.107.152.188
-  skip-cert-verify: true
-  sni: www.amd.com
-  tls: false
-  type: hysteria2
-- name: '[C] 🇩🇪 德国 05'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
   password: fGc3qPlaQk
   port: 31999
   server: 91.107.152.188
@@ -49,7 +29,14 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 06'
+- name: '[D] 🇩🇪 德国 04'
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: 8443
+  server: 213.202.219.29
+  sni: grape-sos-de.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 05'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: swe-one.quiet-rogue.site
@@ -57,30 +44,33 @@ proxies:
   sni: swe-one.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 07'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 8443
-  server: sw02.auragg.org
-  sni: sw02.auragg.org
+- grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless
+  name: '[G] 🇩🇪 德国 06'
+  network: grpc
+  port: 2085
+  server: 81.31.211.172
   tls: false
-  type: hysteria2
-- encryption: none
-  name: '[G] 🇩🇪 德国 08'
-  network: ws
-  port: '8880'
-  server: cdn-cloudflare91.korvexe.ir
   type: vless
   udp: true
-  uuid: 28926c34-865c-447e-8d42-a17240af743b
-  ws-opts:
-    headers:
-      Host: cdn-cloudflare91.korvexe.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /shop
-  xudp: true
+  uuid: 31a62aa2-c465-4c1f-b636-f90578922b5f
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '[G] 🇩🇪 德国 07'
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 09'
+  name: '[I] 🇩🇪 德国 08'
   network: xhttp
   port: 443
   reality-opts:
@@ -92,7 +82,7 @@ proxies:
   uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
   ws-opts:
     path: /
-- name: '[I] 🇩🇪 德国 10'
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   port: 80
   server: 146.75.119.82

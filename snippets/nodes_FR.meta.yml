@@ -9,26 +9,27 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
+- name: '[C] 🇫🇷 法国 02'
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
   server: fr2.h2corp.org
-  skip-cert-verify: false
   sni: fr2.h2corp.org
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 03'
-  password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: 443
-  server: ge01.auragg.org
-  sni: ge01.auragg.org
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 04'
-  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
-  port: 8443
-  server: vpn.the2oser.lol
-  skip-cert-verify: true
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: germany1.noesissite.ru
+  skip-cert-verify: false
+  sni: germany1.noesissite.ru
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 05'
@@ -47,21 +48,16 @@ proxies:
   tls: false
   type: hysteria2
 - alpn:
-  - h2
-  client-fingerprint: firefox
-  encryption: none
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
   name: '[G] 🇫🇷 法国 07'
-  network: xhttp
-  port: '443'
-  server: fr.noooo.win
-  servername: api-v1-6a607319.alpheratzz.org
-  tls: true
-  type: vless
+  password: dongtaiwang.com
+  port: 33888
+  server: 163.172.118.224
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
   udp: true
-  uuid: 84ab386f-9d86-4a71-bdf3-e26170c2c8f6
-  xhttp-opts:
-    mode: stream-one
-    path: /
-    reuse-settings:
-      max-connections: '1'
-  xudp: true
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
