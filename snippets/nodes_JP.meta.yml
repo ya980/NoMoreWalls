@@ -23,16 +23,29 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 04'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
-    short-id: '!!str 8f9d033ad6d2cebf'
-  server: hk1.cyphervpn.pro
-  servername: hk1.cyphervpn.pro
+- encryption: none
+  name: '[G] 🇯🇵 日本 04'
+  network: ws
+  port: '8880'
+  server: cf5.466688.xyz
+  type: vless
+  udp: true
+  uuid: 6b504c50-8535-44cf-8e4e-f8ee674a922e
+  ws-opts:
+    headers:
+      Host: old-moon-16d0.156-a25.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /pyip=ProxyIP.JP.CMLiussss.net@https://t.me/QiangLieTuiJian
+  xudp: true
+- name: '[I] 🇯🇵 日本 05'
+  network: ws
+  port: 80
+  server: 162.159.81.177
   tls: false
   type: vless
-  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  ws-opts:
+    headers:
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+    path: '%2FeyJqdW5rIjoibHFUM0pwRHZXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19'
