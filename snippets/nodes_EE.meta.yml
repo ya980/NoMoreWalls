@@ -1,16 +1,9 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[G] EE 01'
-  network: tcp
-  port: '8442'
-  reality-opts:
-    public-key: TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg
-    short-id: '!!str a7f9106ba66e4796'
-  server: 95sub.ghost-lan.com
-  servername: max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
-  xudp: true
+- name: '[D] EE 01'
+  password: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
+  port: 4443
+  server: ee.riotvpn.eu
+  skip-cert-verify: false
+  sni: static.vkimages.io
+  tls: false
+  type: hysteria2

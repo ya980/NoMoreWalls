@@ -1,12 +1,44 @@
 proxies:
 - name: '[D] 🇺🇸 美国 01'
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: bel-02.node.lumixnet.com
+  skip-cert-verify: false
+  sni: bel-02.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 02'
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: bel-03.node.lumixnet.com
+  skip-cert-verify: false
+  sni: bel-03.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 03'
   password: ad790e5f-3e31-43c6-b047-336577a3b3de
   port: 443
   server: hhfinn.ietotozheproidet.site
   sni: hhfinn.ietotozheproidet.site
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 02'
+- name: '[D] 🇺🇸 美国 04'
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: ltu-01.node.lumixnet.com
+  skip-cert-verify: false
+  sni: ltu-01.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 05'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: usp.noesissite.ru
+  skip-cert-verify: false
+  sni: usp.noesissite.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 06'
   password: dongtaiwang.com
   port: 44356
   server: hy2.561891.xyz
@@ -15,7 +47,14 @@ proxies:
   tls: false
   type: hysteria2
   udp: true
-- name: '[D] 🇺🇸 美国 03'
+- name: '[D] 🇺🇸 美国 07'
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: usa1.spectrumproxy.shop
+  sni: usa1.spectrumproxy.shop
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 08'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
@@ -23,7 +62,21 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 09'
+  network: ws
+  port: '443'
+  server: xsj004-10.facai2024.com
+  servername: xsj004-10.facai2024.com
+  tls: true
+  type: vmess
+  uuid: 1f1aa362-2576-4989-8fdb-7cf1c2c96490
+  ws-opts:
+    headers:
+      Host: xsj004-10.facai2024.com
+    path: /1f1aa362-25
+- name: '[E] 🇺🇸 美国 10'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -31,7 +84,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 11'
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
   port: 49277
@@ -39,7 +92,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -47,89 +100,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '[G] 🇺🇸 美国 07'
-  password: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
-  port: 8443
-  reduce-rtt: false
-  request-timeout: 0
-  server: us02.uzifan.monster
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 56d8a8fd-68b8-47f8-8c7f-98cc675902db
-- auth: nNS3WyiBOL
-  name: '[G] 🇺🇸 美国 08'
-  obfs: salamander
-  obfs-password: vwrgaergG
-  password: nNS3WyiBOL
-  port: 19108
-  server: 178.128.65.195
-  skip-cert-verify: true
-  sni: aws.amazon.com
-  type: hysteria2
-- auth: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  name: '[G] 🇺🇸 美国 09'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 10'
-  network: ws
-  port: 443
-  server: 199.193.125.72
-  servername: jwvze.f40g.szo.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: jwvze.f40g.szo.hh.vavava.kdns.fr
-    path: /?ed=2560
 - multiplexing: MULTIPLEXING_LOW
-  name: '[G] 🇺🇸 美国 11'
+  name: '[G] 🇺🇸 美国 13'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 12'
-  network: ws
-  port: 443
-  server: 173.242.121.171
-  servername: jwvze.f40g.szo.hh.vavava.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  ws-opts:
-    headers:
-      Host: jwvze.f40g.szo.hh.vavava.kdns.fr
-    path: /?ed=2560
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 13'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: usa02.myxasecure.space
-  servername: usa02.myxasecure.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -137,18 +115,18 @@ proxies:
   name: '[G] 🇺🇸 美国 14'
   network: ws
   port: '443'
-  server: 69.46.46.1
-  servername: x4g-production-4973.up.railway.app
+  server: 69.46.46.4
+  servername: x4g-production-7fd2.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 4206a00d-e790-8566-ef63-c20f8eaeed36
+  uuid: 7ff2bfab-a513-9348-bb77-23931a1e58b3
   ws-opts:
     headers:
-      Host: x4g-production-4973.up.railway.app
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /ws/4206a00d-e790-8566-ef63-c20f8eaeed36
+      Host: x4g-production-7fd2.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /ws/7ff2bfab-a513-9348-bb77-23931a1e58b3
   xudp: true
 - alpn:
   - http/1.1
@@ -157,20 +135,54 @@ proxies:
   name: '[G] 🇺🇸 美国 15'
   network: ws
   port: '443'
-  server: 172.66.40.99
-  servername: l-j-o-MiTiVPN---MiTiVPN-iiio.App-Cloud.ir
+  server: subgift3.up.railway.app
+  servername: subgift3.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  uuid: 92c8098f-1143-05ef-4d67-004d9c81343d
   ws-opts:
     headers:
-      Host: l-j--bMiTiVPN---MiTiVPN-mmo.App-Cloud.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/37.0.2062.120 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN---@MiTiVPN=sws
+      Host: subgift3.up.railway.app
+      User-Agent: Mozilla/5.0 (X11; Datanyze; Linux x86_64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /ws/92c8098f-1143-05ef-4d67-004d9c81343d
   xudp: true
-- name: '[G] 🇺🇸 美国 16'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇺🇸 美国 16'
+  network: ws
+  port: '443'
+  server: soskeynets-media.up.railway.app
+  servername: uploading-media.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 19358f9b-418f-89a6-3900-8ecb182693d2
+  ws-opts:
+    headers:
+      Host: uploading-media.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /ws/19358f9b-418f-89a6-3900-8ecb182693d2
+  xudp: true
+- name: '[G] 🇺🇸 美国 17'
+  network: ws
+  port: 2095
+  server: 172.64.144.82
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /
+  xudp: true
+- name: '[G] 🇺🇸 美国 18'
   network: ws
   port: 2095
   server: 172.64.146.153
@@ -184,21 +196,7 @@ proxies:
         like Gecko) Chrome/70.0.3538.110 Safari/537.36
     path: /
   xudp: true
-- name: '[G] 🇺🇸 美国 17'
-  network: ws
-  port: 2095
-  server: 162.159.36.5
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- name: '[G] 🇺🇸 美国 18'
+- name: '[G] 🇺🇸 美国 19'
   network: ws
   port: 2095
   server: 172.64.145.202
@@ -212,45 +210,65 @@ proxies:
         like Gecko) Chrome/53.0.2785.143 Safari/537.36
     path: /
   xudp: true
+- name: '[G] 🇺🇸 美国 20'
+  network: ws
+  port: 2095
+  server: 172.67.161.104
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fangbinxingnmsl.pusytroller.gq
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇺🇸 美国 21'
+  network: ws
+  port: 443
+  server: 166.117.184.30
+  servername: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57d68ec3-6cc5-10e9-2bca-5ba3994aa783
+  ws-opts:
+    headers:
+      Host: 2.r.y.a.j.7.c.z.d.z.8.f.f.r.us.art-us.kdns.fr
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /glasspanel/0038ba35_0_1bdabe931208/
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇺🇸 美国 19'
+  name: '[G] 🇺🇸 美国 22'
   network: ws
   port: '443'
-  server: subgift3.up.railway.app
-  servername: subgift3.up.railway.app
+  server: uploading-media.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 92c8098f-1143-05ef-4d67-004d9c81343d
+  uuid: 19358f9b-418f-89a6-3900-8ecb182693d2
   ws-opts:
     headers:
-      Host: subgift3.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
-        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
-    path: /ws/92c8098f-1143-05ef-4d67-004d9c81343d
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /ws/19358f9b-418f-89a6-3900-8ecb182693d2
   xudp: true
-- client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 20'
-  network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: '20042'
-  server: d3.catcat321.com
-  skip-cert-verify: true
-  sni: us.catxstar.com
-  type: trojan
-  udp: true
-- name: '[G] 🇺🇸 美国 21'
+- name: '[G] 🇺🇸 美国 23'
   password: ''
-  port: '9002'
-  server: 156.146.59.35
+  port: '22222'
+  server: 193.25.215.182
   skip-cert-verify: true
-  tls: true
-  type: http
+  type: socks5
   username: ''
-- name: '[I] 🇺🇸 美国 22'
+- name: '[I] 🇺🇸 美国 24'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -261,7 +279,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 23'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -272,7 +290,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 24'
+- name: '[I] 🇺🇸 美国 26'
   network: ws
   port: 80
   server: 103.133.1.160
