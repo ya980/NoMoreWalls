@@ -71,114 +71,31 @@ proxies:
   sni: sw02.auragg.org
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇩🇪 德国 09'
-  obfs: ''
-  obfs-password: ''
+- name: '[D] 🇩🇪 德国 09'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
-  port: '8443'
+  port: 8443
   server: sw02.auragg.org
   skip-cert-verify: true
   sni: sw02.auragg.org
   tls: false
   type: hysteria2
-  up: ''
-- name: '[D] 🇩🇪 德国 10'
-  password: yg8u9ly451dHdmXyJdbHB4EATgYbrU-C
-  port: 43327
-  server: 2.27.23.44
-  sni: gate-v1.not-a-projects.xyz
-  tls: false
-  type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 11'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: ger06.myxasecure.space
-  servername: ger06.myxasecure.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8dd32d18-f32b-4204-b03b-74d5394a6487
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: api.v1.StreamService
-  name: '[G] 🇩🇪 德国 12'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
-    short-id: '!!str 5bc76436f2905fba'
-  server: store.noneok.com
-  servername: store.noneok.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: '[G] 🇩🇪 德国 13'
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: neurex
-  name: '[G] 🇩🇪 德国 14'
-  network: grpc
-  port: 16923
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 159.195.12.98
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 695d21df-7abf-423c-84f8-3a93382e5d46
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '55'
-  name: '[G] 🇩🇪 德国 15'
-  port: 54177
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: bing.com
-  type: hysteria
-  udp: true
-  up: '11'
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 16'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
-    short-id: '!!str 15affa0af66dfc79'
-  server: 2.27.25.13
-  servername: deepl.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
-  xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 17'
+  name: '[G] 🇩🇪 德国 10'
+  network: ws
+  port: 443
+  server: 94.159.101.36
+  servername: vp58.cc.cd
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: /Telegram🇨🇳 @VPNine1
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 11'
   network: xhttp
   port: 443
   reality-opts:
@@ -190,7 +107,7 @@ proxies:
   uuid: e51796bb-3305-ac88-f39d-22fd9dd63b4f
   ws-opts:
     path: /
-- name: '[I] 🇩🇪 德国 18'
+- name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 80
   server: 146.75.119.82
