@@ -18,34 +18,27 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 03'
-  password: 8bc63720-5ec8-45b5-b6a6-9a21ffb490e8
-  port: 443
-  server: ge01.auragg.org
-  sni: ge01.auragg.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
   password: b05346a9-4d13-41a4-8d2a-6b7b64e73ffc
   port: 443
   server: ge01.auragg.org
   sni: ge01.auragg.org
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 05'
+- name: '[D] 🇫🇷 法国 04'
   password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
   port: 8443
   server: vpn.the2oser.lol
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 06'
+- name: '[D] 🇫🇷 法国 05'
   password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
   port: 8443
   server: vpn.the2oser.lol
   sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
+- name: '[D] 🇫🇷 法国 06'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.117
@@ -53,3 +46,22 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  encryption: none
+  name: '[G] 🇫🇷 法国 07'
+  network: xhttp
+  port: '443'
+  server: fr.noooo.win
+  servername: api-v1-6a607319.alpheratzz.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 84ab386f-9d86-4a71-bdf3-e26170c2c8f6
+  xhttp-opts:
+    mode: stream-one
+    path: /
+    reuse-settings:
+      max-connections: '1'
+  xudp: true
