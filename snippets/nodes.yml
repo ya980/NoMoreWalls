@@ -1,34 +1,62 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 26'
+  name: '[D] 🌍 其它地区 25'
   network: ws
   port: '80'
-  server: 61.245.11.60
+  server: 38.107.234.57
   servername: ''
   tls: false
   type: vmess
-  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: 61.245.11.60
+      Host: ''
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 26'
+  network: ws
+  port: '80'
+  server: 3h-kazakhstan1.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 27'
+  network: ws
+  port: '80'
+  server: 3h-kazakhstan1.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /vmess/
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 27'
+  name: '[E] 🌍 其它地区 28'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 01'
+  name: '[E] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 02'
+- name: '[E] 🇭🇰 香港 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 47867
@@ -36,7 +64,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 03'
+- name: '[E] 🇭🇰 香港 04'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -44,7 +72,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 04'
+- name: '[E] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -81,7 +109,7 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 43.207.96.164
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[E] 🇸🇬 新加坡 04'
@@ -100,7 +128,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -108,7 +136,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -116,7 +144,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 51396
@@ -126,7 +154,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 05'
+  name: '[F] 🇭🇰 香港 06'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -134,7 +162,17 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇸🇬 新加坡 07'
+- client-fingerprint: edge
+  name: '[G] 🌍 其它地区 33'
+  network: tcp
+  password: 7e70223b-f331-41d5-9313-02b8d2df2885
+  port: '20031'
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: '[G] 🇸🇬 新加坡 06'
   network: ws
   password: c206d543-023d-46cc-9d5a-1f0f2fc16323
   port: 443
@@ -146,32 +184,13 @@ proxies:
     headers:
       Host: space.byu.id.yxls.eu.cc
     path: /in-pdr
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🌍 其它地区 31'
-  password: CUEYgBIv3UinEYcB/Ha5Jf792AEjyNwnGu0hIKK+o5Q=
-  port: 51570
-  server: e1.cover20.ir
-  type: ss
-  udp: true
 - cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 11'
+  name: '[G] 🇺🇸 美国 10'
   password: amazonskr05
   port: 443
-  server: 54.167.54.100
-  skip-cert-verify: true
+  server: 54.197.30.38
   type: ss
-  udp: true
-- client-fingerprint: edge
-  name: '[G] 🌍 其它地区 62'
-  network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: '20031'
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: '[G] 🇯🇵 日本 06'
+- name: '[G] 🇯🇵 日本 07'
   network: tcp
   password: JT80563429
   port: '443'
@@ -180,7 +199,14 @@ proxies:
   sni: inspired-hound.rooster465.autos
   type: trojan
   udp: true
-- name: '[I] 🌍 其它地区 86'
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇩🇪 德国 05'
+  password: tunnel-hamid32
+  port: 8444
+  server: 179.61.251.63
+  type: ss
+  udp: true
+- name: '[I] 🌍 其它地区 51'
   password: NQ26071394
   port: 443
   server: 79.133.126.190
@@ -192,13 +218,7 @@ proxies:
   port: 20188
   server: 50.114.177.134
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇩🇪 德国 14'
-  password: tunnel-hamid32
-  port: 8444
-  server: 179.61.251.63
-  type: ss
-- name: '[I] 🌍 其它地区 90'
+- name: '[I] 🌍 其它地区 55'
   network: ws
   password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
   port: 443

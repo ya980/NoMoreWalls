@@ -1,13 +1,5 @@
 proxies:
 - name: '[C] 🇩🇪 德国 01'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 93.114.194.117
-  skip-cert-verify: false
-  sni: grape-zet-ro-turbo.bumbleshrimp.com
-  tls: false
-  type: hysteria2
-- name: '[C] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: V2RayyNGvpn
@@ -17,22 +9,14 @@ proxies:
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: '[C] 🇩🇪 德国 03'
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  sni: dash.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 02'
   password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
   port: 8443
   server: 213.202.219.29
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 03'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: swe-one.quiet-rogue.site
@@ -40,28 +24,8 @@ proxies:
   sni: swe-one.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 06'
-  password: a2891e74-533c-4fe5-b755-50459572813f
-  port: 2096
-  server: dubai.safesurf.cloud
-  skip-cert-verify: false
-  sni: dubai.safesurf.cloud
-  tls: false
-  type: hysteria2
-- name: '[G] 🇩🇪 德国 07'
-  network: ws
-  port: 80
-  server: 167.82.0.7
-  tls: false
-  type: vless
-  udp: true
-  uuid: 66ea0b4c-8c39-4e8b-92f0-0a9065218d37
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-    path: /
 - client-fingerprint: safari
-  name: '[G] 🇩🇪 德国 08'
+  name: '[G] 🇩🇪 德国 04'
   network: tcp
   port: 5039
   reality-opts:
@@ -73,42 +37,36 @@ proxies:
   type: vless
   udp: true
   uuid: b6749f13-cd63-4bc4-b165-5d120b7a1ff4
-- encryption: none
-  name: '[G] 🇩🇪 德国 09'
-  network: ws
-  port: '8880'
-  server: 172.65.90.52
-  type: vless
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇩🇪 德国 05'
+  password: tunnel-hamid32
+  port: 8444
+  server: 179.61.251.63
+  type: ss
   udp: true
-  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
-  ws-opts:
-    headers:
-      Host: blue-rice-7142.30-346.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-md-8h3k4j6n2p4q8r5t
-  name: '[G] 🇩🇪 德国 10'
-  network: grpc
-  port: '7444'
-  reality-opts:
-    public-key: RwtMzZtTCmy9WRq3_27xeGF8-1l_qPXRVG3yIFp-6Go
-    short-id: '!!str c0d1d1776fed0f6d'
-  server: ee-t3.vinnypuxtomoon.today
-  servername: ee-t3.vinnypuxtomoon.today
+- alpn:
+  - http/1.1
+  client-fingerprint: edge
+  name: '[G] 🇩🇪 德国 06'
+  network: ws
+  port: 8443
+  server: 46.8.209.220
+  servername: cloudflare.vhub.pro
   tls: true
   type: vless
   udp: true
-  uuid: f7024ef7-dd35-4fe8-a18d-4186a0ae910c
+  uuid: 547c0d9e-9bb5-4e83-b6e7-09953bc6004b
+  ws-opts:
+    headers:
+      Host: cloudflare.vhub.pro
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /websocket?ed=2560
   xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 11'
+  name: '[G] 🇩🇪 德国 07'
   network: tcp
   port: '2053'
   reality-opts:
@@ -121,44 +79,39 @@ proxies:
   udp: true
   uuid: f7024ef7-dd35-4fe8-a18d-4186a0ae910c
   xudp: true
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 12'
-  network: tcp
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api.v1.StreamService
+  name: '[G] 🇩🇪 德国 08'
+  network: grpc
   port: '443'
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 82.39.171.148
-  servername: yahoo.com
+    public-key: jv786fxOk5giwQ0hoqIkLkaKJYup9hwy2FWY-Xcl2yU
+    short-id: '!!str 5bc76436f2905fba'
+  server: store.noneok.com
+  servername: store.noneok.com
   tls: true
   type: vless
   udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  uuid: 340e4de3-144b-49c4-ad72-b49b35713728
   xudp: true
-- name: '[G] 🇩🇪 德国 13'
-  network: ws
-  port: '80'
-  server: 151.101.56.7
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[G] 🇩🇪 德国 09'
+  network: http
+  port: '8882'
+  server: 31.56.197.217
   type: vless
   udp: true
-  uuid: 4b1d39f2-42d4-4850-8b8a-fd4fa2f1ae55
-  ws-opts:
-    headers:
-      Host: BankMelat.glObal.ssl.faStly.nEt.
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: ''
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇩🇪 德国 14'
-  password: tunnel-hamid32
-  port: 8444
-  server: 179.61.251.63
-  type: ss
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 15'
+  name: '[I] 🇩🇪 德国 10'
   port: 443
   reality-opts:
     public-key: vnjp7zIK2H3CGdjSis_79KXqS6IG-opmpbETPUD-EC8
@@ -170,7 +123,7 @@ proxies:
   uuid: 4bf4c3ce-c4bb-4e0b-85d8-79238539c4a9
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 11'
   port: 8443
   reality-opts:
     public-key: ZlHGuFEAxNghAM9OUdcYwaokVRVAsPt2MtM2Klf05WI
@@ -181,7 +134,7 @@ proxies:
   type: vless
   uuid: 5c88e6bf-805a-4fac-92e0-70b57340e6cc
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 17'
+  name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 443
   server: 77.239.104.82
