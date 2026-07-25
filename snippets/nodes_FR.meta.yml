@@ -9,14 +9,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[C] 🇫🇷 法国 02'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: fr2.h2corp.org
-  sni: fr2.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
+- name: '[D] 🇫🇷 法国 02'
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 76.164.202.213
@@ -24,57 +17,40 @@ proxies:
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
+- name: '[D] 🇫🇷 法国 03'
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
+  sni: fr2.h2corp.org
+  tls: false
+  type: hysteria2
 - name: '[D] 🇫🇷 法国 04'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
+  password: 440f3c08-7599-406e-8ba3-7dbc6324c5ed
+  port: 4443
+  server: de.riotvpn.eu
+  skip-cert-verify: false
+  sni: static.vkimages.io
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 05'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: germany1.noesissite.ru
-  skip-cert-verify: false
-  sni: germany1.noesissite.ru
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 06'
   password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
   port: 8443
   server: vpn.the2oser.lol
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+- name: '[D] 🇫🇷 法国 06'
+  password: FR+3uZ+qu5lMaeIEV2OeBK3sQJmmMiABg57L4KFWK78=
   port: 8443
-  server: 93.114.194.117
-  skip-cert-verify: false
-  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  server: vpn.the2oser.lol
+  sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '[G] 🇫🇷 法国 08'
-  password: dongtaiwang.com
-  port: 33888
-  server: 163.172.118.224
-  skip-cert-verify: true
-  sni: bing.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
-- client-fingerprint: chrome
-  encryption: none
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[G] 🇫🇷 法国 09'
+  name: '[G] 🇫🇷 法国 07'
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
     short-id: '!!str bbc68cec8bb8d2e3'
@@ -84,4 +60,16 @@ proxies:
   type: vless
   udp: true
   uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
-  xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇫🇷 法国 08'
+  network: ws
+  port: 443
+  server: 37.59.96.23
+  servername: vp58.cc.cd
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3+%40VPNine1'

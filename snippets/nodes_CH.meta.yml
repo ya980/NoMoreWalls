@@ -1,9 +1,25 @@
 proxies:
-- name: '[D] CH 01'
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+- name: '[C] CH 01'
+  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
-  server: cze-02.node.lumixnet.com
+  server: ger.leontunel.ru
   skip-cert-verify: false
-  sni: cze-02.node.lumixnet.com
+  sni: ger.leontunel.ru
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] CH 02'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc
+    short-id: '!!str 8f9d033ad6d2cebf'
+  server: fi2.cyphervpn.pro
+  servername: fi2.cyphervpn.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  xudp: true
