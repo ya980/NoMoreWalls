@@ -6,15 +6,7 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇸🇬 新加坡 02'
-  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
-  port: 8443
-  server: 209.74.81.28
-  skip-cert-verify: true
-  sni: 209.74.81.28
-  tls: false
-  type: hysteria2
-- name: '[E] 🇸🇬 新加坡 03'
+- name: '[E] 🇸🇬 新加坡 02'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -22,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 04'
+- name: '[E] 🇸🇬 新加坡 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
@@ -30,7 +22,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 05'
+- name: '[E] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -38,25 +30,30 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[G] 🇸🇬 新加坡 06'
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
 - client-fingerprint: chrome
-  name: '[G] 🇸🇬 新加坡 07'
+  flow: xtls-rprx-vision
+  name: '[G] 🇸🇬 新加坡 05'
   network: tcp
-  password: 7e70223b-f331-41d5-9313-02b8d2df2885
-  port: '20072'
-  server: d3.catcat321.com
-  skip-cert-verify: true
-  sni: SG.catxstar.com
-  type: trojan
+  port: '40118'
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: '!!str 5895914d'
+  server: 43.255.157.9
+  servername: www.lamer.com.sg
+  tls: true
+  type: vless
   udp: true
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: '[G] 🇸🇬 新加坡 06'
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: '20878'
+  server: sg5.dexlos.com
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+  up: ''

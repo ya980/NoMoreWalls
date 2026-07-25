@@ -1,8 +1,15 @@
 proxies:
-- name: '[C] 🇷🇺 俄罗斯 01'
-  password: Uq5DgLZRU6hpn7ydRcePOeOk4i1c2tJIEk3rMZMUobo
-  port: 25447
-  server: 144.31.107.101
-  sni: devideo.h2corp.org
-  tls: false
-  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇷🇺 俄罗斯 01'
+  port: 443
+  reality-opts:
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: ger03.myxasecure.space
+  servername: ger03.myxasecure.space
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
