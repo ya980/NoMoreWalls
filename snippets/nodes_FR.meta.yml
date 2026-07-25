@@ -45,25 +45,41 @@ proxies:
   sni: vpn.the2oser.lol
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- encryption: none
   name: '[G] 🇫🇷 法国 07'
-  network: ws
-  port: '8443'
-  server: ad-020.pixel9xdmq.info
-  servername: ad-020.pixel9xdmq.info
+  network: tcp
+  port: '22222'
+  server: 13.39.65.159
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 08'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 8_v9Eq0VarPDLDLElqECI0ZrqFpL3lMVuluuPXB-DAo
+    short-id: '!!str 662fdf1f4412b654'
+  server: 205.237.105.38
+  servername: fr4.cyphervpn.pro
   tls: true
   type: vless
   udp: true
-  uuid: 1ad37675-b4cf-42fa-9dc5-83fd35cd63cb
-  ws-opts:
-    headers:
-      Host: ad-020.pixel9xdmq.info
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /
+  uuid: 8bba3194-4856-46d1-8319-075817d87eb1
+  xudp: true
+- encryption: none
+  name: '[G] 🇫🇷 法国 09'
+  network: tcp
+  port: '22224'
+  server: 13.39.65.159
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
   xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇫🇷 法国 08'
+  name: '[I] 🇫🇷 法国 10'
   network: ws
   port: 443
   server: 37.59.96.23

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 40'
+  name: '[D] 🌍 其它地区 41'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -15,24 +15,10 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 41'
-  network: ws
-  port: '80'
-  server: 38.107.234.57
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
-      Host: 3h-kazakhstan1.09vpn.com
-    path: /vmess/
-- alterId: 0
-  cipher: auto
   name: '[D] 🌍 其它地区 42'
   network: ws
   port: '80'
-  server: 3h-kazakhstan1.09vpn.com
+  server: 38.107.234.57
   servername: ''
   tls: false
   type: vmess
@@ -46,6 +32,20 @@ proxies:
   name: '[D] 🌍 其它地区 43'
   network: ws
   port: '80'
+  server: 3h-kazakhstan1.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🌍 其它地区 44'
+  network: ws
+  port: '80'
   server: 38.107.234.57
   servername: ''
   tls: false
@@ -57,7 +57,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 44'
+  name: '[D] 🌍 其它地区 45'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -80,7 +80,7 @@ proxies:
   type: vmess
   uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 45'
+  name: '[E] 🌍 其它地区 46'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -200,7 +200,39 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[I] 🌍 其它地区 46'
+- alterId: 2
+  cipher: auto
+  name: '[G] 🇺🇸 美国 10'
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /x
+  name: '[G] 🇺🇸 美国 11'
+  network: http
+  port: 52080
+  server: 154.36.128.61
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
+- cipher: aes-128-gcm
+  name: '[G] 🇺🇸 美国 15'
+  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
+  port: '40031'
+  server: permission_level_01.unclemanco.com
+  type: ss
+  udp: true
+- name: '[I] 🌍 其它地区 101'
   password: NQ26071394
   port: 443
   server: 79.133.126.190
@@ -213,12 +245,12 @@ proxies:
   server: 50.114.177.134
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇩🇪 德国 06'
+  name: '[I] 🇩🇪 德国 16'
   password: tunnel-hamid32
   port: 8444
   server: 179.61.251.63
   type: ss
-- name: '[I] 🌍 其它地区 50'
+- name: '[I] 🌍 其它地区 105'
   network: ws
   password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
   port: 443
