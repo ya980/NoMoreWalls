@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 25'
+  name: '[D] 🌍 其它地区 27'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -15,7 +15,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 26'
+  name: '[D] 🌍 其它地区 28'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -29,7 +29,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 27'
+  name: '[D] 🌍 其它地区 29'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -42,7 +42,7 @@ proxies:
       Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
     path: /vmess/
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 28'
+  name: '[E] 🌍 其它地区 30'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -109,7 +109,7 @@ proxies:
   password: d1960ba9f0f6353353994fa844cf817b
   port: 6357
   server: 43.207.96.164
-  skip-cert-verify: false
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[E] 🇸🇬 新加坡 04'
@@ -162,8 +162,22 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[G] 🇸🇬 新加坡 06'
+  network: ws
+  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
+  port: '443'
+  server: 188.164.248.122
+  skip-cert-verify: false
+  sni: space.byu.id.yxls.eu.cc
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+    path: /in-pdr
 - client-fingerprint: edge
-  name: '[G] 🌍 其它地区 33'
+  name: '[G] 🌍 其它地区 31'
   network: tcp
   password: 7e70223b-f331-41d5-9313-02b8d2df2885
   port: '20031'
@@ -172,41 +186,7 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: '[G] 🇸🇬 新加坡 06'
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 10'
-  password: amazonskr05
-  port: 443
-  server: 54.197.30.38
-  type: ss
-- name: '[G] 🇯🇵 日本 07'
-  network: tcp
-  password: JT80563429
-  port: '443'
-  server: inspired-hound.rooster465.autos
-  skip-cert-verify: false
-  sni: inspired-hound.rooster465.autos
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🇩🇪 德国 05'
-  password: tunnel-hamid32
-  port: 8444
-  server: 179.61.251.63
-  type: ss
-  udp: true
-- name: '[I] 🌍 其它地区 51'
+- name: '[I] 🌍 其它地区 33'
   password: NQ26071394
   port: 443
   server: 79.133.126.190
@@ -218,7 +198,13 @@ proxies:
   port: 20188
   server: 50.114.177.134
   type: ss
-- name: '[I] 🌍 其它地区 55'
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇩🇪 德国 06'
+  password: tunnel-hamid32
+  port: 8444
+  server: 179.61.251.63
+  type: ss
+- name: '[I] 🌍 其它地区 37'
   network: ws
   password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
   port: 443
