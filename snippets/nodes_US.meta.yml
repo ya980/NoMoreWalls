@@ -1,19 +1,13 @@
 proxies:
 - name: '[D] 🇺🇸 美国 01'
-  password: ad790e5f-3e31-43c6-b047-336577a3b3de
-  port: 443
-  server: hhfinn.ietotozheproidet.site
-  sni: hhfinn.ietotozheproidet.site
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 02'
   password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5
   port: 9992
   server: 104.36.86.93
   skip-cert-verify: true
+  sni: 104.36.86.93
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 03'
+- name: '[D] 🇺🇸 美国 02'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: usp.noesissite.ru
@@ -21,7 +15,7 @@ proxies:
   sni: usp.noesissite.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 04'
+- name: '[D] 🇺🇸 美国 03'
   password: dongtaiwang.com
   port: 44356
   server: hy2.561891.xyz
@@ -29,22 +23,91 @@ proxies:
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 05'
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 04'
+  network: ws
+  port: '8880'
+  server: 154.26.183.5
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 06'
-  password: Hy2@SiLiCon2026!
-  port: 8443
-  server: 43.130.7.3
-  skip-cert-verify: true
-  sni: bing.com
+  type: vmess
+  uuid: f4a047d5-f419-4e3f-9054-bd2a087e1dc2
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: f4a047d5-f419-4e3f-9054-bd2a087e1dc2-vm
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 05'
+  network: ws
+  port: '8880'
+  server: 154.21.83.77
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
+  type: vmess
+  uuid: 04bccfa1-a6a8-4ace-991f-454624a8766f
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 04bccfa1-a6a8-4ace-991f-454624a8766f-vm
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 06'
+  network: ws
+  port: '2086'
+  server: 154.17.234.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7e25875e-50bb-47ed-9627-261e6d232f69
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /7e25875e-50bb-47ed-9627-261e6d232f69-vm
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 07'
+  network: ws
+  port: '2095'
+  server: 64.186.253.113
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 08'
+  network: ws
+  port: '8880'
+  server: 154.17.238.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b7479b73-8cea-4a82-97e8-bacf9bd86605
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: b7479b73-8cea-4a82-97e8-bacf9bd86605-vm
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 09'
+  network: ws
+  port: '8080'
+  server: 173.249.200.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 79a295f7-8cfe-46ca-aed6-ebef1f3be53b
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 79a295f7-8cfe-46ca-aed6-ebef1f3be53b-vm
+- name: '[E] 🇺🇸 美国 10'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -52,7 +115,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 08'
+- name: '[E] 🇺🇸 美国 11'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 17005
@@ -60,7 +123,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 09'
+- name: '[E] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -69,30 +132,32 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - auth: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
-  name: '[G] 🇺🇸 美国 10'
+  name: '[G] 🇺🇸 美国 13'
   password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
   port: 8443
   server: 159.223.157.129
   skip-cert-verify: true
   type: hysteria2
-- auth: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
-  name: '[G] 🇺🇸 美国 11'
-  password: e1bd5c86-721c-4a2d-bdf8-ba50e522ec57
-  port: 8881
-  server: uk.xfj123.top
-  skip-cert-verify: true
-  type: hysteria2
 - auth: 28d38ce6-7c79-4e9d-9175-2186da5be395
-  name: '[G] 🇺🇸 美国 12'
+  name: '[G] 🇺🇸 美国 14'
   password: 28d38ce6-7c79-4e9d-9175-2186da5be395
   port: 20000
   server: 159.65.79.184
   skip-cert-verify: true
   sni: addons.mozilla.org
   type: hysteria2
+- auth: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  name: '[G] 🇺🇸 美国 15'
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: 20450
+  server: us3.dexlos.com
+  skip-cert-verify: true
+  type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 13'
+  name: '[I] 🇺🇸 美国 16'
   port: 443
   reality-opts:
     public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
@@ -102,7 +167,7 @@ proxies:
   tls: false
   type: vless
   uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
-- name: '[I] 🇺🇸 美国 14'
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -113,7 +178,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 15'
+- name: '[I] 🇺🇸 美国 18'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -124,7 +189,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 16'
+- name: '[I] 🇺🇸 美国 19'
   network: ws
   port: 80
   server: 103.133.1.160
@@ -135,7 +200,7 @@ proxies:
     headers:
       Host: soft-shadow-1e33.xicav73335.workers.dev
     path: '%2Fws'
-- name: '[I] 🇺🇸 美国 17'
+- name: '[I] 🇺🇸 美国 20'
   network: ws
   port: 80
   server: 167.82.0.1
@@ -146,7 +211,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: ''
-- name: '[I] 🇺🇸 美国 18'
+- name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 80
   server: 18.238.109.28
@@ -158,7 +223,7 @@ proxies:
       Host: duatoup3wk8q2.cloudfront.net
     path: /GDkX4xpB/
 - client-fingerprint: ios
-  name: '[I] 🇺🇸 美国 19'
+  name: '[I] 🇺🇸 美国 22'
   network: ws
   port: 2096
   server: one-for-all.levikogjgfdd.ir

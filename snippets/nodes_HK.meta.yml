@@ -1,9 +1,8 @@
 proxies:
 - name: '[D] 🇭🇰 香港 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
-  skip-cert-verify: true
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: 20702
+  server: hk4.dexlos.com
   tls: false
   type: hysteria2
 - name: '[D] 🇭🇰 香港 02'
@@ -11,19 +10,38 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
+- name: '[D] 🇭🇰 香港 03'
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: 20414
+  server: hk3.dexlos.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇭🇰 香港 04'
+  network: ws
+  port: '2086'
+  server: 85.113.71.85
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ba58ca0c-0411-444e-80f7-e361ce49012d
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: ba58ca0c-0411-444e-80f7-e361ce49012d-vm
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 03'
+  name: '[E] 🇭🇰 香港 05'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 04'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 13118
@@ -31,7 +49,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 05'
+- name: '[E] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -39,7 +57,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 06'
+- name: '[E] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 27161
@@ -49,7 +67,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 09'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -57,6 +75,20 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[G] 🇭🇰 香港 10'
+  network: ws
+  port: 8443
+  server: 207.174.133.111
+  servername: ty986gfazs.cainiaohub.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: c1c04450-bf71-4049-ad0c-9cf6d94d9f1f
+  ws-opts:
+    headers:
+      Host: ty986gfazs.cainiaohub.xyz
+    path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
 - alpn:
   - h2
   - http/1.1
@@ -64,7 +96,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: '[I] 🇭🇰 香港 08'
+  name: '[I] 🇭🇰 香港 11'
   network: tcp
   port: 443
   server: s299.freessr.bid

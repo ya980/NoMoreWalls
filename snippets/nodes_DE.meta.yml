@@ -30,10 +30,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[C] 🇩🇪 德国 04'
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 8433
-  server: 172.86.95.17
-  sni: de1-hy2.veilvpn.life
+  obfs: salamander
+  obfs-password: 2l74Vm0fNA_WO1R2jF14yKoB
+  password: VpzdpabHmjLYMjq1_8euMPyO9I5BHTQY
+  port: 7443
+  server: www.dataduo.ir
+  skip-cert-verify: false
+  sni: www.dataduo.ir
   tls: false
   type: hysteria2
 - name: '[C] 🇩🇪 德国 05'
@@ -47,13 +50,24 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 06'
-  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
-  port: 8443
-  server: 213.202.219.29
-  sni: grape-sos-de.roxa.org
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: swe-one.quiet-rogue.site
+  skip-cert-verify: false
+  sni: swe-one.quiet-rogue.site
   tls: false
   type: hysteria2
-- name: '[I] 🇩🇪 德国 07'
+- cipher: aes-128-gcm
+  name: '[G] 🇩🇪 德国 07'
+  password: dajkbgja*/?
+  plugin: obfs
+  plugin-opts:
+    host: 94aaf10040.download.windowsupdate.com
+    mode: http
+  port: 39073
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+- name: '[I] 🇩🇪 德国 08'
   network: ws
   port: 2095
   server: 91.124.209.138
@@ -65,7 +79,7 @@ proxies:
       Host: cdn-cloudflare91.korvexe.ir
     path: /
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 08'
+  name: '[I] 🇩🇪 德国 09'
   network: ws
   port: 52225
   server: 91panel-axiora-vpn.korvexe.ir
@@ -79,7 +93,7 @@ proxies:
       Host: cdn-xui911.korvexe.ir
     path: /
 - client-fingerprint: firefox
-  name: '[I] 🇩🇪 德国 09'
+  name: '[I] 🇩🇪 德国 10'
   network: grpc
   port: 443
   reality-opts:
