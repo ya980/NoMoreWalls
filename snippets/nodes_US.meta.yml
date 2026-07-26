@@ -7,6 +7,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇺🇸 美国 02'
+  password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5
+  port: 9992
+  server: 104.36.86.93
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 03'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: usp.noesissite.ru
@@ -14,21 +21,28 @@ proxies:
   sni: usp.noesissite.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 03'
+- name: '[D] 🇺🇸 美国 04'
   password: dongtaiwang.com
   port: 44356
   server: hy2.561891.xyz
+  skip-cert-verify: true
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 04'
+- down: ''
+  fingerprint: ''
+  name: '[D] 🇺🇸 美国 05'
+  obfs: ''
+  obfs-password: ''
   password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
+  port: '443'
   server: usa1.spectrumproxy.shop
+  skip-cert-verify: false
   sni: usa1.spectrumproxy.shop
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 05'
+  up: ''
+- name: '[D] 🇺🇸 美国 06'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
@@ -36,18 +50,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇺🇸 美国 06'
-  network: ''
-  port: '53168'
-  server: lt.badns.help
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
 - name: '[E] 🇺🇸 美国 07'
-  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
   server: 54.46.11.134
@@ -55,7 +58,6 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: '[E] 🇺🇸 美国 08'
-  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
   server: 43.207.96.164
@@ -63,93 +65,183 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: '[E] 🇺🇸 美国 09'
-  network: tcp
   password: BxceQaOe
   port: 51396
   server: 18.166.59.129
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[G] 🇺🇸 美国 10'
-  port: 30808
-  server: v8.hdacd.com
+- name: '[F] 🇺🇸 美国 10'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 49277
+  server: 18.163.181.97
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇺🇸 美国 11'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 17005
+  server: 18.163.181.97
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇺🇸 美国 12'
+  network: tcp
+  password: BxceQaOe
+  port: 35966
+  server: 35.77.116.7
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  name: '[G] 🇺🇸 美国 13'
+  network: ws
+  port: '443'
+  server: marzban-node-production-7a67.up.railway.app
+  servername: marzban-node-production-7a67.up.railway.app
+  tls: true
+  type: vless
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /x
-  name: '[G] 🇺🇸 美国 11'
-  network: http
-  port: 52080
-  server: 154.36.128.61
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5fcc340d-ad35-4e50-a9c8-130f21a4a59d
+  uuid: 04907a1f-7622-4bfe-80bf-45be74086c0d
+  ws-opts:
+    headers:
+      Host: marzban-node-production-7a67.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /vless
+  xudp: true
 - multiplexing: MULTIPLEXING_LOW
-  name: '[G] 🇺🇸 美国 12'
+  name: '[G] 🇺🇸 美国 14'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- down: ''
-  fingerprint: ''
-  name: '[G] 🇺🇸 美国 13'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: '20450'
-  server: us3.dexlos.com
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '[G] 🇺🇸 美国 14'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: '20378'
-  server: us2.dexlos.com
-  skip-cert-verify: false
-  sni: us2.dexlos.com
-  type: hysteria2
-  up: ''
-- cipher: aes-128-gcm
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
   name: '[G] 🇺🇸 美国 15'
-  password: ba2a429e-dcaa-4d94-a651-99b0a920ee38
-  port: '40031'
-  server: permission_level_01.unclemanco.com
-  type: ss
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 26h0anruZ65ts2A7DAlT9dGdv7iZOQ6RZAr3xnAxa1w
+    short-id: '!!str abcd'
+  server: 188.127.229.68
+  servername: us.santexnika24.com
+  tls: true
+  type: vless
   udp: true
-- client-fingerprint: firefox
+  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
   flow: xtls-rprx-vision
   name: '[G] 🇺🇸 美国 16'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0
+    short-id: '!!str 122218f4c1f172e4'
+  server: api.yandex-dev.online
+  servername: api.yandex-dev.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: f7a12c2a-8849-428e-8785-fcec05a17ec4
+  xudp: true
+- client-fingerprint: safari
+  encryption: none
+  grpc-opts:
+    grpc-service-name: your-custom-path
+  name: '[G] 🇺🇸 美国 17'
+  network: grpc
+  port: '9443'
+  reality-opts:
+    public-key: OMlQAFrCMZ3DX0xlnbEZiByLBFzpUE8XJHJsrBzLdlY
+    short-id: '!!str 2da4299da566b7'
+  server: 85.192.30.86
+  servername: maps.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 423caebf-ce56-4e26-a792-7a6becb17e9b
+  xudp: true
+- encryption: none
+  name: '[G] 🇺🇸 美国 18'
+  network: xhttp
+  port: '5050'
+  server: 167.71.151.198
+  type: vless
+  udp: true
+  uuid: 91128bf5-e780-417d-b3cc-dc7a831bafe3
+  xhttp-opts:
+    host: play.google.com
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 19'
   network: tcp
   port: '40443'
   reality-opts:
     public-key: 6AOnobBShzL_N96JRBNMfbL84_3myz8ZbKfZUEqRXiY
     short-id: '!!str '
-  server: 162.33.177.100
+  server: cdn-99bb00.sg.dnsstatic.net
   servername: deepl.com
   tls: true
   type: vless
   udp: true
   uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c
   xudp: true
-- name: '[G] 🇺🇸 美国 17'
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 20'
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: Gf2ymgpjePfVnxSLQgKDPK7YIQbR1QbUckuAAnyqNjM
+    short-id: '!!str 7f37611eb21d91'
+  server: a.cryptoofarm.com
+  servername: a.cryptoofarm.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c4750859-d126-4eaa-9549-1a7ffd44572c
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 21'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: Ffbj8WzPUpY_qNYoIusH8c5kuYmZD8599nZxFxxKtlY
+    short-id: '!!str 67ef08f70e8ae1bb'
+  server: bolg1.panel11.ru
+  servername: bolg1.panel11.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: f165affe-ffb4-4f13-a081-f14434e51152
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: '[G] 🇺🇸 美国 22'
+  obfs: salamander
+  obfs-password: xK9mN2pLq5vR8wB3
+  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
+  port: '20818'
+  server: us5.dexlos.com
+  skip-cert-verify: false
+  sni: ''
+  type: hysteria2
+  up: ''
+- name: '[G] 🇺🇸 美国 23'
   password: ''
   port: '9002'
   server: 156.146.59.32
@@ -157,27 +249,30 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[G] 🇺🇸 美国 18'
-  password: ''
-  port: '9002'
-  server: 156.146.59.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- down: ''
-  fingerprint: ''
-  name: '[G] 🇺🇸 美国 19'
-  obfs: salamander
-  obfs-password: xK9mN2pLq5vR8wB3
-  password: ABBB1AFA-AD9F-4EF9-9AEE-47C43557557D
-  port: '20378'
-  server: us2.dexlos.com
-  skip-cert-verify: false
-  sni: ''
-  type: hysteria2
-  up: ''
-- name: '[I] 🇺🇸 美国 20'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇺🇸 美国 24'
+  port: 443
+  reality-opts:
+    public-key: EMS0wzISeSbEe4JABPD8EgDnyLXgDmrX4_lcfG6VVX4
+    short-id: '!!str dbbe8dca27a92c35'
+  server: 154.193.55.183
+  servername: storage.yandex.net
+  tls: false
+  type: vless
+  uuid: 11e57eeb-ffdf-4983-a9fa-ad352dea7253
+- name: '[I] 🇺🇸 美国 25'
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: '%2F'
+- name: '[I] 🇺🇸 美国 26'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -188,14 +283,50 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 21'
+- name: '[I] 🇺🇸 美国 27'
   network: ws
-  port: 8880
-  server: 63.141.128.30
+  port: 80
+  server: 103.133.1.160
   tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: eaf76557-2219-4799-8171-d7020adfefd0
   ws-opts:
     headers:
-      Host: vms.lifetime42.workers.dev
+      Host: soft-shadow-1e33.xicav73335.workers.dev
+    path: '%2Fws'
+- name: '[I] 🇺🇸 美国 28'
+  network: ws
+  port: 80
+  server: 167.82.0.1
+  tls: false
+  type: vless
+  uuid: cfde0aba-0985-4034-ab92-50b1534b126c
+  ws-opts:
+    headers:
+      Host: BankMelat.glObal.ssl.faStly.nEt.
+    path: ''
+- name: '[I] 🇺🇸 美国 29'
+  network: ws
+  port: 80
+  server: 18.238.109.28
+  tls: false
+  type: vless
+  uuid: f27894bf-349c-44e6-a0ce-4c787e18476f
+  ws-opts:
+    headers:
+      Host: duatoup3wk8q2.cloudfront.net
+    path: /GDkX4xpB/
+- client-fingerprint: ios
+  name: '[I] 🇺🇸 美国 30'
+  network: ws
+  port: 2096
+  server: one-for-all.levikogjgfdd.ir
+  servername: levikoconfig.levikogjgfdd.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  ws-opts:
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
     path: '%2F'
