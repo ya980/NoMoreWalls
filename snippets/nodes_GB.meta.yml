@@ -1,5 +1,52 @@
 proxies:
-- name: '[C] 🇬🇧 英国 01'
+- name: '[A] 🇬🇧 英国 01'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[A] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: '[A] 🇬🇧 英国 03'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[A] 🇬🇧 英国 04'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '[A] 🇬🇧 英国 05'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[C] 🇬🇧 英国 06'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RWn1s1QBjJ
@@ -9,18 +56,34 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+- name: '[D] 🇬🇧 英国 07'
+  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
-  server: wopa1.api3-max.ru
+  server: popa.leontunel.ru
+  skip-cert-verify: false
+  sni: popa.leontunel.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 03'
+- name: '[D] 🇬🇧 英国 08'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 18.171.236.87
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 09'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 18.171.236.87
+  skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 10'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa1.api3-max.ru
-  skip-cert-verify: false
-  sni: wopa1.api3-max.ru
   tls: false
   type: hysteria2
 - alpn:
@@ -30,7 +93,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: '[I] 🇬🇧 英国 04'
+  name: '[I] 🇬🇧 英国 11'
   network: tcp
   port: 443
   server: 193.142.59.180
@@ -49,7 +112,7 @@ proxies:
   flow: xtls-rprx-vision
   grpc-opts:
     grpc-service-name: ''
-  name: '[I] 🇬🇧 英国 05'
+  name: '[I] 🇬🇧 英国 12'
   network: tcp
   port: 443
   server: s128.okgfw.top
