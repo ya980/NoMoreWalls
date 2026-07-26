@@ -1,14 +1,14 @@
 proxies:
-- name: '[A] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
+- encryption: none
+  name: '[G] 🇷🇺 俄罗斯 01'
+  network: raw
+  port: '2044'
+  server: hn---gn---gk.belamona.ir
+  tls: false
   type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
+  udp: true
+  uuid: 79f92090-4395-4d15-a093-5a524324b9eb
+  xudp: true
 - name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 4100

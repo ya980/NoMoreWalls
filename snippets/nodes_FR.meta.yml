@@ -1,38 +1,5 @@
 proxies:
-- name: '[A] 🇫🇷 法国 01'
-  network: ws
-  port: 8880
-  server: 45.85.119.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime56.workers.dev
-- name: '[A] 🇫🇷 法国 02'
-  network: ws
-  port: 8880
-  server: 66.81.247.40
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime44.workers.dev
-    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[A] 🇫🇷 法国 03'
-  network: tcp
-  port: 7443
-  reality-opts:
-    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
-  security: reality
-  server: 152.89.253.239
-  servername: ya.ru
-  tls: true
-  type: vless
-  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
-- name: '[C] 🇫🇷 法国 04'
+- name: '[C] 🇫🇷 法国 01'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -42,14 +9,14 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 05'
+- name: '[D] 🇫🇷 法国 02'
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 76.164.202.213
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 06'
+- name: '[D] 🇫🇷 法国 03'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -57,38 +24,69 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
+- name: '[D] 🇫🇷 法国 04'
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
+  sni: fr2.h2corp.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 05'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: 178.215.238.30
+  sni: germany1.noesissite.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 06'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.117
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 08'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-de-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-de-002.fastervpn.world
+- name: '[D] 🇫🇷 法国 07'
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 77.74.123.133
+  sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 09'
-  password: zhangyang
-  port: 6443
-  server: 130.61.50.75
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- client-fingerprint: random
-  flow: xtls-rprx-vision
-  name: '[G] 🇫🇷 法国 10'
+- name: '[G] 🇫🇷 法国 08'
   network: tcp
+  port: 22223
+  server: 15.188.160.141
+  tls: false
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[G] 🇫🇷 法国 09'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
-    short-id: '!!str 4fa44664f6a566d3'
-  server: germany.superbuba.top
-  servername: germany.superbuba.top
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
   tls: true
   type: vless
-  uuid: b6af5776-fede-4765-b86c-806e827e9a07
+  udp: true
+  uuid: 218b4b35-e826-49d4-b5dc-558fc7eb9923
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '[G] 🇫🇷 法国 10'
+  password: dongtaiwang.com
+  port: 33888
+  server: 195.154.41.99
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
