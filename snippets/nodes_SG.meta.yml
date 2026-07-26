@@ -47,35 +47,3 @@ proxies:
   server: sg4.dexlos.com
   skip-cert-verify: true
   type: hysteria2
-- name: '[G] 🇸🇬 新加坡 07'
-  network: ws
-  password: c206d543-023d-46cc-9d5a-1f0f2fc16323
-  port: 443
-  server: 188.164.248.122
-  skip-cert-verify: true
-  sni: space.byu.id.yxls.eu.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /in-pdr
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇸🇬 新加坡 08'
-  network: xhttp
-  port: '8443'
-  server: about.com
-  servername: www.myanmarone.site
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c7b26ae-f0da-4ae7-8f70-a9553ea07458
-  xhttp-opts:
-    host: www.myanmarone.site
-    mode: auto
-    path: /v2ray
-    x-padding-bytes: 100-1000
-  xudp: true

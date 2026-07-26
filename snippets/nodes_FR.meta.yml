@@ -9,19 +9,13 @@ proxies:
   sni: YAPC-1.afshin.ir
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇫🇷 法国 02'
-  obfs: ''
-  obfs-password: ''
+- name: '[D] 🇫🇷 法国 02'
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: '8443'
+  port: 8443
   server: 76.164.202.213
-  skip-cert-verify: false
   sni: mercedes-grape.yyuyy.com
   tls: false
   type: hysteria2
-  up: ''
 - name: '[D] 🇫🇷 法国 03'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
@@ -51,3 +45,17 @@ proxies:
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '[G] 🇫🇷 法国 07'
+  password: dongtaiwang.com
+  port: 33888
+  server: 195.154.41.99
+  skip-cert-verify: true
+  sni: bing.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 9adb384a-0f16-4501-a8f3-b6b2556fce87
