@@ -10,6 +10,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 02'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 76.164.202.213
+  skip-cert-verify: false
+  sni: mercedes-grape.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 03'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -17,17 +25,32 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 03'
+- name: '[D] 🇫🇷 法国 04'
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
   server: fr2.h2corp.org
   sni: fr2.h2corp.org
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 05'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: germany1.noesissite.ru
   skip-cert-verify: false
   tls: false
   type: hysteria2
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: '!!str 4fa44664f6a566d3'
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: b6af5776-fede-4765-b86c-806e827e9a07
+  xudp: true
