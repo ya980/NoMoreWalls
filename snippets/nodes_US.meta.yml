@@ -162,9 +162,101 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 17'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: QQZQVGy8uV4JSgPJ6a8jA56bptsSifntKDJjhSvOl2I
+    short-id: '!!str 197e9c7abe'
+  server: 153.76.117.99
+  servername: musicboss.eu
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e35e494-c95d-4c40-9787-f21698ad5360
+- cipher: aes-256-cfb
+  name: '[G] 🇺🇸 美国 18'
+  password: amazonskr05
+  port: 443
+  server: 100.58.124.178
+  type: ss
+- alpn:
+  - h2
+  client-fingerprint: ios
+  name: '[G] 🇺🇸 美国 19'
+  network: ws
+  port: 443
+  server: 2.26.90.142.tyr-agentstvo.tech
+  servername: 2.26.90.142.tyr-agentstvo.tech
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1dd6dab8-4a86-5553-9c3f-84cb9e173993
+  ws-opts:
+    headers:
+      Host: 2.26.90.142.tyr-agentstvo.tech
+    path: /websocket?ed=2560
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] 🇺🇸 美国 17'
+  name: '[G] 🇺🇸 美国 20'
+  network: xhttp
+  port: '443'
+  server: rvg-production-8541.up.railway.app
+  servername: rvg-production-8541.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: ad67a8db-1b30-4754-0152-a36e2cc9a998
+  xhttp-opts:
+    host: rvg-production-8541.up.railway.app
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/ad67a8db-1b30-4754-0152-a36e2cc9a998
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇺🇸 美国 21'
+  network: ws
+  port: '443'
+  server: rvg-production-6d6c.up.railway.app
+  servername: rvg-production-6d6c.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: facf8af7-c49e-3afa-fab9-45f357a54ea1
+  ws-opts:
+    headers:
+      Host: rvg-production-6d6c.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /ws/facf8af7-c49e-3afa-fab9-45f357a54ea1
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇺🇸 美国 22'
+  network: ws
+  port: '443'
+  server: rvg-production-07d8.up.railway.app
+  servername: rvg-production-07d8.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 12748de1-d784-0261-1bdb-66c66556135a
+  ws-opts:
+    headers:
+      Host: rvg-production-07d8.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /ws/12748de1-d784-0261-1bdb-66c66556135a
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇺🇸 美国 23'
   network: xhttp
   port: '443'
   server: saysgdgd-production-dd9d.up.railway.app
@@ -178,53 +270,49 @@ proxies:
     mode: stream-up
     path: /xhttp-siz10/stream-up/d2bd1b3f-6ee1-b072-ae38-5f2d4d513ffb
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: '[G] 🇺🇸 美国 18'
-  network: ws
+- multiplexing: MULTIPLEXING_LOW
+  name: '[G] 🇺🇸 美国 24'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- down: ''
+  fingerprint: ''
+  name: '[G] 🇺🇸 美国 25'
+  obfs: ''
+  obfs-password: ''
+  password: 3f3da036-ab8f-405e-a5fd-e7223cb39866
   port: '443'
-  server: rvg-production-e180.up.railway.app
-  servername: rvg-production-e180.up.railway.app
+  server: 72.56.22.209
+  skip-cert-verify: false
+  sni: h1.fogplay-mts.ru
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 26'
+  network: tcp
+  port: '24665'
+  reality-opts:
+    public-key: U1wgcKgoj-pgHELpRRsg1ghhsfgAlwkoPY-yu694VkY
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 167.99.48.117
+  servername: www.mysql.com
   tls: true
   type: vless
   udp: true
-  uuid: 120326bb-0125-933f-ba2f-6a4a710a681d
-  ws-opts:
-    headers:
-      Host: rvg-production-e180.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /ws/120326bb-0125-933f-ba2f-6a4a710a681d
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: '[G] 🇺🇸 美国 19'
-  network: ws
-  port: '443'
-  server: rvg-production-6d6c.up.railway.app
-  servername: rvg-production-6d6c.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: facf8af7-c49e-3afa-fab9-45f357a54ea1
-  ws-opts:
-    headers:
-      Host: rvg-production-6d6c.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /ws/facf8af7-c49e-3afa-fab9-45f357a54ea1
+  uuid: f421241e-572f-481e-93ab-961812437fe6
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 20'
+  name: '[I] 🇺🇸 美国 27'
   password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
   server: 216.105.168.19
   type: ss
-- name: '[I] 🇺🇸 美国 21'
+- name: '[I] 🇺🇸 美国 28'
   network: ws
   port: 80
   server: 18.238.109.28
@@ -235,13 +323,13 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: /GDkX4xpB/
-- name: '[I] 🇺🇸 美国 22'
+- name: '[I] 🇺🇸 美国 29'
   port: 10000
   server: 180.178.60.252
   tls: false
   type: vless
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: '[I] 🇺🇸 美国 23'
+- name: '[I] 🇺🇸 美国 30'
   network: ws
   port: 80
   server: 18.244.214.28
@@ -253,7 +341,7 @@ proxies:
       Host: duatoup3wk8q2.cloudfront.net
     path: '%2FGDkX4xpB%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 24'
+  name: '[I] 🇺🇸 美国 31'
   network: ws
   port: 80
   server: www.true.th
@@ -264,7 +352,7 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: '%2FGDkX4xpB%2F'
-- name: '[I] 🇺🇸 美国 25'
+- name: '[I] 🇺🇸 美国 32'
   network: ws
   port: 80
   server: 151.101.56.7
@@ -275,7 +363,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- name: '[I] 🇺🇸 美国 26'
+- name: '[I] 🇺🇸 美国 33'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -286,7 +374,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 27'
+- name: '[I] 🇺🇸 美国 34'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -297,7 +385,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 35'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -308,7 +396,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 29'
+- name: '[I] 🇺🇸 美国 36'
   network: ws
   password: '!!str 521314'
   port: 443
