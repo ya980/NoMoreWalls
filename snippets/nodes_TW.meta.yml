@@ -1,5 +1,32 @@
 proxies:
-- name: '[D] 🇨🇳 台湾 01'
+- insecure: '1'
+  mport: 40000-49999
+  name: '[A] 🇨🇳 台湾 01'
+  obfs: salamander
+  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 40000
+  server: tw.9966690.xyz
+  skip-cert-verify: true
+  tls:
+    enabled: true
+    insecure: true
+    server_name: iosapps.itunes.apple.com
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[A] 🇨🇳 台湾 02'
+  network: ws
+  port: 33412
+  server: ct3.ainivp.com
+  tls: true
+  type: vmess
+  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
+  ws-opts:
+    headers:
+      Host: ct3.ainivp.com
+    path: /ray
+- name: '[D] 🇨🇳 台湾 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
@@ -9,31 +36,32 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[G] 🇨🇳 台湾 02'
-  network: ws
-  port: 2096
-  server: twdx6.baidupi.top
-  skip-cert-verify: true
+  name: '[D] 🇨🇳 台湾 04'
+  network: raw
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
   tls: false
   type: vmess
-  udp: true
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: cos.ap-shanghai.myqcloud.com
-    path: /assets/images/
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇨🇳 台湾 03'
-  network: tcp
-  port: '51227'
-  reality-opts:
-    public-key: Zt1a3po4F6TVMXZ3LrDK-8kxjHuRzJA9l1QKRDiGEU0
-    short-id: '!!str 1526f2'
-  server: sgaws.ccwink.photos
-  servername: docs.aws.amazon.com
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- name: '[G] 🇨🇳 台湾 05'
+  password: exaxgqkKkd0TAMrCxeonWg==
+  port: 1443
+  server: twmoon1-cdn-route.couldflare-cdn.com
+  skip-cert-verify: false
+  sni: twmoon1-cdn-route.couldflare-cdn.com
   tls: true
+  type: http
+  username: mrwdfNTD8M79LCukCieldrqZWqs=
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[I] 🇨🇳 台湾 06'
+  port: 36100
+  reality-opts:
+    public-key: aclGz7LqHBqXqp-0HjIZSYJA6nqfz6NpeGLKvvIjomg
+    short-id: '!!str 7c4ff34913e6ad'
+  server: tw.x-m-m.ccwu.cc
+  servername: s0.awsstatic.com
+  tls: false
   type: vless
-  udp: true
-  uuid: 6eca3cb7-eab5-4a96-b95d-444eb566309b
-  xudp: true
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca

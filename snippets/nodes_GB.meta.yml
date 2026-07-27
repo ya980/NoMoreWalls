@@ -1,5 +1,52 @@
 proxies:
-- name: '[C] 🇬🇧 英国 01'
+- name: '[A] 🇬🇧 英国 01'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[A] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: '[A] 🇬🇧 英国 03'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[A] 🇬🇧 英国 04'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '[A] 🇬🇧 英国 05'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[C] 🇬🇧 英国 06'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RWn1s1QBjJ
@@ -9,14 +56,20 @@ proxies:
   sni: www.oracle.com
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
+- name: '[D] 🇬🇧 英国 07'
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 03'
+- name: '[D] 🇬🇧 英国 08'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa1.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 09'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa1.api3-max.ru
@@ -24,56 +77,82 @@ proxies:
   sni: wopa1.api3-max.ru
   tls: false
   type: hysteria2
-- encryption: none
-  name: '[G] 🇬🇧 英国 04'
-  network: ws
-  port: '2096'
-  server: cd18.almas-cloud.ir
+- name: '[D] 🇬🇧 英国 10'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa3.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa3.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 11'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa9.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa9.api3-max.ru
+  tls: false
+  type: hysteria2
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[G] 🇬🇧 英国 12'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 140.233.160.24
+  servername: ya.ru
+  tls: true
   type: vless
   udp: true
-  uuid: 94d1b793-0670-405a-af31-d1270b582427
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: ''
+  uuid: da7685a7-15ef-41e4-a0d9-009bb4be7220
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
+- client-fingerprint: qq
   flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: '[I] 🇬🇧 英国 05'
+  name: '[G] 🇬🇧 英国 13'
   network: tcp
-  port: 443
-  server: 193.142.59.180
-  servername: u695099u775a58bcs124.ccgfw.top
+  port: '4343'
+  reality-opts:
+    public-key: idAD9lBougKTjO-EoWH03ieKqplNFUQ9lnYwU-USVys
+    short-id: '!!str d8f3a9c2'
+  server: swdh1.redemshenvpn.site
+  servername: metrika.yandex.ru
   tls: true
   type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
-  ws-opts:
-    headers:
-      Host: 775a58bcs124.ccgfw.top
-    path: ''
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  grpc-opts:
-    grpc-service-name: ''
-  name: '[I] 🇬🇧 英国 06'
-  network: tcp
+  udp: true
+  uuid: deb9c015-1ffe-4e41-9d21-310eb0422a4c
+  xudp: true
+- name: '[I] 🇬🇧 英国 14'
+  network: ws
+  password: '!!str 521314'
   port: 443
-  server: s128.okgfw.top
-  servername: u695099u775a58bcs124.ccgfw.top
-  tls: true
-  type: vless
-  uuid: 5d02517f-63d5-3e9f-b467-1bcf4d4e25d3
+  server: 91.193.58.161
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
   ws-opts:
     headers:
-      Host: 775a58bcs124.ccgfw.top
-    path: ''
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '[I] 🇬🇧 英国 15'
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 91.193.58.36
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+- name: '[I] 🇬🇧 英国 16'
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 91.193.58.240
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'

@@ -1,35 +1,47 @@
 proxies:
-- client-fingerprint: firefox
+- name: '[A] EE 01'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
+- name: '[D] EE 02'
+  password: 5bd757ff-7498-4bfd-b7a2-7e3c7ff89e32
+  port: 443
+  server: ee.lockaway.top
+  skip-cert-verify: false
+  sni: ee.lockaway.top
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
   encryption: none
   grpc-opts:
-    grpc-service-name: neurex
-  name: '[G] EE 01'
+    grpc-service-name: tothego
+  name: '[G] EE 03'
   network: grpc
-  port: '16923'
+  port: '443'
   reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 37.49.224.176
-  servername: api-maps.yandex.ru
+    public-key: Xo6EF4DabK-Y7Y4qyFCTf29gavktWDemBfgBuaQt-Ak
+    short-id: '!!str e9e346dccb28e652'
+  server: est1.fastfive.ru
+  servername: sun1-94.userapi.com
   tls: true
   type: vless
   udp: true
-  uuid: 3e5797ff-cb46-48b2-be3c-1fc78a37a439
+  uuid: 7309d92c-cb36-4c19-8a29-40beb14f6bf1
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: neurex
-  name: '[G] EE 02'
-  network: grpc
-  port: '16923'
-  reality-opts:
-    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
-    short-id: '!!str 10ffb85da1c2d986'
-  server: 37.49.224.176
-  servername: api-maps.yandex.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4ab27adf-e13d-4eea-8cfc-a77f2a78c27b
-  xudp: true
+- name: '[I] EE 04'
+  network: ws
+  password: '!!str 521314'
+  port: 443
+  server: 45.80.108.27
+  sni: hhtj.hhllfly.kdns.fr
+  type: trojan
+  ws-opts:
+    headers:
+      Host: hhtj.hhllfly.kdns.fr
+    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
