@@ -1,15 +1,5 @@
 proxies:
-- name: '[A] EE 01'
-  network: ws
-  port: 8880
-  server: 45.80.110.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-    path: /?ed=2560
-- name: '[D] EE 02'
+- name: '[D] EE 01'
   password: 5bd757ff-7498-4bfd-b7a2-7e3c7ff89e32
   port: 443
   server: ee.lockaway.top
@@ -17,24 +7,7 @@ proxies:
   sni: ee.lockaway.top
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: tothego
-  name: '[G] EE 03'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: Xo6EF4DabK-Y7Y4qyFCTf29gavktWDemBfgBuaQt-Ak
-    short-id: '!!str e9e346dccb28e652'
-  server: est1.fastfive.ru
-  servername: sun1-94.userapi.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7309d92c-cb36-4c19-8a29-40beb14f6bf1
-  xudp: true
-- name: '[I] EE 04'
+- name: '[I] EE 02'
   network: ws
   password: '!!str 521314'
   port: 443
