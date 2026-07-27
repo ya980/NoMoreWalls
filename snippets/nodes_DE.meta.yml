@@ -66,7 +66,22 @@ proxies:
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- name: '[I] 🇩🇪 德国 08'
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - /?BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI
+    path:
+    - /
+  name: '[G] 🇩🇪 德国 08'
+  network: http
+  port: '8882'
+  server: 31.56.204.209
+  type: vless
+  udp: true
+  uuid: eab915bc-d2df-73d1-47d0-6eb240497055
+  xudp: true
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   password: '!!str 521314'
   port: 443
