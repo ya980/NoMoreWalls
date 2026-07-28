@@ -1,11 +1,15 @@
 proxies:
-- client-fingerprint: chrome
-  name: '[G] 🇰🇷 韩国 01'
-  network: tcp
-  password: FC60532879
-  port: '443'
-  server: quick-tiger.rooster465.autos
-  skip-cert-verify: false
-  sni: quick-tiger.rooster465.autos
-  type: trojan
-  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇰🇷 韩国 01'
+  network: ws
+  port: '10509'
+  server: 115.89.98.231
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4f1c1ca1-a422-4014-9423-04e39ed73b03
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
