@@ -28,18 +28,19 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 04'
+  password: 8bba3194-4856-46d1-8319-075817d87eb1
+  port: 31568
+  server: fr4.sodahub.online
+  skip-cert-verify: false
+  sni: fr4.sodahub.online
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 05'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
   sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 05'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: 194.180.174.69
-  sni: fr2.h2corp.org
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 06'
@@ -49,26 +50,29 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 07'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
-  server: fr2.h2corp.org
-  sni: fr2.h2corp.org
+  server: 178.215.238.30
+  sni: germany1.noesissite.ru
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 08'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: germany1.noesissite.ru
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 09'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: germany1.noesissite.ru
-  sni: germany1.noesissite.ru
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 93.114.194.117
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 10'
+- alpn:
+  - h3
+  name: '[D] 🇫🇷 法国 10'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -77,14 +81,21 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 11'
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 77.74.123.133
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
   skip-cert-verify: true
-  sni: grape-zet-turbo-nl.yyuyy.com
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 12'
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 77.74.123.133
+  sni: grape-zet-turbo-nl.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 13'
   password: 52e3dd44-ed23-4030-b0cc-5b5a953f2d4d
   port: 8443
   server: 45.145.43.56
@@ -92,26 +103,3 @@ proxies:
   sni: speedtestmark.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 13'
-  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
-  port: 443
-  server: ger.leontunel.ru
-  skip-cert-verify: false
-  sni: ger.leontunel.ru
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '[G] 🇫🇷 法国 14'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.64.146.211
-  skip-cert-verify: true
-  sni: www.gossipglove.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
