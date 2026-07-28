@@ -94,3 +94,37 @@ proxies:
   sni: de2-hy2.veilvpn.life
   tls: false
   type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[G] 🇫🇷 法国 13'
+  network: ws
+  port: 443
+  server: 77.105.163.46
+  servername: ov186.ochmaybrooooo.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7c61a2a5-c7e4-4d52-baf7-a9406ad89b4c
+  ws-opts:
+    headers:
+      Host: ov186.ochmaybrooooo.online
+    path: /
+- encryption: none
+  name: '[G] 🇫🇷 法国 14'
+  network: tcp
+  port: '22224'
+  server: 13.36.44.201
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- encryption: none
+  name: '[G] 🇫🇷 法国 15'
+  network: tcp
+  port: '22223'
+  server: 35.181.156.38
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
