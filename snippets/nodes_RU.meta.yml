@@ -1,11 +1,11 @@
 proxies:
 - client-fingerprint: edge
+  encryption: none
   grpc-opts:
-    grpc-mode: gun
     grpc-service-name: cdn-spb.buildsnow.top
   name: '[G] 🇷🇺 俄罗斯 01'
   network: grpc
-  port: 443
+  port: '443'
   reality-opts:
     public-key: SthWDW71MJzhV10XWlbGwdc0BJ6W1ILfny_xn2D0e1A
     short-id: '!!str 0ac1b591aafcfa51'
@@ -15,39 +15,23 @@ proxies:
   type: vless
   udp: true
   uuid: f9922bed-4524-4a6a-8709-9c2e26dedee9
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
+  xudp: true
+- encryption: none
   name: '[G] 🇷🇺 俄罗斯 02'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: Jg7t1GwxpS4fhsYzqgz37zlQRSd8YAHECtgdGFDrnDc
-    short-id: '!!str 9b0c1d2e'
-  server: 62.233.43.34
-  servername: www.amd.com
-  tls: true
+  network: ws
+  port: '8880'
+  server: 194.67.102.65
   type: vless
   udp: true
-  uuid: 2b947013-7551-4a8e-bc4f-470e9e987e88
+  uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
+  ws-opts:
+    headers:
+      Host: rutube.ummapeople.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /rutube
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇷🇺 俄罗斯 03'
-  network: tcp
-  port: '12303'
-  reality-opts:
-    public-key: djNTwe-D7XWCrj4sG3b0Kz2tSuJ7epWKoQYHIv1AtzQ
-    short-id: '!!str 4646ff0a2c0bafbb'
-  server: 213.108.3.228
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 40e2d726-40fb-46c8-b4e2-5a88de1d3da6
-  xudp: true
-- name: '[I] 🇷🇺 俄罗斯 04'
+- name: '[I] 🇷🇺 俄罗斯 03'
   network: ws
   port: 4100
   server: 194.87.161.60
