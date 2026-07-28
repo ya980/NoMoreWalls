@@ -66,42 +66,15 @@ proxies:
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- alterId: '0'
-  cipher: auto
+- auth: 92e82460-9a6f-4a1d-b455-d96e036eee4a
   name: '[G] 🇩🇪 德国 08'
-  network: ws
-  port: '33208'
-  server: cu2.ainivp.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 9227afcd-026e-781f-1abc-c06efabd2338
-  ws-opts:
-    headers:
-      Host: cu2.ainivp.com
-    path: /ray
-  xudp: true
-- name: '[G] 🇩🇪 德国 09'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+  password: 92e82460-9a6f-4a1d-b455-d96e036eee4a
+  port: 8443
+  server: s1.monitoring-msk.online
   skip-cert-verify: true
-  sni: de.catxstar.com
-  tls: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[G] 🇩🇪 德国 10'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: Hkdcrtc-e.catcat321.com
-  skip-cert-verify: true
-  sni: de.catxstar.com
-  type: trojan
-  udp: true
-- name: '[I] 🇩🇪 德国 11'
+  sni: s1.monitoring-msk.online
+  type: hysteria2
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   password: '!!str 521314'
   port: 443
