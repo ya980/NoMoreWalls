@@ -15,7 +15,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 34'
+  name: '[D] 🌍 其它地区 35'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -29,7 +29,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 35'
+  name: '[D] 🌍 其它地区 36'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -43,7 +43,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 36'
+  name: '[D] 🌍 其它地区 37'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -57,7 +57,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 37'
+  name: '[D] 🌍 其它地区 38'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -71,7 +71,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 38'
+  name: '[D] 🌍 其它地区 39'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -98,7 +98,7 @@ proxies:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 39'
+  name: '[E] 🌍 其它地区 40'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -192,6 +192,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[E] 🇺🇸 美国 10'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -200,6 +201,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+  udp: true
 - name: '[E] 🇺🇸 美国 11'
   network: tcp
   password: BxceQaOe
@@ -218,99 +220,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: '[G] CH 01'
-  password: xp6qduya33bvl863
-  port: 25026
-  server: best.kovira2.ir
-  type: ss
-- cipher: aes-256-cfb
-  name: '[G] 🇬🇧 英国 09'
-  password: amazonskr05
-  port: 443
-  server: 18.170.212.188
-  type: ss
-- alpn:
-  - http/1.1
-  name: '[G] 🇺🇸 美国 12'
-  network: ws
-  password: MiTiVPN
-  port: '2087'
-  server: 104.18.6.178
-  skip-cert-verify: true
-  sni: g-o-MiTiVPN---MiTiVPNj.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/nl
-- alpn:
-  - http/1.1
-  name: '[G] 🇺🇸 美国 13'
-  network: ws
-  password: MITIVPN
-  port: '2053'
-  server: 104.17.147.22
-  skip-cert-verify: true
-  sni: ikk---7-MiTiVPN----o.kingnetwork.ir
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🌍 其它地区 46'
-  password: XF0klw7870vXn3uQIxe19Q
-  port: '1080'
-  server: 194.54.80.37
-  type: ss
-  udp: true
-- name: '[G] 🌍 其它地区 58'
+- name: '[G] 🌍 其它地区 41'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20066
+  port: 20085
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+- name: '[G] 🌍 其它地区 43'
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20066'
   server: oplosgru-c.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
-- name: '[G] 🇩🇪 德国 13'
+- name: '[G] 🇩🇪 德国 09'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
+  port: '20041'
   server: Hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: de.catxstar.com
   type: trojan
   udp: true
-- name: '[G] 🌍 其它地区 59'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20031
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: '[G] 🇫🇷 法国 14'
-  network: tcp
-  password: JT80563429
-  port: 443
-  server: desired-pony.rooster465.autos
-  skip-cert-verify: false
-  sni: desired-pony.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[G] 🌍 其它地区 60'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20056
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- name: '[G] 🌍 其它地区 64'
+- name: '[G] 🌍 其它地区 45'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20085
   server: Hkdcrtc-e.catcat321.com
@@ -318,8 +250,54 @@ proxies:
   sni: hk.catxstar.com
   type: trojan
   udp: true
+- name: '[G] 🌍 其它地区 46'
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: 20023
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: '[G] 🇭🇰 香港 11'
+  password: BxceQaOe
+  port: '11035'
+  server: 95.40.61.23
+  skip-cert-verify: true
+  sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: '[G] 🇯🇵 日本 05'
+  password: BxceQaOe
+  port: '45691'
+  server: 18.163.208.174
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: '[G] 🇫🇷 法国 14'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.64.146.211
+  skip-cert-verify: true
+  sni: www.gossipglove.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment
+- name: '[G] 🌍 其它地区 48'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20085'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
 - cipher: aes-128-gcm
-  name: '[G] 🌍 其它地区 67'
+  name: '[G] 🌍 其它地区 49'
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -330,18 +308,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[G] 🇰🇷 韩国 01'
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: '917'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[G] 🇰🇷 韩国 02'
+  name: '[G] 🇰🇷 韩国 03'
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -352,7 +319,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[G] 🇰🇷 韩国 03'
+  name: '[G] 🇰🇷 韩国 04'
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -363,29 +330,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[G] 🇰🇷 韩国 04'
-  password: ayucl243113
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: '921'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[G] 🇰🇷 韩国 05'
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: '810'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[G] 🌍 其它地区 68'
+  name: '[G] 🌍 其它地区 50'
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -396,29 +341,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[G] 🇰🇷 韩国 06'
-  password: ayucew2
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: '9001'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[G] 🇰🇷 韩国 07'
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 79ca942774.download.windowsupdate.com
-    mode: http
-  port: '920'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[G] 🌍 其它地区 69'
+  name: '[G] 🌍 其它地区 51'
   password: ayu1245
   plugin: obfs
   plugin-opts:
@@ -428,16 +351,7 @@ proxies:
   server: 260323.1.0.l3.unclemanco.com
   type: ss
   udp: true
-- name: '[G] 🇫🇷 法国 15'
-  network: tcp
-  password: JT80563429
-  port: '443'
-  server: 15.237.217.186
-  skip-cert-verify: false
-  sni: desired-pony.rooster465.autos
-  type: trojan
-  udp: true
-- name: '[G] 🌍 其它地区 76'
+- name: '[G] 🌍 其它地区 52'
   network: tcp
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: '20066'
@@ -445,7 +359,7 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-- name: '[G] 🇭🇰 香港 11'
+- name: '[G] 🇭🇰 香港 12'
   network: tcp
   password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
   port: '32029'
@@ -454,23 +368,7 @@ proxies:
   sni: pull-flv-q1-admin.douyincdn.com
   type: trojan
   udp: true
-- name: '[G] 🌍 其它地区 77'
-  network: tcp
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20048'
-  server: oplosgru-c.catcat321.com
-  skip-cert-verify: false
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🇩🇪 德国 16'
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.36.133
-  type: ss
-  udp: true
-- name: '[G] 🌍 其它地区 78'
+- name: '[G] 🌍 其它地区 53'
   network: tcp
   password: 246fb793-8e5e-4015-943e-22f41e4ea4a5
   port: '32019'
@@ -480,14 +378,14 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 22'
+  name: '[I] 🇺🇸 美国 12'
   password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
   server: 216.105.168.19
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 12'
+  name: '[I] 🇭🇰 香港 13'
   network: ws
   port: 443
   server: 6jdvarazgu3qqr6q.v.3dns.vip
@@ -510,7 +408,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇭🇰 香港 13'
+- name: '[I] 🇭🇰 香港 14'
   network: ws
   password: '521314'
   port: 443
@@ -521,7 +419,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 18'
   network: ws
   password: '521314'
   port: 443
@@ -532,7 +430,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇩🇪 德国 17'
+- name: '[I] 🇩🇪 德国 10'
   network: ws
   password: '521314'
   port: 443
@@ -543,7 +441,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 29'
+- name: '[I] 🇺🇸 美国 19'
   network: ws
   password: '521314'
   port: 443
@@ -554,7 +452,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🌍 其它地区 89'
+- name: '[I] 🌍 其它地区 58'
   network: ws
   password: '521314'
   port: 443
@@ -565,7 +463,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🌍 其它地区 90'
+- name: '[I] 🌍 其它地区 59'
   network: ws
   password: '521314'
   port: 443
@@ -576,7 +474,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 30'
+- name: '[I] 🇺🇸 美国 20'
   network: ws
   password: '521314'
   port: 443
@@ -587,7 +485,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 31'
+- name: '[I] 🇺🇸 美国 21'
   network: ws
   password: '521314'
   port: 443
@@ -598,7 +496,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🌍 其它地区 91'
+- name: '[I] 🌍 其它地区 60'
   network: ws
   password: '521314'
   port: 443
@@ -609,7 +507,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 11'
+- name: '[I] 🇬🇧 英国 08'
   network: ws
   password: '521314'
   port: 443
@@ -620,7 +518,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 12'
+- name: '[I] 🇬🇧 英国 09'
   network: ws
   password: '521314'
   port: 443
@@ -631,7 +529,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 13'
+- name: '[I] 🇬🇧 英国 10'
   network: ws
   password: '521314'
   port: 443
@@ -643,13 +541,13 @@ proxies:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 93'
+  name: '[I] 🌍 其它地区 62'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 193.29.139.147
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇸🇬 新加坡 05'
+  name: '[I] 🇸🇬 新加坡 06'
   password: i8asar9lrxhavh38
   port: 51435
   server: 178.128.86.181
