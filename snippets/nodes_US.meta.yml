@@ -6,14 +6,19 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 02'
+- down: ''
+  fingerprint: ''
+  name: '[D] 🇺🇸 美国 02'
+  obfs: ''
+  obfs-password: ''
   password: 76dff95d-a720-4909-8ca6-3d848e786a9c
-  port: 443
+  port: '443'
   server: 159.65.178.189
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
+  up: ''
 - name: '[D] 🇺🇸 美国 03'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
@@ -24,17 +29,16 @@ proxies:
 - name: '[D] 🇺🇸 美国 04'
   password: dongtaiwang.com
   port: 44356
-  server: hy2.561891.xyz
-  skip-cert-verify: true
+  server: 142.249.37.90
   sni: hy2.561891.xyz
   tls: false
   type: hysteria2
 - name: '[D] 🇺🇸 美国 05'
-  password: Hy2@SiLiCon2026!
-  port: 8443
-  server: 43.130.7.3
+  password: dongtaiwang.com
+  port: 44356
+  server: hy2.561891.xyz
   skip-cert-verify: true
-  sni: bing.com
+  sni: hy2.561891.xyz
   tls: false
   type: hysteria2
 - alterId: 0
@@ -49,7 +53,7 @@ proxies:
   uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
   ws-opts:
     headers:
-      Host: ''
+      Host: www.bing.com
     path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
 - name: '[E] 🇺🇸 美国 07'
   network: tcp
@@ -75,13 +79,161 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 10'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: '!!str 0990d22f'
+  server: 167.17.69.171
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  xudp: true
+- encryption: none
+  name: '[G] 🇺🇸 美国 11'
+  network: ws
+  port: '80'
+  server: 18.239.134.69
+  type: vless
+  udp: true
+  uuid: f55ce6cc-3f6b-40fc-9e3b-abe26db17009
+  ws-opts:
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/35.0.1916.153 Safari/537.36
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇺🇸 美国 12'
+  network: xhttp
+  port: '443'
+  server: x4g-production-9068d.up.railway.app
+  servername: x4g-production-9068d.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 01fc9d6a-7a5a-7efa-a786-3fecadacafa3
+  xhttp-opts:
+    host: x4g-production-9068d.up.railway.app
+    mode: auto
+    path: /xhttp-siz10/01fc9d6a-7a5a-7efa-a786-3fecadacafa3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: neurex
+  name: '[G] 🇺🇸 美国 13'
+  network: grpc
+  port: '16923'
+  reality-opts:
+    public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA
+    short-id: '!!str 10ffb85da1c2d986'
+  server: 152.53.169.29
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2702228d-880f-410a-bf39-bdbe26228ead
+  xudp: true
+- alterId: 2
+  cipher: auto
+  name: '[G] 🇺🇸 美国 14'
+  port: 30808
+  server: v8.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- name: '[G] 🇺🇸 美国 15'
+  password: None
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 16'
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[G] 🇺🇸 美国 17'
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- multiplexing: MULTIPLEXING_LOW
+  name: '[G] 🇺🇸 美国 18'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: '[G] 🇺🇸 美国 19'
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 20'
+  password: None
+  port: 9002
+  server: 156.146.59.8
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 21'
+  password: None
+  port: 9002
+  server: 156.146.59.25
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  encryption: none
+  name: '[G] 🇺🇸 美国 22'
+  network: raw
+  port: '2053'
+  reality-opts:
+    public-key: SZNBUj0YVHSGrLNr_1G11ezb5SShqv0_8bDbNGbVJTo
+    short-id: '!!str 905d014aef48adf6'
+  server: 198.251.78.29
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4486dc5a-823c-4507-840f-df9ce6c696fb
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 10'
+  name: '[I] 🇺🇸 美国 23'
   password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
   server: 216.105.168.19
   type: ss
-- name: '[I] 🇺🇸 美国 11'
+- name: '[I] 🇺🇸 美国 24'
   network: ws
   port: 80
   server: 18.238.109.28
@@ -92,13 +244,13 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: /GDkX4xpB/
-- name: '[I] 🇺🇸 美国 12'
+- name: '[I] 🇺🇸 美国 25'
   port: 10000
   server: 180.178.60.252
   tls: false
   type: vless
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: '[I] 🇺🇸 美国 13'
+- name: '[I] 🇺🇸 美国 26'
   network: ws
   port: 80
   server: 18.244.214.28
@@ -110,7 +262,7 @@ proxies:
       Host: duatoup3wk8q2.cloudfront.net
     path: '%2FGDkX4xpB%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 14'
+  name: '[I] 🇺🇸 美国 27'
   network: ws
   port: 80
   server: www.true.th
@@ -121,7 +273,7 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: '%2FGDkX4xpB%2F'
-- name: '[I] 🇺🇸 美国 15'
+- name: '[I] 🇺🇸 美国 28'
   network: ws
   port: 80
   server: 151.101.56.7
@@ -132,7 +284,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- name: '[I] 🇺🇸 美国 16'
+- name: '[I] 🇺🇸 美国 29'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -143,7 +295,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 17'
+- name: '[I] 🇺🇸 美国 30'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -154,7 +306,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 18'
+- name: '[I] 🇺🇸 美国 31'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -165,7 +317,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 19'
+- name: '[I] 🇺🇸 美国 32'
   network: ws
   password: '!!str 521314'
   port: 443
