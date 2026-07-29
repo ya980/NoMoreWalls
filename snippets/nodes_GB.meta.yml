@@ -1,22 +1,12 @@
 proxies:
-- name: '[C] 🇬🇧 英国 01'
-  obfs: salamander
-  obfs-password: t-me-V2RayyNGvpn
-  password: RWn1s1QBjJ
-  port: 2087
-  server: 212.74.39.202
-  skip-cert-verify: true
-  sni: www.oracle.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇬🇧 英国 02'
+- name: '[D] 🇬🇧 英国 01'
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 03'
+- name: '[D] 🇬🇧 英国 02'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8443
   server: 205.237.109.213
@@ -24,28 +14,21 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 04'
+- name: '[D] 🇬🇧 英国 03'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa1.api3-max.ru
-  tls: false
-  type: hysteria2
-- name: '[D] 🇬🇧 英国 05'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: wopa1.api3-max.ru
-  skip-cert-verify: false
   sni: wopa1.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 06'
+- name: '[D] 🇬🇧 英国 04'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa3.api3-max.ru
   sni: wopa3.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 07'
+- name: '[D] 🇬🇧 英国 05'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa7.api3-max.ru
@@ -53,32 +36,18 @@ proxies:
   sni: wopa7.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 08'
+- name: '[D] 🇬🇧 英国 06'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa9.api3-max.ru
-  skip-cert-verify: false
   sni: wopa9.api3-max.ru
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: ljfxz
-  name: '[G] 🇬🇧 英国 09'
-  network: grpc
-  port: 46784
-  server: t1.hhaakk9922.com
-  servername: t1.hhaakk9922.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e34501b9-faa9-356f-8b30-8f2c986b764b
-- client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[G] 🇬🇧 英国 10'
+  name: '[G] 🇬🇧 英国 07'
   network: grpc
   port: '2053'
   reality-opts:
@@ -91,25 +60,14 @@ proxies:
   udp: true
   uuid: 10eabb0e-25cc-4210-82c9-f05d964572d8
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇬🇧 英国 11'
-  network: tcp
-  port: '55880'
-  reality-opts:
-    public-key: BibMDEe05xV7nGF6eUhylxgry-JoWCCwrGdyAasOuyU
-    short-id: '!!str 69b0ac6c'
-  server: ly.gaaaa015.top
-  servername: www.bilibili.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7552bb29-f54e-4b4d-ac51-998611cf7462
-  xudp: true
-- name: '[I] 🇬🇧 英国 12'
+- name: '[G] 🇬🇧 英国 08'
+  password: ''
+  port: '1080'
+  server: 31.76.80.215
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[I] 🇬🇧 英国 09'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -120,7 +78,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 13'
+- name: '[I] 🇬🇧 英国 10'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -131,7 +89,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 14'
+- name: '[I] 🇬🇧 英国 11'
   network: ws
   password: '!!str 521314'
   port: 443

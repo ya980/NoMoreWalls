@@ -1,5 +1,16 @@
 proxies:
-- name: '[I] EE 01'
+- encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[G] EE 01'
+  network: grpc
+  port: '8443'
+  server: 95.85.224.3
+  type: vless
+  udp: true
+  uuid: 1f29762d-3f23-4207-9e39-f774de5d49ba
+  xudp: true
+- name: '[I] EE 02'
   network: ws
   password: '!!str 521314'
   port: 443

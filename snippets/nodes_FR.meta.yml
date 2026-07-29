@@ -36,35 +36,45 @@ proxies:
 - name: '[D] 🇫🇷 法国 05'
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
-  server: fr2.h2corp.org
-  skip-cert-verify: false
+  server: 194.180.174.69
   sni: fr2.h2corp.org
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 06'
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 07'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 178.215.238.30
   sni: germany1.noesissite.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
+- name: '[D] 🇫🇷 法国 08'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: germany1.noesissite.ru
   sni: germany1.noesissite.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 08'
+- name: '[D] 🇫🇷 法国 09'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: germany1.noesissite.ru
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 10'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.117
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[D] 🇫🇷 法国 09'
+- name: '[D] 🇫🇷 法国 11'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -72,59 +82,32 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 10'
+- name: '[D] 🇫🇷 法国 12'
   password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
   port: 8443
   server: 77.74.123.133
   sni: grape-zet-turbo-nl.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 11'
+- name: '[D] 🇫🇷 法国 13'
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
-  server: ger.leontunel.ru
-  skip-cert-verify: false
+  server: 150.241.124.145
   sni: ger.leontunel.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 12'
-  password: d2e3768f-cb23-4cfc-a884-dbd6813cb70b
-  port: 3478
-  server: de2-hy2.veilvpn.life
-  sni: de2-hy2.veilvpn.life
-  tls: false
-  type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[G] 🇫🇷 法国 13'
-  network: ws
-  port: 443
-  server: 77.105.163.46
-  servername: ov186.ochmaybrooooo.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7c61a2a5-c7e4-4d52-baf7-a9406ad89b4c
-  ws-opts:
-    headers:
-      Host: ov186.ochmaybrooooo.online
-    path: /
 - encryption: none
   name: '[G] 🇫🇷 法国 14'
-  network: tcp
-  port: '22224'
-  server: 13.36.44.201
+  network: ws
+  port: '8880'
+  server: 45.80.111.175
   type: vless
   udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- encryption: none
-  name: '[G] 🇫🇷 法国 15'
-  network: tcp
-  port: '22223'
-  server: 35.181.156.38
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 6ed59a5b-efef-4ddf-99f2-57d200caed47
+  ws-opts:
+    headers:
+      Host: cnd.poland.myfilecdn.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /cdn/assets/stream
   xudp: true
