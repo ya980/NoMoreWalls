@@ -42,48 +42,32 @@ proxies:
 - name: '[D] 🇫🇷 法国 05'
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
-  server: 194.180.174.69
-  sni: fr2.h2corp.org
+  server: fr2.h2corp.org
+  skip-cert-verify: false
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 06'
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
   server: fr2.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: fr2.h2corp.org
   sni: fr2.h2corp.org
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 08'
+- name: '[D] 🇫🇷 法国 07'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 93.114.194.117
   sni: grape-zet-ro-turbo.bumbleshrimp.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[D] 🇫🇷 法国 09'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 10'
+- name: '[D] 🇫🇷 法国 08'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 11'
+- name: '[D] 🇫🇷 法国 09'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -91,27 +75,13 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 12'
-  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
-  port: 443
-  server: 150.241.124.145
-  sni: ger.leontunel.ru
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇫🇷 法国 13'
-  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
+  name: '[D] 🇫🇷 法国 10'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
-  server: ger.leontunel.ru
-  skip-cert-verify: false
-  sni: ger.leontunel.ru
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 14'
-  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
-  port: 443
-  server: ger.leontunel.ru
-  sni: ger.leontunel.ru
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
