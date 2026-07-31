@@ -47,31 +47,9 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 06'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: fr2.h2corp.org
-  sni: fr2.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
-  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
-  port: 8443
-  server: 93.114.194.117
-  sni: grape-zet-ro-turbo.bumbleshrimp.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 08'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇫🇷 法国 09'
+  name: '[D] 🇫🇷 法国 06'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -79,38 +57,3 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 10'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 11'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: 91.196.32.163
-  tls: false
-  type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇫🇷 法国 12'
-  network: ws
-  port: '443'
-  server: 172.66.174.41
-  servername: pinalo.zenvorix.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
-  ws-opts:
-    headers:
-      Host: pinalo.zenvorix.ir
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /nova-geo-psiphon-fr
-  xudp: true
