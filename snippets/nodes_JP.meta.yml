@@ -1,30 +1,38 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
-  network: tcp
-  password: BxceQaOe
-  port: 41421
-  server: 54.46.46.228
+- name: '[D] 🇯🇵 日本 01'
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - name: '[E] 🇯🇵 日本 02'
   network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 43.199.32.78
-  skip-cert-verify: false
-  sni: www.nintendogames.net
+  password: BxceQaOe
+  port: 49811
+  server: 43.198.187.59
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[E] 🇯🇵 日本 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
-  server: 18.181.205.36
+  server: 3.114.9.167
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[E] 🇯🇵 日本 04'
+  network: tcp
+  password: d1960ba9f0f6353353994fa844cf817b
+  port: 40138
+  server: 3.114.9.167
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 04'
+  name: '[I] 🇯🇵 日本 05'
   network: grpc
   port: 443
   reality-opts:
