@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
+- name: '[E] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 49811
@@ -7,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 02'
+- name: '[E] 🇯🇵 日本 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 38937
@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 03'
+- name: '[E] 🇯🇵 日本 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 40138
@@ -23,3 +23,14 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-128-gcm
+  name: '[G] 🇯🇵 日本 05'
+  password: QHPy2u
+  plugin: obfs
+  plugin-opts:
+    host: 2fce243671.download.windowsupdate.com
+    mode: http
+  port: '914'
+  server: 260323.1.0.l3.unclemanco.com
+  type: ss
+  udp: true

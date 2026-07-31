@@ -22,27 +22,73 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[D] 🇨🇳 台湾 04'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇨🇳 台湾 05'
-  network: raw
-  port: '35034'
-  server: 165.154.195.38
+  name: '[D] 🇨🇳 台湾 04'
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: cos.ap-shanghai.myqcloud.com
+    path: /assets/images/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇨🇳 台湾 05'
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
+  servername: cos.ap-shanghai.myqcloud.com
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: twdx6.baidupi.top
+    path: /assets/images/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇨🇳 台湾 06'
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: ''
+    path: /assets/images/
+- client-fingerprint: chrome
+  name: '[G] 🇨🇳 台湾 07'
+  network: tcp
+  password: i99Cef
+  port: '28101'
+  server: 209.248.32.115
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: '[G] 🇨🇳 台湾 08'
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
+  type: hysteria2
+  up: ''
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 台湾 06'
+  name: '[I] 🇨🇳 台湾 09'
   port: 36100
   reality-opts:
     public-key: aclGz7LqHBqXqp-0HjIZSYJA6nqfz6NpeGLKvvIjomg
