@@ -236,46 +236,80 @@ proxies:
   network: tcp
   password: i99Cef
   port: '28101'
+  server: 209.248.32.116
+  skip-cert-verify: true
+  sni: download.windowsupdate.com
+  type: trojan
+  udp: true
+- name: '[G] 🌍 其它地区 43'
+  network: ws
+  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  port: '2096'
+  server: jumao91.shop
+  skip-cert-verify: false
+  sni: jumao91.shop
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/57.0.2987.133 Safari/537.36
+    path: /proxyip=45.207.156.255
+- alterId: 2
+  cipher: auto
+  name: '[G] 🇺🇸 美国 14'
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: aes-256-cfb
+  name: '[G] 🌍 其它地区 59'
+  password: amazonskr05
+  port: 443
+  server: 13.62.53.26
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] SE 03'
+  password: amazonskr05
+  port: 443
+  server: 16.171.242.243
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] SE 04'
+  password: amazonskr05
+  port: 443
+  server: 13.53.38.71
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] SE 05'
+  password: amazonskr05
+  port: 443
+  server: 13.62.20.75
+  type: ss
+  udp: true
+- name: '[G] 🇨🇳 台湾 08'
+  password: i99Cef
+  port: '28101'
   server: 209.248.32.115
   skip-cert-verify: true
   sni: download.windowsupdate.com
   type: trojan
   udp: true
-- cipher: aes-128-gcm
-  name: '[G] 🇭🇰 香港 11'
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: '8001'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[G] 🌍 其它地区 40'
-  password: ayucloud1
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: '835'
-  server: 260323.1.0.l3.unclemanco.com
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: '[G] 🇯🇵 日本 05'
-  password: QHPy2u
-  plugin: obfs
-  plugin-opts:
-    host: 2fce243671.download.windowsupdate.com
-    mode: http
-  port: '914'
-  server: 260323.1.0.l3.unclemanco.com
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🌍 其它地区 80'
+  password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=
+  port: '45819'
+  server: 141.144.195.131
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 10'
+  name: '[I] 🇺🇸 美国 25'
   password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
   server: 216.105.168.19
@@ -294,7 +328,7 @@ proxies:
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
     path: /ws-vmess
-- name: '[I] EE 01'
+- name: '[I] EE 02'
   network: ws
   password: '521314'
   port: 443
@@ -316,7 +350,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 16'
+- name: '[I] 🇺🇸 美国 31'
   network: ws
   password: '521314'
   port: 443
@@ -327,7 +361,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇩🇪 德国 08'
+- name: '[I] 🇩🇪 德国 14'
   network: ws
   password: '521314'
   port: 443
@@ -338,7 +372,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 17'
+- name: '[I] 🇺🇸 美国 32'
   network: ws
   password: '521314'
   port: 443
@@ -349,7 +383,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🌍 其它地区 45'
+- name: '[I] 🌍 其它地区 89'
   network: ws
   password: '521314'
   port: 443
@@ -360,7 +394,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🌍 其它地区 46'
+- name: '[I] 🌍 其它地区 90'
   network: ws
   password: '521314'
   port: 443
@@ -371,7 +405,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 18'
+- name: '[I] 🇺🇸 美国 33'
   network: ws
   password: '521314'
   port: 443
@@ -382,7 +416,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 19'
+- name: '[I] 🇺🇸 美国 34'
   network: ws
   password: '521314'
   port: 443
@@ -393,7 +427,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🌍 其它地区 47'
+- name: '[I] 🌍 其它地区 91'
   network: ws
   password: '521314'
   port: 443
@@ -438,7 +472,7 @@ proxies:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 49'
+  name: '[I] 🌍 其它地区 93'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 193.29.139.147
