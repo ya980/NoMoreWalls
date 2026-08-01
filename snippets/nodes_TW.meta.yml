@@ -33,42 +33,48 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[D] 🇨🇳 台湾 05'
-  network: raw
-  port: '35034'
-  server: 165.154.195.38
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- name: '[G] 🇨🇳 台湾 06'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
-- name: '[G] 🇨🇳 台湾 07'
-  password: i99Cef
-  port: '28101'
-  server: 209.248.32.115
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[G] 🇨🇳 台湾 08'
-  password: i99Cef
-  port: '28101'
-  server: 209.248.32.116
-  skip-cert-verify: true
-  sni: download.windowsupdate.com
-  type: trojan
-  udp: true
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: cos.ap-shanghai.myqcloud.com
+    path: /assets/images/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇨🇳 台湾 06'
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
+  servername: cos.ap-shanghai.myqcloud.com
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: twdx6.baidupi.top
+    path: /assets/images/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇨🇳 台湾 07'
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: ''
+    path: /assets/images/
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 台湾 09'
+  name: '[I] 🇨🇳 台湾 08'
   port: 36100
   reality-opts:
     public-key: aclGz7LqHBqXqp-0HjIZSYJA6nqfz6NpeGLKvvIjomg

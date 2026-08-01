@@ -47,9 +47,23 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '[D] 🇫🇷 法国 06'
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: 194.180.174.69
+  sni: fr2.h2corp.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 07'
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇫🇷 法国 06'
+  name: '[D] 🇫🇷 法国 08'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -57,3 +71,55 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
+- name: '[D] 🇫🇷 法国 09'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 10'
+  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
+  port: 8443
+  server: 77.74.123.134
+  sni: grape-zet-turbo-nl.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 11'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- cipher: aes-128-gcm
+  name: '[G] 🇫🇷 法国 12'
+  password: vrdedryU1n7uvL9casBpyhaSEmqiAYXD
+  port: '8443'
+  server: Killian.athforce.ir
+  type: ss
+  udp: true
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 13'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA
+    short-id: '!!str f34818a561dfd1fe'
+  server: 45.192.2.51
+  servername: yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: c9b764b5-49cf-4400-9540-f56f7c09a87a
+  xudp: true
+- name: '[G] 🇫🇷 法国 14'
+  password: ''
+  port: '1088'
+  server: 144.91.111.48
+  skip-cert-verify: true
+  type: socks5
+  username: ''
