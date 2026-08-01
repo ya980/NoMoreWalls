@@ -87,63 +87,30 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - h3
-  auth: c2948c84-748f-47f6-bc7a-b949ef279f85
-  name: '[G] 🇺🇸 美国 10'
-  password: c2948c84-748f-47f6-bc7a-b949ef279f85
-  port: 443
-  server: 78.159.240.215
+  udp: true
+- name: '[G] 🇺🇸 美国 10'
+  password: BxceQaOe
+  port: 35966
+  server: 43.198.98.22
   skip-cert-verify: true
-  sni: quic.tyr-agentstvo.tech
-  type: hysteria2
-- multiplexing: MULTIPLEXING_LOW
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- alterId: '0'
+  cipher: auto
   name: '[G] 🇺🇸 美国 11'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: '[G] 🇺🇸 美国 12'
-  port: 9002
-  server: 156.146.59.7
-  skip-cert-verify: true
-  tls: true
-  type: http
+  network: ws
+  port: '24187'
+  server: 23.236.69.39
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 13'
-  password: amazonskr05
-  port: 443
-  server: 100.59.198.171
-  type: ss
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 14'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
-    short-id: '!!str d67ec5a8fc40ebea'
-  server: usa02.myxasecure.space
-  servername: usa02.myxasecure.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
+  ws-opts:
+    headers: {}
+    path: /
   xudp: true
-- name: '[G] 🇺🇸 美国 15'
-  password: None
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  name: '[G] 🇺🇸 美国 16'
+- name: '[G] 🇺🇸 美国 12'
   password: BxceQaOe
   port: 35966
   server: 43.198.98.22
@@ -151,59 +118,43 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- name: '[G] 🇺🇸 美国 17'
-  port: 9002
-  server: 156.146.59.23
+- multiplexing: MULTIPLEXING_LOW
+  name: '[G] 🇺🇸 美国 13'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- alpn:
+  - h3
+  down: ''
+  fingerprint: ''
+  name: '[G] 🇺🇸 美国 14'
+  obfs: ''
+  obfs-password: ''
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: '443'
+  server: 78.159.240.215
   skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 18'
-  password: None
-  port: 9002
-  server: 156.146.59.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[G] 🇺🇸 美国 19'
-  password: None
-  port: 9002
-  server: 156.146.59.43
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[G] 🇺🇸 美国 20'
+  sni: quic.tyr-agentstvo.tech
+  type: hysteria2
+  up: ''
+- name: '[G] 🇺🇸 美国 15'
   password: 1b609740-eec2-11ef-8543-f23c93136cb3
-  port: 443
+  port: 5443
   server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
   sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
   tls: true
   type: http
   username: 1b609740-eec2-11ef-8543-f23c93136cb3
-- encryption: none
-  name: '[G] 🇺🇸 美国 21'
-  network: ws
-  port: '2095'
-  server: openai.com
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /fp
-  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 22'
+  name: '[I] 🇺🇸 美国 16'
   password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
   server: 216.105.168.19
   type: ss
-- name: '[I] 🇺🇸 美国 23'
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   port: 80
   server: 18.238.109.28
@@ -214,13 +165,13 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: /GDkX4xpB/
-- name: '[I] 🇺🇸 美国 24'
+- name: '[I] 🇺🇸 美国 18'
   port: 10000
   server: 180.178.60.252
   tls: false
   type: vless
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: '[I] 🇺🇸 美国 25'
+- name: '[I] 🇺🇸 美国 19'
   network: ws
   port: 80
   server: 18.244.214.28
@@ -232,7 +183,7 @@ proxies:
       Host: duatoup3wk8q2.cloudfront.net
     path: '%2FGDkX4xpB%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 26'
+  name: '[I] 🇺🇸 美国 20'
   network: ws
   port: 80
   server: www.true.th
@@ -243,7 +194,7 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: '%2FGDkX4xpB%2F'
-- name: '[I] 🇺🇸 美国 27'
+- name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 80
   server: 151.101.56.7
@@ -254,7 +205,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 22'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -265,7 +216,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 29'
+- name: '[I] 🇺🇸 美国 23'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -276,7 +227,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 30'
+- name: '[I] 🇺🇸 美国 24'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -287,7 +238,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 31'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
   password: '!!str 521314'
   port: 443

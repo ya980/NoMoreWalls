@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 33'
+  name: '[D] 🌍 其它地区 35'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -15,7 +15,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 34'
+  name: '[D] 🌍 其它地区 36'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -29,7 +29,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 35'
+  name: '[D] 🌍 其它地区 37'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -43,7 +43,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 36'
+  name: '[D] 🌍 其它地区 38'
   network: ws
   port: '36801'
   server: cindy50.ceoiii.com
@@ -98,7 +98,7 @@ proxies:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 37'
+  name: '[E] 🌍 其它地区 39'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -200,6 +200,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+  udp: true
 - alterId: 2
   cipher: auto
   name: '[F] 🇭🇰 香港 10'
@@ -210,78 +211,63 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🌍 其它地区 41'
-  network: ws
-  password: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  port: 2096
-  server: jumao91.shop
-  skip-cert-verify: true
-  sni: jumao91.shop
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: jumao91.shop
-    path: /proxyip=45.207.156.255
-- cipher: aes-256-cfb
-  name: '[G] SE 02'
-  password: amazonskr05
-  port: 443
-  server: 13.62.231.217
-  type: ss
-- alterId: 2
-  cipher: auto
-  name: '[G] 🇸🇬 新加坡 05'
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 1
-  cipher: auto
+- cipher: aes-256-gcm
   name: '[G] 🇯🇵 日本 05'
-  port: 28787
-  server: qdiysly-g05.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+  password: 94571d62-a23f-364e-8065-2a740b342216
+  port: 473
+  server: 1.t.k.w.d.a.q.3.b.jp01-ae5.entry.v51124-1.qpon
+  type: ss
 - alterId: 1
   cipher: auto
   name: '[G] 🇯🇵 日本 06'
-  port: 28786
-  server: ou44bxs-g04.jp06-jz-vm0.entry.fr0528.art
-  skip-cert-verify: false
+  port: 28783
+  server: nexwrsq-g01.jp06-jz-vm0.entry.fr0528.art
+  servername: nexwrsq-g01.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: true
   tls: true
   type: vmess
-  udp: true
-  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
-- name: '[G] 🇭🇰 香港 11'
+  uuid: 94571d62-a23f-364e-8065-2a740b342216
+- cipher: aes-256-gcm
+  name: '[G] 🇯🇵 日本 07'
+  password: 94571d62-a23f-364e-8065-2a740b342216
+  port: 483
+  server: 7.t.p.z.r.a.q.3.b.jp02-ae5.entry.v51124-1.qpon
+  type: ss
+- cipher: aes-256-gcm
+  name: '[G] 🇷🇺 俄罗斯 01'
+  password: 94571d62-a23f-364e-8065-2a740b342216
+  port: 20030
+  server: 7.8.k.w.d.a.4.3.b.ru01-ae5.entry.v51124-1.qpon
+  type: ss
+- cipher: aes-256-gcm
+  name: '[G] 🇸🇬 新加坡 05'
+  password: 94571d62-a23f-364e-8065-2a740b342216
+  port: 20080
+  server: s.8.m.z.r.a.q.3.b.sg03-ae5.entry.v51124-1.qpon
+  type: ss
+- name: '[G] 🇺🇸 美国 10'
   password: BxceQaOe
-  port: 29443
-  server: 35.76.126.253
+  port: 35966
+  server: 43.198.98.22
   skip-cert-verify: true
-  sni: t.me/ripaojiedian
+  sni: t.me%252Fripaojiedian
   type: trojan
+- alterId: '0'
+  cipher: auto
+  name: '[G] 🇺🇸 美国 11'
+  network: ws
+  port: '24187'
+  server: 23.236.69.39
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
-- cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 13'
-  password: amazonskr05
-  port: 443
-  server: 100.59.198.171
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[G] SE 03'
-  password: amazonskr05
-  port: 443
-  server: 16.171.242.243
-  type: ss
-  udp: true
-- name: '[G] 🇺🇸 美国 16'
+  uuid: 12a8ee36-5936-4449-90bd-b5eac6db4c1d
+  ws-opts:
+    headers: {}
+    path: /
+  xudp: true
+- name: '[G] 🇺🇸 美国 12'
   password: BxceQaOe
   port: 35966
   server: 43.198.98.22
@@ -289,22 +275,36 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🇩🇪 德国 12'
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: '59924'
-  server: 130.61.33.205
+- cipher: aes-256-cfb
+  name: '[G] SE 02'
+  password: amazonskr05
+  port: 443
+  server: 13.61.5.244
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] SE 03'
+  password: amazonskr05
+  port: 443
+  server: 13.62.231.217
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] SE 04'
+  password: amazonskr05
+  port: 443
+  server: 13.51.233.2
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 22'
+  name: '[I] 🇺🇸 美国 16'
   password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
   server: 216.105.168.19
   type: ss
 - alterId: 0
   cipher: auto
-  name: '[I] 🇭🇰 香港 12'
+  name: '[I] 🇭🇰 香港 11'
   network: ws
   port: 443
   server: 6jdvarazgu3qqr6q.v.3dns.vip
@@ -327,7 +327,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇭🇰 香港 13'
+- name: '[I] 🇭🇰 香港 12'
   network: ws
   password: '521314'
   port: 443
@@ -338,7 +338,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 22'
   network: ws
   password: '521314'
   port: 443
@@ -349,7 +349,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇩🇪 德国 14'
+- name: '[I] 🇩🇪 德国 11'
   network: ws
   password: '521314'
   port: 443
@@ -360,7 +360,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 29'
+- name: '[I] 🇺🇸 美国 23'
   network: ws
   password: '521314'
   port: 443
@@ -371,7 +371,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🌍 其它地区 53'
+- name: '[I] 🌍 其它地区 45'
   network: ws
   password: '521314'
   port: 443
@@ -382,7 +382,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🌍 其它地区 54'
+- name: '[I] 🌍 其它地区 46'
   network: ws
   password: '521314'
   port: 443
@@ -393,7 +393,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 30'
+- name: '[I] 🇺🇸 美国 24'
   network: ws
   password: '521314'
   port: 443
@@ -404,7 +404,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 31'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
   password: '521314'
   port: 443
@@ -415,7 +415,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🌍 其它地区 55'
+- name: '[I] 🌍 其它地区 47'
   network: ws
   password: '521314'
   port: 443
@@ -426,7 +426,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 10'
+- name: '[I] 🇬🇧 英国 11'
   network: ws
   password: '521314'
   port: 443
@@ -437,7 +437,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 11'
+- name: '[I] 🇬🇧 英国 12'
   network: ws
   password: '521314'
   port: 443
@@ -448,7 +448,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 12'
+- name: '[I] 🇬🇧 英国 13'
   network: ws
   password: '521314'
   port: 443
@@ -460,7 +460,7 @@ proxies:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 57'
+  name: '[I] 🌍 其它地区 49'
   password: k1dBOmOB4oqi7Ump37a1bQ
   port: 8080
   server: 193.29.139.147
