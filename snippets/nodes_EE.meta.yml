@@ -1,5 +1,21 @@
 proxies:
-- name: '[I] EE 01'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] EE 01'
+  network: raw
+  port: '8442'
+  reality-opts:
+    public-key: TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg
+    short-id: '!!str a7f9106ba66e4796'
+  server: 217.16.25.61
+  servername: max.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
+  xudp: true
+- name: '[I] EE 02'
   network: ws
   password: '!!str 521314'
   port: 443
