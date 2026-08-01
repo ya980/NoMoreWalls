@@ -6,7 +6,15 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇸🇬 新加坡 02'
+- name: '[D] 🇸🇬 新加坡 02'
+  password: b7c9e2f1-4d83-42a1-9e5f-sg2026proxy
+  port: 8443
+  server: 209.74.81.28
+  skip-cert-verify: true
+  sni: 209.74.81.28
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 45744
@@ -14,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 03'
+- name: '[E] 🇸🇬 新加坡 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 32434
@@ -22,7 +30,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇸🇬 新加坡 04'
+- name: '[E] 🇸🇬 新加坡 05'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -30,29 +38,23 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- auth: 4861843a-3187-4885-83d9-2f69fed13fc9
-  name: '[G] 🇸🇬 新加坡 05'
-  password: 4861843a-3187-4885-83d9-2f69fed13fc9
-  port: 20008
-  server: hkt2.nekohub.xyz
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: hysteria2
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
+  encryption: none
   name: '[G] 🇸🇬 新加坡 06'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: 2a0ONLRiBeHJdr9qCruq5tPVf8_3c4fmZsg7YQorFSE
-    short-id: '!!str 04d59340'
-  server: 1sg001.344211.cc
-  servername: www.python.org
+  network: ws
+  port: '2096'
+  server: news.zoom.us
+  servername: primelinelk.me
   tls: true
   type: vless
   udp: true
-  uuid: 6b5a9259-c7de-45f0-b4de-e89db7850d0c
+  uuid: afbe9207-eb8f-4e39-898a-d78fb3eddd0a
+  ws-opts:
+    headers:
+      Host: primelinelk.me
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-J710F Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /xprolk-primeline
   xudp: true
 - cipher: chacha20-ietf-poly1305
   name: '[I] 🇸🇬 新加坡 07'
