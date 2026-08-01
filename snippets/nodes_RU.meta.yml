@@ -1,5 +1,22 @@
 proxies:
-- name: '[I] 🇷🇺 俄罗斯 01'
+- client-fingerprint: random
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-bridge
+  name: '[G] 🇷🇺 俄罗斯 01'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: r56dFeS4wmgOeIjjeh-LGPDR47N0PTy1E88P6ZaAAlc
+    short-id: '!!str ffabe9630d256ce6'
+  server: valley.wildgarden.digital
+  servername: valley.wildgarden.digital
+  tls: true
+  type: vless
+  udp: true
+  uuid: fe1119fe-6bcf-441c-bd1a-dbf90a9f7f54
+  xudp: true
+- name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 4100
   server: 194.87.161.60
