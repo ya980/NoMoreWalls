@@ -7,22 +7,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇺🇸 美国 02'
-  password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5
-  port: 9992
-  server: 104.36.86.93
-  skip-cert-verify: true
-  sni: 104.36.86.93
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 03'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 23.95.75.151
-  skip-cert-verify: false
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 04'
+- name: '[D] 🇺🇸 美国 03'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
@@ -32,21 +23,21 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 05'
+  name: '[D] 🇺🇸 美国 04'
   network: ws
-  port: '2095'
-  server: 64.186.253.113
+  port: '2082'
+  server: 69.63.204.31
   servername: ''
   tls: false
   type: vmess
-  uuid: 3df54c90-5cc4-4a70-98f7-52245f25230b
+  uuid: 542bd1db-f5e7-4c81-a08a-d95da62a914b
   ws-opts:
     headers:
-      Host: ''
-    path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
+      Host: www.bing.com
+    path: 542bd1db-f5e7-4c81-a08a-d95da62a914b-vm
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇺🇸 美国 05'
   network: ws
   port: '2095'
   server: 64.186.253.113
@@ -60,7 +51,7 @@ proxies:
     path: 3df54c90-5cc4-4a70-98f7-52245f25230b-vm
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 07'
+  name: '[D] 🇺🇸 美国 06'
   network: ws
   port: '8443'
   server: 172.64.80.1
@@ -72,14 +63,15 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: '[E] 🇺🇸 美国 08'
+- name: '[E] 🇺🇸 美国 07'
+  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 17005
-  server: 18.167.20.3
+  port: 12680
+  server: 18.163.100.58
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 09'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 49277
@@ -87,21 +79,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 10'
-  password: BxceQaOe
-  port: 38961
-  server: 16.162.122.119
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: '[F] 🇺🇸 美国 11'
-  network: tcp
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 12680
-  server: 18.163.100.58
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇺🇸 美国 12'
+- name: '[E] 🇺🇸 美国 09'
   network: tcp
   password: BxceQaOe
   port: 35966
@@ -109,127 +87,86 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
+- alpn:
+  - h3
+  auth: c2948c84-748f-47f6-bc7a-b949ef279f85
+  name: '[G] 🇺🇸 美国 10'
+  password: c2948c84-748f-47f6-bc7a-b949ef279f85
+  port: 443
+  server: 78.159.240.215
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  type: hysteria2
+- multiplexing: MULTIPLEXING_LOW
+  name: '[G] 🇺🇸 美国 11'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: '[G] 🇺🇸 美国 12'
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- cipher: aes-256-cfb
   name: '[G] 🇺🇸 美国 13'
-  network: xhttp
-  port: '48321'
+  password: amazonskr05
+  port: 443
+  server: 100.59.198.171
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 14'
+  network: tcp
+  port: 443
   reality-opts:
-    public-key: RGBVXEQN34uXkne7gVthzRIcpgj5km_gzA_8WiNiCwg
-    short-id: '!!str e76694f07d906139'
-  server: hayabusa.proxy.rlwy.net
-  servername: is1-ssl.mzstatic.com
+    public-key: OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw
+    short-id: '!!str d67ec5a8fc40ebea'
+  server: usa02.myxasecure.space
+  servername: usa02.myxasecure.space
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
   xudp: true
-- name: '[G] 🇺🇸 美国 14'
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
 - name: '[G] 🇺🇸 美国 15'
+  password: None
   port: 9002
-  server: 138.199.35.198
+  server: 138.199.35.213
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 16'
-  port: 9002
-  server: 138.199.35.218
+  username: null
+- client-fingerprint: chrome
+  name: '[G] 🇺🇸 美国 16'
+  password: BxceQaOe
+  port: 35966
+  server: 43.198.98.22
   skip-cert-verify: true
-  tls: true
-  type: http
+  sni: t.me/ripaojiedian
+  type: trojan
   udp: true
 - name: '[G] 🇺🇸 美国 17'
   port: 9002
-  server: 138.199.35.209
+  server: 156.146.59.23
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[G] 🇺🇸 美国 18'
+  password: None
   port: 9002
-  server: 138.199.35.220
+  server: 156.146.59.21
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
+  username: null
 - name: '[G] 🇺🇸 美国 19'
-  password: None
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[G] 🇺🇸 美国 20'
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 21'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 22'
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 23'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 24'
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[G] 🇺🇸 美国 25'
-  port: 9002
-  server: 138.199.35.216
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 26'
-  port: 9002
-  server: 156.146.59.16
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 27'
-  password: None
-  port: 9002
-  server: 156.146.59.41
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[G] 🇺🇸 美国 28'
   password: None
   port: 9002
   server: 156.146.59.43
@@ -237,70 +174,36 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[G] 🇺🇸 美国 29'
-  password: None
-  port: 9002
-  server: 156.146.59.50
-  skip-cert-verify: true
+- name: '[G] 🇺🇸 美国 20'
+  password: 1b609740-eec2-11ef-8543-f23c93136cb3
+  port: 443
+  server: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
+  sni: 9420e530-te8ao0-tfnl0i-au6.fmtdc1.sghuawei.com
   tls: true
   type: http
-  username: null
-- name: '[G] 🇺🇸 美国 30'
-  port: 9002
-  server: 156.146.59.25
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 31'
-  port: 9002
-  server: 156.146.59.23
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇺🇸 美国 32'
-  network: xhttp
-  port: '31282'
-  reality-opts:
-    public-key: 0-u-Op2JIlluX0Jko2H5Yt-VoIxJQgtWeTH7kbSZxig
-    short-id: '!!str 36752e5ed183e9'
-  server: reseau.proxy.rlwy.net
-  servername: is1-ssl.mzstatic.com
-  tls: true
+  username: 1b609740-eec2-11ef-8543-f23c93136cb3
+- encryption: none
+  name: '[G] 🇺🇸 美国 21'
+  network: ws
+  port: '2095'
+  server: openai.com
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 33'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: dedus.skorostnet.space
-  servername: dedus.skorostnet.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.cnmfangbinxing-p.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /fp
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 34'
+  name: '[I] 🇺🇸 美国 22'
   password: Yq42Vx56a2SghCnLtOyOCF
   port: 443
   server: 216.105.168.19
   type: ss
-- name: '[I] 🇺🇸 美国 35'
+- name: '[I] 🇺🇸 美国 23'
   network: ws
   port: 80
   server: 18.238.109.28
@@ -311,13 +214,13 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: /GDkX4xpB/
-- name: '[I] 🇺🇸 美国 36'
+- name: '[I] 🇺🇸 美国 24'
   port: 10000
   server: 180.178.60.252
   tls: false
   type: vless
   uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-- name: '[I] 🇺🇸 美国 37'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
   port: 80
   server: 18.244.214.28
@@ -329,7 +232,7 @@ proxies:
       Host: duatoup3wk8q2.cloudfront.net
     path: '%2FGDkX4xpB%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 38'
+  name: '[I] 🇺🇸 美国 26'
   network: ws
   port: 80
   server: www.true.th
@@ -340,7 +243,7 @@ proxies:
     headers:
       Host: duatoup3wk8q2.cloudfront.net
     path: '%2FGDkX4xpB%2F'
-- name: '[I] 🇺🇸 美国 39'
+- name: '[I] 🇺🇸 美国 27'
   network: ws
   port: 80
   server: 151.101.56.7
@@ -351,7 +254,7 @@ proxies:
     headers:
       Host: BankMelat.glObal.ssl.faStly.nEt.
     path: /
-- name: '[I] 🇺🇸 美国 40'
+- name: '[I] 🇺🇸 美国 28'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -362,7 +265,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 41'
+- name: '[I] 🇺🇸 美国 29'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -373,7 +276,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 42'
+- name: '[I] 🇺🇸 美国 30'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -384,7 +287,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇺🇸 美国 43'
+- name: '[I] 🇺🇸 美国 31'
   network: ws
   password: '!!str 521314'
   port: 443

@@ -4,30 +4,10 @@ proxies:
   port: 8443
   server: 209.74.81.28
   skip-cert-verify: true
+  sni: 209.74.81.28
   tls: false
   type: hysteria2
 - name: '[E] 🇸🇬 新加坡 02'
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 6357
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[E] 🇸🇬 新加坡 03'
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 48738
-  server: 18.167.20.3
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[E] 🇸🇬 新加坡 04'
-  password: BxceQaOe
-  port: 32434
-  server: 43.198.187.59
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '[F] 🇸🇬 新加坡 05'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 45744
@@ -35,14 +15,15 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 06'
+- name: '[E] 🇸🇬 新加坡 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 32434
   server: 18.166.178.12
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 07'
+- name: '[E] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -50,24 +31,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - h2%2Chttp%2F1.1
-  client-fingerprint: qq
-  name: '[G] 🇸🇬 新加坡 08'
-  network: xhttp
-  port: 443
-  server: sg.ethicsdinnerpave.online
-  servername: sg.ethicsdinnerpave.online
-  tls: true
-  type: vless
+- alterId: 2
+  cipher: auto
+  name: '[G] 🇸🇬 新加坡 05'
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  uuid: db2072f3-728b-4381-a9ec-51629decc2b8
-  xhttp-opts:
-    host: sg.ethicsdinnerpave.online
-    mode: auto
-    path: /assets/build/_app/immutable/chunks/stream-one/
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇸🇬 新加坡 09'
+  name: '[I] 🇸🇬 新加坡 06'
   password: i8asar9lrxhavh38
   port: 51435
   server: 178.128.86.181

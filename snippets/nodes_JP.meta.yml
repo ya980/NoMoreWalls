@@ -8,27 +8,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇯🇵 日本 02'
-  password: BxceQaOe
-  port: 49811
-  server: 43.198.187.59
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '[E] 🇯🇵 日本 03'
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 38937
-  server: 3.114.9.167
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[E] 🇯🇵 日本 04'
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 40138
-  server: 3.114.9.167
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -36,22 +15,44 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 06'
+- name: '[E] 🇯🇵 日本 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
   server: 18.163.100.58
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 07'
+- name: '[E] 🇯🇵 日本 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
   server: 18.166.178.12
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 1
+  cipher: auto
+  name: '[G] 🇯🇵 日本 05'
+  port: 28787
+  server: qdiysly-g05.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 2ce005b4-e57a-3670-be88-60eeeb078bb7
+- alterId: 1
+  cipher: auto
+  name: '[G] 🇯🇵 日本 06'
+  port: 28786
+  server: ou44bxs-g04.jp06-jz-vm0.entry.fr0528.art
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d687b024-a5cf-3433-8d06-1c99e2e28821
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 07'
   network: grpc
   port: 443
   reality-opts:

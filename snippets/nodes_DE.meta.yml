@@ -75,37 +75,63 @@ proxies:
   tls: false
   type: hysteria2
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: '[G] 🇩🇪 德国 10'
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- alpn:
   - h2
-  client-fingerprint: qq
-  encryption: none
-  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-  name: '[G] 🇩🇪 德国 11'
-  network: xhttp
-  port: '443'
-  server: 167.82.76.31
-  servername: speedtest.net
+  client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 09'
+  network: ws
+  port: 443
+  server: 104.26.12.41
+  servername: pinalo.zenvorix.ir
   tls: true
   type: vless
   udp: true
-  uuid: 8ba5361f-2d12-40fe-9f33-eca6847f1475
-  xhttp-opts:
-    host: wizardali.global.ssl.fastly.net
-    mode: packet-up
-    path: /mammadalifsx
+  uuid: 245bb424-b186-4738-8f42-bdbde719d4c9
+  ws-opts:
+    headers:
+      Host: pinalo.zenvorix.ir
+    path: /nova-geo-psiphon-de
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-direct
+  name: '[G] 🇩🇪 德国 10'
+  network: grpc
+  port: '2053'
+  reality-opts:
+    public-key: WOf2IaQzzj3Kx0uIVKMu0njVKXyVJN-KDQ9ZFtOIcis
+    short-id: '!!str d6381024c55afb14'
+  server: 217.199.254.135
+  servername: cam-msk-3.videomonitor.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0a1afeba-642f-11f1-9ca8-da0cb7a547ac
   xudp: true
-- name: '[I] 🇩🇪 德国 12'
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇩🇪 德国 12'
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: '59924'
+  server: 130.61.33.205
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: '[G] 🇩🇪 德国 13'
+  network: xhttp
+  port: '8443'
+  server: 162.159.38.119
+  servername: argentinavsspain.dpdns.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: argentinavsspain.dpdns.org
+    mode: auto
+    path: /
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: '[I] 🇩🇪 德国 14'
   network: ws
   password: '!!str 521314'
   port: 443

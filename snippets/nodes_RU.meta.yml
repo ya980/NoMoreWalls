@@ -1,5 +1,19 @@
 proxies:
-- name: '[I] 🇷🇺 俄罗斯 01'
+- name: '[G] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: '8880'
+  server: 8.47.69.0
+  type: vless
+  udp: true
+  uuid: fd22ad82-2d89-4338-b72c-5092ae699c7d
+  ws-opts:
+    headers:
+      Host: rutube.ummapeople.online
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
+    path: /rutube
+  xudp: true
+- name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
   port: 4100
   server: 194.87.161.60
