@@ -3,6 +3,7 @@ proxies:
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
+  skip-cert-verify: false
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
@@ -32,14 +33,31 @@ proxies:
   sni: wopa9.api3-max.ru
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
+- http-opts:
+    headers:
+      Host:
+      - www.icloud.com
+    method: GET
+    path:
+    - /
   name: '[G] 🇬🇧 英国 05'
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 129.151.64.234
-  type: ss
+  network: http
+  port: 4568
+  server: s1.pro-vip-cnavippanel.xyz
+  tls: false
+  type: vless
   udp: true
-- name: '[I] 🇬🇧 英国 06'
+  uuid: 4ca31b44-9188-4cc7-adc6-f940888e5282
+- encryption: none
+  name: '[G] 🇬🇧 英国 06'
+  network: tcp
+  port: '31013'
+  server: fin.sillyvpn.cc
+  type: vless
+  udp: true
+  uuid: ddd9a320-9e93-437f-a5b6-6bf9647334a9
+  xudp: true
+- name: '[I] 🇬🇧 英国 07'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -50,7 +68,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 07'
+- name: '[I] 🇬🇧 英国 08'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -61,7 +79,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 08'
+- name: '[I] 🇬🇧 英国 09'
   network: ws
   password: '!!str 521314'
   port: 443

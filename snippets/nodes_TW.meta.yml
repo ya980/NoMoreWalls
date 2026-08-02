@@ -2,8 +2,9 @@ proxies:
 - name: '[D] 🇨🇳 台湾 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: vpn-tw-002.fastervpn.world
+  server: 160.187.100.109
   skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
 - name: '[D] 🇨🇳 台湾 02'
@@ -11,64 +12,12 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇨🇳 台湾 03'
-  network: ws
-  port: '2096'
-  server: twdx6.baidupi.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: cos.ap-shanghai.myqcloud.com
-    path: /assets/images/
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇨🇳 台湾 04'
-  network: tcp
-  port: '35034'
-  server: 165.154.195.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- client-fingerprint: chrome
-  name: '[G] 🇨🇳 台湾 05'
-  network: ws
-  port: 443
-  server: 118.163.34.31
-  servername: sni.ehb.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: '[G] 🇨🇳 台湾 06'
-  network: ws
-  port: 443
-  server: 211.75.210.34
-  servername: sni.ehb.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 台湾 07'
+  name: '[I] 🇨🇳 台湾 03'
   port: 36100
   reality-opts:
     public-key: aclGz7LqHBqXqp-0HjIZSYJA6nqfz6NpeGLKvvIjomg

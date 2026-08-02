@@ -1,20 +1,19 @@
 proxies:
-- client-fingerprint: random
+- client-fingerprint: chrome
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-bridge
+  flow: xtls-rprx-vision
   name: '[G] 🇷🇺 俄罗斯 01'
-  network: grpc
-  port: '443'
+  network: tcp
+  port: 993
   reality-opts:
-    public-key: r56dFeS4wmgOeIjjeh-LGPDR47N0PTy1E88P6ZaAAlc
-    short-id: '!!str ffabe9630d256ce6'
-  server: valley.wildgarden.digital
-  servername: valley.wildgarden.digital
+    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
+  server: 88.218.44.4
+  servername: download.nvidia.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
-  uuid: fe1119fe-6bcf-441c-bd1a-dbf90a9f7f54
+  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
   xudp: true
 - name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
