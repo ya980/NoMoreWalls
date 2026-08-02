@@ -12,39 +12,11 @@ proxies:
   tls: false
   type: hysteria2
   up: ''
-- name: '[G] 🇰🇷 韩国 02'
-  port: 50161
-  server: 168.107.13.220
+- name: '[D] 🇰🇷 韩国 02'
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
-  type: socks5
-  udp: true
-- client-fingerprint: chrome
-  name: '[G] 🇰🇷 韩国 03'
-  network: ws
-  port: 443
-  server: 211.49.57.179
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- client-fingerprint: chrome
-  name: '[G] 🇰🇷 韩国 04'
-  network: ws
-  port: 28973
-  server: 218.155.85.44
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
+  type: hysteria2

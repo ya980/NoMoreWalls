@@ -1,24 +1,30 @@
 proxies:
-- name: '[C] 🇩🇪 德国 01'
+- down: ''
+  fingerprint: ''
+  name: '[C] 🇩🇪 德国 01'
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: HChdbj6duc
-  port: 443
+  port: '443'
   server: 91.107.178.22
   skip-cert-verify: true
   sni: www.refersion.com
   tls: false
   type: hysteria2
-- name: '[C] 🇩🇪 德国 02'
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '[C] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
   password: hSKnm6Byp7
-  port: 443
+  port: '443'
   server: 91.107.178.22
   skip-cert-verify: true
   sni: www.refersion.com
   tls: false
   type: hysteria2
+  up: ''
 - name: '[D] 🇩🇪 德国 03'
   password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
   port: 8443
@@ -26,85 +32,41 @@ proxies:
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-direct
+- encryption: none
+  http-opts:
+    headers: {}
+    path:
+    - /
   name: '[G] 🇩🇪 德国 04'
-  network: grpc
-  port: 2087
-  reality-opts:
-    public-key: LBsG9yP94EfV0y0hUGiraFdedsHbp4JjDp3XppkTnyQ
-    short-id: '!!str dea8edfaa6fef634'
-  server: de-gw.videomonitor.cloud
-  servername: de-gw.videomonitor.cloud
-  tls: true
+  network: http
+  port: '2214'
+  server: best.athforce.ir
   type: vless
   udp: true
-  uuid: f3a1017d-1ebf-11f1-8cae-c3845d39d2de
+  uuid: 0671a383-81d9-40d4-84f4-0e44ff30c2ca
+  xudp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
   name: '[G] 🇩🇪 德国 05'
   network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: '[G] 🇩🇪 德国 06'
+  network: grpc
   password: 32b2m2w7hsdd93z7
   port: 443
   server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: true
+  skip-cert-verify: false
+  sni: 31.76.11.46.cdn-one.org
   type: trojan
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 06'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: 159.195.139.217
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 48267e65-8bf0-4046-923f-4ee967009344
-- name: '[G] 🇩🇪 德国 07'
-  network: ws
-  port: 2086
-  server: 104.24.65.202
-  tls: false
-  type: vless
-  udp: true
-  uuid: 7a629a11-b75a-4889-957d-dc0987a73a19
-  ws-opts:
-    headers:
-      Host: jimifree.jimshofree1.workers.dev
-    path: /eyJqdW5rIjoieVMzbmVFWlBsd3prIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19?ed
-- client-fingerprint: chrome
-  name: '[G] 🇩🇪 德国 08'
-  network: ws
-  port: 443
-  server: 172.67.67.19
-  servername: sni.ehb.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-  ws-opts:
-    headers:
-      Host: sni.ehb.cc.cd
-    path: /proxyip=ProxyIP.CMLiussss.net?uuid=ef6c9625-62de-4b9d-b7e2-0d4a9f67a9b2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  down: '1000'
-  name: '[G] 🇩🇪 德国 09'
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: '500'
-- name: '[I] 🇩🇪 德国 10'
+- name: '[I] 🇩🇪 德国 07'
   network: ws
   password: '!!str 521314'
   port: 443
