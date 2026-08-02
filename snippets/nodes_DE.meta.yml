@@ -1,53 +1,34 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: '[C] 🇩🇪 德国 01'
+- name: '[C] 🇩🇪 德国 01'
   obfs: salamander
   obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: HChdbj6duc
-  port: '443'
+  password: jeLq05gFPe
+  port: 443
   server: 91.107.178.22
   skip-cert-verify: true
   sni: www.refersion.com
   tls: false
   type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '[C] 🇩🇪 德国 02'
-  obfs: salamander
-  obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak
-  password: hSKnm6Byp7
-  port: '443'
-  server: 91.107.178.22
-  skip-cert-verify: true
-  sni: www.refersion.com
-  tls: false
-  type: hysteria2
-  up: ''
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 02'
   password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
   port: 8443
   server: 213.202.219.29
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- encryption: none
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[G] 🇩🇪 德国 04'
-  network: http
-  port: '2214'
-  server: best.athforce.ir
-  type: vless
-  udp: true
-  uuid: 0671a383-81d9-40d4-84f4-0e44ff30c2ca
-  xudp: true
 - grpc-opts:
     grpc-service-name: /50779/NQmry9z8yR
-  name: '[G] 🇩🇪 德国 05'
+  name: '[G] 🇩🇪 德国 03'
+  network: grpc
+  password: 581e14a5fcc14107b9326cc54f047891
+  port: 443
+  server: 31.76.11.46.cdn-one.org
+  skip-cert-verify: true
+  sni: 31.76.11.46.cdn-one.org
+  type: trojan
+- grpc-opts:
+    grpc-service-name: /50779/NQmry9z8yR
+  name: '[G] 🇩🇪 德国 04'
   network: grpc
   password: 581e14a5fcc14107b9326cc54f047891
   port: 443
@@ -55,18 +36,7 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: '[G] 🇩🇪 德国 06'
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
-- name: '[I] 🇩🇪 德国 07'
+- name: '[I] 🇩🇪 德国 05'
   network: ws
   password: '!!str 521314'
   port: 443
