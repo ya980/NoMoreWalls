@@ -9,9 +9,25 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: webpusiko-grpc
+  name: '[G] SE 02'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ
+    short-id: '!!str 0858af97f4e7324d'
+  server: 109.120.156.136
+  servername: web.pusiko.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: 504d0b6e-400d-45ec-b2d0-1c79006ebc16
 - client-fingerprint: chrome
   encryption: none
-  name: '[G] SE 02'
+  name: '[G] SE 03'
   network: xhttp
   port: '443'
   reality-opts:
@@ -27,34 +43,10 @@ proxies:
     mode: auto
     path: /
   xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  name: '[G] SE 03'
-  network: xhttp
-  port: '443'
-  server: sw1.tunnelx.space
-  servername: sw1.tunnelx.space
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2
-  xhttp-opts:
-    mode: auto
-    path: /assets
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
+- cipher: aes-256-cfb
   name: '[G] SE 04'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SUTv6bVuL6TnWcPGf03-1QFmJ8Q_ISoA1WIajvct32M
-    short-id: '!!str '
-  server: 207.2.120.229
-  servername: sw-new.boxypn.com
-  tls: true
-  type: vless
+  password: amazonskr05
+  port: 443
+  server: 16.171.111.98
+  type: ss
   udp: true
-  uuid: 6a248b82-ad33-4a8f-8ef7-cdd0ac26c261
-  xudp: true
