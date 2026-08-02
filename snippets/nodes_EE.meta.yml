@@ -4,7 +4,7 @@ proxies:
   client-fingerprint: firefox
   name: '[G] EE 01'
   network: ws
-  port: 443
+  port: '443'
   server: 87.121.86.131.tyr-agentstvo.tech
   servername: 87.121.86.131.tyr-agentstvo.tech
   tls: true
@@ -14,22 +14,11 @@ proxies:
   ws-opts:
     headers:
       Host: 87.121.86.131.tyr-agentstvo.tech
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
     path: /websocket?ed=2560
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[G] EE 02'
-  port: 8442
-  reality-opts:
-    public-key: TRB-7JE8MNZDBFSduYp9syU1AdpLez1MJ7dPrHeGFwg
-    short-id: '!!str a7f9106ba66e4796'
-  server: 217sub.ghost-lan.com
-  servername: max.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 873f1046-0210-4b2e-a0ec-dc1826886071
-- name: '[I] EE 03'
+  xudp: true
+- name: '[I] EE 02'
   network: ws
   password: '!!str 521314'
   port: 443
