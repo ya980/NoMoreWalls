@@ -40,6 +40,27 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 05'
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: 194.180.174.69
+  sni: fr2.h2corp.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 06'
+  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
+  port: 443
+  server: fr2.h2corp.org
+  sni: fr2.h2corp.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 07'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 08'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -49,7 +70,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇫🇷 法国 06'
+  name: '[D] 🇫🇷 法国 09'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -57,17 +78,43 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
+- name: '[D] 🇫🇷 法国 10'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 08'
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 77.74.123.134
-  sni: grape-zet-turbo-nl.yyuyy.com
+- name: '[D] 🇫🇷 法国 11'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  sni: 91.196.32.163
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  name: '[G] 🇫🇷 法国 12'
+  network: xhttp
+  port: 443
+  reality-opts:
+    public-key: 3DYkxUg9fBA6cONioJOPrsklcMQEImEsurR6air4swo
+  server: 104.245.242.7
+  servername: cdn.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e3e876aa-589e-1dcb-e55f-6ff56d8d80f4
+  xhttp-opts:
+    host: cdn.steamstatic.com
+    mode: auto
+    path: /
+- encryption: none
+  name: '[G] 🇫🇷 法国 13'
+  network: tcp
+  port: '22223'
+  server: 15.237.234.170
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true

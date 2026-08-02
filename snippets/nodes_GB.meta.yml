@@ -1,21 +1,29 @@
 proxies:
 - name: '[D] 🇬🇧 英国 01'
-  password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
-  server: popa.leontunel.ru
+  server: wopa5.api3-max.ru
   skip-cert-verify: false
-  sni: popa.leontunel.ru
   tls: false
   type: hysteria2
 - name: '[D] 🇬🇧 英国 02'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa5.api3-max.ru
+  skip-cert-verify: false
+  sni: wopa5.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 03'
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
+  sni: popa.leontunel.ru
   tls: false
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇬🇧 英国 03'
+  name: '[D] 🇬🇧 英国 04'
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
@@ -23,24 +31,77 @@ proxies:
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 04'
+- name: '[D] 🇬🇧 英国 05'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa3.api3-max.ru
+  sni: wopa3.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 06'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa7.api3-max.ru
+  sni: wopa7.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 07'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa9.api3-max.ru
   skip-cert-verify: false
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇬🇧 英国 05'
+- name: '[D] 🇬🇧 英国 08'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa9.api3-max.ru
   sni: wopa9.api3-max.ru
   tls: false
   type: hysteria2
-- name: '[I] 🇬🇧 英国 06'
+- client-fingerprint: chrome
+  name: '[G] 🇬🇧 英国 09'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-it.emrata.top
+  servername: pro-it.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇬🇧 英国 10'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: 31.76.123.32
+  servername: pro-fi.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4bce450e-0a37-4fdd-8c9e-ba6a5e4730aa
+  xudp: true
+- client-fingerprint: firefox
+  name: '[G] 🇬🇧 英国 11'
+  network: tcp
+  port: '22012'
+  reality-opts:
+    public-key: OncWhxWwzrKOFH21JT9WxcenacQuc7ZmuQy_rZFJ8xg
+    short-id: '!!str c6e19c434dc87df7'
+  server: 168.119.156.101
+  servername: login.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: de5dcb9e-6a72-45a2-8d3d-de00e5431426
+  xudp: true
+- name: '[I] 🇬🇧 英国 12'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -51,7 +112,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 07'
+- name: '[I] 🇬🇧 英国 13'
   network: ws
   password: '!!str 521314'
   port: 443
@@ -62,7 +123,7 @@ proxies:
     headers:
       Host: hhtj.hhllfly.kdns.fr
     path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
-- name: '[I] 🇬🇧 英国 08'
+- name: '[I] 🇬🇧 英国 14'
   network: ws
   password: '!!str 521314'
   port: 443

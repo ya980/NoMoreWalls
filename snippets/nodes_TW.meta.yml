@@ -2,9 +2,8 @@ proxies:
 - name: '[D] 🇨🇳 台湾 01'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 160.187.100.109
+  server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
 - name: '[D] 🇨🇳 台湾 02'
@@ -15,9 +14,45 @@ proxies:
   sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇨🇳 台湾 03'
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: cos.ap-shanghai.myqcloud.com
+    path: /assets/images/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇨🇳 台湾 04'
+  network: tcp
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+- client-fingerprint: chrome
+  name: '[G] 🇨🇳 台湾 05'
+  port: 21299
+  reality-opts:
+    public-key: S-g0oP36DShii1uPOnZDSEhp_wQghX6h68PgMivOmD4
+  server: tw.lshan.eu.org
+  servername: www.icloud.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4dadf31a-4fab-4084-b24f-b2213352ef3a
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 台湾 03'
+  name: '[I] 🇨🇳 台湾 06'
   port: 36100
   reality-opts:
     public-key: aclGz7LqHBqXqp-0HjIZSYJA6nqfz6NpeGLKvvIjomg

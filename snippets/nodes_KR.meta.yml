@@ -4,7 +4,6 @@ proxies:
   port: 20801
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
-  sni: ''
   tls: false
   type: hysteria2
 - name: '[D] 🇰🇷 韩国 02'
@@ -15,19 +14,9 @@ proxies:
   sni: node-degame.bangboonet.ru
   tls: false
   type: hysteria2
-- auth: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  down: 1000
-  name: '[G] 🇰🇷 韩国 03'
-  password: b111a7bb-7be3-4d0b-9e7b-ea8f33d03e17
-  port: 18385
-  server: kr1.ktmhyld.com
-  skip-cert-verify: true
-  sni: kr1.ktmhyld.com
-  type: hysteria2
-  up: 1000
 - down: ''
   fingerprint: ''
-  name: '[G] 🇰🇷 韩国 04'
+  name: '[D] 🇰🇷 韩国 03'
   obfs: ''
   obfs-password: ''
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
@@ -35,5 +24,53 @@ proxies:
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
   sni: 127.0.0.1
+  tls: false
   type: hysteria2
   up: ''
+- name: '[D] 🇰🇷 韩国 04'
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: hg1.yuanbaojc.site
+  tls: false
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: '[G] 🇰🇷 韩国 05'
+  obfs: ''
+  obfs-password: ''
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: '20801'
+  server: 222.238.227.54
+  skip-cert-verify: true
+  sni: ''
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '[G] 🇰🇷 韩国 06'
+  obfs: ''
+  obfs-password: ''
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: '20801'
+  server: 222.238.227.54
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇰🇷 韩国 08'
+  network: tcp
+  port: '39215'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v2.cdn.yye837u1f6xg.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
