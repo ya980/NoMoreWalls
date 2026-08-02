@@ -7,13 +7,20 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇬🇧 英国 02'
+  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
+  port: 443
+  server: wopa5.api3-max.ru
+  sni: wopa5.api3-max.ru
+  tls: false
+  type: hysteria2
+- name: '[D] 🇬🇧 英国 03'
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 03'
+- name: '[D] 🇬🇧 英国 04'
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
@@ -21,7 +28,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇬🇧 英国 04'
+  name: '[D] 🇬🇧 英国 05'
   password: 68b4b16e-2759-47a4-8a69-33118edf5ce6
   port: 443
   server: popa.leontunel.ru
@@ -29,7 +36,7 @@ proxies:
   sni: popa.leontunel.ru
   tls: false
   type: hysteria2
-- name: '[D] 🇬🇧 英国 05'
+- name: '[D] 🇬🇧 英国 06'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa9.api3-max.ru
@@ -39,39 +46,13 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇬🇧 英国 06'
+  name: '[D] 🇬🇧 英国 07'
   password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
   port: 443
   server: wopa9.api3-max.ru
   sni: wopa9.api3-max.ru
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: random
-  name: '[G] 🇬🇧 英国 07'
-  network: xhttp
-  port: 443
-  server: 188.72.103.3
-  servername: g43g324.whit3.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6dd3c737-9755-4c2b-9d63-911f6d6b6e6b
-  xhttp-opts:
-    host: g43g324.whit3.net
-    mode: packet-up
-    path: /api/v1/
-    seq-key: id
-    seq-placement: query
-    uplink-data-key: X-Ver
-    uplink-http-method: GET
-    x-padding-bytes: 100-1000
-    x-padding-header: api_v1
-    x-padding-key: xss
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
 - name: '[I] 🇬🇧 英国 08'
   network: ws
   password: '!!str 521314'
