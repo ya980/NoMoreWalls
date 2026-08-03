@@ -1,5 +1,6 @@
 proxies:
-- name: '[C] 🇰🇷 韩国 01'
+- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
+  name: '[C] 🇰🇷 韩国 01'
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: hg1.yuanbaojc.site
@@ -14,19 +15,14 @@ proxies:
   sni: node-degame.bangboonet.ru
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇰🇷 韩国 03'
-  obfs: ''
-  obfs-password: ''
+- name: '[D] 🇰🇷 韩国 03'
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: '20801'
+  port: 20801
   server: hg1.yuanbaojc.site
   skip-cert-verify: true
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-  up: ''
 - name: '[D] 🇰🇷 韩国 04'
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
@@ -35,9 +31,30 @@ proxies:
   sni: hg1.yuanbaojc.site
   tls: false
   type: hysteria2
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[G] 🇰🇷 韩国 05'
+  network: tcp
+  port: 8899
+  reality-opts:
+    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
+    short-id: '!!str 11d27eb4'
+  server: 152.67.211.233
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: d95e62f8-b961-4362-bb07-e1e421b02274
+- name: '[G] 🇰🇷 韩国 06'
+  password: ''
+  port: '1080'
+  server: 43.164.136.189
+  skip-cert-verify: true
+  type: socks5
+  username: ''
 - down: ''
   fingerprint: ''
-  name: '[G] 🇰🇷 韩国 05'
+  name: '[G] 🇰🇷 韩国 08'
   obfs: ''
   obfs-password: ''
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
@@ -47,30 +64,3 @@ proxies:
   sni: ''
   type: hysteria2
   up: ''
-- down: ''
-  fingerprint: ''
-  name: '[G] 🇰🇷 韩国 06'
-  obfs: ''
-  obfs-password: ''
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: '20801'
-  server: 222.238.227.54
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[G] 🇰🇷 韩国 08'
-  network: tcp
-  port: '39215'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: v2.cdn.yye837u1f6xg.jjxdns.net
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
-  xudp: true

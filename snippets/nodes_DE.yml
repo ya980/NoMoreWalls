@@ -1,12 +1,37 @@
 proxies:
-- name: '[I] 🇩🇪 德国 08'
-  network: ws
-  password: '!!str 521314'
-  port: 443
-  server: 45.80.111.27
-  sni: hhtj.hhllfly.kdns.fr
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 03'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
   type: trojan
-  ws-opts:
-    headers:
-      Host: hhtj.hhllfly.kdns.fr
-    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'
+  udp: true
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 04'
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: Hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: de.catxstar.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[G] 🇩🇪 德国 05'
+  network: tcp
+  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
+  port: '20041'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hkdcrtc-e.catcat321.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇩🇪 德国 07'
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: '59924'
+  server: 158.180.29.33
+  type: ss
+  udp: true
