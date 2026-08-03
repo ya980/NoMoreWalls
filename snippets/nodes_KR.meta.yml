@@ -1,6 +1,5 @@
 proxies:
-- auth: 300f8c21-6341-4503-a5db-c13d331c63c8
-  name: '[C] 🇰🇷 韩国 01'
+- name: '[C] 🇰🇷 韩国 01'
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
   server: hg1.yuanbaojc.site
@@ -8,17 +7,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇰🇷 韩国 02'
-  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
-  port: 443
-  server: node-degame.bangboonet.ru
-  skip-cert-verify: false
-  sni: node-degame.bangboonet.ru
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: 222.238.227.54
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[D] 🇰🇷 韩国 03'
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
-  server: hg1.yuanbaojc.site
+  server: 222.238.227.54
   skip-cert-verify: true
   sni: 127.0.0.1
   tls: false
@@ -26,41 +24,46 @@ proxies:
 - name: '[D] 🇰🇷 韩国 04'
   password: 300f8c21-6341-4503-a5db-c13d331c63c8
   port: 20801
-  server: hg1.yuanbaojc.site
-  skip-cert-verify: true
-  sni: hg1.yuanbaojc.site
-  tls: false
-  type: hysteria2
-- client-fingerprint: ios
-  flow: xtls-rprx-vision
-  name: '[G] 🇰🇷 韩国 05'
-  network: tcp
-  port: 8899
-  reality-opts:
-    public-key: B7eELUOn0QM6fKSrr5v_AE4JPHQIxvb9-xX3WLqnLAk
-    short-id: '!!str 11d27eb4'
-  server: 152.67.211.233
-  servername: www.lovelive-anime.jp
-  tls: true
-  type: vless
-  udp: true
-  uuid: d95e62f8-b961-4362-bb07-e1e421b02274
-- name: '[G] 🇰🇷 韩国 06'
-  password: ''
-  port: '1080'
-  server: 43.164.136.189
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- down: ''
-  fingerprint: ''
-  name: '[G] 🇰🇷 韩国 08'
-  obfs: ''
-  obfs-password: ''
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: '20801'
   server: 222.238.227.54
   skip-cert-verify: true
-  sni: ''
+  sni: 222.238.227.54
+  tls: false
   type: hysteria2
-  up: ''
+- name: '[D] 🇰🇷 韩国 05'
+  password: 300f8c21-6341-4503-a5db-c13d331c63c8
+  port: 20801
+  server: hg1.yuanbaojc.site
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  name: '[G] 🇰🇷 韩国 06'
+  network: tcp
+  password: ND91608427
+  port: '443'
+  server: saving-octopus.rooster465.autos
+  skip-cert-verify: true
+  sni: saving-octopus.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[G] 🇰🇷 韩国 07'
+  network: tcp
+  password: ND91608427
+  port: '443'
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-malamute.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[G] 🇰🇷 韩国 08'
+  network: tcp
+  password: ND91608427
+  port: '443'
+  server: moved-meerkat.rooster465.autos
+  skip-cert-verify: true
+  sni: moved-meerkat.rooster465.autos
+  type: trojan
+  udp: true
