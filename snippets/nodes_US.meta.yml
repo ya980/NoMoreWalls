@@ -1,35 +1,49 @@
 proxies:
 - name: '[D] 🇺🇸 美国 01'
+  password: 57ad54a0-59ca-4553-bdad-35aab6bd3aa5
+  port: 9992
+  server: 104.36.86.93
+  skip-cert-verify: true
+  sni: 104.36.86.93
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 02'
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 03'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
+  sni: www.broadcom.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 04'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 23.95.75.151
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 02'
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: mg-1.yuanbaojc.site
-  skip-cert-verify: true
-  sni: mg-1.yuanbaojc.site
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 03'
-  password: 300f8c21-6341-4503-a5db-c13d331c63c8
-  port: 20801
-  server: mg-1.yuanbaojc.site
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 04'
-  password: Hy2@SiLiCon2026!
-  port: 8443
-  server: 43.130.7.3
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 05'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 28051
@@ -37,7 +51,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 28051
@@ -45,7 +59,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 29085
@@ -53,16 +67,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: '[G] 🇺🇸 美国 08'
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga10.api3-max.ru
-  skip-cert-verify: true
-  sni: taga10.api3-max.ru
-  type: hysteria2
-- multiplexing: MULTIPLEXING_LOW
+- cipher: auto
   name: '[G] 🇺🇸 美国 09'
+  network: none
+  port: 12012
+  server: 154.36.135.84
+  tls: false
+  type: vless
+  uuid: d4ed01b4-bdaf-4909-d41e-5e6f8f6b5593
+- multiplexing: MULTIPLEXING_LOW
+  name: '[G] 🇺🇸 美国 10'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
@@ -70,42 +84,8 @@ proxies:
   type: mieru
   username: dongtaiwang.com
 - client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇺🇸 美国 10'
-  network: xhttp
-  port: '37789'
-  reality-opts:
-    public-key: UkvgTlCFgSf2A2FtCJISg8r3hhRQbbfJIpQ6mSlL71k
-    short-id: '!!str 0dadb8f893'
-  server: second.shadydomain.qzz.io
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    mode: auto
-    path: /shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@
-    x-padding-bytes: 1-1000
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇺🇸 美国 11'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
-    short-id: '!!str '
-  server: 2.26.79.32
-  servername: pro-se.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: fdac0300-5963-4e68-adb6-fc89a2de99a2
-  xudp: true
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 12'
+  name: '[I] 🇺🇸 美国 11'
   network: tcp
   port: 993
   reality-opts:
@@ -119,7 +99,7 @@ proxies:
     headers:
       Host: download.nvidia.com
     path: '%2F'
-- name: '[I] 🇺🇸 美国 13'
+- name: '[I] 🇺🇸 美国 12'
   network: ws
   port: 80
   server: www.true.th
@@ -131,7 +111,7 @@ proxies:
     headers:
       Host: d2pwbkmfr5lxa4.cloudfront.net
     path: '%2F'
-- name: '[I] 🇺🇸 美国 14'
+- name: '[I] 🇺🇸 美国 13'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -142,7 +122,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 15'
+- name: '[I] 🇺🇸 美国 14'
   network: ws
   port: 80
   server: 103.133.1.160
