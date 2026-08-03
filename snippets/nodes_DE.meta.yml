@@ -16,8 +16,21 @@ proxies:
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
+- name: '[G] 🇩🇪 德国 03'
+  network: ws
+  password: 82dd5d38-1a65-42b9-835e-497b5b51eb84
+  port: 443
+  server: 172.67.78.22
+  skip-cert-verify: true
+  sni: kamonka.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: kamonka.eu.org
+    path: /
 - client-fingerprint: firefox
-  name: '[I] 🇩🇪 德国 03'
+  name: '[I] 🇩🇪 德国 04'
   port: 443
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
@@ -25,7 +38,7 @@ proxies:
   type: vless
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 04'
+  name: '[I] 🇩🇪 德国 05'
   network: ws
   port: 443
   server: 31.76.11.46.cdn-one.org
@@ -37,14 +50,14 @@ proxies:
     headers:
       Host: 31.76.11.46.cdn-one.org
     path: '%2F52872%2FBNzG4FvIAr'
-- name: '[I] 🇩🇪 德国 05'
+- name: '[I] 🇩🇪 德国 06'
   network: tcp
   port: 443
   server: ddc-akn.astralweb.tech
   tls: true
   type: vless
   uuid: 04b9e828-43ed-4faf-8952-41069ec08355
-- name: '[I] 🇩🇪 德国 06'
+- name: '[I] 🇩🇪 德国 07'
   network: ws
   port: 80
   server: 146.75.119.82
