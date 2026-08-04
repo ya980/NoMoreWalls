@@ -33,83 +33,82 @@ proxies:
 - name: '[E] 🇺🇸 美国 05'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 18.163.100.58
+  port: 39024
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
-  port: 28051
-  server: 95.40.107.76
+  port: 39024
+  server: 18.163.100.58
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
-  port: 29085
-  server: 16.162.164.238
+  port: 15775
+  server: 18.163.193.0
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[G] 🇺🇸 美国 08'
+- encryption: none
+  name: '[G] 🇺🇸 美国 08'
   network: ws
-  password: 87961f9d-bee1-4377-826b-e169e7891c4f
-  port: 443
-  server: 162.159.82.246
-  skip-cert-verify: true
-  sni: yks-dd9.pages.dev
-  type: trojan
+  port: '2095'
+  server: 172.66.1.242
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
-      Host: yks-dd9.pages.dev
+      Host: cnmfangbinxing.cnmfangbinxing-q.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/56.0.2924.87 Safari/537.36
     path: /
-- name: '[G] 🇺🇸 美国 09'
-  network: ws
-  port: 57878
-  server: 38.246.226.240
-  tls: false
-  type: vless
-  uuid: 535f0e03-24d4-4268-ac40-5af829e8e59b
-  ws-opts:
-    path: /535f0e03
-- name: '[G] 🇺🇸 美国 10'
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
+  xudp: true
+- cipher: aes-256-cfb
+  name: '[G] 🇺🇸 美国 09'
+  password: amazonskr05
+  port: 443
+  server: 98.93.33.57
+  type: ss
   udp: true
-  username: null
+- cipher: aes-256-cfb
+  name: '[G] 🇺🇸 美国 10'
+  password: amazonskr05
+  port: 443
+  server: 54.163.196.142
+  type: ss
+  udp: true
 - name: '[G] 🇺🇸 美国 11'
+  password: None
   port: 9002
-  server: 138.199.35.208
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- multiplexing: MULTIPLEXING_LOW
+  name: '[G] 🇺🇸 美国 12'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: '[G] 🇺🇸 美国 13'
+  port: 9002
+  server: 138.199.35.204
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[G] 🇺🇸 美国 12'
-  password: None
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[G] 🇺🇸 美国 13'
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: '[G] 🇺🇸 美国 14'
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
@@ -117,75 +116,95 @@ proxies:
 - name: '[G] 🇺🇸 美国 15'
   password: None
   port: 9002
-  server: 138.199.35.197
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
   username: null
 - name: '[G] 🇺🇸 美国 16'
   port: 9002
-  server: 156.146.59.39
+  server: 156.146.59.27
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[G] 🇺🇸 美国 17'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[G] 🇺🇸 美国 18'
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 19'
+  password: None
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 20'
   port: 9002
   server: 156.146.59.7
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[G] 🇺🇸 美国 18'
-  port: 38182
-  server: 69.55.49.177
-  type: socks5
-- client-fingerprint: chrome
+- name: '[G] 🇺🇸 美国 21'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 19'
+  name: '[G] 🇺🇸 美国 22'
   network: tcp
-  port: 993
+  port: '443'
   reality-opts:
-    public-key: EG3y7UktGRlzSZZ2oXT_YaO2gVP4ca3Xe6AQ0u9A5DQ
-  server: 88.218.44.4
-  servername: download.nvidia.com
-  tls: false
+    public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
+    short-id: '!!str '
+  server: 2.26.94.15
+  servername: pro-tr.emrata.top
+  tls: true
   type: vless
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-  ws-opts:
-    headers:
-      Host: download.nvidia.com
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 20'
+  udp: true
+  uuid: 0c0a91de-5250-4d6c-9922-f3594d99f096
+  xudp: true
+- name: '[G] 🇺🇸 美国 23'
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: '443'
+  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: '[G] 🇺🇸 美国 24'
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
-  port: 80
-  server: www.true.th
-  servername: d2pwbkmfr5lxa4.cloudfront.net
-  tls: false
+  port: 2053
+  server: 162.159.44.66
+  servername: fu.baiproxy.us.ci
+  tls: true
   type: vless
-  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
   ws-opts:
     headers:
-      Host: d2pwbkmfr5lxa4.cloudfront.net
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 21'
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 22'
-  network: ws
-  port: 80
-  server: 103.133.1.160
-  tls: false
-  type: vless
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-  ws-opts:
-    headers:
-      Host: soft-shadow-1e33.xicav73335.workers.dev
-    path: '%2Fws'
+      Host: fu.baiproxy.us.ci
+    path: '%2F%3Fed%3D2560'

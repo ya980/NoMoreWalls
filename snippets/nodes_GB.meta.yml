@@ -1,8 +1,14 @@
 proxies:
+- name: '[G] 🇬🇧 英国 01'
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇬🇧 英国 01'
+  name: '[G] 🇬🇧 英国 02'
   network: tcp
   port: '443'
   reality-opts:
@@ -15,21 +21,3 @@ proxies:
   udp: true
   uuid: 0c0a91de-5250-4d6c-9922-f3594d99f096
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🇬🇧 英国 02'
-  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
-  port: '61312'
-  server: 144.24.231.192
-  type: ss
-  udp: true
-- name: '[I] 🇬🇧 英国 03'
-  network: ws
-  port: 8880
-  server: cf3.466688.xyz
-  tls: false
-  type: vless
-  uuid: 00ff7e5f-9b6f-4401-aab9-4d044660411f
-  ws-opts:
-    headers:
-      Host: summer-bonus-aa63.52-c03.workers.dev
-    path: '%2F'

@@ -62,9 +62,8 @@ proxies:
 - name: '[D] 🇫🇷 法国 08'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
-  server: 95.164.123.231
+  server: de2.vpn.legendaah.xyz
   skip-cert-verify: true
-  sni: www.cloudflare.com
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 09'
@@ -76,10 +75,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 10'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
   skip-cert-verify: true
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: '[D] 🇫🇷 法国 11'
@@ -87,27 +87,9 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
-  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[D] 🇫🇷 法国 12'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 13'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 14'
+- name: '[D] 🇫🇷 法国 12'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -115,26 +97,3 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[G] 🇫🇷 法国 15'
-  password: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-  port: 443
-  server: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
-  skip-cert-verify: true
-  sni: 8a7d3033-ta1og0-ta5i1s-1j61y.fr.oshuawei.com
-  tls: true
-  type: http
-  udp: true
-  username: f13f964e-f06c-11ec-a858-f23c91cfbbc9
-- name: '[G] 🇫🇷 法国 16'
-  port: 8888
-  server: 37.59.125.131
-  type: http
-- client-fingerprint: chrome
-  name: '[G] 🇫🇷 法国 17'
-  network: raw
-  password: QV31589740
-  port: '443'
-  server: great-krill.rooster465.autos
-  skip-cert-verify: false
-  type: trojan
-  udp: true

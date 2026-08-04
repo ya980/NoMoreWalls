@@ -12,6 +12,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[D] 🇨🇳 台湾 03'
@@ -19,14 +20,34 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: '[D] 🇨🇳 台湾 04'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
   sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇨🇳 台湾 04'
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: cos.ap-shanghai.myqcloud.com
+    path: /assets/images/
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇨🇳 台湾 05'
+  network: ws
+  port: '2096'
+  server: twdx6.baidupi.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  ws-opts:
+    headers:
+      Host: ''
+    path: /assets/images/
