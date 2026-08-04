@@ -1,15 +1,29 @@
 proxies:
-- client-fingerprint: chrome
+- client-fingerprint: edge
+  encryption: none
+  grpc-opts:
+    grpc-service-name: rpc.v2.FeedService
   name: '[G] 🇷🇺 俄罗斯 01'
-  network: xhttp
+  network: grpc
   port: '443'
-  server: 159.194.238.114
-  servername: ru.node.sillyvpn.cc
+  reality-opts:
+    public-key: eU2IqYoHVYNfFqNlTNEAGooWqL2WqKbbQwxAPRu_7wc
+    short-id: '!!str 93762a4ddf178703'
+  server: 83.217.192.233
+  servername: api.univesalsrv.com
   tls: true
   type: vless
   udp: true
-  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
-  xhttp-opts:
-    host: ru.node.sillyvpn.cc
-    mode: packet-up
-    path: /api/burmalda.json
+  uuid: 1b92d620-add7-42bd-ac1b-93ee4dfacee0
+  xudp: true
+- client-fingerprint: firefox
+  name: '[I] 🇷🇺 俄罗斯 02'
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  tls: false
+  type: vless
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
