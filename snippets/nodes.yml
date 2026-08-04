@@ -1,34 +1,34 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 01'
+  name: '[D] 🌍 其它地区 34'
   network: ws
-  port: '8443'
-  server: 176.122.174.175
+  port: '80'
+  server: 61.245.11.60
   servername: ''
   tls: false
   type: vmess
-  uuid: aa6bc79c-7535-4491-aede-655110ced2e3
+  uuid: a3e3a710-79f8-4ae0-b83c-607aab40d197
   ws-opts:
     headers:
-      Host: 176.122.174.175
-    path: /vmess
+      Host: ''
+    path: /vmess/
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 31'
+  name: '[E] 🌍 其它地区 35'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 06'
+  name: '[E] 🇭🇰 香港 05'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 07'
+- name: '[E] 🇭🇰 香港 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 50887
@@ -36,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 08'
+- name: '[E] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -44,7 +44,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 09'
+- name: '[E] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -100,7 +100,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇺🇸 美国 02'
+- name: '[E] 🇺🇸 美国 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -108,7 +108,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 03'
+- name: '[E] 🇺🇸 美国 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -116,7 +116,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 05'
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -126,7 +126,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 10'
+  name: '[F] 🇭🇰 香港 09'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -134,14 +134,80 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: aes-256-cfb
-  name: '[G] 🇯🇵 日本 04'
-  password: amazonskr05
+- name: '[G] 🌍 其它地区 36'
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: 20066
+  server: oplosgru-c.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+- alpn:
+  - http/1.1
+  name: '[G] 🇩🇪 德国 05'
+  network: ws
+  password: MiTiVPN
   port: 443
-  server: 13.231.162.164
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🌍 其它地区 39'
+  password: VYNPsDoUe5y0LT/XDsL+uov8EWGDGudPw+sGwGgizsY=
+  port: '56985'
+  server: e3.cover20.ir
   type: ss
   udp: true
-- name: '[I] 🇸🇬 新加坡 06'
+- name: '[G] 🌍 其它地区 41'
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: '20066'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: false
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- name: '[G] 🇯🇵 日本 04'
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: '20129'
+  server: hkdcrtc-e.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- grpc-opts:
+    grpc-service-name: /16835/Cba1c1ZOir
+  name: '[G] 🌍 其它地区 63'
+  network: grpc
+  password: yooog56ts3ymtpp5
+  port: '443'
+  server: 78.17.103.162
+  skip-cert-verify: false
+  sni: driveservice.mooo.com
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇬🇧 英国 06'
+  password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=
+  port: '61312'
+  server: 129.151.76.103
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇩🇪 德国 11'
+  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
+  port: '59924'
+  server: 130.61.178.208
+  type: ss
+  udp: true
+- name: '[I] 🇸🇬 新加坡 07'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -149,7 +215,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 06'
   network: ws
   port: '36801'
   server: cindy50.ceoiii.com

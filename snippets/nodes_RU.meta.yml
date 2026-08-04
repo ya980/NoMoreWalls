@@ -1,12 +1,15 @@
 proxies:
-- client-fingerprint: firefox
-  name: '[I] 🇷🇺 俄罗斯 01'
-  port: 443
-  reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  tls: false
+- client-fingerprint: chrome
+  name: '[G] 🇷🇺 俄罗斯 01'
+  network: xhttp
+  port: '443'
+  server: 159.194.238.114
+  servername: ru.node.sillyvpn.cc
+  tls: true
   type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  udp: true
+  uuid: 26554985-427e-4dbc-907e-a8dc7b9052d2
+  xhttp-opts:
+    host: ru.node.sillyvpn.cc
+    mode: packet-up
+    path: /api/burmalda.json
