@@ -1,12 +1,18 @@
 proxies:
-- name: '[D] 🇺🇸 美国 01'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
-  sni: www.broadcom.com
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 01'
+  network: ws
+  port: '8443'
+  server: 176.122.174.175
+  servername: ''
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: aa6bc79c-7535-4491-aede-655110ced2e3
+  ws-opts:
+    headers:
+      Host: 176.122.174.175
+    path: /vmess
 - name: '[E] 🇺🇸 美国 02'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -31,15 +37,42 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[G] 🇺🇸 美国 05'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: '[G] 🇺🇸 美国 06'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wleI_i5zku-rrqzLdCZ3qe5C4HrE27IzCRmbXOmcMkw
+    short-id: '!!str 72f70ccc0c2568ef'
+  server: 103.94.185.145
+  servername: www.apple.com
+  tls: true
+  type: vless
+  uuid: 40aba943-fa2a-4236-9034-e5a8911b8f78
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 06'
+  network: tcp
+  port: 16565
+  reality-opts:
+    public-key: JqblL-dYqxHH3pAju89x3OkXlBQ8k5LzO2Yoadi8ylk
+    short-id: '!!str 373e14d458'
+  server: 94.124.119.187
+  servername: yulife.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8a3756ec-179b-48fe-b861-27c0287710ae
+- name: '[G] 🇺🇸 美国 07'
+  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+  port: 443
+  server: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
+  tls: true
+  type: http
+  udp: true
+  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
+- name: '[G] 🇺🇸 美国 08'
   password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
   port: 443
   server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
@@ -47,53 +80,7 @@ proxies:
   tls: true
   type: http
   username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-- name: '[G] 🇺🇸 美国 07'
-  password: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-  port: 443
-  server: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
-  sni: 704f20b2-tcxds0-td95qh-1isea.sj.oshuawei.com
-  tls: true
-  type: http
-  username: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 08'
-  network: tcp
-  port: '10005'
-  reality-opts:
-    public-key: ryX4yUguNp9iQ6j_BPlEMyCK62474if28u_ouXSPciQ
-    short-id: '!!str 1974efea3b2148'
-  server: family.bucket.4.kfc-520.com
-  servername: www.asus.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 09'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: vSg0Cr4YV0ODJfb1TBjEOUxmFphSdFMXIJ-0ZNxcQiw
-    short-id: '!!str 8a7be6783eae0fe3'
-  server: 216.24.191.214
-  servername: sb.music.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: bc3dd3d6-0684-4852-bff8-07c0b741aa08
-  xudp: true
-- name: '[G] 🇺🇸 美国 10'
-  network: tcp
-  port: '443'
-  server: 45.78.73.241
-  type: vless
-  udp: true
-  uuid: b3b23e31-4972-4eec-9852-8de3eb6c7ef7
-  xudp: true
-- name: '[I] 🇺🇸 美国 11'
+- name: '[I] 🇺🇸 美国 09'
   network: ws
   port: 2053
   server: 162.159.44.66

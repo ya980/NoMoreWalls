@@ -23,27 +23,25 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[G] 🇯🇵 日本 04'
-  port: 32326
-  reality-opts:
-    public-key: yQCIXuOIYIxJ6BeQ1I-pvdfZDkrqv25oy7oU25424HA
-    short-id: '!!str bc41498a'
-  server: jpvl.xinchenone.world
-  servername: www.mozilla.org
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
 - cipher: aes-256-cfb
-  name: '[G] 🇯🇵 日本 05'
+  name: '[G] 🇯🇵 日本 04'
   password: amazonskr05
   port: 443
   server: 13.231.162.164
   type: ss
   udp: true
+- client-fingerprint: chrome
+  name: '[G] 🇯🇵 日本 05'
+  network: tcp
+  port: 27407
+  reality-opts:
+    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+    short-id: '!!str e6ac18b63f23'
+  server: 13.193.205.133
+  servername: bgcpartners.com
+  tls: true
+  type: vless
+  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
 - name: '[I] 🇯🇵 日本 06'
   network: tcp
   port: 443
