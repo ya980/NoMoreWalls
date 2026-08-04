@@ -39,42 +39,22 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 05'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: 194.180.174.69
-  sni: fr2.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 06'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: fr2.h2corp.org
-  sni: fr2.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 07'
-  password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
-  port: 443
-  server: fr2.h2corp.org
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 08'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
+- down: ''
+  fingerprint: ''
+  name: '[D] 🇫🇷 法国 05'
+  obfs: ''
+  obfs-password: ''
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: '443'
+  server: 91.196.32.163
   skip-cert-verify: true
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 09'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: de2.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: www.cloudflare.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 10'
+  up: ''
+- alpn:
+  - h3
+  name: '[D] 🇫🇷 法国 06'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -82,18 +62,38 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 11'
+- name: '[D] 🇫🇷 法国 07'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 12'
+- down: ''
+  fingerprint: ''
+  name: '[D] 🇫🇷 法国 08'
+  obfs: ''
+  obfs-password: ''
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
+  port: '443'
   server: 91.196.32.163
   skip-cert-verify: true
   sni: 91.196.32.163
   tls: false
   type: hysteria2
+  up: ''
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[G] 🇫🇷 法国 09'
+  network: tcp
+  packet-encoding: xudp
+  port: 443
+  reality-opts:
+    public-key: 65T6l7e51lwKu1rzQ4FgqVPe-JyG43IqPLw6r9U2v10
+    short-id: '!!str 0befa76540b5db79'
+  server: 193.177.0.251
+  servername: fr.bvps.cloud
+  tls: true
+  type: vless
+  udp: true
+  uuid: 52b71b75-4b77-4cec-990b-046ec1938e1f

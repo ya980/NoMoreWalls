@@ -27,7 +27,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  sni: https%3A%2F%2Ft.me%2Fwangcai2%F0%9F%87%A8%F0%9F%87%B3
   tls: false
   type: hysteria2
 - name: '[D] 🇭🇰 香港 05'
@@ -38,30 +38,16 @@ proxies:
   sni: https%3A%2F%2Ft.me%2FWangCai2%D1%80%D2%B9%D2%AE%D0%81%D1%80%D2%B9%D2%AE%D1%96
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇭🇰 香港 06'
-  network: ws
-  port: '443'
-  server: zudssgtmrqg9lpvi.v.3dns.vip
-  servername: zUDssgTMRqg9LpvI.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: zUDssgTMRqg9LpvI.v.3dns.vip
-    path: /ws-vmess
 - alterId: 2
   cipher: auto
-  name: '[E] 🇭🇰 香港 07'
+  name: '[E] 🇭🇰 香港 06'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[E] 🇭🇰 香港 08'
+- name: '[E] 🇭🇰 香港 07'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 50887
@@ -69,7 +55,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇭🇰 香港 09'
+- name: '[E] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -77,7 +63,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[E] 🇭🇰 香港 10'
+- name: '[E] 🇭🇰 香港 09'
   network: tcp
   password: BxceQaOe
   port: 29443
@@ -87,7 +73,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 11'
+  name: '[F] 🇭🇰 香港 10'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -95,3 +81,51 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: '[G] 🇭🇰 香港 11'
+  password: f8744af0-8406-440f-9f90-45a4d004f3e9
+  port: 28039
+  server: cm1.kaochangcn.org
+  type: ss
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇭🇰 香港 12'
+  network: tcp
+  port: 52317
+  reality-opts:
+    public-key: RLdadndvFi3-cNcbIoGg_MPiUHPohEY9Fh02ZaBofxw
+    short-id: '!!str fb4583c1'
+  server: jingji2.hj3hk.top
+  servername: www.ibm.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- auth: vha1.eyJ2IjoxLCJ1aWQiOiIwZDZiNWQyNS04MTQ2LTQ5MzgtOGQ4Ny1lZmVhNTY0NWQxZGEiLCJ1dWlkIjoiZTA4YzBmNGEtOWYxNC00YWI4LWJjZjQtZjc5NTM4ZDY1ZWJjIiwiaWF0IjoxNzg1NTQ5NjkzLCJleHAiOjE3ODU1NzEyOTN9.6DpvhjeSfyXvcXN7iEuWEmk7VQGn9AY3KzV8XWdCEms
+  name: '[G] 🇭🇰 香港 13'
+  obfs: salamander
+  obfs-password: vtxobfs_4fb1b902428602984b523d6339abce6c
+  password: vha1.eyJ2IjoxLCJ1aWQiOiIwZDZiNWQyNS04MTQ2LTQ5MzgtOGQ4Ny1lZmVhNTY0NWQxZGEiLCJ1dWlkIjoiZTA4YzBmNGEtOWYxNC00YWI4LWJjZjQtZjc5NTM4ZDY1ZWJjIiwiaWF0IjoxNzg1NTQ5NjkzLCJleHAiOjE3ODU1NzEyOTN9.6DpvhjeSfyXvcXN7iEuWEmk7VQGn9AY3KzV8XWdCEms
+  port: 443
+  server: 141.11.149.225
+  skip-cert-verify: true
+  sni: hk5-hy2.vortexio.cc
+  type: hysteria2
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[G] 🇭🇰 香港 14'
+  network: tcp
+  port: 52315
+  reality-opts:
+    public-key: rVMSja4fpsftJaCyNrqHW0Bl5-WhGzjkNq16AOWdo3M
+    short-id: '!!str aad492b8'
+  server: jingji.hj444hk.top
+  servername: www.ibm.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 17db72e0-63cd-43c9-81f0-06e1221cca99
+- name: '[G] 🇭🇰 香港 15'
+  port: 10800
+  server: 47.75.116.41
+  type: socks5

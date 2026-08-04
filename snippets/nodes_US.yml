@@ -1,5 +1,19 @@
 proxies:
-- name: '[E] 🇺🇸 美国 05'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 03'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[E] 🇺🇸 美国 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -7,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 05'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -15,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -24,16 +38,16 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
 - cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 09'
-  password: amazonskr05
-  port: 443
-  server: 98.93.33.57
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 10'
+  name: '[G] 🇺🇸 美国 12'
   password: amazonskr05
   port: 443
   server: 54.163.196.142
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[G] 🇺🇸 美国 13'
+  password: amazonskr05
+  port: 443
+  server: 3.85.61.177
   type: ss
   udp: true

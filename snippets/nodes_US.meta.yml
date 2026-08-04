@@ -1,28 +1,5 @@
 proxies:
-- name: '[C] 🇺🇸 美国 01'
-  password: Hy2@SiLiCon2026!
-  port: 8443
-  server: 43.130.7.3
-  skip-cert-verify: true
-  sni: bing.com
-  tls: false
-  type: hysteria2
-- name: '[C] 🇺🇸 美国 02'
-  password: bce6c821-200d-421f-bf3d-7159e5246ea0
-  port: 33333
-  server: hy2.123266.xyz
-  sni: hy2.123266.xyz
-  tls: false
-  type: hysteria2
-- name: '[C] 🇺🇸 美国 03'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: vpn-us-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-002.fastervpn.world
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 04'
+- name: '[D] 🇺🇸 美国 01'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
@@ -30,7 +7,28 @@ proxies:
   sni: www.broadcom.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- name: '[D] 🇺🇸 美国 02'
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8443
+  server: 23.95.75.151
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 03'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[E] 🇺🇸 美国 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -38,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 05'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -46,7 +44,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: BxceQaOe
   port: 15775
@@ -54,141 +52,193 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- encryption: none
-  name: '[G] 🇺🇸 美国 08'
-  network: ws
-  port: '2095'
-  server: 172.66.1.242
+- client-fingerprint: chrome
+  encryption: mlkem768x25519plus.native.0rtt.27S9yUTrCxQh_iReHwg8pDW4OPhj1cZYfMP9Tkj2xwo
+  name: '[G] 🇺🇸 美国 07'
+  network: xhttp
+  port: 443
+  server: 69.46.46.158
+  servername: 3x-ui-upgrade2-production-8a8e.up.railway.app
+  tls: true
   type: vless
   udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  ws-opts:
-    headers:
-      Host: cnmfangbinxing.cnmfangbinxing-q.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 09'
-  password: amazonskr05
-  port: 443
-  server: 98.93.33.57
-  type: ss
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: 3x-ui-upgrade2-production-8a8e.up.railway.app
+    mode: auto
+    path: /user
+    x-padding-bytes: 100-1000
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 08'
+  network: tcp
+  port: 10004
+  reality-opts:
+    public-key: YoLRlSFCOiQjky1hQVHuSkiaPER4pro1uDyCTHVSfwY
+    short-id: '!!str df52dd28ff'
+  server: family.bucket.3.kfc-520.com
+  servername: www.intel.com
+  tls: true
+  type: vless
   udp: true
+  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
+- client-fingerprint: chrome
+  encryption: none
+  name: '[G] 🇺🇸 美国 09'
+  network: xhttp
+  port: '37789'
+  reality-opts:
+    public-key: UkvgTlCFgSf2A2FtCJISg8r3hhRQbbfJIpQ6mSlL71k
+    short-id: '!!str 0dadb8f893'
+  server: second.shadydomain.qzz.io
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    mode: auto
+    path: /shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@shady_vpn@
+    x-padding-bytes: 1-1000
+  xudp: true
+- name: '[G] 🇺🇸 美国 10'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[G] 🇺🇸 美国 11'
+  password: None
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: null
 - cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 10'
+  name: '[G] 🇺🇸 美国 12'
   password: amazonskr05
   port: 443
   server: 54.163.196.142
   type: ss
   udp: true
-- name: '[G] 🇺🇸 美国 11'
-  password: None
-  port: 9002
-  server: 138.199.35.205
+- cipher: aes-256-cfb
+  name: '[G] 🇺🇸 美国 13'
+  password: amazonskr05
+  port: 443
+  server: 3.85.61.177
+  type: ss
+  udp: true
+- name: '[G] 🇺🇸 美国 14'
+  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  port: '443'
+  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
   skip-cert-verify: true
+  sni: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
   tls: true
   type: http
-  username: null
+  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+- name: '[G] 🇺🇸 美国 15'
+  port: 1080
+  server: 141.148.158.143
+  type: socks5
 - multiplexing: MULTIPLEXING_LOW
-  name: '[G] 🇺🇸 美国 12'
+  name: '[G] 🇺🇸 美国 16'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: '[G] 🇺🇸 美国 13'
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 17'
+  port: 39999
+  reality-opts:
+    public-key: rBLgYxDPw9nmzppUc_8Hr-puEW7lkpN1zoRDRcA-Ywo
+    short-id: '!!str 5f7b'
+  server: direct-us-astound-03.inetsnode.de
+  servername: swdist.apple.com
+  skip-cert-verify: false
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: '[G] 🇺🇸 美国 14'
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 15'
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[G] 🇺🇸 美国 16'
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[G] 🇺🇸 美国 17'
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: 852e7dda-15f5-4e76-b01b-ba5267c64cad
 - name: '[G] 🇺🇸 美国 18'
   password: None
   port: 9002
-  server: 138.199.35.212
+  server: 156.146.59.49
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[G] 🇺🇸 美国 19'
-  password: None
-  port: 9002
-  server: 156.146.59.16
-  skip-cert-verify: true
+- client-fingerprint: firefox
+  http-opts:
+    headers: {}
+    path:
+    - /
+  name: '[G] 🇺🇸 美国 19'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: itfYOjWaEZ8FSD730zUvrhCbbzWgSWFDXjnAWCj23Rc
+    short-id: '!!str e371d988'
+  server: 161.104.90.17
+  servername: www.samsung.com
   tls: true
-  type: http
-  username: null
+  type: vless
+  udp: true
+  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  xudp: true
 - name: '[G] 🇺🇸 美国 20'
+  password: ''
   port: 9002
-  server: 156.146.59.7
+  server: 156.146.59.12
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[G] 🇺🇸 美国 21'
+  port: 9002
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[G] 🇺🇸 美国 21'
+- name: '[G] 🇺🇸 美国 22'
   port: 9002
   server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 22'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
-    short-id: '!!str '
-  server: 2.26.94.15
-  servername: pro-tr.emrata.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0c0a91de-5250-4d6c-9922-f3594d99f096
-  xudp: true
 - name: '[G] 🇺🇸 美国 23'
-  password: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
-  port: '443'
-  server: 28f9916a-tcxds0-tei4of-1qxa1.sj.oshuawei.com
+  password: ''
+  port: 9002
+  server: 156.146.59.7
   skip-cert-verify: true
   tls: true
   type: http
-  username: f609abb4-ed17-11ee-9fa2-f23c9164ca5d
+  username: ''
 - name: '[G] 🇺🇸 美国 24'
+  password: None
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 25'
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[G] 🇺🇸 美国 26'
   password: 'null'
   port: '9002'
   server: 138.199.35.207
@@ -196,7 +246,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[I] 🇺🇸 美国 25'
+- name: '[I] 🇺🇸 美国 27'
   network: ws
   port: 2053
   server: 162.159.44.66
