@@ -1,5 +1,12 @@
 proxies:
 - name: '[D] 🇺🇸 美国 01'
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 02'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
@@ -7,14 +14,51 @@ proxies:
   sni: www.broadcom.com
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 02'
+- name: '[D] 🇺🇸 美国 03'
+  password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+  port: 25379
+  server: uswx3.wxgqlfx.vip
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 04'
+  password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+  port: 25379
+  server: uswx3.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 144.225.187.184
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 05'
+  password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
+  port: 25379
+  server: uswx3.wxgqlfx.vip
+  skip-cert-verify: true
+  sni: 144.225.187.184%23%E7%BE%8E%E5%9B%BD3%40wxgqlfx
+  tls: false
+  type: hysteria2
+- name: '[D] 🇺🇸 美国 06'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇺🇸 美国 07'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -22,7 +66,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 09'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -30,169 +74,180 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+- name: '[E] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
-  port: 15775
-  server: 18.163.193.0
+  port: 53001
+  server: 16.162.3.64
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: '[G] 🇺🇸 美国 06'
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 104.16.98.215
+- auth: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
+  name: '[G] 🇺🇸 美国 11'
+  password: c7d6c12d-64b4-4915-b9ec-c4286abe2bfd
+  port: 25379
+  server: uswx4.wxgqlfx.vip
   skip-cert-verify: true
-  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-  type: trojan
-  ws-opts:
-    headers:
-      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '[G] 🇺🇸 美国 07'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
+  sni: 144.225.187.153#美国4@wxgqlfx
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc2
+  name: '[G] 🇺🇸 美国 12'
+  network: grpc
+  port: '2096'
+  reality-opts:
+    public-key: -Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc
+    short-id: '!!str afee962d'
+  server: 31.207.7.48
+  servername: max.ru
   tls: true
-  type: http
+  type: vless
   udp: true
-  username: 'null'
-- name: '[G] 🇺🇸 美国 08'
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 09'
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[G] 🇺🇸 美国 10'
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[G] 🇺🇸 美国 11'
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[G] 🇺🇸 美国 12'
-  password: None
-  port: 9002
-  server: 156.146.59.9
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  uuid: 2181d0c8-448a-4f75-b848-1718029baef9
+  xudp: true
 - name: '[G] 🇺🇸 美国 13'
   port: 9002
-  server: 156.146.59.25
+  server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[G] 🇺🇸 美国 14'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[G] 🇺🇸 美国 15'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[G] 🇺🇸 美国 16'
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[G] 🇺🇸 美国 17'
   password: None
   port: 9002
-  server: 156.146.59.41
+  server: 138.199.35.196
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[G] 🇺🇸 美国 15'
-  password: ''
+- name: '[G] 🇺🇸 美国 18'
+  password: 'null'
   port: 9002
-  server: 156.146.59.34
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  username: ''
-- down: ''
-  fingerprint: ''
-  name: '[G] 🇺🇸 美国 16'
-  obfs: ''
-  obfs-password: ''
-  password: 1db7c1ae-e1e1-4612-8057-9f7b54849472
-  port: '25379'
-  server: uswx3.wxgqlfx.vip
+  username: 'null'
+- name: '[G] 🇺🇸 美国 19'
+  password: None
+  port: 9002
+  server: 156.146.59.20
   skip-cert-verify: true
-  sni: 144.225.187.184
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 17'
-  network: tcp
-  port: '5151'
-  reality-opts:
-    public-key: T3vWH0zPUrOsgdK7cvEEnMbS3LIJDxQ17_L_GhmZJ0E
-    short-id: '!!str 69b851'
-  server: 185.206.170.69
-  servername: www.yahoo.com
   tls: true
-  type: vless
-  udp: true
-  uuid: 26c0589f-79e5-4789-8ff7-914f2e26e8e5
-  xudp: true
-- client-fingerprint: chrome
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 20'
+  password: None
+  port: 9002
+  server: 156.146.59.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 21'
+  password: None
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 22'
+  password: None
+  port: 9002
+  server: 156.146.59.43
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[G] 🇺🇸 美国 23'
+  password: None
+  port: 9002
+  server: 156.146.59.49
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[G] 🇺🇸 美国 18'
-  network: raw
+  name: '[G] 🇺🇸 美国 24'
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: wleI_i5zku-rrqzLdCZ3qe5C4HrE27IzCRmbXOmcMkw
-    short-id: '!!str 72f70ccc0c2568ef'
-  server: 103.94.185.145
-  servername: www.apple.com
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: 2.26.79.39
+  servername: pro-se.emrata.top
   tls: true
   type: vless
   udp: true
-  uuid: 40aba943-fa2a-4236-9034-e5a8911b8f78
+  uuid: 18f71148-a3c7-40c7-b02a-be04da72efe3
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[G] 🇺🇸 美国 19'
-  network: ws
-  port: 23142
-  server: la.2555555.xyz
-  servername: la.2555555.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 22ca377b-2ee8-49a9-907a-e6219b267113
-  ws-opts:
-    headers:
-      Host: la.2555555.xyz
-    path: /pfrq
-  xudp: true
-- name: '[I] 🇺🇸 美国 20'
-  network: ws
-  port: 2053
-  server: 162.159.44.66
-  servername: fu.baiproxy.us.ci
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[G] 🇺🇸 美国 25'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: da5UVhoC5QOCDm84AxB-RRxf0z2nySZ3lOemgqizLS4
+    short-id: '!!str '
+  server: pro-tr.emrata.top
+  servername: pro-tr.emrata.top
   tls: true
   type: vless
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
+  udp: true
+  uuid: 2e4101cd-40b4-4d1a-8df6-cc949c136e5a
+  xudp: true
+- name: '[G] 🇺🇸 美国 26'
+  password: ''
+  port: '38182'
+  server: 69.55.49.177
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: '[I] 🇺🇸 美国 27'
+  network: ws
+  port: 8880
+  server: 50.62.198.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: fu.baiproxy.us.ci
-    path: '%2F%3Fed%3D2560'
+      Host: vms.lifetime39.workers.dev
+    path: '%2F'
+- name: '[I] 🇺🇸 美国 28'
+  network: ws
+  port: 80
+  server: www.true.th
+  servername: d2pwbkmfr5lxa4.cloudfront.net
+  tls: false
+  type: vless
+  uuid: 89c3b66f-c849-4602-a5a8-84b6f06af478
+  ws-opts:
+    headers:
+      Host: d2pwbkmfr5lxa4.cloudfront.net
+    path: '%2F'

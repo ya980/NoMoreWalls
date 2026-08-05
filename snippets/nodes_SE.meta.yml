@@ -39,20 +39,19 @@ proxies:
   sni: dash.cloudflare.com
   tls: false
   type: hysteria2
-- name: '[G] SE 06'
-  port: 8888
-  server: 46.62.189.77
-  type: http
-- client-fingerprint: ios
-  name: '[I] SE 07'
-  network: tcp
-  port: 1000
+- client-fingerprint: firefox
+  name: '[G] SE 06'
+  network: xhttp
+  port: 443
   reality-opts:
-    public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY
-    short-id: '!!str a62d513cd709744a'
-  server: teain.org
-  servername: knox.cdn-apple.com
-  skip-cert-verify: true
-  tls: false
+    public-key: UtbgFz4_cQT5v3SkjxgQ4QfOu7SLHkXXeO1pcxxTrT8
+  server: 84.32.99.238
+  servername: recaptcha.net.cn
+  tls: true
   type: vless
-  uuid: 6f436a44-f703-93da-7e45-615824a39d3b
+  udp: true
+  uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7
+  xhttp-opts:
+    host: recaptcha.net.cn
+    mode: auto
+    path: /api/v1/data
