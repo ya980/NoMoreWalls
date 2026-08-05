@@ -1,17 +1,13 @@
 proxies:
-- down: ''
-  fingerprint: ''
+- auth: 6c077487-06af-4fb1-9e46-d485d98f0a31
   name: '[E] 🇯🇵 日本 01'
-  obfs: ''
-  obfs-password: ''
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: '52454'
+  port: 52454
   server: 45.88.43.116
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-  up: ''
 - name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
@@ -36,3 +32,33 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- auth: aa3c486e-6a1c-470e-b248-e6c55998206d
+  name: '[H] 🇯🇵 日本 05'
+  password: aa3c486e-6a1c-470e-b248-e6c55998206d
+  port: 3488
+  server: c1.bestai.beauty
+  skip-cert-verify: true
+  sni: c1.bestai.beauty
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 06'
+  password: amazonskr05
+  port: 443
+  server: 13.231.227.228
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇯🇵 日本 07'
+  network: raw
+  port: '27407'
+  reality-opts:
+    public-key: SajK6LzHBkkFlEXjIwseyqbpezgPiop5ZnSToou3G04
+    short-id: '!!str e6ac18b63f23'
+  server: 13.193.205.133
+  servername: bgcpartners.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cd5cf6e7-7ce5-42c9-9316-68210fa72a32
+  xudp: true
