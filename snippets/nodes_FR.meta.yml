@@ -31,16 +31,19 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- name: '[D] 🇫🇷 法国 04'
+- down: ''
+  fingerprint: ''
+  name: '[D] 🇫🇷 法国 04'
   obfs: salamander
   obfs-password: gu74jg3ym0e21zco
   password: ik0zt621uw9iqvsi
-  port: 52000
+  port: '52000'
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
+  up: ''
 - name: '[D] 🇫🇷 法国 05'
   obfs: salamander
   obfs-password: 527zd9w4nuaccd7g
@@ -71,29 +74,29 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇫🇷 法国 08'
+- name: '[D] 🇫🇷 法国 08'
   obfs: salamander
   obfs-password: detgimgm8qh8i2g2
   password: ik0zt621uw9iqvsi
-  port: '52023'
+  port: 52023
+  server: assets.gateway-stream.com
+  skip-cert-verify: false
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- down: ''
+  fingerprint: ''
+  name: '[D] 🇫🇷 法国 09'
+  obfs: salamander
+  obfs-password: l6l4n5a0q9epnr5k
+  password: ik0zt621uw9iqvsi
+  port: '52051'
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
   up: ''
-- name: '[D] 🇫🇷 法国 09'
-  obfs: salamander
-  obfs-password: l6l4n5a0q9epnr5k
-  password: ik0zt621uw9iqvsi
-  port: 52051
-  server: assets.gateway-stream.com
-  skip-cert-verify: false
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
 - auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   name: '[E] 🇫🇷 法国 10'
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
@@ -118,17 +121,21 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 13'
+- auth: 6eb88b45-7c1e-4a0a-afab-aa455447aa78
+  name: '[E] 🇫🇷 法国 13'
   password: 6eb88b45-7c1e-4a0a-afab-aa455447aa78
   port: 443
   server: imbaisk3.duckdns.org
+  skip-cert-verify: true
   sni: imbaisk3.duckdns.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 14'
+- auth: 71cada65-d23e-418c-88e4-a06188d14689
+  name: '[E] 🇫🇷 法国 14'
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
+  skip-cert-verify: true
   sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
@@ -140,9 +147,16 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
+- name: '[E] 🇫🇷 法国 16'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇫🇷 法国 16'
+  name: '[E] 🇫🇷 法国 17'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -150,28 +164,35 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 17'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
+- client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇫🇷 法国 18'
-  obfs: salamander
-  obfs-password: T@T*FP7uq=!t
-  password: f64c72a1-7e1f-4dd1-8929-7e41682542e2
-  port: '10086'
-  server: fr2.xiaoliyu.cyou
+  network: ws
+  port: 443
+  server: paul.ns.cloudflare.com
+  servername: ziro.skin
+  tls: true
+  type: vless
+  udp: true
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  ws-opts:
+    headers:
+      Host: ziro.skin
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+    path: /xxvclws
+  xudp: true
+- name: '[H] 🇫🇷 法国 19'
+  password: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  port: '443'
+  server: d6bf69ca-tcxds0-td1l1t-1s824.fr.oshuawei.com
   skip-cert-verify: true
-  sni: fr2.xiaoliyu.cyou
-  type: hysteria2
-  up: ''
+  tls: true
+  type: http
+  username: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇫🇷 法国 19'
+  name: '[I] 🇫🇷 法国 20'
   port: 443
   reality-opts:
     public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04

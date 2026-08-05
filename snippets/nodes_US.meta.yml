@@ -1,24 +1,22 @@
 proxies:
-- name: '[E] 🇺🇸 美国 01'
-  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
-  port: 30001
-  server: 155.117.19.221
-  skip-cert-verify: true
+- name: '[D] 🇺🇸 美国 01'
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: soskeynets.spectrumproxy.shop
+  sni: usa1.spectrumproxy.shop
   tls: false
   type: hysteria2
-- auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  name: '[E] 🇺🇸 美国 02'
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 172.245.233.237
-  skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
+- name: '[E] 🇺🇸 美国 02'
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: 443
+  server: bel-03.node.lumixnet.com
+  sni: bel-03.node.lumixnet.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 03'
-  password: Hy2@SiLiCon2026!
-  port: 8443
-  server: 43.130.7.3
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
   skip-cert-verify: true
   tls: false
   type: hysteria2
@@ -27,10 +25,17 @@ proxies:
   port: 8443
   server: 43.130.7.3
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 05'
+  password: Hy2@SiLiCon2026!
+  port: 8443
+  server: 43.130.7.3
+  skip-cert-verify: true
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -38,7 +43,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -46,7 +51,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -54,15 +59,200 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 08'
-  password: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
-  port: 443
-  server: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
-  sni: f04881e1-tcxds0-tqx9ef-1k0yf.sj.oshuawei.com
+- alterId: 2
+  cipher: auto
+  name: '[H] 🇺🇸 美国 09'
+  network: tcp
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 10'
+  network: tcp
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 53199
+  server: speed-01.aliyun-web-tracker.cn
+  skip-cert-verify: true
+  sni: speed-01.aliyun-web-tracker.cn
+  type: trojan
+  udp: true
+- auth: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  name: '[H] 🇺🇸 美国 11'
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8443
+  server: 172.245.233.237
+  skip-cert-verify: true
+  sni: hopp-us.yyuyy.com
+  type: hysteria2
+- multiplexing: MULTIPLEXING_LOW
+  name: '[H] 🇺🇸 美国 12'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: '[H] 🇺🇸 美国 13'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
   tls: true
   type: http
-  username: 9cc3c03e-21fd-11ee-a642-f23c91369f2d
-- name: '[I] 🇺🇸 美国 09'
+  username: 'null'
+- name: '[H] 🇺🇸 美国 14'
+  password: None
+  port: 9002
+  server: 156.146.59.19
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 15'
+  port: 9002
+  server: 138.199.35.208
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 16'
+  port: 9002
+  server: 156.146.59.23
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 17'
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 18'
+  password: ''
+  port: 9002
+  server: 156.146.59.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: '[H] 🇺🇸 美国 19'
+  port: 9002
+  server: 156.146.59.9
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 20'
+  password: None
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 21'
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
+  name: '[H] 🇺🇸 美国 22'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 02ae7872-1c03-4214-8b95-14c126da831e
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 23'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
+    short-id: '!!str bbc68cec8bb8d2e3'
+  server: node18.mxvpn.dev
+  servername: node18.mxvpn.dev
+  tls: true
+  type: vless
+  udp: true
+  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+  xudp: true
+- client-fingerprint: firefox
+  name: '[H] 🇺🇸 美国 24'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-de.emrata.top
+  servername: pro-de.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57b575f7-f738-0032-8151-e6bacc8c6717
+  xudp: true
+- client-fingerprint: firefox
+  name: '[H] 🇺🇸 美国 25'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: AAZjVvbC7AwPKot_1ygO5VMpN7XYifCA7lG0RNR5sEk
+    short-id: '!!str '
+  server: pro-se.emrata.top
+  servername: pro-se.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 57b575f7-f738-42c3-8151-e6bacc8c6717
+  xudp: true
+- client-fingerprint: firefox
+  name: '[H] 🇺🇸 美国 26'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-de.emrata.top
+  servername: pro-de.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95f50108-2bae-0032-948c-b22e01ae3133
+  xudp: true
+- client-fingerprint: firefox
+  name: '[H] 🇺🇸 美国 27'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: pro-de.emrata.top
+  servername: pro-de.emrata.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
+  xudp: true
+- name: '[I] 🇺🇸 美国 28'
   network: ws
   port: 8880
   server: 50.62.198.30
@@ -73,7 +263,7 @@ proxies:
     headers:
       Host: vms.lifetime39.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 10'
+- name: '[I] 🇺🇸 美国 29'
   network: ws
   port: 80
   server: www.true.th
