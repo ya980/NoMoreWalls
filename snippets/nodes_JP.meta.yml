@@ -1,12 +1,17 @@
 proxies:
-- name: '[D] 🇯🇵 日本 01'
+- down: ''
+  fingerprint: ''
+  name: '[D] 🇯🇵 日本 01'
+  obfs: ''
+  obfs-password: ''
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
+  port: '52454'
   server: 45.88.43.116
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
+  up: ''
 - name: '[E] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
@@ -31,8 +36,21 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-128-gcm
+- client-fingerprint: chrome
   name: '[G] 🇯🇵 日本 05'
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+  tls: true
+  type: vless
+  uuid: 68eee13f-1a7a-4761-b71e-83b997eeccf9
+  ws-opts:
+    headers:
+      Host: dnpjl.emrb.1uu.hh.hhyf.kdns.fr
+    path: /glasspanel/92298abb_0_5744c010dde7/
+- cipher: aes-128-gcm
+  name: '[G] 🇯🇵 日本 06'
   password: fjlfjafl231303831
   plugin: obfs
   plugin-opts:
@@ -43,37 +61,164 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- client-fingerprint: chrome
-  name: '[G] 🇯🇵 日本 06'
-  network: tcp
+- name: '[G] 🇯🇵 日本 07'
+  network: ws
   port: 443
-  reality-opts:
-    public-key: Zi3V0K3Mg8xDRLdpPF5Srlc3sHWEWn_2g6laXmZNXEQ
-    short-id: '!!str 3f91fcb900e7b35e'
-  server: 206.237.120.221
-  servername: www.cloudflare.com
+  server: cf.877774.xyz
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
   tls: true
   type: vless
-  uuid: 9caa5a2d-371d-4eb9-8960-6ae3cc20ac37
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 08'
+  network: ws
+  port: 443
+  server: cf.130519.xyz
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 09'
+  network: ws
+  port: 443
+  server: 162.159.45.215
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 10'
+  network: ws
+  port: 443
+  server: 162.159.39.228
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 11'
+  network: ws
+  port: 443
+  server: 162.159.38.204
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 12'
+  network: ws
+  port: 443
+  server: 172.64.229.125
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 13'
+  network: ws
+  port: 443
+  server: 108.162.198.238
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 14'
+  network: ws
+  port: 443
+  server: 172.64.52.151
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 15'
+  network: ws
+  port: 443
+  server: 162.159.38.233
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 16'
+  network: ws
+  port: 443
+  server: 108.162.198.39
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
+- name: '[G] 🇯🇵 日本 17'
+  network: ws
+  port: 443
+  server: cf.008500.xyz
+  servername: hn205.54dn.96i.hh.vavava.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  ws-opts:
+    headers:
+      Host: hn205.54dn.96i.hh.vavava.kdns.fr
+    path: /?ed=2560
 - cipher: aes-256-cfb
-  name: '[G] 🇯🇵 日本 07'
+  name: '[G] 🇯🇵 日本 18'
   password: amazonskr05
   port: 443
   server: 13.231.227.228
   type: ss
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[G] 🇯🇵 日本 08'
-  network: tcp
-  port: '10013'
-  reality-opts:
-    public-key: hqr_brbMw2eUng9LZE5_Ik8g0Y-hl8Ok5ka_EPSXskY
-    short-id: '!!str 02dd11'
-  server: family.bucket.7.kfc-520.com
-  servername: www.sony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d516ffe9-f519-3c47-872b-666249bdc7b7
-  xudp: true

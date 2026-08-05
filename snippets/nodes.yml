@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[D] 🌍 其它地区 35'
+  name: '[D] 🌍 其它地区 29'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -15,7 +15,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 03'
+  name: '[D] 🇺🇸 美国 04'
   network: tcp
   port: '51360'
   server: lt.badns.help
@@ -25,7 +25,7 @@ proxies:
   uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
 - alterId: 0
   cipher: auto
-  name: '[D] 🇺🇸 美国 04'
+  name: '[D] 🇺🇸 美国 05'
   network: ws
   port: '23142'
   server: la.2555555.xyz
@@ -38,7 +38,7 @@ proxies:
       Host: la.2555555.xyz
     path: /pfrq
 - cipher: aes-256-cfb
-  name: '[E] 🌍 其它地区 36'
+  name: '[E] 🌍 其它地区 30'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -123,8 +123,10 @@ proxies:
   server: 95.40.205.94
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tls: true
   type: trojan
-- name: '[E] 🇺🇸 美国 05'
+  udp: true
+- name: '[E] 🇺🇸 美国 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -132,7 +134,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 07'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -140,7 +142,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -158,27 +160,29 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[G] 🇩🇪 德国 07'
+- alpn:
+  - http/1.1
+  name: '[G] 🇩🇪 德国 07'
   network: ws
   password: ersi13mjahoao8e6
   port: 443
-  server: hikvision-plus.com
+  server: nexigen.pro
   skip-cert-verify: true
   sni: ramz.xuithree.dpdns.org
   type: trojan
+  udp: true
   ws-opts:
     headers:
       Host: ramz.xuithree.dpdns.org
     path: /dksk
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🇭🇰 香港 12'
-  password: 792e0bdb-01db-450c-94c4-925151eb396e
-  port: '19001'
-  server: ss.047.node-for-bigairport.win
-  type: ss
-  udp: true
+- name: '[G] 🇸🇬 新加坡 05'
+  password: 55354c2b8ee339571bd657a9bb9858cc
+  port: 40783
+  server: 106.75.132.91
+  skip-cert-verify: true
+  type: trojan
 - cipher: aes-128-gcm
-  name: '[G] 🌍 其它地区 39'
+  name: '[G] 🌍 其它地区 32'
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -190,7 +194,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[G] 🇯🇵 日本 05'
+  name: '[G] 🇯🇵 日本 06'
   password: fjlfjafl231303831
   plugin: obfs
   plugin-opts:
@@ -214,7 +218,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[G] 🇭🇰 香港 13'
+  name: '[G] 🇭🇰 香港 14'
   password: ayucloud1
   plugin: obfs
   plugin-opts:
@@ -238,7 +242,7 @@ proxies:
   type: ss
   udp: true
 - cipher: aes-128-gcm
-  name: '[G] 🌍 其它地区 40'
+  name: '[G] 🇭🇰 香港 15'
   password: QHPy2u
   plugin: obfs
   plugin-opts:
@@ -249,69 +253,8 @@ proxies:
   skip-cert-verify: true
   type: ss
   udp: true
-- alpn:
-  - http/1.1
-  name: '[G] 🇩🇪 德国 10'
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: cctvhikvision.center
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
-    path: /dksk
-- cipher: aes-256-cfb
-  name: '[G] 🇯🇵 日本 07'
-  password: amazonskr05
-  port: 443
-  server: 13.231.227.228
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🇩🇪 德国 11'
-  password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
-  port: 59924
-  server: 130.61.229.160
-  type: ss
-- cipher: aes-256-cfb
-  name: '[G] SE 09'
-  password: amazonskr05
-  port: 443
-  server: 13.61.13.49
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[G] 🇺🇸 美国 13'
-  password: amazonskr05
-  port: 443
-  server: 3.85.61.177
-  type: ss
-  udp: true
-- name: '[G] 🇺🇸 美国 14'
-  network: tcp
-  password: 5CRphqBLXI
-  port: 55604
-  server: 216.173.64.72
-  sni: b32-11.cmj0502.cn
-  type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: '[G] 🌍 其它地区 50'
-  password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
-  port: 59319
-  server: 137.131.177.94
-  type: ss
-- name: '[G] 🇺🇸 美国 17'
-  password: UaQmDQajuW
-  port: 55523
-  server: 185.132.54.106
-  sni: b32-10.cmj0502.cn
-  type: trojan
 - name: '[G] 🇨🇳 台湾 05'
+  network: tcp
   password: 55354c2b8ee339571bd657a9bb9858cc
   port: '39221'
   server: speed-01.aliyun-web-tracker.cn
@@ -319,54 +262,40 @@ proxies:
   sni: speed-01.aliyun-web-tracker.cn
   type: trojan
   udp: true
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: mm_grpc
-  name: '[G] 🇭🇰 香港 15'
-  network: grpc
-  password: 29db38f0-e302-3768-8867-0b9bf00c77e4cmynw
-  port: '443'
-  server: kaizen-hk-2.gocmydns.com
-  skip-cert-verify: false
-  sni: www.zueuqnpjvcllc.co
+- cipher: aes-256-cfb
+  name: '[G] 🇯🇵 日本 18'
+  password: amazonskr05
+  port: 443
+  server: 13.231.227.228
+  type: ss
+  udp: true
+- name: '[G] 🇸🇬 新加坡 31'
+  password: BxceQaOe
+  port: '26704'
+  server: 95.40.205.94
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  name: '[G] 🇩🇪 德国 15'
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: nexigen.pro
+- name: '[G] 🌍 其它地区 35'
+  network: tcp
+  password: 41c406e2-12b5-41f2-a329-d0621052d675
+  port: '20066'
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
+  sni: hk.catxstar.com
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /dksk
-- alpn:
-  - http/1.1
-  name: '[G] 🇩🇪 德国 16'
-  network: ws
-  password: ersi13mjahoao8e6
-  port: '443'
-  server: undef.network
-  skip-cert-verify: false
-  sni: ramz.xuithree.dpdns.org
+- name: '[G] 🇸🇬 新加坡 32'
+  password: BxceQaOe
+  port: '26704'
+  server: 95.40.205.94
+  skip-cert-verify: true
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /dksk
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 66'
+  name: '[I] 🌍 其它地区 39'
   network: ws
   port: '36803'
   server: cindy52.ceoiii.com
@@ -378,24 +307,24 @@ proxies:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
 - cipher: aes-256-gcm
-  name: '[I] 🌍 其它地区 67'
+  name: '[I] 🌍 其它地区 40'
   password: d1fa2f4b98a38bc8
   port: 10901
   server: 62.76.234.75
   type: ss
-- name: '[I] 🇸🇬 新加坡 06'
+- name: '[I] 🇸🇬 新加坡 33'
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   server: hkdcrtc-e.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- name: '[I] 🇸🇬 新加坡 07'
+- name: '[I] 🇸🇬 新加坡 34'
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20068
   server: oplosgru-c.catcat321.com
   sni: hk.catxstar.com
   type: trojan
-- name: '[I] 🇸🇬 新加坡 08'
+- name: '[I] 🇸🇬 新加坡 35'
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20066
   server: oplosgru-c.catcat321.com
@@ -403,7 +332,7 @@ proxies:
   type: trojan
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 24'
+  name: '[I] 🇩🇪 德国 15'
   network: ws
   port: 443
   server: 18.197.218.69
@@ -417,7 +346,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 68'
+  name: '[I] 🌍 其它地区 41'
   network: ws
   port: 443
   server: 185.246.152.159
@@ -431,7 +360,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: '[I] 🇬🇧 英国 05'
+  name: '[I] 🇬🇧 英国 01'
   network: ws
   port: 443
   server: 57.128.183.3
@@ -445,7 +374,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 25'
+  name: '[I] 🇩🇪 德国 16'
   network: ws
   port: 443
   server: 194.164.192.16
@@ -459,7 +388,7 @@ proxies:
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 69'
+  name: '[I] 🌍 其它地区 42'
   network: ws
   port: 443
   server: 185.223.169.157
@@ -472,12 +401,12 @@ proxies:
       Host: apjhdggyx.com
     path: /5f72f180-b21b-4b7a-8484-240759096785
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 70'
+  name: '[I] 🌍 其它地区 43'
   password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=
   port: 59319
   server: 137.131.181.254
   type: ss
-- name: '[I] 🇨🇦 加拿大 03'
+- name: '[I] 🇨🇦 加拿大 02'
   network: ws
   password: 19877587-ed94-4033-88cd-4ac50a5e8718
   port: 443
