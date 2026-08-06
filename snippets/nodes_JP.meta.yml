@@ -1,5 +1,5 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
+- name: '[D] 🇯🇵 日本 01'
   password: 6c077487-06af-4fb1-9e46-d485d98f0a31
   port: 52454
   server: 45.88.43.116
@@ -7,15 +7,21 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
-  password: aa3c486e-6a1c-470e-b248-e6c55998206d
-  port: 3488
-  server: 4.190.44.31
-  skip-cert-verify: true
-  sni: c1.bestai.beauty
+- alterId: 0
+  cipher: auto
+  name: '[D] 🇯🇵 日本 02'
+  network: ws
+  port: '36801'
+  server: cindy50.ceoiii.com
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '[F] 🇯🇵 日本 03'
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
+- name: '[E] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -23,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[E] 🇯🇵 日本 04'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
@@ -31,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 05'
+- name: '[E] 🇯🇵 日本 05'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
@@ -39,11 +45,3 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[H] 🇯🇵 日本 06'
-  network: tcp
-  port: '10000'
-  server: 14.137.238.144
-  type: vless
-  udp: true
-  uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625
-  xudp: true

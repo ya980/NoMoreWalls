@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 01'
+  name: '[C] 🇩🇪 德国 01'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -11,38 +11,44 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 02'
+- name: '[D] 🇩🇪 德国 02'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: flkf3.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 03'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: flkf3.mangshe.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 04'
   password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
   port: 8443
   server: 213.202.219.29
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 03'
-  password: Apt1923_N9x234gn_Nal5Nx3j_s
-  port: 8443
-  server: 142.111.244.75
-  sni: grape-power-pl.ddnsguru.com
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 04'
+  name: '[G] 🇩🇪 德国 05'
   network: tcp
   port: '443'
-  reality-opts:
-    public-key: TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw
-    short-id: '!!str bbc68cec8bb8d2e3'
-  server: node20.mxvpn.dev
-  servername: node20.mxvpn.dev
+  server: 217.60.193.1
+  servername: ddc-akn.astralweb.tech
   tls: true
   type: vless
   udp: true
-  uuid: 564082ff-cf3c-48db-9e10-8ad2312847b4
+  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
   xudp: true
 - client-fingerprint: firefox
-  name: '[H] 🇩🇪 德国 05'
+  name: '[G] 🇩🇪 德国 06'
   port: 443
   server: 217.60.193.1
   servername: ddc-akn.astralweb.tech
@@ -51,84 +57,36 @@ proxies:
   type: vless
   udp: true
   uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇩🇪 德国 06'
-  obfs: ''
-  obfs-password: ''
-  password: 2ef4cf10-34df-4c0f-9d82-bf6ca9e45025
-  port: 443
-  server: node-degame.bangboonet.ru
-  skip-cert-verify: false
-  sni: node-degame.bangboonet.ru
-  type: hysteria2
-  up: ''
-- client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 07'
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[G] 🇩🇪 德国 07'
   network: tcp
-  port: 443
+  port: '443'
   reality-opts:
-    public-key: BZumLiR7Rg4gs5wa7yntqC5fyZV9Dr8ZpeoAUN5BOxQ
-    short-id: '!!str 6636'
-  server: ge.imsoon.org
-  servername: wunderstation.com
-  tls: false
+    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
+    short-id: '!!str fdda9806fe5d8584'
+  server: 45.129.78.196
+  servername: ger05.skorostnet.space
+  tls: true
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
-- name: '[I] 🇩🇪 德国 08'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
-  uuid: 4b3f916c-1a0f-4d62-a012-d591309ebebb
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+  udp: true
+  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 09'
+  name: '[H] 🇩🇪 德国 08'
   network: ws
   port: 443
   server: 31.76.11.46.cdn-one.org
   servername: 31.76.11.46.cdn-one.org
   tls: true
   type: vless
-  uuid: 2a6b708e-6799-473e-85e9-d4b116c5eedc
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
   ws-opts:
     headers:
       Host: 31.76.11.46.cdn-one.org
     path: '%2F52872%2FBNzG4FvIAr'
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 10'
-  network: ws
-  port: 443
-  server: 18.197.218.69
-  servername: apjhdggyx.com
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 11'
-  network: ws
-  port: 443
-  server: 194.164.192.16
-  servername: apjhdggyx.com
-  tls: true
-  type: vmess
-  uuid: 5f72f180-b21b-4b7a-8484-240759012604
-  ws-opts:
-    headers:
-      Host: apjhdggyx.com
-    path: /5f72f180-b21b-4b7a-8484-240759096785
-- client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 12'
+- name: '[H] 🇩🇪 德国 09'
   network: ws
   port: 443
   server: 31.76.11.46
@@ -139,4 +97,17 @@ proxies:
   ws-opts:
     headers:
       Host: 31.76.11.46.cdn-one.org
-    path: '%2F52872%2FBNzG4FvIAr'
+    path: /52872/BNzG4FvIAr
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 10'
+  network: ws
+  port: 443
+  server: 94.159.97.247
+  servername: vp58.cc.cd
+  tls: true
+  type: vless
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp58.cc.cd
+    path: '%2FTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40VPNine1'
