@@ -1,19 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[D] 🇯🇵 日本 02'
-  network: ws
-  port: '36801'
-  server: cindy50.ceoiii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
-  ws-opts:
-    headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
-- name: '[E] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -21,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[E] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
@@ -29,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[E] 🇯🇵 日本 05'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
@@ -37,3 +23,30 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  name: '[H] 🇯🇵 日本 04'
+  network: http
+  port: 53268
+  server: 47.74.43.250
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 16364b13-0e00-4f2e-82f0-37a721088953
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇯🇵 日本 07'
+  network: ws
+  port: '36803'
+  server: cindy52.ceoiii.com
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8

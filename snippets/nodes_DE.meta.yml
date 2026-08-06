@@ -2,7 +2,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[C] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 01'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -11,14 +11,14 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
+- name: '[E] 🇩🇪 德国 02'
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
+- name: '[E] 🇩🇪 德国 03'
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
   server: flkf3.mangshe.xyz
@@ -26,55 +26,85 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 04'
-  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+- name: '[E] 🇩🇪 德国 04'
+  password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8443
-  server: 213.202.219.29
-  sni: grape-sos-de.roxa.org
+  server: 142.111.244.75
+  sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
 - alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: '[G] 🇩🇪 德国 05'
-  network: tcp
-  port: '443'
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
-  xudp: true
-- client-fingerprint: firefox
-  name: '[G] 🇩🇪 德国 06'
-  port: 443
-  server: 217.60.193.1
-  servername: ddc-akn.astralweb.tech
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 55 Mbps
+  name: '[H] 🇩🇪 德国 05'
+  port: 26691
+  protocol: udp
+  server: 5.83.129.143
   skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 11 Mbps
+- client-fingerprint: firefox
+  name: '[H] 🇩🇪 德国 06'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: pro-de.emrata.top
+  servername: pro-de.emrata.top
+  tls: true
+  type: vless
+  uuid: 95f50108-2bae-4634-948c-b22e01ae3133
+- name: '[H] 🇩🇪 德国 07'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 104.26.2.173
+  skip-cert-verify: true
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: '[H] 🇩🇪 德国 08'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: 5c192fd7-ef98-4112-a20c-129108fcd7e9
+  uuid: a0dc0921-f49b-4ae2-a449-799d68407f15
+  xudp: true
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[G] 🇩🇪 德国 07'
-  network: tcp
-  port: '443'
+  name: '[H] 🇩🇪 德国 09'
+  network: raw
+  port: '9442'
   reality-opts:
-    public-key: aBNWkd8CVkuimbtzgsDNsIUIENI-PQuKkpUInLncz2o
-    short-id: '!!str fdda9806fe5d8584'
-  server: 45.129.78.196
-  servername: ger05.skorostnet.space
+    public-key: 4T_g0pGf0GLsp9y7xfFGY8Iy-TGH-gcsCAHwkOPPhG0
+    short-id: '!!str 4321916c00ee1ca6'
+  server: 194.55.239.14
+  servername: ads.x5.ru
   tls: true
   type: vless
   udp: true
-  uuid: c04bf2df-2b7f-44da-a893-3792d3910fd8
+  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
   xudp: true
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 08'
+  name: '[I] 🇩🇪 德国 10'
   network: ws
   port: 443
   server: 31.76.11.46.cdn-one.org
@@ -86,7 +116,7 @@ proxies:
     headers:
       Host: 31.76.11.46.cdn-one.org
     path: '%2F52872%2FBNzG4FvIAr'
-- name: '[H] 🇩🇪 德国 09'
+- name: '[I] 🇩🇪 德国 11'
   network: ws
   port: 443
   server: 31.76.11.46
@@ -99,7 +129,7 @@ proxies:
       Host: 31.76.11.46.cdn-one.org
     path: /52872/BNzG4FvIAr
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 443
   server: 94.159.97.247
