@@ -7,21 +7,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
-  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
-  port: 30001
-  server: 155.117.19.221
-  skip-cert-verify: true
-  sni: 155.117.19.221
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 150.241.102.127
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 03'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 172.245.233.237
@@ -29,11 +21,19 @@ proxies:
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
+- name: '[E] 🇺🇸 美国 04'
+  password: Hy2@SiLiCon2026!
+  port: 8443
+  server: 43.130.7.3
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
   password: Hy2@SiLiCon2026!
   port: 8443
   server: 43.130.7.3
   skip-cert-verify: true
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[F] 🇺🇸 美国 06'
@@ -60,37 +60,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- fingerprint: ''
-  name: '[H] 🇺🇸 美国 09'
+- name: '[H] 🇺🇸 美国 09'
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: '17963'
+  port: 17963
   server: jjz.jjznodenode.top
   skip-cert-verify: true
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
+- down: ''
+  fingerprint: ''
   name: '[H] 🇺🇸 美国 10'
-  network: ws
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: '443'
-  server: 104.18.152.229
-  servername: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
-  tls: true
-  type: vless
-  udp: true
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  ws-opts:
-    headers:
-      Host: Hk-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.94 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-  xudp: true
+  server: vpn-us-004.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-004.fastervpn.world
+  type: hysteria2
+  up: ''
 - cipher: aes-128-gcm
   name: '[I] 🇺🇸 美国 11'
   password: xo6k84l7b00n2hJp

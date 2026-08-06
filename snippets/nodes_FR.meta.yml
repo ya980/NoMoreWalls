@@ -31,19 +31,16 @@ proxies:
   sni: api.kermanshahi.org@freenettir
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇫🇷 法国 04'
+- name: '[D] 🇫🇷 法国 04'
   obfs: salamander
   obfs-password: gu74jg3ym0e21zco
   password: ik0zt621uw9iqvsi
-  port: '52000'
+  port: 52000
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-  up: ''
 - name: '[D] 🇫🇷 法国 05'
   obfs: salamander
   obfs-password: 527zd9w4nuaccd7g
@@ -84,19 +81,16 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇫🇷 法国 09'
+- name: '[D] 🇫🇷 法国 09'
   obfs: salamander
   obfs-password: l6l4n5a0q9epnr5k
   password: ik0zt621uw9iqvsi
-  port: '52051'
+  port: 52051
   server: assets.gateway-stream.com
   skip-cert-verify: false
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-  up: ''
 - name: '[D] 🇫🇷 法国 10'
   password: qIg7TMxfJvx6t27er0c9P0osebAAPu2PYlB_aoWelV5kVVQ2
   port: 443
@@ -104,8 +98,7 @@ proxies:
   sni: fr2.h2corp.org
   tls: false
   type: hysteria2
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: '[E] 🇫🇷 法国 11'
+- name: '[E] 🇫🇷 法国 11'
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 76.164.202.216
@@ -114,18 +107,16 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 12'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 76.164.202.217
-  sni: mercedes-grape.yyuyy.com
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 13'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: de-two.quiet-rogue.site
+  sni: de-two.quiet-rogue.site
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 14'
@@ -136,16 +127,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 15'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 95.164.123.231
   skip-cert-verify: true
-  sni: germany3.h2corp.local
+  sni: www.cloudflare.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇫🇷 法国 16'
+- name: '[E] 🇫🇷 法国 16'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -168,21 +157,18 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 19'
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17965
-  server: jjz.jjznodenode.top
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 19'
+  network: ws
+  port: 443
+  server: paul.ns.cloudflare.com
+  servername: ziro.skin
   skip-cert-verify: true
-  sni: uk.jjznodenode.top
-  type: anytls
+  tls: true
+  type: vless
   udp: true
-- fingerprint: ''
-  name: '[H] 🇫🇷 法国 20'
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: '17966'
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  uuid: f028a8c0-6763-4558-aee3-2563db9d7825
+  ws-opts:
+    headers:
+      Host: ziro.skin
+    path: /xxvclws
