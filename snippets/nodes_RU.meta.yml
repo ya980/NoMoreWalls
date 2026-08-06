@@ -2,9 +2,22 @@ proxies:
 - name: '[I] 🇷🇺 俄罗斯 01'
   network: ws
   port: 2200
-  server: 72.56.7.195
+  server: 168.222.141.146
   tls: false
   type: vless
-  uuid: 31c2a8e8-0ab2-4f3f-8767-11f3a35d4228
+  uuid: bceda826-c83c-45d0-891e-15c4bfec76bc
   ws-opts:
+    headers:
+      Host: rzd.ru
+    path: '%2Fv1'
+- name: '[I] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: 2200
+  server: 109.73.196.160
+  tls: false
+  type: vless
+  uuid: 5d0206d9-fb42-4c8b-a84b-3d95ab0f42c7
+  ws-opts:
+    headers:
+      Host: rzd.ru
     path: '%2Fv1'

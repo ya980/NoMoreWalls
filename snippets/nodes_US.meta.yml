@@ -7,18 +7,18 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: 150.241.102.127
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
   skip-cert-verify: true
+  sni: 155.117.19.221
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 03'
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  password: Hy2@SiLiCon2026!
   port: 8443
-  server: 172.245.233.237
+  server: 43.130.7.3
   skip-cert-verify: true
-  sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
@@ -26,17 +26,10 @@ proxies:
   port: 8443
   server: 43.130.7.3
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
-  password: Hy2@SiLiCon2026!
-  port: 8443
-  server: 43.130.7.3
-  skip-cert-verify: true
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 05'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -44,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 06'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 39024
@@ -52,7 +45,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -60,7 +53,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 09'
+- name: '[H] 🇺🇸 美国 08'
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17963
   server: jjz.jjznodenode.top
@@ -68,118 +61,166 @@ proxies:
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇺🇸 美国 10'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  up: ''
-- cipher: aes-128-gcm
-  name: '[I] 🇺🇸 美国 11'
-  password: xo6k84l7b00n2hJp
-  port: 57841
-  server: 23.185.200.135
-  type: ss
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 12'
+  encryption: none
+  name: '[H] 🇺🇸 美国 09'
   network: ws
-  port: 443
-  server: 140.248.186.45
-  servername: ssl.fastly.com
-  skip-cert-verify: false
+  port: '443'
+  server: jgngnjg-production-f22e.up.railway.app
+  servername: jgngnjg-production-f22e.up.railway.app
   tls: true
   type: vless
-  uuid: 88888888-8888-8888-8888-888888888888
+  udp: true
+  uuid: 55e956a8-4cbe-1548-c163-72631573e66f
   ws-opts:
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-    path: /
+      Host: jgngnjg-production-f22e.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /ws/55e956a8-4cbe-1548-c163-72631573e66f
+  xudp: true
 - alpn:
   - http/1.1
-  client-fingerprint: ios
-  name: '[I] 🇺🇸 美国 13'
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 10'
   network: ws
-  port: 443
-  server: oigyf45jhg.up.railway.app
-  servername: oigyf45jhg.up.railway.app
+  port: '443'
+  server: rvg-production-uyh4l.up.railway.app
+  servername: rvg-production-uyh4l.up.railway.app
   tls: true
   type: vless
-  uuid: 1bfc5e5e-040a-5ef0-d391-f00acefa50f4
+  udp: true
+  uuid: d078f73a-41cc-7717-8d06-9d3c4ced5ec6
   ws-opts:
     headers:
-      Host: oigyf45jhg.up.railway.app
-    path: /ws/1bfc5e5e-040a-5ef0-d391-f00acefa50f4
-- name: '[I] 🇺🇸 美国 14'
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 15'
-  network: ws
-  port: 8880
-  server: 45.40.149.50
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime39.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 16'
-  network: ws
-  port: 8880
-  server: 50.62.198.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime39.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 17'
-  network: ws
-  port: 80
-  server: 50.62.195.4
-  tls: false
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  ws-opts:
-    headers:
-      Host: raspy-feather-12ec.137-257.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[I] 🇺🇸 美国 18'
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 19'
-  network: ws
-  port: 80
-  server: 208.103.161.249
-  tls: false
-  type: vless
-  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
-  ws-opts:
-    headers:
-      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
-    path: '%2F'
+      Host: rvg-production-uyh4l.up.railway.app
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
+    path: /ws/d078f73a-41cc-7717-8d06-9d3c4ced5ec6
+  xudp: true
+- name: '[H] 🇺🇸 美国 11'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 12'
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 13'
+  password: None
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 14'
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 15'
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 16'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🇺🇸 美国 17'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🇺🇸 美国 18'
+  password: None
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 19'
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 20'
+  port: 9002
+  server: 156.146.59.11
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 21'
+  port: 9002
+  server: 156.146.59.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 22'
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 23'
+  password: None
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 24'
+  password: None
+  port: 9002
+  server: 156.146.59.7
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 25'
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: '[H] 🇺🇸 美国 26'
+  port: 9002
+  server: 156.146.59.39
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 27'
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true

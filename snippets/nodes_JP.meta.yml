@@ -1,13 +1,5 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
-  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
-  port: 52454
-  server: 45.88.43.116
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[F] 🇯🇵 日本 02'
+- name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -15,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
@@ -23,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
@@ -31,7 +23,7 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[H] 🇯🇵 日本 05'
+- name: '[H] 🇯🇵 日本 04'
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17962
   server: jjz.jjznodenode.top
@@ -39,16 +31,45 @@ proxies:
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇯🇵 日本 06'
+- name: '[H] 🇯🇵 日本 05'
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17968
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: '[H] 🇯🇵 日本 06'
+  password: kZqh4Dk9rrkxfI4B
+  port: 8888
+  server: 45.192.198.137
+  type: socks5
+  username: u1179940355
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇯🇵 日本 07'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: -Xqm17XFjFPUHutSnpMNOlrqlT1pJfKuHT003dU3aks
+    short-id: '!!str 06'
+  server: 64.176.55.120
+  servername: shop-us-en.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9194bade-099b-4723-9f19-606edb5aeab8
+  xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 08'
   network: ws
-  port: '36803'
-  server: cindy52.ceoiii.com
-  tls: false
-  type: vmess
-  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  port: 8443
+  server: 45.192.200.66
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
   ws-opts:
     headers:
-      Host: ajax.microsoft.com
-    path: /hls/cctv5phd.m3u8
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
