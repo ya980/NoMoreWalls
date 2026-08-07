@@ -2,8 +2,8 @@ proxies:
 - name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 4099
-  server: 16.162.3.64
+  port: 9408
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -60,8 +60,19 @@ proxies:
   udp: true
   uuid: 9194bade-099b-4723-9f19-606edb5aeab8
   xudp: true
+- name: '[I] 🇯🇵 日本 08'
+  network: ws
+  port: 2095
+  server: 104.16.164.102
+  tls: false
+  type: vless
+  uuid: 74cc6c90-3c28-4a14-9f60-c0e8201ff5b0
+  ws-opts:
+    headers:
+      Host: polished-heart-cb1b.evil-entrap-corner.workers.dev
+    path: /e2fffppbbv4n?ed=2560
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 09'
   network: ws
   port: 8443
   server: 45.192.200.66
