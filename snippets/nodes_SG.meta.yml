@@ -96,11 +96,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇸🇬 新加坡 13'
-  password: 18cf8030-1ceb-4b7d-8c0c-c036413c144e
-  port: 1935
-  server: sg1.xiaoliyu.cyou
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2060
+  server: 194.87.10.67
   skip-cert-verify: true
-  sni: sg1.xiaoliyu.cyou
+  sni: xjp3.mangshe.xyz
   tls: false
   type: hysteria2
 - name: '[E] 🇸🇬 新加坡 14'
@@ -108,9 +108,25 @@ proxies:
   port: 2060
   server: xjp3.mangshe.xyz
   skip-cert-verify: true
+  sni: xjp3.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[F] 🇸🇬 新加坡 15'
+- name: '[E] 🇸🇬 新加坡 15'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2060
+  server: xjp3.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 16'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2060
+  server: xjp3.mangshe.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[F] 🇸🇬 新加坡 17'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 36580
@@ -118,7 +134,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 16'
+- name: '[F] 🇸🇬 新加坡 18'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 32434
@@ -126,7 +142,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 17'
+- name: '[F] 🇸🇬 新加坡 19'
   network: tcp
   password: BxceQaOe
   port: 45744
@@ -134,15 +150,24 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[H] 🇸🇬 新加坡 18'
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17967
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
+- client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 20'
+  network: ws
+  port: '2087'
+  server: 172.64.146.211
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  tls: true
+  type: vless
   udp: true
-- name: '[I] 🇸🇬 新加坡 19'
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  ws-opts:
+    headers:
+      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
+    path: /
+  xudp: true
+- name: '[I] 🇸🇬 新加坡 21'
   password: 41c406e2-12b5-41f2-a329-d0621052d675
   port: 20129
   server: hkdcrtc-e.catcat321.com
