@@ -1,17 +1,10 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: '[E] 🇯🇵 日本 01'
-  obfs: ''
-  obfs-password: ''
-  password: claire123
-  port: '8443'
-  server: 60.71.150.71
-  skip-cert-verify: true
-  sni: tuimao.space
+- name: '[E] 🇯🇵 日本 01'
+  password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
+  port: 443
+  server: jp.cryptoofarm.com
   tls: false
   type: hysteria2
-  up: ''
 - name: '[E] 🇯🇵 日本 02'
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
@@ -52,8 +45,50 @@ proxies:
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇯🇵 日本 07'
+  obfs: ''
+  obfs-password: ''
+  password: 0c3bd8c8-53db-4126-a98f-d12d908d5301
+  port: '11000'
+  server: jpa.nnpy.org
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 07'
+  grpc-opts:
+    grpc-service-name: update
+  name: '[H] 🇯🇵 日本 08'
+  network: grpc
+  port: '10035'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: 18.181.77.188
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: update
+  name: '[H] 🇯🇵 日本 09'
+  network: grpc
+  port: '10035'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 10'
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
