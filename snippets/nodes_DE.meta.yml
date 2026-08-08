@@ -1,8 +1,24 @@
 proxies:
+- name: '[D] 🇩🇪 德国 01'
+  password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq
+  port: 443
+  server: 83.243.86.80
+  skip-cert-verify: false
+  sni: prodfr.h2corp.org
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 93.114.194.117
+  skip-cert-verify: false
+  sni: grape-zet-ro-turbo.bumbleshrimp.com
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -14,7 +30,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 04'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -23,22 +39,15 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 03'
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: 37.114.48.97
-  skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 04'
+- name: '[E] 🇩🇪 德国 05'
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 05'
+- name: '[E] 🇩🇪 德国 06'
   password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
   port: 2056
   server: flkf3.mangshe.xyz
@@ -46,87 +55,22 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: '[H] 🇩🇪 德国 06'
-  network: xhttp
+- name: '[E] 🇩🇪 德国 07'
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
   port: 8443
-  server: 104.16.6.189
-  servername: migmigyoulost.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: migmigyoulost.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: '[H] 🇩🇪 德国 07'
-  network: xhttp
-  port: 8443
-  server: 104.16.6.82
-  servername: migmigyoulost.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: migmigyoulost.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+  server: 213.202.219.29
+  sni: grape-sos-de.roxa.org
+  tls: false
+  type: hysteria2
+- auth: 71cada65-d23e-418c-88e4-a06188d14689
   name: '[H] 🇩🇪 德国 08'
-  network: xhttp
-  port: 2096
-  server: api.tenneltheducks.ir
-  servername: FiN-XhTt.SeZaR.OrG
-  tls: true
-  type: vless
-  udp: true
-  uuid: 735f7616-a5cc-45ce-9bdc-b741054cb13e
-  xhttp-opts:
-    host: FiN-XhTt.SeZaR.OrG
-    mode: auto
-    path: /ports/1106
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 09'
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: '20041'
-  server: Hkdcrtc-e.catcat321.com
+  password: 71cada65-d23e-418c-88e4-a06188d14689
+  port: 443
+  server: 144.31.166.91
   skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: qq
-  encryption: none
-  grpc-opts:
-    grpc-service-name: 5post.gate.v1
-  name: '[H] 🇩🇪 德国 10'
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
-    short-id: '!!str abcd'
-  server: 95.163.232.183
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9db70040-a7e4-4641-9629-699ef03963f8
-  xudp: true
-- name: '[I] 🇩🇪 德国 11'
+  sni: de-two.quiet-rogue.site
+  type: hysteria2
+- name: '[I] 🇩🇪 德国 09'
   network: ws
   port: 80
   server: 146.75.119.82

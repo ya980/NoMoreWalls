@@ -4,15 +4,15 @@ proxies:
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 02'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 160.187.100.109
+  server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 03'
@@ -20,7 +20,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 04'
@@ -28,25 +28,10 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇳 台湾 05'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇳 台湾 06'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[E] 🇨🇳 台湾 07'
+- name: '[E] 🇨🇳 台湾 05'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
@@ -56,21 +41,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇨🇳 台湾 08'
-  network: ws
-  port: '2096'
-  server: twdx6.baidupi.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: ''
-    path: /assets/images/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 台湾 09'
+  name: '[E] 🇨🇳 台湾 06'
   network: raw
   port: '35034'
   server: 165.154.195.38
@@ -78,31 +49,18 @@ proxies:
   tls: false
   type: vmess
   uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇨🇳 台湾 10'
-  network: ws
-  port: '2096'
-  server: twdx6.baidupi.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-  ws-opts:
-    headers:
-      Host: cos.ap-shanghai.myqcloud.com
-    path: /assets/images/
-- name: '[H] 🇨🇳 台湾 11'
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17964
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
+- encryption: none
+  name: '[H] 🇨🇳 台湾 07'
+  network: tcp
+  port: '32355'
+  server: 103.227.225.198
+  type: vless
   udp: true
+  uuid: a2f6da81-64bd-4b86-b806-5658e161b7e4
+  xudp: true
 - down: ''
   fingerprint: ''
-  name: '[H] 🇨🇳 台湾 12'
+  name: '[H] 🇨🇳 台湾 08'
   obfs: salamander
   obfs-password: 1ol3tasb90
   password: 1dcc3b89-0b45-3908-9120-19741361d55d

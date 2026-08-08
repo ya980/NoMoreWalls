@@ -1,17 +1,20 @@
 proxies:
 - name: '[E] 🇭🇰 香港 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.29
+  password: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+  port: 56309
+  server: hkt.ccwink.cc
   skip-cert-verify: true
+  sni: hkt.ccwink.cc
   tls: false
   type: hysteria2
 - name: '[E] 🇭🇰 香港 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  obfs: salamander
+  obfs-password: ZDQxZDhjZDk4ZjAwYjIwNA%3D%3D
+  password: e03ce527-eb73-4ad3-9c88-966def39ae95
   port: 443
-  server: 202.146.222.29
+  server: hk01.poke-mon.xyz
   skip-cert-verify: true
-  sni: 202.146.222.29
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇭🇰 香港 03'
@@ -43,7 +46,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: https%3A%2F%2Ft.me%2FWangCai2%F0%9F%87%A8%F0%9F%87%B3
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇭🇰 香港 07'
@@ -51,7 +54,7 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: t.me
   tls: false
   type: hysteria2
 - name: '[E] 🇭🇰 香港 08'
@@ -67,19 +70,27 @@ proxies:
   port: 443
   server: 202.146.222.29
   skip-cert-verify: true
+  sni: https%3A%2F%2Ft.me%2FWangCai2%D1%80%D2%B9%D2%AE%D0%81%D1%80%D2%B9%D2%AE%D1%96
+  tls: false
+  type: hysteria2
+- name: '[E] 🇭🇰 香港 10'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 202.146.222.29
+  skip-cert-verify: true
   sni: https%3A%2F%2Ft.me%2FWangCai2%C3%B0%C2%9F%C2%87%C2%A8%C3%B0%C2%9F%C2%87%C2%B3
   tls: false
   type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 10'
+  name: '[F] 🇭🇰 香港 11'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 11'
+- name: '[F] 🇭🇰 香港 12'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 50887
@@ -87,7 +98,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 12'
+- name: '[F] 🇭🇰 香港 13'
   network: tcp
   password: BxceQaOe
   port: 11035
@@ -95,7 +106,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 14'
   network: tcp
   password: BxceQaOe
   port: 35151
@@ -105,7 +116,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 14'
+  name: '[G] 🇭🇰 香港 15'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -113,60 +124,9 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: '[H] 🇭🇰 香港 15'
-  network: grpc
-  port: 10127
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk2-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: '[H] 🇭🇰 香港 16'
-  network: grpc
-  port: 10129
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk4-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- name: '[H] 🇭🇰 香港 17'
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17960
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: hk.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: '[H] 🇭🇰 香港 18'
-  network: tcp
-  password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz
-  port: 443
-  server: 43.249.172.27
-  skip-cert-verify: true
-  sni: hongkong.kingonestar.com
-  tls: true
-  type: trojan
-  udp: true
 - down: ''
   fingerprint: ''
-  name: '[H] 🇭🇰 香港 19'
+  name: '[H] 🇭🇰 香港 16'
   obfs: salamander
   obfs-password: 1ol3tasb90
   password: 1dcc3b89-0b45-3908-9120-19741361d55d
@@ -178,7 +138,7 @@ proxies:
   up: ''
 - down: ''
   fingerprint: ''
-  name: '[H] 🇭🇰 香港 20'
+  name: '[H] 🇭🇰 香港 17'
   obfs: salamander
   obfs-password: 1ol3tasb90
   password: 1dcc3b89-0b45-3908-9120-19741361d55d
@@ -190,7 +150,7 @@ proxies:
   up: ''
 - down: ''
   fingerprint: ''
-  name: '[H] 🇭🇰 香港 21'
+  name: '[H] 🇭🇰 香港 18'
   obfs: salamander
   obfs-password: 1ol3tasb90
   password: 1dcc3b89-0b45-3908-9120-19741361d55d

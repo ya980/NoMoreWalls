@@ -1,19 +1,13 @@
 proxies:
 - name: '[E] 🇯🇵 日本 01'
-  password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
-  port: 443
-  server: jp.cryptoofarm.com
+  password: claire123
+  port: 8443
+  server: 60.71.150.71
+  skip-cert-verify: true
+  sni: tuimao.space
   tls: false
   type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
-  password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
-  port: 443
-  server: jp.cryptoofarm.com
-  skip-cert-verify: false
-  sni: jp.cryptoofarm.com
-  tls: false
-  type: hysteria2
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -21,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18286
@@ -29,7 +23,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 05'
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18617
@@ -37,48 +31,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 05'
+  password: amazonskr05
+  port: 443
+  server: 13.114.17.103
+  type: ss
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: '[H] 🇯🇵 日本 06'
-  network: grpc
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 18.181.77.188
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: '[H] 🇯🇵 日本 07'
-  network: grpc
-  port: 10035
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: jp5-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
-- name: '[H] 🇯🇵 日本 08'
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17968
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 09'
+  name: '[I] 🇯🇵 日本 06'
   port: 443
   reality-opts:
     public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
