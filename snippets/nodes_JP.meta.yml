@@ -16,7 +16,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[F] 🇯🇵 日本 03'
-  network: tcp
   password: BxceQaOe
   port: 9408
   server: 95.40.58.84
@@ -24,22 +23,43 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 04'
-  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 44229
   server: 95.40.107.76
-  skip-cert-verify: true
+  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇯🇵 日本 05'
-  network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
   port: 54876
   server: 18.163.100.58
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: '[H] 🇯🇵 日本 06'
+- name: '[G] 🇯🇵 日本 06'
+  network: tcp
+  password: BxceQaOe
+  port: 9408
+  server: 43.198.126.41
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '[G] 🇯🇵 日本 07'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 18286
+  server: 18.163.100.58
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[G] 🇯🇵 日本 08'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 18617
+  server: 95.40.107.76
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[H] 🇯🇵 日本 09'
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17962
   server: jjz.jjznodenode.top
@@ -47,7 +67,7 @@ proxies:
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- name: '[H] 🇯🇵 日本 07'
+- name: '[H] 🇯🇵 日本 10'
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17968
   server: jjz.jjznodenode.top
@@ -55,7 +75,7 @@ proxies:
   sni: jjz.jjznodenode.top
   type: anytls
   udp: true
-- name: '[H] 🇯🇵 日本 08'
+- name: '[H] 🇯🇵 日本 11'
   password: kZqh4Dk9rrkxfI4B
   port: 8888
   server: 45.192.198.137
@@ -63,7 +83,7 @@ proxies:
   username: u1179940355
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇯🇵 日本 09'
+  name: '[H] 🇯🇵 日本 12'
   network: tcp
   port: '443'
   reality-opts:
@@ -76,19 +96,21 @@ proxies:
   udp: true
   uuid: 9194bade-099b-4723-9f19-606edb5aeab8
   xudp: true
-- name: '[I] 🇯🇵 日本 10'
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 13'
   network: ws
-  port: 2095
-  server: 104.16.164.102
-  tls: false
+  port: 443
+  server: 3.162.103.26
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
   type: vless
-  uuid: 74cc6c90-3c28-4a14-9f60-c0e8201ff5b0
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
     headers:
-      Host: polished-heart-cb1b.evil-entrap-corner.workers.dev
-    path: /e2fffppbbv4n?ed=2560
+      Host: d1yxsk0zprgivr.cloudfront.net
+    path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 11'
+  name: '[I] 🇯🇵 日本 14'
   network: ws
   port: 8443
   server: 45.192.200.66

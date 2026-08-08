@@ -1,12 +1,18 @@
 proxies:
-- name: '[I] 🇷🇺 俄罗斯 01'
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇷🇺 俄罗斯 01'
+  password: GczuHD12R6yCLxNEohm_nQ
+  port: 1080
+  server: 37.77.105.11
+  type: ss
+- name: '[I] 🇷🇺 俄罗斯 02'
   network: ws
-  port: 2200
-  server: 109.73.196.160
+  port: 4100
+  server: 104.171.133.53
   tls: false
   type: vless
-  uuid: 5d0206d9-fb42-4c8b-a84b-3d95ab0f42c7
+  uuid: 55009b9b-7b9c-4830-86c6-cb058a7a2e2f
   ws-opts:
     headers:
-      Host: rzd.ru
+      Host: live.ok.ru
     path: '%2Fv1'
