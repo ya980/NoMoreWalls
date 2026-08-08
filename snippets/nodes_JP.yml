@@ -1,26 +1,5 @@
 proxies:
 - name: '[F] 🇯🇵 日本 03'
-  password: BxceQaOe
-  port: 9408
-  server: 95.40.58.84
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '[F] 🇯🇵 日本 04'
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 44229
-  server: 95.40.107.76
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇯🇵 日本 05'
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 54876
-  server: 18.163.100.58
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[G] 🇯🇵 日本 06'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -28,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[G] 🇯🇵 日本 07'
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18286
@@ -36,10 +15,17 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[G] 🇯🇵 日本 08'
+- name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18617
   server: 95.40.107.76
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 08'
+  password: amazonskr05
+  port: 443
+  server: 13.114.17.103
+  type: ss

@@ -1,12 +1,17 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
+- down: ''
+  fingerprint: ''
+  name: '[E] 🇯🇵 日本 01'
+  obfs: ''
+  obfs-password: ''
   password: claire123
-  port: 8443
+  port: '8443'
   server: 60.71.150.71
   skip-cert-verify: true
   sni: tuimao.space
   tls: false
   type: hysteria2
+  up: ''
 - name: '[E] 🇯🇵 日本 02'
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
@@ -16,27 +21,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[F] 🇯🇵 日本 03'
-  password: BxceQaOe
-  port: 9408
-  server: 95.40.58.84
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '[F] 🇯🇵 日本 04'
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 44229
-  server: 95.40.107.76
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇯🇵 日本 05'
-  password: d1960ba9f0f6353353994fa844cf817b
-  port: 54876
-  server: 18.163.100.58
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[G] 🇯🇵 日本 06'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -44,7 +28,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[G] 🇯🇵 日本 07'
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18286
@@ -52,73 +36,69 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[G] 🇯🇵 日本 08'
+- name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18617
   server: 95.40.107.76
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[H] 🇯🇵 日本 09'
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17962
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- name: '[H] 🇯🇵 日本 10'
-  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
-  port: 17968
-  server: jjz.jjznodenode.top
-  skip-cert-verify: true
-  sni: jjz.jjznodenode.top
-  type: anytls
-  udp: true
-- name: '[H] 🇯🇵 日本 11'
-  password: kZqh4Dk9rrkxfI4B
-  port: 8888
-  server: 45.192.198.137
-  type: socks5
-  username: u1179940355
 - client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇯🇵 日本 12'
-  network: tcp
-  port: '443'
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '[H] 🇯🇵 日本 06'
+  network: grpc
+  port: 10035
   reality-opts:
-    public-key: -Xqm17XFjFPUHutSnpMNOlrqlT1pJfKuHT003dU3aks
-    short-id: '!!str 06'
-  server: 64.176.55.120
-  servername: shop-us-en.amd.com
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp5-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
   type: vless
   udp: true
-  uuid: 9194bade-099b-4723-9f19-606edb5aeab8
-  xudp: true
-- client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 13'
-  network: ws
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- fingerprint: ''
+  name: '[H] 🇯🇵 日本 07'
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: '17968'
+  server: jjz.jjznodenode.top
+  skip-cert-verify: false
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+  username: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 08'
+  password: amazonskr05
   port: 443
-  server: 3.162.103.26
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
-  type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
+  server: 13.114.17.103
+  type: ss
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 14'
-  network: ws
-  port: 8443
-  server: 45.192.200.66
-  servername: rubifen.adaspoloandco.com
+  grpc-opts:
+    grpc-service-name: update
+  name: '[H] 🇯🇵 日本 09'
+  network: grpc
+  port: '10035'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: 18.181.77.188
+  servername: s0.awsstatic.com
   tls: true
   type: vless
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  ws-opts:
-    headers:
-      Host: rubifen.adaspoloandco.com
-    path: '%2FGOrbEh'
+  udp: true
+  uuid: 7651FEC2-07B1-4904-8985-8EAAA1B781F3
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 10'
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  tls: false
+  type: vless
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
