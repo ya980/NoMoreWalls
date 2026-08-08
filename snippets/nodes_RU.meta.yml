@@ -1,11 +1,9 @@
 proxies:
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: edge
+  encryption: none
   name: '[H] 🇷🇺 俄罗斯 01'
   network: xhttp
-  port: 443
+  port: '443'
   server: 135.106.140.23
   servername: qwesd.rutendingaltos.top
   tls: true
@@ -15,39 +13,9 @@ proxies:
   xhttp-opts:
     host: qwesd.rutendingaltos.top
     path: /assets/build/_app/immutable/chunks/stream-one/
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 02'
-  network: raw
-  port: '43000'
-  reality-opts:
-    public-key: CH7SpnfklhoBKYhez8VhcLzr9wzFkvbKAThOU_3y9lE
-    short-id: '!!str 7523ef69'
-  server: 81.94.148.119
-  servername: iv.kommersant.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 25d25f21-7a9e-426f-8c14-0c06782585ff
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 03'
-  network: xhttp
-  port: '443'
-  server: 178.72.162.73
-  servername: ru6.ethicsdinnerpave.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  xhttp-opts:
-    host: ru6.ethicsdinnerpave.online
-    path: /assets/build/_app/immutable/chunks/stream-one/
   xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 02'
   password: GczuHD12R6yCLxNEohm_nQ
   port: 1080
   server: 37.77.105.11

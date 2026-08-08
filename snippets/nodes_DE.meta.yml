@@ -24,40 +24,72 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 03'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: 37.114.48.97
+  skip-cert-verify: true
+  sni: flkf3.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 04'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: flkf3.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 05'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: flkf3.mangshe.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 06'
+  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
+  port: 2056
+  server: flkf3.mangshe.xyz
+  skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 07'
   password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
   port: 8443
   server: 213.202.219.29
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 04'
+- name: '[H] 🇩🇪 德国 08'
   network: ws
-  port: 8880
-  server: cd-site.benomiz.ir
-  tls: false
-  type: vless
+  password: chrysanthemum
+  port: 443
+  server: 104.20.48.11
+  skip-cert-verify: true
+  sni: cmee.ezbiz.dynv6.net
+  type: trojan
   udp: true
-  uuid: ba8511c3-66b3-496a-b30f-4c870c87754f
   ws-opts:
     headers:
-      Host: gr.gadawebi.ir
+      Host: cmee.ezbiz.dynv6.net
     path: /
-    v2ray-http-upgrade: true
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '[H] 🇩🇪 德国 05'
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 09'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: '!!str 5a9ab320'
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
+  tls: true
+  type: vless
   udp: true
-  up: 500
-- name: '[I] 🇩🇪 德国 06'
+  uuid: d36b40ec-5328-48e7-b8c1-ce9f1cfa0430
+  xudp: true
+- name: '[I] 🇩🇪 德国 10'
   network: ws
   port: 80
   server: 146.75.119.82
