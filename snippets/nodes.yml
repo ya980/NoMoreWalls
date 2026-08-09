@@ -85,7 +85,7 @@ proxies:
     path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 54'
+  name: '[E] 🌍 其它地区 53'
   network: ws
   port: '80'
   server: 38.107.234.57
@@ -99,7 +99,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 55'
+  name: '[E] 🌍 其它地区 54'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -113,7 +113,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 56'
+  name: '[E] 🌍 其它地区 55'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
@@ -127,10 +127,24 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 57'
+  name: '[E] 🌍 其它地区 56'
   network: ws
   port: '80'
   server: 3h-kazakhstan1.09vpn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /vmess/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🌍 其它地区 57'
+  network: ws
+  port: '80'
+  server: 38.107.234.57
   servername: ''
   tls: false
   type: vmess
@@ -151,24 +165,10 @@ proxies:
   uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
   ws-opts:
     headers:
-      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-    path: /vmess/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🌍 其它地区 59'
-  network: ws
-  port: '80'
-  server: 38.107.234.57
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
-  ws-opts:
-    headers:
       Host: ''
     path: /vmess/
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 60'
+  name: '[F] 🌍 其它地区 59'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -284,100 +284,34 @@ proxies:
   network: ws
   password: humanity
   port: '443'
-  server: 104.18.152.140
+  server: 104.16.174.6
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /assignment
 - name: '[H] 🇫🇷 法国 29'
   network: ws
   password: humanity
   port: '443'
-  server: www.ignitelimit.com
+  server: 104.26.14.137
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
     path: /assignment
-- name: '[H] 🇫🇷 法国 30'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.73
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/50.0.2661.102 Safari/537.36
-    path: /assignment
-- alpn:
-  - http/1.1
-  - h2
-  - h3
-  name: '[H] 🇫🇷 法国 31'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 198.41.223.96
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 32'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 8.6.112.0
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 33'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/40.0.2214.111 Safari/537.36
-    path: /assignment
-- cipher: chacha20-ietf
-  name: '[H] 🌍 其它地区 64'
-  password: asd123456
-  port: '8388'
-  server: 103.149.182.79
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 66'
+  name: '[I] 🌍 其它地区 64'
   network: ws
   port: '443'
   server: 185.246.152.159
