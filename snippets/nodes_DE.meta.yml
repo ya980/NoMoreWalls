@@ -107,47 +107,8 @@ proxies:
   sni: swe-one.quiet-rogue.site
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: firefox
-  name: '[H] 🇩🇪 德国 14'
-  network: xhttp
-  port: 443
-  server: cloudberry-n9d4xk.vkvideo-cdn.com
-  servername: cloudberry-n9d4xk.vkvideo-cdn.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: a68a9249-89db-476e-8f3c-d946d91f619f
-  xhttp-opts:
-    host: cloudberry-n9d4xk.vkvideo-cdn.com
-    mode: packet-up
-    path: /content/media/stream/
-    uplink-data-placement: body
-    uplink-http-method: GET
-    x-padding-bytes: 16-64
-    x-padding-header: X-Signature
-    x-padding-key: _token
-    x-padding-method: tokenish
-    x-padding-obfs-mode: true
-    x-padding-placement: query
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '[H] 🇩🇪 德国 15'
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  reduce-rtt: false
-  request-timeout: 0
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 16'
+  name: '[H] 🇩🇪 德国 14'
   network: ws
   port: '8443'
   server: 172.67.74.62
@@ -163,3 +124,61 @@ proxies:
         Gecko) Chrome/45.0.2454.101 Safari/537.36
     path: /
   xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 15'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
+    short-id: '!!str abe4a59b9f2407e3'
+  server: 5.254.14.165
+  servername: cdn4-81.yahoo.com
+  tls: false
+  type: vless
+  uuid: 408e08b4-4e08-4819-9eb6-0e660ec87530
+  ws-opts:
+    headers:
+      Host: /?BIA_TELEGRAM@
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 16'
+  port: 443
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 17'
+  port: 443
+  server: 217.60.193.4
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 18'
+  network: ws
+  port: 2083
+  server: 46.101.253.244
+  servername: edge.yzkvm.top
+  tls: true
+  type: vless
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  ws-opts:
+    headers:
+      Host: edge.yzkvm.top
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 19'
+  network: ws
+  port: 2083
+  server: 167.172.165.106
+  servername: edge.yzkvm.top
+  tls: true
+  type: vless
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
+  ws-opts:
+    headers:
+      Host: edge.yzkvm.top
+    path: '%2F'

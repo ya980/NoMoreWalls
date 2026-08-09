@@ -45,3 +45,67 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 06'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg
+    short-id: '!!str 03a70b17f8036009'
+  server: 149.33.8.216
+  servername: smartcaptcha.yandexcloud.net
+  tls: false
+  type: vless
+  uuid: 4d064d9b-d4bb-468d-a4e0-948cf6a7541b
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 07'
+  network: ws
+  port: 8443
+  server: 45.192.200.66
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 08'
+  network: ws
+  port: 8443
+  server: 82.40.42.204
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 09'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: d1LjsQHtTCj7kHx2LHFisVDPc_xOtKnugy5YRFKXqUs
+    short-id: '!!str 39'
+  server: 64.176.62.54
+  servername: www.amazon.com
+  tls: false
+  type: vless
+  uuid: 12e35bfe-1e79-4cf1-8a8e-22a242e97408
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 10'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XIEl7Jc6yg_oN8LXbPUPzal77H9cTsRsRupyFhEKtF4
+    short-id: '!!str 94fc930c'
+  server: 64.176.58.170
+  servername: www.amazon.com
+  tls: false
+  type: vless
+  uuid: 1b5d1c3c-93de-405c-9041-7cf6bcdbe726
