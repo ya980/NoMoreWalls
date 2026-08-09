@@ -43,6 +43,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 06'
@@ -50,7 +51,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 07'
@@ -58,7 +59,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: flkf3.mangshe.xyz
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 08'
@@ -66,7 +67,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 09'
@@ -74,7 +75,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 10'
@@ -82,51 +83,46 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 11'
-  password: 9d3356a0-c07e-43cc-b30e-450bd50521b8
-  port: 2056
-  server: flkf3.mangshe.xyz
-  skip-cert-verify: true
   sni: t.me
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 12'
+- name: '[E] 🇩🇪 德国 11'
   password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
   port: 8443
   server: 213.202.219.29
   sni: grape-sos-de.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 13'
+- name: '[E] 🇩🇪 德国 12'
   password: 0f2dc4af-951f-4690-922e-07c6e8bab26a
   port: 2083
   server: 178.253.55.89
   sni: swe-one.quiet-rogue.site
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 14'
-  network: ws
-  port: '8443'
-  server: 172.67.74.62
-  servername: vpn.sqhuang.com
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 13'
+  network: xhttp
+  port: '2087'
+  server: 104.16.6.70
+  servername: ip.xn--fjqyexxidv2znoe9rk1n8ada0532g6usa.com
   tls: true
   type: vless
   udp: true
-  uuid: 0970324b-8c61-4ae7-8c3f-385a6f1e17e4
-  ws-opts:
-    headers:
-      Host: vpn.sqhuang.com
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.101 Safari/537.36
+  uuid: 60cb13f0-4e85-4e10-b7f1-86a7a73afad9
+  xhttp-opts:
+    host: full.xn--fjqyexxidv2znoe9rk1n8ada0532g6usa.com
+    mode: auto
     path: /
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 15'
+  name: '[I] 🇩🇪 德国 14'
   network: tcp
   port: 443
   reality-opts:
@@ -141,7 +137,7 @@ proxies:
     headers:
       Host: /?BIA_TELEGRAM@
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 15'
   port: 443
   server: ddc-akn.astralweb.tech
   servername: ddc-akn.astralweb.tech
@@ -149,7 +145,7 @@ proxies:
   type: vless
   uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 17'
+  name: '[I] 🇩🇪 德国 16'
   port: 443
   server: 217.60.193.4
   servername: ddc-akn.astralweb.tech
@@ -157,7 +153,7 @@ proxies:
   type: vless
   uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 18'
+  name: '[I] 🇩🇪 德国 17'
   network: ws
   port: 2083
   server: 46.101.253.244
@@ -170,7 +166,7 @@ proxies:
       Host: edge.yzkvm.top
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 19'
+  name: '[I] 🇩🇪 德国 18'
   network: ws
   port: 2083
   server: 167.172.165.106

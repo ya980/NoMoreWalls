@@ -1,5 +1,13 @@
 proxies:
 - name: '[E] 🇯🇵 日本 01'
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 02'
   password: claire123
   port: 8443
   server: 60.71.150.71
@@ -7,12 +15,20 @@ proxies:
   sni: tuimao.space
   tls: false
   type: hysteria2
+- name: '[E] 🇯🇵 日本 03'
+  password: 0c3bd8c8-53db-4126-a98f-d12d908d5301
+  port: 11000
+  server: jpa.nnpy.org
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇯🇵 日本 02'
+  name: '[E] 🇯🇵 日本 04'
   network: ws
   port: '36801'
-  server: 4.189.75.68
+  server: cindy50.ceoiii.com
   servername: ''
   tls: false
   type: vmess
@@ -21,7 +37,7 @@ proxies:
     headers:
       Host: ajax.microsoft.com
     path: /hls/cctv5phd.m3u8
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -29,7 +45,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 06'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 7630
@@ -37,7 +53,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 05'
+- name: '[F] 🇯🇵 日本 07'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18286
@@ -46,7 +62,7 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 06'
+  name: '[I] 🇯🇵 日本 08'
   network: tcp
   port: 443
   reality-opts:
@@ -58,7 +74,7 @@ proxies:
   type: vless
   uuid: 4d064d9b-d4bb-468d-a4e0-948cf6a7541b
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 09'
   network: ws
   port: 8443
   server: 45.192.200.66
@@ -71,7 +87,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 10'
   network: ws
   port: 8443
   server: 82.40.42.204
@@ -85,7 +101,7 @@ proxies:
     path: '%2FGOrbEh'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 09'
+  name: '[I] 🇯🇵 日本 11'
   network: tcp
   port: 443
   reality-opts:
@@ -98,7 +114,7 @@ proxies:
   uuid: 12e35bfe-1e79-4cf1-8a8e-22a242e97408
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 10'
+  name: '[I] 🇯🇵 日本 12'
   network: tcp
   port: 443
   reality-opts:
