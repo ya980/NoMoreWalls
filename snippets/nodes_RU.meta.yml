@@ -14,23 +14,7 @@ proxies:
   name: '[H] 🇷🇺 俄罗斯 02'
   network: xhttp
   port: 443
-  server: ru6.ethicsdinnerpave.online
-  servername: ru6.ethicsdinnerpave.online
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  xhttp-opts:
-    host: ru6.ethicsdinnerpave.online
-    path: /assets/build/_app/immutable/chunks/stream-one/
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: edge
-  name: '[H] 🇷🇺 俄罗斯 03'
-  network: xhttp
-  port: 443
-  server: qwesd.rutendingaltos.top
+  server: 135.106.140.23
   servername: qwesd.rutendingaltos.top
   tls: true
   type: vless
@@ -38,6 +22,19 @@ proxies:
   uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
   xhttp-opts:
     host: qwesd.rutendingaltos.top
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- client-fingerprint: edge
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: xhttp
+  port: 443
+  server: 178.72.162.73
+  servername: ru6.ethicsdinnerpave.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: ru6.ethicsdinnerpave.online
     path: /assets/build/_app/immutable/chunks/stream-one/
 - alpn:
   - h2
@@ -55,14 +52,20 @@ proxies:
   xhttp-opts:
     host: wqeds.denverpresents.top
     path: /assets/build/_app/immutable/chunks/stream-one/
-- client-fingerprint: firefox
-  name: '[I] 🇷🇺 俄罗斯 05'
-  port: 443
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tuning-stream
+  name: '[H] 🇷🇺 俄罗斯 05'
+  network: grpc
+  port: '9441'
   reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
-  tls: false
+    public-key: xTk5dX6E0DGuQj19bWDMafx13XoUK8euqlmtwJIg8wY
+    short-id: '!!str 8a7137d4e9c49b9c'
+  server: mws-fc-1.ghost-lan.com
+  servername: max.ru
+  tls: true
   type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  udp: true
+  uuid: b251ec8f-47ec-4ab4-8bd2-13ac333a4100
+  xudp: true
