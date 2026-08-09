@@ -43,7 +43,6 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 06'
@@ -51,7 +50,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 07'
@@ -59,7 +58,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: flkf3.mangshe.xyz
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 08'
@@ -67,7 +66,7 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 09'
@@ -75,55 +74,30 @@ proxies:
   port: 2056
   server: flkf3.mangshe.xyz
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 10'
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: 8443
+  server: 213.202.219.29
+  sni: grape-sos-de.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 11'
+  password: 0f2dc4af-951f-4690-922e-07c6e8bab26a
+  port: 2083
+  server: 178.253.55.89
+  sni: swe-one.quiet-rogue.site
   tls: false
   type: hysteria2
 - alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 55 Mbps
-  name: '[H] 🇩🇪 德国 10'
-  port: 26691
-  protocol: udp
-  server: 5.83.129.143
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 11 Mbps
-- encryption: none
-  name: '[H] 🇩🇪 德国 11'
-  network: tcp
-  port: '22224'
-  server: 3.64.99.156
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 12'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: MEwjYdJUYh3zM9Z1YiO5msx2bOu4h1wk_2TYPBCf9Ww
-    short-id: '!!str 9c930be003a75523'
-  server: 193.58.122.41
-  servername: vk.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 695a935b-5d8b-4468-ba7c-5f2a02e3356e
-  xudp: true
-- alpn:
   - h2
   client-fingerprint: ios
-  encryption: none
-  name: '[H] 🇩🇪 德国 13'
+  name: '[H] 🇩🇪 德国 12'
   network: xhttp
   port: '443'
-  server: 138.124.186.25
+  server: deu513.globalunlock.org
   servername: deu513.globalunlock.org
   tls: true
   type: vless
@@ -131,16 +105,23 @@ proxies:
   uuid: 77930005-ea92-44dc-9d94-e9192427f519
   xhttp-opts:
     host: deu513.globalunlock.org
+    mode: auto
     path: /api/v1/
-  xudp: true
-- name: '[I] 🇩🇪 德国 14'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 13'
+  port: 443
+  server: 217.60.193.4
+  servername: ddc-akn.astralweb.tech
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: c0386f3f-e9bc-4ede-a00e-2e294993f54e
-  ws-opts:
-    headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+  udp: true
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 14'
+  port: 443
+  server: ddc-akn.astralweb.tech
+  servername: ddc-akn.astralweb.tech
+  tls: true
+  type: vless
+  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af

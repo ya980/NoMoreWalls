@@ -1,20 +1,62 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   name: '[H] 🇷🇺 俄罗斯 01'
-  port: 993
-  reality-opts:
-    public-key: Rt2wltCWOxIroFggNWMudZDBJXls8DsF4icaWqxKDk8
-  server: 88.218.44.4
-  servername: dl.google.com
-  skip-cert-verify: true
-  tls: false
+  network: xhttp
+  port: 443
+  server: 135.106.140.23
+  servername: qwesd.rutendingaltos.top
+  tls: true
   type: vless
   udp: true
-  uuid: 7c74b0e4-f132-5583-4692-622a7d6b71a4
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇷🇺 俄罗斯 02'
-  password: GczuHD12R6yCLxNEohm_nQ
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: qwesd.rutendingaltos.top
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: xhttp
+  port: 443
+  server: wqeds.denverpresents.top
+  servername: wqeds.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: wqeds.denverpresents.top
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- name: '[H] 🇷🇺 俄罗斯 03'
   port: 1080
-  server: 37.77.105.11
-  type: ss
+  server: 193.233.218.213
+  type: socks5
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 04'
+  network: xhttp
+  port: '443'
+  server: 178.72.162.73
+  servername: wqeds.denverpresents.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    path: /assets/build/_app/immutable/chunks/stream-one/
+  xudp: true
+- client-fingerprint: firefox
+  name: '[I] 🇷🇺 俄罗斯 05'
+  port: 443
+  reality-opts:
+    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
+    short-id: '!!str 0b'
+  server: 45.155.52.231
+  servername: ru2.skydrgn-online.online
+  tls: false
+  type: vless
+  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19

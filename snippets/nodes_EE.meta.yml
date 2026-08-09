@@ -1,1 +1,29 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] EE 01'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: g-WqfHKjac71MMtkmq5bIvTFavzXTCAnEI_17KoTNSQ
+    short-id: '!!str '
+  server: 91.235.234.186
+  servername: us7fs3.proxen.pdevinfra.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4593aa27-a2a1-412f-935f-3829495c0970
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] EE 02'
+  port: 443
+  reality-opts:
+    public-key: P2MV0I11JvKg-G3wfg64YVGUEh0Wvy6C4MTVsMPWdyQ
+    short-id: '!!str 7b1c7d9a3f2a'
+  server: 64.188.82.57
+  servername: ee-download.spectrum.vu
+  tls: false
+  type: vless
+  uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc

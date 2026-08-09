@@ -1,10 +1,10 @@
 proxies:
 - name: '[E] 🇯🇵 日本 01'
-  password: claire123
-  port: 8443
-  server: 60.71.150.71
+  password: 6c077487-06af-4fb1-9e46-d485d98f0a31
+  port: 52454
+  server: 45.88.43.116
   skip-cert-verify: true
-  sni: tuimao.space
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇯🇵 日本 02'
@@ -15,38 +15,106 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[F] 🇯🇵 日本 03'
-  network: tcp
-  password: BxceQaOe
-  port: 9408
-  server: 43.198.126.41
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 03'
+  network: ws
+  port: '36801'
+  server: cindy50.ceoiii.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - name: '[F] 🇯🇵 日本 04'
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 18286
-  server: 18.163.100.58
+  password: BxceQaOe
+  port: 4099
+  server: 18.167.76.203
   skip-cert-verify: true
-  sni: www.nintendogames.net
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 18617
-  server: 95.40.107.76
+  port: 7630
+  server: 18.166.178.12
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇯🇵 日本 06'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 18286
+  server: 18.166.178.12
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 06'
-  port: 443
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 07'
+  network: tcp
+  port: 13868
   reality-opts:
-    public-key: 6p0aVCkOgd-xaxqSMANYABL6O4Tdbftnxjiy5qcmISQ
-    short-id: '!!str 0b'
-  server: 45.155.52.231
-  servername: ru2.skydrgn-online.online
+    public-key: YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w
+    short-id: '!!str e852dc'
+  server: 78.17.154.129
+  servername: wp.pl
   tls: false
   type: vless
-  uuid: 219f9fec-8983-4f6f-af8c-31bd0c6dbf19
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 08'
+  network: ws
+  port: 8443
+  server: 82.40.42.204
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 09'
+  network: ws
+  port: 8443
+  server: 45.192.200.66
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 10'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XIEl7Jc6yg_oN8LXbPUPzal77H9cTsRsRupyFhEKtF4
+    short-id: '!!str 94fc930c'
+  server: 64.176.58.170
+  servername: www.amazon.com
+  tls: false
+  type: vless
+  uuid: 1b5d1c3c-93de-405c-9041-7cf6bcdbe726
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 11'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: d1LjsQHtTCj7kHx2LHFisVDPc_xOtKnugy5YRFKXqUs
+    short-id: '!!str 39'
+  server: 64.176.62.54
+  servername: www.amazon.com
+  tls: false
+  type: vless
+  uuid: 12e35bfe-1e79-4cf1-8a8e-22a242e97408
