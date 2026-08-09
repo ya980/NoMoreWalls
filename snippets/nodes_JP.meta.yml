@@ -7,14 +7,20 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
-  password: 0c3bd8c8-53db-4126-a98f-d12d908d5301
-  port: 11000
-  server: jpa.nnpy.org
-  skip-cert-verify: true
-  sni: www.bing.com
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 02'
+  network: ws
+  port: '36801'
+  server: 4.189.75.68
+  servername: ''
   tls: false
-  type: hysteria2
+  type: vmess
+  uuid: a6ab6513-6ec3-327f-a068-b89fe72954b8
+  ws-opts:
+    headers:
+      Host: ajax.microsoft.com
+    path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
   name: '[E] 🇯🇵 日本 03'
@@ -53,24 +59,23 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
+- flow: xtls-rprx-vision
   name: '[I] 🇯🇵 日本 07'
   network: tcp
-  port: 13868
+  port: 443
   reality-opts:
-    public-key: YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w
-    short-id: '!!str e852dc'
-  server: 78.17.154.129
-  servername: wp.pl
+    public-key: oX_8IyRmI_X4pPWaGTbduLyvlZWwLkZlxJKmtvjmqEg
+    short-id: '!!str 03a70b17f8036009'
+  server: 149.33.8.216
+  servername: smartcaptcha.yandexcloud.net
   tls: false
   type: vless
-  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+  uuid: 4d064d9b-d4bb-468d-a4e0-948cf6a7541b
 - client-fingerprint: chrome
   name: '[I] 🇯🇵 日本 08'
   network: ws
   port: 8443
-  server: 82.40.42.204
+  server: 45.192.200.66
   servername: rubifen.adaspoloandco.com
   tls: true
   type: vless
@@ -83,7 +88,7 @@ proxies:
   name: '[I] 🇯🇵 日本 09'
   network: ws
   port: 8443
-  server: 45.192.200.66
+  server: 82.40.42.204
   servername: rubifen.adaspoloandco.com
   tls: true
   type: vless
@@ -98,19 +103,6 @@ proxies:
   network: tcp
   port: 443
   reality-opts:
-    public-key: XIEl7Jc6yg_oN8LXbPUPzal77H9cTsRsRupyFhEKtF4
-    short-id: '!!str 94fc930c'
-  server: 64.176.58.170
-  servername: www.amazon.com
-  tls: false
-  type: vless
-  uuid: 1b5d1c3c-93de-405c-9041-7cf6bcdbe726
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 11'
-  network: tcp
-  port: 443
-  reality-opts:
     public-key: d1LjsQHtTCj7kHx2LHFisVDPc_xOtKnugy5YRFKXqUs
     short-id: '!!str 39'
   server: 64.176.62.54
@@ -118,3 +110,16 @@ proxies:
   tls: false
   type: vless
   uuid: 12e35bfe-1e79-4cf1-8a8e-22a242e97408
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 11'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XIEl7Jc6yg_oN8LXbPUPzal77H9cTsRsRupyFhEKtF4
+    short-id: '!!str 94fc930c'
+  server: 64.176.58.170
+  servername: www.amazon.com
+  tls: false
+  type: vless
+  uuid: 1b5d1c3c-93de-405c-9041-7cf6bcdbe726

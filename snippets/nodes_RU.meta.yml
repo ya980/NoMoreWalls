@@ -1,12 +1,36 @@
 proxies:
+- name: '[D] 🇷🇺 俄罗斯 01'
+  password: 7836b28e-8451-4596-ad3e-e3601b2335ba
+  port: 8443
+  server: 78.159.240.69
+  skip-cert-verify: true
+  sni: quic.tyr-agentstvo.tech
+  tls: false
+  type: hysteria2
 - alpn:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇷🇺 俄罗斯 01'
+  name: '[H] 🇷🇺 俄罗斯 02'
   network: xhttp
   port: 443
-  server: 135.106.140.23
+  server: ru6.ethicsdinnerpave.online
+  servername: ru6.ethicsdinnerpave.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
+  xhttp-opts:
+    host: ru6.ethicsdinnerpave.online
+    path: /assets/build/_app/immutable/chunks/stream-one/
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: xhttp
+  port: 443
+  server: qwesd.rutendingaltos.top
   servername: qwesd.rutendingaltos.top
   tls: true
   type: vless
@@ -19,7 +43,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: firefox
-  name: '[H] 🇷🇺 俄罗斯 02'
+  name: '[H] 🇷🇺 俄罗斯 04'
   network: xhttp
   port: 443
   server: wqeds.denverpresents.top
@@ -31,24 +55,6 @@ proxies:
   xhttp-opts:
     host: wqeds.denverpresents.top
     path: /assets/build/_app/immutable/chunks/stream-one/
-- name: '[H] 🇷🇺 俄罗斯 03'
-  port: 1080
-  server: 193.233.218.213
-  type: socks5
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 04'
-  network: xhttp
-  port: '443'
-  server: 178.72.162.73
-  servername: wqeds.denverpresents.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: 60ba3369-9a78-40fe-98c3-233a6f107043
-  xhttp-opts:
-    path: /assets/build/_app/immutable/chunks/stream-one/
-  xudp: true
 - client-fingerprint: firefox
   name: '[I] 🇷🇺 俄罗斯 05'
   port: 443
