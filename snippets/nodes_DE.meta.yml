@@ -30,61 +30,58 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 04'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw
-    short-id: '!!str abe4a59b9f2407e3'
-  server: 5.254.14.165
-  servername: cdn4-81.yahoo.com
+- name: '[E] 🇩🇪 德国 04'
+  password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
+  port: 8443
+  server: 213.202.219.29
+  sni: grape-sos-de.roxa.org
   tls: false
-  type: vless
-  uuid: 408e08b4-4e08-4819-9eb6-0e660ec87530
-  ws-opts:
-    headers:
-      Host: /?BIA_TELEGRAM@
-- client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 05'
+  type: hysteria2
+- name: '[I] 🇩🇪 德国 05'
   port: 443
   server: ddc-akn.astralweb.tech
-  servername: ddc-akn.astralweb.tech
   tls: true
   type: vless
   uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 06'
+- name: '[I] 🇩🇪 德国 06'
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 07'
+  network: tcp
+  port: 13868
+  reality-opts:
+    public-key: XxzDVidmyjuPnBKrFDwCpowaIdLth4-kJsqrDvdPPx8
+    short-id: '!!str e852dc'
+  server: 78.17.105.53
+  servername: amd.com
+  tls: false
+  type: vless
+  uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078
+- name: '[I] 🇩🇪 德国 08'
+  network: ws
+  port: 80
+  server: 146.75.119.82
+  tls: false
+  type: vless
+  uuid: 4df5ba9d-bc17-4c57-ab71-b54d42535188
+  ws-opts:
+    headers:
+      Host: rb24.ir
+    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+- client-fingerprint: edge
+  name: '[I] 🇩🇪 德国 09'
   port: 443
   server: 217.60.193.4
   servername: ddc-akn.astralweb.tech
   tls: true
   type: vless
   uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
-- client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 07'
-  network: ws
-  port: 2083
-  server: 46.101.253.244
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 08'
-  network: ws
-  port: 2083
-  server: 167.172.165.106
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-    path: '%2F'
