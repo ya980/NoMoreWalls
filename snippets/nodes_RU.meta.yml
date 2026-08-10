@@ -2,6 +2,7 @@ proxies:
 - client-fingerprint: safari
   flow: xtls-rprx-vision
   name: '[I] 🇷🇺 俄罗斯 01'
+  network: tcp
   port: 443
   reality-opts:
     public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
@@ -11,18 +12,3 @@ proxies:
   tls: false
   type: vless
   uuid: 1bced29a-3051-42b8-b393-005135b97616
-- client-fingerprint: edge
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
-  port: 7443
-  reality-opts:
-    public-key: mBaiGOrxW7NFGpW7aZLztWiME6vulM0Nk1Uh0SxX4zc
-    short-id: '!!str fa1a12cf'
-  server: 161.104.32.106
-  servername: eh.vk.com
-  tls: false
-  type: vless
-  uuid: 501b6afa-f955-473f-8440-1010110a1548
-  ws-opts:
-    headers:
-      Host: eh.vk.com
