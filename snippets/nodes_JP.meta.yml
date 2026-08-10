@@ -64,17 +64,23 @@ proxies:
   type: http
   username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - name: '[I] 🇯🇵 日本 08'
+  network: ws
+  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   port: 443
-  server: ddc-chr.astralweb.tech
-  tls: true
-  type: vless
-  uuid: 5dc56757-458e-4df2-9e71-2a14ce47e8af
+  server: blackshadow.dpdns.org
+  sni: blackshadow.dpdns.org
+  type: trojan
+  ws-opts:
+    headers:
+      Host: blackshadow.dpdns.org
+    path: '%2F195.123.218.174-443'
 - client-fingerprint: chrome
   name: '[I] 🇯🇵 日本 09'
   network: ws
   port: 8443
-  server: 82.40.42.204
+  server: 45.192.200.66
   servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
@@ -86,7 +92,7 @@ proxies:
   name: '[I] 🇯🇵 日本 10'
   network: ws
   port: 8443
-  server: 45.192.200.66
+  server: 82.40.42.204
   servername: rubifen.adaspoloandco.com
   tls: true
   type: vless
