@@ -1,39 +1,24 @@
 proxies:
-- name: '[D] 🇷🇺 俄罗斯 01'
-  password: 95c61940-2823-4665-a033-d4f2218329b6
-  port: 443
-  server: 46.8.210.209
-  skip-cert-verify: false
-  sni: ru3.kinotorg.net
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇷🇺 俄罗斯 02'
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: xhttp
   port: '443'
-  server: usa1.spectrumproxy.shop
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
-  type: hysteria2
-  up: ''
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇷🇺 俄罗斯 03'
-  obfs: ''
-  obfs-password: ''
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: '443'
-  server: 138.124.68.188
-  skip-cert-verify: false
-  sni: usa1.spectrumproxy.shop
-  type: hysteria2
-  up: ''
+  server: 104.18.32.47
+  servername: rus.aba-hum.store
+  tls: true
+  type: vless
+  udp: true
+  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 02'
   port: 443
   reality-opts:
     public-key: OTuJX9K_E2nHhg0mXT2uFMNIO7746G6c5rlT6OscQGk
@@ -45,7 +30,7 @@ proxies:
   uuid: e3c40721-22bc-4862-a358-09502fc14af6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 05'
+  name: '[I] 🇷🇺 俄罗斯 03'
   port: 443
   reality-opts:
     public-key: 8qUm4S6MR9bLa-ZfblO64aKjRIwGEFEwdVIxgz_tbn4
