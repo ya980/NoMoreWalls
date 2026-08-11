@@ -70,7 +70,9 @@ proxies:
   server: 16.162.3.11
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
+  tls: false
   type: trojan
+  udp: true
 - name: '[F] 🇭🇰 香港 10'
   network: tcp
   password: BxceQaOe
@@ -99,22 +101,16 @@ proxies:
     short-id: '!!str bc8e3658db7d1323'
   server: 155.117.199.12
   servername: cdnjs.cloudflare.com
+  skip-cert-verify: true
   tls: true
   type: vless
   udp: true
   uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇭🇰 香港 13'
-  network: tcp
-  port: '39569'
-  reality-opts:
-    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
-    short-id: '!!str bc8e3658db7d1323'
-  server: 188.253.123.164
-  servername: cdnjs.cloudflare.com
-  tls: true
-  type: vless
+- name: '[H] 🇭🇰 香港 13'
+  password: smart@hkteVBi9aMFp-veBGU72OSCx
+  port: 21521
+  server: z-hk1.251313.xyz
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  type: trojan
   udp: true
-  uuid: 53b59cb5-c741-3399-9065-93dc34685f5b
-  xudp: true
