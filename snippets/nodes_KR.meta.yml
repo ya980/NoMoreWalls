@@ -36,13 +36,13 @@ proxies:
   port: 443
   server: 3.36.93.74
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇰🇷 韩国 06'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 3.36.96.245
+  server: 3.36.93.74
   skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
@@ -50,17 +50,17 @@ proxies:
 - name: '[E] 🇰🇷 韩国 07'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 43.201.1.129
+  server: 3.36.96.245
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇰🇷 韩国 08'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 43.201.58.201
+  server: 43.201.1.129
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: t.me
   tls: false
   type: hysteria2
 - name: '[E] 🇰🇷 韩国 09'
@@ -68,10 +68,18 @@ proxies:
   port: 443
   server: 43.201.58.201
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇰🇷 韩国 10'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 43.201.58.201
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[E] 🇰🇷 韩国 11'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.124.150.77
@@ -79,7 +87,7 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[E] 🇰🇷 韩国 11'
+- name: '[E] 🇰🇷 韩国 12'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.125.214.225
@@ -87,7 +95,15 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[E] 🇰🇷 韩国 12'
+- name: '[E] 🇰🇷 韩国 13'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.125.214.225
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[E] 🇰🇷 韩国 14'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.125.231.61
@@ -95,3 +111,17 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 15'
+  network: ws
+  port: '10509'
+  server: 115.89.98.231
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4f1c1ca1-a422-4014-9423-04e39ed73b03
+  ws-opts:
+    headers:
+      Host: ''
+    path: /arki
