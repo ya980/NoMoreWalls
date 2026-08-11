@@ -108,35 +108,15 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 14'
-  network: ws
-  port: 2095
-  server: cdn-cloudflare455.korvexe.ir
-  tls: false
-  type: vless
-  udp: true
-  uuid: 74a025dd-c287-4acf-a5fb-e573e10feef9
-  ws-opts:
-    headers:
-      Host: cdn-cloudflare455.korvexe.ir
-    path: /
-    v2ray-http-upgrade: true
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '[H] 🇺🇸 美国 15'
-  network: ws
-  port: 2054
-  server: 132.145.200.43
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ceeaee0b-89af-40b1-aa14-577cbde03a89
-  ws-opts:
-    path: /p
-- name: '[H] 🇺🇸 美国 16'
+- multiplexing: MULTIPLEXING_LOW
+  name: '[H] 🇺🇸 美国 14'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: '[H] 🇺🇸 美国 15'
   network: ws
   port: '57878'
   server: 38.246.226.240
@@ -147,57 +127,11 @@ proxies:
     headers:
       Host: ''
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
     path: /535f0e03
   xudp: true
 - client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 17'
-  network: ws
-  port: 2053
-  server: 91.193.58.219
-  servername: vlso4.1d.mom
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  ws-opts:
-    headers:
-      Host: vlso4.1d.mom
-    path: /socks5=888:888@hkip.1d.mom:1080
-- name: '[H] 🇺🇸 美国 18'
-  password: None
-  port: 9002
-  server: 156.146.59.33
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 19'
-  password: None
-  port: 9002
-  server: 156.146.59.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 20'
-  password: None
-  port: 9002
-  server: 156.146.59.9
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 21'
-  password: None
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 22'
+  name: '[H] 🇺🇸 美国 16'
   password: BxceQaOe
   port: '39024'
   server: 18.166.226.204
@@ -205,33 +139,16 @@ proxies:
   sni: t.me/ripaojiedian
   type: trojan
   udp: true
-- multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 23'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: '[H] 🇺🇸 美国 24'
-  network: grpc
-  port: '9830'
-  reality-opts:
-    public-key: bnRIb3Er1i-K6NGGByCO9UbGfOvu43ZoiK7ulPd1SzU
-    short-id: '!!str aabb'
-  server: 37.18.102.143
-  servername: dl.google.com
+- name: '[H] 🇺🇸 美国 17'
+  port: 443
+  server: goedkoopgeluid.icu
+  skip-cert-verify: true
+  sni: goedkoopgeluid.icu
   tls: true
-  type: vless
-  udp: true
-  uuid: 130e6aab-9eba-441e-9021-22cbccc72832
-  xudp: true
+  type: http
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 25'
+  name: '[I] 🇺🇸 美国 18'
   network: ws
   password: humanity
   port: 443
@@ -243,7 +160,7 @@ proxies:
 - alpn:
   - http/1.1
   client-fingerprint: ios
-  name: '[I] 🇺🇸 美国 26'
+  name: '[I] 🇺🇸 美国 19'
   network: ws
   port: 443
   server: 69.46.46.22
@@ -256,13 +173,13 @@ proxies:
       Host: rvg-production-e38c.up.railway.app
     path: /ws/281bd046-6a4c-e6ad-0bfe-4554319436dc
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇺🇸 美国 27'
+  name: '[I] 🇺🇸 美国 20'
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
   port: 42982
   server: autodiscover.fuzzyaytor.cyou
   type: ss
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 28'
+  name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 443
   server: 3.170.185.91
@@ -274,7 +191,7 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
-- name: '[I] 🇺🇸 美国 29'
+- name: '[I] 🇺🇸 美国 22'
   network: ws
   password: humanity
   port: 443
@@ -283,7 +200,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 30'
+- name: '[I] 🇺🇸 美国 23'
   network: ws
   port: 80
   server: 208.103.161.249
