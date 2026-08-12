@@ -30,37 +30,24 @@ proxies:
   sni: premium-de-hy2.geodema.network
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 04'
-  network: tcp
-  port: 7190
-  reality-opts:
-    public-key: mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8
-    short-id: '!!str 7398e0c72f7d5c0e'
-  server: 5.75.202.32
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 23bda1f5-da85-4de6-aacb-ce77acb88808
-- client-fingerprint: random
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 05'
+  name: '[H] 🇩🇪 德国 04'
   network: tcp
   port: 443
   reality-opts:
-    public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
-  server: 152.53.173.93
-  servername: fastsync.xyz
+    public-key: vs39cITZN6jMHKslRMmvkwXupHXUbyKNX1MQsWRWKlg
+    short-id: '!!str 3f40efc7'
+  server: germany1.banovano.space
+  servername: www.nvidia.com
   tls: true
   type: vless
-  udp: true
-  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+  uuid: 20717e25-8cea-4634-b9ab-9c9bc9ca0620
 - encryption: none
-  name: '[H] 🇩🇪 德国 06'
+  name: '[H] 🇩🇪 德国 05'
   network: ws
   port: '80'
-  server: 104.27.110.37
+  server: 104.27.124.133
   servername: web-app-ji3j1z.app-wuuhuw.workers.dev
   type: vless
   udp: true
@@ -68,27 +55,44 @@ proxies:
   ws-opts:
     headers:
       Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.63 Safari/537.36
     path: /api/ws
   xudp: true
-- client-fingerprint: chrome
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 07'
-  network: ws
-  port: '2083'
-  server: 46.101.253.244
-  servername: edge.yzkvm.top
+  name: '[H] 🇩🇪 德国 06'
+  network: xhttp
+  port: '443'
+  server: 185.229.190.148
+  servername: moein-bf821.b-cdn.net
   tls: true
   type: vless
   udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
+  uuid: 311cadaf-79ed-4f84-be27-bcf46f920b41
+  xhttp-opts:
+    host: moein-bf821.b-cdn.net
+    mode: auto
+    path: /api
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 07'
+  network: raw
+  port: '2027'
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '!!str 8d3293f0066e129a'
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
   xudp: true
 - client-fingerprint: qq
   encryption: none
@@ -105,18 +109,52 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 1f0b6835-58e1-4448-a7db-1dcdd5ae9538
+  uuid: b4cdef44-1ade-4362-b8e1-699f461abd3e
   xudp: true
-- client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 09'
-  network: ws
-  port: 443
-  server: 18.198.227.161
-  servername: titandarkness.mooo.com
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: '[H] 🇩🇪 德国 09'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
   tls: true
   type: vless
-  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  udp: true
+  uuid: e174434b-a944-4602-9f49-825aaf1659d7
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: '[H] 🇩🇪 德国 10'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ec370ad9-4e2a-4472-84ca-058beafab13b
+  xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 11'
+  network: ws
+  port: 2083
+  server: 46.101.253.244
+  servername: edge.yzkvm.top
+  tls: true
+  type: vless
+  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
   ws-opts:
     headers:
-      Host: titandarkness.mooo.com
-    path: '%2F21381%2F0kO2id8FMQ'
+      Host: edge.yzkvm.top
+    path: '%2F'
