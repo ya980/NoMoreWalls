@@ -39,25 +39,25 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 06'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 54.213.89.22
+  skip-cert-verify: true
+  sni: vk.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 07'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 150.241.102.127
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: els1.mangshe.xyz
-  skip-cert-verify: true
-  sni: els1.mangshe.xyz
-  tls: false
-  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 08'
-  network: tcp
-  port: '53168'
+  network: raw
+  port: '51360'
   server: lt.badns.help
   servername: ''
   tls: false
@@ -66,24 +66,18 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 09'
-  network: tcp
-  port: '51360'
-  server: lt.badns.help
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 10'
-  network: raw
-  port: '51360'
-  server: lt.badns.help
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-- name: '[F] 🇺🇸 美国 11'
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -91,7 +85,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 12'
+- name: '[F] 🇺🇸 美国 11'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
@@ -99,7 +93,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 13'
+- name: '[F] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 28051
@@ -107,93 +101,32 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 14'
-  network: tcp
-  port: 12879
-  reality-opts:
-    public-key: cTFTQJQS_FCRtnEDixh2Ab92ZbM6EDiEGMNW3fCoHQo
-    short-id: '!!str 9ca80937b65d'
-  server: 34.87.98.100
-  servername: www.spotify.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
-- name: '[H] 🇺🇸 美国 15'
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 16'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 17'
-  port: 9002
-  server: 156.146.59.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 18'
-  port: 9002
-  server: 156.146.59.28
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 19'
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: '[H] 🇺🇸 美国 13'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: fullmanfirm.icu
+  server: vpn-us-006.fastervpn.world
   skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 20'
-  port: 443
-  server: purecambogiasl.live
+  sni: vpn-us-006.fastervpn.world
+  type: hysteria2
+- name: '[H] 🇺🇸 美国 14'
+  password: 2EXii6JlhaDvgSiTsC
+  port: 8444
+  server: ggboy.ggboyz.online
   skip-cert-verify: true
-  sni: purecambogiasl.live
+  sni: ggboy.ggboyz.online
   tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 21'
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 22'
-  port: 443
-  server: kimberlymilano.icu
-  sni: kimberlymilano.icu
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 23'
-  password: None
-  port: 9002
-  server: 156.146.59.43
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 24'
-  password: None
-  port: 9002
-  server: 156.146.59.27
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[I] 🇺🇸 美国 25'
+  type: trojan
+  udp: true
+- multiplexing: MULTIPLEXING_LOW
+  name: '[H] 🇺🇸 美国 15'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- name: '[I] 🇺🇸 美国 16'
   network: ws
   password: humanity
   port: 443
@@ -202,7 +135,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 26'
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443
@@ -211,7 +144,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 27'
+- name: '[I] 🇺🇸 美国 18'
   network: ws
   password: humanity
   port: 443
@@ -220,7 +153,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 19'
   network: ws
   password: humanity
   port: 443
@@ -229,7 +162,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 29'
+- name: '[I] 🇺🇸 美国 20'
   network: ws
   password: humanity
   port: 443
@@ -238,7 +171,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 30'
+- name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 80
   server: 208.103.161.249
