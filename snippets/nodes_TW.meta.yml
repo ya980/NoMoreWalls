@@ -42,7 +42,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 07'
@@ -53,11 +53,15 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
-- name: '[E] 🇨🇳 台湾 08'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇨🇳 台湾 08'
+  network: tcp
+  port: 29010
+  server: 366-1095.rabbitpro-in-3.com
+  skip-cert-verify: false
   tls: false
-  type: hysteria2
+  type: vmess
+  udp: true
+  uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b
+  xudp: true

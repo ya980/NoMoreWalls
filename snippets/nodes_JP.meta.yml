@@ -1,13 +1,33 @@
 proxies:
-- name: '[E] 🇯🇵 日本 01'
-  password: STYyftThFn
-  port: 12765
-  server: freedom.chenlan.top
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 01'
+  network: ws
+  port: '2052'
+  server: 207.56.229.202
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '[F] 🇯🇵 日本 02'
+  type: vmess
+  uuid: 9bb81a28-00d0-4dcc-bf81-369721d208c9
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: 9bb81a28-00d0-4dcc-bf81-369721d208c9-vm
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 02'
+  network: ws
+  port: '2052'
+  server: 207.56.229.202
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9bb81a28-00d0-4dcc-bf81-369721d208c9
+  ws-opts:
+    headers:
+      Host: ''
+    path: 9bb81a28-00d0-4dcc-bf81-369721d208c9-vm
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
   port: 4099
@@ -15,7 +35,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 44229
@@ -23,7 +43,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18286
@@ -31,7 +51,14 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[I] 🇯🇵 日本 05'
+- name: '[H] 🇯🇵 日本 06'
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 443
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+- name: '[I] 🇯🇵 日本 07'
   port: 10000
   server: 180.178.60.253
   tls: false

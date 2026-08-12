@@ -1,9 +1,29 @@
 proxies:
-- name: '[E] CH 01'
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[D] CH 01'
+  obfs: salamander
+  obfs-password: kkh2qmrbxmh8h22a
+  password: 3ff7b2e75ce84d05ae16572b60a9b707
+  port: 52020
+  server: assets.gateway-stream.com
+  sni: assets.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 02'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
   skip-cert-verify: true
   sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 03'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
   type: hysteria2
