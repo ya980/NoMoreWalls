@@ -23,65 +23,100 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 03'
-  password: amazonskr05
-  port: 443
-  server: 51.102.205.132
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 04'
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  servername: ''
+- name: '[E] 🇩🇪 德国 03'
+  password: 03942219-0dd7-4544-aeb1-07f9db0be960
+  port: 8444
+  server: 89.106.85.19
+  sni: premium-de-hy2.geodema.network
   tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 05'
-  network: ws
-  port: '16616'
-  server: planb.mojcn.com.linuxlh.xin
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 06'
-  network: ws
-  port: '16626'
-  server: planb.mojcn.com.linuxlh.xin
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b02552e1-524c-4d4e-ac8a-ceba8e31cb8e
-  ws-opts:
-    headers:
-      Host: 84879cab658d49d9a985aa85c9f1a362.mobgslb.tbcache.com
-    path: /
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 07'
+  name: '[H] 🇩🇪 德国 04'
+  network: tcp
+  port: 7190
+  reality-opts:
+    public-key: mPyGyFIPaIJskk9IhHv9rkv7amf77CYUV0KVeqDsPU8
+    short-id: '!!str 7398e0c72f7d5c0e'
+  server: 5.75.202.32
+  servername: www.yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 23bda1f5-da85-4de6-aacb-ce77acb88808
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 05'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: HAuFt4Q6WDEwNYO1BOTpekM2HXwTaZxXYVReYyP3NVI
+  server: 152.53.173.93
+  servername: fastsync.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3
+- encryption: none
+  name: '[H] 🇩🇪 德国 06'
   network: ws
-  port: 2083
+  port: '80'
+  server: 104.27.110.37
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  type: vless
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  ws-opts:
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /api/ws
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 07'
+  network: ws
+  port: '2083'
   server: 46.101.253.244
   servername: edge.yzkvm.top
   tls: true
   type: vless
+  udp: true
   uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
   ws-opts:
     headers:
       Host: edge.yzkvm.top
-    path: '%2F'
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: '[H] 🇩🇪 德国 08'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f0b6835-58e1-4448-a7db-1dcdd5ae9538
+  xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 09'
+  network: ws
+  port: 443
+  server: 18.198.227.161
+  servername: titandarkness.mooo.com
+  tls: true
+  type: vless
+  uuid: 4f375fb4-3c95-425f-bc7b-8085487a6f3c
+  ws-opts:
+    headers:
+      Host: titandarkness.mooo.com
+    path: '%2F21381%2F0kO2id8FMQ'
