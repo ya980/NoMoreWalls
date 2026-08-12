@@ -57,7 +57,15 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 06'
+- name: '[D] 🇫🇷 法国 06'
+  password: d1a0857bc1eb833a9edf96be4c1f999e
+  port: 55443
+  server: host-vds2-fr.kvncococ.org
+  skip-cert-verify: true
+  sni: host-vds2-fr.kvncococ.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 07'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -65,19 +73,11 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 07'
+- name: '[E] 🇫🇷 法国 08'
   password: 0I_Vi934gK9_Mq3240Xs_Bv2_kUi8Q34183g9hj_Bv6_7a
   port: 8443
   server: 194.247.186.120
   sni: grape-sos-de.roxa.org
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 08'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 91.196.32.163
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 09'
@@ -85,16 +85,61 @@ proxies:
   port: 443
   server: 91.196.32.163
   skip-cert-verify: true
+  sni: germany3.h2corp.local
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 10'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 91.196.32.163
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 11'
   password: 130e6aab-9eba-441e-9021-22cbccc72832
   port: 8443
   server: srvhy1.ezcon24.online
   sni: srvhy1.ezcon24.online
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 11'
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 12'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 130.250.137.171
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
+    path: /assignment
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 13'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.233
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /assignment
+- name: '[H] 🇫🇷 法国 14'
+  port: 443
+  server: 103.82.101.44
+  skip-cert-verify: true
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 15'
   password: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
   port: 443
   server: eac88fe8-t9zts0-tonrmx-8n27.fr.oshuawei.com
@@ -102,3 +147,15 @@ proxies:
   tls: true
   type: http
   username: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 16'
+  network: tcp
+  port: '443'
+  server: 91.239.208.15
+  servername: fr15.mechvpn.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  xudp: true
