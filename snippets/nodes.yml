@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 40'
+  name: '[E] 🌍 其它地区 51'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -14,7 +14,7 @@ proxies:
       Host: 61.245.11.60
     path: /vmess/
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 41'
+  name: '[F] 🌍 其它地区 52'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -134,28 +134,26 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[H] 🇫🇷 法国 10'
-  network: ws
-  password: humanity
-  port: '443'
-  server: www.speedtest.org
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 08'
+  password: amazonskr05
+  port: 443
+  server: 15.237.177.224
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /assignment
-- name: '[H] 🇯🇵 日本 04'
-  password: d050aca3-9df2-4461-90ec-92373c1d7636
-  port: '44184'
-  server: v2jp.k1.ssnss.live
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 11'
+  network: raw
+  port: '53168'
+  server: lt.badns.help
   skip-cert-verify: false
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: '[I] 🇸🇬 新加坡 11'
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  xudp: true
+- name: '[I] 🇸🇬 新加坡 12'
   password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
   port: 20004
   server: oplosgru-c.catcat321.com
@@ -217,7 +215,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 42'
+- name: '[I] 🌍 其它地区 54'
   network: ws
   password: humanity
   port: 443
@@ -393,7 +391,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 43'
+- name: '[I] 🌍 其它地区 55'
   network: ws
   password: humanity
   port: 443
@@ -514,7 +512,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 44'
+- name: '[I] 🌍 其它地区 56'
   network: ws
   password: humanity
   port: 2000
@@ -532,7 +530,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 45'
+- name: '[I] 🌍 其它地区 57'
   network: ws
   password: humanity
   port: 443
@@ -541,7 +539,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 60'
+- name: '[I] 🌍 其它地区 72'
   network: ws
   password: humanity
   port: 443
@@ -550,7 +548,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 62'
+- name: '[I] 🌍 其它地区 74'
   network: ws
   password: humanity
   port: 443
@@ -563,7 +561,7 @@ proxies:
   - h3
   - h2
   - http/1.1
-  name: '[I] 🌍 其它地区 64'
+  name: '[I] 🌍 其它地区 76'
   network: tcp
   password: 08QNE5JBq7kTV6b9Dd6e_w-y4WhjMLS9
   port: 8443
@@ -575,12 +573,12 @@ proxies:
     headers:
       Host: ru.federal-usa.com
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🌍 其它地区 65'
+  name: '[I] 🌍 其它地区 77'
   password: yTEXWB6XBHyv9SfQJzCSRWCnRYutFdUXg1wbcbutxPwZE6Uxcurka3GkoatgEdX483XZSHeJp3jXcTShLCRM8rPgMF3vYNfS
   port: 42982
   server: autodiscover.fuzzyaytor.cyou
   type: ss
-- name: '[I] 🌍 其它地区 71'
+- name: '[I] 🌍 其它地区 83'
   network: ws
   password: humanity
   port: 443
@@ -589,7 +587,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🌍 其它地区 72'
+- name: '[I] 🌍 其它地区 84'
   network: ws
   password: humanity
   port: 443
