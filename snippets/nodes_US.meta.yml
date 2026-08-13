@@ -12,13 +12,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
-  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
-  port: 30001
-  server: 155.117.19.221
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 35.87.211.237
@@ -26,12 +19,19 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 03'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 35.87.211.237
   skip-cert-verify: true
   sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 04'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: 150.241.102.127
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
@@ -48,26 +48,22 @@ proxies:
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 07'
-  network: tcp
-  port: '51360'
-  server: lt.badns.help
-  servername: ''
+- name: '[E] 🇺🇸 美国 07'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  sni: els1.mangshe.xyz
   tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 08'
-  network: raw
-  port: '53168'
-  server: lt.badns.help
-  servername: ''
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 08'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: mg2.mangshe.xyz
+  skip-cert-verify: true
+  sni: mg2.mangshe.xyz
   tls: false
-  type: vmess
-  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 09'
@@ -84,7 +80,7 @@ proxies:
   network: ws
   port: '8443'
   server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
+  servername: ''
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -92,201 +88,151 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- name: '[F] 🇺🇸 美国 11'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 11'
   network: tcp
+  port: '56723'
+  server: 35.212.204.142
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 987dc12e-cd35-4df9-9542-6e96908c754a
+- name: '[F] 🇺🇸 美国 12'
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 12'
-  network: tcp
+- name: '[F] 🇺🇸 美国 13'
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 13'
-  network: tcp
+- name: '[F] 🇺🇸 美国 14'
   password: BxceQaOe
   port: 28051
   server: 16.162.100.124
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: '[H] 🇺🇸 美国 14'
-  network: ws
-  password: MITIVPN
-  port: 443
-  server: 104.19.229.21
+- name: '[G] 🇺🇸 美国 15'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 10418
+  server: 18.163.126.92
   skip-cert-verify: true
-  sni: d--AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  sni: www.nintendogames.net
   type: trojan
+- name: '[G] 🇺🇸 美国 16'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 39024
+  server: 95.40.14.234
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[G] 🇺🇸 美国 17'
+  network: tcp
+  password: BxceQaOe
+  port: 10418
+  server: 18.166.211.66
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 18'
+  network: raw
+  port: '49003'
+  reality-opts:
+    public-key: jH_LLqDnSPNz8SU_PC30VKKVKxQGU3QkbAr33bb9RGo
+    short-id: '!!str 27e53bbcab7593d7'
+  server: 194.55.239.152
+  servername: ads.x5.ru
+  tls: true
+  type: vless
   udp: true
+  uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
+  xudp: true
+- encryption: none
+  name: '[H] 🇺🇸 美国 19'
+  network: ws
+  port: '8880'
+  server: 155.46.167.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: d--AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '[H] 🇺🇸 美国 15'
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 16'
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 17'
-  password: None
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 18'
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 19'
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+      Host: vms.lifetime50.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: ''
+  xudp: true
 - name: '[H] 🇺🇸 美国 20'
+  password: None
   port: 9002
-  server: 138.199.35.211
+  server: 156.146.59.21
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[H] 🇺🇸 美国 21'
   port: 9002
-  server: 138.199.35.199
+  server: 156.146.59.33
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[H] 🇺🇸 美国 22'
+  password: None
   port: 9002
-  server: 138.199.35.213
+  server: 156.146.59.19
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[H] 🇺🇸 美国 23'
   port: 9002
-  server: 156.146.59.23
+  server: 156.146.59.25
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[H] 🇺🇸 美国 24'
   port: 9002
-  server: 156.146.59.25
+  server: 156.146.59.27
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[H] 🇺🇸 美国 25'
-  port: 9002
-  server: 156.146.59.15
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 26'
-  port: 9002
-  server: 156.146.59.10
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 27'
-  port: 9002
-  server: 156.146.59.39
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 28'
-  port: 9002
-  server: 156.146.59.11
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 29'
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 30'
-  password: None
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 31'
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 32'
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 33'
   port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
+  server: voteshirleysew.club
+  sni: voteshirleysew.club
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 34'
-  password: None
-  port: 9002
-  server: 138.199.35.200
+- name: '[H] 🇺🇸 美国 26'
+  port: 443
+  server: purecambogiasl.live
   skip-cert-verify: true
+  sni: purecambogiasl.live
   tls: true
   type: http
-  username: null
-- name: '[H] 🇺🇸 美国 35'
-  password: ''
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
+- name: '[H] 🇺🇸 美国 27'
+  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+  port: 443
+  server: 7778ff8c-tcxds0-tnsc3a-1f0gu.se.oshuawei.com
+  sni: 7778ff8c-tcxds0-tnsc3a-1f0gu.se.oshuawei.com
   tls: true
   type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 36'
+  username: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
+- name: '[H] 🇺🇸 美国 28'
   password: None
   port: 9002
   server: 156.146.59.20
@@ -294,7 +240,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 37'
+- name: '[H] 🇺🇸 美国 29'
   password: None
   port: 9002
   server: 156.146.59.38
@@ -302,127 +248,101 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 38'
-  password: ''
-  port: 9002
-  server: 156.146.59.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 39'
+- name: '[H] 🇺🇸 美国 30'
   password: None
   port: 9002
-  server: 156.146.59.44
+  server: 156.146.59.5
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 40'
-  password: test123
-  port: 1080
-  server: 104.168.249.36
-  type: socks5
-  username: test123
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 41'
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.17.148.22
-  skip-cert-verify: true
-  sni: gb-ss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.75 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 42'
-  network: ws
-  port: '443'
-  server: x4g-production-dcd94.up.railway.app
-  servername: x4g-production-dcd94.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1a030b37-e210-1c8b-aa0a-5b3113c9dff6
-  ws-opts:
-    headers:
-      Host: x4g-production-dcd94.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws/1a030b37-e210-1c8b-aa0a-5b3113c9dff6
-  xudp: true
-- name: '[H] 🇺🇸 美国 43'
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.200
+- name: '[H] 🇺🇸 美国 31'
+  port: 8090
+  server: 209.148.53.153
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: '[I] 🇺🇸 美国 44'
-  network: ws
-  password: humanity
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 32'
+  network: tcp
   port: 443
-  server: render.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 45'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 46'
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.0
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 47'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 48'
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.6
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 49'
-  network: ws
-  port: 80
-  server: 208.103.161.249
-  tls: false
+  reality-opts:
+    public-key: diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI
+    short-id: '!!str 7f2e9c4b1a8d6e53'
+  server: usa.n.belka.network
+  servername: yahoo.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
   type: vless
-  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
+  uuid: 1b7ee703-fa08-4305-8469-ae3e30e61e44
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[I] 🇺🇸 美国 33'
+  network: ws
+  port: 443
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
-    path: '%2F'
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[I] 🇺🇸 美国 34'
+  network: ws
+  port: 443
+  server: 140.248.186.45
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- name: '[I] 🇺🇸 美国 35'
+  network: ws
+  port: 2095
+  server: 8.47.69.0
+  tls: false
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+    path: /
+- alpn:
+  - http/1.1
+  client-fingerprint: ios
+  name: '[I] 🇺🇸 美国 36'
+  network: ws
+  port: 443
+  server: 69.46.46.24
+  servername: rvg-production-8bd1.up.railway.app
+  tls: true
+  type: vless
+  uuid: 0bc7dad5-be66-46ae-7bb6-8d8ef2e2b25e
+  ws-opts:
+    headers:
+      Host: rvg-production-8bd1.up.railway.app
+    path: /ws/0bc7dad5-be66-46ae-7bb6-8d8ef2e2b25e
+- name: '[I] 🇺🇸 美国 37'
+  network: ws
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.0
+  sni: default.fastly.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: s4z-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
+    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fs-w%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
