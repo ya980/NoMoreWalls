@@ -36,27 +36,6 @@ proxies:
       Host: www.bing.com
     path: 9bb81a28-00d0-4dcc-bf81-369721d208c9-vm
 - name: '[F] 🇯🇵 日本 04'
-  password: BxceQaOe
-  port: 4099
-  server: 16.162.100.124
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '[F] 🇯🇵 日本 05'
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 44229
-  server: 16.162.192.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇯🇵 日本 06'
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 18286
-  server: 16.162.192.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[G] 🇯🇵 日本 07'
   network: tcp
   password: BxceQaOe
   port: 16691
@@ -64,7 +43,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[G] 🇯🇵 日本 08'
+- name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 54876
@@ -72,10 +51,35 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[G] 🇯🇵 日本 09'
+- name: '[F] 🇯🇵 日本 06'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 3415
   server: 16.162.109.29
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: '[H] 🇯🇵 日本 07'
+  password: k6vz7jReGKNZKEuU
+  port: 8888
+  server: 45.192.198.137
+  type: socks5
+  username: u8471537504
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 08'
+  password: BxceQaOe
+  port: '16691'
+  server: 16.162.33.15
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true
+- name: '[I] 🇯🇵 日本 09'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.103
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'

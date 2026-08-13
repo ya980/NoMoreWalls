@@ -13,17 +13,10 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇬🇧 英国 03'
-  password: hysteria2_fastlane_5qkbg287e:fPSVXxTNZfYFOjU7MPTaaXrh9HFSyCL8
-  port: 1935
-  server: de6.h.fastlanehosting.ru
-  sni: de6.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
 - alpn:
   - http/1.1
   client-fingerprint: firefox
-  name: '[H] 🇬🇧 英国 04'
+  name: '[H] 🇬🇧 英国 03'
   network: ws
   port: 8443
   server: 50.7.197.2
@@ -34,3 +27,19 @@ proxies:
   uuid: e83af88a-a884-48ba-b462-a1edccff15e7
   ws-opts:
     path: /api/connect
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 04'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: tszWkJf8EdAkXhxvD-T_xA08SjU_x7lf15lXrPCLVn8
+    short-id: '!!str 3c88b649989ffa95'
+  server: 194.238.79.235
+  servername: www.ya.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: acc50200-7f21-4f90-9cca-0057efcbf042
+  xudp: true

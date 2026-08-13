@@ -4,7 +4,7 @@ proxies:
   port: 443
   server: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 02'
@@ -12,46 +12,51 @@ proxies:
   port: 443
   server: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: 99.79.62.65
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 04'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 99.79.62.65
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇨🇦 加拿大 05'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 99.79.62.65
+  server: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
   sni: t.me
   tls: false
   type: hysteria2
-- name: '[E] 🇨🇦 加拿大 06'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+- name: '[I] 🇨🇦 加拿大 04'
+  network: ws
+  password: humanity
   port: 443
-  server: 99.79.62.65
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
+  server: 172.67.221.242
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[I] 🇨🇦 加拿大 05'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.187
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[I] 🇨🇦 加拿大 06'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.8
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
 - name: '[I] 🇨🇦 加拿大 07'
   network: ws
   password: humanity
   port: 443
-  server: 104.26.15.137
+  server: 104.16.7.70
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -60,7 +65,8 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.73
+  server: 104.18.152.50
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -69,16 +75,23 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.140
+  server: 104.18.152.77
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 10'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  name: '[I] 🇨🇦 加拿大 10'
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.143
+  server: 198.41.223.96
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -87,7 +100,7 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.16.174.6
+  server: 104.16.174.71
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
@@ -107,8 +120,133 @@ proxies:
   network: ws
   password: humanity
   port: 443
-  server: 104.18.152.155
+  server: 104.16.174.36
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '[I] 🇨🇦 加拿大 14'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.117
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: '%2Fassignment'
+- name: '[I] 🇨🇦 加拿大 15'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.17.111.3
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
+- name: '[I] 🇨🇦 加拿大 16'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.22.63
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[I] 🇨🇦 加拿大 17'
+  network: ws
+  password: humanity
+  port: 443
+  server: 188.114.97.7
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: /assignment
+- name: '[I] 🇨🇦 加拿大 18'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.34
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[I] 🇨🇦 加拿大 19'
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.174.12
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: '[I] 🇨🇦 加拿大 20'
+  network: ws
+  password: humanity
+  port: 443
+  server: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
+- name: '[I] 🇨🇦 加拿大 21'
+  network: ws
+  port: 2086
+  server: 104.25.194.196
+  tls: false
+  type: vless
+  uuid: e3c7c198-2b02-42c2-b78f-22dfc078219c
+  ws-opts:
+    headers:
+      Host: uj-kn9gcgkzl0wmmy5wrkmalvhzdw62z.soltannatlos.workers.dev
+    path: '%2Fvl%2F3k4QnDlh2r3IPLPNFGLAeMJ5df%3Fed%3D2560'
+- name: '[I] 🇨🇦 加拿大 22'
+  network: ws
+  port: 80
+  server: 162.159.81.104
+  tls: false
+  type: vless
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  ws-opts:
+    headers:
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+    path: '%2FeyJqdW5rIjoiUEVTdDRlR2hhc0JuYyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ%3D%3D'
+- name: '[I] 🇨🇦 加拿大 23'
+  network: ws
+  port: 2052
+  server: 104.17.2.112
+  tls: false
+  type: vless
+  uuid: b4cee115-cb5e-4571-99fa-a8f80dc902b1
+  ws-opts:
+    headers:
+      Host: KAmraN04-9Q7IUQ-1.kAMran-04.WorkeRS.DEV
+    path: '%2F%3Fed%3D2560'
+- name: '[I] 🇨🇦 加拿大 24'
+  network: ws
+  port: 80
+  server: 162.159.81.177
+  tls: false
+  type: vless
+  uuid: 4b00d726-e072-429b-997e-f07affea3b7f
+  ws-opts:
+    headers:
+      Host: icy-darkness-8ff1.farzambia12mo.workers.dev
+    path: '%2FeyJqdW5rIjoibHFUM0pwRHZXIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIl19'
+- name: '[I] 🇨🇦 加拿大 25'
+  network: ws
+  port: 8880
+  server: 104.17.21.137
+  tls: false
+  type: vless
+  uuid: 9e648bb6-25f7-4b16-9949-55ac0952d66b
+  ws-opts:
+    headers:
+      Host: lingering-grass-6728.131-a78.workers.dev
+    path: '%2Fpyip%3DProxyIP.US.CMLiussss.net'
