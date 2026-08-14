@@ -4,40 +4,6 @@ proxies:
   fingerprint: chrome
   name: '[D] 🇩🇪 德国 01'
   obfs: salamander
-  obfs-password: mtg2vchyir6la3et
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52021
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇩🇪 德国 02'
-  obfs: salamander
-  obfs-password: t72hzzenktxmrvgu
-  password: 3ff7b2e75ce84d05ae16572b60a9b707
-  port: 52024
-  server: assets.gateway-stream.com
-  sni: assets.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
-  obfs: salamander
-  obfs-password: AIbOe_791iQ4k6kPUgdsO7B9
-  password: 9cc2113e-6b5b-4ced-9c46-70cf78d2c599
-  port: 2096
-  server: dns.devmrzero.ir
-  skip-cert-verify: false
-  sni: a26738d5774ad803.devmrzero.ir
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇩🇪 德国 04'
-  obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
   port: 37003
@@ -48,7 +14,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -57,7 +23,7 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 06'
+- name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: w086cefx0803sepr
   password: o8qxh96m6i335s6k
@@ -67,7 +33,7 @@ proxies:
   sni: gr.nexovip.cyou
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 07'
+- name: '[E] 🇩🇪 德国 04'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us54.mechvpn.online
@@ -76,27 +42,72 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[E] 🇩🇪 德国 08'
+  name: '[E] 🇩🇪 德国 05'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: us54.mechvpn.online
   sni: us54.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 09'
+- name: '[E] 🇩🇪 德国 06'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 10'
+- name: '[E] 🇩🇪 德国 07'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 08'
+  password: amazonskr05
+  port: '443'
+  server: 3.76.30.105
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 09'
+  network: tcp
+  port: '47822'
+  reality-opts:
+    public-key: VWhynxStqii0ll4ttnUJWG4Qy9dJFXhZu6Y8OiIO5Vk
+    short-id: '!!str c577182abe08e64c'
+  server: 217.154.146.174
+  servername: pg-bot.gigatapbot.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3b9eb177-6f0c-4d49-be4a-7e5168569f45
+  xudp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: mlkem768x25519plus.native.0rtt.X7yH_rtU6iYW0wSgnikNtPO5mUpBj3kG-2CBVWxKAXs
+  name: '[H] 🇩🇪 德国 10'
+  network: xhttp
+  port: '2083'
+  reality-opts:
+    public-key: lzAsZbFKsDtyUqGG4ShxyK5fbUuQrsoEMohG1Xg3KRM
+    short-id: '!!str 4994a3ebb255ebc9'
+  server: ge.zarqivo.ir
+  servername: play.googleapis.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d2679fd-7320-abcd-ac47-57adb5c99e66
+  xhttp-opts:
+    mode: auto
+    path: /
+  xudp: true
 - name: '[I] 🇩🇪 德国 11'
   port: 22222
   server: 63.186.212.143
