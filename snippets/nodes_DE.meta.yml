@@ -68,20 +68,36 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 07'
-  password: owefv0_92Z540k2F_nx83245_J9130oS_tY
-  port: 8080
-  server: 5.180.27.210
-  sni: borat-hopp.bumbleshrimp.com
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us54.mechvpn.online
+  sni: us54.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 08'
+- alpn:
+  - h3
+  name: '[E] 🇩🇪 德国 08'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us54.mechvpn.online
+  sni: us54.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 09'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[I] 🇩🇪 德国 09'
+- name: '[E] 🇩🇪 德国 10'
+  password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
+  port: 43327
+  server: 2.27.23.44
+  sni: gate-v1.not-a-projects.xyz
+  tls: false
+  type: hysteria2
+- name: '[I] 🇩🇪 德国 11'
   port: 22222
   server: 63.186.212.143
   tls: false
@@ -89,7 +105,7 @@ proxies:
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 12'
   port: 443
   reality-opts:
     public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
