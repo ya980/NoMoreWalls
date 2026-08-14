@@ -58,6 +58,36 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 06'
+  password: owefv0_92Z540k2F_nx83245_J9130oS_tY
+  port: 8080
+  server: 5.180.27.210
+  sni: borat-hopp.bumbleshrimp.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[E] 🇩🇪 德国 07'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: us54.mechvpn.online
+  sni: us54.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 08'
+  password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
+  port: 43327
+  server: 2.27.23.44
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 09'
+  password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
+  port: 43327
+  server: 2.27.23.44
+  sni: gate-v1.not-a-projects.xyz
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 10'
   password: Pa0Xhm0XJwdM0Qf7DJH3mq9EiTBmDw4M
   port: 43327
   server: 2.27.23.44
@@ -66,7 +96,7 @@ proxies:
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇩🇪 德国 07'
+  name: '[E] 🇩🇪 德国 11'
   network: tcp
   port: '8443'
   server: 82.115.21.139
@@ -79,7 +109,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: '[H] 🇩🇪 德国 08'
+  name: '[H] 🇩🇪 德国 12'
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -93,7 +123,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: '[H] 🇩🇪 德国 09'
+  name: '[H] 🇩🇪 德国 13'
   port: 26691
   protocol: udp
   server: 5.83.129.143
@@ -105,7 +135,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 10'
+  name: '[H] 🇩🇪 德国 14'
   network: xhttp
   port: 443
   server: 185.229.190.148
@@ -122,7 +152,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: 5post.gate.v1
-  name: '[H] 🇩🇪 德国 11'
+  name: '[H] 🇩🇪 德国 15'
   network: grpc
   port: '443'
   reality-opts:
@@ -138,7 +168,7 @@ proxies:
 - client-fingerprint: random
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 12'
+  name: '[H] 🇩🇪 德国 16'
   network: raw
   port: '443'
   reality-opts:
@@ -152,7 +182,7 @@ proxies:
   uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
   xudp: true
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 13'
+  name: '[H] 🇩🇪 德国 17'
   network: ws
   port: '2087'
   server: 172.67.65.53
@@ -168,3 +198,21 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /
   xudp: true
+- name: '[I] 🇩🇪 德国 18'
+  port: 22222
+  server: 63.186.212.143
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 19'
+  port: 443
+  reality-opts:
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str 2e6f9a5b'
+  server: 91.233.8.136
+  servername: tnt-cloud.ru
+  tls: false
+  type: vless
+  uuid: 94a5294d-1125-03e7-8934-380c5de5552f
