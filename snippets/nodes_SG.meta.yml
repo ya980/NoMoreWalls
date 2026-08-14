@@ -39,14 +39,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[H] 🇸🇬 新加坡 06'
-  network: tcp
-  password: BxceQaOe
-  port: 41421
-  server: 18.167.42.162
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '[H] 🇸🇬 新加坡 06'
+  network: grpc
+  port: 10036
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
 - name: '[H] 🇸🇬 新加坡 07'
   password: 13f0acfa-38c1-4e82-a758-583aa31740df
   port: 60572
@@ -54,13 +62,3 @@ proxies:
   sni: yzhou015.jdvipkuai.cc
   type: anytls
   udp: true
-- fingerprint: ''
-  name: '[H] 🇸🇬 新加坡 08'
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: '60572'
-  server: 47.128.71.58
-  skip-cert-verify: true
-  sni: yzhou015.jdvipkuai.cc
-  type: anytls
-  udp: true
-  username: 13f0acfa-38c1-4e82-a758-583aa31740df

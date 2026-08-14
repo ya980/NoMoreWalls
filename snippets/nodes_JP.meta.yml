@@ -32,39 +32,30 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - name: '[H] 🇯🇵 日本 05'
-  network: tcp
-  password: BxceQaOe
-  port: 16691
-  server: 16.162.33.15
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: '[H] 🇯🇵 日本 06'
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 3415
-  server: 16.162.109.29
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[H] 🇯🇵 日本 07'
-  password: k6vz7jReGKNZKEuU
-  port: 8888
-  server: 45.192.198.137
-  type: socks5
-  username: u8471537504
+  password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
+  port: 443
+  server: e9b9c37c-t9zts0-tcw58g-1p0be.jp.oshuawei.com
+  tls: true
+  type: http
+  username: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
 - client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 08'
-  password: BxceQaOe
-  port: '16691'
-  server: 16.162.33.15
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
+  grpc-opts:
+    grpc-service-name: update
+  name: '[H] 🇯🇵 日本 06'
+  network: grpc
+  port: '10031'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp1-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
   udp: true
+  uuid: CB9C296F-A571-4B73-961E-142D832F35D0
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇯🇵 日本 09'
+  name: '[I] 🇯🇵 日本 07'
   network: tcp
   port: 2027
   reality-opts:
