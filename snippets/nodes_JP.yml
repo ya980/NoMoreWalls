@@ -1,5 +1,5 @@
 proxies:
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 16691
@@ -7,15 +7,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
-  network: tcp
+- name: '[F] 🇯🇵 日本 03'
   password: 6ec301428255a78a1d826988d86cc87e
   port: 54876
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 05'
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 3415
@@ -23,8 +22,31 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
+- name: '[G] 🇯🇵 日本 05'
+  network: tcp
+  password: BxceQaOe
+  port: 4099
+  server: 43.199.31.69
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
+- name: '[G] 🇯🇵 日本 06'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 18617
+  server: 95.40.14.234
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[G] 🇯🇵 日本 07'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 3415
+  server: 16.162.100.124
+  sni: www.nintendogames.net
+  type: trojan
 - client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 07'
+  name: '[H] 🇯🇵 日本 09'
   password: BxceQaOe
   port: '16691'
   server: 16.162.33.15
@@ -32,12 +54,3 @@ proxies:
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: '[I] 🇯🇵 日本 08'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.152.103
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'

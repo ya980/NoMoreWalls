@@ -58,18 +58,28 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 06'
-  password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
+  password: Pa0Xhm0XJwdM0Qf7DJH3mq9EiTBmDw4M
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇩🇪 德国 07'
+  network: tcp
+  port: '8443'
+  server: 82.115.21.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 096ab183-9189-4eee-bc06-6055cea0d361
 - alpn:
   - h3
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 1000
-  name: '[H] 🇩🇪 德国 07'
+  name: '[H] 🇩🇪 德国 08'
   port: 20088
   protocol: udp
   server: 5.83.129.153
@@ -83,7 +93,7 @@ proxies:
   auth-str: dongtaiwang.com
   auth_str: dongtaiwang.com
   down: 55 Mbps
-  name: '[H] 🇩🇪 德国 08'
+  name: '[H] 🇩🇪 德国 09'
   port: 26691
   protocol: udp
   server: 5.83.129.143
@@ -95,7 +105,7 @@ proxies:
   - h2
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 09'
+  name: '[H] 🇩🇪 德国 10'
   network: xhttp
   port: 443
   server: 185.229.190.148
@@ -112,7 +122,7 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-service-name: 5post.gate.v1
-  name: '[H] 🇩🇪 德国 10'
+  name: '[H] 🇩🇪 德国 11'
   network: grpc
   port: '443'
   reality-opts:
@@ -128,7 +138,7 @@ proxies:
 - client-fingerprint: random
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 11'
+  name: '[H] 🇩🇪 德国 12'
   network: raw
   port: '443'
   reality-opts:
@@ -142,7 +152,7 @@ proxies:
   uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
   xudp: true
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 12'
+  name: '[H] 🇩🇪 德国 13'
   network: ws
   port: '2087'
   server: 172.67.65.53
@@ -158,42 +168,3 @@ proxies:
         like Gecko) Chrome/57.0.2987.133 Safari/537.36
     path: /
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 13'
-  port: 443
-  server: de151.mechvpn.online
-  tls: true
-  type: vless
-  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-- name: '[I] 🇩🇪 德国 14'
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 45.80.111.7
-  sni: d-2-AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-  type: trojan
-  ws-opts:
-    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2FD-e1%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 15'
-  network: ws
-  port: 2083
-  server: 46.101.253.244
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-    path: '%2F'
-- name: '[I] 🇩🇪 德国 16'
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'

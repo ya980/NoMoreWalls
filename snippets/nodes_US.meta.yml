@@ -43,20 +43,41 @@ proxies:
 - name: '[E] 🇺🇸 美国 06'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  sni: els1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 07'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 07'
-  network: tcp
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 08'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[F] 🇺🇸 美国 09'
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
   server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -64,17 +85,32 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
-  network: tcp
+- name: '[F] 🇺🇸 美国 11'
   password: BxceQaOe
   port: 10418
   server: 18.166.211.66
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- name: '[G] 🇺🇸 美国 12'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 10418
+  server: 16.162.109.29
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[G] 🇺🇸 美国 13'
+  network: tcp
+  password: BxceQaOe
+  port: 53001
+  server: 16.162.192.11
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 10'
+  name: '[H] 🇺🇸 美国 14'
   network: tcp
   port: 443
   reality-opts:
@@ -87,14 +123,14 @@ proxies:
   udp: true
   uuid: ff1b0b50-70dc-4bae-866e-55cff86f4d6d
 - multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 11'
+  name: '[H] 🇺🇸 美国 15'
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
   transport: TCP
   type: mieru
   username: dongtaiwang.com
-- name: '[H] 🇺🇸 美国 12'
+- name: '[H] 🇺🇸 美国 16'
   password: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
   port: 443
   server: b0746e33-tcxds0-tgl02u-1jr1u.sjc.oshuawei.com
@@ -102,7 +138,7 @@ proxies:
   type: http
   udp: true
   username: 2c01eae6-0b6a-11ee-a058-f23c91369f2d
-- name: '[H] 🇺🇸 美国 13'
+- name: '[H] 🇺🇸 美国 17'
   password: None
   port: 9002
   server: 138.199.35.206
@@ -110,28 +146,28 @@ proxies:
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 14'
+- name: '[H] 🇺🇸 美国 18'
   port: 9002
   server: 156.146.59.28
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 15'
+- name: '[H] 🇺🇸 美国 19'
   port: 9002
   server: 156.146.59.5
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 16'
+- name: '[H] 🇺🇸 美国 20'
   port: 9002
   server: 156.146.59.9
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 17'
+- name: '[H] 🇺🇸 美国 21'
   password: None
   port: 9002
   server: 156.146.59.20
@@ -139,7 +175,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 18'
+- name: '[H] 🇺🇸 美国 22'
   password: ''
   port: 9002
   server: 156.146.59.42
@@ -150,7 +186,7 @@ proxies:
   username: ''
 - client-fingerprint: firefox
   encryption: none
-  name: '[H] 🇺🇸 美国 19'
+  name: '[H] 🇺🇸 美国 23'
   network: tcp
   port: '2053'
   reality-opts:
@@ -163,109 +199,44 @@ proxies:
   udp: true
   uuid: 5ffc78d7-b582-460f-b6a5-4b74b66f4700
   xudp: true
-- name: '[I] 🇺🇸 美国 20'
+- name: '[I] 🇺🇸 美国 24'
   network: ws
   password: humanity
   port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 21'
-  network: ws
-  password: humanity
-  port: 443
-  server: 8.6.112.6
+  server: 216.24.57.1
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 22'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
-  password: MiTiVPN
+  password: humanity
   port: 443
-  server: 151.101.56.0
-  sni: default.fastly.com
+  server: 165.215.250.14
+  sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
-      Host: s4z-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-    path: '%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2Fs-w%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN%2F---%40MiTiVPN---%40MiTiVPN'
-- name: '[I] 🇺🇸 美国 23'
-  network: ws
-  port: 80
-  server: 208.103.161.249
-  tls: false
-  type: vless
-  uuid: a3c51f71-ffb5-4c80-a136-cee4b36d6e85
-  ws-opts:
-    headers:
-      Host: kAmRaN01-aFgmDQ-1.KaMRan-01.wOrkeRs.DEv
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 24'
-  network: ws
-  port: 80
-  server: 50.62.195.4
-  tls: false
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  ws-opts:
-    headers:
-      Host: raspy-feather-12ec.137-257.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 25'
-  network: ws
-  port: 8880
-  server: 45.40.149.50
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime39.workers.dev
-    path: '%2F'
+      Host: www.ignitelimit.com
+    path: /assignment
 - name: '[I] 🇺🇸 美国 26'
   network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  password: humanity
+  port: 443
+  server: render.com
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 27'
-  network: ws
-  port: 8880
-  server: 50.62.198.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime39.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 28'
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
+    path: '%2Fassignment'
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 29'
+  name: '[I] 🇺🇸 美国 27'
   network: ws
   port: 443
-  server: 199.232.78.160
+  server: 140.248.186.45
   servername: ssl.fastly.com
   skip-cert-verify: false
   tls: true
@@ -274,4 +245,20 @@ proxies:
   ws-opts:
     headers:
       Host: Appxdn.global.ssl.fastly.net
+    path: /
+- alpn:
+  - h2
+  client-fingerprint: firefox
+  name: '[I] 🇺🇸 美国 28'
+  network: ws
+  port: 443
+  server: a2.arshia-nova.ir
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 81df88b4-ab24-4510-dc5f-7ebdbf24ff0a
+  ws-opts:
+    headers:
+      Host: c12.com
     path: /
