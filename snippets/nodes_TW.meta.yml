@@ -20,6 +20,7 @@ proxies:
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
+  sni: 160.187.100.109
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 04'
@@ -35,6 +36,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 06'
@@ -45,30 +47,7 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: '[E] 🇨🇳 台湾 07'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
-  tls: false
-  type: hysteria2
-  up: ''
-- fingerprint: firefox
-  name: '[E] 🇨🇳 台湾 08'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-tw-002.fastervpn.world
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- fingerprint: random
-  name: '[E] 🇨🇳 台湾 09'
+- name: '[E] 🇨🇳 台湾 07'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
@@ -76,3 +55,35 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
+- name: '[E] 🇨🇳 台湾 08'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 台湾 09'
+  network: ws
+  port: '10000'
+  server: 117.27.228.29
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2c90af15-bac7-f850-4c7c-120c5a420636
+  ws-opts:
+    headers:
+      Host: 117.27.228.29
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇨🇳 台湾 10'
+  network: tcp
+  port: '35034'
+  server: 165.154.195.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc

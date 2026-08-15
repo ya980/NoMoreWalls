@@ -1,20 +1,37 @@
 proxies:
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: xhttp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
+- fingerprint: chrome
+  name: '[E] 🇷🇺 俄罗斯 01'
+  password: hysteria2_fastlane_9r63hua9f:KR0ayzwokB6pZySqiZ15Erm6cQHR7C4E
+  port: 1935
+  server: 144.31.135.204
+  sni: nl2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇷🇺 俄罗斯 02'
+  password: hysteria2_fastlane_qsf4v6mt0:8rPEjLjgG1Rt9gV7EcmqqtLbZcS77Zvv
+  port: 1935
+  server: 144.31.134.98
+  sni: nl1.h.smartaisupport.ru
+  tls: false
+  type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: grpc
+  port: '2096'
+  reality-opts:
+    public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+    short-id: '!!str 1ed136481e0ede74'
+  server: 5.188.140.5
+  servername: strm.yandex.net
   tls: true
   type: vless
   udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-  xhttp-opts:
-    mode: auto
-    path: /
-- name: '[I] 🇷🇺 俄罗斯 02'
+  uuid: 4a334454-22f7-491b-9bec-583e1e8a2773
+  xudp: true
+- name: '[I] 🇷🇺 俄罗斯 04'
   network: ws
   port: 4100
   server: 168.222.140.236

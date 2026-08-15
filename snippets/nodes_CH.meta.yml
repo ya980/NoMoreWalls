@@ -1,5 +1,22 @@
 proxies:
-- name: '[E] CH 01'
+- alpn:
+  - h3
+  name: '[E] CH 01'
+  password: 56ae4ec4-6705-43d0-bf3a-bc36ab3b3545
+  port: 443
+  server: cze-01.node.lumixnet.com
+  sni: cze-01.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 02'
+  password: 8645697d-51c1-4e90-aca5-ba63a0392f11
+  port: 443
+  server: cze-01.node.lumixnet.com
+  skip-cert-verify: false
+  sni: cze-01.node.lumixnet.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 03'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
@@ -7,30 +24,40 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[E] CH 02'
-  password: gf1
+- name: '[E] CH 04'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 05'
+  password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
   skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[E] CH 03'
-  password: hysteria2_fastlane_ob84uf77l:lUuP38xFjIx6t4eU4JjfNoKHohSiaH2n
+- fingerprint: chrome
+  name: '[E] CH 06'
+  password: 2_hysteria2_fastlane_2ryj5iceo:4hB1GRZV7SWk5Vz61kPY8Caug4WqiVHQ
+  port: 1935
+  server: 45.140.205.5
+  sni: ch2.h.fastlanehosting.ru
+  tls: false
+  type: hysteria2
+- fingerprint: firefox
+  name: '[E] CH 07'
+  password: hysteria2_fastlane_sncuo05u1:jrJENxGDByWG0Oi3r8JpGUteDH9FRCIf
   port: 1935
   server: 2.26.26.164
   sni: de9.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[H] CH 04'
-  password: 1Telegram_MojiVPN
-  port: '1080'
-  server: ch-zur.pvdata.host
-  skip-cert-verify: true
-  type: socks5
-  username: N9cyF6jvgy3ZEmCNKe04zBIR
 - client-fingerprint: chrome
-  name: '[I] CH 05'
+  name: '[I] CH 08'
   network: ws
   port: 443
   server: 194.147.173.116
