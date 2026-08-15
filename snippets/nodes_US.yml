@@ -1,19 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 16'
-  network: ws
-  port: '443'
-  server: 157.254.227.163
-  servername: xc166.meiziba5566.com
-  tls: true
-  type: vmess
-  uuid: eba24d1d-0c2b-4b67-862f-cae68626f3fa
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cae68626f3fa
-- name: '[F] 🇺🇸 美国 17'
+- name: '[F] 🇺🇸 美国 14'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -21,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 18'
+- name: '[F] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: 1431
@@ -29,7 +15,17 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[I] 🇺🇸 美国 24'
+- cipher: chacha20-ietf
+  name: '[H] 🇺🇸 美国 17'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
+- name: '[I] 🇺🇸 美国 23'
   network: ws
   password: humanity
   port: 443
@@ -41,7 +37,7 @@ proxies:
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 25'
+  name: '[I] 🇺🇸 美国 24'
   network: ws
   port: '80'
   server: www.true.th
@@ -54,7 +50,7 @@ proxies:
     path: /htun
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 26'
+  name: '[I] 🇺🇸 美国 25'
   network: ws
   port: '46373'
   server: 66.42.72.146

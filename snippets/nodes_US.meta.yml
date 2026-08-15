@@ -8,19 +8,21 @@ proxies:
   sni: at164.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
+- alpn:
+  - h3
+  fingerprint: safari
+  name: '[E] 🇺🇸 美国 02'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at164.mechvpn.online
   skip-cert-verify: true
-  sni: at164.mechvpn.online
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 03'
-  password: austria_hysteria2_fastlane_rmmu8l31k:sY7bI7Vaev1mknnHsBPG7QeIGgy50P5Z
-  port: 1935
-  server: 94.228.163.122
-  sni: at4.h.fastlanehosting.ru
+  password: Apt1923_N9x234gn_Nal5Nx3j_s
+  port: 8080
+  server: 222.167.212.80
+  sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
@@ -39,28 +41,29 @@ proxies:
   sni: 66.94.121.46
   tls: false
   type: hysteria2
-- fingerprint: random
+- alpn:
+  - h3
+  fingerprint: edge
   name: '[E] 🇺🇸 美国 06'
+  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
+  port: 443
+  server: fast.wwwinternetvideo.click
+  sni: fast.wwwinternetvideo.click
+  tls: false
+  type: hysteria2
+- fingerprint: random
+  name: '[E] 🇺🇸 美国 07'
   password: hysteria2_fastlane_tl4jpuq34:DBiHpP7f9RtPAwwMVTEfPJ49mtWodRUm
   port: 1935
   server: 193.233.203.162
   sni: us2.h.fastlanehosting.ru
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 44.251.47.95
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
 - name: '[E] 🇺🇸 美国 08'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 44.251.47.95
-  skip-cert-verify: true
-  sni: t.me
+  password: b41ad7f941ffce755cb8601bfd0f02ca
+  port: 50160
+  server: 35-209-199-239.liao.kdns.fr
+  sni: 35-209-199-239.liao.kdns.fr
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 09'
@@ -79,56 +82,28 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 11'
-  password: gVYmzcZ1loF1rdnXpZzscUv12gi0yMr9
-  port: 8443
-  server: 45.207.207.25
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 12'
-  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-  port: 8443
-  server: 139.28.168.54
-  sni: grape-honk.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 13'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8443
   server: 139.28.168.55
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 14'
+- name: '[E] 🇺🇸 美国 12'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 82.38.60.122
   sni: hopp-us.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 15'
-  password: b268a3a1-3826-44a3-9ffb-3ac2095300ca
+- fingerprint: edge
+  name: '[E] 🇺🇸 美国 13'
+  password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
   port: 443
-  server: 89.169.47.112
-  sni: game.hambot.ru
+  server: cabinet.wwwinternetvideo.click
+  sni: cabinet.wwwinternetvideo.click
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 16'
-  network: ws
-  port: '443'
-  server: 157.254.227.163
-  servername: xc166.meiziba5566.com
-  tls: true
-  type: vmess
-  uuid: eba24d1d-0c2b-4b67-862f-cae68626f3fa
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cae68626f3fa
-- name: '[F] 🇺🇸 美国 17'
+- name: '[F] 🇺🇸 美国 14'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -136,7 +111,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 18'
+- name: '[F] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: 1431
@@ -144,22 +119,63 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: b41ad7f941ffce755cb8601bfd0f02ca
-  name: '[H] 🇺🇸 美国 19'
-  password: b41ad7f941ffce755cb8601bfd0f02ca
-  port: 50160
-  server: 35-209-199-239.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 35-209-199-239.liao.kdns.fr
-  type: hysteria2
-- name: '[H] 🇺🇸 美国 20'
-  port: 443
-  server: efr-marktplatz.club
-  sni: efr-marktplatz.club
-  tls: true
-  type: http
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 21'
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 16'
+  network: tcp
+  port: 50159
+  reality-opts:
+    public-key: qGUBbKjlanqEx7El13jH_mBmDWHZ1a-PmxnwETB-9lM
+    short-id: '!!str 2bad4cafb9965963'
+  server: 154.17.0.91
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 645db8a7-8049-408d-8e61-ae3a67a324a0
+- cipher: chacha20-ietf
+  name: '[H] 🇺🇸 美国 17'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 18'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 7VxTJ07mi8LjFwq6js_slff3Y3YgEzGzR7x9SeT5N3U
+    short-id: '!!str 660d5a6915710e6e'
+  server: 38.47.113.204
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  uuid: 594f4505-d8dc-4ebd-b709-15d0d5046832
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 19'
+  network: ws
+  port: '443'
+  server: mina-production-f048.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4c27fd46-708c-1af6-8a69-136a2bf8c847
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/49.0.2623.112 Safari/537.36
+    path: /ws/4c27fd46-708c-1af6-8a69-136a2bf8c847
+  xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇺🇸 美国 20'
   network: ws
   port: 443
   server: 18.154.132.94
@@ -172,7 +188,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 22'
+  name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 443
   server: 18.154.132.111
@@ -185,7 +201,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 23'
+  name: '[I] 🇺🇸 美国 22'
   network: ws
   port: 443
   server: www.true.th
@@ -196,7 +212,7 @@ proxies:
   uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
     path: '%2F'
-- name: '[I] 🇺🇸 美国 24'
+- name: '[I] 🇺🇸 美国 23'
   network: ws
   password: humanity
   port: 443
@@ -208,7 +224,7 @@ proxies:
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 25'
+  name: '[I] 🇺🇸 美国 24'
   network: ws
   port: '80'
   server: www.true.th
@@ -221,7 +237,7 @@ proxies:
     path: /htun
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 26'
+  name: '[I] 🇺🇸 美国 25'
   network: ws
   port: '46373'
   server: 66.42.72.146
@@ -234,7 +250,7 @@ proxies:
     path: /my-vmess-path
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 27'
+  name: '[I] 🇺🇸 美国 26'
   port: 443
   reality-opts:
     public-key: VRrsZmyM-QD8YgLGgy2h3pMLbauIBCMoGN2pc8Xt5hE
