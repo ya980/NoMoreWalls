@@ -84,7 +84,32 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[I] 🇭🇰 香港 11'
+- cipher: aes-256-gcm
+  name: '[H] 🇭🇰 香港 10'
+  password: 9306aebe-da01-3301-8bf0-8d24a461674e
+  port: '1814'
+  server: x.2.w.9.p.e.y.8.d.hk05-ae5.entry.v51124-4.qpon
+  type: ss
+  udp: true
+- alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  name: '[H] 🇭🇰 香港 11'
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: fd15f1d9-a3f5-41e3-a755-f3e7bb32d78d
+  ws-opts:
+    headers:
+      Host: 67102451140aedb1cbfa18e08d87aeeb.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: '[I] 🇭🇰 香港 13'
   password: 6ec301428255a78a1d826988d86cc87e
   port: 50887
   server: 2c.fast9988.com
