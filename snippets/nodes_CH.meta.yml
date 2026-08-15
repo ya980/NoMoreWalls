@@ -23,8 +23,22 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[H] CH 04'
-  port: 9443
-  server: 37.120.213.210
+  password: 1Telegram_MojiVPN
+  port: '1080'
+  server: ch-zur.pvdata.host
   skip-cert-verify: true
+  type: socks5
+  username: N9cyF6jvgy3ZEmCNKe04zBIR
+- client-fingerprint: chrome
+  name: '[I] CH 05'
+  network: ws
+  port: 443
+  server: 194.147.173.116
+  servername: vod.ensf.top
   tls: true
-  type: http
+  type: vless
+  uuid: e911c552-3a98-41e0-b5fb-0dd3879887b7
+  ws-opts:
+    headers:
+      Host: vod.ensf.top
+    path: '%2Fapi%2Fv1%2Firc'
