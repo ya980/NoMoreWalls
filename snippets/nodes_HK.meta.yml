@@ -193,43 +193,9 @@ proxies:
   skip-cert-verify: true
   sni: ssp.vivo.com.cn
   type: anytls
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: '[H] 🇭🇰 香港 20'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0c657913-e593-4893-9555-f88478c33a4b
-  ws-opts:
-    headers:
-      Host: f784fdb75e4fc8a478c10d9acff513d3.mobgslb.tbcache.com
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: update
-  name: '[H] 🇭🇰 香港 21'
-  network: grpc
-  port: '10126'
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 95.40.100.129
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: B1BF44DF-BADD-44EE-826A-12C27206993D
-  xudp: true
 - alterId: '0'
   cipher: auto
-  name: '[H] 🇭🇰 香港 22'
+  name: '[H] 🇭🇰 香港 20'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -244,7 +210,7 @@ proxies:
     path: /
   xudp: true
 - cipher: chacha20-ietf
-  name: '[H] 🇭🇰 香港 23'
+  name: '[H] 🇭🇰 香港 21'
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -254,7 +220,7 @@ proxies:
   server: cn02.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: '[H] 🇭🇰 香港 24'
+  name: '[H] 🇭🇰 香港 22'
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -264,17 +230,7 @@ proxies:
   server: cn01.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: '[H] 🇭🇰 香港 25'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 43309-nIao34iu.download.microsoft.com
-    mode: http
-  port: 8106
-  server: cn02.somethingstranges.com
-  type: ss
-- cipher: chacha20-ietf
-  name: '[H] 🇭🇰 香港 26'
+  name: '[H] 🇭🇰 香港 23'
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -284,7 +240,7 @@ proxies:
   server: cn02.somethingstranges.com
   type: ss
 - cipher: chacha20-ietf
-  name: '[H] 🇭🇰 香港 27'
+  name: '[H] 🇭🇰 香港 24'
   password: passwd
   plugin: obfs
   plugin-opts:
@@ -293,10 +249,62 @@ proxies:
   port: 8101
   server: cn01.somethingstranges.com
   type: ss
-- name: '[I] 🇭🇰 香港 28'
+- cipher: chacha20-ietf
+  name: '[H] 🇭🇰 香港 25'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8105
+  server: cn02.somethingstranges.com
+  type: ss
+- cipher: chacha20-ietf
+  name: '[H] 🇭🇰 香港 26'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8115
+  server: cn03.somethingstranges.com
+  type: ss
+- fingerprint: ''
+  name: '[H] 🇭🇰 香港 27'
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: '24318'
+  server: yzany01.jdoanst2026.com
+  skip-cert-verify: false
+  sni: hk08.alytest.cc
+  type: anytls
+  udp: true
+  username: 13f0acfa-38c1-4e82-a758-583aa31740df
+- client-fingerprint: chrome
+  name: '[I] 🇭🇰 香港 28'
+  port: 30100
+  server: xiweini.dpdns.org
+  servername: xiweini.dpdns.org
+  tls: true
+  type: vless
+  uuid: 19bb341c-ee57-4899-b1e7-e9d3ebdf23df
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[I] 🇭🇰 香港 29'
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 114.29.238.251
+  servername: auto.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  ws-opts:
+    headers:
+      Host: auto.cendora.ru
+- name: '[I] 🇭🇰 香港 30'
   password: 6ec301428255a78a1d826988d86cc87e
   port: 50887
   server: 2c.fast9988.com
-  skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
