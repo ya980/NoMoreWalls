@@ -1,18 +1,9 @@
 proxies:
-- alpn:
-  - h3
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: xhttp
-  port: '443'
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-  xhttp-opts:
-    mode: auto
-    path: /
-  xudp: true
+- name: '[D] 🇷🇺 俄罗斯 01'
+  password: 921db318-1694-4408-9cc7-c93df39f7f8e
+  port: 443
+  server: ru-i-2.monkeyisland.xyz
+  skip-cert-verify: true
+  sni: ru-i-2.monkeyisland.xyz
+  tls: false
+  type: hysteria2

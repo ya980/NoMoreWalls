@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: aes-128-gcm
-  name: '[E] 🇺🇸 美国 21'
+  name: '[E] 🇺🇸 美国 17'
   network: ws
   port: '80'
   server: 74.48.28.190
@@ -13,7 +13,7 @@ proxies:
     headers:
       Host: ''
     path: /cctv13.m3u8
-- name: '[F] 🇺🇸 美国 22'
+- name: '[F] 🇺🇸 美国 18'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -21,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 23'
+- name: '[F] 🇺🇸 美国 19'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 10418
@@ -29,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 24'
+- name: '[F] 🇺🇸 美国 20'
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -37,3 +37,13 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf
+  name: '[H] 🇺🇸 美国 23'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 43309-nIao34iu.download.microsoft.com
+    mode: http
+  port: 8629
+  server: cn18.somethingstranges.com
+  type: ss
