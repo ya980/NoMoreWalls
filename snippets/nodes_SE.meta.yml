@@ -1,17 +1,13 @@
 proxies:
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] SE 01'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: NErOYdFL48bgnAU63CpZZksYBsg9zVNjNEaO_UEpODc
-    short-id: '!!str bac602651020d478'
-  server: 87.120.196.154
-  servername: cdnjs.cloudflare.com
+- alpn:
+  - h3
+  name: '[D] SE 01'
+  obfs: salamander
+  obfs-password: stgabwsu6ouz9s5c
+  password: ea47ayg9e8skt68s
+  port: 32161
+  server: fatloss.akfitness.ir
+  skip-cert-verify: false
+  sni: fatloss.akfitness.ir
   tls: false
-  type: vless
-  uuid: d2aeb078-90db-4f90-b334-623bcbea8d31
-  ws-opts:
-    headers:
-      Host: '---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR---@SPIDDY_IR'
+  type: hysteria2

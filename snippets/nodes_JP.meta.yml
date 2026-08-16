@@ -1,19 +1,12 @@
 proxies:
 - name: '[E] 🇯🇵 日本 01'
-  password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
-  port: 8443
-  server: 185.39.31.40
-  sni: grape-beer.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
   password: c3e6fd601b53d080ed5099cbf325dede
   port: 50160
   server: 154.31.114.168
   sni: 154-31-114-168.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 16691
@@ -21,7 +14,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 44229
@@ -29,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 05'
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 54876
@@ -37,10 +30,16 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[I] 🇯🇵 日本 06'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇯🇵 日本 05'
   network: tcp
-  port: 22223
-  server: 18.157.224.206
+  port: 443
+  reality-opts:
+    public-key: V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8
+    short-id: '!!str 5629431325884ff0'
+  server: rf6.o4ka-internet.com
+  servername: rf6.o4ka-internet.com
   tls: false
   type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  uuid: 2cb6b4d9-0c74-45e2-a4fb-645bb8ac532a
