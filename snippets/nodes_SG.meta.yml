@@ -11,7 +11,7 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 45744
-  server: 16.162.109.29
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -19,15 +19,63 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 51396
-  server: 16.162.109.29
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: '[F] 🇸🇬 新加坡 04'
   network: tcp
   password: BxceQaOe
-  port: 44900
-  server: 18.162.154.22
+  port: 26704
+  server: 16.163.146.58
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- name: '[H] 🇸🇬 新加坡 05'
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 45647
+  server: yazhouany02.twzq59.cc
+  skip-cert-verify: true
+  sni: yazhou11ak.2uuzhe.com
+  type: anytls
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: '[H] 🇸🇬 新加坡 06'
+  network: tcp
+  port: 30845
+  server: v45.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
+- name: '[H] 🇸🇬 新加坡 07'
+  password: 13f0acfa-38c1-4e82-a758-583aa31740df
+  port: 56277
+  server: yzany01.jdoanst2026.com
+  sni: xjp03.ascwt179.com
+  type: anytls
+- name: '[H] 🇸🇬 新加坡 08'
+  password: ESfDSCxpD
+  port: 64462
+  server: 154.219.254.66
+  type: http
+  username: n17sMRE7S
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[H] 🇸🇬 新加坡 09'
+  network: grpc
+  port: '44443'
+  reality-opts:
+    public-key: kk6t0xig_xZViUWnM-hjRGY_-P29fA6DUggL2eEkyRg
+    short-id: '!!str '
+  server: 89.223.120.19
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6688ef96-b385-48a6-9094-ed1a42b95066
+  xudp: true

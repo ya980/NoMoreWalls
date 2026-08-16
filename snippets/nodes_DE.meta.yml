@@ -50,7 +50,8 @@ proxies:
 - name: '[E] 🇩🇪 德国 06'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
-  server: us54.mechvpn.online
+  server: 202.155.11.54
+  sni: us54.mechvpn.online
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 07'
@@ -82,81 +83,114 @@ proxies:
   password: b268a3a1-3826-44a3-9ffb-3ac2095300ca
   port: 443
   server: se2.hambot.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 11'
-  password: b268a3a1-3826-44a3-9ffb-3ac2095300ca
-  port: 443
-  server: se2.hambot.ru
   sni: se2.hambot.ru
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 12'
+- name: '[E] 🇩🇪 德国 11'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 13'
+- name: '[E] 🇩🇪 德国 12'
   password: DK91R_TJPVxR4nnKMhi_aLxfP_2Oevci
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 14'
+- name: '[E] 🇩🇪 德国 13'
   password: j86zyZye-jGMBeXwpvVabGBAAx4Idwyb
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 15'
+- name: '[E] 🇩🇪 德国 14'
   password: k-qZIMk71_90gFFSfFiP688PqB6yLxie
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 16'
+- name: '[E] 🇩🇪 德国 15'
   password: Pe1OXeWJcLlGDk2m312qm2UDNcpOgZL4
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 17'
+- name: '[E] 🇩🇪 德国 16'
   password: qSQN48hYCKlZvTFCWMxzoCMykKrifx3r
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 18'
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- client-fingerprint: qq
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: grpc-tunnel
-  name: '[H] 🇩🇪 德国 19'
-  network: grpc
-  port: 9871
-  reality-opts:
-    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
-    short-id: '!!str aabb'
-  server: 200.165.228.114
-  servername: dl.google.com
-  skip-cert-verify: true
-  tfo: false
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 17'
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
   tls: true
   type: vless
-  uuid: 2a650f3b-d95b-4bd6-aadf-16ccc0717155
-- name: '[I] 🇩🇪 德国 20'
+  udp: true
+  uuid: 0a12328a-572e-46a5-9332-84d21a986407
+  ws-opts:
+    headers:
+      Host: SvnTeamChannel.global.ssl.fastly.net
+    path: /
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 18'
+  network: tcp
+  port: '443'
+  server: 194.24.161.133
+  servername: fr133.mechvpn.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 19'
+  network: tcp
+  port: '443'
+  server: 82.38.4.126
+  servername: de126.mechvpn.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  fingerprint: 52c36f3722d73827cc3977541830ab65967d8335c6e7122dd5ff810de57252bb
+  name: '[H] 🇩🇪 德国 20'
+  network: xhttp
+  port: '2087'
+  server: s5.zynetrax.ir
+  servername: s5.zynetrax.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 48d73053-4464-436e-7efe-8367e4bc6592
+  xhttp-opts:
+    host: s5.zynetrax.ir
+    mode: auto
+    path: /BetForward
+    x-padding-bytes: 100-1000
+  xudp: true
+- name: '[I] 🇩🇪 德国 21'
   network: ws
   port: 80
   server: 146.75.119.82
@@ -169,7 +203,7 @@ proxies:
     path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 21'
+  name: '[I] 🇩🇪 德国 22'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -181,7 +215,7 @@ proxies:
       Host: 67102451140aedb1cbfa18e08d87aeeb.mobgslb.tbcache.com
     path: /
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 22'
+  name: '[I] 🇩🇪 德国 23'
   network: ws
   port: 2053
   server: 163.5.187.118
@@ -194,7 +228,7 @@ proxies:
       Host: forfreeuse.rtqa.ru
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 23'
+  name: '[I] 🇩🇪 德国 24'
   network: ws
   port: 2053
   server: 150.230.146.170
@@ -206,7 +240,7 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: '%2F'
-- name: '[I] 🇩🇪 德国 24'
+- name: '[I] 🇩🇪 德国 25'
   network: ws
   port: 443
   server: 108.138.26.70
