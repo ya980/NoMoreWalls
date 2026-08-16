@@ -1,17 +1,18 @@
 proxies:
-- name: '[E] 🇷🇺 俄罗斯 01'
-  password: hysteria2_fastlane_9r63hua9f
-  port: 443
-  server: 144.31.135.204
-  sni: nl2.h.fastlanehosting.ru
-  tls: false
-  type: hysteria2
-- name: '[I] 🇷🇺 俄罗斯 02'
-  network: ws
-  port: 4100
-  server: 168.222.140.236
-  tls: false
+- client-fingerprint: safari
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-reality
+  name: '[H] 🇷🇺 俄罗斯 01'
+  network: grpc
+  port: '9001'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 194.55.239.211
+  servername: api-maps.yandex.ru
+  tls: true
   type: vless
-  uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066
-  ws-opts:
-    path: '%2Fv1'
+  udp: true
+  uuid: 2c634977-584e-4e1f-b501-1b70c77a6743
+  xudp: true

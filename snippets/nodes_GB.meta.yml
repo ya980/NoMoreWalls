@@ -1,9 +1,43 @@
 proxies:
+- name: '[E] 🇬🇧 英国 01'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.103
+  sni: mercedes-grape.yyuyy.com
+  tls: false
+  type: hysteria2
 - fingerprint: edge
-  name: '[E] 🇬🇧 英国 01'
-  password: hysteria2_fastlane_duo1sn24a:wXAkPKPMBBXwyMcN2gk9dQ6f15BFOa6I
-  port: 1935
+  name: '[E] 🇬🇧 英国 02'
+  password: hysteria2_fastlane_duo1sn24a
+  port: 443
   server: 91.132.160.243
   sni: de6.h.fastlanehosting.ru
   tls: false
   type: hysteria2
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇬🇧 英国 03'
+  password: SEYnpOitNLndBhDtkZyeAShl
+  port: '443'
+  server: nl-vk.tkbvpcompany.site
+  skip-cert-verify: false
+  sni: nl-vk.tkbvpcompany.site
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 04'
+  network: tcp
+  port: '1443'
+  reality-opts:
+    public-key: Yf10DFHbCihRVIDaxQkkib1kEBy4uIf2vCiPml7M2AI
+    short-id: '!!str 0441f3e34348cb15'
+  server: 151.243.28.59
+  servername: unitking.snowfalls.top
+  tls: true
+  type: vless
+  udp: true
+  uuid: 27dcb3a9-c82d-4628-a8c4-bae39e6cb4f4
+  xudp: true

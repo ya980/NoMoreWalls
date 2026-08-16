@@ -10,6 +10,7 @@ proxies:
   password: c3e6fd601b53d080ed5099cbf325dede
   port: 50160
   server: 154.31.114.168
+  skip-cert-verify: true
   sni: 154-31-114-168.liao.kdns.fr
   tls: false
   type: hysteria2
@@ -46,15 +47,20 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 07'
-  network: ws
+  name: '[H] 🇯🇵 日本 07'
+  network: tcp
   port: 443
-  server: 18.238.109.26
-  servername: d1yxsk0zprgivr.cloudfront.net
+  reality-opts:
+    public-key: Zi3V0K3Mg8xDRLdpPF5Srlc3sHWEWn_2g6laXmZNXEQ
+    short-id: '!!str 3f91fcb900e7b35e'
+  server: 206.237.120.221
+  servername: www.cloudflare.com
   tls: true
   type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-  ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
+  uuid: 9caa5a2d-371d-4eb9-8960-6ae3cc20ac37
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇯🇵 日本 08'
+  password: eQvKkykBEbCky5p4BVghO0
+  port: 45640
+  server: 144.31.168.176
+  type: ss
