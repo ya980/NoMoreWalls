@@ -1,5 +1,12 @@
 proxies:
 - name: '[D] 🇷🇺 俄罗斯 01'
+  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
+  port: 443
+  server: usa1.spectrumproxy.shop
+  sni: usa1.spectrumproxy.shop
+  tls: false
+  type: hysteria2
+- name: '[D] 🇷🇺 俄罗斯 02'
   password: 921db318-1694-4408-9cc7-c93df39f7f8e
   port: 443
   server: ru-i-2.monkeyisland.xyz
@@ -8,34 +15,33 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: J3W60M3AtU5k97dW435MfETjHX-DtfFqNrRUNoj2MXE
+    short-id: '!!str a1b2c3d4'
+  server: 31.177.111.144
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8071f3cc-994f-4fe2-bb87-cdc79559cb56
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇷🇺 俄罗斯 04'
+  password: xKUIJK-B4eSS7l1_hgJP-A
+  port: 150
+  server: 37.252.20.41
+  type: ss
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 05'
   port: 8443
   server: id.tutdesignstudio.site
   tls: true
   type: vless
   uuid: b9125df6-2a60-4643-bcba-a5f78cb663a7
-- client-fingerprint: qq
-  name: '[I] 🇷🇺 俄罗斯 03'
-  network: ws
-  port: 14443
-  server: mws.tunnelgate.org
-  servername: mws.tunnelgate.org
-  tls: true
-  type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  ws-opts:
-    headers:
-      Host: mws.tunnelgate.org
-    path: '%2Fru'
-- client-fingerprint: firefox
-  name: '[I] 🇷🇺 俄罗斯 04'
-  network: ws
-  port: 2200
-  server: 31.177.83.226
-  servername: rzd.ru
-  tls: false
-  type: vless
-  uuid: 3e530a2c-7fad-42b9-9fde-ea88d9f8ffb3
-  ws-opts:
-    path: '%2Fv1'
