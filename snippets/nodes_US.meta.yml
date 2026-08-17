@@ -23,14 +23,19 @@ proxies:
   sni: 35-209-199-239.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 04'
+- down: ''
+  fingerprint: ''
+  name: '[D] 🇺🇸 美国 04'
+  obfs: ''
+  obfs-password: ''
   password: ed77b662dbdf1a817d5eb75ae940cac4
-  port: 50160
+  port: '50160'
   server: 198-46-188-116.liao.kdns.fr
   skip-cert-verify: true
   sni: 198-46-188-116.liao.kdns.fr
   tls: false
   type: hysteria2
+  up: ''
 - alpn:
   - h3
   name: '[D] 🇺🇸 美国 05'
@@ -59,10 +64,25 @@ proxies:
 - name: '[E] 🇺🇸 美国 08'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
-  server: at188.mechvpn.online
+  server: at164.mechvpn.online
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 09'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: at164.mechvpn.online
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 10'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: at188.mechvpn.online
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 11'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: at188.mechvpn.online
@@ -70,43 +90,24 @@ proxies:
   sni: at188.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 10'
+- name: '[E] 🇺🇸 美国 12'
   password: Apt1923_N9x234gn_Nal5Nx3j_s
   port: 8080
   server: 222.167.212.80
   sni: grape-power-pl.ddnsguru.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 11'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 12'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
-  sni: www.broadcom.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: edge
-  name: '[E] 🇺🇸 美国 13'
-  password: C91FbOXGY9XRymrcEebtax9R1Nj62UizoT8S6kCb7xwey8IE
-  port: 443
-  server: fast.wwwinternetvideo.click
-  sni: fast.wwwinternetvideo.click
+- name: '[E] 🇺🇸 美国 13'
+  password: 90af65ff00ef2ff089d28d6a11fc10de
+  port: 50160
+  server: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 14'
-  password: 890aade8-4034-4372-9776-793e9acd1e94
+  password: gf1:gfhysteria2024
   port: 443
-  server: tokervpn.com
-  sni: tokervpn.com
+  server: 66.94.121.46
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 15'
@@ -132,17 +133,17 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 18'
-  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-  port: 8443
-  server: 139.28.168.55
-  sni: grape-honk.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 19'
   password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
   port: 8443
   server: 82.38.60.122
   sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 19'
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 443
+  server: us.frkn.org
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 20'
@@ -158,7 +159,28 @@ proxies:
   sni: 185-22-155-81.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 22'
+- name: '[E] 🇺🇸 美国 22'
+  password: 2a0099ded5baa93c55823af39229c5b1
+  port: 50160
+  server: 185.22.155.81
+  sni: 185-22-155-81.liao.kdns.fr
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 23'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[F] 🇺🇸 美国 24'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -166,7 +188,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 23'
+- name: '[F] 🇺🇸 美国 25'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -174,7 +196,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 24'
+- name: '[F] 🇺🇸 美国 26'
   network: tcp
   password: BxceQaOe
   port: 39024
@@ -182,129 +204,126 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 25'
-  port: 9002
-  server: 138.199.35.220
-  skip-cert-verify: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: '[H] 🇺🇸 美国 27'
+  network: grpc
+  port: 10239
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: us2-r.link-t7.com
+  servername: s0.awsstatic.com
   tls: true
-  type: http
+  type: vless
   udp: true
-- name: '[H] 🇺🇸 美国 26'
-  password: None
-  port: 9002
-  server: 138.199.35.204
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 27'
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
+  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
 - name: '[H] 🇺🇸 美国 28'
   port: 9002
-  server: 156.146.59.23
+  server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[H] 🇺🇸 美国 29'
-  password: None
   port: 9002
-  server: 156.146.59.19
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 30'
-  port: 9002
-  server: 156.146.59.11
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 31'
+  name: '[H] 🇺🇸 美国 30'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: '!!str c39cc7310a'
-  server: 169.40.42.231
+  server: 169.40.42.89
   servername: yahoo.com
   skip-cert-verify: true
   tls: false
   type: vless
   udp: true
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  ws-opts:
-    headers:
-      Host: yahoo.com
-- name: '[H] 🇺🇸 美国 32'
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  sni: goedkoopgeluid.icu
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 33'
+- name: '[H] 🇺🇸 美国 31'
   password: None
   port: 443
-  server: jewelscollecti.icu
+  server: purecambogiasl.live
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- name: '[H] 🇺🇸 美国 32'
+  password: None
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 33'
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: '[H] 🇺🇸 美国 34'
   password: None
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.215
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 35'
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 35'
+  network: tcp
   port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.104
+  servername: yahoo.com
   tls: true
-  type: http
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - name: '[H] 🇺🇸 美国 36'
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - name: '[H] 🇺🇸 美国 37'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
   tls: true
   type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 38'
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 39'
-  password: ''
-  port: 9002
-  server: 156.146.59.46
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 40'
+  name: '[H] 🇺🇸 美国 38'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: '!!str c39cc7310a'
+  server: 169.40.42.229
+  servername: yahoo.com
+  tls: false
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  ws-opts:
+    headers:
+      Host: yahoo.com
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 39'
   network: tcp
   port: 443
   reality-opts:
@@ -320,95 +339,32 @@ proxies:
     headers:
       Host: yahoo.com
   xudp: true
-- client-fingerprint: ios
+- multiplexing: MULTIPLEXING_LOW
+  name: '[H] 🇺🇸 美国 40'
+  password: dongtaiwang.com
+  port: 34567
+  server: 157.254.223.44
+  transport: TCP
+  type: mieru
+  username: dongtaiwang.com
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 41'
   network: tcp
-  port: 443
+  port: '2053'
   reality-opts:
-    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
-    short-id: '!!str c39cc7310a'
-  server: 169.40.42.89
-  servername: yahoo.com
-  tls: false
-  type: vless
-  udp: true
-  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-  xudp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 42'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
-    short-id: '!!str 00bca5982f82d083'
-  server: 144.31.242.1
-  servername: eu-central.cendora.ru
+    public-key: -kufFTYujloklhezgpSBgYFOxj6xD0sTifgCZ3gkZig
+    short-id: '!!str a1b2c3d4e5f60708'
+  server: 38.244.6.122
+  servername: apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: cd1c5fdd-3c31-4379-9b44-ef0caef384ae
   xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 43'
-  network: tcp
-  port: '13443'
-  reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: '!!str a7f3c91b2e6d84c0'
-  server: 31.77.141.65
-  servername: auto.cendora.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-  xudp: true
-- client-fingerprint: firefox
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[H] 🇺🇸 美国 44'
-  network: grpc
-  port: '45443'
-  reality-opts:
-    public-key: EKnSxE7GvXy4piFEZq0dIAGyfLJOoiA6w2muX6b7wxQ
-    short-id: '!!str 7df4b6673821216f'
-  server: 147.45.183.158
-  servername: 5post-gate.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6688ef96-b385-48a6-9094-ed1a42b95066
-  xudp: true
-- client-fingerprint: qq
-  name: '[H] 🇺🇸 美国 45'
-  network: xhttp
-  port: '9443'
-  reality-opts:
-    public-key: -yJaCCGsucUDEnTTn6VJJyF0R5ZLlJAVNeIXFJYSGn8
-    short-id: '!!str 361c68748712c743'
-  server: america.koexp.ru
-  servername: america.koexp.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 62b72631-985d-4768-8b5a-7cc06753e0f0
-  xhttp-opts:
-    mode: packet-up
-  xudp: true
-- name: '[H] 🇺🇸 美国 46'
-  password: ''
-  port: '9002'
-  server: 156.146.59.38
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 47'
+  name: '[I] 🇺🇸 美国 42'
   network: ws
   port: 443
   server: 52.84.199.28
@@ -421,7 +377,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 48'
+  name: '[I] 🇺🇸 美国 43'
   network: ws
   port: 443
   server: 18.238.109.17
@@ -434,7 +390,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 49'
+  name: '[I] 🇺🇸 美国 44'
   network: ws
   port: 443
   server: 18.238.109.26
@@ -448,12 +404,12 @@ proxies:
     path: '%2F'
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 50'
+  name: '[I] 🇺🇸 美国 45'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
     short-id: '!!str c39cc7310a'
-  server: 169.40.42.229
+  server: 169.40.42.231
   servername: yahoo.com
   tls: false
   type: vless
@@ -463,7 +419,7 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 51'
+  name: '[I] 🇺🇸 美国 46'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -473,7 +429,7 @@ proxies:
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: '[I] 🇺🇸 美国 52'
+- name: '[I] 🇺🇸 美国 47'
   network: ws
   password: humanity
   port: 443
@@ -482,7 +438,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 53'
+- name: '[I] 🇺🇸 美国 48'
   network: ws
   password: humanity
   port: 443
@@ -491,7 +447,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 54'
+- name: '[I] 🇺🇸 美国 49'
   network: ws
   password: humanity
   port: 443
@@ -500,7 +456,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 55'
+- name: '[I] 🇺🇸 美国 50'
   network: ws
   password: humanity
   port: 443
