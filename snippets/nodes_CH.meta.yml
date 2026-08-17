@@ -1,17 +1,14 @@
 proxies:
-- down: ''
-  fingerprint: 0d1a3bdb9ed6df1bdccf9745055822b46ae00b63150c73b5447e09447666745a
-  name: '[D] CH 01'
+- name: '[D] CH 01'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: IJMFOXhvbQ
-  port: '38871'
+  port: 38871
   server: 51.79.91.52
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-  up: ''
 - name: '[E] CH 02'
   password: gf1:gfhysteria2024
   port: 443
@@ -36,3 +33,11 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
+- name: '[H] CH 05'
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
