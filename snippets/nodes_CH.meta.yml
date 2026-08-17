@@ -1,17 +1,14 @@
 proxies:
-- down: ''
-  fingerprint: 0d1a3bdb9ed6df1bdccf9745055822b46ae00b63150c73b5447e09447666745a
-  name: '[D] CH 01'
+- name: '[D] CH 01'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: IJMFOXhvbQ
-  port: '38871'
+  port: 38871
   server: 51.79.91.52
   skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
-  up: ''
 - name: '[E] CH 02'
   password: gf1:gfhysteria2024
   port: 443
@@ -36,3 +33,19 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[H] CH 05'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: ne8wv6o6AYcQoVvz30PiTjSxviGa3_Kw5ClIEDdg-3A
+    short-id: '!!str 6ba85179e30d4fc2'
+  server: 138.124.33.169
+  servername: 360.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 62a08ea5-0564-47b4-a92c-25be07ad6358
+  xudp: true

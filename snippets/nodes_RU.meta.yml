@@ -1,12 +1,5 @@
 proxies:
 - name: '[D] 🇷🇺 俄罗斯 01'
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  sni: usa1.spectrumproxy.shop
-  tls: false
-  type: hysteria2
-- name: '[D] 🇷🇺 俄罗斯 02'
   password: 921db318-1694-4408-9cc7-c93df39f7f8e
   port: 443
   server: ru-i-2.monkeyisland.xyz
@@ -14,32 +7,25 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  encryption: none
+- client-fingerprint: chrome
   grpc-opts:
-    grpc-service-name: grpc
-  name: '[H] 🇷🇺 俄罗斯 03'
+    grpc-service-name: bridge-akenai-grpc-max
+  name: '[H] 🇷🇺 俄罗斯 02'
   network: grpc
   port: '443'
   reality-opts:
-    public-key: J3W60M3AtU5k97dW435MfETjHX-DtfFqNrRUNoj2MXE
-    short-id: '!!str a1b2c3d4'
-  server: 31.177.111.144
-  servername: ads.x5.ru
+    public-key: dg-XAKwtCTyYz0HN94sbNCM8xLwY4lBHkUa883nTFn8
+    short-id: '!!str be7d4026'
+  server: 213.178.155.239
+  servername: max.ru
   tls: true
   type: vless
   udp: true
-  uuid: 8071f3cc-994f-4fe2-bb87-cdc79559cb56
+  uuid: 87b320fe-2329-498d-997b-7b956a99eecb
   xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[I] 🇷🇺 俄罗斯 04'
-  password: xKUIJK-B4eSS7l1_hgJP-A
-  port: 150
-  server: 37.252.20.41
-  type: ss
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 05'
+  name: '[I] 🇷🇺 俄罗斯 03'
   port: 8443
   server: id.tutdesignstudio.site
   tls: true
