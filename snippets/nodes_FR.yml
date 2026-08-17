@@ -1,44 +1,20 @@
 proxies:
-- name: '[H] 🇫🇷 法国 37'
-  password: PQ05174892
-  port: 443
-  server: lucky-marmot.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 38'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 37'
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.22
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 39'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /assignment
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 40'
-  password: amazonskr05
-  port: 443
-  server: 15.237.189.197
-  type: ss

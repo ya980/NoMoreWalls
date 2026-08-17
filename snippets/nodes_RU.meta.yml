@@ -7,8 +7,17 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
+- name: '[D] 🇷🇺 俄罗斯 02'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: ru1.sferavpn.pro
+  sni: ru1.sferavpn.pro
+  tls: false
+  type: hysteria2
 - client-fingerprint: firefox
-  name: '[H] 🇷🇺 俄罗斯 02'
+  name: '[H] 🇷🇺 俄罗斯 03'
   network: xhttp
   port: 443
   server: 135.106.140.18
@@ -16,13 +25,30 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 497442f4-af45-4b75-97b1-63fe3726e8a1
+  uuid: abc2d099-3c30-45c1-a754-bc25aa95061b
   xhttp-opts:
     mode: auto
     path: /assets/build/_app/immutable/chunks/stream-one/
 - client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[H] 🇷🇺 俄罗斯 04'
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: J3W60M3AtU5k97dW435MfETjHX-DtfFqNrRUNoj2MXE
+    short-id: '!!str a1b2c3d4'
+  server: 31.177.111.144
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8071f3cc-994f-4fe2-bb87-cdc79559cb56
+  xudp: true
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 05'
   port: 8443
   server: id.tutdesignstudio.site
   tls: true

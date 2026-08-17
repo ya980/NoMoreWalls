@@ -278,96 +278,22 @@ proxies:
   sni: 91.196.32.163
   tls: false
   type: hysteria2
-- name: '[H] 🇫🇷 法国 37'
-  password: PQ05174892
-  port: 443
-  server: lucky-marmot.rooster465.autos
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 38'
+- alpn:
+  - http/1.1
+  - h2
+  - h3
+  client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 37'
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.22
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.71 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 39'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/32.0.1700.107 Safari/537.36
-    path: /assignment
-- cipher: aes-256-cfb
-  name: '[H] 🇫🇷 法国 40'
-  password: amazonskr05
-  port: 443
-  server: 15.237.189.197
-  type: ss
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 41'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: 141.227.170.12
-  servername: sellflow.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5c22dd50-f75d-4cf5-ba53-721f91d8bfe1
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 42'
-  network: ws
-  port: '8443'
-  server: 31.56.228.250
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.77 Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 43'
-  network: ws
-  port: '2053'
-  server: 188.130.207.119
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
-  xudp: true
