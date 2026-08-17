@@ -4,18 +4,10 @@ proxies:
   port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
-  sni: mg2.mangshe.xyz#🇩🇪|DE|@wxgqlfx|20
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
-  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
-  server: mg2.mangshe.xyz
-  skip-cert-verify: true
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 03'
+- name: '[D] 🇩🇪 德国 02'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de120.mechvpn.online
@@ -23,7 +15,7 @@ proxies:
   sni: de120.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 04'
+- name: '[D] 🇩🇪 德国 03'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de200.mechvpn.online
@@ -32,7 +24,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 04'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: fr131.mechvpn.online
@@ -43,7 +35,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 05'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -55,7 +47,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 07'
+  name: '[D] 🇩🇪 德国 06'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -66,7 +58,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇩🇪 德国 08'
+  name: '[D] 🇩🇪 德国 07'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: de.1.22.washing.help
@@ -74,10 +66,18 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 09'
+- name: '[E] 🇩🇪 德国 08'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 177.3.212.103
+  sni: nl1.noesissite.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 09'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: nl1.noesissite.ru
+  skip-cert-verify: true
   sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
@@ -86,81 +86,63 @@ proxies:
   port: 443
   server: nl1.noesissite.ru
   skip-cert-verify: true
-  sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 11'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: nl1.noesissite.ru
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 12'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.133
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 13'
+- name: '[E] 🇩🇪 德国 12'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 14'
+- name: '[E] 🇩🇪 德国 13'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 15'
-  network: ws
-  port: 8443
-  server: 38.180.48.182
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '[H] 🇩🇪 德国 16'
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 17'
-  network: tcp
-  port: '443'
+- client-fingerprint: safari
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: vless-grpc-reality
+  name: '[H] 🇩🇪 德国 14'
+  network: grpc
+  port: 2096
   reality-opts:
-    public-key: aEAdhhksLgyI_GWf7l_ES5hMZhigMAIWBn9emSXdaHc
-    short-id: '!!str 56f276ac52'
-  server: de1.miyazono-kaori.com
-  servername: www.siemens.com
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: ss.1010101.vip
+  servername: id.vk.com
   tls: true
   type: vless
   udp: true
-  uuid: aba8b762-e6c5-413e-b342-c132007fa767
+  uuid: 53b7fdec-4ccb-481a-8d98-83aa19509330
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 15'
+  network: raw
+  port: 2027
+  reality-opts:
+    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
+    short-id: '!!str 8d3293f0066e129a'
+  server: 78.159.247.253
+  servername: storage.yandex.net
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
   xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 18'
+  name: '[I] 🇩🇪 德国 16'
   network: ws
   port: 443
   server: 108.138.26.70

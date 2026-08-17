@@ -1,13 +1,5 @@
 proxies:
 - name: '[D] 🇫🇷 法国 01'
-  password: Krab9Hyst2_Rk7pQ2xL
-  port: 36723
-  server: fr.vpn.legendaah.xyz
-  skip-cert-verify: true
-  sni: 'off'
-  tls: false
-  type: hysteria2
-- name: '[D] 🇫🇷 法国 02'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -19,7 +11,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇫🇷 法国 03'
+  name: '[D] 🇫🇷 法国 02'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -29,22 +21,21 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
+- name: '[E] 🇫🇷 法国 03'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
   server: 151.247.197.253
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
+- name: '[E] 🇫🇷 法国 04'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
   server: fr.vpn.legendaah.xyz
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- down: null
-  name: '[E] 🇫🇷 法国 06'
+- name: '[E] 🇫🇷 法国 05'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -52,14 +43,13 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-  up: null
-- name: '[E] 🇫🇷 法国 07'
+- name: '[E] 🇫🇷 法国 06'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de120.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 08'
+- name: '[E] 🇫🇷 法国 07'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de200.mechvpn.online
@@ -67,14 +57,14 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 09'
+- name: '[E] 🇫🇷 法国 08'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
   server: de200.mechvpn.online
   sni: de200.mechvpn.online
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 10'
+- name: '[E] 🇫🇷 法国 09'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.26
@@ -82,23 +72,31 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 11'
+  name: '[H] 🇫🇷 法国 10'
   network: ws
-  port: 8443
-  server: 31.59.121.155
-  servername: kjgdksgghre466.pages.dev
-  tls: true
-  type: vless
-  uuid: 6705ddbd-04cf-40f6-99b9-36846b08c2a9
-  ws-opts:
-    headers:
-      Host: kjgdksgghre466.pages.dev
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 12'
-  password: PQ05174892
+  password: humanity
   port: '443'
-  server: lucky-marmot.rooster465.autos
-  skip-cert-verify: true
+  server: 104.18.23.63
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
   type: trojan
   udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 11'
+  network: tcp
+  port: '443'
+  server: hope.tutdesignstudio.site
+  servername: hope.tutdesignstudio.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 493dea8b-0d8d-42bf-b96b-1efee4d5102a
+  xudp: true

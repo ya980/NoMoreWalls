@@ -128,48 +128,71 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇺🇸 美国 18'
-  network: grpc
-  port: 10239
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: us2-r.link-t7.com
-  servername: s0.awsstatic.com
+  network: xhttp
+  port: '443'
+  server: 69.46.46.107
+  servername: rvg-production-2aea.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: '[H] 🇺🇸 美国 19'
-  network: grpc
-  port: 10238
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: us1-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
-- name: '[H] 🇺🇸 美国 20'
+  uuid: b6fbfc7e-2ab5-c52d-a4ed-7d2b62c0eb8a
+  xhttp-opts:
+    host: rvg-production-2aea.up.railway.app
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/b6fbfc7e-2ab5-c52d-a4ed-7d2b62c0eb8a
+  xudp: true
+- name: '[H] 🇺🇸 美国 19'
   port: 9002
-  server: 156.146.59.25
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 20'
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 21'
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 22'
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 23'
+  port: 9002
+  server: 156.146.59.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 24'
+  port: 9002
+  server: 156.146.59.27
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 21'
+  name: '[H] 🇺🇸 美国 25'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -184,175 +207,100 @@ proxies:
   ws-opts:
     headers:
       Host: yahoo.com
-- cipher: auto
-  name: '[H] 🇺🇸 美国 24'
-  network: none
-  port: 47212
-  server: 216.167.54.75
-  tls: false
-  type: vless
-  uuid: cd477134-ffce-473a-8dca-8ce5fc6eb3eb
-- name: '[H] 🇺🇸 美国 25'
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
 - name: '[H] 🇺🇸 美国 26'
-  password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-  port: 443
-  server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-  sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
   tls: true
   type: http
-  username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+  username: ''
 - name: '[H] 🇺🇸 美国 27'
   port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
+  server: carolinafreigh.fun
+  sni: carolinafreigh.fun
   tls: true
   type: http
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇺🇸 美国 28'
-  obfs: ''
-  obfs-password: ''
-  password: fe475179-d8a8-420d-a4ac-3e415ed8dc72
-  port: '11683'
-  server: uswx4.wxgqlfx.vip
+- name: '[H] 🇺🇸 美国 28'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
   skip-cert-verify: true
-  sni: 144.225.187.153
-  type: hysteria2
-  up: ''
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 29'
-  network: xhttp
-  port: '443'
-  server: inetchnl-production-48d6.up.railway.app
-  servername: inetchnl-production-48d6.up.railway.app
   tls: true
-  type: vless
-  udp: true
-  uuid: 01479a99-4222-6bec-8093-47353b3991b9
-  xhttp-opts:
-    host: inetchnl-production-48d6.up.railway.app
-    mode: packet-up
-    path: /xhttp-siz10/packet-up/01479a99-4222-6bec-8093-47353b3991b9
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+  type: http
+  username: 'null'
+- name: '[H] 🇺🇸 美国 29'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- client-fingerprint: edge
   encryption: none
+  flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 30'
-  network: xhttp
-  port: '443'
-  server: inetchnl-production-6101.up.railway.app
-  servername: inetchnl-production-6101.up.railway.app
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI
+    short-id: '!!str 00bca5982f82d083'
+  server: 144.31.242.1
+  servername: eu-central.cendora.ru
   tls: true
   type: vless
   udp: true
-  uuid: 44a23aca-1eda-22f3-5303-82e34b321fca
-  xhttp-opts:
-    host: inetchnl-production-6101.up.railway.app
-    mode: stream-up
-    path: /xhttp-siz10/stream-up/44a23aca-1eda-22f3-5303-82e34b321fca
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
+- cipher: aes-256-cfb
   name: '[H] 🇺🇸 美国 31'
-  network: xhttp
-  port: '443'
-  server: x4g-production-cfa09.up.railway.app
-  servername: x4g-production-cfa09.up.railway.app
-  tls: true
-  type: vless
+  password: amazonskr05
+  port: 443
+  server: 18.191.198.248
+  type: ss
   udp: true
-  uuid: 44c3be3c-de94-7e63-dd70-885ed7ccfe83
-  xhttp-opts:
-    host: x4g-production-cfa09.up.railway.app
-    mode: packet-up
-    path: /xhttp-siz10/packet-up/44c3be3c-de94-7e63-dd70-885ed7ccfe83
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 32'
-  network: ws
-  port: '443'
-  server: 69.46.46.111
-  servername: rvg-production-7dfb.up.railway.app
+- name: '[H] 🇺🇸 美国 32'
+  port: 9002
+  server: 156.146.59.38
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: b44c0f43-6824-b02f-4827-2ac84bfa6802
-  ws-opts:
-    headers:
-      Host: rvg-production-7dfb.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L03 Build/HUAWEICAM-L03) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /ws/b44c0f43-6824-b02f-4827-2ac84bfa6802
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 33'
-  network: ws
-  port: '443'
-  server: 69.46.46.114
-  servername: rvg-production-97ae.up.railway.app
+  type: http
+- name: '[H] 🇺🇸 美国 33'
+  password: ''
+  port: 9002
+  server: 156.146.59.17
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: dcf890f8-2557-854a-f170-ac50dd0a4d1c
-  ws-opts:
-    headers:
-      Host: rvg-production-97ae.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /ws/dcf890f8-2557-854a-f170-ac50dd0a4d1c
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 34'
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 34'
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8
-    short-id: '!!str e4f6a3446ac34a24'
-  server: 140.99.223.19
-  servername: savesafe.run
-  tls: true
+  port: '47212'
+  server: 216.167.54.75
   type: vless
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  uuid: cd477134-ffce-473a-8dca-8ce5fc6eb3eb
   xudp: true
-- client-fingerprint: firefox
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 35'
-  network: tcp
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8
-    short-id: '!!str e4f6a3446ac34a24'
-  server: 140.99.223.20
-  servername: savesafe.run
+  server: spider-panel-production-c21d.up.railway.app
+  servername: spider-panel-production-c21d.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  uuid: aeb8b162-0fb7-469b-94f2-611d1a23ff53
+  ws-opts:
+    headers:
+      Host: spider-panel-production-c21d.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.102 Safari/537.36
+    path: /ws/aeb8b162-0fb7-469b-94f2-611d1a23ff53
   xudp: true
 - client-fingerprint: firefox
   encryption: none
@@ -363,49 +311,31 @@ proxies:
   reality-opts:
     public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8
     short-id: '!!str e4f6a3446ac34a24'
-  server: 140.99.223.35
+  server: 140.99.223.61
   servername: savesafe.run
   tls: true
   type: vless
   udp: true
   uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
   xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: firefox
   encryption: none
-  name: '[H] 🇺🇸 美国 37'
-  network: xhttp
-  port: '443'
-  server: 69.46.46.107
-  servername: rvg-production-2aea.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: b6fbfc7e-2ab5-c52d-a4ed-7d2b62c0eb8a
-  xhttp-opts:
-    host: rvg-production-2aea.up.railway.app
-    mode: stream-up
-    path: /xhttp-siz10/stream-up/b6fbfc7e-2ab5-c52d-a4ed-7d2b62c0eb8a
-  xudp: true
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 38'
+  name: '[H] 🇺🇸 美国 37'
   network: tcp
-  port: '50159'
+  port: '443'
   reality-opts:
-    public-key: HxDIQIyhKA6Ac57hT9ZNoFU2kT1_82y61gbIW7KvuFo
-    short-id: '!!str 4b7d2b4d8f6d5cf2'
-  server: 45.62.118.37
-  servername: www.cloudflare.com
+    public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8
+    short-id: '!!str e4f6a3446ac34a24'
+  server: savesafe.run
+  servername: savesafe.run
   tls: true
   type: vless
   udp: true
-  uuid: cb6b8710-97a5-4bff-9658-f265b0ea34e5
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
   xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 39'
+  name: '[I] 🇺🇸 美国 38'
   network: ws
   port: 443
   server: 52.84.199.28
@@ -418,7 +348,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 40'
+  name: '[I] 🇺🇸 美国 39'
   network: ws
   port: 443
   server: 18.238.109.17
@@ -431,7 +361,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 41'
+  name: '[I] 🇺🇸 美国 40'
   network: ws
   port: 443
   server: 18.238.109.26
@@ -445,7 +375,7 @@ proxies:
     path: '%2F'
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 42'
+  name: '[I] 🇺🇸 美国 41'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -460,7 +390,7 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 43'
+  name: '[I] 🇺🇸 美国 42'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -475,7 +405,7 @@ proxies:
       Host: yahoo.com
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 44'
+  name: '[I] 🇺🇸 美国 43'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -487,7 +417,7 @@ proxies:
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
 - client-fingerprint: ios
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 45'
+  name: '[I] 🇺🇸 美国 44'
   port: 443
   reality-opts:
     public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
@@ -497,7 +427,7 @@ proxies:
   tls: false
   type: vless
   uuid: d65cc14c-f53f-4fe2-b262-97856601319c
-- name: '[I] 🇺🇸 美国 46'
+- name: '[I] 🇺🇸 美国 45'
   network: ws
   password: humanity
   port: 443
@@ -506,7 +436,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 47'
+- name: '[I] 🇺🇸 美国 46'
   network: ws
   password: humanity
   port: 443
@@ -515,7 +445,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 48'
+- name: '[I] 🇺🇸 美国 47'
   network: ws
   password: humanity
   port: 443
@@ -524,7 +454,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 49'
+- name: '[I] 🇺🇸 美国 48'
   network: ws
   password: humanity
   port: 443
