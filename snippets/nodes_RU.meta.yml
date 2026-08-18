@@ -7,33 +7,20 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
-- name: '[H] 🇷🇺 俄罗斯 02'
-  password: ''
-  port: '1080'
-  server: 193.233.218.213
-  skip-cert-verify: true
-  type: socks5
-  username: ''
-- client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 03'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: cUkI5Y0ZtOZz-ZHO9xTa88y0FtlHH-HECAobmpRaix0
-    short-id: '!!str 969c405a'
-  server: 178.130.46.253
-  servername: dl.google.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ed7f5e6-806f-4e18-8721-32f9fede9e3e
-  xudp: true
-- client-fingerprint: firefox
+- cipher: aes-256-gcm
+  name: '[I] 🇷🇺 俄罗斯 02'
+  password: 1eadd4e4a37b6601
+  port: 10801
+  server: 45.8.158.176
+  type: ss
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 04'
-  port: 8443
-  server: id.tutdesignstudio.site
+  name: '[I] 🇷🇺 俄罗斯 03'
+  port: 443
+  server: hope.tutdesignstudio.site
+  servername: hope.tutdesignstudio.site
   tls: true
   type: vless
-  uuid: b9125df6-2a60-4643-bcba-a5f78cb663a7
+  uuid: 493dea8b-0d8d-42bf-b96b-1efee4d5102a

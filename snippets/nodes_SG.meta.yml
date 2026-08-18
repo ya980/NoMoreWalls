@@ -9,13 +9,29 @@ proxies:
   type: hysteria2
 - name: '[E] 🇸🇬 新加坡 02'
   password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 1935
+  server: sg1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 03'
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
   port: 4466
   server: sg3.xiaoliyu.cyou
   skip-cert-verify: true
   sni: sg3.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[E] 🇸🇬 新加坡 03'
+- name: '[E] 🇸🇬 新加坡 04'
+  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
+  port: 4466
+  server: 194.87.10.191
+  skip-cert-verify: true
+  sni: sg3.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 05'
   password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
   port: 4466
   server: sg3.xiaoliyu.cyou
@@ -23,23 +39,21 @@ proxies:
   sni: sg3.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: '[F] 🇸🇬 新加坡 04'
-  network: tcp
+- name: '[F] 🇸🇬 新加坡 06'
   password: 6ec301428255a78a1d826988d86cc87e
   port: 51396
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 05'
-  network: tcp
+- name: '[F] 🇸🇬 新加坡 07'
   password: 6ec301428255a78a1d826988d86cc87e
   port: 7375
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇸🇬 新加坡 06'
+- name: '[F] 🇸🇬 新加坡 08'
   network: tcp
   password: BxceQaOe
   port: 26704
@@ -47,31 +61,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[H] 🇸🇬 新加坡 07'
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 56277
-  server: yzany01.jdoanst2026.com
+- name: '[G] 🇸🇬 新加坡 09'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 51396
+  server: 16.162.100.124
   skip-cert-verify: true
-  sni: xjp03.ascwt179.com
-  type: anytls
-- name: '[H] 🇸🇬 新加坡 09'
-  password: ESfDSCxpD
-  port: 64462
-  server: 154.219.254.66
-  type: http
-  username: n17sMRE7S
+  sni: www.nintendogames.net
+  type: trojan
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: '[H] 🇸🇬 新加坡 10'
-  network: grpc
-  port: '10039'
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 13'
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 13.212.89.97
-  servername: d1.awsstatic.com
+    public-key: ZMYQqRPgpITMElFSEMesSocBj7jvhhw3JGGzWEfyrBk
+    short-id: '!!str 693f679d3294f967'
+  server: 163.128.99.246
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+  uuid: f3ed1945-dc1e-478a-b067-12b71badbea9
+  xudp: true

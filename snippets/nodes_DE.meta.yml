@@ -70,6 +70,7 @@ proxies:
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 177.3.212.103
+  skip-cert-verify: true
   sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
@@ -78,7 +79,6 @@ proxies:
   port: 443
   server: nl1.noesissite.ru
   skip-cert-verify: true
-  sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 10'
@@ -86,6 +86,7 @@ proxies:
   port: 443
   server: nl1.noesissite.ru
   skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 11'
@@ -109,48 +110,35 @@ proxies:
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless-grpc-reality
+- encryption: none
   name: '[H] 🇩🇪 德国 14'
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: ss.1010101.vip
-  servername: id.vk.com
-  tls: true
+  network: tcp
+  port: '667'
+  server: 2.59.223.72
   type: vless
   udp: true
-  uuid: 53b7fdec-4ccb-481a-8d98-83aa19509330
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 15'
-  network: raw
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str 8d3293f0066e129a'
-  server: 78.159.247.253
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  uuid: 76fd8cd7-cff8-42fa-9b65-d10532536ae7
   xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 16'
-  network: ws
-  port: 443
-  server: 108.138.26.70
-  servername: d1yxsk0zprgivr.cloudfront.net
-  tls: true
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 15'
+  network: tcp
+  port: 13443
+  reality-opts:
+    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
+    short-id: '!!str a7f3c91b2e6d84c0'
+  server: 144.31.76.198
+  servername: auto.cendora.ru
+  tls: false
   type: vless
-  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- name: '[I] 🇩🇪 德国 16'
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   ws-opts:
-    headers:
-      Host: d1yxsk0zprgivr.cloudfront.net
-    path: '%2F'
+    path: '%2Fassignment'
