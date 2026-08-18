@@ -1,11 +1,27 @@
 proxies:
-- name: '[I] 🇩🇪 德国 16'
-  network: ws
-  password: humanity
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: ajv
+  name: '[H] 🇩🇪 德国 16'
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
   port: 443
-  server: 141.101.90.101
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: ru-5b7331.atlanta-games.com
+  skip-cert-verify: true
+  sni: ru-5b7331.atlanta-games.com
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: ajv
+  name: '[H] 🇩🇪 德国 18'
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: '443'
+  server: ru-5b7331.atlanta-games.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true

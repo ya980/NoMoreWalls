@@ -90,39 +90,126 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 11'
+  password: owefv0_92Z540k2F_nx83245_J9130oS_tY
+  port: 8080
+  server: 5.180.27.221
+  sni: borat-hopp.bumbleshrimp.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 12'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.133
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 12'
+- name: '[E] 🇩🇪 德国 13'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   skip-cert-verify: true
+  sni: 2.27.23.44
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 13'
+- name: '[E] 🇩🇪 德国 14'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
   sni: gate-v1.not-a-projects.xyz
   tls: false
   type: hysteria2
-- encryption: none
-  name: '[H] 🇩🇪 德国 14'
-  network: tcp
-  port: '667'
-  server: 2.59.223.72
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 15'
+  network: ws
+  port: 443
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
   type: vless
   udp: true
-  uuid: 76fd8cd7-cff8-42fa-9b65-d10532536ae7
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: ajv
+  name: '[H] 🇩🇪 德国 16'
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: 443
+  server: ru-5b7331.atlanta-games.com
+  skip-cert-verify: true
+  sni: ru-5b7331.atlanta-games.com
+  type: trojan
+  udp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '[H] 🇩🇪 德国 17'
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp: true
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
+- alpn:
+  - h2
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: ajv
+  name: '[H] 🇩🇪 德国 18'
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: '443'
+  server: ru-5b7331.atlanta-games.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 19'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: p3sQ8oByv8AXIm2jaOdFvAmxTeMGjr9uwCqyFvHpJz0
+    short-id: '!!str d6c4636b81237396'
+  server: de.techdatacloud.org
+  servername: storage.yandex.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5e19b3c8-c1dc-4163-95e2-895319c15d6c
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 20'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: diw5L3O4EkRQGWDSfdpQooPUc3zBTItooeOQ_fIDFWI
+    short-id: '!!str 7f2e9c4b1a8d6e53'
+  server: 159.195.201.146
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68dc7ee8-179e-4dff-8275-2c4ebc5c03ea
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 15'
-  network: tcp
+  name: '[I] 🇩🇪 德国 21'
   port: 13443
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
@@ -132,13 +219,3 @@ proxies:
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: '[I] 🇩🇪 德国 16'
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'

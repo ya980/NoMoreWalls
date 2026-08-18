@@ -7,20 +7,22 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
-- cipher: aes-256-gcm
-  name: '[I] 🇷🇺 俄罗斯 02'
-  password: 1eadd4e4a37b6601
-  port: 10801
-  server: 45.8.158.176
-  type: ss
 - alpn:
   - http/1.1
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 02'
   port: 443
   server: hope.tutdesignstudio.site
   servername: hope.tutdesignstudio.site
   tls: true
   type: vless
   uuid: 493dea8b-0d8d-42bf-b96b-1efee4d5102a
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 03'
+  port: 443
+  server: begin.magazinetut.online
+  tls: true
+  type: vless
+  uuid: 85bddbfa-4149-4db0-8092-39a2b228ec60
