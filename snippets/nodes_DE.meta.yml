@@ -34,7 +34,31 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
+  fingerprint: chrome
   name: '[D] 🇩🇪 德国 05'
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNJey
+  port: 37003
+  server: 1.1.1.1
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[D] 🇩🇪 德国 06'
+  obfs: salamander
+  obfs-password: 83v9muumcyikh5ch
+  password: TelegramVPNjey
+  port: 37003
+  server: 179.61.251.253
+  sni: de.jey.cc.cd
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  name: '[D] 🇩🇪 德国 07'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: de.1.22.washing.help
@@ -42,21 +66,21 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 06'
+- name: '[E] 🇩🇪 德国 08'
   password: owefv0_92Z540k2F_nx83245_J9130oS_tY
   port: 8080
   server: 5.180.27.221
   sni: borat-hopp.bumbleshrimp.com
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 07'
+- name: '[E] 🇩🇪 德国 09'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.133
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 08'
+- name: '[E] 🇩🇪 德国 10'
   password: bQzzrPgfj971MZcmKJNQCBC2p3TytvUV
   port: 43327
   server: 2.27.23.44
@@ -64,23 +88,24 @@ proxies:
   sni: 2.27.23.44
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 09'
-  network: ws
-  port: '8880'
-  server: 104.24.152.211
-  type: vless
-  udp: true
-  uuid: 2acde116-5949-48d8-a1e6-60a1d2547deb
-  ws-opts:
-    headers:
-      Host: lively-pine-093d.144-868.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/45.0.2454.85 Safari/537.36
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-  xudp: true
+- alpn:
+  - h3
+  congestion-controller: bbr
+  disable-sni: false
+  name: '[H] 🇩🇪 德国 11'
+  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
+  port: 17306
+  reduce-rtt: false
+  request-timeout: 0
+  server: 89.144.35.232
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: tuic
+  udp-relay-mode: native
+  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 12'
   port: 13443
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
