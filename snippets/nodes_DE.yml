@@ -1,1 +1,48 @@
-proxies: []
+proxies:
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: ajv
+  name: '[H] 🇩🇪 德国 11'
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: '443'
+  server: ru-5b7331.atlanta-games.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 13'
+  password: amazonskr05
+  port: 443
+  server: 3.79.230.55
+  type: ss
+  udp: true
+- alpn:
+  - h2
+  client-fingerprint: edge
+  grpc-opts:
+    grpc-service-name: ajv
+  name: '[H] 🇩🇪 德国 18'
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: '443'
+  server: 176.108.242.191
+  skip-cert-verify: false
+  sni: ru-5b7331.atlanta-games.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇩🇪 德国 19'
+  network: ws
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  tls: false
+  type: vmess
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
