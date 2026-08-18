@@ -7,26 +7,12 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 02'
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[H] 🇬🇧 英国 03'
-  network: grpc
-  port: '2083'
-  reality-opts:
-    public-key: -ljhp6OZ_8KudLYANB-6BD6XaLIS5RqWvFnYRXKrXms
-    short-id: '!!str a7c236bb91557d48'
-  server: msk.v2raytun-proxy.app
-  servername: ads.x5.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: d8409007-ca8d-4d92-8da3-3720a762fa02
-  xudp: true
+- alpn:
+  - h3
+  name: '[E] 🇬🇧 英国 02'
+  password: 55b71f97202647049ce999646de57c50
+  port: 8443
+  server: f1b.wareznet.ru
+  sni: f1b.wareznet.ru
+  tls: false
+  type: hysteria2
