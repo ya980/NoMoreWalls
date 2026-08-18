@@ -32,10 +32,20 @@ proxies:
   sni: fr131.mechvpn.online
   tls: false
   type: hysteria2
+- name: '[D] 🇩🇪 德国 05'
+  obfs: salamander
+  obfs-password: Telegram@vpnjey
+  password: Telegram@vpnjey
+  port: 37009
+  server: 31.76.27.23
+  skip-cert-verify: true
+  sni: de.vpnjey.store
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 06'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -47,7 +57,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 07'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -58,7 +68,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇩🇪 德国 07'
+  name: '[D] 🇩🇪 德国 08'
   password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
   port: 443
   server: de.1.22.washing.help
@@ -66,18 +76,10 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 08'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: 177.3.212.103
-  skip-cert-verify: true
-  sni: nl1.noesissite.ru
-  tls: false
-  type: hysteria2
 - name: '[E] 🇩🇪 德国 09'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
-  server: nl1.noesissite.ru
+  server: 177.3.212.103
   skip-cert-verify: true
   sni: nl1.noesissite.ru
   tls: false
@@ -87,90 +89,65 @@ proxies:
   port: 443
   server: nl1.noesissite.ru
   skip-cert-verify: true
+  sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: ajv
-  name: '[H] 🇩🇪 德国 11'
-  network: grpc
-  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
-  port: '443'
-  server: ru-5b7331.atlanta-games.com
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- client-fingerprint: safari
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
+- name: '[E] 🇩🇪 德国 11'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: nl1.noesissite.ru
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- encryption: none
   name: '[H] 🇩🇪 德国 12'
-  network: grpc
+  network: tcp
+  port: '22222'
+  server: 63.183.54.159
+  type: vless
+  udp: true
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  xudp: true
+- auth: 81378ef7-89a1-43b5-9a9d-a04a8af25b7c
+  name: '[H] 🇩🇪 德国 13'
+  password: 81378ef7-89a1-43b5-9a9d-a04a8af25b7c
+  port: 443
+  server: 194.31.223.107
+  skip-cert-verify: true
+  sni: de1.apexvpn.space
+  type: hysteria2
+- name: '[H] 🇩🇪 德国 14'
+  network: tcp
+  password: fg20mtCFHy
+  port: 5859
+  server: 209.38.240.27
+  skip-cert-verify: true
+  sni: uyped.southbyte.xyz
+  type: trojan
+- name: '[H] 🇩🇪 德国 15'
+  password: qGwNSnw1
+  port: 64218
+  server: 200.225.173.142
+  type: http
+  username: ZJWRqQLE
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 17'
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
+    public-key: YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM
+    short-id: '!!str 2b8c5e91'
+  server: 2.26.71.73
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
+  uuid: 4e843ed6-09e7-4be5-bd52-a1dc46568aeb
   xudp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 13'
-  password: amazonskr05
-  port: 443
-  server: 3.79.230.55
-  type: ss
-  udp: true
-- alpn:
-  - h3
-  congestion-controller: bbr
-  disable-sni: false
-  name: '[H] 🇩🇪 德国 15'
-  password: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  port: 17306
-  server: 89.144.35.232
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: tuic
-  udp: true
-  udp-relay-mode: native
-  uuid: 3ebac90b-6977-47c0-bef5-b2e37554432c
-  version: 5
-- alpn:
-  - h2
-  client-fingerprint: edge
-  grpc-opts:
-    grpc-service-name: ajv
-  name: '[H] 🇩🇪 德国 18'
-  network: grpc
-  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
-  port: '443'
-  server: 176.108.242.191
-  skip-cert-verify: false
-  sni: ru-5b7331.atlanta-games.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 19'
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
-  ws-opts:
-    headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 20'
+  name: '[I] 🇩🇪 德国 18'
   port: 13443
   reality-opts:
     public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
