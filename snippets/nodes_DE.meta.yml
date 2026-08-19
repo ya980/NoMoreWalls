@@ -54,7 +54,15 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 07'
+- name: '[D] 🇩🇪 德国 07'
+  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+  port: 443
+  server: 64.188.98.171
+  skip-cert-verify: true
+  sni: germany3.h2corp.local
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 08'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 177.3.212.103
@@ -62,7 +70,7 @@ proxies:
   sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 08'
+- name: '[E] 🇩🇪 德国 09'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: nl1.noesissite.ru
@@ -72,23 +80,48 @@ proxies:
 - alpn:
   - h3
   fingerprint: firefox
-  name: '[E] 🇩🇪 德国 09'
+  name: '[E] 🇩🇪 德国 10'
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
   server: olp.crsmaps.com
   sni: olp.crsmaps.com
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 10'
+- name: '[E] 🇩🇪 德国 11'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.137
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 12'
+  password: amazonskr05
+  port: 443
+  server: 52.59.195.252
+  type: ss
+- alpn:
+  - h3
+  auth-str: dongtaiwang.com
+  auth_str: dongtaiwang.com
+  down: 1000
+  name: '[H] 🇩🇪 德国 13'
+  port: 54177
+  protocol: udp
+  server: 5.83.129.90
+  skip-cert-verify: true
+  sni: apple.com
+  type: hysteria
+  up: 500
+- name: '[H] 🇩🇪 德国 14'
+  password: LBuHKNUpT
+  port: 63062
+  server: 185.78.79.39
+  type: http
+  username: kdEWXsS2E
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 11'
+  name: '[I] 🇩🇪 德国 15'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -100,7 +133,7 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- name: '[I] 🇩🇪 德国 12'
+- name: '[I] 🇩🇪 德国 16'
   network: ws
   password: humanity
   port: 443

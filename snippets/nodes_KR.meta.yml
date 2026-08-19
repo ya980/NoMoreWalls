@@ -39,17 +39,23 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[H] 🇰🇷 韩国 06'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.235
-  type: ss
-  udp: true
+  network: tcp
+  port: 39217
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - cipher: aes-256-cfb
   name: '[H] 🇰🇷 韩国 07'
   password: 7eadc6dbe2ae
   port: '65443'
-  server: 121.46.230.138
+  server: 121.46.230.235
   type: ss
   udp: true
