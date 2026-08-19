@@ -7,22 +7,37 @@ proxies:
   sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
-  port: 443
-  server: hope.tutdesignstudio.site
-  servername: hope.tutdesignstudio.site
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: NzaCxfbgTDajw93CJs3uFkFJzp7DWhzJIqcnzoZwGQ4
+    short-id: '!!str 5e6f7a8b'
+  server: 92.255.78.9
+  servername: max.ru
   tls: true
   type: vless
-  uuid: 493dea8b-0d8d-42bf-b96b-1efee4d5102a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
-  port: 443
-  server: begin.magazinetut.online
+  udp: true
+  uuid: f6da8274-44be-4599-a8d8-66929c980677
+  xudp: true
+- client-fingerprint: android
+  encryption: none
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: ws
+  port: '2053'
+  server: 72.56.236.219
+  servername: usa1.wba-pn.ru
   tls: true
   type: vless
-  uuid: 85bddbfa-4149-4db0-8092-39a2b228ec60
+  udp: true
+  uuid: fd3ff7be-f277-494b-a651-c210b93f2c19
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: ''
+  xudp: true

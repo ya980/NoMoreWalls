@@ -99,61 +99,81 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- encryption: none
-  name: '[H] 🇩🇪 德国 12'
-  network: tcp
-  port: '22222'
-  server: 63.183.54.159
-  type: vless
-  udp: true
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  xudp: true
-- auth: 81378ef7-89a1-43b5-9a9d-a04a8af25b7c
-  name: '[H] 🇩🇪 德国 13'
-  password: 81378ef7-89a1-43b5-9a9d-a04a8af25b7c
-  port: 443
-  server: 194.31.223.107
-  skip-cert-verify: true
-  sni: de1.apexvpn.space
-  type: hysteria2
-- name: '[H] 🇩🇪 德国 14'
-  network: tcp
-  password: fg20mtCFHy
-  port: 5859
-  server: 209.38.240.27
-  skip-cert-verify: true
-  sni: uyped.southbyte.xyz
-  type: trojan
-- name: '[H] 🇩🇪 德国 15'
-  password: qGwNSnw1
-  port: 64218
-  server: 200.225.173.142
-  type: http
-  username: ZJWRqQLE
 - client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 17'
-  network: tcp
-  port: '443'
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[H] 🇩🇪 德国 12'
+  network: grpc
+  port: 18443
   reality-opts:
-    public-key: YkcQyTOh9YpZmilRob-eVxwoo4uwBAa9oHmURMTFzEM
-    short-id: '!!str 2b8c5e91'
-  server: 2.26.71.73
-  servername: www.cloudflare.com
+    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+    short-id: '!!str 5c766813929a1fdd'
+  server: 104.167.24.227
+  servername: gp1.steptofsvo.com
   tls: true
   type: vless
   udp: true
-  uuid: 4e843ed6-09e7-4be5-bd52-a1dc46568aeb
+  uuid: 1c20357e-be52-4e5e-8eb6-6434adcb4b71
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 13'
+  network: tcp
+  port: '8086'
+  reality-opts:
+    public-key: nnq5J3zXFDHUGvCza7e5CMa34oexEcXUqAfqz_YY7yo
+    short-id: '!!str 64523ae2'
+  server: record.sinafc.ir
+  servername: explore.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98586561-43ac-435d-9bfd-b5780eb9e771
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: mygrpc
+  name: '[H] 🇩🇪 德国 14'
+  network: grpc
+  port: '2096'
+  server: 46.182.24.112
+  servername: v1.api2.ttpservers.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 163dc809-7970-4ff8-a7e5-8080ad53e7bb
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 18'
-  port: 13443
+  name: '[H] 🇩🇪 德国 15'
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM
-    short-id: '!!str a7f3c91b2e6d84c0'
-  server: 144.31.76.198
-  servername: auto.cendora.ru
+    public-key: KdveJDEjZkGpf3Ymw3Ptu0cjDQ9geOY3ueMniWuWa2E
+    short-id: '!!str 2694d28edfdd2c38'
+  server: jwut-19a9lvb.univanta.top
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56971dae-1974-4ebe-a903-00e310828dd5
+  xudp: true
+- name: '[I] 🇩🇪 德国 16'
+  port: 22222
+  server: 63.183.54.159
   tls: false
   type: vless
-  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇩🇪 德国 17'
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'

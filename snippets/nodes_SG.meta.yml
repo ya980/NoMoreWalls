@@ -7,33 +7,9 @@ proxies:
   sni: 129-150-54-169.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[E] 🇸🇬 新加坡 02'
-  password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3
-  port: 35000
-  server: 152.69.220.212
-  skip-cert-verify: true
-  sni: api.push.apple.com
-  tls: false
-  type: hysteria2
-- name: '[F] 🇸🇬 新加坡 03'
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 51396
-  server: 16.162.100.124
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: '[F] 🇸🇬 新加坡 04'
-  network: tcp
-  password: BxceQaOe
-  port: 26704
-  server: 16.163.139.175
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
 - down: ''
   fingerprint: ''
-  name: '[H] 🇸🇬 新加坡 05'
+  name: '[E] 🇸🇬 新加坡 02'
   obfs: ''
   obfs-password: ''
   password: 1427eb10-7529-4d38-a6a2-01b337868b37
@@ -41,20 +17,83 @@ proxies:
   server: sg1.xiaoliyu.cyou
   skip-cert-verify: true
   sni: sg1.xiaoliyu.cyou
+  tls: false
   type: hysteria2
   up: ''
+- name: '[E] 🇸🇬 新加坡 03'
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 1935
+  server: sg2.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: sg2.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[E] 🇸🇬 新加坡 04'
+  password: 0ee718a6-4e01-41d5-824a-fd38bf477cc3
+  port: 35000
+  server: 152.69.220.212
+  skip-cert-verify: true
+  sni: api.push.apple.com
+  tls: false
+  type: hysteria2
+- name: '[F] 🇸🇬 新加坡 05'
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 51396
+  server: 16.162.100.124
+  skip-cert-verify: true
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[F] 🇸🇬 新加坡 06'
+  network: tcp
+  password: BxceQaOe
+  port: 26704
+  server: 16.163.139.175
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
+  type: trojan
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇸🇬 新加坡 06'
+  name: '[H] 🇸🇬 新加坡 07'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: t3_QIEko7K1ONUIWGr4L84HNHszQ3zB_kOqkALiacRg
-    short-id: '!!str 43a85ad1c112e5d8'
-  server: 6ucb-1936he6.qvanta.top
+    public-key: 3ZKNZEktRaPxt-XoWmx68EGsFwglnICVkvIl96973iA
+    short-id: '!!str 4014ce9b0d82ad9d'
+  server: e4ur-1936et2.startora.top
   servername: www.bing.com
   tls: true
   type: vless
   udp: true
-  uuid: 6179bb85-fd73-4aa1-a10d-a7c017306c1b
+  uuid: 690ad3be-991b-4a2c-b351-42dd06789d03
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 08'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: rJ-aDop3jUC-FzyETfI2uDSXQ659PFlehr7XWm5Cm0A
+    short-id: '!!str fe1a104caf309f5a'
+  server: 6fzw-19369ic.meibao.site
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8d1e0577-bfcb-4cbd-91c0-1f8788d4ba44
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇸🇬 新加坡 09'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: kwZBG2HBA1WN4eZW1GK0D9OVC4TPEs5J-ZeeBA2bVBw
+    short-id: '!!str 08f1620e7ad50ca8'
+  server: yebm-1936hwy.revora.top
+  servername: www.bing.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: be154d71-04ca-4389-8a89-d14219b25cd7
   xudp: true

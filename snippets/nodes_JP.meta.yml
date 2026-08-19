@@ -4,23 +4,22 @@ proxies:
   port: 50160
   server: 154.31.115.179
   skip-cert-verify: true
+  sni: 154.31.115.179
+  tls: false
+  type: hysteria2
+- name: '[D] 🇯🇵 日本 02'
+  password: bc751c4c5c80f17dfbc05785c368b613
+  port: 50160
+  server: 154.31.115.179
+  skip-cert-verify: true
   sni: 154-31-115-179.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
-  password: AMnTye4y6Jjxc0J0
-  port: 26001
-  server: 151.242.164.204
-  skip-cert-verify: true
-  sni: jp-akile-6.nebulacloud.win
-  tls: false
-  type: hysteria2
 - name: '[E] 🇯🇵 日本 03'
-  password: BwAmBUHr2Sk9ZpR8
-  port: 16001
-  server: 151.242.164.80
+  password: fJT5wNXNkYDvYKKGWUc9f2vd0LvHKSwc
+  port: 443
+  server: 43.167.198.167
   skip-cert-verify: true
-  sni: jp-akile-1.nebulacloud.win
   tls: false
   type: hysteria2
 - name: '[E] 🇯🇵 日本 04'
@@ -55,25 +54,15 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇯🇵 日本 08'
+- name: '[H] 🇯🇵 日本 08'
   network: tcp
-  port: '443'
-  reality-opts:
-    public-key: gcqSfWJ1yR5Aa2fsBYZ3vyaC0yQnil4qqNMZN4weZlE
-    short-id: '!!str 674a07ea4d1c4255'
-  server: 64cq-19370l2.meiboyun.cloud
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 048a61f8-b236-4082-b1c3-c22a85693c12
-  xudp: true
+  password: HC04361579
+  port: 443
+  server: settling-shad.rooster465.autos
+  sni: settling-shad.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
   name: '[H] 🇯🇵 日本 09'
-  network: tcp
   password: EQ30679154
   port: '443'
   server: upright-sheepdog.rooster465.autos
@@ -81,30 +70,55 @@ proxies:
   sni: upright-sheepdog.rooster465.autos
   type: trojan
   udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- client-fingerprint: chrome
   name: '[H] 🇯🇵 日本 10'
   network: tcp
-  port: '21143'
+  password: EQ30679154
+  port: '443'
+  server: 54.250.159.158
+  skip-cert-verify: false
+  sni: faithful-panther.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 11'
+  network: tcp
+  password: EQ30679154
+  port: '443'
+  server: 57.180.56.235
+  skip-cert-verify: false
+  sni: gentle-perch.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 12'
+  network: tcp
+  password: fg20mtCFHy
+  port: '5710'
+  server: 172.105.197.232
+  skip-cert-verify: true
+  sni: jpcaw.southbyte.xyz
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇯🇵 日本 13'
+  network: tcp
+  port: '28176'
   reality-opts:
-    public-key: VFcjMcy9uLRCq3dy9zqYFOPF73TAx6QO11rleDrfBgM
-    short-id: '!!str 274772e3550ee3eb'
-  server: 35.200.86.178
-  servername: www.spotify.com
+    public-key: HBeH_uPYOMp9D7Mq1KxBzduX07OZ9C8rT4zSHNjiO3g
+    short-id: '!!str c1cd56a8'
+  server: guzljsefoasducuxk76.gxiwoxwecuowerfns.com
+  servername: www.cloudflare.com
   tls: true
   type: vless
   udp: true
-  uuid: 16b3793b-3335-4832-b1fd-877b2c5e15d6
+  uuid: 48d6a7ca-4257-4400-b810-eecb16e9e30f
   xudp: true
-- name: '[I] 🇯🇵 日本 11'
+- name: '[I] 🇯🇵 日本 14'
   network: ws
-  port: 8443
-  server: 185.112.249.201
-  servername: web-socket.tgdaosheng.ggff.net
+  port: 443
+  server: paid.sshehi.ggff.net
   tls: true
   type: vless
-  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
-  ws-opts:
-    headers:
-      Host: web-socket.tgdaosheng.ggff.net
-    path: /proxyip=bpb.yousef.isegaro.comfp=chromefp=chrome
+  uuid: 49c86212-ae0b-430e-9abb-244e715b533f
