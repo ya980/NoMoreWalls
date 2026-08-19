@@ -62,21 +62,21 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: mygrpc
-  name: '[H] 🇩🇪 德国 10'
-  network: grpc
-  port: '443'
-  server: slnd.tdvin.com
-  servername: slnd.tdvin.com
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 09'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: KdveJDEjZkGpf3Ymw3Ptu0cjDQ9geOY3ueMniWuWa2E
+    short-id: '!!str 2694d28edfdd2c38'
+  server: jwut-19a9lvb.univanta.top
+  servername: www.bing.com
   tls: true
   type: vless
-  udp: true
-  uuid: 6a798544-d17a-4039-abde-a25dc939441a
-  xudp: true
+  uuid: 56971dae-1974-4ebe-a903-00e310828dd5
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 11'
+  name: '[I] 🇩🇪 德国 10'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
@@ -88,7 +88,7 @@ proxies:
     headers:
       Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
     path: /
-- name: '[I] 🇩🇪 德国 12'
+- name: '[I] 🇩🇪 德国 11'
   network: ws
   password: humanity
   port: 443
