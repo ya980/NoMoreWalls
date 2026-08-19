@@ -15,12 +15,11 @@ proxies:
   sni: 23-19-231-152.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 03'
-  password: gf1
+- name: '[E] 🇺🇸 美国 03'
+  password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
-  sni: www.broadcom.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
@@ -28,6 +27,7 @@ proxies:
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
+  sni: www.broadcom.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
@@ -46,51 +46,21 @@ proxies:
   sni: uswx3.wxgqlfx.vip
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
-  password: 3aabd489-04af-42fb-87e2-363d1b83d335
-  port: 8443
-  server: iq5ny.pleiades.codes
-  sni: iq5ny.pleiades.codes
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 08'
-  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
-  port: 8443
-  server: 143.246.208.86
-  skip-cert-verify: true
-  sni: iq5ny.pleiades.codes
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 09'
-  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
-  port: 8443
-  server: iq5ny.pleiades.codes
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 10'
-  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
-  port: 8443
-  server: iq5ny.pleiades.codes
-  skip-cert-verify: true
-  sni: iq5ny.pleiades.codes
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 11'
-  password: 95e8532b-cc69-42d4-9553-e3c23292b15b
-  port: 8443
-  server: iq5ny.pleiades.codes
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 12'
-  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
-  port: 8443
-  server: 82.39.213.226
-  sni: hopp-us.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '[F] 🇺🇸 美国 13'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 07'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[F] 🇺🇸 美国 08'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -98,7 +68,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 14'
+- name: '[F] 🇺🇸 美国 09'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -106,7 +76,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 15'
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -114,155 +84,38 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 16'
-  network: ws
-  port: 443
-  server: spider-panel-production-19f9.up.railway.app
-  servername: spider-panel-production-19f9.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: b1312413-f847-4ade-ae98-17ca986ca329
-  ws-opts:
-    headers:
-      Host: spider-panel-production-19f9.up.railway.app
-    path: /ws/b1312413-f847-4ade-ae98-17ca986ca329
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 17'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: ExoLmgvra4OkUzW08_tkUKCOpqZ-fp-sur_NqpRui1s
-  server: 66.112.214.26
-  servername: www.icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 490a11eb-e38a-4a85-b391-7175de597b80
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 18'
+  name: '[H] 🇺🇸 美国 11'
   password: amazonskr05
-  port: 443
-  server: 3.144.19.187
+  port: '443'
+  server: 18.188.213.207
   type: ss
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 19'
-  network: ws
-  port: 2083
-  server: 104.17.123.101
-  servername: wzknb.pages.dev
-  skip-cert-verify: true
-  tls: true
-  type: vless
   udp: true
-  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
-  ws-opts:
-    headers:
-      Host: wzknb.pages.dev
-    path: /proxyip=167.253.153.215
-- name: '[H] 🇺🇸 美国 20'
-  port: 443
-  server: crosscards.site
-  sni: crosscards.site
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 21'
-  password: None
-  port: 443
-  server: jgwynphotoarts.pro
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 22'
-  port: 443
-  server: carolinafreigh.fun
-  sni: carolinafreigh.fun
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 23'
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 24'
-  port: 9002
-  server: 156.146.59.36
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 26'
-  password: None
-  port: 8090
-  server: 209.148.53.153
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 27'
+  name: '[H] 🇺🇸 美国 12'
   password: 7eadc6dbe2ae
-  port: '65443'
+  port: 65443
   server: 121.46.230.234
   type: ss
   udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 28'
+  name: '[H] 🇺🇸 美国 13'
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
     public-key: 8BglmwULIVotYAbGXx3Vd1fXiGJbKSsWnZCGvm4Exl0
     short-id: '!!str aebdb601b1371778'
   server: 38.244.4.1
   servername: www.apple.com
+  skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 29'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: zDeF_twyyT7a7zKiURF-Q8f6kkj95rx7zQ_jar09Hi4
-    short-id: '!!str e4f6a3446ac34a23'
-  server: 89.117.123.243
-  servername: us.savesafe.cc
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 30'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8
-    short-id: '!!str e4f6a3446ac34a24'
-  server: savesafe.run
-  servername: savesafe.run
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 31'
+  name: '[I] 🇺🇸 美国 14'
   network: ws
   port: '80'
   server: www.true.th
@@ -274,7 +127,7 @@ proxies:
     headers:
       Host: d7pu5mzr9c4b0.cloudfront.net
     path: /htun
-- name: '[I] 🇺🇸 美国 32'
+- name: '[I] 🇺🇸 美国 15'
   network: ws
   password: humanity
   port: 443
@@ -283,7 +136,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 33'
+- name: '[I] 🇺🇸 美国 16'
   network: ws
   password: humanity
   port: 443
@@ -292,7 +145,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 34'
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443
@@ -302,7 +155,7 @@ proxies:
   ws-opts:
     path: '%2Fassignment'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 35'
+  name: '[I] 🇺🇸 美国 18'
   network: ws
   port: 443
   server: 199.232.78.159
@@ -314,7 +167,7 @@ proxies:
     headers:
       Host: pan1.global.ssl.fastly.net
     path: '%2FTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%2CTELEGRAM_NUFiLTER%3Fed%3D2053'
-- name: '[I] 🇺🇸 美国 36'
+- name: '[I] 🇺🇸 美国 19'
   network: ws
   password: humanity
   port: 443
