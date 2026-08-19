@@ -1,33 +1,5 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 12'
-  network: ws
-  port: '80'
-  server: 74.48.28.190
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4ed58974-48cd-472e-c818-fb847b8c551f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /cctv13.m3u8
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 13'
-  network: ws
-  port: '443'
-  server: 157.254.227.87
-  servername: xc162.meiziba5566.com
-  tls: true
-  type: vmess
-  uuid: 5b411308-d796-4694-b58d-d252e35bb475
-  ws-opts:
-    headers:
-      Host: ''
-    path: /d252e35bb475
-- name: '[F] 🇺🇸 美国 14'
+- name: '[F] 🇺🇸 美国 13'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -35,7 +7,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 15'
+- name: '[F] 🇺🇸 美国 14'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -43,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 16'
+- name: '[F] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -51,24 +23,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: '[H] 🇺🇸 美国 17'
-  network: http
-  port: 52080
-  server: 38.246.226.240
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 18'
+  password: amazonskr05
+  port: 443
+  server: 3.144.19.187
+  type: ss
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 27'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.234
+  type: ss
   udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 23'
+  name: '[I] 🇺🇸 美国 31'
   network: ws
   port: '80'
   server: www.true.th
@@ -80,7 +50,7 @@ proxies:
     headers:
       Host: d7pu5mzr9c4b0.cloudfront.net
     path: /htun
-- name: '[I] 🇺🇸 美国 24'
+- name: '[I] 🇺🇸 美国 32'
   network: ws
   password: humanity
   port: 443
@@ -89,7 +59,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 25'
+- name: '[I] 🇺🇸 美国 33'
   network: ws
   password: humanity
   port: 443
@@ -98,7 +68,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 26'
+- name: '[I] 🇺🇸 美国 34'
   network: ws
   password: humanity
   port: 443
@@ -107,7 +77,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 36'
   network: ws
   password: humanity
   port: 443
