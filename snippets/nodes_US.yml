@@ -1,5 +1,19 @@
 proxies:
-- name: '[F] 🇺🇸 美国 08'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 09'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -7,7 +21,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 11'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -15,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 10'
+- name: '[F] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -23,7 +37,44 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[I] 🇺🇸 美国 13'
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 14'
+  password: amazonskr05
+  port: 443
+  server: 3.147.62.185
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: '[H] 🇺🇸 美国 15'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: booth-moreover-framework-thereafter.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 37db053e-cb62-45bc-8a09-d2a9c2ebbd09
+  ws-opts:
+    headers:
+      Host: booth-moreover-framework-thereafter.trycloudflare.com
+    path: /37db053e-cb62-45bc-8a09-d2a9c2ebbd09-vm
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 16'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: ward-encourages-cleanup-notre.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 118eba6a-21f3-45d4-af0b-2a9344f2487e
+  ws-opts:
+    headers:
+      Host: ward-encourages-cleanup-notre.trycloudflare.com
+    path: /118eba6a-21f3-45d4-af0b-2a9344f2487e-vm
+  xudp: true
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443
@@ -33,7 +84,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 14'
+- name: '[I] 🇺🇸 美国 18'
   network: ws
   password: humanity
   port: 443
@@ -47,7 +98,7 @@ proxies:
     path: /assignment
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 17'
+  name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 80
   server: www.true.th

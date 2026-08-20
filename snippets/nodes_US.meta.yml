@@ -34,10 +34,10 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
+  password: austria_hysteria2_fastlane_cm3me7jc4:qNa7JlEcWxcOrkmxGHDbbg9iBGCGE7IV
+  port: 1935
+  server: 94.228.163.122
+  sni: at4.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 06'
@@ -45,20 +45,39 @@ proxies:
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 07'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
   sni: 66.94.121.46
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇺🇸 美国 07'
-  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+- name: '[E] 🇺🇸 美国 08'
+  password: 921db318-1694-4408-9cc7-c93df39f7f8e
   port: 443
-  server: usa0003rlbhy01.tcp-reset-club.net
+  server: ru-i-2.monkeyisland.xyz
   skip-cert-verify: true
-  sni: usa0003rlbhy01.tcp-reset-club.net
+  sni: ru-i-2.monkeyisland.xyz
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 08'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 09'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 39024
@@ -66,7 +85,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 11'
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 28051
@@ -74,7 +93,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 10'
+- name: '[F] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -82,22 +101,60 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 11'
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 13'
+  network: ws
   port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
+  server: 69.46.46.246
+  servername: web-production-5167a.up.railway.app
   tls: true
-  type: http
-- multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 12'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- name: '[I] 🇺🇸 美国 13'
+  type: vless
+  udp: true
+  uuid: c44af613-813d-403e-95e1-3c0b5e52b09a
+  ws-opts:
+    headers:
+      Host: web-production-5167a.up.railway.app
+    path: /ws/vless/c44af613-813d-403e-95e1-3c0b5e52b09a?ed=2048
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 14'
+  password: amazonskr05
+  port: 443
+  server: 3.147.62.185
+  type: ss
+- alterId: '0'
+  cipher: auto
+  name: '[H] 🇺🇸 美国 15'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: booth-moreover-framework-thereafter.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 37db053e-cb62-45bc-8a09-d2a9c2ebbd09
+  ws-opts:
+    headers:
+      Host: booth-moreover-framework-thereafter.trycloudflare.com
+    path: /37db053e-cb62-45bc-8a09-d2a9c2ebbd09-vm
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 16'
+  network: ws
+  port: 443
+  server: node.socks5.kdns.fr
+  servername: ward-encourages-cleanup-notre.trycloudflare.com
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 118eba6a-21f3-45d4-af0b-2a9344f2487e
+  ws-opts:
+    headers:
+      Host: ward-encourages-cleanup-notre.trycloudflare.com
+    path: /118eba6a-21f3-45d4-af0b-2a9344f2487e-vm
+  xudp: true
+- name: '[I] 🇺🇸 美国 17'
   network: ws
   password: humanity
   port: 443
@@ -107,7 +164,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 14'
+- name: '[I] 🇺🇸 美国 18'
   network: ws
   password: humanity
   port: 443
@@ -120,7 +177,7 @@ proxies:
       Host: www.ignitelimit.com
     path: /assignment
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 15'
+  name: '[I] 🇺🇸 美国 19'
   network: ws
   port: 443
   server: www.true.th
@@ -131,7 +188,7 @@ proxies:
   uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
   ws-opts:
     path: '%2F'
-- name: '[I] 🇺🇸 美国 16'
+- name: '[I] 🇺🇸 美国 20'
   network: ws
   port: 8880
   server: 45.40.149.50
@@ -144,7 +201,7 @@ proxies:
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: '[I] 🇺🇸 美国 17'
+  name: '[I] 🇺🇸 美国 21'
   network: ws
   port: 80
   server: www.true.th
@@ -156,7 +213,7 @@ proxies:
     headers:
       Host: d7pu5mzr9c4b0.cloudfront.net
     path: /htun
-- name: '[I] 🇺🇸 美国 18'
+- name: '[I] 🇺🇸 美国 22'
   network: ws
   port: 80
   server: 50.62.195.4
@@ -167,7 +224,7 @@ proxies:
     headers:
       Host: raspy-feather-12ec.137-257.workers.dev
     path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[I] 🇺🇸 美国 19'
+- name: '[I] 🇺🇸 美国 23'
   network: ws
   port: 8880
   server: 63.141.128.30
@@ -178,7 +235,7 @@ proxies:
     headers:
       Host: vms.lifetime42.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 20'
+- name: '[I] 🇺🇸 美国 24'
   network: ws
   port: 8880
   server: 155.46.167.30
@@ -189,7 +246,7 @@ proxies:
     headers:
       Host: vms.lifetime50.workers.dev
     path: '%2F'
-- name: '[I] 🇺🇸 美国 21'
+- name: '[I] 🇺🇸 美国 25'
   network: ws
   port: 443
   server: 18.154.132.94
@@ -201,7 +258,7 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
-- name: '[I] 🇺🇸 美国 22'
+- name: '[I] 🇺🇸 美国 26'
   network: ws
   port: 443
   server: 18.154.132.111
