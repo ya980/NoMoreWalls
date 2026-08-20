@@ -28,14 +28,14 @@ proxies:
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
-  sni: 160.187.100.109
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 05'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: vpn-tw-002.fastervpn.world
+  server: 160.187.100.109
   skip-cert-verify: true
+  sni: 160.187.100.109
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 06'
@@ -43,7 +43,6 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 07'
@@ -51,7 +50,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 08'
@@ -59,7 +58,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 09'
@@ -67,6 +66,21 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
+  sni: t.me
   tls: false
   type: hysteria2
+- name: '[E] 🇨🇳 台湾 10'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world%5Cu0026insecure%3D1%5Cu0026allowinsecure%3D1
+  tls: false
+  type: hysteria2
+- cipher: aes-256-cfb
+  name: '[H] 🇨🇳 台湾 11'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 120.232.253.94
+  type: ss
+  udp: true

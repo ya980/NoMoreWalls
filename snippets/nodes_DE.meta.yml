@@ -54,15 +54,7 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 07'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
-  port: 443
-  server: 64.188.98.171
-  skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 08'
+- name: '[E] 🇩🇪 德国 07'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: 177.3.212.103
@@ -70,11 +62,19 @@ proxies:
   sni: nl1.noesissite.ru
   tls: false
   type: hysteria2
+- name: '[E] 🇩🇪 德国 08'
+  password: 042a1881-44e4-4781-bd40-bf75164faf4f
+  port: 443
+  server: nl1.noesissite.ru
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
 - name: '[E] 🇩🇪 德国 09'
   password: 042a1881-44e4-4781-bd40-bf75164faf4f
   port: 443
   server: nl1.noesissite.ru
   skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - alpn:
@@ -94,51 +94,72 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 12'
-  password: amazonskr05
-  port: 443
-  server: 52.59.195.252
-  type: ss
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 1000
-  name: '[H] 🇩🇪 德国 13'
-  port: 54177
-  protocol: udp
-  server: 5.83.129.90
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 500
-- name: '[H] 🇩🇪 德国 14'
-  password: LBuHKNUpT
-  port: 63062
-  server: 185.78.79.39
-  type: http
-  username: kdEWXsS2E
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 15'
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  servername: ''
+- name: '[E] 🇩🇪 德国 12'
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8080
+  server: 46.229.243.138
+  sni: grape-turbo-fr.roxa.org
   tls: false
-  type: vmess
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  type: hysteria2
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - www.apple.com
+    path:
+    - /
+  name: '[H] 🇩🇪 德国 13'
+  network: http
+  port: '8443'
+  server: 159.69.180.75
+  type: vless
+  udp: true
+  uuid: 47f70ee6-9b40-4da8-8974-6a239a48108a
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  fingerprint: dc554fddecc5fb70f55d439bc1e1c42acb5e7b8ebbcd85224aee41aad3b1c104
+  name: '[H] 🇩🇪 德国 14'
+  network: ws
+  port: '8443'
+  server: 51.250.4.141
+  servername: cloudflare.vhub.pro
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
   ws-opts:
     headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
-- name: '[I] 🇩🇪 德国 16'
-  network: ws
-  password: humanity
+      Host: cloudflare.vhub.pro
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/54.0.2840.71 Safari/537.36
+    path: /websocket?ed=2560
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 15'
+  network: tcp
   port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
+  reality-opts:
+    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
+    short-id: '!!str 9e4eced6e98ed4d4'
+  server: 31.76.119.117
+  servername: de.orpheous.ru
+  tls: false
+  type: vless
+  uuid: 7d2bac5e-6ff9-45c9-844e-6bfc5a384a42
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 16'
+  network: ws
+  port: 443
+  server: 194.154.30.154
+  servername: forfreeuse.rtqa.ru
+  tls: true
+  type: vless
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: forfreeuse.rtqa.ru
+    path: '%2F'
