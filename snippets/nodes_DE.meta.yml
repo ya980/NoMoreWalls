@@ -1,17 +1,12 @@
 proxies:
-- down: ''
-  fingerprint: ''
-  name: '[D] 🇩🇪 德国 01'
-  obfs: ''
-  obfs-password: ''
+- name: '[D] 🇩🇪 德国 01'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: '2056'
+  port: 2056
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
-  up: ''
 - name: '[D] 🇩🇪 德国 02'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
@@ -83,36 +78,11 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 10'
-  password: amazonskr05
-  port: 443
-  server: 63.178.246.78
-  type: ss
-- cipher: aes-256-cfb
-  name: '[H] 🇩🇪 德国 11'
-  password: amazonskr05
-  port: 443
-  server: 18.153.64.41
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇩🇪 德国 12'
-  password: BlRtjyYlj18kYcrEL/8wcbSyqNKSPESiwSDDvisu9+o=
-  port: '30874'
-  server: e2.cover20.ir
-  type: ss
-  udp: true
-- name: '[H] 🇩🇪 德国 13'
-  password: LBuHKNUpT
-  port: 63062
-  server: 185.78.79.39
-  type: http
-  username: kdEWXsS2E
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: grpc
-  name: '[H] 🇩🇪 德国 14'
+  name: '[H] 🇩🇪 德国 10'
   network: grpc
   port: '2087'
   reality-opts:
@@ -125,7 +95,22 @@ proxies:
   udp: true
   uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
   xudp: true
-- name: '[I] 🇩🇪 德国 15'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 11'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
+    short-id: '!!str 5a9ab320'
+  server: de2.miyazono-kaori.com
+  servername: www.siemens.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
+  xudp: true
+- name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 443
   server: 194.154.30.154
@@ -139,7 +124,7 @@ proxies:
       Host: forfreeuse.rtqa.ru
     path: /
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 13'
   network: ws
   port: 443
   server: 108.138.26.70
