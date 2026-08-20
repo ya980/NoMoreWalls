@@ -7,35 +7,24 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 222.167.212.81
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Rj5Jm-uPO7iwO9TJV7j4zgDKBpEvUNxDQafm_8zRND4
-  name: '[H] 🇬🇧 英国 03'
-  network: xhttp
+- alterId: '0'
+  cipher: auto
+  name: '[H] 🇬🇧 英国 02'
+  network: ws
   port: '443'
-  server: 188.114.97.8
-  servername: allineedradiohead.dpdns.org
+  server: node.socks5.kdns.fr
+  skip-cert-verify: false
   tls: true
-  type: vless
+  type: vmess
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: allineedradiohead.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
+  uuid: 36dba83c-5b10-48aa-aee3-6d85790a9bf3
+  ws-opts:
+    headers:
+      Host: smaller-independently-ball-mil.trycloudflare.com
+    path: /36dba83c-5b10-48aa-aee3-6d85790a9bf3-vm
   xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇬🇧 英国 04'
+  name: '[I] 🇬🇧 英国 03'
   network: ws
   port: 8443
   server: 91.110.174.210
@@ -49,7 +38,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
 - client-fingerprint: chrome
-  name: '[I] 🇬🇧 英国 05'
+  name: '[I] 🇬🇧 英国 04'
   network: ws
   port: 2053
   server: 91.193.58.125
