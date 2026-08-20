@@ -54,21 +54,19 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  fingerprint: firefox
-  name: '[E] 🇩🇪 德国 07'
+- name: '[E] 🇩🇪 德国 07'
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
   server: olp.crsmaps.com
+  skip-cert-verify: false
   sni: olp.crsmaps.com
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 08'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8080
-  server: 46.229.243.137
-  sni: grape-turbo-fr.roxa.org
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  port: 443
+  server: deu0003ntrhy01.tcp-reset-club.net
+  sni: deu0003ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 09'
@@ -78,39 +76,27 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
   encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
   name: '[H] 🇩🇪 德国 10'
-  network: grpc
-  port: '2087'
-  reality-opts:
-    public-key: G5d5XhYI5DtRKW14Yg2z1kc2OUQSC7EjoT2fiKKY2lI
-    short-id: '!!str 57c26f52'
-  server: 46.225.156.169
-  servername: www.bing.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 11'
-  network: tcp
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: JH9UnU0LFCDS3Q8zR7dhQDYrQ4iZGDgDB-sQcQ1q-kA
-    short-id: '!!str 5a9ab320'
-  server: de2.miyazono-kaori.com
-  servername: www.siemens.com
+  server: meshbuzz.bond
+  servername: kt5ttul9.cendro.ir
   tls: true
   type: vless
   udp: true
-  uuid: df816a3d-8e27-461f-955d-2e523d3c73f7
+  uuid: fd6fb48f-b324-4a82-9dcd-f8bdb1bd5301
+  ws-opts:
+    headers:
+      Host: kt5ttul9.cendro.ir
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/32.0.1700.107 Safari/537.36
+    path: /ws-vlees
   xudp: true
-- name: '[I] 🇩🇪 德国 12'
+- name: '[I] 🇩🇪 德国 11'
   network: ws
   port: 443
   server: 194.154.30.154
@@ -124,7 +110,7 @@ proxies:
       Host: forfreeuse.rtqa.ru
     path: /
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 13'
+  name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 443
   server: 108.138.26.70
