@@ -1,49 +1,20 @@
 proxies:
-- client-fingerprint: chrome
-  encryption: none
+- cipher: aes-256-gcm
+  name: '[I] 🇷🇺 俄罗斯 01'
+  password: 1eadd4e4a37b6601
+  port: 10801
+  server: 45.8.158.176
+  type: ss
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 01'
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: 6J829WZ6hhEtCmz8CfBBBP69ikMDlYPF2Lumyel6XTI
-    short-id: '!!str d484643ca8396614'
-  server: 5.129.253.177
-  servername: yt.chick-team.ru
-  tls: true
+    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
+    short-id: '!!str 9e4eced6e98ed4d4'
+  server: 185.147.26.175
+  servername: yt.orpheous.ru
+  tls: false
   type: vless
-  udp: true
-  uuid: fe0138b5-ca60-4a67-91aa-b5a49266eeb5
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 02'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 6J829WZ6hhEtCmz8CfBBBP69ikMDlYPF2Lumyel6XTI
-    short-id: '!!str d484643ca8396614'
-  server: 185.39.206.241
-  servername: yt.chick-team.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe0138b5-ca60-4a67-91aa-b5a49266eeb5
-  xudp: true
-- client-fingerprint: edge
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 03'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: 6J829WZ6hhEtCmz8CfBBBP69ikMDlYPF2Lumyel6XTI
-    short-id: '!!str d484643ca8396614'
-  server: 185.207.66.30
-  servername: yt.chick-team.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: fe0138b5-ca60-4a67-91aa-b5a49266eeb5
-  xudp: true
+  uuid: 7d2bac5e-6ff9-45c9-844e-6bfc5a384a42

@@ -7,28 +7,72 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
+- name: '[E] 🇬🇧 英国 02'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.106
+  sni: mercedes-grape.yyuyy.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇬🇧 英国 03'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 222.167.212.81
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 02'
-  network: tcp
-  port: '2096'
+  name: '[H] 🇬🇧 英国 04'
+  network: xhttp
+  port: 443
   reality-opts:
-    public-key: pWPvxPIVtdzgaL0cdFZ73qn1FihjKDZ7TE55wg57Vl8
-    short-id: '!!str 9b43ece6010612b0'
-  server: 138.124.254.21
-  servername: it-one.quiet-rogue.site
+    public-key: fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8
+    short-id: '!!str 62b6d6e64d461d78'
+  server: api.getsavesafe.space
+  servername: api.getsavesafe.space
   tls: true
   type: vless
   udp: true
-  uuid: 6fe06b02-74f7-431f-8ca4-c702fa3322bf
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    host: api.getsavesafe.space
+    mode: auto
+    path: /
+- name: '[H] 🇬🇧 英国 05'
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 06'
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+  name: '[H] 🇬🇧 英国 07'
+  network: grpc
+  port: '2087'
+  reality-opts:
+    public-key: -ZTJcZ_UcqAB7LHgkUqhnlJsQs_oBafRgjsFtWZElmM
+    short-id: '!!str c226283c4de5b1ad'
+  server: 31.76.91.72
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 524e00ce-ed89-481d-b4a4-6d7017f884e3
   xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇬🇧 英国 03'
+  name: '[I] 🇬🇧 英国 08'
   network: ws
   port: 8443
   server: 91.110.174.210
   servername: rubifen.adaspoloandco.com
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
@@ -36,3 +80,16 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
+- client-fingerprint: chrome
+  name: '[I] 🇬🇧 英国 09'
+  network: ws
+  port: 2053
+  server: 91.193.58.125
+  servername: vlso5.1d.mom
+  tls: true
+  type: vless
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  ws-opts:
+    headers:
+      Host: vlso5.1d.mom
+    path: '%2F'

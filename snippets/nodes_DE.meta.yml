@@ -1,12 +1,17 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
+- down: ''
+  fingerprint: ''
+  name: '[D] 🇩🇪 德国 01'
+  obfs: ''
+  obfs-password: ''
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
-  port: 2056
+  port: '2056'
   server: mg2.mangshe.xyz
   skip-cert-verify: true
   sni: mg2.mangshe.xyz
   tls: false
   type: hysteria2
+  up: ''
 - name: '[D] 🇩🇪 德国 02'
   password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
@@ -54,112 +59,95 @@ proxies:
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 07'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: 177.3.212.103
-  skip-cert-verify: true
-  sni: nl1.noesissite.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 08'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: nl1.noesissite.ru
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 09'
-  password: 042a1881-44e4-4781-bd40-bf75164faf4f
-  port: 443
-  server: nl1.noesissite.ru
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: firefox
-  name: '[E] 🇩🇪 德国 10'
+  name: '[E] 🇩🇪 德国 07'
   password: 16ab4d4a-fd81-4535-9b7b-346677226ce8
   port: 443
   server: olp.crsmaps.com
   sni: olp.crsmaps.com
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 11'
+- name: '[E] 🇩🇪 德国 08'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.137
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 12'
+- name: '[E] 🇩🇪 德国 09'
   password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
   port: 8080
   server: 46.229.243.138
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - www.apple.com
-    path:
-    - /
-  name: '[H] 🇩🇪 德国 13'
-  network: http
-  port: '8443'
-  server: 159.69.180.75
-  type: vless
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 10'
+  password: amazonskr05
+  port: 443
+  server: 63.178.246.78
+  type: ss
+- cipher: aes-256-cfb
+  name: '[H] 🇩🇪 德国 11'
+  password: amazonskr05
+  port: 443
+  server: 18.153.64.41
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇩🇪 德国 12'
+  password: BlRtjyYlj18kYcrEL/8wcbSyqNKSPESiwSDDvisu9+o=
+  port: '30874'
+  server: e2.cover20.ir
+  type: ss
   udp: true
-  uuid: 47f70ee6-9b40-4da8-8974-6a239a48108a
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
+- name: '[H] 🇩🇪 德国 13'
+  password: LBuHKNUpT
+  port: 63062
+  server: 185.78.79.39
+  type: http
+  username: kdEWXsS2E
+- client-fingerprint: chrome
   encryption: none
-  fingerprint: dc554fddecc5fb70f55d439bc1e1c42acb5e7b8ebbcd85224aee41aad3b1c104
+  grpc-opts:
+    grpc-service-name: grpc
   name: '[H] 🇩🇪 德国 14'
-  network: ws
-  port: '8443'
-  server: 51.250.4.141
-  servername: cloudflare.vhub.pro
+  network: grpc
+  port: '2087'
+  reality-opts:
+    public-key: G5d5XhYI5DtRKW14Yg2z1kc2OUQSC7EjoT2fiKKY2lI
+    short-id: '!!str 57c26f52'
+  server: 46.225.156.169
+  servername: www.bing.com
   tls: true
   type: vless
   udp: true
-  uuid: 5ca83936-136d-4314-8453-4ba10a86cf60
-  ws-opts:
-    headers:
-      Host: cloudflare.vhub.pro
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/54.0.2840.71 Safari/537.36
-    path: /websocket?ed=2560
+  uuid: d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 15'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q
-    short-id: '!!str 9e4eced6e98ed4d4'
-  server: 31.76.119.117
-  servername: de.orpheous.ru
-  tls: false
-  type: vless
-  uuid: 7d2bac5e-6ff9-45c9-844e-6bfc5a384a42
-- client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 16'
+- name: '[I] 🇩🇪 德国 15'
   network: ws
   port: 443
   server: 194.154.30.154
   servername: forfreeuse.rtqa.ru
+  skip-cert-verify: false
   tls: true
   type: vless
   uuid: c7e9c591-2764-423a-afca-efbd010fd396
   ws-opts:
     headers:
       Host: forfreeuse.rtqa.ru
+    path: /
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 16'
+  network: ws
+  port: 443
+  server: 108.138.26.70
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  type: vless
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  ws-opts:
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
