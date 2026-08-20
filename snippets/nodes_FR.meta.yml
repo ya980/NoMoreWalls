@@ -54,24 +54,57 @@ proxies:
   name: '[H] 🇫🇷 法国 07'
   password: amazonskr05
   port: 443
-  server: 51.44.167.151
+  server: 13.38.46.203
   type: ss
-- cipher: aes-256-cfb
+- client-fingerprint: chrome
   name: '[H] 🇫🇷 法国 08'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.204
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /assignment
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 09'
   password: amazonskr05
   port: 443
-  server: 13.37.226.110
+  server: 51.44.167.151
   type: ss
-- name: '[H] 🇫🇷 法国 09'
+- encryption: none
+  http-opts:
+    path:
+    - /
+  name: '[H] 🇫🇷 法国 10'
+  network: http
+  packet-encoding: xudp
+  port: 34769
+  server: tapsi-mall.topdigit.ir
+  type: vless
+  uuid: 81a5be1e-aa3c-4c50-83c1-885050d8b880
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 11'
+  password: amazonskr05
+  port: 443
+  server: 13.38.78.128
+  type: ss
+- cipher: aes-256-cfb
+  name: '[H] 🇫🇷 法国 12'
+  password: amazonskr05
+  port: 443
+  server: 51.44.170.194
+  type: ss
+- name: '[H] 🇫🇷 法国 13'
   port: 5060
   server: 145.239.41.4
   type: http
-- auth: github.com/Alvin9999-newpac/fanqiang
-  name: '[H] 🇫🇷 法国 10'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
+- name: '[H] 🇫🇷 法国 14'
+  port: 2987
+  server: 51.75.19.118
+  type: http
