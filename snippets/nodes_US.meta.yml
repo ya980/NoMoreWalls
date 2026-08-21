@@ -9,7 +9,17 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 02'
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[E] 🇺🇸 美国 02'
+  password: GSPOBvG-ZwYcBFMr0ekFGO_Zga3wK6v_
+  port: 8443
+  server: hy2-wien.unlimited-access.ru
+  sni: hy2-wien.unlimited-access.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 03'
   password: gf1:gfhysteria2024
   port: 443
   server: 66.94.121.46
@@ -17,14 +27,45 @@ proxies:
   sni: 66.94.121.46
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
+- name: '[E] 🇺🇸 美国 04'
   password: gf1
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[F] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 05'
+  password: VB92_Ka9qwef143K_L23K1hz3_bF_Hz62uT_Bn1_sC
+  port: 8443
+  server: 82.39.214.98
+  sni: hopp-us.yyuyy.com
+  tls: false
+  type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 06'
+  network: tcp
+  port: '443'
+  server: 165.140.216.142
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 07'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[F] 🇺🇸 美国 08'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 34039
@@ -32,7 +73,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 05'
+- name: '[F] 🇺🇸 美国 09'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 28051
@@ -40,7 +81,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 06'
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
   password: BxceQaOe
   port: 53001
@@ -48,55 +89,251 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- multiplexing: MULTIPLEXING_LOW
-  name: '[H] 🇺🇸 美国 07'
-  password: dongtaiwang.com
-  port: 34567
-  server: 157.254.223.44
-  transport: TCP
-  type: mieru
-  username: dongtaiwang.com
-- auth: 57ec0f01-0c00-4a69-ad67-937b4735640b
-  name: '[H] 🇺🇸 美国 08'
-  password: 57ec0f01-0c00-4a69-ad67-937b4735640b
-  port: 35193
-  server: 40t2.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 40t2.wxgqlfx.vip
-  type: hysteria2
-  udp: true
-- down: ''
-  fingerprint: ''
-  name: '[H] 🇺🇸 美国 09'
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-us-004.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-us-004.fastervpn.world
-  type: hysteria2
-  up: ''
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 10'
+  encryption: none
+  name: '[H] 🇺🇸 美国 11'
   network: ws
-  password: MiTiVPN
   port: '443'
-  server: 156.243.83.240
-  skip-cert-verify: true
-  sni: 8373638-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
+  server: spiderpanel-production-44f6.up.railway.app
+  servername: spiderpanel-production-44f6.up.railway.app
+  tls: true
+  type: vless
   udp: true
+  uuid: 794d546b-1938-482e-a337-fee751909ab4
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/55.0.2883.87 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/f-l@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: spiderpanel-production-44f6.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /ws/794d546b-1938-482e-a337-fee751909ab4
+  xudp: true
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 12'
+  network: xhttp
+  port: '2053'
+  server: de.24outlook.space
+  servername: de.24outlook.space
+  tls: true
+  type: vless
+  udp: true
+  uuid: e50f1e5f-2823-4030-9dd2-6c951b6b83d0
+  xhttp-opts:
+    host: de.24outlook.space
+    mode: stream-up
+    path: /
+    reuse-settings:
+      c-max-reuse-times: 64-128
+      h-keep-alive-period: 15
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: 8-16
+      max-connections: '0'
+  xudp: true
+- name: '[H] 🇺🇸 美国 13'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: '[H] 🇺🇸 美国 14'
+  password: ''
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: '[H] 🇺🇸 美国 15'
+  port: 9002
+  server: 138.199.35.211
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 16'
+  password: ''
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 17'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🇺🇸 美国 18'
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 19'
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 20'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🇺🇸 美国 21'
+  port: 443
+  server: purecambogiasl.live
+  skip-cert-verify: true
+  sni: purecambogiasl.live
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 22'
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 23'
+  password: ''
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 24'
+  password: None
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 25'
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 26'
+  password: None
+  port: 80
+  server: 104.154.186.48
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 27'
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 28'
+  port: 9002
+  server: 156.146.59.5
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 29'
+  port: 16062
+  server: 104.218.199.231
+  type: http
+- name: '[H] 🇺🇸 美国 30'
+  password: None
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 31'
+  password: ''
+  port: 9002
+  server: 156.146.59.32
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 32'
+  port: 9002
+  server: 156.146.59.36
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 33'
+  password: None
+  port: 9002
+  server: 156.146.59.20
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 34'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 7VDaTbO6QMT8ZkkYSqFTiKLdu7RQGADy0u8pecwLF3A
+    short-id: '!!str '
+  server: 93.152.205.177
+  servername: nrt.nlrocket.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e8825a4-86ac-486f-a06c-0917ced9dfcd
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 35'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 7VDaTbO6QMT8ZkkYSqFTiKLdu7RQGADy0u8pecwLF3A
+    short-id: '!!str '
+  server: 93.152.205.99
+  servername: nrt.nlrocket.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e8825a4-86ac-486f-a06c-0917ced9dfcd
+  xudp: true
+- name: '[H] 🇺🇸 美国 36'
+  password: ''
+  port: '9002'
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 11'
+  name: '[I] 🇺🇸 美国 37'
   port: 443
   reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
@@ -108,7 +345,7 @@ proxies:
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 12'
+  name: '[I] 🇺🇸 美国 38'
   port: 443
   reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
@@ -119,7 +356,7 @@ proxies:
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 13'
+  name: '[I] 🇺🇸 美国 39'
   network: ws
   port: 443
   server: 52.84.199.15
@@ -133,7 +370,7 @@ proxies:
     path: '%2F'
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 14'
+  name: '[I] 🇺🇸 美国 40'
   network: ws
   password: MiTiVPN
   port: 443
@@ -145,7 +382,7 @@ proxies:
     headers:
       Host: 4-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '[I] 🇺🇸 美国 15'
+- name: '[I] 🇺🇸 美国 41'
   network: ws
   port: 443
   server: 18.154.132.94
@@ -157,7 +394,7 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
-- name: '[I] 🇺🇸 美国 16'
+- name: '[I] 🇺🇸 美国 42'
   network: ws
   port: 443
   server: 18.154.132.111
@@ -169,7 +406,7 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
-- name: '[I] 🇺🇸 美国 17'
+- name: '[I] 🇺🇸 美国 43'
   network: ws
   port: 443
   server: 18.244.214.27
@@ -182,7 +419,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 18'
+  name: '[I] 🇺🇸 美国 44'
   network: ws
   port: 443
   server: 18.238.217.65
@@ -195,7 +432,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 19'
+  name: '[I] 🇺🇸 美国 45'
   network: ws
   port: 443
   server: 18.238.109.17
@@ -208,7 +445,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 20'
+  name: '[I] 🇺🇸 美国 46'
   network: ws
   port: 443
   server: 18.238.109.26
@@ -221,7 +458,7 @@ proxies:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
 - client-fingerprint: firefox
-  name: '[I] 🇺🇸 美国 21'
+  name: '[I] 🇺🇸 美国 47'
   network: ws
   port: 443
   server: 18.244.214.108
@@ -233,7 +470,7 @@ proxies:
     headers:
       Host: d1yxsk0zprgivr.cloudfront.net
     path: '%2F'
-- name: '[I] 🇺🇸 美国 22'
+- name: '[I] 🇺🇸 美国 48'
   network: ws
   port: 443
   server: 18.244.214.28

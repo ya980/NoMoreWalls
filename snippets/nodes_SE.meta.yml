@@ -8,9 +8,15 @@ proxies:
   sni: assets.gateway-stream.com
   tls: false
   type: hysteria2
+- name: '[H] SE 02'
+  port: 443
+  server: 79.142.77.63
+  skip-cert-verify: true
+  tls: true
+  type: http
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] SE 02'
+  name: '[I] SE 03'
   network: tcp
   port: 443
   reality-opts:
