@@ -1,69 +1,67 @@
 proxies:
+- name: '[B] 🇬🇧 英国 01'
+  network: ws
+  port: 8880
+  server: 185.193.30.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime09.workers.dev
+- name: '[B] 🇬🇧 英国 02'
+  network: ws
+  port: 8880
+  server: 45.40.146.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime36.workers.dev
+    path: /?ed=2560
+- name: '[B] 🇬🇧 英国 03'
+  network: ws
+  port: 8880
+  server: 45.80.110.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+- name: '[B] 🇬🇧 英国 04'
+  network: ws
+  port: 8880
+  server: 185.159.247.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+    path: /
+- name: '[B] 🇬🇧 英国 05'
+  network: ws
+  port: 8880
+  server: 77.75.199.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇬🇧 英国 01'
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21117'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇬🇧 英国 02'
+  name: '[H] 🇬🇧 英国 06'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21104'
   server: 211.91.158.44
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇬🇧 英国 03'
+  name: '[H] 🇬🇧 英国 07'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21117'
   server: 211.91.158.44
   type: ss
   udp: true
-- name: '[H] 🇬🇧 英国 04'
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 05'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: '!!str fd55b698ee8c3629'
-  server: 5.152.223.193
-  servername: strapi.io
-  tls: true
-  type: vless
-  udp: true
-  uuid: f09a0e10-a32f-4c77-9cb6-63b0823b5ad7
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Rj5Jm-uPO7iwO9TJV7j4zgDKBpEvUNxDQafm_8zRND4
-  name: '[H] 🇬🇧 英国 06'
-  network: xhttp
-  port: '443'
-  server: 188.114.97.8
-  servername: allineedradiohead.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: allineedradiohead.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
 - client-fingerprint: chrome
-  name: '[I] 🇬🇧 英国 07'
+  name: '[I] 🇬🇧 英国 08'
   network: ws
   port: 8443
   server: 91.110.174.210
