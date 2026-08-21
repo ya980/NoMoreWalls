@@ -20,15 +20,14 @@ proxies:
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
-  sni: 160.187.100.109
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 04'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: vpn-tw-002.fastervpn.world
+  server: 160.187.100.109
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: 160.187.100.109
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 05'
@@ -36,7 +35,6 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 06'
@@ -44,7 +42,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 07'
@@ -52,19 +50,6 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
+  sni: vpn-tw-002.fastervpn.world%5Cu0026insecure%3D1%5Cu0026allowinsecure%3D1
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇨🇳 台湾 08'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: WNifT0qNHWrUsvC6cuvej0rzZe6qPijopbmJyRADOF0
-    short-id: '!!str f713561d'
-  server: 207.56.137.51
-  servername: www.cloudflare.com
-  tls: false
-  type: vless
-  uuid: 01ada9fb-fa2f-45da-a0d0-bce80cdf433b
