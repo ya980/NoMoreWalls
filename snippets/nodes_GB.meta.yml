@@ -1,48 +1,69 @@
 proxies:
 - name: '[E] 🇬🇧 英国 01'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.108
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 222.167.212.82
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 03'
+- name: '[E] 🇬🇧 英国 02'
+  password: 0dc703f0-2f63-451c-a739-596efd3b64c7
   port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 04'
+  server: 194.46.59.219
+  sni: video.nothingchange.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇬🇧 英国 03'
+  password: 0dc703f0-2f63-451c-a739-596efd3b64c7
   port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 05'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: '!!str fd55b698ee8c3629'
-  server: 5.152.223.193
-  servername: strapi.io
-  tls: true
-  type: vless
+  server: 194.46.59.220
+  sni: app.strashirdi.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇬🇧 英国 04'
+  password: 0dc703f0-2f63-451c-a739-596efd3b64c7
+  port: 443
+  server: 194.46.59.222
+  sni: web.strashirdi.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇬🇧 英国 05'
+  password: c54b582b-d184-4e43-941c-9d8f145d1a50
+  port: 443
+  server: 194.46.59.222
+  sni: web.strashirdi.com
+  tls: false
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 06'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21104'
+  server: 211.91.158.26
+  type: ss
   udp: true
-  uuid: ff3e8d55-214e-44eb-b91c-28510aa880e4
-  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 07'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 08'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21104'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 09'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.44
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: '[I] 🇬🇧 英国 06'
+  name: '[I] 🇬🇧 英国 10'
   network: ws
   port: 8443
   server: 91.110.174.210
