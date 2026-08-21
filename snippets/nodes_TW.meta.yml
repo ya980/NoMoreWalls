@@ -1,31 +1,20 @@
 proxies:
-- insecure: '1'
-  mport: 40000-49999
-  name: '[B] 🇨🇳 台湾 01'
-  obfs: salamander
-  obfs-password: YzgyOTkwNDk4ZTU2NT6iNA==
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 40000
-  server: tw.9966690.xyz
+- name: '[E] 🇨🇳 台湾 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 160.187.100.109
   skip-cert-verify: true
-  tls:
-    enabled: true
-    insecure: true
-    server_name: iosapps.itunes.apple.com
+  sni: 127.0.0.1
+  tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[B] 🇨🇳 台湾 02'
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
+- name: '[E] 🇨🇳 台湾 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 160.187.100.109
+  skip-cert-verify: true
+  sni: vpn-tw-002.fastervpn.world
+  tls: false
+  type: hysteria2
 - name: '[E] 🇨🇳 台湾 03'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
@@ -39,7 +28,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 05'
@@ -47,7 +36,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: css.rbxcdn.com
+  sni: vpn-tw-002.fastervpn.world
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 06'
@@ -55,15 +44,6 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: vpn-tw-002.fastervpn.world%5Cu0026insecure%3D1%5Cu0026allowinsecure%3D1
   tls: false
   type: hysteria2
-- name: '[H] 🇨🇳 台湾 07'
-  password: exaxgqkKkd0TAMrCxeonWg==
-  port: 1443
-  server: twmoon1-cdn-route.couldflare-cdn.com
-  skip-cert-verify: false
-  sni: twmoon1-cdn-route.couldflare-cdn.com
-  tls: true
-  type: http
-  username: mrwdfNTD8M79LCukCieldrqZWqs=
