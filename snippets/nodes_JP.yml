@@ -1,41 +1,53 @@
 proxies:
-- name: '[F] 🇯🇵 日本 05'
+- alterId: 0
+  cipher: auto
+  name: '[B] 🇯🇵 日本 04'
+  port: 6003
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
+- name: '[F] 🇯🇵 日本 15'
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 16.162.100.208
+  port: 16691
+  server: 43.198.21.141
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 06'
+- name: '[F] 🇯🇵 日本 16'
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 14625
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 54876
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 07'
+- name: '[F] 🇯🇵 日本 17'
   network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 55647
-  server: 16.162.109.29
+  password: d5517dedef425597a1b9fdbaad99544e
+  port: 38936
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- cipher: aes-256-cfb
-  name: '[H] 🇯🇵 日本 08'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.136
+- cipher: aes-128-gcm
+  name: '[H] 🇯🇵 日本 19'
+  password: ayucloud1
+  plugin: obfs
+  plugin-opts:
+    host: fad7f33618.download.windowsupdate.com
+    mode: http
+  port: 9059
+  server: 260323.1.0.l3.unclemanco.com
   type: ss
-  udp: true
-- name: '[I] 🇯🇵 日本 10'
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.174.71
-  sni: www.ignitelimit.com
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 20'
+  password: BxceQaOe
+  port: '16691'
+  server: 43.198.21.141
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+  udp: true

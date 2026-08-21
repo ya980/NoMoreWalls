@@ -1,5 +1,38 @@
 proxies:
-- name: '[D] 🇫🇷 法国 01'
+- name: '[B] 🇫🇷 法国 01'
+  network: ws
+  port: 8880
+  server: 45.85.119.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime56.workers.dev
+- name: '[B] 🇫🇷 法国 02'
+  network: ws
+  port: 8880
+  server: 66.81.247.40
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime44.workers.dev
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[B] 🇫🇷 法国 03'
+  network: tcp
+  port: 7443
+  reality-opts:
+    public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+  security: reality
+  server: 152.89.253.239
+  servername: ya.ru
+  tls: true
+  type: vless
+  uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
+- name: '[D] 🇫🇷 法国 04'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -11,7 +44,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇫🇷 法国 02'
+  name: '[D] 🇫🇷 法国 05'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -21,14 +54,14 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
+- name: '[E] 🇫🇷 法国 06'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 85.204.107.170
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
+- name: '[E] 🇫🇷 法国 07'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -36,42 +69,58 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
-  password: 65761043-f5c1-4e7b-8c16-b72c7a3fa4b7
+- name: '[E] 🇫🇷 法国 08'
+  password: 8e85752d-c04f-427d-9d70-b10d144c8492
   port: 443
-  server: althys.superbuba.top
-  sni: althys.superbuba.top
+  server: 31.76.111.253
+  sni: hy2.bluekitty.lol
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 06'
-  password: 65761043-f5c1-4e7b-8c16-b72c7a3fa4b7
+- name: '[E] 🇫🇷 法国 09'
+  password: 8e85752d-c04f-427d-9d70-b10d144c8492
   port: 443
-  server: althys2.superbuba.top
-  sni: althys2.superbuba.top
+  server: 31.76.38.30
+  sni: de4.convert-cloud.guru
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 07'
+- name: '[E] 🇫🇷 法国 10'
   password: dbab9df7-5c0a-4726-8574-11e34972b67d
   port: 33015
   server: 86.53.105.117
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 08'
+- name: '[E] 🇫🇷 法国 11'
+  password: dbab9df7-5c0a-4726-8574-11e34972b67d
+  port: 33015
+  server: 86.53.105.117
+  skip-cert-verify: true
+  sni: 86.53.105.117
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 12'
   password: dsfa_k0123WFzerrf_kZ3490VNb03J_m30_s
   port: 8443
   server: 194.180.188.120
   sni: keyhop-offshore.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 09'
+- name: '[E] 🇫🇷 法国 13'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: 95.164.123.231
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 14'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
   server: 95.164.123.231
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 10'
+- name: '[E] 🇫🇷 法国 15'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
   server: de2.vpn.legendaah.xyz
@@ -79,37 +128,26 @@ proxies:
   sni: www.cloudflare.com
   tls: false
   type: hysteria2
+- name: '[E] 🇫🇷 法国 16'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
+  sni: de2.vpn.legendaah.xyz
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 11'
+  name: '[H] 🇫🇷 法国 17'
   network: ws
   password: humanity
   port: '443'
-  server: www.speedtest.org
+  server: 104.18.152.246
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 12'
-  network: ws
-  password: humanity
-  port: '443'
-  server: ip.myip2.qzz.io
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /assignment
-- name: '[H] 🇫🇷 法国 13'
-  port: 5060
-  server: 145.239.41.4
-  type: http

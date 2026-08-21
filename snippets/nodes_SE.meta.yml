@@ -1,21 +1,5 @@
 proxies:
 - name: '[D] SE 01'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us63.mechvpn.online
-  skip-cert-verify: true
-  sni: us63.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[D] SE 02'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: us65.mechvpn.online
-  skip-cert-verify: true
-  sni: us65.mechvpn.online
-  tls: false
-  type: hysteria2
-- name: '[D] SE 03'
   obfs: salamander
   obfs-password: v8h63irhnay97090
   password: d86efa900c2f4bb6bde662f1ef6413b8
@@ -26,16 +10,14 @@ proxies:
   type: hysteria2
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] SE 04'
+  name: '[I] SE 02'
   network: tcp
-  port: '443'
+  port: 443
   reality-opts:
-    public-key: pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8
-    short-id: '!!str d3ee47fc2f553c44'
-  server: 45.196.161.171
-  servername: storage.yandex.net
-  tls: true
+    public-key: YQTixaXzPVImuRc4TUbrFAekjIiaYV-t5S-HTKlH0AU
+    short-id: '!!str 2186a755ed67b034'
+  server: 31.76.3.54
+  servername: nordic.cendora.ru
+  tls: false
   type: vless
-  udp: true
-  uuid: b55dd203-630d-46a3-b506-c52ebcafa77c
-  xudp: true
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f

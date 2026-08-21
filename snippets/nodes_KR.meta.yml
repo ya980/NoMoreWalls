@@ -1,32 +1,27 @@
 proxies:
-- name: '[D] 🇰🇷 韩国 01'
-  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
-  port: 50160
-  server: 152.67.200.82
-  skip-cert-verify: true
-  sni: 152-67-200-82.liao.kdns.fr
-  tls: false
-  type: hysteria2
-- name: '[D] 🇰🇷 韩国 02'
-  password: dfb54e674104158210fdfcac45e5679d
-  port: 50160
-  server: 193.122.104.200
-  skip-cert-verify: true
-  sni: 193-122-104-200.liao.kdns.fr
-  tls: false
-  type: hysteria2
+- name: '[B] 🇰🇷 韩国 01'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
 - name: '[E] 🇰🇷 韩国 03'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8080
   server: 139.28.168.54
   skip-cert-verify: true
-  sni: grape-honk.yyuyy.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇰🇷 韩国 04'
-  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-  port: 8080
-  server: 139.28.168.55
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
