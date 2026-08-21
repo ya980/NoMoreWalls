@@ -23,44 +23,71 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 03'
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 03'
+  network: tcp
   port: 443
-  server: 87.249.132.97
+  reality-opts:
+    public-key: bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg
+    short-id: '!!str f7d0420b8ab26060'
+  server: 194.87.24.10
+  servername: de1.de-cdn.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 22419260-5475-49d8-a29c-01905c54d1b8
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇩🇪 德国 04'
+  port: 53225
+  server: jpaws.ccwink.photos
+  servername: gw.alicdn.com
   skip-cert-verify: true
   tls: true
-  type: http
+  type: vmess
+  udp: true
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇩🇪 德国 04'
+  name: '[H] 🇩🇪 德国 05'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21118'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇩🇪 德国 05'
+  name: '[H] 🇩🇪 德国 06'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21118'
   server: 211.91.158.44
   type: ss
   udp: true
-- encryption: none
-  name: '[H] 🇩🇪 德国 06'
-  network: ws
-  port: '80'
-  server: 172.66.47.69
+- auth: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  name: '[H] 🇩🇪 德国 09'
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  port: 443
+  server: deu0003ntrhy01.tcp-reset-club.net
+  skip-cert-verify: true
+  sni: deu0003ntrhy01.tcp-reset-club.net
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 10'
+  network: tcp
+  port: '10037'
+  reality-opts:
+    public-key: 1w_E-3hZml0BGu7hVEBjRUZQQ8MBxSXnpwlVTo_NkWI
+    short-id: '!!str f0'
+  server: family.bucket.9.kfc-520.com
+  servername: www.adobe.com
+  tls: true
   type: vless
   udp: true
-  uuid: 9f8e7d6c-5b4a-4321-8b7a-6c5d4e3f2a1b
-  ws-opts:
-    headers:
-      Host: free-hzr26-cdn.sabzi.name.ng.
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.106 Safari/537.36
-    path: /
+  uuid: 3979cfac-7f7b-3dcf-a4e4-513eb8d125a7
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 07'
+  name: '[I] 🇩🇪 德国 11'
   network: tcp
   port: 443
   reality-opts:
@@ -72,7 +99,7 @@ proxies:
   type: vless
   uuid: b55dd203-630d-46a3-b506-c52ebcafa77c
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 08'
+  name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 443
   server: 194.154.30.154
@@ -84,14 +111,14 @@ proxies:
     headers:
       Host: forfreeuse.rtqa.ru
     path: '%2F'
-- name: '[I] 🇩🇪 德国 09'
+- name: '[I] 🇩🇪 德国 13'
   port: 22222
   server: 63.188.40.90
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 10'
+  name: '[I] 🇩🇪 德国 14'
   network: ws
   port: 443
   server: 108.138.26.70
