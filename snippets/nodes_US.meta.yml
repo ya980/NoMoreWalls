@@ -25,29 +25,36 @@ proxies:
   sni: www.broadcom.com
   tls: false
   type: hysteria2
-- fingerprint: safari
-  name: '[E] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 04'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els.mangshe.xyz
+  skip-cert-verify: true
+  sni: els.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 05'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
   skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
-  password: 41edb44c8e
-  port: 11592
-  server: srv-17e124.21freedom.net
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
+- alterId: 0
+  cipher: auto
   name: '[E] 🇺🇸 美国 06'
-  password: 41edb44c8e
-  port: 11592
-  server: srv-17e124.21freedom.net
-  tls: false
-  type: hysteria2
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - name: '[F] 🇺🇸 美国 07'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
@@ -72,34 +79,22 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 10'
-  network: tcp
-  port: 13779
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-    short-id: '!!str af1bdd293097b664'
-  server: 64.186.226.124
-  servername: tesla.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-- auth: 099830134df5ac3a04a4b21d39b8c395
+- auth: c85bd762dc136495ddc02b30b0b7c5c5
   name: '[H] 🇺🇸 美国 11'
-  password: 099830134df5ac3a04a4b21d39b8c395
+  password: c85bd762dc136495ddc02b30b0b7c5c5
   port: 50160
-  server: 163.192.14.135
-  skip-cert-verify: true
-  sni: www.bing.com
+  server: 107-172-212-12.liao.kdns.fr
+  sni: 107-172-212-12.liao.kdns.fr
   type: hysteria2
-- name: '[H] 🇺🇸 美国 12'
-  port: 443
-  server: jgwynphotoarts.pro
-  sni: jgwynphotoarts.pro
-  tls: true
-  type: http
+  udp: true
+- auth: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  name: '[H] 🇺🇸 美国 12'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8443
+  server: 222.167.212.82
+  skip-cert-verify: true
+  sni: hopp-legend-se.roxa.org
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[I] 🇺🇸 美国 13'
