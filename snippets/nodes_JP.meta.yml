@@ -30,12 +30,21 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[H] 🇯🇵 日本 05'
-  password: '!!str 123456'
-  port: 1080
-  server: 8.209.236.192
-  type: socks5
-  username: '123456'
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 05'
+  network: ws
+  password: 8978b84c-6b95-4494-beb6-5246ec82e9ad
+  port: '443'
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  sni: baijofe6666.bpjp2027.top
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /images
 - client-fingerprint: chrome
   name: '[I] 🇯🇵 日本 06'
   network: ws

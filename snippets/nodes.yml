@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 04'
+  name: '[E] 🇭🇰 香港 03'
   network: ws
   port: '443'
   server: lcv8v9l7oyamxxfz.v.3dns.vip
@@ -15,7 +15,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 05'
+  name: '[E] 🇭🇰 香港 04'
   network: ws
   port: '443'
   server: u2frxj0g13vdi0wo.v.3dns.vip
@@ -29,7 +29,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 06'
+  name: '[E] 🇭🇰 香港 05'
   network: ws
   port: '443'
   server: 93ucrn4i0pffuabk.v.3dns.vip
@@ -43,7 +43,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 07'
+  name: '[E] 🇭🇰 香港 06'
   network: ws
   port: '443'
   server: drbkg16egf3fzlm3.v.3dns.vip
@@ -57,7 +57,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 08'
+  name: '[E] 🇭🇰 香港 07'
   network: ws
   port: '443'
   server: 47.86.107.119
@@ -71,7 +71,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 09'
+  name: '[E] 🇭🇰 香港 08'
   network: ws
   port: '443'
   server: lcv8v9l7oyamxxfz.v.3dns.vip
@@ -85,7 +85,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 10'
+  name: '[E] 🇭🇰 香港 09'
   network: ws
   port: '443'
   server: m01c7b2z26dtqgee.v.3dns.vip
@@ -99,7 +99,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 42'
+  name: '[E] 🌍 其它地区 49'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -126,21 +126,21 @@ proxies:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 43'
+  name: '[F] 🌍 其它地区 50'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
   type: ss
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 11'
+  name: '[F] 🇭🇰 香港 10'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: '[F] 🇭🇰 香港 12'
+- name: '[F] 🇭🇰 香港 11'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 25982
@@ -148,7 +148,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 12'
   network: tcp
   password: BxceQaOe
   port: 1103
@@ -156,7 +156,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 14'
+- name: '[F] 🇭🇰 香港 13'
   network: tcp
   password: BxceQaOe
   port: 1103
@@ -238,7 +238,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 15'
+  name: '[G] 🇭🇰 香港 14'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -246,29 +246,44 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇭🇰 香港 16'
-  network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  servername: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+- name: '[H] 🌍 其它地区 53'
+  password: FH72359861
+  port: '443'
+  server: national-stingray.rooster465.autos
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: national-stingray.rooster465.autos
+  type: trojan
   udp: true
-  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+- name: '[H] 🇯🇵 日本 05'
+  network: ws
+  password: 8978b84c-6b95-4494-beb6-5246ec82e9ad
+  port: '443'
+  server: cdn3.bpcdn.cc
+  skip-cert-verify: false
+  sni: baijofe6666.bpjp2027.top
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
-    path: /
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /images
+- name: '[H] 🌍 其它地区 54'
+  network: tcp
+  password: FH72359861
+  port: '443'
+  server: 87.121.33.109
+  skip-cert-verify: true
+  sni: national-stingray.rooster465.autos
+  type: trojan
+  udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇭🇰 香港 17'
+  name: '[I] 🇭🇰 香港 15'
   password: ljqdalu13..
   port: 8319
   server: 95.40.120.162
   type: ss
-- name: '[I] 🌍 其它地区 52'
+- name: '[I] 🌍 其它地区 121'
   network: ws
   password: humanity
   port: 443
@@ -319,7 +334,7 @@ proxies:
     path: '%2Fassignment'
 - alterId: 0
   cipher: auto
-  name: '[I] 🌍 其它地区 62'
+  name: '[I] 🌍 其它地区 131'
   network: ws
   port: 8443
   server: 104.17.77.77

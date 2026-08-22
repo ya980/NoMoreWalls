@@ -1,48 +1,28 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  password: 8569e507-8ef7-481d-9108-6bc7f040c2ff
-  port: 9443
-  server: newos.klzvezdi.ru
-  skip-cert-verify: true
-  sni: newos.klzvezdi.ru
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇩🇪 德国 02'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNJey
-  port: 37003
-  server: 1.1.1.1
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇩🇪 德国 03'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNjey
-  port: 37003
-  server: 179.61.251.253
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- auth: Germany2026hy
-  name: '[H] 🇩🇪 德国 04'
-  obfs: salamander
-  obfs-password: SalamanderDE2026
-  password: Germany2026hy
-  port: 8443
-  server: 45.128.99.14
-  skip-cert-verify: true
-  sni: de.nobelchat.ru
-  type: hysteria2
 - client-fingerprint: chrome
-  name: '[I] 🇩🇪 德国 05'
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 01'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: 2UWlK1pgBgiFti_aRf1L8sbJALhr7LGyuq4Mf4pMQzM
+    short-id: '!!str '
+  server: de3.prformula.cfd
+  servername: de3.prformula.cfd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5d71edc2-7547-4b0e-9c94-aebc8c153d60
+  xudp: true
+- name: '[H] 🇩🇪 德国 02'
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  name: '[I] 🇩🇪 德国 03'
   network: ws
   port: 443
   server: 194.154.30.154
