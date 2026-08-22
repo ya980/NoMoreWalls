@@ -20,25 +20,32 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 07'
+- name: '[E] 🇬🇧 英国 04'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 103.246.248.226
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[H] 🇬🇧 英国 05'
+  password: None
   port: 443
   server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 08'
+  username: null
+- alpn:
+  - h3
+  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  name: '[H] 🇬🇧 英国 06'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
   port: 443
-  server: 185.235.0.34
+  server: uk196.mechvpn.online
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 09'
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[I] 🇬🇧 英国 10'
+  sni: uk196.mechvpn.online
+  type: hysteria2
+- name: '[I] 🇬🇧 英国 07'
   network: ws
   port: 8443
   server: 91.110.174.210
@@ -50,7 +57,7 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
-- name: '[I] 🇬🇧 英国 11'
+- name: '[I] 🇬🇧 英国 08'
   network: ws
   port: 80
   server: 91.193.58.159
