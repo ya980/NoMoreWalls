@@ -13,10 +13,12 @@ proxies:
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
-- name: '[E] 🇬🇧 英国 03'
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: '[E] 🇬🇧 英国 03'
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.124.111
+  skip-cert-verify: true
   sni: hopp-germany-new.ddnsguru.com
   tls: false
   type: hysteria2
@@ -27,24 +29,20 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 05'
-  password: None
-  port: 443
-  server: 185.235.0.66
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- alpn:
-  - h3
-  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 05'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
   name: '[H] 🇬🇧 英国 06'
-  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
-  port: 443
-  server: uk196.mechvpn.online
-  skip-cert-verify: true
-  sni: uk196.mechvpn.online
-  type: hysteria2
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.44
+  type: ss
+  udp: true
 - name: '[I] 🇬🇧 英国 07'
   network: ws
   port: 8443
