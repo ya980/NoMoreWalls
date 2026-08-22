@@ -1,28 +1,5 @@
 proxies:
 - name: '[E] 🇬🇧 英国 01'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.108
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.109
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: '[E] 🇬🇧 英国 03'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.111
-  skip-cert-verify: true
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 04'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 103.246.248.226
@@ -30,20 +7,50 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇬🇧 英国 05'
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21117'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇬🇧 英国 06'
+  name: '[H] 🇬🇧 英国 02'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21117'
   server: 211.91.158.44
   type: ss
   udp: true
-- name: '[I] 🇬🇧 英国 07'
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 03'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21117'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- name: '[H] 🇬🇧 英国 04'
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- alpn:
+  - h3
+  auth: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  name: '[H] 🇬🇧 英国 05'
+  password: 53c76647-14d1-4df5-99cb-be99ad2e6bd9
+  port: 443
+  server: uk196.mechvpn.online
+  skip-cert-verify: true
+  sni: uk196.mechvpn.online
+  type: hysteria2
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 06'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21104'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 07'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21104'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- name: '[I] 🇬🇧 英国 08'
   network: ws
   port: 8443
   server: 91.110.174.210
@@ -55,7 +62,7 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
-- name: '[I] 🇬🇧 英国 08'
+- name: '[I] 🇬🇧 英国 09'
   network: ws
   port: 80
   server: 91.193.58.159

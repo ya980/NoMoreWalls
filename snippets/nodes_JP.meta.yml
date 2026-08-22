@@ -1,12 +1,27 @@
 proxies:
 - name: '[E] 🇯🇵 日本 01'
+  password: fJT5wNXNkYDvYKKGWUc9f2vd0LvHKSwc
+  port: 443
+  server: 43.167.198.167
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 02'
+  password: fJT5wNXNkYDvYKKGWUc9f2vd0LvHKSwc
+  port: 443
+  server: 43.167.198.167
+  skip-cert-verify: true
+  sni: 43.167.198.167
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 03'
   password: Foc_Mcxi45rM9v3ve_N92fdrK_10_Ssc5
   port: 8443
   server: 185.39.31.117
   sni: grape-beer.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[F] 🇯🇵 日本 02'
+- name: '[F] 🇯🇵 日本 04'
   network: tcp
   password: BxceQaOe
   port: 16691
@@ -14,7 +29,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 05'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 40136
@@ -22,7 +37,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇯🇵 日本 04'
+- name: '[F] 🇯🇵 日本 06'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 18617
@@ -31,14 +46,21 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇯🇵 日本 05'
+  name: '[H] 🇯🇵 日本 07'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21109'
   server: 211.91.158.26
   type: ss
   udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇯🇵 日本 08'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21119'
+  server: 211.91.158.26
+  type: ss
+  udp: true
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 06'
+  name: '[I] 🇯🇵 日本 09'
   network: ws
   port: 8443
   server: 45.76.54.46
@@ -51,7 +73,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 07'
+  name: '[I] 🇯🇵 日本 10'
   network: ws
   port: 8443
   server: 206.251.53.91
@@ -64,7 +86,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 08'
+  name: '[I] 🇯🇵 日本 11'
   network: ws
   port: 8443
   server: 43.224.33.225
