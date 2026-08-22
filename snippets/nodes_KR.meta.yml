@@ -1,48 +1,29 @@
 proxies:
-- name: '[B] 🇰🇷 韩国 01'
-  network: ws
-  port: 8880
-  server: 108.162.196.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: '[B] 🇰🇷 韩国 02'
-  network: ws
-  port: 8880
-  server: 72.167.230.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: '[E] 🇰🇷 韩国 03'
+- name: '[E] 🇰🇷 韩国 01'
   password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
   port: 8080
   server: 139.28.168.54
   sni: grape-honk.yyuyy.com
   tls: false
   type: hysteria2
-- name: '[E] 🇰🇷 韩国 04'
-  password: 0wdsa_nJXEWRj9jz9J9xMgtx_n7gzfK_m8
-  port: 8080
-  server: 139.28.168.55
-  sni: grape-honk.yyuyy.com
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: '[H] 🇰🇷 韩国 05'
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.138
-  type: ss
-  udp: true
 - client-fingerprint: firefox
-  name: '[I] 🇰🇷 韩国 06'
+  name: '[I] 🇰🇷 韩国 02'
   network: ws
   port: 8443
   server: 85.155.176.154
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
+- client-fingerprint: chrome
+  name: '[I] 🇰🇷 韩国 03'
+  network: ws
+  port: 8443
+  server: 85.155.176.93
   servername: rubifen.adaspoloandco.com
   tls: true
   type: vless
