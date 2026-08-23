@@ -12,10 +12,17 @@ proxies:
   port: 443
   server: vpn-ca-001.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: t.me
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇦 加拿大 03'
+  password: e5gqbtu97umt992j
+  port: 9443
+  server: 185.230.44.170
+  sni: 185.230.44.170
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇦 加拿大 04'
   password: ac7fb60f-0b7a-465d-a002-05160ec04ed6
   port: 443
   server: dora3.api3-max.ru
@@ -23,27 +30,12 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: '[H] 🇨🇦 加拿大 04'
+  name: '[H] 🇨🇦 加拿大 05'
   password: amazonskr05
   port: 443
   server: 16.52.46.12
   type: ss
   udp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - splus.ir
-    path:
-    - /
-  name: '[H] 🇨🇦 加拿大 05'
-  network: http
-  port: '3366'
-  server: fcbbcc4fc4.freeino.ir
-  type: vless
-  udp: true
-  uuid: 2b44a12a-2a00-48aa-a8db-0d182e34d888
-  xudp: true
 - name: '[I] 🇨🇦 加拿大 06'
   network: ws
   port: 443
