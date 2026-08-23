@@ -30,31 +30,50 @@ proxies:
   sni: grape-turbo-fr.roxa.org
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇩🇪 德国 04'
   network: tcp
-  port: 443
+  port: '1234'
   reality-opts:
-    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
-    short-id: '!!str ff776ff77be48b88'
-  server: 93.123.101.78
-  servername: germ3.freeinternat.com
+    public-key: 4sT8gYkbYI1RUPlO-SFVpJENKfGgMWoYQpflbcfspkI
+    short-id: '!!str 4844fb0c077b20b7'
+  server: store20.vevluma.ir
+  servername: updates.cdn-apple.com
   tls: true
   type: vless
   udp: true
-  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
-- name: '[H] 🇩🇪 德国 05'
+  uuid: cd09dc43-a55a-4f9d-920a-9e91e11e26fc
+  xudp: true
+- name: '[H] 🇩🇪 德国 07'
   password: None
-  port: 11111
-  server: 103.237.102.191
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
   type: http
   username: null
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 08'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI
+    short-id: '!!str f41bc0b00ca1a978'
+  server: nl3.murhost.network
+  servername: nl3.murhost.network
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 419f25c1-bc35-412e-93fb-258efee859b5
 - client-fingerprint: qq
   encryption: none
   grpc-opts:
     grpc-service-name: grpc-yandex
-  name: '[H] 🇩🇪 德国 06'
+  name: '[H] 🇩🇪 德国 09'
   network: grpc
   port: '8443'
   reality-opts:
@@ -66,4 +85,35 @@ proxies:
   type: vless
   udp: true
   uuid: 2e9d3568-f977-4cea-800d-fd9a876e7252
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 10'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI
+    short-id: '!!str f41bc0b00ca1a978'
+  server: 81.31.210.140
+  servername: nl3.murhost.network
+  tls: true
+  type: vless
+  udp: true
+  uuid: 419f25c1-bc35-412e-93fb-258efee859b5
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 11'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
+    short-id: '!!str ff776ff77be48b88'
+  server: 93.123.101.78
+  servername: germ3.freeinternat.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: fbb74aa8-b89a-4f20-9504-6b25aadf6681
   xudp: true
