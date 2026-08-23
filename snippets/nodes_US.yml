@@ -1,45 +1,77 @@
 proxies:
-- name: '[F] 🇺🇸 美国 10'
-  network: tcp
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 17'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- name: '[F] 🇺🇸 美国 18'
   password: d5517dedef425597a1b9fdbaad99544e
   port: 34039
   server: 43.199.143.104
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 11'
-  network: tcp
+- name: '[F] 🇺🇸 美国 19'
   password: d5517dedef425597a1b9fdbaad99544e
   port: 39024
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 12'
-  network: tcp
+- name: '[F] 🇺🇸 美国 20'
   password: BxceQaOe
   port: 39024
   server: 43.199.155.17
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 30'
+- alterId: 0
+  cipher: auto
+  name: '[G] 🇺🇸 美国 21'
   network: ws
-  password: MiTiVPN
   port: '443'
-  server: 188.42.145.180
-  skip-cert-verify: false
-  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
-  udp: true
+  server: 3kCf86Ufi0U5xBDA.v.3dns.vip
+  servername: 3kCf86Ufi0U5xBDA.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: 3kCf86Ufi0U5xBDA.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[G] 🇺🇸 美国 22'
+  network: ws
+  port: '443'
+  server: lL0GIaPVZ6Zxkd94.v.3dns.vip
+  servername: lL0GIaPVZ6Zxkd94.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: lL0GIaPVZ6Zxkd94.v.3dns.vip
+    path: /ws-vmess
+- name: '[G] 🇺🇸 美国 23'
+  network: tcp
+  password: BxceQaOe
+  port: 39024
+  server: 54.46.3.138
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
 - cipher: aes-256-gcm
-  name: '[I] 🇺🇸 美国 34'
+  name: '[I] 🇺🇸 美国 42'
   password: 7w9x5m4kNWNFgKuDXFUxu68x-26wbWwg
   port: 8388
   server: 38.64.58.242
