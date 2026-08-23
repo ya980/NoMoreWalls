@@ -1,13 +1,12 @@
 proxies:
-- name: '[H] 🇬🇧 英国 01'
-  password: 5040a6b0-92be-42bc-a8ab-7f8c1d02866c
-  port: 53991
-  server: yazhouany02.downapptwo.cc
-  skip-cert-verify: true
-  sni: jp03.pulsarcore.site
-  type: anytls
-  udp: true
-- name: '[H] 🇬🇧 英国 03'
+- name: '[E] 🇬🇧 英国 01'
+  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
+  port: 8080
+  server: 103.246.248.227
+  sni: hopp-legend-se.roxa.org
+  tls: false
+  type: hysteria2
+- name: '[H] 🇬🇧 英国 02'
   password: None
   port: 443
   server: 185.235.0.66
@@ -15,7 +14,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 04'
+- name: '[H] 🇬🇧 英国 03'
   password: None
   port: 443
   server: 37.120.233.18
@@ -23,7 +22,8 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[I] 🇬🇧 英国 05'
+- client-fingerprint: chrome
+  name: '[I] 🇬🇧 英国 05'
   network: ws
   port: 8443
   server: 91.110.174.210
@@ -35,14 +35,3 @@ proxies:
     headers:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
-- name: '[I] 🇬🇧 英国 06'
-  network: ws
-  port: 80
-  server: 91.193.58.159
-  tls: false
-  type: vless
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-    path: '%2Fpyip%3DTelegram-WangCai2%F0%9F%87%A8%F0%9F%87%B3'

@@ -14,7 +14,7 @@ proxies:
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
-  sni: 66.94.121.46
+  sni: www.broadcom.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 03'
@@ -22,10 +22,17 @@ proxies:
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
-  sni: www.broadcom.com
+  sni: 66.94.121.46
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
+  password: gf1
+  port: 443
+  server: 66.94.121.46
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 05'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els.mangshe.xyz
@@ -33,7 +40,15 @@ proxies:
   sni: els.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
+- fingerprint: safari
+  name: '[E] 🇺🇸 美国 06'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 07'
   password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
   port: 2056
   server: els1.mangshe.xyz
@@ -41,21 +56,23 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 06'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- name: '[F] 🇺🇸 美国 07'
+- name: '[E] 🇺🇸 美国 08'
+  password: 22d891f5-ad85-4824-b0b8-e30cf3d37eb5
+  port: 2056
+  server: els1.mangshe.xyz
+  skip-cert-verify: true
+  sni: els1.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 09'
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: nl1.xiaoliyu.cyou
+  skip-cert-verify: true
+  sni: nl1.xiaoliyu.cyou
+  tls: false
+  type: hysteria2
+- name: '[F] 🇺🇸 美国 10'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 34039
@@ -63,7 +80,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 08'
+- name: '[F] 🇺🇸 美国 11'
   network: tcp
   password: d5517dedef425597a1b9fdbaad99544e
   port: 39024
@@ -71,7 +88,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 39024
@@ -79,88 +96,44 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 10'
-  password: 5040a6b0-92be-42bc-a8ab-7f8c1d02866c
-  port: 15503
-  server: test01.y1static-content-distribution.shop
+- auth: 099830134df5ac3a04a4b21d39b8c395
+  name: '[H] 🇺🇸 美国 15'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
   skip-cert-verify: true
-  sni: kr08.lunartrace.io
-  type: anytls
+  sni: www.bing.com
+  type: hysteria2
   udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 11'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: C7nhExS9e3_WQIDfYrGaG6ycw2jlrfSh3b-nf8eikSI
-    short-id: '!!str a1b2'
-  server: 23.172.40.60
-  servername: learn.microsoft.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4a680c6d-10b6-44ec-afbd-e2621760e347
-  xudp: true
-- name: '[H] 🇺🇸 美国 12'
+- name: '[H] 🇺🇸 美国 16'
   password: 'null'
   port: 9002
-  server: 138.199.35.210
+  server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 13'
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 14'
-  port: 443
-  server: fullmanfirm.icu
-  skip-cert-verify: true
-  sni: fullmanfirm.icu
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 15'
-  password: ''
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 16'
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - name: '[H] 🇺🇸 美国 17'
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 18'
   port: 9002
   server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 18'
-  port: 1085
-  server: 45.76.164.255
-  type: socks5
 - name: '[H] 🇺🇸 美国 19'
-  password: None
   port: 9002
-  server: 156.146.59.4
+  server: 156.146.59.5
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+  udp: true
 - name: '[H] 🇺🇸 美国 20'
   password: None
   port: 9002
@@ -174,62 +147,97 @@ proxies:
   server: 172.85.99.64
   type: http
 - name: '[H] 🇺🇸 美国 22'
-  password: ''
+  password: None
   port: 9002
-  server: 156.146.59.32
+  server: 156.146.59.33
   skip-cert-verify: true
   tls: true
   type: http
-  username: ''
+  username: null
 - name: '[H] 🇺🇸 美国 23'
-  password: None
-  port: 16062
-  server: 172.85.99.37
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 24'
-  password: None
   port: 9002
-  server: 138.199.35.213
+  server: 156.146.59.36
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+- name: '[H] 🇺🇸 美国 24'
+  port: 9002
+  server: 156.146.59.16
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - name: '[H] 🇺🇸 美国 25'
+  port: 9002
+  server: 156.146.59.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 26'
   port: 16062
   server: 104.218.199.217
   type: http
-- name: '[H] 🇺🇸 美国 26'
+- name: '[H] 🇺🇸 美国 27'
+  port: 16062
+  server: 104.218.199.166
+  type: http
+- name: '[H] 🇺🇸 美国 28'
   port: 443
   server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 27'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY
-    short-id: '!!str 58fbcddfaae3ade9'
-  server: token.api.anti-zapret.com
-  servername: us.srv.anti-zapret.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba
-  xudp: true
-- name: '[H] 🇺🇸 美国 28'
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.215
+- name: '[H] 🇺🇸 美国 29'
+  port: 9002
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 29'
+  udp: true
+- client-fingerprint: chrome
+  name: '[H] 🇺🇸 美国 30'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 188.42.145.180
+  skip-cert-verify: false
+  sni: 82929473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-g@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 31'
+  network: xhttp
+  port: '443'
+  server: quiet-voyager-5af5-production.up.railway.app
+  servername: quiet-voyager-5af5-production.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5ef8484f-996a-7c3e-8dc4-7802d5054d8a
+  xhttp-opts:
+    host: quiet-voyager-5af5-production.up.railway.app
+    mode: stream-up
+    path: /xhttp-siz10/stream-up/5ef8484f-996a-7c3e-8dc4-7802d5054d8a
+  xudp: true
+- name: '[H] 🇺🇸 美国 32'
+  password: ''
+  port: '9002'
+  server: 156.146.59.47
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 33'
   password: ''
   port: '9002'
   server: 138.199.35.207
@@ -237,55 +245,67 @@ proxies:
   tls: true
   type: http
   username: ''
-- client-fingerprint: chrome
+- cipher: aes-256-gcm
+  name: '[I] 🇺🇸 美国 34'
+  password: 7w9x5m4kNWNFgKuDXFUxu68x-26wbWwg
+  port: 8388
+  server: 38.64.58.242
+  type: ss
+- name: '[I] 🇺🇸 美国 35'
+  network: ws
+  port: 8080
+  server: 40.160.68.186
+  tls: false
+  type: vless
+  uuid: 11af1c47-865a-47c6-92ff-118013655d78
+- client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 30'
-  network: tcp
+  name: '[I] 🇺🇸 美国 36'
   port: 443
   reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
     short-id: '!!str 4a46213c935e2ee4'
-  server: 31.76.70.32
+  server: 31.76.70.31
   servername: baltic.cendora.ru
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: '[I] 🇺🇸 美国 31'
+  ws-opts:
+    headers:
+      Host: baltic.cendora.ru
+- alpn:
+  - h3
+  client-fingerprint: chrome
+  name: '[I] 🇺🇸 美国 37'
+  network: xhttp
+  port: 443
+  server: 151.101.111.60
+  servername: accounts.fastly.com
+  tls: true
+  type: vless
+  uuid: 15335e88-81bf-4b53-9d54-2aa152bddc11
+  ws-opts:
+    headers:
+      Host: ovd10.global.ssl.fastly.net
+    path: /
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇺🇸 美国 38'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8H-YQe-nSd_aL2FwWIFNV2-anUb4v3cY_n5QcEEjGEs
+    short-id: '!!str eeed325908a87d9f'
+  server: gr1.panel11.ru
+  servername: gr1.panel11.ru
+  tls: false
+  type: vless
+  uuid: 9aff0732-7ce4-4b34-ba20-e67c6df64fdd
+  ws-opts:
+    path: /
+- name: '[I] 🇺🇸 美国 39'
   port: 10000
   server: 180.178.60.254
   tls: false
   type: vless
   uuid: caec0d8d-ab2f-4247-b97d-7fb1a34ab195
-- name: '[I] 🇺🇸 美国 32'
-  network: ws
-  port: 80
-  server: 50.62.195.4
-  tls: false
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  ws-opts:
-    headers:
-      Host: raspy-feather-12ec.137-257.workers.dev
-    path: '%2Fpyip%3DTelegram%F0%9F%87%A8%F0%9F%87%B3%2B%40WangCai2'
-- name: '[I] 🇺🇸 美国 33'
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 34'
-  network: ws
-  port: 8880
-  server: 155.46.167.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-    path: '%2F'
