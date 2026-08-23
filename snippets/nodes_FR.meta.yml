@@ -22,18 +22,17 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 03'
+  password: 1427eb10-7529-4d38-a6a2-01b337868b37
+  port: 4433
+  server: nl1.xiaoliyu.cyou
+  skip-cert-verify: true
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 04'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 85.204.107.172
   sni: hopp-romania-new.roxa.org
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 60111
-  server: 62.210.7.139
-  skip-cert-verify: true
-  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 05'
@@ -41,29 +40,50 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 06'
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 06'
-  network: tcp
-  port: 443
-  server: 88.218.196.178
-  servername: lapa4.api3-max.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
+- auth: github.com/Alvin9999-newpac/fanqiang
   name: '[H] 🇫🇷 法国 07'
-  network: tcp
-  port: '443'
-  server: 88.218.196.243
-  servername: lapa10.api3-max.ru
-  tls: true
-  type: vless
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 43115
+  server: 62.210.147.2
+  skip-cert-verify: true
+  sni: www.microsoft.com
+  type: hysteria2
   udp: true
-  uuid: ac7fb60f-0b7a-465d-a002-05160ec04ed6
-  xudp: true
+- name: '[H] 🇫🇷 法国 08'
+  password: None
+  port: 5060
+  server: 145.239.41.4
+  type: http
+  username: null
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇫🇷 法国 09'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21126'
+  server: 211.91.158.44
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇫🇷 法国 10'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21126'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇫🇷 法国 11'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21122'
+  server: 211.91.158.44
+  type: ss
+  udp: true
