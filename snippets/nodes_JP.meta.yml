@@ -56,27 +56,34 @@ proxies:
     headers:
       Host: UcKniXjfd2JOKBmx.v.3dns.vip
     path: /ws-vmess
-- cipher: aes-256-cfb
+- cipher: aes-128-gcm
   name: '[H] 🇯🇵 日本 07'
+  password: adbc1e8c-184e-4d02-b0e0-f0cb70b377df
+  port: 10937
+  server: mn.qwer-cn.org
+  type: ss
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 08'
   password: 7eadc6dbe2ae
-  port: 65443
+  port: '65443'
   server: 121.46.230.136
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇯🇵 日本 08'
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21119'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
   name: '[H] 🇯🇵 日本 09'
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21119'
-  server: 211.91.158.26
-  type: ss
+  network: tcp
+  port: '53113'
+  reality-opts:
+    public-key: BdFiTcTZt1oIRD_Q04KnxPjs_1cZFqjV-sbVGP49PVY
+    short-id: '!!str 238ba3b9e8'
+  server: jpaws.ccwink.photos
+  servername: docs.aws.amazon.com
+  tls: true
+  type: vless
   udp: true
+  uuid: a157bb84-dd84-4ad8-86b0-0656bc76e4d1
+  xudp: true
 - cipher: chacha20-ietf-poly1305
   name: '[H] 🇯🇵 日本 10'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
@@ -85,13 +92,32 @@ proxies:
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[I] 🇯🇵 日本 11'
+  name: '[H] 🇯🇵 日本 11'
+  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
+  port: '21119'
+  server: 211.91.158.26
+  type: ss
+  udp: true
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇯🇵 日本 12'
+  obfs: ''
+  obfs-password: ''
+  password: b4c65d3711d27d46f32263f1dd9caf48
+  port: '50160'
+  server: 151.145.65.190
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- cipher: chacha20-ietf-poly1305
+  name: '[I] 🇯🇵 日本 13'
   password: J1InuU6QRT5JOh1mQfkjU2
   port: 16015
   server: 144.31.243.2
   type: ss
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 12'
+  name: '[I] 🇯🇵 日本 14'
   network: ws
   port: 8443
   server: 45.76.54.46
@@ -104,7 +130,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 13'
+  name: '[I] 🇯🇵 日本 15'
   network: ws
   port: 8443
   server: 206.251.53.91
@@ -117,7 +143,7 @@ proxies:
       Host: rubifen.adaspoloandco.com
     path: '%2FGOrbEh'
 - client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 14'
+  name: '[I] 🇯🇵 日本 16'
   network: ws
   port: 8443
   server: 43.224.33.225

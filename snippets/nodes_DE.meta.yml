@@ -1,75 +1,37 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇩🇪 德国 01'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNJey
-  port: 37003
-  server: 1.1.1.1
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇩🇪 德国 02'
-  obfs: salamander
-  obfs-password: 83v9muumcyikh5ch
-  password: TelegramVPNjey
-  port: 37003
-  server: 179.61.251.253
-  sni: de.jey.cc.cd
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 03'
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  port: 8080
-  server: 46.229.243.141
-  sni: grape-turbo-fr.roxa.org
-  tls: false
-  type: hysteria2
-- auth: e5gqbtu97umt992j
-  name: '[H] 🇩🇪 德国 04'
-  password: e5gqbtu97umt992j
-  port: 9443
-  server: 185.230.44.170
-  sni: 185.230.44.170
-  type: hysteria2
-  udp: true
-- alpn:
-  - h2
-  - http/1.1
-  - h3
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.8mYSI2mSW-DbxDiXo3Lc0pB-C1nwW6HgSQVebc0SWTs
-  name: '[H] 🇩🇪 德国 05'
-  network: xhttp
-  port: '443'
-  server: 172.67.156.192
-  servername: daaailycoooonfigs.dodfun.ir
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 02'
+  network: tcp
+  port: 2568
+  reality-opts:
+    public-key: P4Rhf1bJUHLv0QI7J4UkqFiUpzabUccvAbKSe7Z0BiM
+    short-id: '!!str dd55bfc8'
+  server: inbound.sled019fd6eb-369f.rfsconfig.com
+  servername: s0a3u.biliimg.com
   tls: true
   type: vless
   udp: true
-  uuid: 1ab3d304-568e-4d0b-b347-24038012fc10
-  xhttp-opts:
-    host: daaailycoooonfigs.dodfun.ir.
-    mode: auto
-    path: /engineering/465426-self-healing-roman-concrete-featured
-    x-padding-bytes: 100-1000
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇩🇪 德国 06'
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21118'
-  server: 211.91.158.26
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇩🇪 德国 07'
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21118'
-  server: 211.91.158.44
-  type: ss
+  uuid: c0460ba7-a0a3-44f9-9913-a46a43c4601c
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇩🇪 德国 03'
+  obfs: ''
+  obfs-password: ''
+  password: e5gqbtu97umt992j
+  port: '9443'
+  server: 185.230.44.170
+  skip-cert-verify: false
+  sni: 185.230.44.170
+  type: hysteria2
+  up: ''
+- client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 04'
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: '20022'
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
   udp: true

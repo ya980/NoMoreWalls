@@ -22,20 +22,13 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 03'
-  password: 1427eb10-7529-4d38-a6a2-01b337868b37
-  port: 4433
-  server: nl1.xiaoliyu.cyou
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
   password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
   port: 8443
   server: 85.204.107.172
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
+- name: '[E] 🇫🇷 法国 04'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -43,7 +36,7 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 06'
+- name: '[E] 🇫🇷 法国 05'
   password: github.com/Alvin9999-newpac/fanqiang
   port: 60111
   server: 62.210.7.139
@@ -51,37 +44,28 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- auth: github.com/Alvin9999-newpac/fanqiang
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 06'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 45.131.212.41
+  servername: gb.sellflow.org
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5322390f-20ee-49e4-9b38-51fc1b5a1758
+- cipher: chacha20-ietf-poly1305
   name: '[H] 🇫🇷 法国 07'
-  password: github.com/Alvin9999-newpac/fanqiang
-  port: 43115
-  server: 62.210.147.2
-  skip-cert-verify: true
-  sni: www.microsoft.com
-  type: hysteria2
-  udp: true
-- name: '[H] 🇫🇷 法国 08'
-  password: None
-  port: 5060
-  server: 145.239.41.4
-  type: http
-  username: null
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇫🇷 法国 09'
-  password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21126'
-  server: 211.91.158.44
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇫🇷 法国 10'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21126'
   server: 211.91.158.26
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇫🇷 法国 11'
+  name: '[H] 🇫🇷 法国 08'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
   port: '21122'
   server: 211.91.158.44
