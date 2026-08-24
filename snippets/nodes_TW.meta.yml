@@ -12,7 +12,7 @@ proxies:
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 03'
@@ -20,15 +20,14 @@ proxies:
   port: 443
   server: 160.187.100.109
   skip-cert-verify: true
-  sni: 160.187.100.109
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 04'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
-  server: vpn-tw-002.fastervpn.world
+  server: 160.187.100.109
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: 160.187.100.109
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 05'
@@ -36,6 +35,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 06'
@@ -43,7 +43,6 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 07'
@@ -51,7 +50,7 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 08'
@@ -59,10 +58,18 @@ proxies:
   port: 443
   server: vpn-tw-002.fastervpn.world
   skip-cert-verify: true
-  sni: vpn-tw-002.fastervpn.world%5Cu0026insecure%3D1%5Cu0026allowinsecure%3D1
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇨🇳 台湾 09'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-tw-002.fastervpn.world
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[E] 🇨🇳 台湾 10'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-tw-002.fastervpn.world
@@ -71,24 +78,16 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-gcm
-  name: '[F] 🇨🇳 台湾 10'
+  name: '[F] 🇨🇳 台湾 11'
   password: Butterfly123@qwe9527
   port: 30001
   server: 36.33.35.105
   type: ss
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇨🇳 台湾 11'
-  network: tcp
-  port: '32178'
-  reality-opts:
-    public-key: MrBX-OPkFMp19rzgSbungdUFdoUSXAg7phFfeowkvxo
-    short-id: '!!str 9c01c7e98b93e683'
-  server: wwhgbmxaycrqwzxhfa.cfooov.xyz
-  servername: www.apple.com
-  tls: true
-  type: vless
+- name: '[H] 🇨🇳 台湾 12'
+  password: 29204996-a723-4291-8c70-30843b592d40
+  port: 443
+  server: tw77.cybergalaxy.me
+  skip-cert-verify: true
+  sni: tw77.cybergalaxy.me
+  type: anytls
   udp: true
-  uuid: 8d05cda5-c9ba-43cf-846e-b9521b872c71
-  xudp: true
