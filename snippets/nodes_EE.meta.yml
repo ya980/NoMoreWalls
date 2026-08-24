@@ -1,7 +1,17 @@
 proxies:
+- name: '[B] EE 01'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] EE 01'
+  name: '[I] EE 02'
   port: 443
   reality-opts:
     public-key: bZpzmeWiEJyJQy0W2hHc34Nr6BuFXj1UDd80Cbwh1Fk
