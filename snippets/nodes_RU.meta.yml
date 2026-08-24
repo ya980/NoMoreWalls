@@ -1,11 +1,16 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇷🇺 俄罗斯 01'
-  password: MTFlN
-  port: '8388'
-  server: 194.147.35.56
-  type: ss
-  udp: true
+- client-fingerprint: safari
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 01'
+  port: 14406
+  reality-opts:
+    public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
+    short-id: '!!str 1a2b3c4d5e6f7a8b'
+  server: 85.198.70.200
+  servername: vk.ru
+  tls: false
+  type: vless
+  uuid: 237f91bf-102e-4077-8cc3-baebccb42936
 - alpn:
   - http/1.1
   client-fingerprint: chrome
