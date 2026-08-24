@@ -32,28 +32,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇩🇪 德国 04'
-  password: a6cf4b28-ba72-4e8c-90f8-6a884107ab3c
-  port: 443
-  server: gd-0z.whit3.net
-  skip-cert-verify: true
-  sni: gd-0z.whit3.net
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 05'
-  password: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
-  port: 443
-  server: swe-one.letsgodance.site
-  sni: swe-one.letsgodance.site
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 06'
-  password: 5d36ddf8-dde5-4b2d-8213-d3255f22a0f1
-  port: 8443
-  server: swe-two.letsgodance.site
-  sni: swe-two.letsgodance.site
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 07'
   password: da98e502-5e93-4fc5-bd61-388c557df29c
   port: 2083
   server: 178.236.254.21
@@ -61,17 +39,26 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: chacha20-ietf-poly1305
-  name: '[H] 🇩🇪 德国 08'
+  name: '[H] 🇩🇪 德国 05'
   password: 9325a345-c72f-4637-a8f4-34f9effb7ba6
-  port: '21118'
+  port: 21118
   server: 211.91.158.44
   type: ss
   udp: true
-- name: '[H] 🇩🇪 德国 09'
+- name: '[H] 🇩🇪 德国 06'
   password: None
-  port: 9443
-  server: 87.249.132.97
+  port: 443
+  server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- name: '[I] 🇩🇪 德国 07'
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
