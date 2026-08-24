@@ -1,25 +1,7 @@
 proxies:
-- name: '[B] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- name: '[D] 🇷🇺 俄罗斯 02'
-  password: 41edb44c8e
-  port: 11592
-  server: srv-17e124.21freedom.net
-  skip-cert-verify: true
-  sni: 127.0.0.1
-  tls: false
-  type: hysteria2
 - client-fingerprint: safari
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 01'
   port: 14406
   reality-opts:
     public-key: ldAmsl3dqTCUBmlmA8CS9ZnpznP6cFWj9AxNddWnbxY
@@ -33,7 +15,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 02'
   port: 443
   server: 45.87.104.185
   servername: medicine.repaironline.biz
