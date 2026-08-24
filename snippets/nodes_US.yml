@@ -1,55 +1,17 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 06'
-  network: tcp
-  port: '443'
-  server: 165.140.216.142
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 07'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 08'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 09'
+  name: '[F] 🇺🇸 美国 18'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 19'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 11'
+- name: '[F] 🇺🇸 美国 20'
   network: tcp
   password: BxceQaOe
   port: 34039
@@ -57,22 +19,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  name: '[H] 🇺🇸 美国 13'
-  network: ws
-  password: MiTiVPN
-  port: 443
-  server: 188.42.145.180
+- alterId: 2
+  cipher: auto
+  name: '[H] 🇺🇸 美国 23'
+  port: 30829
+  server: v29.hdacd.com
   skip-cert-verify: true
-  sni: 8292hjicc9473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-  ws-opts:
-    headers:
-      Host: 8292hjicc9473-mitivpn--mitivpn------mitivpn.mitivpn-s.lifestyle
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sg@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '[I] 🇺🇸 美国 21'
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alterId: 0
+  cipher: auto
+  name: '[H] 🇺🇸 美国 26'
+  network: none
+  port: 15311
+  server: 107.173.254.27
+  tls: false
+  type: vmess
+  uuid: ad78d02b-873f-4cff-8d4a-673f53d6ce0f
+- name: '[I] 🇺🇸 美国 56'
   network: ws
   password: MiTiVPN
   port: 443
