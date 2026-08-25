@@ -4,6 +4,7 @@ proxies:
   port: 55000
   server: 94.156.250.67
   skip-cert-verify: true
+  sni: 94.156.250.67
   tls: false
   type: hysteria2
 - name: '[E] 🇬🇧 英国 02'
@@ -48,53 +49,83 @@ proxies:
   sni: hopp-netherland-new.dynuddns.net
   tls: false
   type: hysteria2
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Rj5Jm-uPO7iwO9TJV7j4zgDKBpEvUNxDQafm_8zRND4
+- cipher: aes-256-cfb
   name: '[H] 🇬🇧 英国 08'
-  network: xhttp
-  port: '443'
-  server: 188.114.97.8
-  servername: allineedradiohead.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  xhttp-opts:
-    host: allineedradiohead.dpdns.org
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇬🇧 英国 09'
-  password: amazonskr05
-  port: '443'
-  server: 13.135.252.176
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇬🇧 英国 10'
   password: amazonskr05
   port: '443'
   server: 35.178.212.194
   type: ss
   udp: true
+- name: '[H] 🇬🇧 英国 09'
+  port: 9333
+  server: 176.58.117.154
+  type: http
+- name: '[H] 🇬🇧 英国 10'
+  port: 5002
+  server: 92.48.125.152
+  type: http
 - name: '[H] 🇬🇧 英国 11'
   password: None
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 12'
-  password: None
   port: 443
-  server: 185.235.0.34
+  server: 193.36.118.210
   skip-cert-verify: true
   tls: true
   type: http
   username: null
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 12'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: '!!str fd55b698ee8c3629'
+  server: 109.169.37.126
+  servername: foodnetwork.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: acf97281-81bf-41eb-b889-c9be5dd84894
+  xudp: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 13'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
+    short-id: '!!str fd55b698ee8c3629'
+  server: 95.154.237.50
+  servername: lanacion.com.ar
+  tls: true
+  type: vless
+  udp: true
+  uuid: 9c0d8a49-4c47-4210-8f01-d251028d88d1
+  xudp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 14'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WRK4JiKTQ6ygRHh1tRfUzuSO1-v2fKfsFoy3O9pXOi8
+    short-id: '!!str 00e32d694f37c137'
+  server: 167.104.223.66
+  servername: 167.104.223.66.sslip.io
+  tls: false
+  type: vless
+  uuid: 419f25c1-bc35-412e-93fb-258efee859b5
+- name: '[I] 🇬🇧 英国 15'
+  network: ws
+  port: 8443
+  server: 91.110.174.210
+  servername: rubifen.adaspoloandco.com
+  tls: true
+  type: vless
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  ws-opts:
+    headers:
+      Host: rubifen.adaspoloandco.com
+    path: '%2FGOrbEh'
