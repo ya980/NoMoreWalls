@@ -12,10 +12,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 02'
-  password: gf1
-  port: 443
-  server: 66.94.121.46
+  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+  port: 4433
+  server: us2.xiaoliyu.cyou
   skip-cert-verify: true
+  sni: us2.xiaoliyu.cyou
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 03'
@@ -23,15 +24,14 @@ proxies:
   port: 443
   server: 66.94.121.46
   skip-cert-verify: true
-  sni: 66.94.121.46
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  password: gf1
   port: 443
-  server: 16.148.5.63
+  server: 66.94.121.46
   skip-cert-verify: true
-  sni: t.me
+  sni: 66.94.121.46
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
@@ -43,22 +43,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 06'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.149.228.246
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 07'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.149.228.246
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 08'
   password: qQe1z5kU8kN6SlKnDt9Ru3Qp
   port: 443
   server: 44.255.13.86
@@ -66,22 +50,7 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 09'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 44.255.13.86
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 10'
-  password: f317b5d6-d399-4d3d-a051-89d674ae953c
-  port: 443
-  server: msk.frkn.org
-  skip-cert-verify: true
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 11'
+- name: '[E] 🇺🇸 美国 07'
   password: f317b5d6-d399-4d3d-a051-89d674ae953c
   port: 443
   server: msk.frkn.org
@@ -89,47 +58,35 @@ proxies:
   sni: msk.frkn.org
   tls: false
   type: hysteria2
+- name: '[E] 🇺🇸 美国 08'
+  password: f317b5d6-d399-4d3d-a051-89d674ae953c
+  port: 443
+  server: msk.frkn.org
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 12'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
+  name: '[E] 🇺🇸 美国 09'
+  network: tcp
+  port: '443'
+  server: 165.140.216.142
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 13'
-  network: ws
-  port: '8443'
-  server: 172.64.80.1
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 14'
+  name: '[F] 🇺🇸 美国 10'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 15'
+  name: '[F] 🇺🇸 美国 11'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 16'
+- name: '[F] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 10418
@@ -137,74 +94,59 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 17'
-  password: c857562678594197
-  port: 20063
-  server: saj2000e.pacemakere.com
-  skip-cert-verify: true
-  tls: true
-  type: trojan
-  udp: true
-- name: '[H] 🇺🇸 美国 18'
-  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
-  port: 2056
-  server: dg2.mangshe.xyz
-  skip-cert-verify: true
-  sni: dg2.mangshe.xyz
-  type: hysteria2
-- name: '[H] 🇺🇸 美国 20'
+- name: '[H] 🇺🇸 美国 14'
+  password: None
   port: 443
-  server: voteshirleysew.club
-  sni: voteshirleysew.club
+  server: purecambogiasl.live
+  skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 21'
-  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
-  port: 4433
-  server: us2.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
-- name: '[H] 🇺🇸 美国 22'
-  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
-  port: 4433
-  server: nl1.xiaoliyu.cyou
-  skip-cert-verify: true
-  type: hysteria2
-- name: '[H] 🇺🇸 美国 23'
+  username: null
+- name: '[H] 🇺🇸 美国 15'
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 16'
   port: 443
   server: webdrone.club
   sni: webdrone.club
   tls: true
   type: http
 - client-fingerprint: chrome
+  ech-opts:
+    enable: true
+    query-server-name: cloudflare-ech.com
+  name: '[H] 🇺🇸 美国 17'
+  network: ws
+  port: 8443
+  server: 104.19.144.140
+  servername: wzknb.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 73bcd72f-9545-4cb8-8daf-7d004501880d
+  ws-opts:
+    headers:
+      Host: wzknb.pages.dev
+    path: /proxyip=179.255.104.87,179.255.116.198,179.255.101.56,142.248.218.6,142.248.218.4,45.76.79.239,179.255.152.163,208.68.180.240
+- client-fingerprint: firefox
   grpc-opts:
     grpc-service-name: edge.sync.v1
-  name: '[H] 🇺🇸 美国 24'
+  name: '[H] 🇺🇸 美国 18'
   network: grpc
   port: '443'
-  server: dec.mythos-wargame.fun
-  servername: dec.mythos-wargame.fun
+  server: 13.143.139.174
+  servername: plb.webinarly.fun
   tls: true
   type: vless
   udp: true
   uuid: 2dd48980-5c2a-4f3b-bc8f-e20a8ae24ab1
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 25'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str '
-  server: youtube.sfproxy.fuck-rkn.dev
-  servername: jobinvest.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
+  xudp: true
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 27'
+  name: '[I] 🇺🇸 美国 19'
   network: ws
   password: humanity
   port: 443
@@ -213,7 +155,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 28'
+- name: '[I] 🇺🇸 美国 20'
   network: ws
   password: humanity
   port: 443
@@ -224,7 +166,7 @@ proxies:
     path: '%2Fassignment'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 29'
+  name: '[I] 🇺🇸 美国 21'
   port: 443
   reality-opts:
     public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
@@ -234,7 +176,7 @@ proxies:
   tls: false
   type: vless
   uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
-- name: '[I] 🇺🇸 美国 30'
+- name: '[I] 🇺🇸 美国 22'
   network: ws
   password: MiTiVPN
   port: 443
@@ -245,7 +187,7 @@ proxies:
     headers:
       Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '[I] 🇺🇸 美国 31'
+- name: '[I] 🇺🇸 美国 23'
   port: 10000
   server: 180.178.60.254
   tls: false
