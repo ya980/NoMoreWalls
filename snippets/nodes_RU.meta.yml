@@ -1,27 +1,13 @@
 proxies:
-- name: '[B] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- grpc-opts:
-    grpc-service-name: zuugrpc
-  name: '[H] 🇷🇺 俄罗斯 02'
-  network: grpc
-  port: '27700'
-  server: 46.149.66.9
-  type: vless
-  udp: true
-  uuid: 9e09f1ce-45d4-466d-b077-81b0dae00db2
-  xudp: true
+- name: '[H] 🇷🇺 俄罗斯 01'
+  password: 39b27e20-16f5-45a1-8139-7c9b7f51b6f8
+  port: 4433
+  server: ru.xiaoliyu.cyou
+  skip-cert-verify: true
+  type: hysteria2
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 02'
   network: tcp
   port: 443
   reality-opts:
