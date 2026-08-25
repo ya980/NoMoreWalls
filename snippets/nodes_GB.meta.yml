@@ -1,28 +1,49 @@
 proxies:
 - name: '[E] 🇬🇧 英国 01'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.115
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
   password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
   port: 8080
   server: 103.246.248.231
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇬🇧 英国 03'
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.164
-  sni: hopp-netherland-new.dynuddns.net
-  tls: false
-  type: hysteria2
+- name: '[H] 🇬🇧 英国 02'
+  password: None
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 03'
+  port: 5002
+  server: 94.76.224.104
+  type: http
+- name: '[H] 🇬🇧 英国 04'
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 05'
+  port: 443
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: none
+  name: '[H] 🇬🇧 英国 06'
+  network: tcp
+  port: '1041'
+  server: 45.140.36.118
+  type: vless
+  udp: true
+  uuid: d8b42cd5-b149-4356-9e61-111111111111
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 04'
+  name: '[I] 🇬🇧 英国 07'
   network: tcp
   port: 443
   reality-opts:
@@ -33,7 +54,7 @@ proxies:
   tls: false
   type: vless
   uuid: 419f25c1-bc35-412e-93fb-258efee859b5
-- name: '[I] 🇬🇧 英国 05'
+- name: '[I] 🇬🇧 英国 08'
   network: ws
   port: 8443
   server: 91.110.174.210
