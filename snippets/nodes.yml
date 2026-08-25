@@ -15,7 +15,7 @@ proxies:
     path: /ws-vmess
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 51'
+  name: '[E] 🌍 其它地区 52'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -29,7 +29,7 @@ proxies:
     path: /vmess/
 - alterId: 0
   cipher: auto
-  name: '[E] 🌍 其它地区 52'
+  name: '[E] 🌍 其它地区 53'
   network: ws
   port: '80'
   server: 61.245.11.60
@@ -56,7 +56,7 @@ proxies:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - cipher: aes-256-cfb
-  name: '[F] 🌍 其它地区 53'
+  name: '[F] 🌍 其它地区 54'
   password: amazonskr05
   port: 443
   server: 63.180.254.10
@@ -85,24 +85,24 @@ proxies:
 - name: '[F] 🇭🇰 香港 10'
   network: tcp
   password: BxceQaOe
-  port: 4117
-  server: 18.183.103.86
+  port: 2944
+  server: 18.181.83.46
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[F] 🇭🇰 香港 11'
   network: tcp
   password: BxceQaOe
-  port: 2944
-  server: 18.166.63.119
+  port: 1103
+  server: 43.206.117.36
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: '[F] 🇯🇵 日本 01'
   network: tcp
   password: BxceQaOe
-  port: 3878
-  server: 13.214.209.40
+  port: 16691
+  server: 95.40.27.43
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -112,6 +112,7 @@ proxies:
   port: 40001
   server: 103.236.66.4
   type: ss
+  udp: true
 - cipher: aes-256-gcm
   name: '[F] 🇯🇵 日本 03'
   password: Butterfly123@qwe9527
@@ -121,8 +122,8 @@ proxies:
 - name: '[F] 🇸🇬 新加坡 14'
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 18.183.103.86
+  port: 32434
+  server: 95.40.27.43
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
@@ -141,8 +142,8 @@ proxies:
 - name: '[F] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
-  port: 34039
-  server: 54.179.227.94
+  port: 10418
+  server: 18.163.118.157
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -166,201 +167,76 @@ proxies:
   name: '[H] 🇨🇦 加拿大 03'
   password: amazonskr05
   port: 443
-  server: 99.79.128.42
+  server: 35.183.121.177
   type: ss
-- name: '[H] 🌍 其它地区 55'
-  network: tcp
-  password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: '20056'
-  server: kkvlvvq-a.catcat321.com
-  skip-cert-verify: true
-  sni: hk.catxstar.com
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇺🇸 美国 17'
-  network: none
-  port: 15311
-  server: 107.173.254.27
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: ad78d02b-873f-4cff-8d4a-673f53d6ce0f
-  xudp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇨🇦 加拿大 04'
+  password: amazonskr05
+  port: 443
+  server: 3.96.165.186
+  type: ss
 - cipher: aes-256-cfb
   name: '[H] 🇬🇧 英国 08'
   password: amazonskr05
-  port: '443'
-  server: 35.178.212.194
+  port: 443
+  server: 35.177.76.120
   type: ss
   udp: true
-- name: '[H] 🇫🇷 法国 14'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.174.117
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /assignment
-- name: '[H] 🇫🇷 法国 15'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 188.114.97.7
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1; HUAWEI CUN-L22 Build/HUAWEICUN-L22;
-        wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84
-        Mobile Safari/537.36
-    path: /assignment
 - cipher: aes-256-cfb
   name: '[H] 🇰🇷 韩国 02'
-  password: 1234!@#$
-  port: '1774'
-  server: 49.254.204.133
+  password: 7eadc6dbe2ae
+  port: 65443
+  server: 121.46.230.138
+  type: ss
+- name: '[H] 🌍 其它地区 56'
+  network: tcp
+  password: a126f35c-e832-4115-8593-b723ade3f7be
+  port: 20085
+  server: kkvlvvq-a.catcat321.com
+  skip-cert-verify: true
+  sni: hk.catxstar.com
+  type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇬🇧 英国 10'
+  password: amazonskr05
+  port: 443
+  server: 18.175.227.220
+  skip-cert-verify: true
   type: ss
   udp: true
-- name: '[H] 🇫🇷 法国 16'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.143
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/534.30 (KHTML, like Gecko)
-        Chrome/12.0.742.100 Safari/534.30
-    path: /assignment
-- name: '[H] 🇫🇷 法国 17'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 198.41.223.96
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 18'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
-        Chrome/v1.0.0 Safari/538.1
-    path: /assignment
-- name: '[H] 🇫🇷 法国 19'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.144
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.63 Safari/537.36
-    path: /assignment
-- alpn:
-  - h2
-  - http/1.1
-  name: '[H] 🇫🇷 法国 20'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 162.159.136.234
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /assignment
-- name: '[H] 🌍 其它地区 59'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 172.67.74.2
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/59.0.3071.115 Safari/537.36
-    path: /assignment
 - name: '[H] 🌍 其它地区 65'
   network: tcp
   password: a126f35c-e832-4115-8593-b723ade3f7be
-  port: '20085'
-  server: kkvlvvq-a.catcat321.com
+  port: '20066'
+  server: hkdcrtc-e.catcat321.com
   skip-cert-verify: true
   sni: hk.catxstar.com
   type: trojan
   udp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 19'
+  name: '[H] 🇺🇸 美国 20'
   network: ws
   port: 443
-  server: www.361371.xyz
-  servername: www.361371.xyz
+  server: us-23.hihu.net
+  servername: us-23.hihu.net
   skip-cert-verify: true
   tls: true
   type: vmess
   udp: true
-  uuid: da77c564-3815-468c-8867-0aea0b397027
+  uuid: e9674560-9d1a-11f1-b333-205c6d5f5d78
   ws-opts:
     headers:
-      Host: www.361371.xyz
-    path: /ws-6rm27y
-- alterId: 0
-  cipher: auto
-  name: '[H] 🌍 其它地区 76'
-  network: none
-  port: 37515
-  server: 119.46.51.45
-  tls: false
-  type: vmess
-  uuid: 9b76bc31-17a5-4454-934a-8d5fb602cd70
+      Host: chatbuzzteam.ir
+    path: /ayve3q7z
 - cipher: aes-256-cfb
-  name: '[H] 🇨🇦 加拿大 05'
+  name: '[H] 🇨🇦 加拿大 06'
   password: amazonskr05
-  port: '443'
-  server: 3.96.165.186
+  port: 443
+  server: 99.79.128.42
   type: ss
-  udp: true
-- name: '[I] 🇨🇦 加拿大 06'
+- name: '[I] 🇨🇦 加拿大 07'
   network: ws
   password: humanity
   port: 443
@@ -370,7 +246,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 07'
+- name: '[I] 🇨🇦 加拿大 08'
   network: ws
   password: humanity
   port: 443
@@ -382,7 +258,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 08'
+- name: '[I] 🇨🇦 加拿大 09'
   network: ws
   password: humanity
   port: 443
@@ -393,7 +269,7 @@ proxies:
     path: '%2Fassignment'
 - alpn:
   - http/1.1
-  name: '[I] 🇺🇸 美国 41'
+  name: '[I] 🇺🇸 美国 31'
   network: ws
   password: humanity
   port: 443
@@ -402,7 +278,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 09'
+- name: '[I] 🇨🇦 加拿大 10'
   network: ws
   password: humanity
   port: 443
@@ -411,7 +287,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 10'
+- name: '[I] 🇨🇦 加拿大 11'
   network: ws
   password: humanity
   port: 443
@@ -421,7 +297,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 11'
+- name: '[I] 🇨🇦 加拿大 12'
   network: ws
   password: humanity
   port: 443
@@ -430,7 +306,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 12'
+- name: '[I] 🇨🇦 加拿大 13'
   network: ws
   password: humanity
   port: 443
@@ -442,7 +318,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 42'
+- name: '[I] 🇺🇸 美国 32'
   network: ws
   password: humanity
   port: 443
@@ -451,7 +327,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 13'
+- name: '[I] 🇨🇦 加拿大 14'
   network: ws
   password: humanity
   port: 443
@@ -461,7 +337,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 14'
+- name: '[I] 🇨🇦 加拿大 15'
   network: ws
   password: humanity
   port: 443
@@ -476,7 +352,7 @@ proxies:
   port: 10006
   server: 36.33.35.105
   type: ss
-- name: '[I] 🇨🇦 加拿大 15'
+- name: '[I] 🇨🇦 加拿大 16'
   network: ws
   password: humanity
   port: 443
@@ -485,7 +361,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇨🇦 加拿大 16'
+- name: '[I] 🇨🇦 加拿大 17'
   network: ws
   password: humanity
   port: 443
@@ -494,7 +370,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇩🇪 德国 09'
+- name: '[I] 🇩🇪 德国 14'
   network: ws
   password: humanity
   port: 443
@@ -505,7 +381,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 44'
+- name: '[I] 🇺🇸 美国 34'
   network: ws
   password: MiTiVPN
   port: 443
@@ -516,7 +392,7 @@ proxies:
     headers:
       Host: 4x-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-- name: '[I] 🇨🇦 加拿大 17'
+- name: '[I] 🇨🇦 加拿大 18'
   network: ws
   password: humanity
   port: 443

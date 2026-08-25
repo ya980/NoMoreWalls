@@ -52,46 +52,43 @@ proxies:
 - cipher: aes-256-cfb
   name: '[H] 🇬🇧 英国 08'
   password: amazonskr05
-  port: '443'
-  server: 35.178.212.194
+  port: 443
+  server: 35.177.76.120
   type: ss
   udp: true
-- name: '[H] 🇬🇧 英国 09'
-  port: 9333
-  server: 176.58.117.154
-  type: http
-- name: '[H] 🇬🇧 英国 10'
-  port: 5002
-  server: 92.48.125.152
-  type: http
-- name: '[H] 🇬🇧 英国 11'
-  password: None
+- client-fingerprint: firefox
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: grpc-tunnel
+  name: '[H] 🇬🇧 英国 09'
+  network: grpc
   port: 443
-  server: 193.36.118.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 12'
-  network: raw
-  port: '443'
   reality-opts:
-    public-key: SiSky02wHz-S0TDHKFTdYhnrlT8Y3CfRsekZlcdLXDY
-    short-id: '!!str fd55b698ee8c3629'
-  server: 109.169.37.126
-  servername: foodnetwork.com
+    public-key: eNvO4-6_VFngHHC6D5AhcCpCpOdi5gY7-Srimhh-6Xw
+  server: 104.171.128.225
+  servername: dl.google.com
   tls: true
   type: vless
   udp: true
-  uuid: acf97281-81bf-41eb-b889-c9be5dd84894
-  xudp: true
-- client-fingerprint: ios
+  uuid: 80d02a71-54a5-4c5b-976d-5ee573c502af
+- cipher: aes-256-cfb
+  name: '[H] 🇬🇧 英国 10'
+  password: amazonskr05
+  port: 443
+  server: 18.175.227.220
+  skip-cert-verify: true
+  type: ss
+  udp: true
+- name: '[H] 🇬🇧 英国 11'
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: safari
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 13'
+  name: '[H] 🇬🇧 英国 12'
   network: tcp
   port: '443'
   reality-opts:
@@ -102,11 +99,11 @@ proxies:
   tls: true
   type: vless
   udp: true
-  uuid: 9c0d8a49-4c47-4210-8f01-d251028d88d1
+  uuid: 7e13b8d7-ca30-4441-9b43-65ebf3de6c37
   xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇬🇧 英国 14'
+  name: '[I] 🇬🇧 英国 13'
   network: tcp
   port: 443
   reality-opts:
@@ -117,7 +114,7 @@ proxies:
   tls: false
   type: vless
   uuid: 419f25c1-bc35-412e-93fb-258efee859b5
-- name: '[I] 🇬🇧 英国 15'
+- name: '[I] 🇬🇧 英国 14'
   network: ws
   port: 8443
   server: 91.110.174.210
