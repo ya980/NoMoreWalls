@@ -1,9 +1,11 @@
 proxies:
-- name: '[E] 🇭🇰 香港 01'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.89
-  skip-cert-verify: true
+- alpn:
+  - h3
+  name: '[E] 🇭🇰 香港 01'
+  password: 771d283f-868e-4ac4-8a88-074af8b0a9c9
+  port: 1453
+  server: zisvpn.ru
+  sni: zisvpn.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇭🇰 香港 02'
@@ -14,67 +16,23 @@ proxies:
   sni: 202.146.222.89
   tls: false
   type: hysteria2
-- name: '[E] 🇭🇰 香港 03'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.89
-  skip-cert-verify: true
-  sni: https%25253a%25252f%25252ft.me%25252fclashv8%2525f0%25259f%252587%2525a8%2525f0%25259f%252587%2525b3
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 03'
+  network: ws
+  port: '16632'
+  server: t.cnmjcn.cyou
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '[E] 🇭🇰 香港 04'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 202.146.222.89
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 05'
-  network: ws
-  port: '443'
-  server: n1747624274.4u9ma.icu
-  servername: ''
-  tls: true
   type: vmess
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
+  uuid: 62319519-82bc-46ff-99cd-237bd0882cef
   ws-opts:
     headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 06'
-  network: ws
-  port: '443'
-  server: ce0gedpxwou6cqon.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: cE0gedPXwOU6cqoN.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 07'
-  network: ws
-  port: '443'
-  server: n1747624274.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d8daf507-a4ac-4eea-8399-8f0cd071eb52
-  ws-opts:
-    headers:
-      Host: n1747624274.4u9ma.icu
+      Host: 1b24b66c02c843942070b76b27406898.mobgslb.tbcache.com
     path: /
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 08'
+  name: '[F] 🇭🇰 香港 04'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -82,18 +40,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 05'
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 10'
+  name: '[F] 🇭🇰 香港 06'
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: '[F] 🇭🇰 香港 11'
+- name: '[F] 🇭🇰 香港 07'
   network: tcp
   password: BxceQaOe
   port: 1103
@@ -101,7 +59,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 12'
+- name: '[F] 🇭🇰 香港 08'
   network: tcp
   password: BxceQaOe
   port: 4117
@@ -111,7 +69,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 13'
+  name: '[G] 🇭🇰 香港 09'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
