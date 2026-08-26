@@ -42,20 +42,6 @@ proxies:
   name: '[H] 🇩🇪 德国 05'
   network: ws
   port: 8443
-  server: 35.157.30.232
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 06'
-  network: ws
-  port: 8443
   server: 159.100.19.144
   servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
   tls: true
@@ -67,10 +53,10 @@ proxies:
       Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
 - client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 07'
+  name: '[H] 🇩🇪 德国 06'
   network: ws
   port: 443
-  server: 79.137.248.25
+  server: 77.110.121.157
   servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -82,52 +68,24 @@ proxies:
     path: /pg/10086-dfc816f117c49173
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇩🇪 德国 08'
-  network: ws
-  port: '8443'
-  server: 104.16.73.211
-  servername: ftp.xvpn.cam
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 07'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: bridge.sfproxy.fuck-rkn.dev
+  servername: de.jobinvest.ru
   tls: true
   type: vless
   udp: true
-  uuid: 521af955-2655-4fb0-90e0-2435a7cfc5fc
-  ws-opts:
-    headers:
-      Host: ftp.xvpn.cam
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.87 Safari/537.36
-    path: /
+  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 09'
-  network: ws
-  port: '2083'
-  server: 172.67.189.28
-  servername: ftp.xvpn.cam
-  tls: true
-  type: vless
-  udp: true
-  uuid: 521af955-2655-4fb0-90e0-2435a7cfc5fc
-  ws-opts:
-    headers:
-      Host: ftp.xvpn.cam
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /
-  xudp: true
-- name: '[H] 🇩🇪 德国 10'
-  password: None
-  port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 11'
+  name: '[H] 🇩🇪 德国 08'
   network: raw
   port: 443
   reality-opts:
@@ -140,16 +98,38 @@ proxies:
   udp: true
   uuid: 423b1d79-08c4-0003-9d5e-c541f791b55f
   xudp: true
-- name: '[H] 🇩🇪 德国 12'
+- name: '[H] 🇩🇪 德国 09'
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 10'
   port: 443
   server: 130.61.112.125
   type: http
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 11'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+  server: 185.24.151.243
+  servername: de.jobinvest.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
 - alpn:
   - h2
   client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 13'
+  name: '[H] 🇩🇪 德国 12'
   network: ws
-  password: epc3ufz9q4ocqeqh
+  password: ji8t9aiyrj1t82sc
   port: '2087'
   server: uwu.blueknightnet.qzz.io
   skip-cert-verify: false
@@ -158,33 +138,39 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/69.0.3497.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
 - client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
+  name: '[H] 🇩🇪 德国 13'
+  network: grpc
+  port: '9871'
+  reality-opts:
+    public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0
+    short-id: '!!str aabbccdd'
+  server: 176.108.252.153
+  servername: dl.google.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 064a967e-0862-4cea-bdbd-9458cb7b6070
+  xudp: true
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇩🇪 德国 14'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: 8ZYjmjb0b2QJKCGMrcdhQNV28jZZPCKgIQbIdqChQ0w
-    short-id: '!!str 00a61d55a07de885'
-  server: de.convert-flow.net
-  servername: de.convert-flow.net
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 46.20.105.34
+  servername: de.jobinvest.ru
   tls: true
   type: vless
   udp: true
-  uuid: defd7be5-3090-4f97-9d46-823087b2345d
+  uuid: 8ff82100-8aad-4281-bf41-f318519d7182
   xudp: true
-- name: '[I] 🇩🇪 德国 15'
-  network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
