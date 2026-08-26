@@ -74,7 +74,7 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 09'
@@ -82,7 +82,7 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: www.bing.com
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 10'
@@ -90,7 +90,7 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: vk.com
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 11'
@@ -98,7 +98,7 @@ proxies:
   port: 60111
   server: 62.210.7.139
   skip-cert-verify: true
-  sni: bing.com
+  sni: vk.com
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 12'
@@ -111,16 +111,31 @@ proxies:
 - name: '[E] 🇫🇷 法国 13'
   password: Krab9Hyst2_Rk7pQ2xL
   port: 36723
+  server: 95.164.123.231
+  skip-cert-verify: true
+  sni: 95.164.123.231
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 14'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
   server: de2.vpn.legendaah.xyz
   skip-cert-verify: true
-  sni: de2.vpn.legendaah.xyz
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇫🇷 法国 15'
+  password: Krab9Hyst2_Rk7pQ2xL
+  port: 36723
+  server: de2.vpn.legendaah.xyz
+  skip-cert-verify: true
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 14'
+  name: '[H] 🇫🇷 法国 16'
   network: ws
-  port: 8443
-  server: 217.60.39.39
+  port: 2053
+  server: 31.57.108.170
   servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
   tls: true
   type: vless
@@ -131,55 +146,11 @@ proxies:
       Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
     path: /pg/10086-dfc816f117c49173
 - client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 15'
-  network: ws
-  port: 443
-  server: 46.8.225.124
-  servername: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: j.n.i.l.6.m.7.3.o.t.e.s.j.3.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 16'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.19.229.21
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
   name: '[H] 🇫🇷 法国 17'
   network: ws
   password: humanity
   port: '443'
-  server: 104.18.152.152
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/58.0.3029.110 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 18'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.175
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -187,14 +158,14 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+        like Gecko) Chrome/47.0.2526.106 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 19'
+  name: '[H] 🇫🇷 法国 18'
   network: ws
   password: humanity
   port: '443'
-  server: 104.18.152.229
+  server: 104.18.152.246
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -205,7 +176,86 @@ proxies:
         (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 19'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.12
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/50.0.2661.102 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
   name: '[H] 🇫🇷 法国 20'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.113
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 21'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 22'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.21.46.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 23'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.97
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 24'
   network: ws
   password: humanity
   port: '443'
@@ -216,24 +266,57 @@ proxies:
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /assignment
-- name: '[H] 🇫🇷 法国 21'
-  port: 49153
-  server: 37.187.57.177
-  type: socks5
-- client-fingerprint: firefox
-  name: '[H] 🇫🇷 法国 22'
-  network: tcp
-  port: '17780'
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: '!!str a0fbc54d937aaccb'
-  server: 172.239.26.195
-  servername: amp-api-edge.apps.apple.com
+- client-fingerprint: chrome
+  name: '[H] 🇫🇷 法国 25'
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.74.2
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment
+- name: '[H] 🇫🇷 法国 26'
+  port: 443
+  server: 103.82.101.44
+  skip-cert-verify: true
+  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+  tls: true
+  type: http
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: edge
+  encryption: none
+  name: '[H] 🇫🇷 法国 27'
+  network: xhttp
+  port: '443'
+  server: 37.9.4.128
+  servername: api1.madapp.cc
   tls: true
   type: vless
   udp: true
-  uuid: a06119a7-4f1a-4592-86d9-e050a332b2b3
+  uuid: c7374ad3-9235-464e-9169-27353eb367f8
+  xhttp-opts:
+    host: api1.madapp.cc
+    mode: packet-up
+    path: /api/v2/
+    reuse-settings:
+      c-max-reuse-times: '0'
+      h-keep-alive-period: 0
+      h-max-request-times: 600-900
+      h-max-reusable-secs: 1800-3000
+      max-concurrency: 8-16
+      max-connections: '0'
+    session-length: '0'
+    x-padding-bytes: 100-1000
+    x-padding-obfs-mode: false
   xudp: true
