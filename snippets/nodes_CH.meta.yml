@@ -1,10 +1,10 @@
 proxies:
 - name: '[E] CH 01'
-  password: gf1:gfhysteria2024
+  password: 8645697d-51c1-4e90-aca5-ba63a0392f11
   port: 443
-  server: 185.156.44.99
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
+  server: cze-01.node.lumixnet.com
+  skip-cert-verify: false
+  sni: cze-01.node.lumixnet.com
   tls: false
   type: hysteria2
 - name: '[E] CH 02'
@@ -12,7 +12,7 @@ proxies:
   port: 443
   server: 185.156.44.99
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] CH 03'
@@ -20,27 +20,22 @@ proxies:
   port: 443
   server: 185.156.44.99
   skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 04'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: '[H] CH 04'
-  network: ws
-  port: 443
-  server: 199.68.196.119
-  servername: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6
-  ws-opts:
-    headers:
-      Host: 8.o.8.e.t.g.7.w.8.n.e.1.l.e.us.art-us.kdns.fr
-    path: /pg/10086-dfc816f117c49173
 - name: '[H] CH 05'
-  password: 1Telegram_MojiVPN
-  port: '1080'
-  server: ch-zur.pvdata.host
+  password: None
+  port: 443
+  server: 31.7.62.50
   skip-cert-verify: true
-  type: socks5
-  username: N9cyF6jvgy3ZEmCNKe04zBIR
+  tls: true
+  type: http
+  username: null

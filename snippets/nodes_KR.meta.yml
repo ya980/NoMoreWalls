@@ -1,23 +1,19 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '[H] 🇰🇷 韩国 01'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.138
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇰🇷 韩国 02'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: pR7MPTAA4cZsW9AO-twMzuogiWGMKPiheTg70fcWWWs
-    short-id: '!!str 0a427bc3'
-  server: 119.28.161.143
-  servername: apple.com
-  tls: true
+- name: '[B] 🇰🇷 韩国 01'
+  network: ws
+  port: 8880
+  server: 108.162.196.30
   type: vless
-  udp: true
-  uuid: 1ebb0858-218a-4dee-8746-36a67bc64462
-  xudp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime59.workers.dev
+- name: '[B] 🇰🇷 韩国 02'
+  network: ws
+  port: 8880
+  server: 72.167.230.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
