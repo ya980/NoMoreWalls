@@ -23,78 +23,71 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- auth: cd74c0a406664a5bc0bac098220a2468
-  name: '[H] 🇩🇪 德国 03'
-  obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
+- name: '[E] 🇩🇪 德国 03'
+  password: c37c8e64-b613-49b8-b65d-f416e5b4c1b6
   port: 443
-  server: de1.sferavpn.pro
-  skip-cert-verify: true
-  sni: de1.sferavpn.pro
+  server: 177.3.214.166
+  sni: fin1.apexvpn.space
+  tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 04'
+- name: '[E] 🇩🇪 德国 04'
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 8443
+  server: swe.frkn.org
+  sni: swe.frkn.org
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 05'
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 8443
+  server: swe.frkn.org
+  skip-cert-verify: false
+  tls: false
+  type: hysteria2
+- name: '[H] 🇩🇪 德国 06'
   port: 443
   server: 130.61.112.125
   type: http
+- name: '[H] 🇩🇪 德国 07'
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 08'
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 09'
+  password: None
+  port: 443
+  server: 141.17.83.78
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - alpn:
   - h2
   - http/1.1
   - h3
-  client-fingerprint: chrome
-  encryption: none
-  fingerprint: 1aeacc25d232c936f0199a487fc17da95ba59fb6c06656846214cec835d3ac23
-  name: '[H] 🇩🇪 德国 05'
-  network: xhttp
-  port: '2087'
-  server: s4.zynetraq.ir
-  servername: s4.zynetraq.ir
+  client-fingerprint: qq
+  name: '[H] 🇩🇪 德国 10'
+  network: ws
+  port: '443'
+  server: panel.homelanderwins.com
+  servername: panel.homelanderwins.com
   tls: true
   type: vless
   udp: true
-  uuid: 76680848-41e6-4700-0962-85930e685ebe
-  xhttp-opts:
-    host: s4.zynetraq.ir
-    mode: auto
-    path: /BetForward
-    x-padding-bytes: 100-1000
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  name: '[I] 🇩🇪 德国 06'
-  network: ws
-  port: 443
-  server: 67.159.43.203
-  servername: cli-q.bosx.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9d8a55de-70df-44a9-973e-4ffa02d05f32
-  ws-opts:
-    path: /api/connect
-- name: '[I] 🇩🇪 德国 07'
-  network: tcp
-  port: 35656
-  server: 45.77.65.13
-  tls: false
-  type: vless
-  uuid: 84655916-5e00-4d90-9512-672716b2cda6
-- name: '[I] 🇩🇪 德国 08'
-  network: tcp
-  port: 52
-  server: 93.123.85.218
-  tls: false
-  type: vless
-  uuid: 9972a440-39a6-4672-8883-5dd188863acf
-- name: '[I] 🇩🇪 德国 09'
-  network: ws
-  port: 80
-  server: 146.75.119.82
-  tls: false
-  type: vless
-  uuid: 4e6c69e4-9c17-410a-9590-58faf1c108ad
+  uuid: f81362b3-ba06-467e-8d3e-821bdf4ffd8d
   ws-opts:
     headers:
-      Host: rb24.ir
-    path: ws/?ed=2048/@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr@vpnserverrr/?2048
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /
+  xudp: true
