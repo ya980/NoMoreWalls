@@ -30,36 +30,38 @@ proxies:
   port: 50160
   server: 163.192.14.135
   skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 04'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 05'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 04'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 05'
+  name: '[F] 🇺🇸 美国 06'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 06'
+  name: '[F] 🇺🇸 美国 07'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 07'
+- name: '[F] 🇺🇸 美国 08'
   network: tcp
   password: BxceQaOe
   port: 1431
@@ -67,11 +69,25 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 09'
+  network: tcp
+  port: 10974
+  reality-opts:
+    public-key: rQHsnXffkul9uYK50Efqzu-KBZ6ZwKNZts86r8u3iEw
+    short-id: '!!str a727f329ba2a22'
+  server: 45.33.107.60
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: da249715-4a6f-4873-ac3d-260f2b6e0065
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: movie
-  name: '[H] 🇺🇸 美国 08'
+  name: '[H] 🇺🇸 美国 10'
   network: grpc
   port: 10242
   reality-opts:
@@ -83,57 +99,331 @@ proxies:
   type: vless
   udp: true
   uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-- name: '[H] 🇺🇸 美国 09'
-  port: 2013
-  server: 20.191.96.204
-  type: http
-- auth: 45f770f0-4d77-458d-8f94-d8d7e15d3ef1
-  name: '[H] 🇺🇸 美国 10'
-  password: 45f770f0-4d77-458d-8f94-d8d7e15d3ef1
-  port: 35193
-  server: 40t1.wxgqlfx.vip
-  skip-cert-verify: true
-  sni: 40t1.wxgqlfx.vip
-  type: hysteria2
-  udp: true
 - client-fingerprint: firefox
-  encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇺🇸 美国 11'
   network: tcp
-  port: '56605'
+  port: 11256
   reality-opts:
-    public-key: biUeuKkKsKuFwWF7jvdnkir1Ue1wuS1o_7VdpgEpJnE
-    short-id: '!!str 230aab0877ead4af'
-  server: 45.33.62.226
+    public-key: TgKDlrMB3_LCRs_WBX4OMnt87rPc4XVqaPhEAtoXhDc
+    short-id: '!!str 352a7bbcc1ceeb'
+  server: 192.81.131.225
   servername: www.tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: dcb70db5-d6b2-4062-98d7-f81ea3af39d1
-  xudp: true
+  uuid: 4817e138-8370-4fdd-aa59-36a6ec0247e2
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 12'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.232
+  type: ss
+  udp: true
 - alpn:
   - h2
-  client-fingerprint: firefox
-  name: '[I] 🇺🇸 美国 12'
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 13'
   network: ws
-  port: 443
-  server: a2.arshia-nova.ir
-  servername: ssl.fastly.com
-  skip-cert-verify: false
+  port: '443'
+  server: inetchnl-production-f987.up.railway.app
+  servername: inetchnl-production-f987.up.railway.app
   tls: true
   type: vless
-  uuid: db5dc039-a37e-4c23-b7a9-bdf6c729f7f3
+  udp: true
+  uuid: b87df517-d7c4-d51b-3dd4-a1c663c55eec
   ws-opts:
     headers:
-      Host: c12.com
-    path: /
-- name: '[I] 🇺🇸 美国 13'
+      Host: inetchnl-production-f987.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /ws/b87df517-d7c4-d51b-3dd4-a1c663c55eec
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 14'
+  network: tcp
+  port: '23776'
+  reality-opts:
+    public-key: rDDl9UktPqt5eBQtF_0npmVNjatgwmUc5QLcaI9LVjE
+    short-id: '!!str 5fa3f40a7cf1b9'
+  server: 173.255.242.235
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5086262e-8381-483d-bc2e-d6867439928e
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 15'
+  network: tcp
+  port: '27278'
+  reality-opts:
+    public-key: Mmuxa6Y9h2thCEMFlQQi26umkKnsirNXQ5btCCyl3EU
+    short-id: '!!str 994469a256d8'
+  server: 216.167.27.101
+  servername: www.nvidia.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 98a28376-ce73-48be-a6f4-abfa74377b65
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 16'
+  network: tcp
+  port: '27694'
+  reality-opts:
+    public-key: H3Dwj3Qq5ixvkqa_DoXGnwawad76HCTNh4mHMIU_01M
+    short-id: '!!str d857077ac225'
+  server: 216.167.27.162
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2de6ff95-84ca-45c9-99f6-9dbe3427cc69
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 17'
+  network: tcp
+  port: '29513'
+  reality-opts:
+    public-key: B6t3rGQObWmOZnhzMwbzbW2cS0xdIgjhpfEWtvhmiSY
+    short-id: '!!str eb92ec5ea76bbad2'
+  server: 172.233.156.118
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 462d3997-8745-4f4a-ac9a-07349a211cf0
+  xudp: true
+- name: '[H] 🇺🇸 美国 18'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 19'
+  password: ''
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 20'
+  port: 9002
+  server: 138.199.35.202
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 21'
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 22'
+  password: None
+  port: 9002
+  server: 138.199.35.212
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 23'
+  password: None
+  port: 9002
+  server: 138.199.35.200
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 24'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🇺🇸 美国 25'
+  port: 9002
+  server: 138.199.35.213
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 26'
+  password: None
+  port: 9002
+  server: 138.199.35.217
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 27'
+  password: None
+  port: 9002
+  server: 138.199.35.206
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 28'
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 29'
+  password: None
+  port: 443
+  server: mmgr.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 30'
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 31'
+  password: None
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 32'
+  port: 3210
+  server: 192.198.84.6
+  type: http
+- name: '[H] 🇺🇸 美国 33'
+  port: 10801
+  server: 152.53.53.54
+  type: socks5
+- name: '[H] 🇺🇸 美国 34'
+  password: ''
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: ''
+- name: '[H] 🇺🇸 美国 35'
+  password: None
+  port: 16062
+  server: 104.218.199.249
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 36'
+  port: 16062
+  server: 104.218.199.8
+  type: http
+- name: '[H] 🇺🇸 美国 37'
+  password: None
+  port: 16062
+  server: 104.218.199.199
+  type: http
+  username: null
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 38'
+  network: tcp
+  port: '39706'
+  reality-opts:
+    public-key: SmWcFiJqTzD74CIIwbK4uckT9u7rpxy_wQ24TlJMphY
+    short-id: '!!str 586d60b12e89'
+  server: 173.255.242.56
+  servername: www.amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab91459-f905-4164-adda-c4ec45578542
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: firefox
+  encryption: none
+  name: '[H] 🇺🇸 美国 39'
+  network: ws
+  port: '443'
+  server: 72.56.40.152
+  servername: usa.korgivps.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 3f054fce-df15-4f7c-8616-56a8b17e84b4
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/56.0.2924.87 Safari/537.36
+    path: /api/user
+  xudp: true
+- name: '[H] 🇺🇸 美国 40'
+  password: None
+  port: '9002'
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[I] 🇺🇸 美国 41'
   network: ws
   password: humanity
   port: 443
-  server: 130.250.137.171
+  server: 216.24.57.7
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇺🇸 美国 42'
+  port: 443
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: '!!str 4a46213c935e2ee4'
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇺🇸 美国 43'
+  network: tcp
+  port: 10092
+  reality-opts:
+    public-key: EUpz9wKWgGn74jxYUKDbk87UwDGEYeCiaZg13m36ki0
+    short-id: '!!str e482c0320674c651'
+  server: 192.155.87.188
+  servername: www.amd.com
+  tls: false
+  type: vless
+  uuid: a0b4d03b-b561-46aa-96f6-d03fa222a65e
