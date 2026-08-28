@@ -11,15 +11,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
-  password: 9c5be37406b6584005b8de0ee3734dd9
-  port: 50160
-  server: 140.238.43.0
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   password: BxceQaOe
   port: 9408
   server: 18.163.11126
@@ -27,18 +19,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 03'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 04'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[G] 🇯🇵 日本 06'
+- name: '[G] 🇯🇵 日本 05'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -46,11 +38,69 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: '[I] 🇯🇵 日本 07'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '[H] 🇯🇵 日本 06'
+  network: grpc
+  port: 10032
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: jp2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- name: '[H] 🇯🇵 日本 07'
   network: ws
-  password: humanity
-  port: 443
-  server: www.ignitelimit.com
-  type: trojan
+  port: '8880'
+  server: 108.162.198.178
+  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+  type: vless
+  udp: true
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /?ed=2560security=tls
+  xudp: true
+- name: '[H] 🇯🇵 日本 08'
+  password: HOrViv
+  port: 28102
+  server: 209.248.32.117
+  skip-cert-verify: true
+  sni: ctldl.windowsupdate.com
+  type: trojan
+- client-fingerprint: chrome
+  name: '[H] 🇯🇵 日本 09'
+  network: ws
+  port: '443'
+  server: 172.64.229.189
+  servername: grc.ccwu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: a30a3f37-1ab2-46bd-8c6b-a26d7c775f2a
+  ws-opts:
+    headers:
+      Host: grc.ccwu.cc
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /?ed=2560
+  xudp: true
+- name: '[I] 🇯🇵 日本 10'
+  network: ws
+  port: 80
+  server: 18.239.134.69
+  tls: false
+  type: vless
+  uuid: de27291c-15a9-4256-9ba7-ad517569877e
+  ws-opts:
+    headers:
+      Host: d2e1v87ko56lyw.cloudfront.net:assets.opensignal.com
+    path: /

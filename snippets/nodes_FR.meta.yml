@@ -1,5 +1,21 @@
 proxies:
 - name: '[D] 🇫🇷 法国 01'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 35.181.166.40
+  skip-cert-verify: true
+  sni: vpn-fr-002.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 02'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 51.44.162.6
+  skip-cert-verify: true
+  sni: vpn-fr-001.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[D] 🇫🇷 法国 03'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -11,7 +27,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇫🇷 法国 02'
+  name: '[D] 🇫🇷 法国 04'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
   password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
@@ -21,59 +37,10 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 03'
-  password: ap48bBDVw29hjZBzPIX-_hJtAXT8i6nK
-  port: 43327
-  server: gate-vde.multihost.127-0-0-1.online
-  sni: gate-v1.not-a-projects.xyz
+- name: '[E] 🇫🇷 法国 05'
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  port: 8443
+  server: 85.204.107.178
+  sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: c37c8e64-b613-49b8-b65d-f416e5b4c1b6
-  port: 443
-  server: 2.27.43.161
-  sni: de1.apexvpn.space
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  name: '[H] 🇫🇷 法国 05'
-  network: ws
-  password: humanity
-  port: '443'
-  server: join-telegram-channel-tirexnet.trex.kdns.fr
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /assignment
-- name: '[H] 🇫🇷 法国 06'
-  port: 8911
-  server: 51.255.87.166
-  type: http
-- name: '[H] 🇫🇷 法国 07'
-  port: 3155
-  server: 146.59.111.19
-  type: http
-- name: '[H] 🇫🇷 法国 08'
-  port: 1082
-  server: 109.172.55.177
-  type: socks5
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: '[H] 🇫🇷 法国 09'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: gPTBA-gVUWAK9yziB_v_sGSncm0LwBQvEAsTQZK4jEE
-    short-id: '!!str 5a8e1a04f3d92b67'
-  server: 2.26.129.246
-  servername: ukrop.mycdn-me.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4f9b1ec3-b3d7-4dcc-8035-d813ab89785f
-  xudp: true
