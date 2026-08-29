@@ -16,14 +16,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] CH 03'
-  password: gf1:gfhysteria2024
-  port: 443
-  server: 185.156.44.99
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[E] CH 04'
   password: 84a506ca5aca505696a454d828420b3f
   port: 50160
   server: 140.238.213.114
@@ -31,11 +23,19 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '[H] CH 04'
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
   name: '[H] CH 05'
-  network: tcp
+  network: raw
   port: '443'
   reality-opts:
     public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
