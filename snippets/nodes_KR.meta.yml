@@ -1,14 +1,6 @@
 proxies:
-- name: '[E] 🇰🇷 韩国 01'
-  password: 1671a252e2a97dc2bda4e515475931da
-  port: 50160
-  server: 132.226.226.189
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
 - cipher: aes-256-cfb
-  name: '[H] 🇰🇷 韩国 02'
+  name: '[H] 🇰🇷 韩国 01'
   password: 7eadc6dbe2ae
   port: 65443
   server: 121.46.230.138
@@ -18,7 +10,39 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
+  name: '[H] 🇰🇷 韩国 02'
+  network: grpc
+  port: 10050
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
   name: '[H] 🇰🇷 韩国 03'
+  network: grpc
+  port: 10049
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: kr4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '[H] 🇰🇷 韩国 04'
   network: grpc
   port: 10047
   reality-opts:
@@ -34,7 +58,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: '[H] 🇰🇷 韩国 04'
+  name: '[H] 🇰🇷 韩国 05'
   network: grpc
   port: 10046
   reality-opts:
@@ -46,27 +70,3 @@ proxies:
   type: vless
   udp: true
   uuid: 690FC783-6CE9-4137-8559-40DBA8EDAD31
-- auth: 9cfc9458e48c028ec03ff86ebc71c744
-  name: '[H] 🇰🇷 韩国 05'
-  password: 9cfc9458e48c028ec03ff86ebc71c744
-  port: 50160
-  server: 150-230-252-217.liao.kdns.fr
-  skip-cert-verify: true
-  sni: 150-230-252-217.liao.kdns.fr
-  type: hysteria2
-  udp: true
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇰🇷 韩国 06'
-  network: tcp
-  port: '28482'
-  reality-opts:
-    public-key: 8fsYG_Pg35aeg1E5Gc3HUaXou2OUQee4ukxVk99iR0s
-    short-id: '!!str fa1e592603c283'
-  server: 43.202.46.25
-  servername: www.intel.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83973343-90db-423d-a5f7-2e3b56aeb8f4
-  xudp: true
