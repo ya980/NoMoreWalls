@@ -1,54 +1,77 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '[H] 🇬🇧 英国 02'
-  password: amazonskr05
+- name: '[H] 🇬🇧 英国 02'
   port: 443
-  server: 18.171.210.5
-  type: ss
+  server: 185.235.0.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 03'
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 04'
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 05'
+  password: None
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: firefox
+  encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 04'
+  name: '[H] 🇬🇧 英国 06'
   network: tcp
-  port: '443'
+  port: '51847'
   reality-opts:
-    public-key: DM3bRAvFPKomKjjmatlS2dH5VYZnUkPHw0BmA40kI2k
-    short-id: '!!str 0f4daaf87f9dff'
-  server: 46.8.210.143
-  servername: smartcaptcha.yandexcloud.net
+    public-key: S6noV0L8eNASnTe1gXLutLZNdfENsvKMsOJiGQYi6nc
+    short-id: '!!str 0eec442e7b34d2f2'
+  server: 3.9.135.156
+  servername: www.tesla.com
   tls: true
   type: vless
   udp: true
-  uuid: 7a322a80-b9ae-0007-bec7-affed230a484
+  uuid: 391a01e9-b664-407b-9158-610fab3f5920
   xudp: true
-- name: '[I] 🇬🇧 英国 05'
-  network: tcp
-  port: 22223
-  server: 18.168.125.235
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇬🇧 英国 06'
-  network: tcp
-  port: 22223
-  server: 18.169.233.193
-  tls: false
-  type: vless
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: '[I] 🇬🇧 英国 07'
   network: tcp
-  port: 22222
+  port: 22223
   server: 18.168.125.235
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: '[I] 🇬🇧 英国 08'
   network: tcp
-  port: 22222
+  port: 22223
   server: 18.169.233.193
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
 - name: '[I] 🇬🇧 英国 09'
+  network: tcp
+  port: 22222
+  server: 18.168.125.235
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇬🇧 英国 10'
+  network: tcp
+  port: 22222
+  server: 18.169.233.193
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇬🇧 英国 11'
   network: tcp
   port: 22224
   server: 18.169.233.193
