@@ -1,10 +1,12 @@
 proxies:
-- name: '[E] CH 01'
-  password: gf1:gfhysteria2024
+- name: '[D] CH 01'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
   port: 443
-  server: 185.156.44.99
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
+  server: de1.sferavpn.pro
+  skip-cert-verify: false
+  sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
 - name: '[E] CH 02'
@@ -12,6 +14,30 @@ proxies:
   port: 443
   server: 185.156.44.99
   skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[E] CH 03'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '[E] CH 04'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 185.156.44.99
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[H] CH 05'
+  password: None
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null

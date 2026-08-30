@@ -1,27 +1,6 @@
 proxies:
-- name: '[E] 🇬🇧 英国 01'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.125
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 02'
-  password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
-  port: 8080
-  server: 103.246.248.237
-  sni: hopp-legend-se.roxa.org
-  tls: false
-  type: hysteria2
-- name: '[E] 🇬🇧 英国 03'
-  password: Oz_Kx9342gefwJ89x3_M9z32kzf9KJq003_s
-  port: 8443
-  server: 205.237.109.173
-  sni: hopp-netherland-new.dynuddns.net
-  tls: false
-  type: hysteria2
 - client-fingerprint: firefox
-  name: '[H] 🇬🇧 英国 04'
+  name: '[H] 🇬🇧 英国 01'
   network: xhttp
   port: 443
   reality-opts:
@@ -36,13 +15,13 @@ proxies:
     host: api-v2.savesafe.run
     path: /
 - client-fingerprint: firefox
-  name: '[H] 🇬🇧 英国 05'
+  name: '[H] 🇬🇧 英国 02'
   network: xhttp
   port: 443
   reality-opts:
     public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
     short-id: '!!str 812609fa663c57fb'
-  server: 82.152.220.121
+  server: 82.152.220.41
   servername: api-v2.savesafe.run
   tls: true
   type: vless
@@ -51,37 +30,7 @@ proxies:
     host: api-v2.savesafe.run
     path: /
 - client-fingerprint: firefox
-  name: '[H] 🇬🇧 英国 06'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: '!!str 812609fa663c57fb'
-  server: 82.152.220.151
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-- client-fingerprint: firefox
-  name: '[H] 🇬🇧 英国 07'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: '!!str 812609fa663c57fb'
-  server: 82.152.220.31
-  servername: api-v2.savesafe.run
-  tls: true
-  type: vless
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
-- client-fingerprint: firefox
-  name: '[H] 🇬🇧 英国 08'
+  name: '[H] 🇬🇧 英国 03'
   network: xhttp
   port: 443
   reality-opts:
@@ -97,20 +46,29 @@ proxies:
     host: api-v2.savesafe.run
     mode: auto
     path: /
-- cipher: aes-256-cfb
-  name: '[H] 🇬🇧 英国 09'
-  password: amazonskr05
-  port: '443'
-  server: 18.132.203.206
-  type: ss
-  udp: true
-- name: '[H] 🇬🇧 英国 10'
+- name: '[H] 🇬🇧 英国 04'
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 05'
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 06'
   port: 9443
   server: 37.120.233.34
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 11'
+- name: '[H] 🇬🇧 英国 07'
   password: None
   port: 443
   server: 37.120.233.18
@@ -118,21 +76,73 @@ proxies:
   tls: true
   type: http
   username: null
+- name: '[H] 🇬🇧 英国 08'
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 09'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: wiu5fVlBM7keSI48Oi3dEnQTR1BnJXgHtXo9xBpAnTA
+    short-id: '!!str 16498ac98306ce31'
+  server: 95.154.196.62
+  servername: foodnetwork.com
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: a6de5675-5bfe-4fc2-b9b4-4bf4a24f6474
 - client-fingerprint: firefox
-  encryption: none
-  name: '[H] 🇬🇧 英国 12'
-  network: xhttp
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 10'
+  network: tcp
   port: '443'
   reality-opts:
-    public-key: BvR2i3CJEL9QwNAWKqkkHY3rnqJdOFLyKw5DZ9sA2C8
-    short-id: '!!str 812609fa663c57fb'
-  server: 82.152.220.161
-  servername: api-v2.savesafe.run
+    public-key: tPyAWkalFM4yi9lYY0zLDRxQyfSwPDwiexAy9QOjrWI
+    short-id: '!!str 42171a632f3b99ed'
+  server: 95.154.221.153
+  servername: strapi.io
   tls: true
   type: vless
   udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: api-v2.savesafe.run
-    path: /
+  uuid: 430924a2-db54-446b-84e1-2d1fca0f16be
   xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 11'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: ojDrVO838PScByjy1cb1-LLEpEh4LhJKG_jldp8g7xo
+    short-id: '!!str 8beb2706'
+  server: app25.jarvestip.ru
+  servername: app25.jarvestip.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: d3815c21-ef06-43e2-82e1-ca313962b489
+  xudp: true
+- name: '[I] 🇬🇧 英国 12'
+  port: 22222
+  server: 35.178.112.200
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇬🇧 英国 13'
+  port: 22223
+  server: 35.178.112.200
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇬🇧 英国 14'
+  network: tcp
+  port: 22224
+  server: 35.178.112.200
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
