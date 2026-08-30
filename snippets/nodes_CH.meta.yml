@@ -15,32 +15,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] CH 03'
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[H] CH 04'
-  password: None
-  port: 443
-  server: 31.7.62.50
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] CH 05'
-  network: raw
+  name: '[H] CH 03'
+  network: tcp
   port: '443'
   reality-opts:
     public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
     short-id: '!!str '
-  server: de48.tranzit-net.ru
+  server: 159.200.230.117
   servername: d.tranzit-net.ru
   tls: true
   type: vless
