@@ -5,10 +5,9 @@ proxies:
   name: '[D] 🇺🇸 美国 01'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
-  password: zvxywxoorgqk3fzb
-  port: 52008
+  password: g2d0ooqq3ykzsacc
+  port: 52002
   server: giftcard.gateway-stream.com
-  skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
@@ -19,21 +18,33 @@ proxies:
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
+  port: 52008
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[D] 🇺🇸 美国 03'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: zvxywxoorgqk3fzb
   port: 52019
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 03'
+- name: '[E] 🇺🇸 美国 04'
   password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
   port: 443
   server: ush2.shazamri.xyz
   sni: ush2.shazamri.xyz
   tls: false
   type: hysteria2
-- auth: c3e44804-5149-4bfe-9a33-d5051af3c65e
-  name: '[E] 🇺🇸 美国 04'
+- name: '[E] 🇺🇸 美国 05'
   password: c3e44804-5149-4bfe-9a33-d5051af3c65e
   port: 28133
   server: 192.227.229.51
@@ -41,14 +52,38 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 05'
-  password: 600bbee3-1f42-4877-8a4f-770582752ade
-  port: 8443
-  server: ush2.snowdnvpno4.com
-  sni: ush2.snowdnvpno4.com
+- name: '[E] 🇺🇸 美国 06'
+  password: 04d481ed-eb43-42de-ab4f-45049ab0e585
+  port: 443
+  server: dedgff.scroogethebest.com
+  sni: dedgff.scroogethebest.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 06'
+- name: '[E] 🇺🇸 美国 07'
+  password: PD_0jD41hkQxq5ghBRhe7adO
+  port: 8882
+  server: 192.220.56.72
+  skip-cert-verify: true
+  sni: bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 08'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 09'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 10'
   password: 099830134df5ac3a04a4b21d39b8c395
   port: 50160
   server: 163.192.14.135
@@ -56,19 +91,35 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
+- name: '[E] 🇺🇸 美国 11'
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 12'
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: els.mangshe.xyz
+  skip-cert-verify: true
+  sni: els.mangshe.xyz
+  tls: false
+  type: hysteria2
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 07'
+  name: '[F] 🇺🇸 美国 13'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 14'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 09'
+- name: '[F] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: 1431
@@ -76,116 +127,33 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 10'
-  password: 7eadc6dbe2ae
-  port: 65443
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 11'
-  network: ws
-  port: '443'
-  server: 104.24.19.99
-  servername: novapanell.abdollahvand3.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: aebeb940-51cb-429f-830d-c421351d18e3
-  ws-opts:
-    headers:
-      Host: novapanell.abdollahvand3.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /LUANVO
-  xudp: true
-- name: '[H] 🇺🇸 美国 12'
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 13'
-  password: None
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 14'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 15'
-  network: tcp
-  port: '10694'
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: '!!str a0fbc54d937aaccb'
-  server: usa2.milkabebar.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1cdf3076-d0df-4061-ae44-31ad8c522705
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
+- alterId: 0
+  cipher: auto
   name: '[H] 🇺🇸 美国 16'
-  network: tcp
-  port: '10694'
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: '!!str a0fbc54d937aaccb'
-  server: usa2.milkabebar.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
+  network: http
+  port: 52080
+  server: 38.246.226.240
+  skip-cert-verify: true
+  tls: false
+  type: vmess
   udp: true
-  uuid: 5509aaf4-b102-4028-a282-7f575f75f05e
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 17'
-  network: tcp
-  port: '10694'
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: '!!str a0fbc54d937aaccb'
-  server: usa2.milkabebar.ir
-  servername: amp-api-edge.apps.apple.com
+  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
+- name: '[H] 🇺🇸 美国 17'
+  password: None
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 6765178b-7393-4826-91fc-fb6a5755bcd6
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 18'
-  network: tcp
-  port: '10694'
-  reality-opts:
-    public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28
-    short-id: '!!str a0fbc54d937aaccb'
-  server: usa2.milkabebar.ir
-  servername: amp-api-edge.apps.apple.com
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 18'
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
   tls: true
-  type: vless
-  udp: true
-  uuid: b503cf10-779d-4faa-b97c-72d457a94967
-  xudp: true
-- name: '[I] 🇺🇸 美国 20'
+  type: http
+- name: '[I] 🇺🇸 美国 19'
   network: ws
   password: humanity
   port: 443
@@ -196,7 +164,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 21'
+- name: '[I] 🇺🇸 美国 20'
   network: ws
   password: humanity
   port: 443
@@ -207,7 +175,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 22'
+- name: '[I] 🇺🇸 美国 21'
   network: ws
   password: humanity
   port: 443
@@ -216,7 +184,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 23'
+- name: '[I] 🇺🇸 美国 22'
   network: ws
   password: humanity
   port: 443
