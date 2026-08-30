@@ -28,25 +28,39 @@ proxies:
   sni: hopp-romania-new.roxa.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 04'
+  network: tcp
   port: 443
-  server: hh.funvideorus.net
-  sni: hh.funvideorus.net
-  tls: false
-  type: hysteria2
-- name: '[E] 🇫🇷 法国 05'
-  password: f980aecd-d243-4910-b231-db172d434541
-  port: 443
-  server: de2205.cdn-video.pro
-  sni: de2205.cdn-video.pro
-  tls: false
-  type: hysteria2
+  reality-opts:
+    public-key: rCkSHJ7goy7ZvSlau4LfXF-QLloOJMNeMxpeeQtwtVs
+    short-id: '!!str 4fa44664f6a566d3'
+  server: germany.superbuba.top
+  servername: germany.superbuba.top
+  tls: true
+  type: vless
+  uuid: d4cae7df-50a1-428c-bd62-881c8f3bbd90
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇫🇷 法国 05'
+  network: tcp
+  port: 39399
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: 155.117.199.13
+  servername: cdnjs.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: f06c6039-a489-3d78-a676-ed43be6deca3
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[H] 🇫🇷 法国 06'
   network: tcp
-  port: 39399
+  port: 29893
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: '!!str bc8e3658db7d1323'
@@ -60,14 +74,12 @@ proxies:
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[H] 🇫🇷 法国 07'
-  port: 29893
+  port: 39395
   reality-opts:
     public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
     short-id: '!!str bc8e3658db7d1323'
   server: 155.117.199.13
   servername: cdnjs.cloudflare.com
-  skip-cert-verify: true
   tls: true
   type: vless
-  udp: true
   uuid: f06c6039-a489-3d78-a676-ed43be6deca3
