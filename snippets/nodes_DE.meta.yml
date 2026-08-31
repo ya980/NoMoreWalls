@@ -1,12 +1,5 @@
 proxies:
 - name: '[D] 🇩🇪 德国 01'
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.124.112
-  sni: hopp-germany-new.ddnsguru.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 02'
   password: AstroVPN_official
   port: 36896
   server: ptserv.accuratenetworkchecker.ir
@@ -16,7 +9,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 03'
+  name: '[D] 🇩🇪 德国 02'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -28,7 +21,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 04'
+  name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -37,7 +30,24 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 05'
+- name: '[D] 🇩🇪 德国 04'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: 2.27.59.206
+  skip-cert-verify: true
+  sni: de1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 05'
+  password: jbmuokj7p4kg4h4s
+  port: 52029
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 06'
   password: 41f0d6d3-4a45-4635-8225-2abd2284189b
   port: 2056
   server: nlb4.mangshe.xyz
@@ -45,20 +55,107 @@ proxies:
   sni: nlb4.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[H] 🇩🇪 德国 06'
-  password: None
+- name: '[E] 🇩🇪 德国 07'
+  password: 0db4a6c709ca4a46153af8a401b7138a
+  port: 8443
+  server: se.allgoodvpn.su
+  skip-cert-verify: false
+  sni: se.allgoodvpn.su
+  tls: false
+  type: hysteria2
+- encryption: none
+  name: '[H] 🇩🇪 德国 08'
+  network: ws
+  port: 2087
+  server: 188.220.67.198
+  tls: false
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+    path: /8f2690e2d016
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇩🇪 德国 09'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
+    short-id: '!!str 09ef88a6'
+  server: app4.goonars.com
+  servername: app4.goonars.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+  xudp: true
+- encryption: none
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: '[H] 🇩🇪 德国 10'
+  network: http
+  port: '2091'
+  server: De.poco.mobileahmadreza.ir
+  type: vless
+  udp: true
+  uuid: 05f1007e-9ed8-4808-b081-65163a196959
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇩🇪 德国 11'
+  network: ws
+  port: '8443'
+  server: motasel.vip3333.ir
+  servername: panel.vip3333.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 708431c5-8b69-4e0c-8def-cb34a6a1bdf3
+  ws-opts:
+    headers:
+      Host: panel.vip3333.ir
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
+        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
+    path: /---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/artical/pro
+  xudp: true
+- name: '[H] 🇩🇪 德国 12'
   port: 443
   server: 149.36.50.157
   skip-cert-verify: true
   tls: true
   type: http
+- name: '[H] 🇩🇪 德国 13'
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
   username: null
-- name: '[I] 🇩🇪 德国 07'
+- name: '[H] 🇩🇪 德国 14'
+  password: None
+  port: 9443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇩🇪 德国 15'
   network: ws
-  password: humanity
-  port: 443
-  server: 141.101.90.101
-  sni: www.ignitelimit.com
-  type: trojan
+  port: '16632'
+  server: planb.mojcn.com.linuxlh.xin
+  tls: false
+  type: vmess
+  uuid: 8ed52c4d-1fe1-4c08-b46f-ca8eb2729cb9
   ws-opts:
-    path: '%2Fassignment'
+    headers:
+      Host: f406e32143bc023a8819a6335733f851.mobgslb.tbcache.com
+    path: /

@@ -1,8 +1,97 @@
 proxies:
-- cipher: aes-256-cfb
-  name: '[H] 🇬🇧 英国 01'
-  password: amazonskr05
+- alpn:
+  - h3
+  name: '[D] 🇬🇧 英国 01'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1m1xfvpaa5ek4omq
+  port: 52033
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '[H] 🇬🇧 英国 02'
+  port: 443
+  server: 37.120.233.18
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 03'
+  port: 443
+  server: 37.120.233.50
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 04'
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 05'
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 06'
+  password: None
+  port: 443
+  server: 185.235.0.2
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 07'
+  network: tcp
+  port: 10041
+  reality-opts:
+    public-key: O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s
+    short-id: '!!str 1bc2c1ef1c'
+  server: uk01.vletun.qianmoxingyun.com
+  servername: www.apple.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  uuid: d742752c-4231-4695-801e-f06d77f0f277
+- client-fingerprint: ios
+  encryption: none
+  name: '[H] 🇬🇧 英国 08'
+  network: tcp
   port: '443'
-  server: 18.133.240.229
-  type: ss
+  reality-opts:
+    public-key: ugtm31PMWRlIc6ECuwte3TQ8dvl5ySnrewLZYIAoV1Y
+    short-id: '!!str f8c90594fb7adb6e'
+  server: eg.linuxbase.ir
+  servername: amp-api-edge.apps.apple.com
+  tls: true
+  type: vless
   udp: true
+  uuid: ffaa4b21-9842-4206-8f4c-20588033c481
+  xudp: true
+- name: '[I] 🇬🇧 英国 09'
+  network: tcp
+  port: 22223
+  server: 16.61.172.239
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+- name: '[I] 🇬🇧 英国 10'
+  network: ws
+  port: 2087
+  server: 188.220.67.140
+  tls: false
+  type: vless
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    path: /8f2690e2d016
+- name: '[I] 🇬🇧 英国 11'
+  network: tcp
+  port: 22224
+  server: 16.61.172.239
+  tls: false
+  type: vless
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e

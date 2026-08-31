@@ -5,18 +5,23 @@ proxies:
   name: '[D] 🇺🇸 美国 01'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
+  password: 1m1xfvpaa5ek4omq
+  port: 52078
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[D] 🇺🇸 美国 02'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
   password: g2d0ooqq3ykzsacc
   port: 52002
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇺🇸 美国 02'
-  password: usa_2_hysteria2_fastlane_7xd97qbds
-  port: 443
-  server: 92.118.112.132
-  skip-cert-verify: false
-  sni: us3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - alpn:
@@ -46,11 +51,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
-  password: f9e76796-72ba-4af1-9435-a556bd81c140
-  port: 55000
-  server: 156.229.163.112
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 4433
+  server: ru1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: ru1.xiaoliyu.cyou
   tls: false
   type: hysteria2
 - alterId: 0
@@ -101,121 +106,284 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: '[H] 🇺🇸 美国 11'
+  network: grpc
+  port: 10242
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: us5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 12'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- name: '[H] 🇺🇸 美国 13'
+  password: test123
+  port: '1080'
+  server: 185.145.99.41
+  skip-cert-verify: true
+  type: socks5
+  username: test123
+- name: '[H] 🇺🇸 美国 14'
+  port: 443
+  server: voteshirleysew.club
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 15'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 16'
+  network: ws
+  port: 443
+  server: 172.67.198.236
+  servername: 1-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 1-m20.c8e0fc76-a6e4-4464-86b7-703a4f338c3a.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- name: '[H] 🇺🇸 美国 17'
+  network: ws
+  port: 443
+  server: 172.67.205.153
+  servername: 6-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7e26fd8f-d75a-473d-84ba-9f4e3f47d086
+  ws-opts:
+    headers:
+      Host: 6-m20.c98a10b6-5ab2-4974-8750-c24cffb2c622.kdns.fr
+    path: /8qMLgNapWf6SBxo8fhQlVPYO
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇺🇸 美国 18'
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)c47ab06:133288
+    mode: tls
+  port: 2377
+  server: 3ce8ee8.hb.gladns.com
+  type: ss
+  udp: true
+- name: '[H] 🇺🇸 美国 19'
+  password: None
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 20'
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 21'
+  password: None
+  port: 4447
+  server: 54.174.5.216
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 22'
+  port: 443
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 23'
+  password: None
+  port: 9002
+  server: 138.199.35.207
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 24'
+  port: 443
+  server: fullmanfirm.icu
+  skip-cert-verify: true
+  sni: fullmanfirm.icu
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 25'
+  password: None
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 26'
+  password: None
+  port: 9002
+  server: 138.199.35.220
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 27'
+  password: None
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 28'
+  password: None
+  port: 9002
+  server: 138.199.35.196
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 29'
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 30'
+  port: 6005
+  server: 23.95.112.143
+  type: http
+- name: '[H] 🇺🇸 美国 31'
+  password: None
+  port: 443
+  server: efr-marktplatz.club
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 32'
+  password: None
+  port: 443
+  server: 52.55.81.168
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 33'
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  sni: jewelscollecti.icu
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 34'
+  password: None
+  port: 9002
+  server: 138.199.35.204
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 35'
+  network: ws
+  port: 443
+  server: neth8.lunariai.ru
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vless
+  uuid: c21631d5-36c9-4664-b575-97eca17456be
+  ws-opts:
+    headers:
+      Host: neth8.lunariai.ru
+    path: /
+- name: '[H] 🇺🇸 美国 36'
+  password: ''
+  port: 8090
+  server: 209.148.53.153
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 37'
+  port: 443
+  server: tzoa.fun
+  sni: tzoa.fun
+  tls: true
+  type: http
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 38'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: mHlSdLyCi4y4Bit5YrV9SpNI4RxoC08gyxUJPDy2Ylg
+    short-id: '!!str a17b41ba'
+  server: app3.goonars.com
+  servername: app3.goonars.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+  xudp: true
 - alpn:
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 11'
+  name: '[I] 🇺🇸 美国 39'
   network: ws
-  port: '443'
-  server: stan-production-19cc.up.railway.app
-  servername: stan-production-19cc.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88a2a55b-06b9-4b60-9987-88b45a8db990
-  ws-opts:
-    headers:
-      Host: stan-production-19cc.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/35.0.1916.153 Safari/537.36
-    path: /vl-ws
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 12'
-  network: tcp
-  port: '53856'
-  reality-opts:
-    public-key: rwpbqas_HY8knlW0fFSIeUrjgBXHBzSNboflsLD8elA
-    short-id: '!!str '
-  server: 38.127.121.44
-  servername: www.speedtest.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 3ab5119a-d0e9-4feb-c748-2b42b7367d21
-  xudp: true
-- name: '[H] 🇺🇸 美国 13'
-  password: 19f72087-4591-4d72-930b-2697078ec2be
-  port: 4433
-  server: us4.xiaoliyu.cyou
-  skip-cert-verify: true
-  sni: us4.xiaoliyu.cyou
-  type: hysteria2
-  udp: true
-- name: '[H] 🇺🇸 美国 14'
-  password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
-  server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  sni: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
-  tls: true
-  type: http
-  username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: '[I] 🇺🇸 美国 15'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.1
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 16'
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
+  server: 69.46.46.124
+  servername: norl-production.up.railway.app
   skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '[I] 🇺🇸 美国 17'
-  network: ws
-  port: 80
-  server: 50.62.195.4
-  tls: false
-  type: vless
-  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
-  ws-opts:
-    headers:
-      Host: raspy-feather-12ec.137-257.workers.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 18'
-  network: ws
-  port: 8880
-  server: 63.141.128.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime42.workers.dev
-    path: '%2F'
-- client-fingerprint: chrome
-  name: '[I] 🇺🇸 美国 19'
-  network: ws
-  port: 443
-  server: us.mkdir.kdns.fr
-  servername: web-jornttsa.pages.dev
   tls: true
   type: vless
-  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  uuid: 6abbc9ed-209e-94d7-98e2-e315b5ff3aa9
   ws-opts:
     headers:
-      Host: web-jornttsa.pages.dev
-    path: '%2F'
-- name: '[I] 🇺🇸 美国 20'
-  network: ws
-  password: humanity
+      Host: norl-production.up.railway.app
+    path: /ws/6abbc9ed-209e-94d7-98e2-e315b5ff3aa9
+- flow: xtls-rprx-vision
+  name: '[I] 🇺🇸 美国 40'
   port: 443
-  server: render.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
+  reality-opts:
+    public-key: t_qv0VOfWhKZJV_giGC55-ipgHYWo44Yfvik_B8T8ik
+    short-id: '!!str 4a46213c935e2ee4'
+  server: 31.76.70.32
+  servername: baltic.cendora.ru
+  tls: false
+  type: vless
+  uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇺🇸 美国 41'
+  port: 443
+  reality-opts:
+    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
+    short-id: '!!str 4da5d1853f04af6d'
+  server: rrr.windconnect.pro
+  servername: rrr.windconnect.pro
+  tls: false
+  type: vless
+  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd

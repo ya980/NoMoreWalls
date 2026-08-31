@@ -1,14 +1,26 @@
 proxies:
-- client-fingerprint: edge
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
   name: '[I] 🇷🇺 俄罗斯 01'
-  network: ws
+  network: tcp
   port: 443
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
-  tls: true
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '!!str a9c4f17e3b62d8'
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
+  tls: false
   type: vless
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-    path: '%2Fwebsocket'
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+- client-fingerprint: edge
+  flow: xtls-rprx-vision
+  name: '[I] 🇷🇺 俄罗斯 02'
+  port: 16445
+  reality-opts:
+    public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
+    short-id: '!!str a1b2c3d4'
+  server: 159.194.234.196
+  servername: fr.aeternavpn.space
+  tls: false
+  type: vless
+  uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085
