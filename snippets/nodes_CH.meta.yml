@@ -50,10 +50,39 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[H] CH 07'
-  password: None
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] CH 07'
   port: 443
-  server: 31.7.62.50
+  reality-opts:
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+  server: de48.tranzit-net.ru
+  servername: d.tranzit-net.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] CH 08'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k
+    short-id: '!!str '
+  server: 159.200.230.117
+  servername: d.tranzit-net.ru
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: be3c103d-2c93-4f8e-adb9-2631537f80eb
+  xudp: true
+- name: '[H] CH 09'
+  password: None
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
   tls: true
   type: http

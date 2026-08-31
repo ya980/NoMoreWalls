@@ -1,5 +1,5 @@
 proxies:
-- name: '[F] 🇸🇬 新加坡 03'
+- name: '[F] 🇸🇬 新加坡 02'
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -7,3 +7,25 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- cipher: chacha20-ietf
+  name: '[H] 🇸🇬 新加坡 03'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 37949-LD4JNZAf.download.microsoft.com
+    mode: http
+  port: '8211'
+  server: cn08.somethingstranges.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf
+  name: '[H] 🇸🇬 新加坡 04'
+  password: passwd
+  plugin: obfs
+  plugin-opts:
+    host: 37949-LD4JNZAf.download.microsoft.com
+    mode: http
+  port: '8206'
+  server: cn07.somethingstranges.com
+  type: ss
+  udp: true
