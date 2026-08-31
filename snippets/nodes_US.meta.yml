@@ -38,11 +38,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 04'
-  password: PD_0jD41hkQxq5ghBRhe7adO
-  port: 8882
-  server: 192.220.56.72
+  password: 099830134df5ac3a04a4b21d39b8c395
+  port: 50160
+  server: 163.192.14.135
   skip-cert-verify: true
-  sni: bing.com
+  sni: css.rbxcdn.com
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 05'
@@ -78,6 +78,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 09'
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: els.mangshe.xyz
+  skip-cert-verify: true
+  sni: els.mangshe.xyz
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 10'
   password: f9e76796-72ba-4af1-9435-a556bd81c140
   port: 55000
   server: 156.229.163.112
@@ -85,29 +93,43 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 11'
+  network: ws
+  port: '8443'
+  server: 172.64.80.1
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 12'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 11'
+  name: '[F] 🇺🇸 美国 13'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 12'
+- name: '[F] 🇺🇸 美国 14'
   network: tcp
   password: BxceQaOe
-  port: 1431
-  server: 43.198.210.207
+  port: 52770
+  server: 18.167.96.176
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - client-fingerprint: qq
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 13'
+  name: '[H] 🇺🇸 美国 15'
   network: tcp
   port: 8443
   reality-opts:
@@ -122,7 +144,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 14'
+  name: '[H] 🇺🇸 美国 16'
   network: tcp
   port: '50303'
   reality-opts:
@@ -137,7 +159,7 @@ proxies:
   xudp: true
 - alterId: 2
   cipher: auto
-  name: '[H] 🇺🇸 美国 15'
+  name: '[H] 🇺🇸 美国 17'
   network: tcp
   port: 30829
   server: v29.hdacd.com
@@ -151,7 +173,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 16'
+  name: '[H] 🇺🇸 美国 18'
   network: ws
   port: '443'
   server: 69.46.46.33
@@ -171,7 +193,7 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇺🇸 美国 17'
+  name: '[H] 🇺🇸 美国 19'
   network: ws
   port: '443'
   server: 69.46.46.21
@@ -188,13 +210,13 @@ proxies:
     path: /ws/a9954637-e1d3-6981-e498-98769cd4dd35
   xudp: true
 - cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 18'
+  name: '[H] 🇺🇸 美国 20'
   password: 7eadc6dbe2ae
   port: '65443'
   server: 121.46.230.233
   type: ss
   udp: true
-- name: '[H] 🇺🇸 美国 19'
+- name: '[H] 🇺🇸 美国 21'
   password: test123
   port: '1080'
   server: 185.145.99.41
@@ -202,7 +224,7 @@ proxies:
   type: socks5
   username: test123
 - client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 20'
+  name: '[H] 🇺🇸 美国 22'
   network: ws
   password: e20fd145-65f1-4aa3-96be-da0524bbb16e
   port: '20230'
@@ -218,7 +240,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[H] 🇺🇸 美国 21'
+  name: '[H] 🇺🇸 美国 23'
   network: http
   port: 52080
   server: 38.246.226.240
@@ -227,7 +249,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-- name: '[H] 🇺🇸 美国 22'
+- name: '[H] 🇺🇸 美国 24'
   password: 'null'
   port: 9002
   server: 138.199.35.216
@@ -236,7 +258,7 @@ proxies:
   type: http
   udp: true
   username: 'null'
-- name: '[H] 🇺🇸 美国 23'
+- name: '[H] 🇺🇸 美国 25'
   password: ''
   port: 9002
   server: 138.199.35.217
@@ -244,14 +266,14 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 24'
+- name: '[H] 🇺🇸 美国 26'
   port: 9002
   server: 138.199.35.211
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 25'
+- name: '[H] 🇺🇸 美国 27'
   password: None
   port: 9002
   server: 138.199.35.216
@@ -259,37 +281,37 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 26'
+- name: '[H] 🇺🇸 美国 28'
   port: 9002
   server: 138.199.35.218
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 27'
+- name: '[H] 🇺🇸 美国 29'
   port: 9002
   server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 28'
+- name: '[H] 🇺🇸 美国 30'
   port: 443
   server: mmgr.club
   skip-cert-verify: true
   sni: mmgr.club
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 29'
+- name: '[H] 🇺🇸 美国 31'
   port: 25252
   server: 52.168.83.190
   type: http
-- name: '[H] 🇺🇸 美国 30'
+- name: '[H] 🇺🇸 美国 32'
   port: 443
   server: berniesbodybla.fun
   sni: berniesbodybla.fun
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 31'
+- name: '[H] 🇺🇸 美国 33'
   password: 'null'
   port: 9002
   server: 138.199.35.214
@@ -297,11 +319,11 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 32'
+- name: '[H] 🇺🇸 美国 34'
   port: 3126
   server: 107.173.135.36
   type: http
-- name: '[H] 🇺🇸 美国 33'
+- name: '[H] 🇺🇸 美国 35'
   password: ''
   port: 9002
   server: 138.199.35.203
@@ -309,7 +331,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 34'
+- name: '[H] 🇺🇸 美国 36'
   password: None
   port: 9002
   server: 138.199.35.202
@@ -317,21 +339,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 35'
+- name: '[H] 🇺🇸 美国 37'
   port: 9002
   server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 36'
+- name: '[H] 🇺🇸 美国 38'
   port: 9002
   server: 138.199.35.195
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: '[H] 🇺🇸 美国 37'
+- name: '[H] 🇺🇸 美国 39'
   password: 16955d72-1794-11f0-a035-f23c95b6f51d
   port: 443
   server: 87992eef-te9j40-teq7xb-dnss.fmtdc1.sghuawei.com
@@ -339,7 +361,7 @@ proxies:
   tls: true
   type: http
   username: 16955d72-1794-11f0-a035-f23c95b6f51d
-- name: '[H] 🇺🇸 美国 38'
+- name: '[H] 🇺🇸 美国 40'
   password: None
   port: 443
   server: webdrone.club
@@ -347,7 +369,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 39'
+- name: '[H] 🇺🇸 美国 41'
   password: None
   port: 9002
   server: 138.199.35.207
@@ -355,27 +377,27 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 40'
+- name: '[H] 🇺🇸 美国 42'
   password: None
   port: 5252
   server: 148.100.84.192
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 41'
+- name: '[H] 🇺🇸 美国 43'
   password: None
   port: 16062
   server: 104.218.199.152
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 42'
+- name: '[H] 🇺🇸 美国 44'
   port: 16062
   server: 104.218.199.16
   type: http
-- name: '[H] 🇺🇸 美国 43'
+- name: '[H] 🇺🇸 美国 45'
   port: 16062
   server: 104.251.93.167
   type: http
-- name: '[H] 🇺🇸 美国 44'
+- name: '[H] 🇺🇸 美国 46'
   password: e4b72b531a2d10900519
   port: 443
   server: 147.182.216.4
@@ -384,7 +406,7 @@ proxies:
   type: http
   username: testuser1
 - client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 45'
+  name: '[H] 🇺🇸 美国 47'
   network: ws
   port: 2046
   server: 139.28.169.107
@@ -398,7 +420,7 @@ proxies:
     headers:
       Host: f5link.ru
     path: /
-- name: '[H] 🇺🇸 美国 46'
+- name: '[H] 🇺🇸 美国 48'
   password: 'null'
   port: '9002'
   server: 138.199.35.219
@@ -406,7 +428,7 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- name: '[H] 🇺🇸 美国 47'
+- name: '[H] 🇺🇸 美国 49'
   password: 'null'
   port: '9002'
   server: 138.199.35.199
@@ -414,30 +436,6 @@ proxies:
   tls: true
   type: http
   username: 'null'
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 48'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: CMTA5uuaIVIeqHslZMT3CbFwP8F5ysMLii72ybsTlyY
-    short-id: '!!str e2a4c6b8'
-  server: 177.3.208.85
-  servername: policies.google.com
-  tls: false
-  type: vless
-  uuid: 791a171e-c0af-4bd7-b8ce-43541c7585db
-- name: '[I] 🇺🇸 美国 49'
-  network: ws
-  password: humanity
-  port: 443
-  server: 216.24.57.7
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: '%2Fassignment'
 - name: '[I] 🇺🇸 美国 50'
   network: ws
   password: humanity
@@ -446,32 +444,61 @@ proxies:
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
+    headers:
+      Host: www.ignitelimit.com
     path: '%2Fassignment'
 - name: '[I] 🇺🇸 美国 51'
   network: ws
   password: humanity
   port: 443
-  server: 165.215.250.14
+  server: 130.250.137.171
+  skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
     headers:
       Host: www.ignitelimit.com
-    path: '%2Fassignment'
+    path: /assignment
 - name: '[I] 🇺🇸 美国 52'
+  network: ws
+  port: 80
+  server: 50.62.195.4
+  tls: false
+  type: vless
+  uuid: e382b6dd-2dac-49c5-b16f-1cd0a6b73bf2
+  ws-opts:
+    headers:
+      Host: raspy-feather-12ec.137-257.workers.dev
+    path: '%2F'
+- name: '[I] 🇺🇸 美国 53'
+  network: ws
+  port: 8880
+  server: 63.141.128.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime42.workers.dev
+    path: '%2F'
+- client-fingerprint: chrome
+  name: '[I] 🇺🇸 美国 54'
+  network: ws
+  port: 443
+  server: us.mkdir.kdns.fr
+  servername: web-jornttsa.pages.dev
+  tls: true
+  type: vless
+  uuid: 2cf94f4d-9d5b-49ca-81a3-ddc0529a2dac
+  ws-opts:
+    headers:
+      Host: web-jornttsa.pages.dev
+    path: '%2F'
+- name: '[I] 🇺🇸 美国 55'
   network: ws
   password: humanity
   port: 443
   server: render.com
-  sni: www.ignitelimit.com
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 53'
-  network: ws
-  password: humanity
-  port: 443
-  server: 130.250.137.171
   sni: www.ignitelimit.com
   type: trojan
   ws-opts:
