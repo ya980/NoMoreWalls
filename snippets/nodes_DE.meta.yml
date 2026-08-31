@@ -1,8 +1,22 @@
 proxies:
+- name: '[D] 🇩🇪 德国 01'
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.124.112
+  sni: hopp-germany-new.ddnsguru.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
+  password: AstroVPN_official
+  port: 36896
+  server: ptserv.accuratenetworkchecker.ir
+  sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 01'
+  name: '[D] 🇩🇪 德国 03'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -14,7 +28,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 04'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -23,44 +37,22 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[E] 🇩🇪 德国 03'
-  password: 39152f8b-0bcf-494e-b314-261ca875280c
-  port: 5020
-  server: 31.77.220.152
-  sni: special.aeternavpn.space
+- name: '[E] 🇩🇪 德国 05'
+  password: 41f0d6d3-4a45-4635-8225-2abd2284189b
+  port: 2056
+  server: nlb4.mangshe.xyz
+  skip-cert-verify: true
+  sni: nlb4.mangshe.xyz
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 04'
-  password: 39152f8b-0bcf-494e-b314-261ca875280c
-  port: 5020
-  server: 31.77.220.152
-  sni: special.aeternavpn.space
-  tls: false
-  type: hysteria2
-- client-fingerprint: firefox
-  name: '[H] 🇩🇪 德国 05'
-  network: xhttp
-  port: 443
-  reality-opts:
-    public-key: 2P7D_IkxXWre3YziEe2tkF9L_gUbdZE_WCu9_SQq4hE
-    short-id: '!!str 2b5b1ffa8a6a1a68'
-  server: 178.236.254.76
-  servername: ya.ru
-  tls: true
-  type: vless
-  udp: true
-  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
-  xhttp-opts:
-    host: ya.ru
-    path: /web/cdn/v2/assets
 - name: '[H] 🇩🇪 德国 06'
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
   type: http
-  username: None
+  username: null
 - name: '[I] 🇩🇪 德国 07'
   network: ws
   password: humanity
