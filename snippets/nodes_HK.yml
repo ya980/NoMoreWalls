@@ -1,35 +1,49 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 04'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
+  name: '[B] 🇭🇰 香港 04'
+  port: 6001
+  server: gtm-sg-cc54q7d1q01.365cloud0285.com
   type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 05'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
+  name: '[B] 🇭🇰 香港 06'
+  port: 51556
+  server: 103.181.164.145
   type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: 156.245.232.239
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '[E] 🇭🇰 香港 06'
+  name: '[E] 🇭🇰 香港 10'
+  network: ws
+  port: '443'
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  servername: M01c7B2z26DtQGEe.v.3dns.vip
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: M01c7B2z26DtQGEe.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 11'
+  network: ws
+  port: '443'
+  server: u2frxj0g13vdi0wo.v.3dns.vip
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+    path: /ws-vmess
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇭🇰 香港 12'
   network: ws
   port: '62283'
   server: jp.6807251.xyz
@@ -43,7 +57,7 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 07'
+  name: '[F] 🇭🇰 香港 13'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -51,18 +65,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 08'
+  name: '[F] 🇭🇰 香港 14'
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 15'
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: '[F] 🇭🇰 香港 10'
+- name: '[F] 🇭🇰 香港 16'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -70,7 +84,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 11'
+- name: '[F] 🇭🇰 香港 17'
   network: tcp
   password: BxceQaOe
   port: 2944
@@ -80,7 +94,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 12'
+  name: '[G] 🇭🇰 香港 18'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -90,22 +104,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 13'
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f2a8df7-6119-496d-aef8-45ff837cf9ec
-  ws-opts:
-    headers:
-      Host: 236be42fc5d210917a1ecf890328e104.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇭🇰 香港 14'
+  name: '[H] 🇭🇰 香港 19'
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -121,36 +120,33 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 15'
+  name: '[H] 🇭🇰 香港 20'
   network: ws
   port: 16632
+  server: m.cnmjin.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
+  ws-opts:
+    headers:
+      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- alterId: '0'
+  cipher: auto
+  name: '[H] 🇭🇰 香港 26'
+  network: ws
+  port: '16622'
   server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 6605fd88-f41c-4c2a-90ee-6777ac0a32a2
+  uuid: 6011f1c0-0fcc-4153-b848-972da6dec0f1
   ws-opts:
     headers:
-      Host: 052977cd32d141678a739f13963d57ac.mobgslb.tbcache.com
+      Host: 6907bbf8a71b1370e29aa5fd2b77b347.mobgslb.tbcache.com
     path: /
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: '[H] 🇭🇰 香港 16'
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  type: vmess
-  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
-  ws-opts:
-    headers:
-      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
-    path: /
-- name: '[H] 🇭🇰 香港 18'
-  password: 302cf77d-6fb7-4ac8-ae61-88e286340d59
-  port: 50222
-  server: hk03.qianmoip.win
-  skip-cert-verify: true
-  sni: taobao.com
-  type: trojan

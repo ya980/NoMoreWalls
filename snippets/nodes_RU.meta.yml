@@ -1,22 +1,25 @@
 proxies:
-- client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: tcp
-  port: '40443'
-  reality-opts:
-    public-key: ZSzB9TQPGNcCiC0WLmciF5Jc8doJDvdRgbqTi8SCoEM
-    short-id: '!!str a1b2c3d4e5f6789a'
-  server: z0211mq18-z3rk.ru-a1.y-tun.com
-  servername: api-maps.yandex.ru
-  tls: true
+- name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
   type: vless
-  udp: true
-  uuid: 3499f741-a304-4212-8bb9-4d809e154e28
-  xudp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- name: '[D] 🇷🇺 俄罗斯 02'
+  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+  port: 443
+  server: 144.31.93.173
+  skip-cert-verify: true
+  sni: germany1.h2corp.local
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 03'
   network: tcp
   port: 443
   reality-opts:
@@ -29,7 +32,7 @@ proxies:
   uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
 - client-fingerprint: edge
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 04'
   port: 16445
   reality-opts:
     public-key: BfWH0Semc11YkTslIO_Igss921A5J3JMmq_i2FaZxDo
