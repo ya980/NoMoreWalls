@@ -73,84 +73,66 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 08'
-  password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+- name: '[H] 🇩🇪 德国 08'
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 443
-  server: 91.196.32.163
+  server: as-de003.y1static-content-distribution.shop
   skip-cert-verify: true
-  sni: germany3.h2corp.local
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 09'
-  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
-  port: 443
-  server: 3.123.25.85
+  sni: as-de003.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- name: '[H] 🇩🇪 德国 09'
+  port: 11000
+  server: 116.202.172.187
+  type: http
+- name: '[H] 🇩🇪 德国 10'
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 11'
+  password: None
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
-  sni: vpn-de-001.fastervpn.world
-  tls: false
-  type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
+  tls: true
+  type: http
+  username: null
+- client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 10'
+  name: '[H] 🇩🇪 德国 12'
   network: tcp
-  port: '443'
+  port: '12443'
   reality-opts:
-    public-key: oHL8Bc1TqMpL4x46qoyZKZBKuaQOSjSrNGUQKgAUi1g
-    short-id: '!!str '
-  server: e757de.rucdn.pro
+    public-key: -6SjfnZXAYm69euKQ3XNhq0nC7No7YE4qfdc2qx0Xwo
+    short-id: '!!str a1b2c3d4'
+  server: 31.77.220.185
+  servername: special.aeternavpn.space
   tls: true
   type: vless
   udp: true
-  uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
+  uuid: 5a92a9d2-3067-49cd-bfc5-989bbdfc5d52
   xudp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 11'
+- name: '[I] 🇩🇪 德国 13'
   network: ws
-  port: 16632
-  server: m.cnmjin.net
+  port: 2087
+  server: 163.8.195.241
   tls: false
-  type: vmess
-  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
-  ws-opts:
-    headers:
-      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 12'
-  network: ws
-  port: 16617
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: ca68cf56-7c3c-4127-816e-7442de9176b7
-  ws-opts:
-    headers:
-      Host: 7ddc7ef7c7f198c5e7dbed9634157ca7.mobgslb.tbcache.com
-    path: /
-- alpn:
-  - http/1.1
-  client-fingerprint: firefox
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 13'
-  port: 443
-  server: 5.83.129.124
-  servername: 50gport3.potatosubge20.org
-  tls: true
   type: vless
-  uuid: a9aceeb9-17cc-470e-a03b-b7c3ee0f9f14
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 14'
-  network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: 8ed52c4d-1fe1-4c08-b46f-ca8eb2729cb9
+  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
   ws-opts:
-    headers:
-      Host: f406e32143bc023a8819a6335733f851.mobgslb.tbcache.com
-    path: /
+    path: /29c8fed7ca22
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇩🇪 德国 14'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
+    short-id: '!!str ff776ff77be48b88'
+  server: 177.3.213.112
+  servername: germanika.stopingiphatered.shop
+  tls: false
+  type: vless
+  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8

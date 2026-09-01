@@ -18,6 +18,14 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] CH 03'
+  password: 84a506ca5aca505696a454d828420b3f
+  port: 50160
+  server: 140.238.213.114
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[D] CH 04'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -27,7 +35,7 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- name: '[E] CH 04'
+- name: '[E] CH 05'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
@@ -35,7 +43,7 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[E] CH 05'
+- name: '[E] CH 06'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
@@ -43,7 +51,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] CH 06'
+- name: '[E] CH 07'
   password: gf1:gfhysteria2024
   port: 443
   server: 185.156.44.99
@@ -51,11 +59,15 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[E] CH 07'
-  password: 84a506ca5aca505696a454d828420b3f
-  port: 50160
-  server: 140.238.213.114
+- name: '[H] CH 08'
+  port: 9443
+  server: 37.120.213.210
   skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
+  tls: true
+  type: http
+- name: '[H] CH 09'
+  password: None
+  port: 7272
+  server: 212.65.190.199
+  type: http
+  username: null

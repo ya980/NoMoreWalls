@@ -11,7 +11,8 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
+- auth: 4d6d97a82ddf959252e2ada36c3c3053
+  name: '[E] 🇯🇵 日本 02'
   password: 4d6d97a82ddf959252e2ada36c3c3053
   port: 50160
   server: 138.2.8.249
@@ -19,6 +20,7 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+  udp: true
 - name: '[F] 🇯🇵 日本 03'
   network: tcp
   password: BxceQaOe
@@ -39,43 +41,51 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
+- name: '[H] 🇯🇵 日本 06'
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+  port: 31735
+  server: jpglobal-identity-federation-auth.younai-ytl.shop
+  skip-cert-verify: true
+  sni: jp31.lunartrace.io
+  type: anytls
+  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: '[H] 🇯🇵 日本 06'
+  name: '[H] 🇯🇵 日本 07'
   network: grpc
-  port: 10034
+  port: 10035
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: jp4-r.link-t7.com
+  server: jp5-r.link-t7.com
   servername: s0.awsstatic.com
   tls: true
   type: vless
-  udp: true
   uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- name: '[I] 🇯🇵 日本 07'
+- encryption: none
+  name: '[H] 🇯🇵 日本 08'
   network: ws
-  port: 2087
-  server: 188.220.67.198
-  tls: false
+  port: 49152
+  server: qp.lichao0223.cn
+  servername: qp.lichao0223.cn
+  skip-cert-verify: true
+  tls: true
   type: vless
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  uuid: 71b460a1-8f78-45c5-fb3c-ab26a2a1f7b9
   ws-opts:
-    headers:
-      Host: ''
-    path: /8f2690e2d016
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇯🇵 日本 08'
-  network: ws
-  port: 34228
-  server: jp.6807251.xyz
-  tls: false
-  type: vmess
-  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
-  ws-opts:
-    headers:
-      Host: a.189.cn
     path: /
+- client-fingerprint: chrome
+  name: '[I] 🇯🇵 日本 09'
+  network: ws
+  port: 443
+  server: 202.155.11.249
+  servername: cf2.rumedia-cdn.com
+  tls: true
+  type: vless
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
+  ws-opts:
+    headers:
+      Host: cf2.rumedia-cdn.com
+    path: '%2Fcdn%2Fv3%2Flive'
