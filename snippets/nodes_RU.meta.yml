@@ -1,22 +1,24 @@
 proxies:
-- name: '[B] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: 8880
-  server: 45.67.215.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime48.workers.dev
-    path: /
-- name: '[D] 🇷🇺 俄罗斯 02'
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: 144.31.93.173
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
+- name: '[E] 🇷🇺 俄罗斯 01'
+  password: 52b140a1-1e12-4410-9532-ebaee7cec3a1
+  port: 5443
+  server: brbr.hisan.space
+  sni: brbr.hisan.space
   tls: false
   type: hysteria2
+- client-fingerprint: edge
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: ws
+  port: 443
+  server: 45.9.15.206
+  servername: ru05.abvpn.ru
+  tls: true
+  type: vless
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  ws-opts:
+    headers:
+      Host: ru05.abvpn.ru
+    path: /websocket
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: '[I] 🇷🇺 俄罗斯 03'
