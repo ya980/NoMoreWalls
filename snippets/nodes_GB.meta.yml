@@ -2,47 +2,26 @@ proxies:
 - name: '[H] 🇬🇧 英国 01'
   password: None
   port: 443
-  server: 185.235.0.66
+  server: 193.36.118.210
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 02'
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 03'
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 04'
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 05'
-  password: None
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[I] 🇬🇧 英国 06'
+- cipher: aes-256-cfb
+  name: '[H] 🇬🇧 英国 02'
+  password: amazonskr05
+  port: '443'
+  server: 13.40.94.70
+  type: ss
+  udp: true
+- name: '[I] 🇬🇧 英国 03'
   network: tcp
   port: 22223
   server: 16.61.172.239
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇬🇧 英国 07'
+- name: '[I] 🇬🇧 英国 04'
   network: ws
   port: 2087
   server: 188.220.67.140
@@ -51,7 +30,7 @@ proxies:
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
     path: /8f2690e2d016
-- name: '[I] 🇬🇧 英国 08'
+- name: '[I] 🇬🇧 英国 05'
   network: tcp
   port: 22224
   server: 16.61.172.239

@@ -24,16 +24,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[D] 🇩🇪 德国 03'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 4savc5ig1n3549e4
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '[D] 🇩🇪 德国 04'
   password: AstroVPN_official
   port: 36896
   server: ptserv.accuratenetworkchecker.ir
@@ -43,7 +33,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 05'
+  name: '[D] 🇩🇪 德国 04'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNJey
@@ -55,7 +45,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇩🇪 德国 06'
+  name: '[D] 🇩🇪 德国 05'
   obfs: salamander
   obfs-password: 83v9muumcyikh5ch
   password: TelegramVPNjey
@@ -66,7 +56,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇩🇪 德国 07'
+  name: '[D] 🇩🇪 德国 06'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
@@ -76,14 +66,14 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 08'
+- name: '[D] 🇩🇪 德国 07'
   password: jbmuokj7p4kg4h4s
   port: 52029
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 09'
+- name: '[D] 🇩🇪 德国 08'
   password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
   port: 443
   server: 91.196.32.163
@@ -91,86 +81,45 @@ proxies:
   sni: germany3.h2corp.local
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 10'
-  password: c0d1d7e1-7ce6-425d-a0ff-27b7eec8c533
-  port: 40443
-  server: mmz2-bs1.se.deepl-cdn.com
-  sni: se.deepl-cdn.com
+- name: '[D] 🇩🇪 德国 09'
+  password: qQe1z5kU8kN6SlKnDt9Ru3Qp
+  port: 443
+  server: 3.123.25.85
+  skip-cert-verify: true
+  sni: vpn-de-001.fastervpn.world
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 11'
+  name: '[H] 🇩🇪 德国 10'
   network: tcp
   port: '443'
   reality-opts:
-    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
-    short-id: '!!str 09ef88a6'
-  server: app4.goonars.com
-  servername: app4.goonars.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-  xudp: true
-- name: '[H] 🇩🇪 德国 12'
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 13'
-  network: tcp
-  port: '2053'
-  reality-opts:
-    public-key: 9lz79Eqetl8jIMyXAXQzH_nItAt68C7VYGevOawpETM
-    short-id: '!!str 88c0a94a78c5ef4b'
-  server: 162.55.242.208
-  servername: www.cloudflare.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6deab233-3abc-492a-85c9-503ef4160b47
-  xudp: true
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 14'
-  network: raw
-  port: '443'
-  reality-opts:
-    public-key: jArfQhwueyEcn5c5OkbtFavMJbiLM9aWH3Xbxnu6EEM
+    public-key: oHL8Bc1TqMpL4x46qoyZKZBKuaQOSjSrNGUQKgAUi1g
     short-id: '!!str '
-  server: 77.110.99.144
-  servername: yahoo.com
+  server: e757de.rucdn.pro
   tls: true
   type: vless
   udp: true
-  uuid: c1943f8a-11c6-402d-a439-dc0be226d916
-  xudp: true
-- client-fingerprint: edge
-  name: '[H] 🇩🇪 德国 15'
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '!!str f79448a30d'
-  server: de-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 0678ed07-980a-49c1-9066-05caec654967
-  xhttp-opts:
-    mode: packet-up
-    path: /assets/v2/pkg
+  uuid: 21672ca3-da3f-46cd-9b67-2b2d4cb0beb3
   xudp: true
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 11'
+  network: ws
+  port: 16632
+  server: m.cnmjin.net
+  tls: false
+  type: vmess
+  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
+  ws-opts:
+    headers:
+      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇩🇪 德国 12'
   network: ws
   port: 16617
   server: planb.mojcn.com.linuxlh.xin
@@ -185,7 +134,7 @@ proxies:
   - http/1.1
   client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 17'
+  name: '[I] 🇩🇪 德国 13'
   port: 443
   server: 5.83.129.124
   servername: 50gport3.potatosubge20.org
@@ -194,7 +143,7 @@ proxies:
   uuid: a9aceeb9-17cc-470e-a03b-b7c3ee0f9f14
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 18'
+  name: '[I] 🇩🇪 德国 14'
   network: ws
   port: '16632'
   server: planb.mojcn.com.linuxlh.xin
