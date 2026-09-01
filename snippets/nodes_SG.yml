@@ -1,5 +1,5 @@
 proxies:
-- name: '[F] 🇸🇬 新加坡 16'
+- name: '[F] 🇸🇬 新加坡 19'
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -7,35 +7,20 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alterId: 2
-  cipher: auto
-  name: '[H] 🇸🇬 新加坡 17'
-  port: 30845
-  server: v45.hdacd.com
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇸🇬 新加坡 20'
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 104.18.32.47
   skip-cert-verify: true
-  tls: false
-  type: vmess
+  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf
-  name: '[H] 🇸🇬 新加坡 18'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 37949-LD4JNZAf.download.microsoft.com
-    mode: http
-  port: '8211'
-  server: cn08.somethingstranges.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf
-  name: '[H] 🇸🇬 新加坡 19'
-  password: passwd
-  plugin: obfs
-  plugin-opts:
-    host: 37949-LD4JNZAf.download.microsoft.com
-    mode: http
-  port: '8206'
-  server: cn07.somethingstranges.com
-  type: ss
-  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls

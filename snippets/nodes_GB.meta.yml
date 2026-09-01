@@ -19,16 +19,18 @@ proxies:
   type: http
 - name: '[H] 🇬🇧 英国 03'
   port: 443
-  server: 37.120.233.50
+  server: 185.235.0.34
   skip-cert-verify: true
   tls: true
   type: http
 - name: '[H] 🇬🇧 英国 04'
+  password: None
   port: 443
   server: 193.36.118.210
   skip-cert-verify: true
   tls: true
   type: http
+  username: null
 - name: '[H] 🇬🇧 英国 05'
   port: 9443
   server: 37.120.233.34
@@ -43,35 +45,20 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 07'
-  network: tcp
-  port: 10041
-  reality-opts:
-    public-key: O8Av8GXWVqj7FOxUyStmrTLWv5EtvQ1ZnMOVVLb1V3s
-    short-id: '!!str 1bc2c1ef1c'
-  server: uk01.vletun.qianmoxingyun.com
-  servername: www.apple.com
+- name: '[H] 🇬🇧 英国 07'
+  password: None
+  port: 3118
+  server: 154.61.56.215
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 08'
+  password: None
+  port: 443
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
-  type: vless
-  uuid: d742752c-4231-4695-801e-f06d77f0f277
-- client-fingerprint: ios
-  encryption: none
-  name: '[H] 🇬🇧 英国 08'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ugtm31PMWRlIc6ECuwte3TQ8dvl5ySnrewLZYIAoV1Y
-    short-id: '!!str f8c90594fb7adb6e'
-  server: eg.linuxbase.ir
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ffaa4b21-9842-4206-8f4c-20588033c481
-  xudp: true
+  type: http
+  username: null
 - name: '[I] 🇬🇧 英国 09'
   network: tcp
   port: 22223

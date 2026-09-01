@@ -7,9 +7,55 @@ proxies:
   tls: true
   type: http
   username: null
+- name: '[H] SE 02'
+  password: None
+  port: 443
+  server: 149.50.216.65
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] SE 03'
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] SE 04'
+  network: tcp
+  port: '8443'
+  reality-opts:
+    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
+    short-id: '!!str 4326'
+  server: get4s.skystreamgame.com
+  servername: get4s.skystreamgame.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2569614f-879b-43de-9cd9-9bb304b68856
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] SE 05'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
+    short-id: '!!str f0eb800bd980b00b'
+  server: sto.edgeptr.org
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: 68ef57c2-fc11-4468-9e68-625704c5eee8
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] SE 02'
+  name: '[I] SE 06'
   network: tcp
   port: 443
   reality-opts:

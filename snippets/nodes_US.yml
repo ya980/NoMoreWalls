@@ -1,10 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 06'
+  name: '[E] 🇺🇸 美国 08'
+  network: ws
+  port: '47431'
+  server: jp.6807251.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 09'
   network: ws
   port: '8443'
-  server: chatgpt.com
+  server: 172.64.80.1
   servername: ''
   tls: true
   type: vmess
@@ -13,33 +27,19 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 07'
-  network: ws
-  port: '8443'
-  server: chatgpt.com
-  servername: v2ray1.dozapp.xyz
-  tls: true
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 08'
+  name: '[F] 🇺🇸 美国 10'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 09'
+  name: '[F] 🇺🇸 美国 11'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 10'
+- name: '[F] 🇺🇸 美国 12'
   network: tcp
   password: BxceQaOe
   port: 52770
@@ -47,21 +47,3 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 12'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: '[H] 🇺🇸 美国 18'
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (TG @WangCai2)c47ab06:133288
-    mode: tls
-  port: 2377
-  server: 3ce8ee8.hb.gladns.com
-  type: ss
-  udp: true
