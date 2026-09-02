@@ -20,16 +20,19 @@ proxies:
   tls: true
   type: http
 - name: '[H] 🇬🇧 英国 04'
-  password: None
-  port: 32766
-  server: 178.62.83.124
-  type: http
-  username: null
-- name: '[H] 🇬🇧 英国 05'
-  port: 8443
-  server: 5.101.149.245
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
   tls: true
   type: http
+- name: '[H] 🇬🇧 英国 05'
+  password: None
+  port: 443
+  server: 212.102.63.31
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: chrome
   name: '[I] 🇬🇧 英国 06'
   network: ws

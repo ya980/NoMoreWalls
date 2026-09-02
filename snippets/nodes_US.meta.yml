@@ -66,19 +66,19 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 07'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  password: 2_hysteria2_fastlane_py5fqull8
   port: 443
-  server: vpn-au-002.fastervpn.world
-  skip-cert-verify: true
-  sni: t.me
+  server: 130.49.219.99
+  skip-cert-verify: false
+  sni: at3.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 08'
-  password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
-  port: 443
-  server: ush2.shazamri.xyz
+  password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
+  port: 30001
+  server: 155.117.19.221
   skip-cert-verify: true
-  sni: ush2.shazamri.xyz
+  sni: 155.117.19.221
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 09'
@@ -89,23 +89,35 @@ proxies:
   sni: www.apple.com
   tls: false
   type: hysteria2
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇺🇸 美国 10'
-  network: tcp
-  port: '443'
-  server: 165.140.216.141
-  servername: ''
+- name: '[E] 🇺🇸 美国 10'
+  password: a7c561fe673c05f2ad2fe6f7f1aee41c
+  port: 50160
+  server: 104.129.54.249
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
-  type: vmess
-  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 11'
   network: ws
   port: '8443'
   server: 172.64.80.1
-  servername: ''
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 12'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -114,18 +126,18 @@ proxies:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 12'
+  name: '[F] 🇺🇸 美国 13'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 13'
+  name: '[F] 🇺🇸 美国 14'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 14'
+- name: '[F] 🇺🇸 美国 15'
   network: tcp
   password: BxceQaOe
   port: 52770
@@ -133,209 +145,18 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 15'
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 22216
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  sni: us72.pulsarcore.site
-  type: anytls
-  udp: true
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   name: '[H] 🇺🇸 美国 16'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.233
+  password: 86bf33ea-62d9-49a1-9bd0-73e45f6e1403
+  port: '40013'
+  server: us1002.lunartrace.io
   type: ss
   udp: true
-- alterId: 2
-  cipher: auto
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
   name: '[H] 🇺🇸 美国 17'
-  network: tcp
-  port: 30829
-  server: v29.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 18'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
-  type: ss
-  udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 19'
-  network: ws
-  port: '443'
-  server: web-production-5f54e.up.railway.app
-  servername: web-production-5f54e.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: da8f7273-fd3c-47fd-8938-b47b8eb0bb1e
-  ws-opts:
-    headers:
-      Host: web-production-5f54e.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1713 Build/MRA58K) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /ws/vless/da8f7273-fd3c-47fd-8938-b47b8eb0bb1e?ed
-  xudp: true
-- name: '[H] 🇺🇸 美国 20'
-  port: 443
-  server: voteshirleysew.club
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 21'
-  port: 9002
-  server: 138.199.35.198
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 22'
-  password: None
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 23'
-  port: 9002
-  server: 138.199.35.212
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 24'
-  password: ''
-  port: 9002
-  server: 138.199.35.219
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 25'
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 26'
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 27'
-  port: 4447
-  server: 54.174.5.216
-  type: http
-- name: '[H] 🇺🇸 美国 28'
-  port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  sni: jewelscollecti.icu
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 29'
-  password: None
-  port: 9002
-  server: 138.199.35.200
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 30'
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 31'
-  port: 25252
-  server: 52.168.83.190
-  type: http
-- name: '[H] 🇺🇸 美国 32'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 33'
-  password: ''
-  port: 9002
-  server: 138.199.35.217
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 34'
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 35'
-  password: None
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 36'
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 37'
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 38'
-  network: ws
-  port: '443'
-  server: piracy-android.video-streams.org
-  servername: piracy-android.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: ecbc4229-e8d3-4607-8f02-fd592c9a0743
-  ws-opts:
-    headers:
-      Host: piracy-android.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /ws
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 39'
   network: ws
   port: '443'
   server: web-production-3b1c1.up.railway.app
@@ -347,12 +168,23 @@ proxies:
   ws-opts:
     headers:
       Host: web-production-3b1c1.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
     path: /vl-ws
   xudp: true
+- alterId: 2
+  cipher: auto
+  name: '[H] 🇺🇸 美国 18'
+  port: 30829
+  server: v29.hdacd.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  xudp: true
 - client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 40'
+  name: '[H] 🇺🇸 美国 19'
   network: tcp
   password: 5b5b69cd-c9f6-3117-8f4f-0e9bff3811b7
   port: '14492'
@@ -361,42 +193,191 @@ proxies:
   sni: un5.sonofthewinds.com
   type: trojan
   udp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 41'
-  network: ws
+- name: '[H] 🇺🇸 美国 20'
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
+- name: '[H] 🇺🇸 美国 21'
+  port: 9002
+  server: 138.199.35.198
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: '[H] 🇺🇸 美国 22'
+  network: grpc
+  port: 10242
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: us5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
+- name: '[H] 🇺🇸 美国 23'
+  password: None
+  port: 9002
+  server: 138.199.35.218
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 24'
+  password: None
+  port: 443
+  server: berniesbodybla.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 25'
+  password: None
+  port: 443
+  server: tzoa.fun
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 26'
+  password: None
+  port: 9002
+  server: 138.199.35.197
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 27'
+  password: None
+  port: 443
+  server: jewelscollecti.icu
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 28'
+  password: ''
+  port: 9002
+  server: 138.199.35.209
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: '[H] 🇺🇸 美国 29'
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 30'
+  port: 25252
+  server: 52.168.83.190
+  type: http
+- name: '[H] 🇺🇸 美国 31'
+  port: 9002
+  server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 32'
+  password: None
+  port: 9002
+  server: 138.199.35.201
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 33'
+  password: None
+  port: 443
+  server: jgwynphotoarts.pro
+  skip-cert-verify: false
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 34'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: '[H] 🇺🇸 美国 35'
+  password: None
+  port: 9002
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 36'
+  port: 443
+  server: zebpay.site
+  sni: zebpay.site
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 37'
+  password: None
+  port: 5252
+  server: 148.100.84.192
+  type: http
+  username: null
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇺🇸 美国 38'
+  obfs: ''
+  obfs-password: ''
+  password: d19b459e-fcc3-4f2a-8f2e-77e8701cd1d8
   port: '443'
-  server: ghosts-spasm.quick-cdn.net
-  servername: ghosts-spasm.quick-cdn.net
+  server: ush2.shazamri.xyz
+  skip-cert-verify: true
+  sni: ush2.shazamri.xyz
+  type: hysteria2
+  up: ''
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 39'
+  network: tcp
+  port: '25349'
+  reality-opts:
+    public-key: N31z1jM2i1-b9eJ3Xkt2ibM6aXQN8qqWU25ZR12TSWI
+    short-id: '!!str c3005582c0fc496f'
+  server: 148.135.184.46
+  servername: proxy11.h1guro.ovh
   tls: true
   type: vless
   udp: true
-  uuid: 91c35e01-00bf-41f5-94e4-71539222d255
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.31 (KHTML, like
-        Gecko) Chrome/26.0.1410.64 Safari/537.31
-    path: /ws
+  uuid: 62a05f8e-eedf-4500-8c79-c9315f565bcc
   xudp: true
-- alterId: '0'
-  cipher: auto
-  http-opts:
-    headers: {}
-    path:
-    - /
-  name: '[H] 🇺🇸 美国 42'
-  network: http
-  port: '52080'
-  server: 38.246.226.240
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 7d4bd961-230c-4b34-ab5d-05cf0dfb4ea5
-  xudp: true
-- name: '[I] 🇺🇸 美国 43'
+- name: '[H] 🇺🇸 美国 40'
+  password: None
+  port: '443'
+  server: mmgr.club
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[H] 🇺🇸 美国 41'
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.215
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[I] 🇺🇸 美国 42'
   network: ws
   password: humanity
   port: 443
@@ -407,7 +388,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 44'
+- name: '[I] 🇺🇸 美国 43'
   network: ws
   password: humanity
   port: 443
@@ -416,7 +397,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 45'
+- name: '[I] 🇺🇸 美国 44'
   network: ws
   password: humanity
   port: 443
@@ -425,7 +406,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 46'
+- name: '[I] 🇺🇸 美国 45'
   network: ws
   password: humanity
   port: 443
@@ -436,7 +417,7 @@ proxies:
     headers:
       Host: www.ignitelimit.com
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 47'
+- name: '[I] 🇺🇸 美国 46'
   network: ws
   password: humanity
   port: 443
