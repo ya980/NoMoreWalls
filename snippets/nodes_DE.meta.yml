@@ -1,14 +1,7 @@
 proxies:
-- name: '[D] 🇩🇪 德国 01'
-  password: 1a17fbd6-a54f-456c-8e71-5282893e2b69
-  port: 443
-  server: 31.76.106.61
-  sni: gos.ultimagamest.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇩🇪 德国 02'
+  name: '[D] 🇩🇪 德国 01'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 1w61o8j0slf0q9yj
@@ -16,6 +9,14 @@ proxies:
   server: giftcard.gateway-stream.com
   skip-cert-verify: false
   sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '[D] 🇩🇪 德国 02'
+  password: 2_hysteria2_fastlane_udfa4x14j
+  port: 443
+  server: 2.27.25.75
+  skip-cert-verify: false
+  sni: de11.h.fastlanehosting.ru
   tls: false
   type: hysteria2
 - alpn:
@@ -52,11 +53,16 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 06'
-  password: AstroVPN_official
-  port: 36896
-  server: ptserv.accuratenetworkchecker.ir
-  sni: lms22.gelzaro.ir
+- alpn:
+  - h3
+  name: '[D] 🇩🇪 德国 06'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 8f0gvz5eul6omhq4
+  port: 52023
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
@@ -83,9 +89,16 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
+- name: '[D] 🇩🇪 德国 09'
+  password: b504a1c7-1bfe-461f-9329-cbc653deb3d7
+  port: 443
+  server: 144.31.217.201
+  sni: 144-31-217-201.sslip.io
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
-  name: '[D] 🇩🇪 德国 09'
+  name: '[D] 🇩🇪 德国 10'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: clz08qwil91241w7
@@ -95,55 +108,65 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 10'
+- name: '[D] 🇩🇪 德国 11'
   password: jbmuokj7p4kg4h4s
   port: 52029
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇩🇪 德国 11'
-  password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
-  port: 443
-  server: 5.83.129.11
-  skip-cert-verify: true
-  sni: germany1.h2corp.local
-  tls: false
-  type: hysteria2
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - amp-api-edge.apps.apple.com
-    path:
-    - /
+- client-fingerprint: firefox
   name: '[H] 🇩🇪 德国 12'
-  network: http
-  port: '61169'
-  server: ger22.orangesms.ir
+  network: xhttp
+  port: 443
+  server: 188.72.103.4
+  servername: cdn.huananconn.xyz
+  tls: true
   type: vless
   udp: true
-  uuid: 44b5f266-2b4f-46ca-83ff-99df77147c30
-  xudp: true
-- name: '[I] 🇩🇪 德国 13'
+  uuid: 9329556f-f4c2-42fe-8859-c52ce5f95c23
+  xhttp-opts:
+    host: cdn.huananconn.xyz
+    mode: packet-up
+    path: /api/v1/assets
+    uplink-http-method: GET
+    x-padding-bytes: 16-64
+    x-padding-header: X-Signature
+    x-padding-key: _token
+    x-padding-method: tokenish
+    x-padding-obfs-mode: true
+    x-padding-placement: query
+- encryption: none
+  name: '[H] 🇩🇪 德国 13'
   network: ws
-  port: 2087
-  server: 163.8.195.241
-  tls: false
+  port: '2052'
+  server: freesocks.work
   type: vless
-  uuid: 56ba5d34-ef22-4ba6-8090-4188b807df54
+  udp: true
+  uuid: 078154d5-f211-4d1c-b9d3-15636eb477b6
   ws-opts:
-    path: /29c8fed7ca22
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[I] 🇩🇪 德国 14'
-  network: tcp
+    headers:
+      Host: uwu.blueknightnet.qzz.io
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Moto G (5) Build/NPPS25.137-93-14)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /@BlueKnight_net--@BlueKnight_net
+  xudp: true
+- name: '[H] 🇩🇪 德国 14'
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 15'
+  password: f93486ce-cc84-11ed-9e98-f23c913c8d2b
   port: 443
-  reality-opts:
-    public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE
-    short-id: '!!str ff776ff77be48b88'
-  server: 177.3.213.112
-  servername: germanika.stopingiphatered.shop
-  tls: false
-  type: vless
-  uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8
+  server: 2873b477-tk7400-tlvq5w-1jcwu.de3.oshuawei.com
+  skip-cert-verify: true
+  sni: 2873b477-tk7400-tlvq5w-1jcwu.de3.oshuawei.com
+  tls: true
+  type: http
+  username: f93486ce-cc84-11ed-9e98-f23c913c8d2b
+- name: '[H] 🇩🇪 德国 16'
+  port: 8889
+  server: 37.114.34.217
+  type: http

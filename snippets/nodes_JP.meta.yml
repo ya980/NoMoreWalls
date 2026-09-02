@@ -11,7 +11,48 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[F] 🇯🇵 日本 02'
+- name: '[E] 🇯🇵 日本 02'
+  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+  port: 20201
+  server: x-rb8.xueshan168.cc
+  skip-cert-verify: true
+  sni: x-rb8.xueshan168.cc
+  tls: false
+  type: hysteria2
+- auth: 4d6d97a82ddf959252e2ada36c3c3053
+  name: '[E] 🇯🇵 日本 03'
+  password: 4d6d97a82ddf959252e2ada36c3c3053
+  port: 50160
+  server: 138.2.8.249
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 04'
+  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+  port: 20201
+  server: rb.xueshan168.cc
+  skip-cert-verify: true
+  sni: rb.xueshan168.cc
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 05'
+  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+  port: 20201
+  server: x-rb.xueshan168.cc
+  skip-cert-verify: true
+  sni: x-rb1.xueshan168.cc
+  tls: false
+  type: hysteria2
+- name: '[E] 🇯🇵 日本 06'
+  password: 954f9a43-b779-46a7-8a3e-8f951ad51a2e
+  port: 20201
+  server: x-rb7.xueshan168.cc
+  skip-cert-verify: true
+  sni: x-rb7.xueshan168.cc
+  tls: false
+  type: hysteria2
+- name: '[F] 🇯🇵 日本 07'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -20,65 +61,37 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 03'
+  name: '[F] 🇯🇵 日本 08'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 09'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- alterId: 0
-  cipher: auto
-  name: '[H] 🇯🇵 日本 05'
-  network: ws
-  port: 8555
-  server: 54.168.242.25
-  skip-cert-verify: true
-  type: vmess
-  uuid: 7aa3a024-e333-4b63-99a2-3db9d3b2054e
-  ws-opts:
-    headers:
-      Host: a.189.cn
-    path: /
-- client-fingerprint: chrome
-  name: '[H] 🇯🇵 日本 06'
-  network: ws
-  port: '443'
-  server: 172.64.229.30
-  servername: jp1-jp1.aiopen.sbs
-  tls: true
-  type: vless
-  udp: true
-  uuid: 450ed4bd-fc3e-4aab-b50d-33f2cdfcfc18
-  ws-opts:
-    headers:
-      Host: jp1-jp1.aiopen.sbs
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /kbjc/jp1
-  xudp: true
-- name: '[H] 🇯🇵 日本 07'
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- name: '[H] 🇯🇵 日本 10'
+  password: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
   port: 443
-  server: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
-  sni: c5f5a67c-tdups0-tf8z9r-1pr35.jp.oshuawei.com
+  server: 54bcaef3-tcev40-th02zb-m0b9.jp.oshuawei.com
   tls: true
   type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-- client-fingerprint: chrome
-  name: '[I] 🇯🇵 日本 08'
+  username: bb85e074-b0c2-11ea-ad28-f23c913c8d2b
+- name: '[H] 🇯🇵 日本 11'
+  password: 'null'
+  port: '443'
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[I] 🇯🇵 日本 12'
   network: ws
   port: 443
-  server: 202.155.11.249
-  servername: cf2.rumedia-cdn.com
+  server: www.speedtest.net
+  servername: top-e4s.pages.dev
   tls: true
   type: vless
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  ws-opts:
-    headers:
-      Host: cf2.rumedia-cdn.com
-    path: '%2Fcdn%2Fv3%2Flive'
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
