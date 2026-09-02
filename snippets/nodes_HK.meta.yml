@@ -1,119 +1,15 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 01'
-  network: ws
-  port: '443'
-  server: 210.138.37.53
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 02'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
+- name: '[E] 🇭🇰 香港 01'
+  password: 71e75cc1-d625-4be2-b3e4-ea2b197abf25
+  port: 20000
+  server: hkt03ddns.poke-mon.xyz
+  skip-cert-verify: true
+  sni: www.bing.com
   tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: 156.245.232.239
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 03'
-  network: ws
-  port: '35043'
-  server: 156.245.232.239
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 04'
-  network: ws
-  port: '443'
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 05'
-  network: ws
-  port: '443'
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  servername: drbkg16egf3fzlm3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 06'
-  network: ws
-  port: '443'
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: ''
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 07'
-  network: ws
-  port: '443'
-  server: drbkg16egf3fzlm3.v.3dns.vip
-  servername: DrBKg16eGf3FZlM3.v.3dns.vip
-  tls: true
-  type: vmess
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: DrBKg16eGf3FZlM3.v.3dns.vip
-    path: /ws-vmess
-- alterId: 0
-  cipher: auto
-  name: '[E] 🇭🇰 香港 08'
-  network: ws
-  port: '443'
-  server: n1747624260.4u9ma.icu
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: eee8cb72-7eab-4034-a308-ed06cb07e003
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
+  type: hysteria2
 - alterId: 2
   cipher: auto
-  name: '[F] 🇭🇰 香港 09'
+  name: '[F] 🇭🇰 香港 02'
   port: 30807
   server: v10.hdacd.com
   skip-cert-verify: false
@@ -121,18 +17,18 @@ proxies:
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 10'
+  name: '[F] 🇭🇰 香港 03'
   password: Butterfly123@qwe9527
   port: 10001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇭🇰 香港 11'
+  name: '[F] 🇭🇰 香港 04'
   password: Butterfly123@qwe9527
   port: 10006
   server: 112.28.141.77
   type: ss
-- name: '[F] 🇭🇰 香港 12'
+- name: '[F] 🇭🇰 香港 05'
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -140,7 +36,7 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[F] 🇭🇰 香港 13'
+- name: '[F] 🇭🇰 香港 06'
   network: tcp
   password: BxceQaOe
   port: 2944
@@ -150,7 +46,7 @@ proxies:
   type: trojan
 - alterId: 2
   cipher: auto
-  name: '[G] 🇭🇰 香港 14'
+  name: '[G] 🇭🇰 香港 07'
   network: tcp
   port: '30807'
   server: v10.hdacd.com
@@ -158,42 +54,59 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: movie
-  name: '[H] 🇭🇰 香港 15'
-  network: grpc
-  port: 10128
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: hk3-r.link-t7.com
-  servername: s0.awsstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 16'
+  name: '[H] 🇭🇰 香港 08'
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
   ws-opts:
     headers:
-      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+      Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
     path: /
-- alterId: '0'
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: '[H] 🇭🇰 香港 09'
+  network: grpc
+  port: 10130
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: movie
+  name: '[H] 🇭🇰 香港 10'
+  network: grpc
+  port: '10129'
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+  xudp: true
+- alterId: 0
   cipher: auto
-  name: '[H] 🇭🇰 香港 17'
+  name: '[H] 🇭🇰 香港 11'
   network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
+  port: 16632
+  server: t.cnmjcn.cyou
   skip-cert-verify: false
   tls: false
   type: vmess
@@ -208,29 +121,52 @@ proxies:
   encryption: none
   grpc-opts:
     grpc-mode: gun
-    grpc-service-name: movie
-  name: '[H] 🇭🇰 香港 18'
+    grpc-service-name: update
+  name: '[H] 🇭🇰 香港 12'
   network: grpc
-  packet-encoding: xudp
-  port: 10130
+  port: 10126
   reality-opts:
     public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
     short-id: '!!str 686c0ef0'
-  server: hk5-r.link-t7.com
+  server: hk1-r.link-t7.com
   servername: s0.awsstatic.com
-  skip-cert-verify: true
   tls: true
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-- name: '[H] 🇭🇰 香港 19'
-  password: abc123
-  port: 1080
-  server: 47.239.98.42
-  type: socks5
-  username: abc123
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: '[H] 🇭🇰 香港 13'
+  network: grpc
+  port: 10127
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk2-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 20'
+  name: '[H] 🇭🇰 香港 14'
+  network: tcp
+  port: '10025'
+  reality-opts:
+    public-key: o9HJwtbkN76N7Tp5Iz_mVgOWGGjdIFLVSMN4VeK1M38
+    short-id: '!!str dc3a980d52dd'
+  server: family.bucket.zjs.h.1.0.kfc-520.com
+  servername: www.hp.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: c2564a65-0821-3241-b090-45d49cef58fd
+  xudp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[I] 🇭🇰 香港 15'
   port: 15006
   reality-opts:
     public-key: g9KZONtwSL8mL772rps2nXVAuQpsgHY33K_pHpI89Rg
@@ -242,7 +178,7 @@ proxies:
   uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇭🇰 香港 21'
+  name: '[I] 🇭🇰 香港 16'
   port: 15003
   reality-opts:
     public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8

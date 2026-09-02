@@ -1,25 +1,43 @@
 proxies:
-- client-fingerprint: edge
-  encryption: none
-  name: '[H] 🇷🇺 俄罗斯 01'
-  network: ws
-  port: '443'
-  server: ru05.abvpn.ru
-  servername: ru05.abvpn.ru
+- name: '[D] 🇷🇺 俄罗斯 01'
+  obfs: salamander
+  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
+  password: cd74c0a406664a5bc0bac098220a2468
+  port: 443
+  server: 144.31.49.138
+  skip-cert-verify: false
+  sni: ru1.sferavpn.pro
+  tls: false
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 02'
+  network: tcp
+  port: 8443
+  server: 185.147.27.183
+  servername: user-6a917f32.noooo.win
   tls: true
   type: vless
   udp: true
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  ws-opts:
-    headers:
-      Host: ru05.abvpn.ru
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/63.0.3239.132 Safari/537.36
-    path: /websocket
+  uuid: 379998c5-2a71-4202-9c74-522e0c3c5404
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: '[H] 🇷🇺 俄罗斯 03'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: X5QCQAU6PhQ0ZYdMfsOD8SzK2tAcKqGbqHcGKOCkHg0
+    short-id: '!!str 3e70d4cbb01bddfd'
+  server: ru.opngtr.nl
+  servername: cdn.savesafe.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 39c42b0a-b823-4c93-bb99-74b4183e518d
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 04'
   port: 443
   reality-opts:
     public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
@@ -30,7 +48,7 @@ proxies:
   type: vless
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
 - client-fingerprint: edge
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 05'
   network: ws
   port: 443
   server: ru05.abvpn.ru
