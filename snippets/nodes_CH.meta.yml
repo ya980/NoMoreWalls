@@ -39,21 +39,19 @@ proxies:
   sni: de1.sferavpn.pro
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: '[H] CH 05'
-  network: xhttp
-  port: '443'
-  reality-opts:
-    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
-    short-id: '!!str f79448a30d'
-  server: ch-xh01.tcp-reset-club.net
-  servername: s3.netavex.com
+- name: '[E] CH 05'
+  password: 84a506ca5aca505696a454d828420b3f
+  port: 50160
+  server: 140.238.213.114
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[H] CH 06'
+  password: None
+  port: 9443
+  server: 37.120.213.210
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
-  xhttp-opts:
-    mode: packet-up
-    path: /assets/v2/pkg
-  xudp: true
+  type: http
+  username: null
