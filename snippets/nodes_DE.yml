@@ -1,14 +1,27 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇩🇪 德国 14'
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: '[H] 🇩🇪 德国 20'
   network: ws
-  port: '16632'
-  server: planb.mojcn.com.linuxlh.xin
-  tls: false
-  type: vmess
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  password: ysbdg3l5iqbvo26u
+  port: '2097'
+  server: 185.204.170.130
+  skip-cert-verify: false
+  type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /
+- name: '[I] 🇩🇪 德国 23'
+  network: ws
+  password: humanity
+  port: 443
+  server: 141.101.90.101
+  sni: www.ignitelimit.com
+  type: trojan
+  ws-opts:
+    path: '%2Fassignment'
