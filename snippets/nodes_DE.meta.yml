@@ -117,43 +117,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: '[D] 🇩🇪 德国 12'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vpwzu6ug7tpoprsq
-  port: 52020
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[D] 🇩🇪 德国 13'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vpwzu6ug7tpoprsq
-  port: 52021
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  name: '[D] 🇩🇪 德国 14'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: vpwzu6ug7tpoprsq
-  port: 52022
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 15'
+- name: '[E] 🇩🇪 德国 12'
   password: 0fb89362-121d-4d44-9ed3-99c40aa5a6b4
   port: 443
   server: 2.26.93.130
@@ -161,108 +125,23 @@ proxies:
   sni: se1.hat.onl
   tls: false
   type: hysteria2
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 16'
-  network: ws
-  port: '443'
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /
-  xudp: true
-- alpn:
-  - h3
-  auth_str: dongtaiwang.com
-  down: '1000'
-  name: '[H] 🇩🇪 德国 17'
-  port: 20088
-  server: 5.83.129.153
-  skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  udp: true
-  up: '500'
-- name: '[H] 🇩🇪 德国 18'
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
+- name: '[E] 🇩🇪 德国 13'
+  password: 7027919f-ffc6-4cbf-92a7-af1c0f860b86
   port: 443
-  server: as-de003.y1static-content-distribution.shop
+  server: 2.26.93.130
   skip-cert-verify: true
-  sni: as-de003.y1static-content-distribution.shop
-  type: anytls
-  udp: true
-- name: '[H] 🇩🇪 德国 19'
-  password: None
+  sni: se1.hat.onl
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 14'
+  password: e11728c3-a786-44b9-ad8b-0b7e738d33bd
   port: 443
-  server: 149.36.50.157
+  server: 2.26.93.130
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: '[H] 🇩🇪 德国 20'
-  network: grpc
-  packet-encoding: xudp
-  port: 18443
-  reality-opts:
-    public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
-    short-id: '!!str 5c766813929a1fdd'
-  server: gp1.steptofsvo.com
-  servername: gp1.steptofsvo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab6a5359-0edf-41c3-8dfd-e4b005e80820
-  xudp: true
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  name: '[H] 🇩🇪 德国 21'
-  network: ws
-  password: ysbdg3l5iqbvo26u
-  port: '2097'
-  server: 185.204.170.130
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /
-- alpn:
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇩🇪 德国 22'
-  network: xhttp
-  port: '1819'
-  server: 185.204.170.130
-  tls: true
-  type: vless
-  udp: true
-  uuid: b8136e5f-8ece-4a06-99af-5a207c749bc4
-  xhttp-opts:
-    mode: auto
-    path: /
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: '[I] 🇩🇪 德国 23'
+  sni: se1.hat.onl
+  tls: false
+  type: hysteria2
+- name: '[I] 🇩🇪 德国 15'
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -275,7 +154,20 @@ proxies:
     path: /29c8fed7ca22
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 24'
+  name: '[I] 🇩🇪 德国 16'
+  network: ws
+  port: 16626
+  server: planb.mojcn.com.linuxlh.xin
+  tls: false
+  type: vmess
+  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  ws-opts:
+    headers:
+      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '[I] 🇩🇪 德国 17'
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
