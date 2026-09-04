@@ -117,31 +117,64 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇩🇪 德国 12'
-  password: 0fb89362-121d-4d44-9ed3-99c40aa5a6b4
-  port: 443
-  server: 2.26.93.130
+- alpn:
+  - h3
+  auth_str: dongtaiwang.com
+  down: '1000'
+  name: '[H] 🇩🇪 德国 12'
+  port: 20088
+  server: 5.83.129.153
   skip-cert-verify: true
-  sni: se1.hat.onl
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 13'
-  password: 7027919f-ffc6-4cbf-92a7-af1c0f860b86
-  port: 443
-  server: 2.26.93.130
+  sni: apple.com
+  type: hysteria
+  udp: true
+  up: '500'
+- name: '[H] 🇩🇪 德国 13'
+  password: None
+  port: 9443
+  server: 87.249.132.97
   skip-cert-verify: true
-  sni: se1.hat.onl
-  tls: false
-  type: hysteria2
-- name: '[E] 🇩🇪 德国 14'
-  password: e11728c3-a786-44b9-ad8b-0b7e738d33bd
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 14'
+  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 443
-  server: 2.26.93.130
+  server: as-de003.y1static-content-distribution.shop
   skip-cert-verify: true
-  sni: se1.hat.onl
-  tls: false
-  type: hysteria2
-- name: '[I] 🇩🇪 德国 15'
+  sni: as-de003.y1static-content-distribution.shop
+  type: anytls
+  udp: true
+- name: '[H] 🇩🇪 德国 15'
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇩🇪 德国 16'
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- encryption: mlkem768x25519plus.native.0rtt.VXroE7YiAEnkT3_E_NxnAR6YpFzOuEc_p8ipnEa_RjM
+  http-opts:
+    headers:
+      Host:
+      - amp-api-edge.apps.apple.com
+    path:
+    - /
+  name: '[H] 🇩🇪 德国 17'
+  network: http
+  port: '32133'
+  server: NJH.FARS-REMEN.IR
+  type: vless
+  udp: true
+  uuid: 6cb9b3d9-e7d4-46b1-96ce-85270b0778a0
+  xudp: true
+- name: '[I] 🇩🇪 德国 19'
   network: ws
   port: 2087
   server: 163.8.195.241
@@ -154,7 +187,7 @@ proxies:
     path: /29c8fed7ca22
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 16'
+  name: '[I] 🇩🇪 德国 20'
   network: ws
   port: 16626
   server: planb.mojcn.com.linuxlh.xin
@@ -167,7 +200,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '[I] 🇩🇪 德国 17'
+  name: '[I] 🇩🇪 德国 21'
   network: ws
   port: 16632
   server: planb.mojcn.com.linuxlh.xin
