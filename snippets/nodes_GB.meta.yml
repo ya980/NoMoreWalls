@@ -1,5 +1,19 @@
 proxies:
-- name: '[I] 🇬🇧 英国 01'
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[I] 🇬🇧 英国 01'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: WxGqUqMkMBfXSRIoY1NfgHFNSf7sfffz5qsAW6IgNGg
+    short-id: '!!str f3c4d9b1e7e4f712'
+  server: api-uk.upd-media.com
+  servername: api-uk.upd-media.com
+  tls: false
+  type: vless
+  uuid: ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36
+- client-fingerprint: chrome
+  name: '[I] 🇬🇧 英国 02'
   network: ws
   port: 2087
   server: 188.220.67.245
@@ -7,4 +21,4 @@ proxies:
   type: vless
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
-    path: /8f2690e2d016
+    path: '%2F8f2690e2d016'
