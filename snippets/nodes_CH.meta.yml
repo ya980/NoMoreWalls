@@ -1,14 +1,10 @@
 proxies:
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] CH 01'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 8f0gvz5eul6omhq4
-  port: 52017
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
+- name: '[E] CH 01'
+  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
+  port: 443
+  server: che01plrhy01.tcp-reset-club.net
+  skip-cert-verify: true
+  sni: che01plrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
 - name: '[E] CH 02'
@@ -17,13 +13,5 @@ proxies:
   server: che01plrhy01.tcp-reset-club.net
   skip-cert-verify: true
   sni: 127.0.0.1
-  tls: false
-  type: hysteria2
-- name: '[E] CH 03'
-  password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
-  port: 443
-  server: che01plrhy01.tcp-reset-club.net
-  skip-cert-verify: true
-  sni: che01plrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
