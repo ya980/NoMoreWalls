@@ -11,15 +11,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇯🇵 日本 02'
-  password: 4d6d97a82ddf959252e2ada36c3c3053
-  port: 50160
-  server: 138.2.8.249
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[F] 🇯🇵 日本 03'
+- name: '[F] 🇯🇵 日本 02'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -28,18 +20,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 04'
+  name: '[F] 🇯🇵 日本 03'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 05'
+  name: '[F] 🇯🇵 日本 04'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[H] 🇯🇵 日本 06'
+- name: '[H] 🇯🇵 日本 05'
   password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
   port: 12791
   server: jpglobal-identity-federation-auth.younai-ytl.shop
@@ -47,17 +39,17 @@ proxies:
   sni: jp10.pulsarcore.site
   type: anytls
   udp: true
-- alterId: 0
-  cipher: auto
-  name: '[I] 🇯🇵 日本 07'
+- alpn:
+  - http/1.1
+  name: '[I] 🇯🇵 日本 06'
   network: ws
-  port: 16632
-  server: planb.mojcn.com.linuxlh.xin
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: false
+  sni: ssl.fastly.com
+  type: trojan
   ws-opts:
     headers:
-      Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
-    path: /
+      Host: mitivpn-mitivpn-mitivpn---mitivpn--mitivpn.global.ssl.fastly.net
+    path: /---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI---TOOTFFARANGI
