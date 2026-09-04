@@ -8,9 +8,9 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇰🇷 韩国 02'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 3.36.111.166
+  password: 3d7634af8cb2c6cb4bac1c0efad8b43d
+  port: 50160
+  server: 152.67.200.82
   skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
@@ -20,10 +20,34 @@ proxies:
   port: 443
   server: 3.36.111.166
   skip-cert-verify: true
-  sni: t.me
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇰🇷 韩国 04'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 3.36.111.166
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[E] 🇰🇷 韩国 05'
+  password: 1671a252e2a97dc2bda4e515475931da
+  port: 50160
+  server: 132.226.226.189
+  skip-cert-verify: true
+  sni: www.bing.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇰🇷 韩国 06'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.124.233.211
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
+  tls: false
+  type: hysteria2
+- name: '[E] 🇰🇷 韩国 07'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: 13.125.11.91
@@ -32,9 +56,25 @@ proxies:
   tls: false
   type: hysteria2
 - cipher: aes-256-cfb
-  name: '[H] 🇰🇷 韩国 05'
+  name: '[H] 🇰🇷 韩国 08'
   password: 7eadc6dbe2ae
   port: '65443'
   server: 121.46.230.138
   type: ss
   udp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇰🇷 韩国 09'
+  network: raw
+  port: '19179'
+  reality-opts:
+    public-key: BabvzCKB_cqCz56qFQhOWIypFKFhEWo9Eyn_JPZIAxA
+    short-id: '!!str fa1e592603c283'
+  server: 3.38.1.152
+  servername: www.intel.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 10dd7b2d-eda2-4a47-9f6e-5093a3cd7ded
+  xudp: true
