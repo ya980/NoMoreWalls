@@ -58,16 +58,39 @@ proxies:
 - name: '[E] 🇰🇷 韩国 08'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
+  server: 13.124.233.211
+  skip-cert-verify: true
+  sni: t.me
+  tls: false
+  type: hysteria2
+- name: '[E] 🇰🇷 韩国 09'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: 13.125.11.91
+  skip-cert-verify: true
+  sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇰🇷 韩国 10'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
   server: 13.125.11.91
   skip-cert-verify: true
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
+- cipher: aes-256-cfb
+  name: '[H] 🇰🇷 韩国 11'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.138
+  type: ss
+  udp: true
 - client-fingerprint: chrome
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: '[H] 🇰🇷 韩国 09'
+  name: '[H] 🇰🇷 韩国 12'
   network: grpc
   port: 10050
   reality-opts:
@@ -82,7 +105,7 @@ proxies:
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: update
-  name: '[H] 🇰🇷 韩国 10'
+  name: '[H] 🇰🇷 韩国 13'
   network: grpc
   port: 10048
   reality-opts:
