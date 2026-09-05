@@ -47,27 +47,32 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
-- name: '[E] 🇰🇷 韩国 07'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 13.125.11.91
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇰🇷 韩国 07'
+  network: ws
+  port: '80'
+  server: 132.145.80.230
+  servername: ''
   tls: false
-  type: hysteria2
-- name: '[E] 🇰🇷 韩国 08'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 13.125.11.91
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇰🇷 韩国 09'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: 13.125.11.91
-  skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
+  type: vmess
+  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
+  ws-opts:
+    headers:
+      Host: kr02.a0a.xyz
+    path: /cctv13.m3u8
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇰🇷 韩国 08'
+  network: tcp
+  port: '8686'
+  reality-opts:
+    public-key: A3NXnUIT-W0m1Y_leRnv5so2IeCvk9FCFgL31PulfTw
+    short-id: '!!str 628b3c90c98ead4f'
+  server: 54.180.101.47
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1a17b19d-4896-4531-af79-6e91d8ef8228
+  xudp: true
