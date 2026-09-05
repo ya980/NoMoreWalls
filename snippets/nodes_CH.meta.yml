@@ -19,7 +19,7 @@ proxies:
   port: 443
   server: che01plrhy01.tcp-reset-club.net
   skip-cert-verify: true
-  sni: che01plrhy01.tcp-reset-club.net
+  sni: 127.0.0.1
   tls: false
   type: hysteria2
 - name: '[E] CH 04'
@@ -27,14 +27,14 @@ proxies:
   port: 443
   server: che01plrhy01.tcp-reset-club.net
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: che01plrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
-- name: '[H] CH 05'
-  password: None
-  port: 9443
-  server: 37.120.213.210
+- name: '[E] CH 05'
+  password: 84a506ca5aca505696a454d828420b3f
+  port: 50160
+  server: 140.238.213.114
   skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  sni: www.bing.com
+  tls: false
+  type: hysteria2

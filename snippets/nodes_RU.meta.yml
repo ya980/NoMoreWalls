@@ -1,5 +1,15 @@
 proxies:
-- name: '[D] 🇷🇺 俄罗斯 01'
+- name: '[B] 🇷🇺 俄罗斯 01'
+  network: ws
+  port: 8880
+  server: 45.67.215.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime48.workers.dev
+    path: /
+- name: '[D] 🇷🇺 俄罗斯 02'
   obfs: salamander
   obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
   password: cd74c0a406664a5bc0bac098220a2468
@@ -11,7 +21,7 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 02'
+  name: '[I] 🇷🇺 俄罗斯 03'
   network: tcp
   port: 443
   reality-opts:
@@ -24,7 +34,7 @@ proxies:
   uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 03'
+  name: '[I] 🇷🇺 俄罗斯 04'
   network: tcp
   port: 443
   reality-opts:
@@ -37,7 +47,7 @@ proxies:
   uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇷🇺 俄罗斯 04'
+  name: '[I] 🇷🇺 俄罗斯 05'
   port: 443
   reality-opts:
     public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
