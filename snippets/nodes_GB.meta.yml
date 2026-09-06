@@ -14,36 +14,44 @@ proxies:
   sni: labs.frkn.org
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 03'
-  port: 443
-  server: 212.102.63.31
-  skip-cert-verify: true
-  tls: true
-  type: http
 - name: '[H] 🇬🇧 英国 04'
   password: None
   port: 443
-  server: 37.120.233.34
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- client-fingerprint: chrome
+- name: '[H] 🇬🇧 英国 05'
+  port: 443
+  server: 185.235.0.98
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 06'
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
   encryption: none
-  name: '[H] 🇬🇧 英国 05'
-  network: tcp
-  port: '40421'
+  grpc-opts:
+    grpc-service-name: streaming
+  name: '[H] 🇬🇧 英国 07'
+  network: grpc
+  port: '43439'
   reality-opts:
-    public-key: wCxG46NhMGffE2VezAgfPj9PJckGUo07yEBvItYUAGI
-    short-id: '!!str '
-  server: 82.40.62.39
-  servername: amp-api-edge.apps.apple.com
+    public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4
+    short-id: '!!str 39ad36226f3abec8'
+  server: 31.77.111.11
+  servername: cdn.higames.ru
   tls: true
   type: vless
   udp: true
-  uuid: b2eed725-ce71-4ca8-967e-639669f26bc3
+  uuid: 428e923f-e608-412b-9e51-3b09ffab551f
   xudp: true
-- name: '[I] 🇬🇧 英国 06'
+- name: '[I] 🇬🇧 英国 08'
   network: ws
   port: 2087
   server: 188.220.67.245

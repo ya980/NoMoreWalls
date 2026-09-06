@@ -27,20 +27,21 @@ proxies:
   udp: true
   uuid: 8d1a1b09-12d6-4b76-82f0-893cc805d9c0
   xudp: true
-- alpn:
-  - h2
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
   name: '[H] 🇷🇺 俄罗斯 03'
-  network: tcp
+  network: raw
   port: '443'
-  server: 82.148.21.26
-  servername: crypt-obhod-15.mystatic-cdn.ru
+  reality-opts:
+    public-key: djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo
+    short-id: '!!str ea1058117be12087'
+  server: 46.173.25.146
+  servername: ru.crunch-crunch.com
   tls: true
   type: vless
   udp: true
-  uuid: 29834e2e-729c-491f-af21-d1d9a8bde8c6
+  uuid: 8d1a1b09-12d6-4b76-82f0-893cc805d9c0
   xudp: true
 - client-fingerprint: firefox
   flow: xtls-rprx-vision
