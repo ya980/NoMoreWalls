@@ -93,32 +93,29 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  auth-str: dongtaiwang.com
-  auth_str: dongtaiwang.com
-  down: 100 Mbps
-  name: '[H] 🇩🇪 德国 10'
-  port: 20088
-  protocol: udp
-  server: 5.83.129.153
+- name: '[E] 🇩🇪 德国 10'
+  password: gf1:gfhysteria2024
+  port: 443
+  server: 173.212.201.85
   skip-cert-verify: true
-  sni: apple.com
-  type: hysteria
-  up: 50 Mbps
-- name: '[H] 🇩🇪 德国 11'
-  password: udp-relay=true
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: None
+  sni: 173.212.201.85
+  tls: false
+  type: hysteria2
+- name: '[E] 🇩🇪 德国 11'
+  password: gf1
+  port: 443
+  server: 173.212.201.85
+  skip-cert-verify: true
+  sni: www.docker.com
+  tls: false
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-service-name: gun
   name: '[H] 🇩🇪 德国 12'
   network: grpc
-  port: 443
+  port: '443'
   reality-opts:
     public-key: QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng
     short-id: '!!str 3fa234ea9feaa048'
@@ -130,60 +127,14 @@ proxies:
   uuid: d7430ae7-320c-4658-808b-3006d0627d82
   xudp: true
 - name: '[H] 🇩🇪 德国 13'
+  password: None
   port: 443
-  server: 149.36.50.129
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
-  name: '[H] 🇩🇪 德国 14'
-  network: grpc
-  port: '2054'
-  reality-opts:
-    public-key: mlJSEX5zJodpeofSicXnd0tlrgonVCGJ3M-qqWF4FSU
-    short-id: '!!str '
-  server: 159.195.192.169
-  servername: www.ibm.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 75079a7f-75b5-418b-8a65-f7b2f438cd4a
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 15'
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: BsFRd4pZgH2hK2AmVf6Mv7z2QGmV2LPYbqkT1UqZX30
-    short-id: '!!str 4da5d1853f04af6d'
-  server: rrr.windconnect.pro
-  servername: rrr.windconnect.pro
-  tls: false
-  type: vless
-  udp: true
-  uuid: af00e0c4-decf-48f2-9013-56abe9c9efcd
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇩🇪 德国 16'
-  network: raw
-  port: '40792'
-  reality-opts:
-    public-key: CkuULNczLmaVd-vabRfj3UpPd__M7BlrXivZ728Toyg
-    short-id: '!!str 546b264aac9b6fed'
-  server: 5.75.195.244
-  servername: amp-api-edge.apps.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: c4121c07-f135-4695-b465-d6bcda24cc57
-  xudp: true
-- name: '[I] 🇩🇪 德国 17'
+  username: null
+- name: '[I] 🇩🇪 德国 14'
   network: ws
   password: humanity
   port: 443
@@ -192,7 +143,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇩🇪 德国 18'
+- name: '[I] 🇩🇪 德国 15'
   network: ws
   port: 80
   server: 146.75.119.82

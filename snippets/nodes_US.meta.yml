@@ -60,6 +60,30 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 07'
+  password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
+  port: 4434
+  server: 204.152.221.119
+  skip-cert-verify: true
+  sni: www.cloudflare.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 08'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-us-003.fastervpn.world
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 09'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 10'
   password: PD_0jD41hkQxq5ghBRhe7adO
   port: 8882
   server: 192.220.56.72
@@ -67,12 +91,70 @@ proxies:
   sni: bing.com
   tls: false
   type: hysteria2
+- name: '[E] 🇺🇸 美国 11'
+  password: https://xship.2fa.cat
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 12'
+  password: https://xship.best
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 13'
+  password: https://xship.top
+  port: 443
+  server: starlink-ft.251313.xyz
+  skip-cert-verify: true
+  sni: xship.top
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 08'
+  name: '[E] 🇺🇸 美国 14'
+  network: tcp
+  port: '15311'
+  server: 107.173.254.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ad78d02b-873f-4cff-8d4a-673f53d6ce0f
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 15'
+  network: tcp
+  port: '10086'
+  server: 107.172.75.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e02c67a8-d769-4d73-833a-ab6acdb86e6e
+- alterId: 0
+  cipher: none
+  name: '[E] 🇺🇸 美国 16'
   network: ws
   port: '8443'
-  server: 172.64.80.1
+  server: 104.17.77.77
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 17'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
   servername: ''
   tls: true
   type: vmess
@@ -81,19 +163,71 @@ proxies:
     headers:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 18'
+  network: ws
+  port: '8443'
+  server: 104.21.91.53
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 19'
+  network: ws
+  port: '8443'
+  server: www.nextkyc.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: v2ray1.dozapp.xyz
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 20'
+  network: ws
+  port: '8443'
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  tls: true
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lMnsZUN4/
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 21'
+  network: tcp
+  port: '38808'
+  server: 104.160.45.35
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e619d224-0842-4576-a361-3ad2bf0c468c
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 09'
+  name: '[F] 🇺🇸 美国 22'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 10'
+  name: '[F] 🇺🇸 美国 23'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 11'
+- name: '[F] 🇺🇸 美国 24'
   network: tcp
   password: BxceQaOe
   port: 52770
@@ -101,87 +235,37 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 12'
+- alpn:
+  - h2
+  - http/1.1
+  - h3
+  client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇺🇸 美国 25'
   network: ws
-  port: 443
-  server: 172.67.204.201
-  servername: 7-m16.CHiaN-MAi-8.KDNs.FR
+  port: '443'
+  server: ccs2g.pai50288.uk
+  servername: ccs2g.pai50288.uk
   tls: true
   type: vless
   udp: true
-  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  uuid: 8be461cb-a0df-47cf-bc0d-4d9e6a22fa74
   ws-opts:
     headers:
-      Host: 7-m16.CHiaN-MAi-8.KDNS.Fr
-    path: /JRr6VGcSLFc034DC6sDbwyWJLbB
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 13'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  name: '[H] 🇺🇸 美国 14'
-  network: ws
-  port: '2053'
-  server: 142.248.218.34
-  servername: edge.yzkvm.top
-  tls: true
-  type: vless
-  udp: true
-  uuid: bba95b1f-f48c-454b-897b-a6c6bc307df1
-  ws-opts:
-    headers:
-      Host: edge.yzkvm.top
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /
+      Host: ''
+      User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/42.0.2311.135 Safari/537.36
+    path: /pai50288
   xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 15'
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: ry0Cf1hrbUuB-JK3ZnQvBvO0iknny9s1fKw3yuR1JyY
-    short-id: '!!str d4a7f959d2193721'
-  server: 155.103.156.60
-  servername: www.ibm.com
-  tls: true
-  type: vless
-  uuid: 74e2bf55-8495-49bc-99be-4a4d4ce2d2bf
-- name: '[H] 🇺🇸 美国 16'
-  port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
-  tls: true
-  type: http
-- name: '[H] 🇺🇸 美国 17'
+- name: '[H] 🇺🇸 美国 26'
   password: None
   port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
+  server: efr-marktplatz.club
+  skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 18'
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 19'
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 20'
+- name: '[H] 🇺🇸 美国 27'
   password: None
   port: 443
   server: goedkoopgeluid.icu
@@ -189,22 +273,14 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 21'
-  password: None
+- name: '[H] 🇺🇸 美国 28'
+  password: 'null'
   port: 443
-  server: crosscards.site
-  skip-cert-verify: false
+  server: purecambogiasl.live
   tls: true
   type: http
-  username: null
-- name: '[H] 🇺🇸 美国 22'
-  port: 9002
-  server: 138.199.35.207
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 23'
+  username: 'null'
+- name: '[H] 🇺🇸 美国 29'
   password: ''
   port: 9443
   server: 38.95.111.226
@@ -213,147 +289,41 @@ proxies:
   type: http
   udp: true
   username: ''
-- name: '[H] 🇺🇸 美国 24'
+- name: '[H] 🇺🇸 美国 30'
   password: None
   port: 443
-  server: jewelscollecti.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 25'
-  password: None
-  port: 443
-  server: kimberlymilano.icu
+  server: carolinafreigh.fun
   skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 26'
-  password: ''
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 27'
+- name: '[H] 🇺🇸 美国 31'
   port: 443
   server: jgwynphotoarts.pro
   sni: jgwynphotoarts.pro
   tls: true
   type: http
-- name: '[H] 🇺🇸 美国 28'
-  port: 9002
-  server: 138.199.35.213
+- name: '[H] 🇺🇸 美国 32'
+  password: None
+  port: 443
+  server: 149.88.21.129
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-- name: '[H] 🇺🇸 美国 29'
-  port: 443
-  server: zebpay.site
-  sni: zebpay.site
-  tls: true
-  type: http
-- encryption: none
-  name: '[H] 🇺🇸 美国 30'
-  network: ws
-  port: '80'
-  server: 91.193.58.162
-  type: vless
-  udp: true
-  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
-  ws-opts:
-    headers:
-      Host: twilight-poetry-2bfe.218-699.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0; vivo 1610 Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile Safari/537.36
-    path: /pyip=Telegram-WangCai2🇨🇳
-  xudp: true
-- client-fingerprint: qq
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 31'
-  network: tcp
-  port: '8443'
-  reality-opts:
-    public-key: 2YbfBDRn1xu5OOVvC6H7Pq0p0gRtZtvSqFS08-M-DUY
-    short-id: '!!str fad7e3b745b23e34'
-  server: 167.104.217.251
-  servername: nl250.atlanta-api.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 29834e2e-729c-491f-af21-d1d9a8bde8c6
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 32'
-  network: raw
-  port: '8443'
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-    short-id: '!!str 6ba85179e30d4fc2'
-  server: 150.241.101.80
-  servername: yandex.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e
-  xudp: true
-- encryption: none
+  username: null
+- down: ''
+  fingerprint: ''
   name: '[H] 🇺🇸 美国 33'
-  network: ws
-  port: '8080'
-  server: 104.21.70.21
-  servername: srv-b890f5-eb36b6.omidiabolfazl155-c5f1.workers.dev
-  type: vless
-  udp: true
-  uuid: cbfeff27-6e7a-4e99-b5ad-6b830e191741
-  ws-opts:
-    headers:
-      Host: srv-b890f5-eb36b6.omidiabolfazl155-c5f1.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /vl/wk14rIXEvRltsm88Nsboi?ed
-  xudp: true
-- encryption: none
-  name: '[H] 🇺🇸 美国 34'
-  network: ws
-  port: '8880'
-  server: 45.131.7.30
-  type: vless
-  udp: true
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    early-data-header-name: Sec-WebSocket-Protocol
-    headers:
-      Host: vms.lifetime02.workers.dev
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-J500M Build/MMB29M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    max-early-data: 2560
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 35'
-  network: tcp
+  obfs: salamander
+  obfs-password: ba30dfb1828334e12c5f5068df5680a4
+  password: 6483ecc41890f37033911d0facc8abf5
   port: '443'
-  reality-opts:
-    public-key: OLu8kkwCfKtarfC-FGBkabm6VndbagUjrLs8g9J1ggs
-    short-id: '!!str 16f185db'
-  server: 104.160.40.178
-  servername: apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1ba59c9e-b827-4b41-a532-86df55f8535d
-  xudp: true
-- name: '[I] 🇺🇸 美国 36'
+  server: 166.0.16.142
+  skip-cert-verify: true
+  sni: www.bing.com
+  type: hysteria2
+  up: ''
+- name: '[I] 🇺🇸 美国 34'
   network: ws
   password: humanity
   port: 443
