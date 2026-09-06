@@ -31,27 +31,67 @@ proxies:
   sni: labs.frkn.org
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 04'
+- client-fingerprint: qq
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 04'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk
+    short-id: '!!str a9c4f17e3b62d8'
+  server: 176.109.88.216
+  servername: api-maps.yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2c7f1414-87ae-4a01-9796-a02c067891a6
+  xudp: true
+- cipher: chacha20-ietf-poly1305
+  name: '[H] 🇬🇧 英国 05'
+  password: T6IcUpcVx0Y85DxSTgXe4A
+  port: 97
+  server: 86.38.182.226
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api
+  name: '[H] 🇬🇧 英国 06'
+  network: grpc
+  port: '43435'
+  reality-opts:
+    public-key: mc5GFUALNT1V4TgYZ4OWJHB2DQ-G-b4qLYsRlgWB-VQ
+    short-id: '!!str 37dc4f92a7470fa0'
+  server: 31.77.111.31
+  servername: cdn.higames.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2feda6f7-8baa-4591-a851-1e2037a58572
+  xudp: true
+- name: '[H] 🇬🇧 英国 07'
   password: None
   port: 443
-  server: 212.102.63.61
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 05'
+- name: '[H] 🇬🇧 英国 08'
   port: 443
-  server: 212.102.63.31
+  server: 185.235.0.98
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 06'
+- name: '[H] 🇬🇧 英国 09'
   port: 443
   server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 07'
+- name: '[H] 🇬🇧 英国 10'
   password: None
   port: 443
   server: 37.120.233.34
@@ -59,18 +99,3 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 08'
-  password: None
-  port: 32766
-  server: 178.62.83.124
-  type: http
-  username: null
-- name: '[I] 🇬🇧 英国 09'
-  network: ws
-  port: 2087
-  server: 188.220.67.245
-  tls: false
-  type: vless
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    path: '%2F8f2690e2d016'
