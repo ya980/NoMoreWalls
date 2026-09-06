@@ -39,13 +39,46 @@ proxies:
   port: 40002
   server: 103.236.66.4
   type: ss
-- name: '[H] 🇯🇵 日本 06'
-  port: 443
+- cipher: aes-256-cfb
+  name: '[H] 🇯🇵 日本 06'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.137
+  type: ss
+  udp: true
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: '[H] 🇯🇵 日本 07'
+  network: raw
+  port: '28573'
+  reality-opts:
+    public-key: 1DJr9toke7FRuSXjibBVuNvRnLnJnN5kXwUBG6Romzg
+    short-id: '!!str 03653bc03be10c97'
+  server: 18.183.215.124
+  servername: www.sony.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 871bfce7-8440-4394-8d82-56b51f20fdad
+  xudp: true
+- name: '[H] 🇯🇵 日本 08'
+  password: ''
+  port: '443'
   server: fan.571589.xyz
+  skip-cert-verify: true
   sni: fan.571589.xyz
   tls: true
   type: http
-- name: '[I] 🇯🇵 日本 07'
+  username: ''
+- name: '[H] 🇯🇵 日本 09'
+  password: 'null'
+  port: '443'
+  server: fan.571589.xyz
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+- name: '[I] 🇯🇵 日本 10'
   network: ws
   password: humanity
   port: 443
