@@ -31,12 +31,16 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: '[E] 🇫🇷 法国 04'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-fr-001.fastervpn.world
-  skip-cert-verify: true
-  sni: vpn-fr-001.fastervpn.world
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[D] 🇫🇷 法国 04'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: s6gt5e4mof43sfg8
+  port: 52030
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - name: '[E] 🇫🇷 法国 05'
@@ -47,29 +51,34 @@ proxies:
   sni: deu0003ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
+- cipher: aes-256-cfb
   name: '[H] 🇫🇷 法国 06'
-  network: ws
-  password: humanity
-  port: '443'
-  server: 165.215.250.14
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  type: trojan
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 95.170.13.47
+  type: ss
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G610M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- name: '[I] 🇫🇷 法国 07'
+- name: '[H] 🇫🇷 法国 07'
+  port: 443
+  server: 103.82.101.43
+  skip-cert-verify: true
+  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
+  tls: true
+  type: http
+- name: '[H] 🇫🇷 法国 08'
+  port: 443
+  server: 141.94.16.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[I] 🇫🇷 法国 09'
   network: tcp
   port: 22224
   server: 15.224.126.219
   tls: false
   type: vless
   uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-- name: '[I] 🇫🇷 法国 08'
+- name: '[I] 🇫🇷 法国 10'
   network: tcp
   port: 22224
   server: 15.188.177.61
