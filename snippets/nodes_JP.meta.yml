@@ -35,11 +35,11 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] 🇯🇵 日本 05'
-  password: 9c5be37406b6584005b8de0ee3734dd9
+  password: 184cdec28da5a09450803c8debcd2cc9
   port: 50160
-  server: 140.238.43.0
+  server: 138.3.208.26
   skip-cert-verify: true
-  sni: www.bing.com
+  sni: 138.3.208.26
   tls: false
   type: hysteria2
 - alterId: 0
@@ -52,7 +52,35 @@ proxies:
   tls: false
   type: vmess
   uuid: 154dbc39-0921-cf11-29bd-156c5000d763
-- name: '[F] 🇯🇵 日本 07'
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 07'
+  network: ws
+  port: '80'
+  server: 168.138.43.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /cctv13.m3u8
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇯🇵 日本 08'
+  network: ws
+  port: '80'
+  server: 168.138.43.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d
+  ws-opts:
+    headers:
+      Host: None
+    path: /cctv13.m3u8
+- name: '[F] 🇯🇵 日本 09'
   network: tcp
   password: BxceQaOe
   port: 9408
@@ -61,25 +89,18 @@ proxies:
   sni: t.me%252Fripaojiedian
   type: trojan
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 08'
+  name: '[F] 🇯🇵 日本 10'
   password: Butterfly123@qwe9527
   port: 40001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇯🇵 日本 09'
+  name: '[F] 🇯🇵 日本 11'
   password: Butterfly123@qwe9527
   port: 40002
   server: 103.236.66.4
   type: ss
-- cipher: aes-256-cfb
-  name: '[H] 🇯🇵 日本 10'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.137
-  type: ss
-  udp: true
-- name: '[I] 🇯🇵 日本 11'
+- name: '[I] 🇯🇵 日本 12'
   network: ws
   password: humanity
   port: 443
