@@ -1,6 +1,24 @@
 proxies:
+- name: '[D] SE 01'
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: vz86jgszv4zszchv
+  port: 52060
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
+- name: '[H] SE 02'
+  password: None
+  port: 443
+  server: 146.70.242.130
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - client-fingerprint: chrome
-  name: '[I] SE 01'
+  name: '[I] SE 03'
   network: ws
   port: 8443
   server: 167.104.104.138
