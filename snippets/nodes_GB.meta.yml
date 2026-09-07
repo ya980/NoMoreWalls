@@ -23,22 +23,142 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 03'
+- client-fingerprint: chrome
+  name: '[H] 🇬🇧 英国 03'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.26
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  name: '[H] 🇬🇧 英国 04'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: 130.12.102.62
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 05'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: brightharbor.download
+  servername: localhost
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇬🇧 英国 06'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: 130.12.102.125
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '[H] 🇬🇧 英国 07'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+  server: freshjuniper.download
+  servername: localhost
+  tls: false
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇬🇧 英国 08'
+  obfs: ''
+  obfs-password: ''
+  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
+  port: '443'
+  server: cze-02.node.lumixnet.com
+  skip-cert-verify: true
+  sni: cze-02.node.lumixnet.com
+  type: hysteria2
+  up: ''
+- down: ''
+  fingerprint: ''
+  name: '[H] 🇬🇧 英国 09'
+  obfs: ''
+  obfs-password: ''
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: '443'
+  server: vpn-uk-002.fastervpn.world
+  skip-cert-verify: true
+  sni: vpn-uk-002.fastervpn.world
+  type: hysteria2
+  up: ''
+- name: '[H] 🇬🇧 英国 10'
+  password: None
+  port: 443
+  server: 185.235.0.66
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 11'
+  password: None
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 12'
   port: 443
   server: 185.235.0.98
   skip-cert-verify: true
   tls: true
   type: http
-- client-fingerprint: firefox
+- name: '[H] 🇬🇧 英国 13'
+  port: 443
+  server: 212.102.63.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: '[H] 🇬🇧 英国 14'
+  password: None
+  port: 32766
+  server: 178.62.83.124
+  type: http
+  username: null
+- client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 04'
+  name: '[H] 🇬🇧 英国 15'
   network: tcp
   port: '443'
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
     short-id: '!!str '
-  server: 194.34.175.19
+  server: 194.34.175.115
   servername: localhost
   tls: true
   type: vless
@@ -48,28 +168,75 @@ proxies:
 - client-fingerprint: firefox
   encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 05'
+  name: '[H] 🇬🇧 英国 16'
   network: tcp
   port: '443'
   reality-opts:
     public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
     short-id: '!!str '
-  server: 194.34.175.77
+  server: 194.34.175.158
   servername: localhost
   tls: true
   type: vless
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
-- name: '[I] 🇬🇧 英国 06'
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 17'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: 194.34.175.218
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: '[H] 🇬🇧 英国 18'
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
+    short-id: '!!str '
+  server: 194.34.175.70
+  servername: localhost
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  grpc-opts:
+    grpc-service-name: api
+  name: '[H] 🇬🇧 英国 19'
+  network: grpc
+  port: '43435'
+  reality-opts:
+    public-key: mc5GFUALNT1V4TgYZ4OWJHB2DQ-G-b4qLYsRlgWB-VQ
+    short-id: '!!str 37dc4f92a7470fa0'
+  server: 31.77.111.31
+  servername: cdn.higames.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2feda6f7-8baa-4591-a851-1e2037a58572
+  xudp: true
+- client-fingerprint: chrome
+  name: '[I] 🇬🇧 英国 20'
   network: ws
   port: 2087
   server: 188.220.67.245
-  servername: 188.220.67.245
   tls: false
   type: vless
   uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
   ws-opts:
-    headers:
-      Host: ''
-    path: /8f2690e2d016
+    path: '%2F8f2690e2d016'
