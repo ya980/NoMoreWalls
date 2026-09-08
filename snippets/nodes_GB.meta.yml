@@ -1,16 +1,8 @@
 proxies:
-- name: '[D] 🇬🇧 英国 01'
-  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
-  port: 443
-  server: labs.frkn.org
-  skip-cert-verify: true
-  sni: labs.frkn.org
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇬🇧 英国 02'
+  name: '[D] 🇬🇧 英国 01'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -22,7 +14,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇬🇧 英国 03'
+  name: '[D] 🇬🇧 英国 02'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -31,20 +23,35 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[H] 🇬🇧 英国 04'
+- cipher: aes-256-cfb
+  name: '[H] 🇬🇧 英国 03'
+  password: amazonskr05
   port: 443
-  server: 212.102.63.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: '[H] 🇬🇧 英国 05'
-  password: None
+  server: 3.8.209.170
+  type: ss
+  udp: true
+- cipher: aes-256-cfb
+  name: '[H] 🇬🇧 英国 04'
+  password: amazonskr05
   port: 443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
+  server: 35.177.213.229
+  type: ss
+  udp: true
+- encryption: none
+  name: '[H] 🇬🇧 英国 05'
+  network: ws
+  port: '2096'
+  server: 82.47.169.33
+  type: vless
+  udp: true
+  uuid: e666041f-8a25-4f05-812d-a5984e748497
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
+    path: /
+  xudp: true
 - client-fingerprint: chrome
   name: '[I] 🇬🇧 英国 06'
   network: ws

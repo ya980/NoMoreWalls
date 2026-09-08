@@ -1,12 +1,14 @@
 proxies:
-- name: '[D] 🇺🇸 美国 01'
+- alpn:
+  - h3
+  fingerprint: chrome
+  name: '[D] 🇺🇸 美国 01'
   obfs: salamander
-  obfs-password: c8d95078e61be690c18e2fbbefe5e2ef
-  password: 975e9f98b4a1b01285ffdb8158ced798
-  port: 443
-  server: 107.172.76.105
-  skip-cert-verify: true
-  sni: www.bing.com
+  obfs-password: fuw2k1ddrouwxr3u
+  password: g2d0ooqq3ykzsacc
+  port: 52002
+  server: giftcard.gateway-stream.com
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - alpn:
@@ -15,7 +17,7 @@ proxies:
   name: '[D] 🇺🇸 美国 02'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
-  password: g2d0ooqq3ykzsacc
+  password: s6gt5e4mof43sfg8
   port: 52002
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
@@ -28,7 +30,7 @@ proxies:
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
-  port: 52002
+  port: 52069
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
   tls: false
@@ -40,7 +42,7 @@ proxies:
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
-  port: 52069
+  port: 52071
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
   tls: false
@@ -52,18 +54,6 @@ proxies:
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
-  port: 52071
-  server: giftcard.gateway-stream.com
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- alpn:
-  - h3
-  fingerprint: chrome
-  name: '[D] 🇺🇸 美国 06'
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: s6gt5e4mof43sfg8
   port: 52088
   server: giftcard.gateway-stream.com
   sni: giftcard.gateway-stream.com
@@ -72,7 +62,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇺🇸 美国 07'
+  name: '[D] 🇺🇸 美国 06'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
@@ -84,7 +74,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 07'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
@@ -93,12 +83,20 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 09'
+- name: '[E] 🇺🇸 美国 08'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-au-002.fastervpn.world
   skip-cert-verify: true
   sni: css.rbxcdn.com
+  tls: false
+  type: hysteria2
+- name: '[E] 🇺🇸 美国 09'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-au-002.fastervpn.world
+  skip-cert-verify: true
+  sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 10'
@@ -106,7 +104,7 @@ proxies:
   port: 443
   server: vpn-au-002.fastervpn.world
   skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
+  sni: t.me
   tls: false
   type: hysteria2
 - name: '[E] 🇺🇸 美国 11'
@@ -114,63 +112,35 @@ proxies:
   port: 443
   server: vpn-au-002.fastervpn.world
   skip-cert-verify: true
-  sni: t.me
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 12'
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: 443
-  server: vpn-au-002.fastervpn.world
-  skip-cert-verify: true
   sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 13'
-  password: f25f19f29ce3fb53a35bf1b35b452a43
-  port: 50160
-  server: 129.159.156.109
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 14'
-  password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
-  port: 4434
-  server: 204.152.221.119
-  skip-cert-verify: true
-  sni: css.rbxcdn.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 15'
-  password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
-  port: 4434
-  server: 204.152.221.119
-  skip-cert-verify: true
-  sni: www.bing.com
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 16'
-  password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
-  port: 4434
-  server: 204.152.221.119
-  skip-cert-verify: true
-  sni: speedtest.tinkoff.ru
-  tls: false
-  type: hysteria2
-- name: '[E] 🇺🇸 美国 17'
-  password: 28a91bb2-51fe-48e1-9865-ec8bc9e48890
-  port: 4434
-  server: 204.152.221.119
-  skip-cert-verify: true
-  sni: vk.com
   tls: false
   type: hysteria2
 - alterId: 0
   cipher: auto
-  name: '[E] 🇺🇸 美国 18'
+  name: '[E] 🇺🇸 美国 12'
+  network: tcp
+  port: '443'
+  server: 165.140.216.141
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 14'
+  network: tcp
+  port: '443'
+  server: 165.140.216.142
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b65a2d69-5634-42a2-e4be-54e8a6176900
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 15'
   network: ws
   port: '8443'
-  server: chatgpt.com
+  server: 172.64.80.1
   servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
@@ -180,18 +150,18 @@ proxies:
       Host: v2ray1.dozapp.xyz
     path: /lMnsZUN4/
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 19'
+  name: '[F] 🇺🇸 美国 16'
   password: Butterfly123@qwe9527
   port: 50001
   server: 103.236.66.4
   type: ss
 - cipher: aes-256-gcm
-  name: '[F] 🇺🇸 美国 20'
+  name: '[F] 🇺🇸 美国 17'
   password: Butterfly123@qwe9527
   port: 50003
   server: 103.236.66.4
   type: ss
-- name: '[F] 🇺🇸 美国 21'
+- name: '[F] 🇺🇸 美国 18'
   network: tcp
   password: BxceQaOe
   port: 443
@@ -199,75 +169,59 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 22'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.233
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: '[H] 🇺🇸 美国 23'
-  password: 7eadc6dbe2ae
-  port: '65443'
-  server: 121.46.230.232
-  type: ss
-  udp: true
+- auth: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  name: '[H] 🇺🇸 美国 19'
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  port: 443
+  server: vpn-us-003.fastervpn.world
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
+- name: '[H] 🇺🇸 美国 20'
+  password: None
+  port: 9002
+  server: 138.199.35.199
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 21'
+  port: 443
+  server: purposebydesig.club
+  sni: purposebydesig.club
+  tls: true
+  type: http
+- name: '[H] 🇺🇸 美国 22'
+  password: None
+  port: 9002
+  server: 138.199.35.219
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇺🇸 美国 23'
+  password: None
+  port: 9002
+  server: 138.199.35.195
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
 - name: '[H] 🇺🇸 美国 24'
   port: 443
-  server: tzoa.fun
-  sni: tzoa.fun
+  server: jgwynphotoarts.pro
+  sni: jgwynphotoarts.pro
   tls: true
   type: http
 - name: '[H] 🇺🇸 美国 25'
+  password: None
   port: 443
-  server: crosscards.site
-  sni: crosscards.site
+  server: purecambogiasl.live
+  skip-cert-verify: true
   tls: true
   type: http
+  username: null
 - name: '[H] 🇺🇸 美国 26'
-  password: None
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 27'
-  password: None
-  port: 443
-  server: zebpay.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 28'
-  password: None
-  port: 443
-  server: carolinafreigh.fun
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 29'
-  password: 'null'
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 30'
-  password: ''
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 31'
   password: None
   port: 443
   server: 149.88.21.129
@@ -275,23 +229,42 @@ proxies:
   tls: true
   type: http
   username: null
-- client-fingerprint: firefox
+- client-fingerprint: android
+  name: '[H] 🇺🇸 美国 27'
+  network: ws
+  port: 443
+  server: 2.26.21.230
+  servername: syncpointbase.online
+  skip-cert-verify: true
+  tfo: false
+  tls: true
+  type: vless
+  uuid: b9507a19-b57c-4065-b9a4-75f16e5e49dc
+  ws-opts:
+    headers:
+      Host: syncpointbase.online
+    path: /ws
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
   encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇺🇸 美国 32'
-  network: tcp
+  name: '[H] 🇺🇸 美国 28'
+  network: ws
   port: '443'
-  reality-opts:
-    public-key: SqArIWpSt5VG9HVrtcZQn1r0Tc_eRvYzca2OFDBkF24
-    short-id: '!!str 1fdea407109a1750'
-  server: 152.232.57.99
-  servername: salam.ru
+  server: minimize-evenness.cdn-content.com
+  servername: minimize-evenness.cdn-content.com
   tls: true
   type: vless
   udp: true
-  uuid: 90546412-d9c5-4442-831b-e9b7ca3643de
+  uuid: abd924f4-132d-4ad3-ac2a-3aa01b8e5923
+  ws-opts:
+    headers:
+      Host: minimize-evenness.cdn-content.com
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/51.0.2704.103 Safari/537.36
+    path: /ws
   xudp: true
-- name: '[I] 🇺🇸 美国 33'
+- name: '[I] 🇺🇸 美国 29'
   network: ws
   password: humanity
   port: 443
@@ -300,7 +273,7 @@ proxies:
   type: trojan
   ws-opts:
     path: '%2Fassignment'
-- name: '[I] 🇺🇸 美国 34'
+- name: '[I] 🇺🇸 美国 30'
   network: ws
   password: humanity
   port: 443
