@@ -1,8 +1,16 @@
 proxies:
+- name: '[D] 🇬🇧 英国 01'
+  password: 3b8c82ed-fe66-472d-915e-034ccb57103f
+  port: 443
+  server: labs.frkn.org
+  skip-cert-verify: true
+  sni: labs.frkn.org
+  tls: false
+  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇬🇧 英国 01'
+  name: '[D] 🇬🇧 英国 02'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -14,7 +22,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇬🇧 英国 02'
+  name: '[D] 🇬🇧 英国 03'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -23,30 +31,12 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 03'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: brightharbor.download
-  servername: localhost
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
 - name: '[H] 🇬🇧 英国 04'
-  password: None
   port: 443
-  server: 185.235.0.66
+  server: 212.102.63.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
 - name: '[H] 🇬🇧 英国 05'
   password: None
   port: 443
@@ -55,16 +45,8 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇬🇧 英国 06'
-  password: None
-  port: 443
-  server: 212.102.63.61
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
 - client-fingerprint: chrome
-  name: '[I] 🇬🇧 英国 07'
+  name: '[I] 🇬🇧 英国 06'
   network: ws
   port: 2087
   server: 188.220.67.245
