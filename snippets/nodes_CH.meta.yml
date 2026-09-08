@@ -8,14 +8,6 @@ proxies:
   tls: false
   type: hysteria2
 - name: '[E] CH 02'
-  password: d1224950-ffab-4b9a-8696-431b40a6cfbd
-  port: 443
-  server: cze-02.node.lumixnet.com
-  skip-cert-verify: true
-  sni: cze-02.node.lumixnet.com
-  tls: false
-  type: hysteria2
-- name: '[E] CH 03'
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: rou0001ntrhy01.tcp-reset-club.net
@@ -23,14 +15,14 @@ proxies:
   sni: rou0001ntrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
-- name: '[E] CH 04'
+- name: '[E] CH 03'
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: che01plrhy01.tcp-reset-club.net
   skip-cert-verify: true
   tls: false
   type: hysteria2
-- name: '[E] CH 05'
+- name: '[E] CH 04'
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: che01plrhy01.tcp-reset-club.net
@@ -38,7 +30,7 @@ proxies:
   sni: 127.0.0.1
   tls: false
   type: hysteria2
-- name: '[E] CH 06'
+- name: '[E] CH 05'
   password: 8fb328f0-d8e0-4b11-a6db-3dadfc4f02a3
   port: 443
   server: che01plrhy01.tcp-reset-club.net
@@ -46,7 +38,7 @@ proxies:
   sni: che01plrhy01.tcp-reset-club.net
   tls: false
   type: hysteria2
-- name: '[E] CH 07'
+- name: '[E] CH 06'
   password: 84a506ca5aca505696a454d828420b3f
   port: 50160
   server: 140.238.213.114
@@ -54,3 +46,9 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- name: '[H] CH 07'
+  port: 443
+  server: 31.7.62.50
+  skip-cert-verify: true
+  tls: true
+  type: http

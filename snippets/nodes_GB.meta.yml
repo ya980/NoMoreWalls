@@ -1,55 +1,8 @@
 proxies:
-- name: '[B] 🇬🇧 英国 01'
-  network: ws
-  port: 8880
-  server: 185.193.30.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: '[B] 🇬🇧 英国 02'
-  network: ws
-  port: 8880
-  server: 45.40.146.50
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /?ed=2560
-- name: '[B] 🇬🇧 英国 03'
-  network: ws
-  port: 8880
-  server: 45.80.110.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: '[B] 🇬🇧 英国 04'
-  network: ws
-  port: 8880
-  server: 185.159.247.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
-    path: /
-- name: '[B] 🇬🇧 英国 05'
-  network: ws
-  port: 8880
-  server: 77.75.199.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime59.workers.dev
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇬🇧 英国 06'
+  name: '[D] 🇬🇧 英国 01'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -61,7 +14,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇬🇧 英国 07'
+  name: '[D] 🇬🇧 英国 02'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -72,36 +25,8 @@ proxies:
   type: hysteria2
 - client-fingerprint: chrome
   encryption: none
-  name: '[H] 🇬🇧 英国 08'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 130.12.102.62
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- client-fingerprint: chrome
-  name: '[H] 🇬🇧 英国 09'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-  server: freshjuniper.download
-  servername: localhost
-  skip-cert-verify: true
-  tls: false
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-- client-fingerprint: chrome
-  encryption: none
   flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 10'
+  name: '[H] 🇬🇧 英国 03'
   network: tcp
   port: 443
   reality-opts:
@@ -114,36 +39,32 @@ proxies:
   udp: true
   uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: '[H] 🇬🇧 英国 11'
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    short-id: '!!str '
-  server: 194.34.175.115
-  servername: localhost
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  xudp: true
-- name: '[H] 🇬🇧 英国 12'
+- name: '[H] 🇬🇧 英国 04'
+  password: None
   port: 443
-  server: 212.102.63.31
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
-- name: '[H] 🇬🇧 英国 13'
+  username: null
+- name: '[H] 🇬🇧 英国 05'
   password: None
-  port: 32766
-  server: 178.62.83.124
+  port: 443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: null
+- name: '[H] 🇬🇧 英国 06'
+  password: None
+  port: 443
+  server: 212.102.63.61
+  skip-cert-verify: true
+  tls: true
   type: http
   username: null
 - client-fingerprint: chrome
-  name: '[I] 🇬🇧 英国 14'
+  name: '[I] 🇬🇧 英国 07'
   network: ws
   port: 2087
   server: 188.220.67.245
