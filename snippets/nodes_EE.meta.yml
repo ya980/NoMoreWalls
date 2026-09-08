@@ -1,8 +1,11 @@
 proxies:
-- name: '[E] EE 01'
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  port: 9443
-  server: 77.239.126.219
-  sni: onecloudstream.com
-  tls: false
-  type: hysteria2
+- name: '[B] EE 01'
+  network: ws
+  port: 8880
+  server: 45.80.110.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime51.workers.dev
+    path: /?ed=2560
