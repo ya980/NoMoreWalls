@@ -11,18 +11,10 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[D] 🇺🇸 美国 02'
-  password: gf1
-  port: 443
-  server: 66.94.121.46
-  skip-cert-verify: true
-  sni: www.broadcom.com
-  tls: false
-  type: hysteria2
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇺🇸 美国 03'
+  name: '[D] 🇺🇸 美国 02'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -34,7 +26,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇺🇸 美国 04'
+  name: '[D] 🇺🇸 美国 03'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -46,7 +38,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇺🇸 美国 05'
+  name: '[D] 🇺🇸 美国 04'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -58,7 +50,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇺🇸 美国 06'
+  name: '[D] 🇺🇸 美国 05'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: s6gt5e4mof43sfg8
@@ -70,7 +62,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇺🇸 美国 07'
+  name: '[D] 🇺🇸 美国 06'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
@@ -82,7 +74,7 @@ proxies:
 - alpn:
   - h3
   fingerprint: chrome
-  name: '[D] 🇺🇸 美国 08'
+  name: '[D] 🇺🇸 美国 07'
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: zvxywxoorgqk3fzb
@@ -91,7 +83,7 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 09'
+- name: '[E] 🇺🇸 美国 08'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-au-002.fastervpn.world
@@ -99,7 +91,7 @@ proxies:
   sni: css.rbxcdn.com
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 10'
+- name: '[E] 🇺🇸 美国 09'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-au-002.fastervpn.world
@@ -107,7 +99,7 @@ proxies:
   sni: speedtest.tinkoff.ru
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 11'
+- name: '[E] 🇺🇸 美国 10'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-au-002.fastervpn.world
@@ -115,7 +107,7 @@ proxies:
   sni: t.me
   tls: false
   type: hysteria2
-- name: '[E] 🇺🇸 美国 12'
+- name: '[E] 🇺🇸 美国 11'
   password: H7mP2xY9kJ4nQ8wR5tF6vB3z
   port: 443
   server: vpn-au-002.fastervpn.world
@@ -123,6 +115,16 @@ proxies:
   sni: www.bing.com
   tls: false
   type: hysteria2
+- alterId: 0
+  cipher: auto
+  name: '[E] 🇺🇸 美国 12'
+  network: tcp
+  port: '110'
+  server: newrelax.relaxedboy.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
 - alterId: 0
   cipher: auto
   name: '[E] 🇺🇸 美国 13'
@@ -143,7 +145,7 @@ proxies:
   network: ws
   port: '8443'
   server: chatgpt.com
-  servername: ''
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -185,23 +187,28 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[H] 🇺🇸 美国 19'
-  password: test123
-  port: '1080'
-  server: 104.168.249.36
-  skip-cert-verify: true
-  type: socks5
-  username: test123
-- name: '[H] 🇺🇸 美国 20'
-  password: ''
-  port: 443
-  server: mmgr.club
-  skip-cert-verify: true
-  sni: mmgr.club
-  tls: true
-  type: http
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 19'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.233
+  type: ss
   udp: true
-  username: ''
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: '[H] 🇺🇸 美国 20'
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: nqwCf6oW49tEtmQ0EzxigZ0uu1pg0E30CS54G40Iti0
+    short-id: '!!str 4477382ff6d3d41c'
+  server: 51.81.203.63
+  servername: www.icloud.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: cb2dbb6a-a1ea-4023-9ace-6466cee57241
+  xudp: true
 - name: '[H] 🇺🇸 美国 21'
   password: None
   port: 443
@@ -220,30 +227,13 @@ proxies:
   udp: true
   username: 'null'
 - name: '[H] 🇺🇸 美国 23'
-  password: None
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
+  udp: true
 - name: '[H] 🇺🇸 美国 24'
-  password: None
-  port: 9002
-  server: 138.199.35.215
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 25'
-  password: None
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 26'
   password: ''
   port: 9002
   server: 138.199.35.203
@@ -251,15 +241,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 27'
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 28'
+- name: '[H] 🇺🇸 美国 25'
   password: None
   port: 9002
   server: 138.199.35.199
@@ -267,33 +249,21 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 29'
-  password: ''
+- name: '[H] 🇺🇸 美国 26'
   port: 9002
-  server: 138.199.35.200
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 30'
-  password: ''
-  port: 9443
-  server: 38.95.111.226
+- name: '[H] 🇺🇸 美国 27'
+  port: 9002
+  server: 138.199.35.208
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 31'
-  password: None
-  port: 443
-  server: crosscards.site
-  skip-cert-verify: false
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 32'
+- name: '[H] 🇺🇸 美国 28'
   password: ''
   port: 9002
   server: 138.199.35.214
@@ -301,16 +271,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 33'
-  password: ''
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 34'
+- name: '[H] 🇺🇸 美国 29'
   password: None
   port: 9002
   server: 138.199.35.204
@@ -318,7 +279,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 35'
+- name: '[H] 🇺🇸 美国 30'
   password: None
   port: 9002
   server: 138.199.35.201
@@ -326,7 +287,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 36'
+- name: '[H] 🇺🇸 美国 31'
   password: None
   port: 9002
   server: 138.199.35.212
@@ -334,7 +295,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 37'
+- name: '[H] 🇺🇸 美国 32'
   password: ''
   port: 9002
   server: 138.199.35.210
@@ -342,31 +303,7 @@ proxies:
   tls: true
   type: http
   username: ''
-- name: '[H] 🇺🇸 美国 38'
-  password: ''
-  port: 9002
-  server: 138.199.35.205
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: '[H] 🇺🇸 美国 39'
-  password: 'null'
-  port: 443
-  server: goedkoopgeluid.icu
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
-- name: '[H] 🇺🇸 美国 40'
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 41'
+- name: '[H] 🇺🇸 美国 33'
   password: None
   port: 9002
   server: 138.199.35.213
@@ -374,15 +311,7 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 42'
-  password: None
-  port: 443
-  server: purecambogiasl.live
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: '[H] 🇺🇸 美国 43'
+- name: '[H] 🇺🇸 美国 34'
   password: None
   port: 443
   server: 52.55.81.168
@@ -390,77 +319,32 @@ proxies:
   tls: true
   type: http
   username: null
-- name: '[H] 🇺🇸 美国 44'
-  password: ''
-  port: 8443
-  server: 104.219.236.83
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: '[H] 🇺🇸 美国 45'
-  password: 32315324-cf6b-11ed-979b-f23c9164ca5d
-  port: 443
-  server: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-  sni: 5badc430-tcxds0-tdua6y-nx3b.se.oshuawei.com
-  tls: true
-  type: http
-  username: 32315324-cf6b-11ed-979b-f23c9164ca5d
-- client-fingerprint: android
-  name: '[H] 🇺🇸 美国 46'
-  network: ws
-  port: 443
-  server: 2.26.21.230
-  servername: syncpointbase.online
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vless
-  uuid: b9507a19-b57c-4065-b9a4-75f16e5e49dc
-  ws-opts:
-    headers:
-      Host: syncpointbase.online
-    path: /ws
-- name: '[H] 🇺🇸 美国 47'
-  password: e4b72b531a2d10900519
-  port: 443
-  server: 147.182.216.4
-  sni: 93b6d804.acsnet.co
-  tls: true
-  type: http
-  username: testuser1
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: '[H] 🇺🇸 美国 48'
-  network: ws
-  port: '443'
-  server: 146.75.37.242
-  servername: adheres-scruple.quick-cdn.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: abd924f4-132d-4ad3-ac2a-3aa01b8e5923
-  ws-opts:
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /ws
-  xudp: true
-- name: '[H] 🇺🇸 美国 49'
-  password: 'null'
+- name: '[H] 🇺🇸 美国 35'
+  password: None
   port: '9002'
-  server: 138.199.35.213
+  server: 138.199.35.197
   skip-cert-verify: true
   tls: true
   type: http
   username: 'null'
+- encryption: none
+  name: '[H] 🇺🇸 美国 36'
+  network: ws
+  port: '80'
+  server: 91.193.58.8
+  type: vless
+  udp: true
+  uuid: 26beb784-a664-4c3e-becf-0f0c12568b62
+  ws-opts:
+    headers:
+      Host: twilight-poetry-2bfe.218-699.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /pyip=Telegram-WangCai2🇨🇳
+  xudp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: '[I] 🇺🇸 美国 50'
+  name: '[I] 🇺🇸 美国 37'
   network: tcp
   port: 443
   reality-opts:
@@ -471,7 +355,7 @@ proxies:
   tls: false
   type: vless
   uuid: d9d0f208-d582-41d5-bb7b-742671402810
-- name: '[I] 🇺🇸 美国 51'
+- name: '[I] 🇺🇸 美国 38'
   network: ws
   password: humanity
   port: 443

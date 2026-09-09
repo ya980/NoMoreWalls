@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: '[E] 🇺🇸 美国 12'
+  network: tcp
+  port: '110'
+  server: newrelax.relaxedboy.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe
+- alterId: 0
+  cipher: auto
   name: '[E] 🇺🇸 美国 13'
   network: ws
   port: '8443'
@@ -19,7 +29,7 @@ proxies:
   network: ws
   port: '8443'
   server: chatgpt.com
-  servername: ''
+  servername: v2ray1.dozapp.xyz
   tls: true
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -61,7 +71,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[I] 🇺🇸 美国 51'
+- cipher: aes-256-cfb
+  name: '[H] 🇺🇸 美国 19'
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.233
+  type: ss
+  udp: true
+- name: '[I] 🇺🇸 美国 38'
   network: ws
   password: humanity
   port: 443
